@@ -28,7 +28,7 @@ const statusColors = {
   pending: "#D4956A",
 };
 
-export default function ListingsPanel({ townName, accentColor }) {
+export default function ListingsPanel({ townName, accentColor, onSoldData }) {
   const [tab, setTab] = useState("active");
   const [listings, setListings] = useState([]);
   const [sold, setSold] = useState([]);
@@ -48,6 +48,7 @@ export default function ListingsPanel({ townName, accentColor }) {
       .then(([active, soldData]) => {
         setListings(active);
         setSold(soldData);
+        if (onSoldData) onSoldData(soldData);
       })
       .catch((err) => {
         if (err.message === "NOT_SUBSCRIBED") {
@@ -265,14 +266,21 @@ export default function ListingsPanel({ townName, accentColor }) {
                 : null;
 
               return (
-                <div
+                <a
                   key={s.id}
+                  href={s.link || undefined}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   style={{
+                    display: "block",
                     background: "rgba(255,255,255,0.03)",
                     border: "1px solid rgba(255,255,255,0.06)",
                     borderRadius: "10px",
                     padding: "18px 20px",
                     transition: "border-color 0.2s",
+                    textDecoration: "none",
+                    color: "inherit",
+                    cursor: s.link ? "pointer" : "default",
                   }}
                   onMouseEnter={(e) => (e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)")}
                   onMouseLeave={(e) => (e.currentTarget.style.borderColor = "rgba(255,255,255,0.06)")}
@@ -342,7 +350,7 @@ export default function ListingsPanel({ townName, accentColor }) {
                     {s.daysOnMarket != null && <span>{s.daysOnMarket}d on market</span>}
                     {s.soldDate && <span>Last sold {fmtDate(s.soldDate)}</span>}
                   </div>
-                </div>
+                </a>
               );
             })}
           </div>

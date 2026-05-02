@@ -542,6 +542,7 @@ const fmt = (n) => n >= 1000000 ? `$${(n / 1000000).toFixed(1)}M` : `$${(n / 100
 export default function WestchesterPortal() {
   const [selected, setSelected] = useState(null);
   const [sort, setSort] = useState("schools");
+  const [townTrends, setTownTrends] = useState({});
 
   const sorted = [...towns].sort((a, b) => {
     if (a.pinned && !b.pinned) return -1;
@@ -667,8 +668,20 @@ export default function WestchesterPortal() {
               {/* Card Body */}
               <div style={{ padding: selected ? "16px 20px" : "24px 28px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: selected ? "12px" : "20px" }}>
-                  <div style={{ fontSize: selected ? "18px" : "22px", color: "#C9A96E", fontWeight: "300", letterSpacing: "-0.3px" }}>
-                    {fmt(t.medianPrice)}
+                  <div style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
+                    <div style={{ fontSize: selected ? "18px" : "22px", color: "#C9A96E", fontWeight: "300", letterSpacing: "-0.3px" }}>
+                      {fmt(t.medianPrice)}
+                    </div>
+                    {townTrends[t.name] != null && (
+                      <span style={{
+                        fontSize: "10px",
+                        color: townTrends[t.name] >= 0 ? "#7A9E7E" : "#C46B5E",
+                        letterSpacing: "0.3px",
+                        whiteSpace: "nowrap",
+                      }}>
+                        {townTrends[t.name] >= 0 ? "+" : ""}{townTrends[t.name]}% avg
+                      </span>
+                    )}
                   </div>
                   <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.25)", letterSpacing: "1px", textTransform: "uppercase" }}>median</div>
                 </div>
@@ -886,7 +899,13 @@ export default function WestchesterPortal() {
             {/* Listings */}
             <div style={{ marginBottom: "24px" }}>
               <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "16px" }}>Listings</div>
-              <ListingsPanel townName={town.name} accentColor={town.color} />
+              <ListingsPanel townName={town.name} accentColor={town.color} onSoldData={(soldData) => {
+                const valid = soldData.filter(s => !s.isNewConstruction && s.appreciation != null);
+                if (valid.length > 0) {
+                  const avg = valid.reduce((sum, s) => sum + s.appreciation, 0) / valid.length;
+                  setTownTrends(prev => ({ ...prev, [town.name]: Math.round(avg) }));
+                }
+              }} />
             </div>
 
             {/* Demographics & Voting */}
