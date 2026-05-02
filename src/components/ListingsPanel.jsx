@@ -99,7 +99,7 @@ export default function ListingsPanel({ townName, accentColor }) {
           Active ({listings.length})
         </button>
         <button onClick={() => setTab("sold")} style={tabStyle(tab === "sold")}>
-          Sold / Closed ({sold.length})
+          Sales History ({sold.length})
         </button>
       </div>
 
@@ -245,20 +245,23 @@ export default function ListingsPanel({ townName, accentColor }) {
         )
       )}
 
-      {/* Sold Tab */}
+      {/* Sales History Tab */}
       {tab === "sold" && (
         !sold.length ? (
           <div style={{ padding: "20px", fontSize: "12px", color: "rgba(255,255,255,0.35)", fontStyle: "italic" }}>
-            No recent sales data available for this ZIP.
+            No recent sales history available for this ZIP.
           </div>
         ) : (
           <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+            <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.3)", fontStyle: "italic", marginBottom: "4px" }}>
+              Prior transactions of currently listed homes — showing how values have changed.
+            </div>
             {sold.map((s) => {
-              const overAsk = s.diff != null && s.diff > 0;
-              const underAsk = s.diff != null && s.diff < 0;
-              const diffColor = overAsk ? "#7A9E7E" : underAsk ? "#C46B5E" : "rgba(255,255,255,0.4)";
-              const diffLabel = s.diff != null
-                ? `${overAsk ? "+" : ""}${s.diff.toFixed(1)}% ${overAsk ? "over" : underAsk ? "under" : "at"} ask`
+              const appreciated = s.appreciation != null && s.appreciation > 0;
+              const depreciated = s.appreciation != null && s.appreciation < 0;
+              const appColor = appreciated ? "#7A9E7E" : depreciated ? "#C46B5E" : "rgba(255,255,255,0.4)";
+              const appLabel = s.appreciation != null
+                ? `${appreciated ? "+" : ""}${s.appreciation.toFixed(0)}% since last sale`
                 : null;
 
               return (
@@ -274,7 +277,7 @@ export default function ListingsPanel({ townName, accentColor }) {
                   onMouseEnter={(e) => (e.currentTarget.style.borderColor = "rgba(255,255,255,0.12)")}
                   onMouseLeave={(e) => (e.currentTarget.style.borderColor = "rgba(255,255,255,0.06)")}
                 >
-                  {/* Address & Date */}
+                  {/* Address & Badge */}
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "10px" }}>
                     <div style={{ fontSize: "13px", color: "#E8E0D5" }}>{s.address}</div>
                     <span style={{
@@ -283,36 +286,36 @@ export default function ListingsPanel({ townName, accentColor }) {
                       background: "rgba(155,139,180,0.15)", color: "#9B8BB4",
                       border: "1px solid rgba(155,139,180,0.25)",
                       whiteSpace: "nowrap", marginLeft: "12px",
-                    }}>Closed</span>
+                    }}>Prior Sale</span>
                   </div>
 
                   {/* Prices side by side */}
                   <div style={{ display: "flex", gap: "24px", marginBottom: "10px", alignItems: "baseline" }}>
                     <div>
-                      <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.25)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "3px" }}>List Price</div>
-                      <div style={{ fontSize: "15px", color: "rgba(255,255,255,0.5)", fontWeight: "300" }}>{fmtPrice(s.listPrice)}</div>
+                      <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.25)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "3px" }}>Last Sold</div>
+                      <div style={{ fontSize: "15px", color: "rgba(255,255,255,0.5)", fontWeight: "300" }}>{fmtPrice(s.lastSalePrice)}</div>
                     </div>
                     <div style={{ fontSize: "14px", color: "rgba(255,255,255,0.2)" }}>→</div>
                     <div>
-                      <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.25)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "3px" }}>Sold Price</div>
-                      <div style={{ fontSize: "18px", color: "#C9A96E", fontWeight: "400" }}>{fmtPrice(s.soldPrice)}</div>
+                      <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.25)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "3px" }}>Now Listed</div>
+                      <div style={{ fontSize: "18px", color: "#C9A96E", fontWeight: "400" }}>{fmtPrice(s.currentListPrice)}</div>
                     </div>
                   </div>
 
-                  {/* Over/Under indicator */}
-                  {diffLabel && (
+                  {/* Appreciation indicator */}
+                  {appLabel && (
                     <div style={{
                       display: "inline-block",
                       fontSize: "11px",
-                      color: diffColor,
-                      background: `${diffColor}15`,
-                      border: `1px solid ${diffColor}30`,
+                      color: appColor,
+                      background: `${appColor}15`,
+                      border: `1px solid ${appColor}30`,
                       borderRadius: "12px",
                       padding: "3px 12px",
                       marginBottom: "10px",
                       fontWeight: "400",
                     }}>
-                      {diffLabel}
+                      {appLabel}
                     </div>
                   )}
 
@@ -322,7 +325,7 @@ export default function ListingsPanel({ townName, accentColor }) {
                     {s.baths != null && <span>{s.baths} ba</span>}
                     {s.sqft != null && <span>{s.sqft.toLocaleString()} sqft</span>}
                     {s.daysOnMarket != null && <span>{s.daysOnMarket}d on market</span>}
-                    {s.soldDate && <span>Closed {fmtDate(s.soldDate)}</span>}
+                    {s.soldDate && <span>Last sold {fmtDate(s.soldDate)}</span>}
                   </div>
                 </div>
               );

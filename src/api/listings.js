@@ -57,9 +57,10 @@ export async function fetchListings(townName) {
   }
 }
 
-// The API doesn't have a dedicated sold endpoint, so we pull a larger
-// batch of for-sale listings and extract those with last_sold_date/price
-// as recent comps. This gives real transaction history for the ZIP.
+// The API doesn't have a dedicated sold/closed endpoint, so we pull a
+// larger batch of for-sale listings and extract those with prior sale
+// history (last_sold_date/price). This shows how currently-listed homes
+// have appreciated since their last transaction.
 export async function fetchSoldListings(townName) {
   const zip = getZipForTown(townName);
   if (!zip) return [];
@@ -84,8 +85,12 @@ export async function fetchSoldListings(townName) {
     }
 
     const listings = data?.listings || [];
+    // Filter to homes with prior sale data, sorted by most recent sale
+    const cutoff = new Date();
+    cutoff.setFullYear(cutoff.getFullYear() - 10);
+
     return listings
-      .filter((p) => p.last_sold_date && p.last_sold_price)
+      .filter((p) => p.last_sold_date && p.last_sold_price && new Date(p.last_sold_date) >= cutoff)
       .sort((a, b) => new Date(b.last_sold_date) - new Date(a.last_sold_date))
       .slice(0, 12)
       .map(normalizeSold);
@@ -98,24 +103,27 @@ export async function fetchSoldListings(townName) {
 function normalizeSold(p) {
   const address = p.location?.address || {};
   const desc = p.description || {};
-  const listPrice = p.list_price || 0;
-  const soldPrice = p.last_sold_price || 0;
-  const diff = listPrice && soldPrice ? ((soldPrice - listPrice) / listPrice) * 100 : null;
+  const currentListPrice = p.list_price || 0;
+  const lastSalePrice = p.last_sold_price || 0;
+  // Appreciation: how much the home's value has grown since last sale
+  const appreciation = currentListPrice && lastSalePrice
+    ? ((currentListPrice - lastSalePrice) / lastSalePrice) * 100
+    : null;
 
   return {
     id: p.property_id || p.listing_id,
     address: address.line && address.city
       ? `${address.line}, ${address.city}`
       : "Address unavailable",
-    listPrice,
-    soldPrice,
-    diff,
+    lastSalePrice,
+    currentListPrice,
+    appreciation,
     soldDate: p.last_sold_date,
     beds: desc.beds || null,
     baths: desc.baths || null,
     sqft: desc.sqft || null,
-    daysOnMarket: p.list_date && p.last_sold_date
-      ? Math.max(0, Math.floor((new Date(p.last_sold_date) - new Date(p.list_date)) / 86400000))
+    daysOnMarket: p.list_date
+      ? Math.max(0, Math.floor((Date.now() - new Date(p.list_date).getTime()) / 86400000))
       : null,
     link: p.href || null,
   };
