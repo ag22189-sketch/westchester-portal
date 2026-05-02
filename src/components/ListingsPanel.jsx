@@ -283,10 +283,11 @@ export default function ListingsPanel({ townName, accentColor }) {
                     <span style={{
                       fontSize: "9px", letterSpacing: "1px", textTransform: "uppercase",
                       padding: "3px 8px", borderRadius: "10px",
-                      background: "rgba(155,139,180,0.15)", color: "#9B8BB4",
-                      border: "1px solid rgba(155,139,180,0.25)",
+                      background: s.isNewConstruction ? "rgba(139,158,183,0.15)" : "rgba(155,139,180,0.15)",
+                      color: s.isNewConstruction ? "#8B9EB7" : "#9B8BB4",
+                      border: `1px solid ${s.isNewConstruction ? "rgba(139,158,183,0.25)" : "rgba(155,139,180,0.25)"}`,
                       whiteSpace: "nowrap", marginLeft: "12px",
-                    }}>Prior Sale</span>
+                    }}>{s.isNewConstruction ? "New Build" : "Prior Sale"}</span>
                   </div>
 
                   {/* Prices side by side */}
@@ -302,8 +303,22 @@ export default function ListingsPanel({ townName, accentColor }) {
                     </div>
                   </div>
 
-                  {/* Appreciation indicator */}
-                  {appLabel && (
+                  {/* Appreciation indicator or new construction label */}
+                  {s.isNewConstruction ? (
+                    <div style={{
+                      display: "inline-block",
+                      fontSize: "11px",
+                      color: "#8B9EB7",
+                      background: "rgba(139,158,183,0.15)",
+                      border: "1px solid rgba(139,158,183,0.30)",
+                      borderRadius: "12px",
+                      padding: "3px 12px",
+                      marginBottom: "10px",
+                      fontWeight: "400",
+                    }}>
+                      New Construction — Developer Acquisition
+                    </div>
+                  ) : appLabel && (
                     <div style={{
                       display: "inline-block",
                       fontSize: "11px",

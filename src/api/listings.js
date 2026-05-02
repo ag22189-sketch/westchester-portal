@@ -90,7 +90,14 @@ export async function fetchSoldListings(townName) {
     cutoff.setFullYear(cutoff.getFullYear() - 10);
 
     return listings
-      .filter((p) => p.last_sold_date && p.last_sold_price && new Date(p.last_sold_date) >= cutoff)
+      .filter((p) => {
+        if (!p.last_sold_date || !p.last_sold_price || !p.list_price) return false;
+        if (new Date(p.last_sold_date) < cutoff) return false;
+        // Exclude data anomalies: prior sale price wildly out of range
+        const ratio = p.last_sold_price / p.list_price;
+        if (ratio > 3 || ratio < 1 / 3) return false;
+        return true;
+      })
       .sort((a, b) => new Date(b.last_sold_date) - new Date(a.last_sold_date))
       .slice(0, 12)
       .map(normalizeSold);
@@ -105,10 +112,17 @@ function normalizeSold(p) {
   const desc = p.description || {};
   const currentListPrice = p.list_price || 0;
   const lastSalePrice = p.last_sold_price || 0;
-  // Appreciation: how much the home's value has grown since last sale
-  const appreciation = currentListPrice && lastSalePrice
+  // Appreciation: how much the home's value has grown since last sale (capped at ±100%)
+  const rawAppreciation = currentListPrice && lastSalePrice
     ? ((currentListPrice - lastSalePrice) / lastSalePrice) * 100
     : null;
+  const appreciation = rawAppreciation != null
+    ? Math.max(-100, Math.min(100, rawAppreciation))
+    : null;
+
+  const isNewConstruction = p.flags?.is_new_construction === true
+    || p.tags?.includes("new_construction")
+    || (desc.year_built && desc.year_built >= new Date().getFullYear() - 2);
 
   return {
     id: p.property_id || p.listing_id,
@@ -118,6 +132,7 @@ function normalizeSold(p) {
     lastSalePrice,
     currentListPrice,
     appreciation,
+    isNewConstruction,
     soldDate: p.last_sold_date,
     beds: desc.beds || null,
     baths: desc.baths || null,
