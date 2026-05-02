@@ -565,9 +565,8 @@ export default function WestchesterPortal() {
       padding: "0",
     }}>
       {/* Header */}
-      <div style={{
+      <div className="wp-header" style={{
         borderBottom: "1px solid rgba(255,255,255,0.06)",
-        padding: "56px 60px 48px",
         background: "linear-gradient(180deg, #1a1f2e 0%, #0F1318 100%)",
       }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", alignItems: "flex-end", justifyContent: "space-between", flexWrap: "wrap", gap: "24px" }}>
@@ -578,7 +577,7 @@ export default function WestchesterPortal() {
             <h1 style={{ fontSize: "clamp(28px, 4vw, 48px)", fontWeight: "300", margin: 0, letterSpacing: "-1px", color: "#F5EFE8", lineHeight: "1.1" }}>
               The Home Search for<br />People with Taste
             </h1>
-            <p style={{ margin: "12px 0 0", color: "rgba(255,255,255,0.35)", fontSize: "15px", fontStyle: "italic", maxWidth: "420px", lineHeight: "1.6" }}>
+            <p className="wp-subtitle" style={{ margin: "12px 0 0", color: "rgba(255,255,255,0.35)", fontSize: "15px", fontStyle: "italic", maxWidth: "420px", lineHeight: "1.6" }}>
               Fifteen curated towns. Editorial intelligence. Real listings.
             </p>
           </div>
@@ -610,22 +609,9 @@ export default function WestchesterPortal() {
         </div>
       </div>
 
-      <div style={{ display: "flex", minHeight: "calc(100vh - 200px)" }}>
+      <div className="wp-main">
         {/* Town List */}
-        <div style={{
-          width: selected ? "420px" : "100%",
-          flexShrink: 0,
-          borderRight: selected ? "1px solid rgba(255,255,255,0.06)" : "none",
-          transition: "width 0.4s ease",
-          overflowY: "auto",
-          padding: selected ? "28px" : "40px 60px",
-          display: "grid",
-          gridTemplateColumns: selected ? "1fr" : "repeat(3, 1fr)",
-          gap: selected ? "16px" : "32px",
-          alignContent: "start",
-          maxWidth: selected ? "420px" : "1440px",
-          margin: selected ? "0" : "0 auto",
-        }}>
+        <div className={`wp-grid${selected ? " sidebar" : ""}`}>
           {sorted.map((t) => (
             <div
               key={t.name}
@@ -645,7 +631,7 @@ export default function WestchesterPortal() {
             >
               {/* Gradient Photo Header */}
               <div style={{
-                height: selected ? "100px" : "180px",
+                height: selected ? "100px" : "160px",
                 background: `linear-gradient(135deg, ${t.color}22 0%, ${t.color}44 40%, ${t.color}18 100%)`,
                 position: "relative",
                 display: "flex",
@@ -687,10 +673,7 @@ export default function WestchesterPortal() {
                   <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.25)", letterSpacing: "1px", textTransform: "uppercase" }}>median</div>
                 </div>
 
-                <div style={{
-                  display: "grid",
-                  gridTemplateColumns: selected ? "1fr 1fr" : "1fr 1fr 1fr",
-                  gap: selected ? "8px" : "10px",
+                <div className="wp-card-stats" style={{
                   marginBottom: selected ? "12px" : "20px",
                 }}>
                   {[
@@ -725,13 +708,31 @@ export default function WestchesterPortal() {
 
         {/* Detail Panel */}
         {town && (
-          <div style={{
-            flex: 1,
-            padding: "32px 36px",
-            overflowY: "auto",
+          <div className="wp-detail" style={{
             animation: "fadeIn 0.3s ease",
           }}>
             <style>{`@keyframes fadeIn { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: translateX(0); } }`}</style>
+
+            {/* Back button — appears at top on mobile */}
+            <button
+              className="wp-back-btn"
+              onClick={() => setSelected(null)}
+              style={{
+                display: "none",
+                padding: "10px 20px",
+                background: "transparent",
+                border: "1px solid rgba(255,255,255,0.12)",
+                borderRadius: "20px",
+                color: "rgba(255,255,255,0.4)",
+                fontSize: "11px",
+                letterSpacing: "1px",
+                textTransform: "uppercase",
+                cursor: "pointer",
+                fontFamily: "'Georgia', serif",
+              }}
+            >
+              ← Back to all towns
+            </button>
 
             {/* Town Header */}
             <div style={{ marginBottom: "32px" }}>
@@ -743,7 +744,7 @@ export default function WestchesterPortal() {
             </div>
 
             {/* Key Stats */}
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "12px", marginBottom: "28px" }}>
+            <div className="wp-stats-row" style={{ marginBottom: "28px" }}>
               {[
                 { label: "Median Price", value: fmt(town.medianPrice), sub: "home price" },
                 { label: "NYC Commute", value: `${town.metro} min`, sub: "to Grand Central" },
@@ -855,7 +856,7 @@ export default function WestchesterPortal() {
                     <span>Colors: <span style={{ color: "#C9A96E" }}>{town.highSchool.colors}</span></span>
                   </div>
                 </div>
-                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
+                <div className="wp-hs-grid">
                   <div>
                     <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.3)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "8px" }}>Sports</div>
                     <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
@@ -971,6 +972,7 @@ export default function WestchesterPortal() {
             </div>
 
             <button
+              className="wp-back-bottom"
               onClick={() => setSelected(null)}
               style={{
                 marginTop: "24px",
@@ -983,9 +985,10 @@ export default function WestchesterPortal() {
                 letterSpacing: "1px",
                 textTransform: "uppercase",
                 cursor: "pointer",
+                fontFamily: "'Georgia', serif",
               }}
             >
-              Back to all towns
+              ← Back to all towns
             </button>
           </div>
         )}

@@ -15,3 +15,181 @@ body {
   width: 100%;
   max-width: 100%;
 }
+
+/* ── Responsive ────────────────────────────────── */
+
+/* Header */
+.wp-header {
+  padding: 56px 60px 48px;
+}
+
+/* Main layout wrapper */
+.wp-main {
+  display: flex;
+  min-height: calc(100vh - 200px);
+}
+
+/* Town grid — default (no town selected) */
+.wp-grid {
+  width: 100%;
+  padding: 40px 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  align-content: start;
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow-y: auto;
+}
+
+/* Town grid — sidebar mode (town selected, desktop) */
+.wp-grid.sidebar {
+  width: 420px;
+  max-width: 420px;
+  flex-shrink: 0;
+  padding: 28px;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  border-right: 1px solid rgba(255,255,255,0.06);
+  margin: 0;
+}
+
+/* Detail panel */
+.wp-detail {
+  flex: 1;
+  padding: 32px 36px;
+  overflow-y: auto;
+}
+
+/* Detail key stats row */
+.wp-stats-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+/* Card stat mini-grid */
+.wp-card-stats {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.wp-grid.sidebar .wp-card-stats {
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+/* High school sports/arts grid */
+.wp-hs-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+/* ── Tablet (≤1024px) ──────────────────────────── */
+@media (max-width: 1024px) {
+  .wp-header {
+    padding: 40px 32px 32px;
+  }
+
+  .wp-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 32px;
+  }
+
+  .wp-grid.sidebar {
+    display: none;
+  }
+
+  .wp-detail {
+    padding: 28px 24px;
+  }
+}
+
+/* ── Mobile (≤640px) ───────────────────────────── */
+@media (max-width: 640px) {
+  .wp-header {
+    padding: 28px 20px 24px;
+  }
+
+  .wp-header h1 {
+    font-size: 26px !important;
+  }
+
+  .wp-header .wp-subtitle {
+    font-size: 13px;
+  }
+
+  .wp-main {
+    display: block;
+    min-height: auto;
+  }
+
+  .wp-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px 16px;
+  }
+
+  .wp-grid.sidebar {
+    display: none;
+  }
+
+  /* Detail panel goes full screen on mobile */
+  .wp-detail {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    background: #0F1318;
+    padding: 20px 16px;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .wp-detail h2 {
+    font-size: 26px !important;
+  }
+
+  .wp-stats-row {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .wp-card-stats {
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+
+  .wp-hs-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  /* Back button — show at top on mobile, sticky */
+  .wp-back-btn {
+    display: block !important;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    margin: 0 0 20px !important;
+    padding: 12px 20px !important;
+    width: 100%;
+    text-align: center;
+    background: #0F1318 !important;
+    border: none !important;
+    border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 0 !important;
+  }
+
+  /* Hide the bottom back button on mobile (top one is enough) */
+  .wp-back-bottom {
+    display: none !important;
+  }
+
+  /* Notable residents wrap better */
+  .wp-detail div[style] span {
+    font-size: 11px !important;
+  }
+}
