@@ -883,9 +883,9 @@ export default function WestchesterPortal() {
               </div>
             )}
 
-            {/* Live Listings */}
+            {/* Listings */}
             <div style={{ marginBottom: "24px" }}>
-              <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "16px" }}>Active Listings</div>
+              <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "16px" }}>Listings</div>
               <ListingsPanel townName={town.name} accentColor={town.color} />
             </div>
 
