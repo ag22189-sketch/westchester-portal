@@ -1,0 +1,209 @@
+import { useState, useEffect } from "react";
+import { fetchListings } from "../api/listings";
+
+const fmtPrice = (n) => {
+  if (!n) return "Price N/A";
+  if (n >= 1000000) return `$${(n / 1000000).toFixed(1)}M`;
+  return `$${(n / 1000).toFixed(0)}K`;
+};
+
+const fmtPhone = (num) => {
+  if (!num || num.length !== 10) return num;
+  return `(${num.slice(0, 3)}) ${num.slice(3, 6)}-${num.slice(6)}`;
+};
+
+const statusColors = {
+  for_sale: "#7A9E7E",
+  Active: "#7A9E7E",
+  active: "#7A9E7E",
+  "Coming Soon": "#8B9EB7",
+  coming_soon: "#8B9EB7",
+  Pending: "#D4956A",
+  pending: "#D4956A",
+};
+
+export default function ListingsPanel({ townName, accentColor }) {
+  const [listings, setListings] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    if (!townName) return;
+    setLoading(true);
+    setError(null);
+    fetchListings(townName)
+      .then((data) => setListings(data))
+      .catch((err) => {
+        if (err.message === "NOT_SUBSCRIBED") {
+          setError("API subscription required — subscribe to the US Real Estate Listings API on RapidAPI (free tier available), then refresh.");
+        } else {
+          setError(`Could not load listings: ${err.message}`);
+        }
+      })
+      .finally(() => setLoading(false));
+  }, [townName]);
+
+  if (loading) {
+    return (
+      <div style={{ padding: "24px", textAlign: "center" }}>
+        <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.4)", letterSpacing: "2px", textTransform: "uppercase" }}>
+          Loading listings...
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div style={{ padding: "20px", fontSize: "12px", color: "rgba(255,255,255,0.35)", fontStyle: "italic" }}>
+        {error}
+      </div>
+    );
+  }
+
+  if (!listings.length) {
+    return (
+      <div style={{ padding: "20px", fontSize: "12px", color: "rgba(255,255,255,0.35)", fontStyle: "italic" }}>
+        No active listings found. {!import.meta.env.VITE_RAPIDAPI_KEY || import.meta.env.VITE_RAPIDAPI_KEY === "your_rapidapi_key_here"
+          ? "Add your VITE_RAPIDAPI_KEY to .env to see live listings."
+          : ""}
+      </div>
+    );
+  }
+
+  return (
+    <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
+      {listings.map((l) => (
+        <div
+          key={l.id}
+          style={{
+            background: "rgba(255,255,255,0.03)",
+            border: "1px solid rgba(255,255,255,0.07)",
+            borderRadius: "10px",
+            overflow: "hidden",
+            transition: "border-color 0.2s",
+          }}
+          onMouseEnter={(e) => (e.currentTarget.style.borderColor = "rgba(201,169,110,0.3)")}
+          onMouseLeave={(e) => (e.currentTarget.style.borderColor = "rgba(255,255,255,0.07)")}
+        >
+          {l.photo && (
+            <div style={{ height: "290px", overflow: "hidden", position: "relative" }}>
+              <img
+                src={l.photo}
+                alt={l.address}
+                style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center 30%" }}
+                onError={(e) => (e.target.style.display = "none")}
+              />
+              <div style={{
+                position: "absolute", bottom: 0, left: 0, right: 0, height: "80px",
+                background: "linear-gradient(to top, rgba(15,19,24,0.7) 0%, transparent 100%)",
+                pointerEvents: "none",
+              }} />
+            </div>
+          )}
+          <div style={{ padding: "18px 20px" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "8px" }}>
+              <div style={{ fontSize: "18px", color: "#C9A96E", fontWeight: "400" }}>
+                {fmtPrice(l.price)}
+              </div>
+              <span style={{
+                fontSize: "9px",
+                letterSpacing: "1px",
+                textTransform: "uppercase",
+                padding: "3px 8px",
+                borderRadius: "10px",
+                background: `${statusColors[l.status] || "#7A9E7E"}22`,
+                color: statusColors[l.status] || "#7A9E7E",
+                border: `1px solid ${statusColors[l.status] || "#7A9E7E"}44`,
+              }}>
+                {l.status?.replace(/_/g, " ") || "Active"}
+              </span>
+            </div>
+            <div style={{ fontSize: "13px", color: "#E8E0D5", marginBottom: "8px" }}>
+              {l.address}
+            </div>
+            <div style={{ display: "flex", gap: "16px", fontSize: "12px", color: "rgba(255,255,255,0.45)" }}>
+              {l.beds != null && <span>{l.beds} bd</span>}
+              {l.baths != null && <span>{l.baths} ba</span>}
+              {l.sqft != null && <span>{l.sqft.toLocaleString()} sqft</span>}
+              {l.daysOnMarket != null && <span>{l.daysOnMarket}d on market</span>}
+            </div>
+
+            {/* Listing Agent — prominent, with direct contact */}
+            {(l.agent || l.brokerage) && (
+              <div style={{
+                marginTop: "12px", paddingTop: "12px",
+                borderTop: "1px solid rgba(255,255,255,0.06)",
+                display: "flex", gap: "10px", alignItems: "flex-start",
+              }}>
+                {l.agentPhoto && (
+                  <img
+                    src={l.agentPhoto}
+                    alt={l.agent}
+                    style={{ width: "36px", height: "36px", borderRadius: "50%", objectFit: "cover", flexShrink: 0, border: "1px solid rgba(255,255,255,0.1)" }}
+                    onError={(e) => (e.target.style.display = "none")}
+                  />
+                )}
+                <div style={{ flex: 1, minWidth: 0 }}>
+                  {l.agent && (
+                    l.agentHref ? (
+                      <a href={l.agentHref} target="_blank" rel="noopener noreferrer" style={{
+                        fontSize: "13px", color: "#E8E0D5", textDecoration: "none",
+                        borderBottom: "1px solid rgba(255,255,255,0.15)",
+                        paddingBottom: "1px",
+                      }}>{l.agent}</a>
+                    ) : (
+                      <div style={{ fontSize: "13px", color: "#E8E0D5" }}>{l.agent}</div>
+                    )
+                  )}
+                  {l.brokerage && (
+                    <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.35)", fontStyle: "italic", marginTop: "2px" }}>{l.brokerage}</div>
+                  )}
+                  <div style={{ display: "flex", gap: "12px", marginTop: "6px", flexWrap: "wrap" }}>
+                    {l.agentPhone && (
+                      <a href={`tel:${l.agentPhone}`} style={{
+                        fontSize: "11px", color: "#C9A96E", textDecoration: "none",
+                        letterSpacing: "0.3px",
+                      }}>
+                        {fmtPhone(l.agentPhone)}{l.agentPhoneType ? ` (${l.agentPhoneType})` : ""}
+                      </a>
+                    )}
+                    {l.agentEmail && (
+                      <a href={`mailto:${l.agentEmail}`} style={{
+                        fontSize: "11px", color: "#C9A96E", textDecoration: "none",
+                      }}>
+                        {l.agentEmail}
+                      </a>
+                    )}
+                  </div>
+                </div>
+              </div>
+            )}
+
+            {l.link && (
+              <a
+                href={l.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-block",
+                  marginTop: "10px",
+                  fontSize: "10px",
+                  letterSpacing: "1.5px",
+                  textTransform: "uppercase",
+                  color: "rgba(255,255,255,0.3)",
+                  textDecoration: "none",
+                  borderBottom: "1px solid rgba(255,255,255,0.1)",
+                  paddingBottom: "1px",
+                }}
+              >
+                {/* TODO: Replace with internal listing detail page */}
+                View on Realtor.com →
+              </a>
+            )}
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
