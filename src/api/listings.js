@@ -160,13 +160,31 @@ function normalizeListing(p) {
   const agentPhone = agent?.phones?.find((ph) => ph.type === "Mobile")
     || agent?.phones?.[0];
 
+  const listPrice = p.list_price || 0;
+  const lastSoldPrice = p.last_sold_price || null;
+  const lastSoldDate = p.last_sold_date || null;
+
+  // Compute appreciation if prior sale data exists and is reasonable
+  let appreciation = null;
+  if (lastSoldPrice && listPrice) {
+    const ratio = lastSoldPrice / listPrice;
+    if (ratio >= 1 / 3 && ratio <= 3) {
+      const raw = ((listPrice - lastSoldPrice) / lastSoldPrice) * 100;
+      appreciation = Math.max(-100, Math.min(100, raw));
+    }
+  }
+
+  const isNewConstruction = p.flags?.is_new_construction === true
+    || p.tags?.includes("new_construction")
+    || (desc.year_built && desc.year_built >= new Date().getFullYear() - 2);
+
   return {
     id: p.property_id || p.listing_id,
     photo,
     address: address.line && address.city
       ? `${address.line}, ${address.city}`
       : "Address unavailable",
-    price: p.list_price || 0,
+    price: listPrice,
     beds: desc.beds || null,
     baths: desc.baths || null,
     sqft: desc.sqft || null,
@@ -178,6 +196,10 @@ function normalizeListing(p) {
     status: p.status || "for_sale",
     // TODO: Build our own listing detail page instead of linking to realtor.com
     link: p.href || null,
+    lastSoldPrice,
+    lastSoldDate,
+    appreciation,
+    isNewConstruction,
     agent: agent?.name || null,
     agentEmail: agent?.email || null,
     agentPhone: agentPhone?.number || null,

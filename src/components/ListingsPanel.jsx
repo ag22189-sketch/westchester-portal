@@ -168,6 +168,23 @@ export default function ListingsPanel({ townName, accentColor, onSoldData }) {
                     {l.daysOnMarket != null && <span>{l.daysOnMarket}d on market</span>}
                   </div>
 
+                  {l.lastSoldPrice && !l.isNewConstruction && l.appreciation != null && (
+                    <div style={{
+                      display: "flex", alignItems: "center", gap: "8px",
+                      marginTop: "10px", fontSize: "11px",
+                    }}>
+                      <span style={{ color: "rgba(255,255,255,0.35)" }}>
+                        Last sold {fmtPrice(l.lastSoldPrice)}{l.lastSoldDate ? ` (${fmtDate(l.lastSoldDate)})` : ""}
+                      </span>
+                      <span style={{
+                        color: l.appreciation >= 0 ? "#7A9E7E" : "#C46B5E",
+                        fontWeight: "400",
+                      }}>
+                        {l.appreciation >= 0 ? "+" : ""}{Math.round(l.appreciation)}%
+                      </span>
+                    </div>
+                  )}
+
                   {(l.agent || l.brokerage) && (
                     <div style={{
                       marginTop: "12px", paddingTop: "12px",
