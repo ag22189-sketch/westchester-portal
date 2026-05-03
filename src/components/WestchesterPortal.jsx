@@ -533,7 +533,7 @@ const ScoreBar = ({ value, max = 10, color }) => (
     <div style={{ flex: 1, height: "3px", background: "rgba(255,255,255,0.1)", borderRadius: "2px" }}>
       <div style={{ width: `${(value / max) * 100}%`, height: "100%", background: color, borderRadius: "2px", transition: "width 0.6s ease" }} />
     </div>
-    <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.5)", width: "20px", textAlign: "right" }}>{value}</span>
+    <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.5)", width: "24px", textAlign: "right" }}>{value}</span>
   </div>
 );
 
@@ -572,13 +572,13 @@ export default function WestchesterPortal() {
       }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", alignItems: "flex-end", justifyContent: "space-between", flexWrap: "wrap", gap: "24px" }}>
           <div>
-            <div style={{ fontSize: "10px", letterSpacing: "5px", color: "#C9A96E", textTransform: "uppercase", marginBottom: "12px" }}>
+            <div style={{ fontSize: "12px", letterSpacing: "5px", color: "#C9A96E", textTransform: "uppercase", marginBottom: "12px" }}>
               Private Search · Westchester County
             </div>
             <h1 style={{ fontSize: "clamp(28px, 4vw, 48px)", fontWeight: "300", margin: 0, letterSpacing: "-1px", color: "#F5EFE8", lineHeight: "1.1" }}>
               The Home Search for<br />People with Taste
             </h1>
-            <p className="wp-subtitle" style={{ margin: "12px 0 0", color: "rgba(255,255,255,0.35)", fontSize: "15px", fontStyle: "italic", maxWidth: "420px", lineHeight: "1.6" }}>
+            <p className="wp-subtitle" style={{ margin: "12px 0 0", color: "rgba(255,255,255,0.35)", fontSize: "17px", fontStyle: "italic", maxWidth: "420px", lineHeight: "1.6" }}>
               Fifteen curated towns. Editorial intelligence. Real listings.
             </p>
           </div>
@@ -596,7 +596,7 @@ export default function WestchesterPortal() {
                 border: sort === s.key ? "1px solid #C9A96E" : "1px solid rgba(255,255,255,0.1)",
                 background: sort === s.key ? "rgba(201,169,110,0.12)" : "transparent",
                 color: sort === s.key ? "#C9A96E" : "rgba(255,255,255,0.4)",
-                fontSize: "10px",
+                fontSize: "12px",
                 letterSpacing: "1.5px",
                 textTransform: "uppercase",
                 cursor: "pointer",
@@ -648,18 +648,18 @@ export default function WestchesterPortal() {
                 <div style={{ position: "relative", zIndex: 1 }}>
                   {t.pinned && (
                     <div style={{
-                      fontSize: "8px", letterSpacing: "2px", textTransform: "uppercase",
+                      fontSize: "10px", letterSpacing: "2px", textTransform: "uppercase",
                       background: "rgba(201,169,110,0.25)", color: "#C9A96E",
                       padding: "3px 10px", borderRadius: "10px", border: "1px solid rgba(201,169,110,0.35)",
                       display: "inline-block", marginBottom: "10px", backdropFilter: "blur(8px)",
                     }}>Top Pick</div>
                   )}
                   <h3 style={{
-                    fontSize: selected ? "18px" : "26px", fontWeight: "300", margin: 0,
+                    fontSize: selected ? "20px" : "30px", fontWeight: "300", margin: 0,
                     color: "#F5EFE8", letterSpacing: "-0.3px", lineHeight: "1.2",
                   }}>{t.name}</h3>
                   <div style={{
-                    fontSize: "12px", color: "rgba(255,255,255,0.5)", marginTop: "4px",
+                    fontSize: "14px", color: "rgba(255,255,255,0.5)", marginTop: "4px",
                     fontStyle: "italic", letterSpacing: "0.2px",
                   }}>{t.tagline}</div>
                 </div>
@@ -669,12 +669,12 @@ export default function WestchesterPortal() {
               <div style={{ padding: selected ? "16px 20px" : "24px 28px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", marginBottom: selected ? "12px" : "20px" }}>
                   <div style={{ display: "flex", alignItems: "baseline", gap: "10px" }}>
-                    <div style={{ fontSize: selected ? "18px" : "22px", color: "#C9A96E", fontWeight: "300", letterSpacing: "-0.3px" }}>
+                    <div style={{ fontSize: selected ? "20px" : "26px", color: "#C9A96E", fontWeight: "300", letterSpacing: "-0.3px" }}>
                       {fmt(t.medianPrice)}
                     </div>
                     {townTrends[t.name] != null && (
                       <span style={{
-                        fontSize: "10px",
+                        fontSize: "12px",
                         color: townTrends[t.name] >= 0 ? "#7A9E7E" : "#C46B5E",
                         letterSpacing: "0.3px",
                         whiteSpace: "nowrap",
@@ -683,7 +683,7 @@ export default function WestchesterPortal() {
                       </span>
                     )}
                   </div>
-                  <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.25)", letterSpacing: "1px", textTransform: "uppercase" }}>median</div>
+                  <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.25)", letterSpacing: "1px", textTransform: "uppercase" }}>median</div>
                 </div>
 
                 <div className="wp-card-stats" style={{
@@ -699,15 +699,15 @@ export default function WestchesterPortal() {
                       background: "rgba(255,255,255,0.03)", borderRadius: "8px", padding: selected ? "8px 10px" : "12px 14px",
                       borderBottom: `1px solid ${t.color}15`,
                     }}>
-                      <div style={{ fontSize: "9px", color: "rgba(255,255,255,0.25)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "4px" }}>{stat.label}</div>
-                      <div style={{ fontSize: selected ? "13px" : "15px", color: "#E8E0D5", fontWeight: "300" }}>{stat.value}</div>
+                      <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.25)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "4px" }}>{stat.label}</div>
+                      <div style={{ fontSize: selected ? "15px" : "17px", color: "#E8E0D5", fontWeight: "300" }}>{stat.value}</div>
                     </div>
                   ))}
                 </div>
 
                 {!selected && (
                   <div style={{
-                    fontSize: "13px", color: "rgba(255,255,255,0.4)", lineHeight: "1.7",
+                    fontSize: "15px", color: "rgba(255,255,255,0.4)", lineHeight: "1.7",
                     fontStyle: "italic", borderTop: "1px solid rgba(255,255,255,0.05)",
                     paddingTop: "16px",
                   }}>
@@ -737,7 +737,7 @@ export default function WestchesterPortal() {
                 border: "1px solid rgba(255,255,255,0.12)",
                 borderRadius: "20px",
                 color: "rgba(255,255,255,0.4)",
-                fontSize: "11px",
+                fontSize: "13px",
                 letterSpacing: "1px",
                 textTransform: "uppercase",
                 cursor: "pointer",
@@ -751,9 +751,9 @@ export default function WestchesterPortal() {
             <div style={{ marginBottom: "32px" }}>
               <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "6px" }}>
                 <div style={{ width: "12px", height: "12px", borderRadius: "50%", background: town.color }} />
-                <h2 style={{ fontSize: "32px", fontWeight: "400", margin: 0, color: "#F5EFE8" }}>{town.name}</h2>
+                <h2 style={{ fontSize: "38px", fontWeight: "400", margin: 0, color: "#F5EFE8" }}>{town.name}</h2>
               </div>
-              <p style={{ color: "rgba(255,255,255,0.4)", margin: 0, fontStyle: "italic", fontSize: "15px" }}>{town.tagline}</p>
+              <p style={{ color: "rgba(255,255,255,0.4)", margin: 0, fontStyle: "italic", fontSize: "17px" }}>{town.tagline}</p>
             </div>
 
             {/* Key Stats */}
@@ -764,32 +764,32 @@ export default function WestchesterPortal() {
                 { label: "Tax Rate", value: `${town.taxRate}%`, sub: "annual property tax" },
               ].map(s => (
                 <div key={s.label} style={{ background: "rgba(201,169,110,0.06)", border: "1px solid rgba(201,169,110,0.15)", borderRadius: "10px", padding: "16px" }}>
-                  <div style={{ fontSize: "10px", letterSpacing: "2px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "6px" }}>{s.label}</div>
-                  <div style={{ fontSize: "24px", color: "#F5EFE8", fontWeight: "300" }}>{s.value}</div>
-                  <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.3)", marginTop: "2px" }}>{s.sub}</div>
+                  <div style={{ fontSize: "12px", letterSpacing: "2px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "6px" }}>{s.label}</div>
+                  <div style={{ fontSize: "28px", color: "#F5EFE8", fontWeight: "300" }}>{s.value}</div>
+                  <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.3)", marginTop: "2px" }}>{s.sub}</div>
                 </div>
               ))}
             </div>
 
             {/* Scores */}
             <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "24px" }}>
-              <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "16px" }}>Quality Scores</div>
+              <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "16px" }}>Quality Scores</div>
               <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
                 <div>
                   <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "5px" }}>
-                    <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.5)" }}>School System</span>
+                    <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.5)" }}>School System</span>
                   </div>
                   <ScoreBar value={town.schools} color="#7A9E7E" />
                 </div>
                 <div>
                   <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "5px" }}>
-                    <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.5)" }}>Walkability</span>
+                    <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.5)" }}>Walkability</span>
                   </div>
                   <ScoreBar value={town.walkability / 10} color="#8B9EB7" />
                 </div>
                 <div>
                   <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "5px" }}>
-                    <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.5)" }}>Dining Scene</span>
+                    <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.5)" }}>Dining Scene</span>
                   </div>
                   <ScoreBar value={town.dining} max={5} color="#C9A96E" />
                 </div>
@@ -799,8 +799,8 @@ export default function WestchesterPortal() {
             {/* Our Take — Editorial Narrative */}
             {town.editorial && (
               <div style={{ marginBottom: "28px", borderLeft: `2px solid ${town.color}`, paddingLeft: "20px" }}>
-                <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "14px" }}>Our Take</div>
-                <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.6)", lineHeight: "1.85", margin: 0, fontStyle: "italic" }}>
+                <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "14px" }}>Our Take</div>
+                <p style={{ fontSize: "17px", color: "rgba(255,255,255,0.6)", lineHeight: "1.85", margin: 0, fontStyle: "italic" }}>
                   {town.editorial}
                 </p>
               </div>
@@ -808,12 +808,12 @@ export default function WestchesterPortal() {
 
             {/* Highlights */}
             <div style={{ marginBottom: "24px" }}>
-              <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>Why It Works</div>
+              <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>Why It Works</div>
               <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                 {town.highlights.map(h => (
                   <div key={h} style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                     <div style={{ width: "4px", height: "4px", borderRadius: "50%", background: town.color, flexShrink: 0 }} />
-                    <span style={{ fontSize: "13px", color: "rgba(255,255,255,0.65)" }}>{h}</span>
+                    <span style={{ fontSize: "15px", color: "rgba(255,255,255,0.65)" }}>{h}</span>
                   </div>
                 ))}
               </div>
@@ -822,17 +822,17 @@ export default function WestchesterPortal() {
             {/* History & Notable Residents */}
             {town.history && (
               <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "20px" }}>
-                <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>History</div>
-                <p style={{ fontSize: "13px", color: "rgba(255,255,255,0.55)", lineHeight: "1.75", margin: "0 0 16px" }}>
+                <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>History</div>
+                <p style={{ fontSize: "15px", color: "rgba(255,255,255,0.55)", lineHeight: "1.75", margin: "0 0 16px" }}>
                   {town.history}
                 </p>
                 {town.notableResidents && town.notableResidents.length > 0 && (
                   <>
-                    <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.3)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "10px" }}>Notable Residents</div>
+                    <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.3)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "10px" }}>Notable Residents</div>
                     <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
                       {town.notableResidents.map(r => (
                         <span key={r} style={{
-                          fontSize: "12px", color: "#C9A96E", background: "rgba(201,169,110,0.1)",
+                          fontSize: "14px", color: "#C9A96E", background: "rgba(201,169,110,0.1)",
                           border: "1px solid rgba(201,169,110,0.2)", borderRadius: "16px",
                           padding: "5px 14px",
                         }}>{r}</span>
@@ -846,12 +846,12 @@ export default function WestchesterPortal() {
             {/* Community Events */}
             {town.events && town.events.length > 0 && (
               <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "20px" }}>
-                <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>Community Events</div>
+                <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>Community Events</div>
                 <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                   {town.events.map(e => (
                     <div key={e} style={{ display: "flex", alignItems: "center", gap: "12px" }}>
                       <div style={{ width: "6px", height: "6px", borderRadius: "2px", background: town.color, flexShrink: 0 }} />
-                      <span style={{ fontSize: "13px", color: "rgba(255,255,255,0.6)" }}>{e}</span>
+                      <span style={{ fontSize: "15px", color: "rgba(255,255,255,0.6)" }}>{e}</span>
                     </div>
                   ))}
                 </div>
@@ -861,33 +861,33 @@ export default function WestchesterPortal() {
             {/* High School */}
             {town.highSchool && (
               <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "20px" }}>
-                <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>High School</div>
+                <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>High School</div>
                 <div style={{ marginBottom: "14px" }}>
-                  <div style={{ fontSize: "16px", color: "#F5EFE8", fontWeight: "400", marginBottom: "4px" }}>{town.highSchool.name}</div>
-                  <div style={{ display: "flex", gap: "16px", fontSize: "12px", color: "rgba(255,255,255,0.45)" }}>
+                  <div style={{ fontSize: "18px", color: "#F5EFE8", fontWeight: "400", marginBottom: "4px" }}>{town.highSchool.name}</div>
+                  <div style={{ display: "flex", gap: "16px", fontSize: "14px", color: "rgba(255,255,255,0.45)" }}>
                     <span>Mascot: <span style={{ color: "#C9A96E" }}>{town.highSchool.mascot}</span></span>
                     <span>Colors: <span style={{ color: "#C9A96E" }}>{town.highSchool.colors}</span></span>
                   </div>
                 </div>
                 <div className="wp-hs-grid">
                   <div>
-                    <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.3)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "8px" }}>Sports</div>
+                    <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.3)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "8px" }}>Sports</div>
                     <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
                       {town.highSchool.sports.map(s => (
                         <div key={s} style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                           <div style={{ width: "3px", height: "3px", borderRadius: "50%", background: "#7A9E7E", flexShrink: 0 }} />
-                          <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.55)" }}>{s}</span>
+                          <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.55)" }}>{s}</span>
                         </div>
                       ))}
                     </div>
                   </div>
                   <div>
-                    <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.3)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "8px" }}>Arts</div>
+                    <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.3)", letterSpacing: "1.5px", textTransform: "uppercase", marginBottom: "8px" }}>Arts</div>
                     <div style={{ display: "flex", flexDirection: "column", gap: "5px" }}>
                       {town.highSchool.arts.map(a => (
                         <div key={a} style={{ display: "flex", alignItems: "center", gap: "8px" }}>
                           <div style={{ width: "3px", height: "3px", borderRadius: "50%", background: "#9B8BB4", flexShrink: 0 }} />
-                          <span style={{ fontSize: "12px", color: "rgba(255,255,255,0.55)" }}>{a}</span>
+                          <span style={{ fontSize: "14px", color: "rgba(255,255,255,0.55)" }}>{a}</span>
                         </div>
                       ))}
                     </div>
@@ -898,7 +898,7 @@ export default function WestchesterPortal() {
 
             {/* Listings */}
             <div style={{ marginBottom: "24px" }}>
-              <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "16px" }}>Listings</div>
+              <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "16px" }}>Listings</div>
               <ListingsPanel townName={town.name} accentColor={town.color} onSoldData={(soldData) => {
                 const valid = soldData.filter(s => !s.isNewConstruction && s.appreciation != null);
                 if (valid.length > 0) {
@@ -910,26 +910,26 @@ export default function WestchesterPortal() {
 
             {/* Demographics & Voting */}
             <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "20px" }}>
-              <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "16px" }}>Community Profile</div>
+              <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "16px" }}>Community Profile</div>
 
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px", marginBottom: "16px" }}>
                 <div style={{ background: "rgba(255,255,255,0.04)", borderRadius: "8px", padding: "12px" }}>
-                  <div style={{ fontSize: "9px", letterSpacing: "1px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "4px" }}>Population</div>
-                  <div style={{ fontSize: "18px", color: "#F5EFE8" }}>{town.population?.toLocaleString()}</div>
+                  <div style={{ fontSize: "11px", letterSpacing: "1px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "4px" }}>Population</div>
+                  <div style={{ fontSize: "22px", color: "#F5EFE8" }}>{town.population?.toLocaleString()}</div>
                 </div>
                 <div style={{ background: "rgba(255,255,255,0.04)", borderRadius: "8px", padding: "12px" }}>
-                  <div style={{ fontSize: "9px", letterSpacing: "1px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "4px" }}>Size & Feel</div>
-                  <div style={{ fontSize: "12px", color: "#E8E0D5", lineHeight: "1.4" }}>{town.density}</div>
+                  <div style={{ fontSize: "11px", letterSpacing: "1px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "4px" }}>Size & Feel</div>
+                  <div style={{ fontSize: "14px", color: "#E8E0D5", lineHeight: "1.4" }}>{town.density}</div>
                 </div>
               </div>
 
               <div style={{ marginBottom: "16px" }}>
-                <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.35)", marginBottom: "10px", letterSpacing: "1px", textTransform: "uppercase" }}>Racial Makeup (Census)</div>
+                <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.35)", marginBottom: "10px", letterSpacing: "1px", textTransform: "uppercase" }}>Racial Makeup (Census)</div>
                 {town.demographics && Object.entries(town.demographics).map(([group, pct]) => (
                   <div key={group} style={{ marginBottom: "7px" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "3px" }}>
-                      <span style={{ fontSize: "11px", color: "rgba(255,255,255,0.5)", textTransform: "capitalize" }}>{group === "black" ? "Black / African American" : group === "white" ? "White" : group === "hispanic" ? "Hispanic / Latino" : group === "asian" ? "Asian" : "Other"}</span>
-                      <span style={{ fontSize: "11px", color: "rgba(255,255,255,0.4)" }}>{pct}%</span>
+                      <span style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)", textTransform: "capitalize" }}>{group === "black" ? "Black / African American" : group === "white" ? "White" : group === "hispanic" ? "Hispanic / Latino" : group === "asian" ? "Asian" : "Other"}</span>
+                      <span style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)" }}>{pct}%</span>
                     </div>
                     <div style={{ height: "2px", background: "rgba(255,255,255,0.08)", borderRadius: "1px" }}>
                       <div style={{ width: `${pct}%`, height: "100%", background: town.color, borderRadius: "1px", transition: "width 0.6s ease" }} />
@@ -941,13 +941,13 @@ export default function WestchesterPortal() {
               {/* Voting Pattern */}
               {town.voting && (
                 <div style={{ marginBottom: "16px" }}>
-                  <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.35)", marginBottom: "10px", letterSpacing: "1px", textTransform: "uppercase" }}>Voting Pattern</div>
+                  <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.35)", marginBottom: "10px", letterSpacing: "1px", textTransform: "uppercase" }}>Voting Pattern</div>
                   <div style={{ display: "flex", height: "8px", borderRadius: "4px", overflow: "hidden", marginBottom: "8px" }}>
                     <div style={{ width: `${town.voting.dem}%`, background: "#5B8DB8", transition: "width 0.6s ease" }} />
                     <div style={{ width: `${town.voting.rep}%`, background: "#C46B5E", transition: "width 0.6s ease" }} />
                     <div style={{ flex: 1, background: "rgba(255,255,255,0.1)" }} />
                   </div>
-                  <div style={{ display: "flex", justifyContent: "space-between", fontSize: "11px" }}>
+                  <div style={{ display: "flex", justifyContent: "space-between", fontSize: "13px" }}>
                     <span style={{ color: "#5B8DB8" }}>D {town.voting.dem}%</span>
                     <span style={{ color: "#C46B5E" }}>R {town.voting.rep}%</span>
                   </div>
@@ -955,19 +955,19 @@ export default function WestchesterPortal() {
               )}
 
               <div>
-                <div style={{ fontSize: "10px", color: "rgba(255,255,255,0.35)", marginBottom: "8px", letterSpacing: "1px", textTransform: "uppercase" }}>Religious Community</div>
-                <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.55)", lineHeight: "1.6", fontStyle: "italic" }}>{town.religion}</div>
+                <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.35)", marginBottom: "8px", letterSpacing: "1px", textTransform: "uppercase" }}>Religious Community</div>
+                <div style={{ fontSize: "14px", color: "rgba(255,255,255,0.55)", lineHeight: "1.6", fontStyle: "italic" }}>{town.religion}</div>
               </div>
             </div>
 
             {/* Country Clubs */}
             <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "20px" }}>
-              <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>Country Clubs</div>
+              <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>Country Clubs</div>
               <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
                 {town.clubs.map(c => (
                   <div key={c} style={{ display: "flex", alignItems: "center", gap: "10px" }}>
                     <div style={{ width: "4px", height: "4px", borderRadius: "50%", background: "#C9A96E", flexShrink: 0 }} />
-                    <span style={{ fontSize: "13px", color: "rgba(255,255,255,0.65)" }}>{c}</span>
+                    <span style={{ fontSize: "15px", color: "rgba(255,255,255,0.65)" }}>{c}</span>
                   </div>
                 ))}
               </div>
@@ -975,16 +975,16 @@ export default function WestchesterPortal() {
 
             {/* Hospitals */}
             <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px" }}>
-              <div style={{ fontSize: "10px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>Nearby Hospitals</div>
+              <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "rgba(255,255,255,0.3)", marginBottom: "14px" }}>Nearby Hospitals</div>
               <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
                 {town.hospitals.map(h => (
                   <div key={h.name} style={{ borderLeft: `2px solid ${h.rating.includes("★") ? "#C9A96E" : "rgba(255,255,255,0.15)"}`, paddingLeft: "12px" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "3px" }}>
-                      <span style={{ fontSize: "13px", color: "#E8E0D5" }}>{h.name}</span>
-                      <span style={{ fontSize: "10px", color: h.rating.includes("★") ? "#C9A96E" : "#7A9E7E", marginLeft: "12px", whiteSpace: "nowrap" }}>{h.distance}</span>
+                      <span style={{ fontSize: "15px", color: "#E8E0D5" }}>{h.name}</span>
+                      <span style={{ fontSize: "12px", color: h.rating.includes("★") ? "#C9A96E" : "#7A9E7E", marginLeft: "12px", whiteSpace: "nowrap" }}>{h.distance}</span>
                     </div>
-                    <div style={{ fontSize: "11px", color: h.rating.includes("★") ? "#C9A96E" : "#7A9E7E", marginBottom: "2px" }}>{h.rating}</div>
-                    <div style={{ fontSize: "11px", color: "rgba(255,255,255,0.35)", fontStyle: "italic" }}>{h.note}</div>
+                    <div style={{ fontSize: "13px", color: h.rating.includes("★") ? "#C9A96E" : "#7A9E7E", marginBottom: "2px" }}>{h.rating}</div>
+                    <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.35)", fontStyle: "italic" }}>{h.note}</div>
                   </div>
                 ))}
               </div>
@@ -1000,7 +1000,7 @@ export default function WestchesterPortal() {
                 border: "1px solid rgba(255,255,255,0.12)",
                 borderRadius: "20px",
                 color: "rgba(255,255,255,0.4)",
-                fontSize: "11px",
+                fontSize: "13px",
                 letterSpacing: "1px",
                 textTransform: "uppercase",
                 cursor: "pointer",
