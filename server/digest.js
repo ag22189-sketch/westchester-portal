@@ -69,6 +69,30 @@ async function fetchTownData(townName) {
     };
   });
 
+  // Brokerage activity from all listings
+  const brokerageCounts = {};
+  const agentCounts = {};
+  for (const p of listings) {
+    const brokeName = p.branding?.[0]?.name || p.advertisers?.find((a) => a.type === "seller")?.office?.name;
+    if (brokeName) {
+      brokerageCounts[brokeName] = (brokerageCounts[brokeName] || 0) + 1;
+    }
+    const agent = p.advertisers?.find((a) => a.type === "seller");
+    if (agent?.name && brokeName) {
+      const key = agent.name;
+      if (!agentCounts[key]) agentCounts[key] = { name: agent.name, brokerage: brokeName, count: 0 };
+      agentCounts[key].count++;
+    }
+  }
+  const brokerages = Object.entries(brokerageCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 5)
+    .map(([name, count]) => ({ name, count }));
+  const topAgents = Object.values(agentCounts)
+    .sort((a, b) => b.count - a.count)
+    .slice(0, 3)
+    .filter((a) => a.count >= 2);
+
   // Sold history
   const cutoff = new Date();
   cutoff.setFullYear(cutoff.getFullYear() - 10);
@@ -113,7 +137,7 @@ async function fetchTownData(townName) {
       };
     });
 
-  return { active, sold };
+  return { active, sold, brokerages, topAgents };
 }
 
 export async function sendDigests() {

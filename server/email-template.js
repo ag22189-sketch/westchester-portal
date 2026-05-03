@@ -13,7 +13,7 @@ const fmtDate = () => {
 };
 
 function townSection(townName, data) {
-  const { active, sold } = data;
+  const { active, sold, brokerages = [], topAgents = [] } = data;
   const activeCount = active.length;
   const avgDOM =
     active.filter((l) => l.daysOnMarket != null).length > 0
@@ -112,6 +112,37 @@ function townSection(townName, data) {
                   )
                   .join("")}
               </table>`
+                  : ""
+              }
+
+              ${
+                brokerages.length > 0
+                  ? `
+              <!-- Brokerage Activity -->
+              <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255,255,255,0.06);">
+                <div style="font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: rgba(255,255,255,0.3); margin-bottom: 10px; font-family: Georgia, serif;">Brokerage Activity</div>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+                  ${brokerages
+                    .map(
+                      (b) => `
+                  <tr>
+                    <td style="padding: 6px 0; font-family: Georgia, serif;">
+                      <span style="font-size: 14px; color: #E8E0D5;">${b.name}</span>
+                      <span style="font-size: 13px; color: rgba(201,169,110,0.7); margin-left: 8px;">${b.count} active listing${b.count !== 1 ? "s" : ""}</span>
+                    </td>
+                  </tr>`
+                    )
+                    .join("")}
+                </table>
+                ${
+                  topAgents.length > 0
+                    ? `
+                <div style="margin-top: 10px; font-size: 12px; color: rgba(255,255,255,0.3); font-family: Georgia, serif; font-style: italic;">
+                  Most active agents: ${topAgents.map((a) => `${a.name} (${a.count})`).join(" · ")}
+                </div>`
+                    : ""
+                }
+              </div>`
                   : ""
               }
             </td>
