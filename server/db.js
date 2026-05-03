@@ -57,7 +57,7 @@ async function getContact(email) {
   let towns = [];
   try {
     towns = JSON.parse(match.first_name || "[]");
-  } catch {
+  } catch (e) {
     towns = [];
   }
 
@@ -75,7 +75,7 @@ export async function getSubscribers() {
     let towns = [];
     try {
       towns = JSON.parse(c.first_name || "[]");
-    } catch {
+    } catch (e) {
       continue;
     }
     if (towns.length > 0) {
