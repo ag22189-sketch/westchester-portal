@@ -103,7 +103,7 @@ app.get("/api/send-digest", async (req, res) => {
 });
 
 // SPA fallback — serve index.html for all other routes
-app.use((req, res) => {
+app.get("*", (req, res) => {
   res.sendFile(join(__dirname, "..", "dist", "index.html"));
 });
 
