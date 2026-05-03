@@ -148,7 +148,7 @@ export async function sendDigests() {
   }
 
   const resend = new Resend(resendKey);
-  const subscribers = getSubscribers(); // { email: [town1, town2, ...] }
+  const subscribers = await getSubscribers(); // { email: [town1, town2, ...] }
   const emails = Object.keys(subscribers);
 
   if (emails.length === 0) {

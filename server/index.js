@@ -15,7 +15,7 @@ app.use(express.json());
 app.use(express.static(join(__dirname, "..", "dist")));
 
 // Subscribe: POST /api/subscribe { email, towns: ["Irvington", ...] }
-app.post("/api/subscribe", (req, res) => {
+app.post("/api/subscribe", async (req, res) => {
   const { email, towns } = req.body;
 
   if (!email || !email.includes("@")) {
@@ -26,8 +26,7 @@ app.post("/api/subscribe", (req, res) => {
   }
 
   try {
-    subscribe(email.toLowerCase().trim(), towns);
-    const tracked = getTownsForEmail(email.toLowerCase().trim());
+    const tracked = await subscribe(email.toLowerCase().trim(), towns);
     res.json({ ok: true, towns: tracked });
   } catch (err) {
     console.error("Subscribe error:", err);
@@ -36,28 +35,42 @@ app.post("/api/subscribe", (req, res) => {
 });
 
 // Get subscriptions: GET /api/subscriptions?email=...
-app.get("/api/subscriptions", (req, res) => {
+app.get("/api/subscriptions", async (req, res) => {
   const email = req.query.email;
   if (!email) return res.status(400).json({ error: "Email required" });
 
-  const towns = getTownsForEmail(email.toLowerCase().trim());
-  res.json({ towns });
+  try {
+    const towns = await getTownsForEmail(email.toLowerCase().trim());
+    res.json({ towns });
+  } catch (err) {
+    console.error("Get subscriptions error:", err);
+    res.status(500).json({ error: "Failed to get subscriptions" });
+  }
 });
 
 // Unsubscribe: DELETE /api/subscribe { email }
-app.delete("/api/subscribe", (req, res) => {
+app.delete("/api/subscribe", async (req, res) => {
   const { email } = req.body;
   if (!email) return res.status(400).json({ error: "Email required" });
 
-  unsubscribe(email.toLowerCase().trim());
-  res.json({ ok: true });
+  try {
+    await unsubscribe(email.toLowerCase().trim());
+    res.json({ ok: true });
+  } catch (err) {
+    console.error("Unsubscribe error:", err);
+    res.status(500).json({ error: "Failed to unsubscribe" });
+  }
 });
 
 // Unsubscribe via GET (for email link)
-app.get("/unsubscribe", (req, res) => {
+app.get("/unsubscribe", async (req, res) => {
   const email = req.query.email;
   if (email) {
-    unsubscribe(email.toLowerCase().trim());
+    try {
+      await unsubscribe(email.toLowerCase().trim());
+    } catch (err) {
+      console.error("Unsubscribe error:", err);
+    }
   }
   res.send(`
     <!DOCTYPE html>
