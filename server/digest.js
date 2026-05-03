@@ -1,6 +1,7 @@
 // Weekly digest job — fetches listing data and sends emails via Resend
 // Called by: node server/digest.js (Render cron) or GET /api/send-digest?key=SECRET
 
+import "dotenv/config";
 import { Resend } from "resend";
 import { getSubscribers } from "./db.js";
 import { buildDigestEmail } from "./email-template.js";
