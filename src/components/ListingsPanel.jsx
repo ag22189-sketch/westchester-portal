@@ -28,7 +28,7 @@ const statusColors = {
   pending: "#D4956A",
 };
 
-export default function ListingsPanel({ townName, accentColor, onSoldData }) {
+export default function ListingsPanel({ townName, accentColor, onSoldData, brokerages = [], townColor }) {
   const [tab, setTab] = useState("active");
   const [listings, setListings] = useState([]);
   const [sold, setSold] = useState([]);
@@ -102,6 +102,11 @@ export default function ListingsPanel({ townName, accentColor, onSoldData }) {
         <button onClick={() => setTab("sold")} style={tabStyle(tab === "sold")}>
           Sales History ({sold.length})
         </button>
+        {brokerages.length > 0 && (
+          <button onClick={() => setTab("brokerages")} style={tabStyle(tab === "brokerages")}>
+            Top Brokerages
+          </button>
+        )}
       </div>
 
       {/* Active Tab */}
@@ -372,6 +377,38 @@ export default function ListingsPanel({ townName, accentColor, onSoldData }) {
             })}
           </div>
         )
+      )}
+
+      {/* Top Brokerages Tab */}
+      {tab === "brokerages" && brokerages.length > 0 && (
+        <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+          {brokerages.map(b => (
+            <div key={b.firm} style={{ borderLeft: `2px solid ${townColor || accentColor}`, paddingLeft: "16px" }}>
+              <div style={{ fontSize: "17px", color: "#F5EFE8", fontWeight: "400", marginBottom: "4px" }}>{b.firm}</div>
+              <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", fontStyle: "italic", marginBottom: "12px" }}>{b.note}</div>
+              <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                {b.agents.map(a => (
+                  <div key={a.name} style={{ background: "rgba(255,255,255,0.03)", borderRadius: "8px", padding: "12px 14px" }}>
+                    <div style={{ fontSize: "15px", color: "#E8E0D5", marginBottom: "3px" }}>{a.name}</div>
+                    <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.35)", marginBottom: "8px" }}>{a.specialty}</div>
+                    <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
+                      {a.phone && (
+                        <a href={`tel:${a.phone}`} style={{ fontSize: "13px", color: "#C9A96E", textDecoration: "none" }}>
+                          {fmtPhone(a.phone)}
+                        </a>
+                      )}
+                      {a.email && (
+                        <a href={`mailto:${a.email}`} style={{ fontSize: "13px", color: "#C9A96E", textDecoration: "none" }}>
+                          {a.email}
+                        </a>
+                      )}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
       )}
     </div>
   );

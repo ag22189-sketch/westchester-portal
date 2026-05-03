@@ -1069,10 +1069,10 @@ export default function WestchesterPortal() {
               </div>
             )}
 
-            {/* Listings */}
+            {/* Listings (includes Active, Sales History, and Top Brokerages tabs) */}
             <div style={{ marginBottom: "24px" }}>
               <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "16px" }}>Listings</div>
-              <ListingsPanel townName={town.name} accentColor={town.color} onSoldData={(soldData) => {
+              <ListingsPanel townName={town.name} accentColor={town.color} brokerages={town.brokerages || []} townColor={town.color} onSoldData={(soldData) => {
                 const valid = soldData.filter(s => !s.isNewConstruction && s.appreciation != null);
                 if (valid.length > 0) {
                   const avg = valid.reduce((sum, s) => sum + s.appreciation, 0) / valid.length;
@@ -1080,41 +1080,6 @@ export default function WestchesterPortal() {
                 }
               }} />
             </div>
-
-            {/* Top Brokerages */}
-            {town.brokerages && town.brokerages.length > 0 && (
-              <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "20px" }}>
-                <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "16px" }}>Top Brokerages</div>
-                <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-                  {town.brokerages.map(b => (
-                    <div key={b.firm} style={{ borderLeft: `2px solid ${town.color}`, paddingLeft: "16px" }}>
-                      <div style={{ fontSize: "17px", color: "#F5EFE8", fontWeight: "400", marginBottom: "4px" }}>{b.firm}</div>
-                      <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", fontStyle: "italic", marginBottom: "12px" }}>{b.note}</div>
-                      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                        {b.agents.map(a => (
-                          <div key={a.name} style={{ background: "rgba(255,255,255,0.03)", borderRadius: "8px", padding: "12px 14px" }}>
-                            <div style={{ fontSize: "15px", color: "#E8E0D5", marginBottom: "3px" }}>{a.name}</div>
-                            <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.35)", marginBottom: "8px" }}>{a.specialty}</div>
-                            <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
-                              {a.phone && (
-                                <a href={`tel:${a.phone}`} style={{ fontSize: "13px", color: "#C9A96E", textDecoration: "none" }}>
-                                  {`(${a.phone.slice(0,3)}) ${a.phone.slice(3,6)}-${a.phone.slice(6)}`}
-                                </a>
-                              )}
-                              {a.email && (
-                                <a href={`mailto:${a.email}`} style={{ fontSize: "13px", color: "#C9A96E", textDecoration: "none" }}>
-                                  {a.email}
-                                </a>
-                              )}
-                            </div>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  ))}
-                </div>
-              </div>
-            )}
 
             {/* Demographics & Voting */}
             <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "20px" }}>
