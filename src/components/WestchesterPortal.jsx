@@ -1,5 +1,6 @@
 import { useState } from "react";
 import ListingsPanel from "./ListingsPanel";
+import DigestSignup from "./DigestSignup";
 
 const towns = [
   {
@@ -1091,6 +1092,11 @@ export default function WestchesterPortal() {
                   setTownTrends(prev => ({ ...prev, [town.name]: Math.round(avg) }));
                 }
               }} />
+            </div>
+
+            {/* Weekly Digest Signup */}
+            <div style={{ marginBottom: "20px" }}>
+              <DigestSignup currentTown={town.name} />
             </div>
 
             {/* Demographics & Voting */}
