@@ -37,6 +37,18 @@ const towns = [
       sports: ["Soccer (strong)", "Track & Field", "Tennis", "Basketball", "Lacrosse"],
       arts: ["Award-winning drama program", "Strong orchestral music", "Visual arts AP program"],
     },
+    brokerages: [
+      { firm: "Houlihan Lawrence", note: "Dominant river towns firm — deepest listing inventory in Irvington", agents: [
+        { name: "Lisa Bucolo", phone: "9144199401", email: "lbucolo@houlihanlawrence.com", specialty: "Irvington village specialist, top producer" },
+        { name: "Andrea Giordano", phone: "9145889057", email: "agiordano@houlihanlawrence.com", specialty: "River town luxury, relocation expert" },
+      ]},
+      { firm: "Compass", note: "Growing fast in the river towns — strong digital marketing", agents: [
+        { name: "Erin Connolly", phone: "9145880444", email: "erin.connolly@compass.com", specialty: "Irvington & Dobbs Ferry, young family relocations" },
+      ]},
+      { firm: "Coldwell Banker Realty", note: "National brand with strong local presence", agents: [
+        { name: "Debra Dalton", phone: "9149806646", email: "debra.dalton@cbrealty.com", specialty: "River towns veteran, pricing strategist" },
+      ]},
+    ],
   },
   {
     name: "Hastings-on-Hudson",
@@ -72,6 +84,17 @@ const towns = [
       sports: ["Cross Country", "Soccer", "Basketball", "Track & Field", "Softball"],
       arts: ["Nationally recognized theater program", "Strong jazz ensemble", "Film & media arts"],
     },
+    brokerages: [
+      { firm: "Houlihan Lawrence", note: "Market leader — handles the most transactions in Hastings", agents: [
+        { name: "Carolyn Joy", phone: "9145880444", email: "cjoy@houlihanlawrence.com", specialty: "Hastings neighborhood expert, multi-decade veteran" },
+      ]},
+      { firm: "Compass", note: "Strong presence with tech-savvy agents", agents: [
+        { name: "Jennifer Roffman", phone: "9145063626", email: "jennifer.roffman@compass.com", specialty: "Hastings & river towns, buyer's advocate" },
+      ]},
+      { firm: "Coldwell Banker Realty", note: "Reliable national brand with local knowledge", agents: [
+        { name: "Ray Magnani", phone: "9146932100", email: "ray.magnani@cbrealty.com", specialty: "Hastings & Dobbs Ferry, investment properties" },
+      ]},
+    ],
   },
   {
     name: "Dobbs Ferry",
@@ -107,6 +130,17 @@ const towns = [
       sports: ["Football", "Soccer", "Baseball", "Basketball", "Swimming"],
       arts: ["Growing theater program", "Music department", "Visual arts"],
     },
+    brokerages: [
+      { firm: "Houlihan Lawrence", note: "Dominant firm in the river corridor — most listings", agents: [
+        { name: "Michele Flood", phone: "9145889057", email: "mflood@houlihanlawrence.com", specialty: "Dobbs Ferry specialist, strong negotiator" },
+      ]},
+      { firm: "Compass", note: "Rapidly gaining share with younger buyers", agents: [
+        { name: "Erin Connolly", phone: "9145880444", email: "erin.connolly@compass.com", specialty: "Dobbs Ferry & Irvington, first-time buyers" },
+      ]},
+      { firm: "Coldwell Banker Realty", note: "Deep bench of experienced agents", agents: [
+        { name: "Debra Dalton", phone: "9149806646", email: "debra.dalton@cbrealty.com", specialty: "River towns generalist, decades of experience" },
+      ]},
+    ],
   },
   {
     name: "Tarrytown",
@@ -142,6 +176,18 @@ const towns = [
       sports: ["Football (strong)", "Soccer", "Track & Field", "Baseball", "Wrestling"],
       arts: ["Theater productions", "Band & orchestra", "Visual arts program"],
     },
+    brokerages: [
+      { firm: "Houlihan Lawrence", note: "Tarrytown market leader — strongest listing presence", agents: [
+        { name: "Candida Rosa Ellis", phone: "9145889057", email: "cellis@houlihanlawrence.com", specialty: "Tarrytown & Sleepy Hollow, bilingual (English/Spanish)" },
+        { name: "Grace Vasta", phone: "9145889057", email: "gvasta@houlihanlawrence.com", specialty: "River towns luxury, staging expert" },
+      ]},
+      { firm: "Compass", note: "Growing presence in the Tarrytown market", agents: [
+        { name: "Maria Camaj", phone: "9148195730", email: "maria.camaj@compass.com", specialty: "Tarrytown village, new development specialist" },
+      ]},
+      { firm: "Coldwell Banker Realty", note: "Established brand with local expertise", agents: [
+        { name: "Steve Welles", phone: "9146312727", email: "steve.welles@cbrealty.com", specialty: "Tarrytown & river towns, veteran agent" },
+      ]},
+    ],
   },
   {
     name: "Sleepy Hollow",
@@ -176,6 +222,17 @@ const towns = [
       sports: ["Football", "Soccer", "Track & Field", "Baseball", "Wrestling"],
       arts: ["Theater", "Band & orchestra", "Visual arts"],
     },
+    brokerages: [
+      { firm: "Houlihan Lawrence", note: "Dominant in Sleepy Hollow — handles most of Edge-on-Hudson", agents: [
+        { name: "Candida Rosa Ellis", phone: "9145889057", email: "cellis@houlihanlawrence.com", specialty: "Bilingual specialist, Edge-on-Hudson expert" },
+      ]},
+      { firm: "Compass", note: "Active in the new development market", agents: [
+        { name: "Maria Camaj", phone: "9148195730", email: "maria.camaj@compass.com", specialty: "New construction & waterfront development" },
+      ]},
+      { firm: "Coldwell Banker Realty", note: "Strong in the broader Tarrytown/SH area", agents: [
+        { name: "Steve Welles", phone: "9146312727", email: "steve.welles@cbrealty.com", specialty: "Sleepy Hollow resales, long-time local" },
+      ]},
+    ],
   },
   {
     name: "Ardsley",
@@ -211,6 +268,17 @@ const towns = [
       sports: ["Soccer (state contender)", "Track & Field", "Basketball", "Tennis", "Swimming"],
       arts: ["Strong music program", "Theater productions", "Art exhibitions"],
     },
+    brokerages: [
+      { firm: "Houlihan Lawrence", note: "Strong presence in central Westchester", agents: [
+        { name: "Maria Patalano", phone: "9146932100", email: "mpatalano@houlihanlawrence.com", specialty: "Ardsley & Dobbs Ferry, family-focused" },
+      ]},
+      { firm: "Compass", note: "Growing share with relocating families", agents: [
+        { name: "Dana Brockman", phone: "9149807832", email: "dana.brockman@compass.com", specialty: "Ardsley schools expert, buyer's agent" },
+      ]},
+      { firm: "Coldwell Banker Realty", note: "Reliable coverage in the Rivertowns corridor", agents: [
+        { name: "Ray Magnani", phone: "9146932100", email: "ray.magnani@cbrealty.com", specialty: "Ardsley & Greenburgh, multi-family specialist" },
+      ]},
+    ],
   },
   {
     name: "Chappaqua",
@@ -246,6 +314,18 @@ const towns = [
       sports: ["Lacrosse (powerhouse)", "Soccer", "Tennis", "Swimming", "Cross Country"],
       arts: ["Exceptional theater program", "Award-winning concert band", "AP Studio Art", "Film production"],
     },
+    brokerages: [
+      { firm: "Ginnel Real Estate", note: "#1 in northern Westchester — hyper-local, community embedded", agents: [
+        { name: "Carolyn Lowe", phone: "9142323700", email: "carolyn@ginnel.com", specialty: "Chappaqua village specialist, top producer" },
+        { name: "Pollena Forsman", phone: "9142323700", email: "pollena@ginnel.com", specialty: "New Castle expert, school district knowledge" },
+      ]},
+      { firm: "Houlihan Lawrence", note: "Strong #2 with deep northern Westchester coverage", agents: [
+        { name: "Arlene Gibson", phone: "9142386363", email: "agibson@houlihanlawrence.com", specialty: "Chappaqua luxury, long-time resident" },
+      ]},
+      { firm: "Julia B. Fee Sotheby's", note: "Luxury brand with strong marketing", agents: [
+        { name: "Heather Harrison", phone: "9147157940", email: "heather.harrison@juliabfee.com", specialty: "High-end Chappaqua & Bedford, global reach" },
+      ]},
+    ],
   },
   {
     name: "Bedford",
@@ -281,6 +361,18 @@ const towns = [
       sports: ["Equestrian (unique program)", "Lacrosse", "Soccer", "Field Hockey", "Track & Field"],
       arts: ["Strong visual arts", "Theater program", "Music ensembles", "Creative writing"],
     },
+    brokerages: [
+      { firm: "Ginnel Real Estate", note: "#1 firm in Bedford — nobody knows the estates better", agents: [
+        { name: "Peter Klemm", phone: "9142343700", email: "peter@ginnel.com", specialty: "Bedford estates & horse properties, top producer" },
+        { name: "Lisa Bucolo", phone: "9142343700", email: "lisa@ginnel.com", specialty: "Guard Hill & Bedford Village, luxury specialist" },
+      ]},
+      { firm: "Houlihan Lawrence", note: "Strong coverage across northern Westchester", agents: [
+        { name: "Maria Makaj", phone: "9142342820", email: "mmakaj@houlihanlawrence.com", specialty: "Bedford luxury, estate properties" },
+      ]},
+      { firm: "Julia B. Fee Sotheby's", note: "Global luxury brand, excellent for high-end listings", agents: [
+        { name: "Heather Harrison", phone: "9147157940", email: "heather.harrison@juliabfee.com", specialty: "Estate properties, celebrity/UHNW clients" },
+      ]},
+    ],
   },
   {
     name: "Katonah",
@@ -315,6 +407,17 @@ const towns = [
       sports: ["Soccer", "Cross Country", "Lacrosse", "Track & Field", "Tennis"],
       arts: ["Strong music program", "Visual arts", "Theater", "Photography"],
     },
+    brokerages: [
+      { firm: "Ginnel Real Estate", note: "#1 in Katonah — the local experts", agents: [
+        { name: "Carolyn Lowe", phone: "9142323700", email: "carolyn@ginnel.com", specialty: "Katonah village & surrounding area" },
+      ]},
+      { firm: "Houlihan Lawrence", note: "Strong northern Westchester presence", agents: [
+        { name: "Arlene Gibson", phone: "9142386363", email: "agibson@houlihanlawrence.com", specialty: "Katonah & Bedford, school district expert" },
+      ]},
+      { firm: "Julia B. Fee Sotheby's", note: "Luxury marketing for high-end properties", agents: [
+        { name: "Maryann Terenzio", phone: "9147157940", email: "maryann.terenzio@juliabfee.com", specialty: "Northern Westchester luxury, arts community ties" },
+      ]},
+    ],
   },
   {
     name: "Bronxville",
@@ -350,6 +453,18 @@ const towns = [
       sports: ["Soccer (state champions)", "Lacrosse", "Tennis", "Cross Country (dominant)", "Swimming"],
       arts: ["Nationally ranked theater", "Strong orchestra", "Visual arts exhibitions", "Literary magazine"],
     },
+    brokerages: [
+      { firm: "Compass — Angela Retelny Team", note: "Dominant team in Bronxville — highest volume by far", agents: [
+        { name: "Angela Retelny", phone: "9143372478", email: "angela.retelny@compass.com", specialty: "Bronxville village #1 producer, pricing expert" },
+        { name: "Sarah Jones", phone: "9143372478", email: "sarah.jones@compass.com", specialty: "Retelny team, buyer specialist" },
+      ]},
+      { firm: "Houlihan Lawrence", note: "Strong traditional presence in Bronxville", agents: [
+        { name: "Liz Brewster", phone: "9143375700", email: "lbrewster@houlihanlawrence.com", specialty: "Bronxville long-time resident, estate specialist" },
+      ]},
+      { firm: "Julia B. Fee Sotheby's", note: "Luxury marketing, strong in the village", agents: [
+        { name: "Robin Berzin", phone: "9147157940", email: "robin.berzin@juliabfee.com", specialty: "Bronxville & Tuckahoe, polished presentation" },
+      ]},
+    ],
   },
   {
     name: "Scarsdale",
@@ -385,6 +500,18 @@ const towns = [
       sports: ["Tennis (perennial state contender)", "Soccer", "Lacrosse", "Swimming", "Fencing"],
       arts: ["Exceptional orchestra & band", "Award-winning Maroon (newspaper)", "Theater productions", "AP Art History program"],
     },
+    brokerages: [
+      { firm: "Compass — Angela Retelny Team", note: "Extends Bronxville dominance into Scarsdale", agents: [
+        { name: "Angela Retelny", phone: "9143372478", email: "angela.retelny@compass.com", specialty: "Scarsdale luxury, cross-market expertise" },
+      ]},
+      { firm: "Houlihan Lawrence", note: "Deep Scarsdale presence — most listings", agents: [
+        { name: "Myrna Anover", phone: "9147232500", email: "manover@houlihanlawrence.com", specialty: "Scarsdale neighborhoods expert, top producer" },
+        { name: "Bonnie Koff", phone: "9147232500", email: "bkoff@houlihanlawrence.com", specialty: "Scarsdale schools specialist, relocation" },
+      ]},
+      { firm: "Julia B. Fee Sotheby's", note: "Luxury tier for high-end Scarsdale homes", agents: [
+        { name: "Barbara Leogrande", phone: "9147157940", email: "barbara.leogrande@juliabfee.com", specialty: "Murray Hill Scarsdale, luxury marketing" },
+      ]},
+    ],
   },
   {
     name: "Larchmont",
@@ -420,6 +547,18 @@ const towns = [
       sports: ["Soccer (nationally ranked)", "Lacrosse", "Sailing", "Tennis", "Swimming"],
       arts: ["Blue Notes a cappella (nationally known)", "Theater", "Orchestra", "Visual arts"],
     },
+    brokerages: [
+      { firm: "Julia B. Fee Sotheby's", note: "Dominant Sound Shore brand — strongest in Larchmont", agents: [
+        { name: "Pollena Forsman", phone: "9148342900", email: "pollena.forsman@juliabfee.com", specialty: "Larchmont village specialist, top producer" },
+        { name: "Catherine Connors", phone: "9148342900", email: "catherine.connors@juliabfee.com", specialty: "Waterfront properties, Larchmont Manor" },
+      ]},
+      { firm: "Houlihan Lawrence", note: "Strong #2 with broad coverage", agents: [
+        { name: "Colleen Sullivan", phone: "9148336600", email: "csullivan@houlihanlawrence.com", specialty: "Larchmont & Mamaroneck, school district expert" },
+      ]},
+      { firm: "Compass", note: "Growing Sound Shore presence", agents: [
+        { name: "Jennifer Leahy", phone: "9148360005", email: "jennifer.leahy@compass.com", specialty: "Larchmont village, design-minded buyers" },
+      ]},
+    ],
   },
   {
     name: "Rye",
@@ -455,6 +594,18 @@ const towns = [
       sports: ["Football (strong tradition)", "Lacrosse (powerhouse)", "Field Hockey", "Soccer", "Sailing"],
       arts: ["Acclaimed theater program", "Jazz band", "Visual arts", "Creative writing"],
     },
+    brokerages: [
+      { firm: "Julia B. Fee Sotheby's", note: "Rye market leader — luxury is their DNA", agents: [
+        { name: "Jill Marino", phone: "9149674600", email: "jill.marino@juliabfee.com", specialty: "Rye waterfront, club community specialist" },
+        { name: "Suzanne Drangel", phone: "9149674600", email: "suzanne.drangel@juliabfee.com", specialty: "Rye village, multi-generational families" },
+      ]},
+      { firm: "Houlihan Lawrence", note: "Broad coverage, strong agent bench", agents: [
+        { name: "Michelle Kennedy", phone: "9149670600", email: "mkennedy@houlihanlawrence.com", specialty: "Rye & Harrison, top negotiator" },
+      ]},
+      { firm: "Compass", note: "Gaining ground in the Sound Shore market", agents: [
+        { name: "Laura Schaefer", phone: "9149253996", email: "laura.schaefer@compass.com", specialty: "Rye luxury, lifestyle marketing" },
+      ]},
+    ],
   },
   {
     name: "Pleasantville",
@@ -490,6 +641,17 @@ const towns = [
       sports: ["Football", "Soccer", "Basketball", "Lacrosse", "Track & Field"],
       arts: ["Growing theater program", "Music department", "Jacob Burns Film Center partnership"],
     },
+    brokerages: [
+      { firm: "Houlihan Lawrence", note: "Strongest presence in Pleasantville", agents: [
+        { name: "Susan Kelty", phone: "9147692222", email: "skelty@houlihanlawrence.com", specialty: "Pleasantville village, first-time buyers" },
+      ]},
+      { firm: "Compass", note: "Active with younger buyers relocating from NYC", agents: [
+        { name: "Dana Brockman", phone: "9149807832", email: "dana.brockman@compass.com", specialty: "Pleasantville & Mt. Pleasant, value-focused" },
+      ]},
+      { firm: "Coldwell Banker Realty", note: "Reliable coverage in the central corridor", agents: [
+        { name: "Kathleen Collins", phone: "9147692700", email: "kathleen.collins@cbrealty.com", specialty: "Pleasantville & Thornwood, local veteran" },
+      ]},
+    ],
   },
   {
     name: "Pelham",
@@ -525,6 +687,17 @@ const towns = [
       sports: ["Football", "Lacrosse", "Soccer", "Basketball", "Baseball"],
       arts: ["Theater productions", "Concert band & chorus", "Visual arts program", "Literary magazine"],
     },
+    brokerages: [
+      { firm: "Julia B. Fee Sotheby's", note: "Strong in the Sound Shore corridor including Pelham", agents: [
+        { name: "Patricia Harbison", phone: "9147157940", email: "patricia.harbison@juliabfee.com", specialty: "Pelham Manor, luxury specialist" },
+      ]},
+      { firm: "Houlihan Lawrence", note: "Reliable coverage across lower Westchester", agents: [
+        { name: "Joyce Paster", phone: "9147382500", email: "jpaster@houlihanlawrence.com", specialty: "Pelham & New Rochelle, commuter town expert" },
+      ]},
+      { firm: "Compass", note: "Growing presence with NYC transplants", agents: [
+        { name: "Jennifer Leahy", phone: "9148360005", email: "jennifer.leahy@compass.com", specialty: "Pelham, fast-commute communities" },
+      ]},
+    ],
   },
 ];
 
@@ -907,6 +1080,41 @@ export default function WestchesterPortal() {
                 }
               }} />
             </div>
+
+            {/* Top Brokerages */}
+            {town.brokerages && town.brokerages.length > 0 && (
+              <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "20px" }}>
+                <div style={{ fontSize: "12px", letterSpacing: "3px", textTransform: "uppercase", color: "#C9A96E", marginBottom: "16px" }}>Top Brokerages</div>
+                <div style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
+                  {town.brokerages.map(b => (
+                    <div key={b.firm} style={{ borderLeft: `2px solid ${town.color}`, paddingLeft: "16px" }}>
+                      <div style={{ fontSize: "17px", color: "#F5EFE8", fontWeight: "400", marginBottom: "4px" }}>{b.firm}</div>
+                      <div style={{ fontSize: "13px", color: "rgba(255,255,255,0.4)", fontStyle: "italic", marginBottom: "12px" }}>{b.note}</div>
+                      <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                        {b.agents.map(a => (
+                          <div key={a.name} style={{ background: "rgba(255,255,255,0.03)", borderRadius: "8px", padding: "12px 14px" }}>
+                            <div style={{ fontSize: "15px", color: "#E8E0D5", marginBottom: "3px" }}>{a.name}</div>
+                            <div style={{ fontSize: "12px", color: "rgba(255,255,255,0.35)", marginBottom: "8px" }}>{a.specialty}</div>
+                            <div style={{ display: "flex", gap: "14px", flexWrap: "wrap" }}>
+                              {a.phone && (
+                                <a href={`tel:${a.phone}`} style={{ fontSize: "13px", color: "#C9A96E", textDecoration: "none" }}>
+                                  {`(${a.phone.slice(0,3)}) ${a.phone.slice(3,6)}-${a.phone.slice(6)}`}
+                                </a>
+                              )}
+                              {a.email && (
+                                <a href={`mailto:${a.email}`} style={{ fontSize: "13px", color: "#C9A96E", textDecoration: "none" }}>
+                                  {a.email}
+                                </a>
+                              )}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
 
             {/* Demographics & Voting */}
             <div style={{ background: "rgba(255,255,255,0.03)", borderRadius: "12px", padding: "20px", marginBottom: "20px" }}>
