@@ -167,25 +167,9 @@ body {
     gap: 12px;
   }
 
-  /* Back button — show at top on mobile, sticky */
-  .wp-back-btn {
-    display: block !important;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-    margin: 0 0 20px !important;
-    padding: 12px 20px !important;
-    width: 100%;
-    text-align: center;
-    background: #0F1318 !important;
-    border: none !important;
-    border-bottom: 1px solid rgba(255,255,255,0.08) !important;
-    border-radius: 0 !important;
-  }
-
-  /* Hide the bottom back button on mobile (top one is enough) */
-  .wp-back-bottom {
-    display: none !important;
+  /* Sticky header adjustments for mobile */
+  .wp-sticky-header {
+    padding: 12px 0 10px !important;
   }
 
   /* Notable residents wrap better */

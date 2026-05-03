@@ -899,35 +899,47 @@ export default function WestchesterPortal() {
           }}>
             <style>{`@keyframes fadeIn { from { opacity: 0; transform: translateX(10px); } to { opacity: 1; transform: translateX(0); } }`}</style>
 
-            {/* Back button — appears at top on mobile */}
-            <button
-              className="wp-back-btn"
-              onClick={() => setSelected(null)}
-              style={{
-                display: "none",
-                padding: "10px 20px",
-                background: "transparent",
-                border: "1px solid rgba(255,255,255,0.12)",
-                borderRadius: "20px",
-                color: "rgba(255,255,255,0.4)",
-                fontSize: "13px",
-                letterSpacing: "1px",
-                textTransform: "uppercase",
-                cursor: "pointer",
-                fontFamily: "'Georgia', serif",
-              }}
-            >
-              ← Back to all towns
-            </button>
-
-            {/* Town Header */}
-            <div style={{ marginBottom: "32px" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: "12px", marginBottom: "6px" }}>
-                <div style={{ width: "12px", height: "12px", borderRadius: "50%", background: town.color }} />
-                <h2 style={{ fontSize: "38px", fontWeight: "400", margin: 0, color: "#F5EFE8" }}>{town.name}</h2>
+            {/* Sticky Header */}
+            <div className="wp-sticky-header" style={{
+              position: "sticky",
+              top: 0,
+              zIndex: 10,
+              background: "#0F1318",
+              padding: "16px 0 14px",
+              marginBottom: "24px",
+              borderBottom: "1px solid rgba(255,255,255,0.06)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "space-between",
+              gap: "16px",
+            }}>
+              <div style={{ display: "flex", alignItems: "center", gap: "10px", minWidth: 0 }}>
+                <div style={{ width: "10px", height: "10px", borderRadius: "50%", background: town.color, flexShrink: 0 }} />
+                <h2 style={{ fontSize: "22px", fontWeight: "400", margin: 0, color: "#F5EFE8", whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis" }}>{town.name}</h2>
               </div>
-              <p style={{ color: "rgba(255,255,255,0.4)", margin: 0, fontStyle: "italic", fontSize: "17px" }}>{town.tagline}</p>
+              <button
+                onClick={() => setSelected(null)}
+                style={{
+                  padding: "8px 18px",
+                  background: "transparent",
+                  border: "1px solid rgba(255,255,255,0.12)",
+                  borderRadius: "20px",
+                  color: "rgba(255,255,255,0.4)",
+                  fontSize: "12px",
+                  letterSpacing: "1px",
+                  textTransform: "uppercase",
+                  cursor: "pointer",
+                  fontFamily: "'Georgia', serif",
+                  whiteSpace: "nowrap",
+                  flexShrink: 0,
+                }}
+              >
+                ← All Towns
+              </button>
             </div>
+
+            {/* Town Tagline */}
+            <p style={{ color: "rgba(255,255,255,0.4)", margin: "0 0 32px", fontStyle: "italic", fontSize: "17px" }}>{town.tagline}</p>
 
             {/* Key Stats */}
             <div className="wp-stats-row" style={{ marginBottom: "28px" }}>
@@ -1163,25 +1175,6 @@ export default function WestchesterPortal() {
               </div>
             </div>
 
-            <button
-              className="wp-back-bottom"
-              onClick={() => setSelected(null)}
-              style={{
-                marginTop: "24px",
-                padding: "10px 20px",
-                background: "transparent",
-                border: "1px solid rgba(255,255,255,0.12)",
-                borderRadius: "20px",
-                color: "rgba(255,255,255,0.4)",
-                fontSize: "13px",
-                letterSpacing: "1px",
-                textTransform: "uppercase",
-                cursor: "pointer",
-                fontFamily: "'Georgia', serif",
-              }}
-            >
-              ← Back to all towns
-            </button>
           </div>
         )}
       </div>
