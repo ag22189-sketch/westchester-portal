@@ -124,9 +124,13 @@ function townSection(townName, data) {
 export function buildDigestEmail(email, townDataMap) {
   const townNames = Object.keys(townDataMap);
 
+  const divider = `<tr><td style="padding: 0 0 32px; text-align: center;">
+    <div style="width: 80px; height: 1px; background: rgba(201,169,110,0.35); margin: 0 auto;"></div>
+  </td></tr>`;
+
   const townSections = townNames
     .map((name) => townSection(name, townDataMap[name]))
-    .join("");
+    .join(divider);
 
   return `<!DOCTYPE html>
 <html lang="en">
