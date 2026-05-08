@@ -111,26 +111,12 @@ function injectPopupStyles() {
 
 // Temporarily block all map movement (prevents Mapbox popup auto-pan)
 function freezeMap(map) {
-  const saved = {
-    panTo: map.panTo,
-    flyTo: map.flyTo,
-    easeTo: map.easeTo,
-    setCenter: map.setCenter,
-    fitBounds: map.fitBounds,
-  };
+  const methods = ["panTo", "flyTo", "easeTo", "setCenter", "fitBounds", "jumpTo", "zoomTo", "setZoom"];
+  const saved = {};
+  for (const m of methods) saved[m] = map[m];
   const noop = function () { return this; };
-  map.panTo = noop;
-  map.flyTo = noop;
-  map.easeTo = noop;
-  map.setCenter = noop;
-  map.fitBounds = noop;
-  return () => {
-    map.panTo = saved.panTo;
-    map.flyTo = saved.flyTo;
-    map.easeTo = saved.easeTo;
-    map.setCenter = saved.setCenter;
-    map.fitBounds = saved.fitBounds;
-  };
+  for (const m of methods) map[m] = noop;
+  return () => { for (const m of methods) map[m] = saved[m]; };
 }
 
 export default function MapView({ towns, onSelectTown }) {
@@ -328,7 +314,8 @@ export default function MapView({ towns, onSelectTown }) {
   }
 
   // Handle town marker click — fetch routes to ALL destinations
-  async function handleMarkerClick(town, marker, map) {
+  // unfreezeMap is passed from the click handler; we call it when fully done
+  async function handleMarkerClick(town, marker, map, unfreezeMap) {
     const dests = destsRef.current;
     activeTownRef.current = town.name;
 
@@ -350,23 +337,22 @@ export default function MapView({ towns, onSelectTown }) {
       // Draw all routes
       drawRoutes(map, results.filter((r) => r.geometry));
 
-      // Build result map for popup — freeze map so setHTML doesn't auto-pan
+      // Build result map for popup
       const resultMap = {};
       for (const r of results) {
         if (r.duration != null) {
           resultMap[r.destId] = { duration: r.duration, distance: r.distance };
         }
       }
-      const unfreeze = freezeMap(map);
       popup.setHTML(popupHTML(town, dests, resultMap));
-      requestAnimationFrame(() => requestAnimationFrame(unfreeze));
     } catch (err) {
       console.error("Route fetch error:", err);
       if (activeTownRef.current === town.name) {
-        const unfreeze = freezeMap(map);
         popup.setHTML(popupHTML(town, dests, null));
-        requestAnimationFrame(() => requestAnimationFrame(unfreeze));
       }
+    } finally {
+      // Unfreeze after a few frames so any deferred popup repositioning is blocked
+      requestAnimationFrame(() => requestAnimationFrame(() => requestAnimationFrame(unfreezeMap)));
     }
   }
 
@@ -445,9 +431,9 @@ export default function MapView({ towns, onSelectTown }) {
           townMarkersRef.current.forEach((m) => {
             if (m !== marker && m.getPopup().isOpen()) m.togglePopup();
           });
-          handleMarkerClick(t, marker, map);
-          // Restore after a tick so popup's internal _update finishes
-          requestAnimationFrame(() => requestAnimationFrame(unfreeze));
+          // Pass unfreeze to handleMarkerClick — it stays frozen for the
+          // entire async flow and unfreezes only when fully done
+          handleMarkerClick(t, marker, map, unfreeze);
         });
 
         townMarkersRef.current.push(marker);
