@@ -50,6 +50,30 @@ function directionsUrl(town, dest) {
   return `https://www.google.com/maps/dir/?api=1&origin=${town.lat},${town.lng}&destination=${encodeURIComponent(dest.address)}&travelmode=driving`;
 }
 
+// Temporarily block all map movement (prevents Mapbox popup auto-pan)
+function freezeMap(map) {
+  const saved = {
+    panTo: map.panTo,
+    flyTo: map.flyTo,
+    easeTo: map.easeTo,
+    setCenter: map.setCenter,
+    fitBounds: map.fitBounds,
+  };
+  const noop = function () { return this; };
+  map.panTo = noop;
+  map.flyTo = noop;
+  map.easeTo = noop;
+  map.setCenter = noop;
+  map.fitBounds = noop;
+  return () => {
+    map.panTo = saved.panTo;
+    map.flyTo = saved.flyTo;
+    map.easeTo = saved.easeTo;
+    map.setCenter = saved.setCenter;
+    map.fitBounds = saved.fitBounds;
+  };
+}
+
 export default function MapView({ towns, onSelectTown }) {
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
@@ -266,18 +290,22 @@ export default function MapView({ towns, onSelectTown }) {
       // Draw all routes
       drawRoutes(map, results.filter((r) => r.geometry));
 
-      // Build result map for popup
+      // Build result map for popup — freeze map so setHTML doesn't auto-pan
       const resultMap = {};
       for (const r of results) {
         if (r.duration != null) {
           resultMap[r.destId] = { duration: r.duration, distance: r.distance };
         }
       }
+      const unfreeze = freezeMap(map);
       popup.setHTML(popupHTML(town, dests, resultMap));
+      requestAnimationFrame(() => requestAnimationFrame(unfreeze));
     } catch (err) {
       console.error("Route fetch error:", err);
       if (activeTownRef.current === town.name) {
+        const unfreeze = freezeMap(map);
         popup.setHTML(popupHTML(town, dests, null));
+        requestAnimationFrame(() => requestAnimationFrame(unfreeze));
       }
     }
   }
@@ -330,8 +358,10 @@ export default function MapView({ towns, onSelectTown }) {
         el.addEventListener("mouseleave", () => { el.style.transform = "scale(1)"; });
 
         const popup = new mapboxgl.Popup({
-          offset: 16,
+          offset: 15,
+          anchor: "bottom",
           closeButton: true,
+          closeOnClick: false,
           maxWidth: "340px",
         }).setHTML(popupHTML(t, destinations, null));
 
@@ -349,10 +379,13 @@ export default function MapView({ towns, onSelectTown }) {
 
         el.addEventListener("click", (e) => {
           e.stopPropagation();
+          const unfreeze = freezeMap(map);
           townMarkersRef.current.forEach((m) => {
             if (m !== marker && m.getPopup().isOpen()) m.togglePopup();
           });
           handleMarkerClick(t, marker, map);
+          // Restore after a tick so popup's internal _update finishes
+          requestAnimationFrame(() => requestAnimationFrame(unfreeze));
         });
 
         townMarkersRef.current.push(marker);
