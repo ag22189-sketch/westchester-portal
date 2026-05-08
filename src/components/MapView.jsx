@@ -9,8 +9,8 @@ const DESTINATIONS = [
   {
     id: "eds_office",
     label: "Ed's Office",
-    address: "1285 Avenue of the Americas, New York, NY",
-    coords: [40.7610, -73.9803],
+    address: "11 Madison Avenue, New York, NY",
+    coords: [40.7414, -73.9871],
     color: "#F5EFE0",
     displayColor: "#C9A96E",
     showTrainInfo: true,
@@ -122,9 +122,14 @@ function SidePanel({ town, routes, destinations, onSelectTown }) {
               ) : null}
               {d.showTrainInfo && mn && (
                 mn.line && mn.station ? (
-                  <div style={s.trainLine}>
-                    Train: <strong style={{ color: "#C9A96E" }}>{mn.timeToGCT} min</strong> {mn.line} Line from {mn.station} → GCT
-                  </div>
+                  <>
+                    <div style={s.trainLine}>
+                      Train: <strong style={{ color: "#C9A96E" }}>{mn.timeToGCT} min</strong> {mn.line} Line from {mn.station} → Grand Central
+                    </div>
+                    {d.id === "eds_office" && (
+                      <div style={s.subwayLine}>+ 6 min subway (4/5/6) to 23rd St</div>
+                    )}
+                  </>
                 ) : mn.note ? (
                   <div style={s.trainNote}>{mn.note}</div>
                 ) : null
@@ -289,6 +294,13 @@ const styles = {
     color: "rgba(245,239,232,0.5)",
     marginTop: "3px",
     lineHeight: 1.3,
+  },
+  subwayLine: {
+    fontSize: "11px",
+    color: "rgba(245,239,232,0.35)",
+    marginTop: "2px",
+    lineHeight: 1.3,
+    fontStyle: "italic",
   },
   trainNote: {
     fontSize: "11px",
