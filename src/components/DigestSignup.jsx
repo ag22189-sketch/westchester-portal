@@ -4,6 +4,7 @@ const TOWNS = [
   "Irvington", "Hastings-on-Hudson", "Dobbs Ferry", "Tarrytown", "Sleepy Hollow",
   "Ardsley", "Chappaqua", "Bedford", "Katonah", "Bronxville",
   "Scarsdale", "Larchmont", "Rye", "Pleasantville", "Pelham",
+  "Tuckahoe", "Mount Vernon",
 ];
 
 export default function DigestSignup({ currentTown }) {

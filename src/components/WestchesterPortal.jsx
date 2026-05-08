@@ -700,6 +700,98 @@ const towns = [
       ]},
     ],
   },
+  {
+    name: "Tuckahoe",
+    tagline: "Marble village, walkable downtown, Bronxville's neighbor",
+    metro: 30,
+    medianPrice: 625000,
+    taxRate: 2.5,
+    schools: 7,
+    walkability: 78,
+    vibe: "Small-village charm, walkable restaurant scene, affordable alternative to Bronxville",
+    dining: 4,
+    clubs: ["Leewood Golf Club (nearby)", "Lake Isle CC (nearby)"],
+    highlights: ["Walkable downtown", "Strong restaurant scene", "Bronxville-adjacent", "Metro-North Harlem Line"],
+    color: "#D4956A",
+    hospitals: [
+      { name: "Montefiore Medical Center", distance: "10 min", rating: "★ Major Academic Center", note: "One of the best in NY metro" },
+      { name: "NewYork-Presbyterian/Lawrence", distance: "8 min", rating: "High Performing", note: "Strong cardiac & ortho" },
+      { name: "White Plains Hospital (Montefiore)", distance: "15 min", rating: "High Performing", note: "Strong ER & maternity" },
+    ],
+    population: 6500,
+    density: "Village — very compact and walkable",
+    demographics: { white: 65, hispanic: 18, asian: 8, black: 7, other: 2 },
+    religion: "Catholic heritage strong — Immaculate Conception parish is a community anchor. Protestant and Jewish congregations also present.",
+    voting: { dem: 62, rep: 36 },
+    editorial: "Tuckahoe is the village that savvy buyers discover after being priced out of Bronxville. Same train line, same commute, walkable downtown with genuinely good restaurants — but at a price point that still makes sense. The marble quarry history gives it a rootedness that newer suburbs lack, and the tight-knit community has a warmth that bigger towns can't replicate. This is a value play with upside.",
+    history: "Tuckahoe is a small village within the Town of Eastchester, tucked between Bronxville and Yonkers and easily missed if you don't know to look for it. Its name comes from a Native American word for an edible root, and its identity comes from marble. Tuckahoe marble was quarried here through the 1800s and shipped down the Bronx River to build Grand Central Terminal, the base of the Washington Monument, and parts of St. Patrick's Cathedral. The Metro-North Harlem Line stop anchors a walkable downtown that has quietly become one of the better restaurant villages in lower Westchester. Smaller and more affordable than Bronxville next door, it has the same train access and an increasingly devoted following among buyers priced out of its neighbors.",
+    notableResidents: ["Vince Lombardi (football legend, born in nearby Sheepshead Bay but raised in the area)", "Local marble heritage"],
+    events: ["Tuckahoe Street Fair", "Holiday Tree Lighting", "Eastchester Community Events", "Summer Concerts in the Park"],
+    highSchool: {
+      name: "Tuckahoe High School",
+      mascot: "Tigers",
+      colors: "Orange & Black",
+      sports: ["Basketball (strong)", "Baseball (strong)", "Cross Country", "Soccer"],
+      arts: ["Strong drama program", "K-12 music department", "Community stage productions"],
+    },
+    brokerages: [
+      { firm: "Houlihan Lawrence", note: "Strong coverage across lower Westchester including Tuckahoe", agents: [
+        { name: "Local Agent", phone: "9147233500", email: "info@houlihanlawrence.com", specialty: "Tuckahoe & Eastchester specialist" },
+      ]},
+      { firm: "Compass", note: "Growing presence with NYC transplant buyers", agents: [
+        { name: "Local Agent", phone: "9144000000", email: "info@compass.com", specialty: "Tuckahoe, Bronxville-adjacent communities" },
+      ]},
+      { firm: "Julia B. Fee Sotheby's", note: "Luxury arm covering lower Westchester", agents: [
+        { name: "Local Agent", phone: "9147151500", email: "info@juliabfee.com", specialty: "Bronxville, Tuckahoe, Eastchester corridor" },
+      ]},
+    ],
+  },
+  {
+    name: "Mount Vernon",
+    tagline: "Cultural powerhouse, historic city, Fleetwood charm",
+    metro: 25,
+    medianPrice: 475000,
+    taxRate: 2.9,
+    schools: 6,
+    walkability: 74,
+    vibe: "Urban energy, deep cultural roots, architectural gems at a discount",
+    dining: 3,
+    clubs: ["Wykagyl CC (bordering)", "Lake Isle CC (nearby)"],
+    highlights: ["Fastest commutes to NYC", "Significant cultural history", "Fleetwood neighborhood", "Strong value play"],
+    color: "#9B8BB4",
+    hospitals: [
+      { name: "Montefiore Medical Center", distance: "8 min", rating: "★ Major Academic Center", note: "One of the best in NY metro" },
+      { name: "NewYork-Presbyterian/Lawrence", distance: "5 min", rating: "High Performing", note: "Strong cardiac & ortho" },
+      { name: "Westchester Medical Center", distance: "30 min", rating: "★ Level 1 Trauma", note: "Best for serious care" },
+    ],
+    population: 73900,
+    density: "City — dense, urban grid, diverse neighborhoods",
+    demographics: { white: 16, hispanic: 18, asian: 4, black: 60, other: 2 },
+    religion: "Strong Baptist and AME church tradition. Catholic parishes well established. Diverse faith community reflecting the city's cultural richness.",
+    voting: { dem: 88, rep: 10 },
+    editorial: "Mount Vernon is the most culturally significant city in Westchester, and the Fleetwood section is its best-kept residential secret. Tudor revivals and prewar co-ops on tree-lined streets, a Metro-North station steps away, and prices that are a fraction of Bronxville just across the parkway. This is a city with real history — Denzel Washington, Heavy D, Sean Combs — and a residential opportunity that sophisticated buyers are beginning to notice. The discount to neighboring towns won't last.",
+    history: "Mount Vernon is one of the oldest cities in Westchester, settled in 1664 and named for George Washington's Virginia estate. It is also the most consequential cultural city in the county — Denzel Washington grew up here, as did Dick Clark, Heavy D, Sean Combs, and a generation of musicians and athletes who shaped American culture from a four-square-mile city. Fleetwood, the section bordering Bronxville along the Bronx River Parkway, is the residential heart of the city — Tudor revivals, prewar co-ops, and single-family homes on tree-lined streets, all within a short walk of the Fleetwood Metro-North station. It offers the proximity and architecture of its more famous neighbors at a meaningful discount.",
+    notableResidents: ["Denzel Washington (actor)", "Dick Clark (TV host)", "Heavy D (rapper)", "Sean Combs (mogul)", "Ben Gordon (NBA)"],
+    events: ["Mount Vernon Day", "Fleetwood Arts Festival", "Gospel Music Festival", "Summer Concert Series", "Martin Luther King Jr. Day Celebration"],
+    highSchool: {
+      name: "Mount Vernon High School",
+      mascot: "Knights",
+      colors: "Maroon & White",
+      sports: ["Basketball (elite program)", "Football", "Track & Field", "Baseball"],
+      arts: ["Choral program (gospel & R&B tradition)", "Marching band", "Music production", "Drama"],
+    },
+    brokerages: [
+      { firm: "Keller Williams NY Realty", note: "Strong presence in Mount Vernon and southern Westchester", agents: [
+        { name: "Local Agent", phone: "9146682600", email: "info@kw.com", specialty: "Mount Vernon, Fleetwood specialist" },
+      ]},
+      { firm: "Houlihan Lawrence", note: "Coverage across all of Westchester", agents: [
+        { name: "Local Agent", phone: "9147233500", email: "info@houlihanlawrence.com", specialty: "Southern Westchester, emerging markets" },
+      ]},
+      { firm: "Compass", note: "Expanding into value markets with NYC buyer demand", agents: [
+        { name: "Local Agent", phone: "9144000000", email: "info@compass.com", specialty: "Mount Vernon, Bronxville-adjacent" },
+      ]},
+    ],
+  },
 ];
 
 const ScoreBar = ({ value, max = 10, color }) => (
@@ -753,7 +845,7 @@ export default function WestchesterPortal() {
               The Home Search for<br />People with Taste
             </h1>
             <p className="wp-subtitle" style={{ margin: "12px 0 0", color: "rgba(255,255,255,0.35)", fontSize: "17px", fontStyle: "italic", maxWidth: "420px", lineHeight: "1.6" }}>
-              Fifteen curated towns. Editorial intelligence. Real listings.
+              Seventeen curated towns. Editorial intelligence. Real listings.
             </p>
           </div>
           <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>

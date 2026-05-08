@@ -25,6 +25,8 @@ const ZIP_CODES = {
   Rye: "10580",
   Pleasantville: "10570",
   Pelham: "10803",
+  Tuckahoe: "10707",
+  "Mount Vernon": "10552",
 };
 
 async function fetchTownData(townName) {
