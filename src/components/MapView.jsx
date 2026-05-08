@@ -50,6 +50,53 @@ function directionsUrl(town, dest) {
   return `https://www.google.com/maps/dir/?api=1&origin=${town.lat},${town.lng}&destination=${encodeURIComponent(dest.address)}&travelmode=driving`;
 }
 
+// Dark popup CSS overrides (injected once)
+const POPUP_STYLE_ID = "domus-popup-style";
+function injectPopupStyles() {
+  if (document.getElementById(POPUP_STYLE_ID)) return;
+  const style = document.createElement("style");
+  style.id = POPUP_STYLE_ID;
+  style.textContent = `
+    .mapboxgl-popup-content {
+      background: #0F1318 !important;
+      border: 1px solid rgba(201,169,110,0.3) !important;
+      border-radius: 10px !important;
+      padding: 16px !important;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.6) !important;
+      color: #F5EFE0 !important;
+      font-family: Georgia, serif !important;
+    }
+    .mapboxgl-popup-tip {
+      border-top-color: #0F1318 !important;
+      border-bottom-color: #0F1318 !important;
+    }
+    .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
+      border-top-color: #0F1318 !important;
+    }
+    .mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+      border-bottom-color: #0F1318 !important;
+    }
+    .mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
+      border-right-color: #0F1318 !important;
+    }
+    .mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
+      border-left-color: #0F1318 !important;
+    }
+    .mapboxgl-popup-close-button {
+      color: #F5EFE0 !important;
+      font-size: 18px !important;
+      padding: 4px 8px !important;
+      right: 2px !important;
+      top: 2px !important;
+    }
+    .mapboxgl-popup-close-button:hover {
+      background: rgba(201,169,110,0.15) !important;
+      border-radius: 4px !important;
+    }
+  `;
+  document.head.appendChild(style);
+}
+
 // Temporarily block all map movement (prevents Mapbox popup auto-pan)
 function freezeMap(map) {
   const saved = {
@@ -179,9 +226,9 @@ export default function MapView({ towns, onSelectTown }) {
   function trainHTML(mn) {
     if (!mn) return "";
     if (!mn.line || !mn.station) {
-      return `<div style="font-size: 12px; color: #888; font-family: Georgia, serif; margin-top: 4px;">Train: ${mn.note || "No station nearby"}</div>`;
+      return `<div style="font-size: 11px; color: rgba(245,239,232,0.4); font-family: Georgia, serif; margin-top: 4px;">Train: ${mn.note || "No station nearby"}</div>`;
     }
-    return `<div style="font-size: 12px; color: #555; font-family: Georgia, serif; margin-top: 4px;">Train: <strong style="color: #333;">${mn.timeToGCT} min</strong> on ${mn.line} Line from ${mn.station} &rarr; Grand Central</div>`;
+    return `<div style="font-size: 11px; color: rgba(245,239,232,0.5); font-family: Georgia, serif; margin-top: 4px;">Train: <strong style="color: #C9A96E;">${mn.timeToGCT} min</strong> on ${mn.line} Line from ${mn.station} &rarr; GCT</div>`;
   }
 
   // Build popup HTML with all destinations
@@ -193,14 +240,15 @@ export default function MapView({ towns, onSelectTown }) {
     let commuteBlocks = "";
     for (let i = 0; i < dests.length; i++) {
       const d = dests[i];
-      const sep = i > 0 ? `<hr style="border: none; border-top: 1px solid #eee; margin: 8px 0;">` : "";
+      const sep = i > 0 ? `<hr style="border: none; border-top: 1px solid rgba(201,169,110,0.15); margin: 8px 0;">` : "";
+      const labelColor = d.color === "#F5EFE0" ? "#C9A96E" : d.color;
 
       let driveLine;
       if (isLoading) {
-        driveLine = `<div style="font-size: 12px; color: #999; font-style: italic; font-family: Georgia, serif;">Calculating...</div>`;
+        driveLine = `<div style="font-size: 11px; color: rgba(245,239,232,0.35); font-style: italic; font-family: Georgia, serif;">Calculating...</div>`;
       } else if (routeResults && routeResults[d.id]) {
         const r = routeResults[d.id];
-        driveLine = `<div style="font-size: 13px; color: #1a1f2e; font-family: Georgia, serif;">Drive: <strong style="color: ${d.color === '#F5EFE0' ? '#B8943F' : d.color};">${r.duration} min</strong> · ${r.distance} mi</div>`;
+        driveLine = `<div style="font-size: 12px; color: rgba(245,239,232,0.6); font-family: Georgia, serif;">Drive: <strong style="color: #C9A96E;">${r.duration} min</strong> · ${r.distance} mi</div>`;
       } else {
         driveLine = "";
       }
@@ -210,10 +258,10 @@ export default function MapView({ towns, onSelectTown }) {
       commuteBlocks += `
         ${sep}
         <div style="margin: 4px 0;">
-          <div style="font-size: 11px; letter-spacing: 1px; text-transform: uppercase; color: ${d.color === '#F5EFE0' ? '#B8943F' : d.color}; font-family: Georgia, serif; margin-bottom: 3px;">
+          <div style="font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: ${labelColor}; font-family: Georgia, serif; margin-bottom: 3px;">
             To ${d.label}
           </div>
-          <div style="font-size: 11px; color: #999; font-family: Georgia, serif; margin-bottom: 3px;">${shortAddress(d.address)}</div>
+          <div style="font-size: 11px; color: rgba(245,239,232,0.35); font-family: Georgia, serif; margin-bottom: 3px;">${shortAddress(d.address)}</div>
           ${driveLine}
           ${trainLine}
         </div>
@@ -224,40 +272,41 @@ export default function MapView({ towns, onSelectTown }) {
     const viewRouteLink = !isLoading && routeResults
       ? `<div style="margin-top: 6px;">
           <a href="#" onclick="document.dispatchEvent(new CustomEvent('fitRoute'));return false;"
-            style="font-size: 11px; color: #B8943F; text-decoration: none; border-bottom: 1px solid rgba(184,148,63,0.3); font-family: Georgia, serif;">
+            style="font-size: 11px; color: #C9A96E; text-decoration: none; border-bottom: 1px solid rgba(201,169,110,0.3); font-family: Georgia, serif;">
             View all routes
           </a>
         </div>`
       : "";
 
     // Direction buttons
-    const dirButtons = dests.map((d) =>
-      `<a href="${directionsUrl(town, d)}" target="_blank" rel="noopener noreferrer"
-        style="font-size: 10px; letter-spacing: 0.5px; text-transform: uppercase; padding: 5px 10px;
-          background: #1a1f2e; color: ${d.color === '#F5EFE0' ? '#C9A96E' : d.color}; text-decoration: none; border-radius: 4px;
-          font-family: Georgia, serif; white-space: nowrap;">
+    const dirButtons = dests.map((d) => {
+      const btnColor = d.color === "#F5EFE0" ? "#C9A96E" : d.color;
+      return `<a href="${directionsUrl(town, d)}" target="_blank" rel="noopener noreferrer"
+        style="font-size: 9px; letter-spacing: 0.5px; text-transform: uppercase; padding: 5px 10px;
+          background: rgba(201,169,110,0.08); color: ${btnColor}; text-decoration: none; border-radius: 4px;
+          border: 1px solid rgba(201,169,110,0.15); font-family: Georgia, serif; white-space: nowrap;">
         ${d.label}
-      </a>`
-    ).join("");
+      </a>`;
+    }).join("");
 
     return `
-      <div style="font-family: Georgia, serif; padding: 4px 0; min-width: 240px;">
-        <div style="font-size: 16px; font-weight: 400; color: #1a1f2e; margin-bottom: 4px;">${town.name}</div>
-        <div style="font-size: 12px; color: #666; font-style: italic; margin-bottom: 6px;">${town.tagline}</div>
-        <div style="font-size: 13px; color: #333; margin-bottom: 10px;">
-          Median: <strong style="color: #B8943F;">${fmt(town.medianPrice)}</strong>
+      <div style="font-family: Georgia, serif; padding: 2px 0; min-width: 220px;">
+        <div style="font-size: 15px; font-weight: 400; color: #F5EFE0; margin-bottom: 3px;">${town.name}</div>
+        <div style="font-size: 11px; color: rgba(245,239,232,0.4); font-style: italic; margin-bottom: 6px;">${town.tagline}</div>
+        <div style="font-size: 13px; color: rgba(245,239,232,0.6); margin-bottom: 10px;">
+          Median: <strong style="color: #C9A96E;">${fmt(town.medianPrice)}</strong>
         </div>
-        <div style="border-top: 1px solid #ddd; padding-top: 8px; margin-bottom: 8px;">
+        <div style="border-top: 1px solid rgba(201,169,110,0.15); padding-top: 8px; margin-bottom: 8px;">
           ${commuteBlocks}
         </div>
         ${viewRouteLink}
         <div style="margin-top: 8px;">
-          <div style="font-size: 10px; letter-spacing: 1px; text-transform: uppercase; color: #999; margin-bottom: 5px; font-family: Georgia, serif;">Directions to</div>
+          <div style="font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(245,239,232,0.3); margin-bottom: 5px; font-family: Georgia, serif;">Directions to</div>
           <div style="display: flex; gap: 6px; flex-wrap: wrap;">
             ${dirButtons}
             <button onclick="document.dispatchEvent(new CustomEvent('selectTown', {detail:'${town.name}'}))"
-              style="font-size: 10px; letter-spacing: 0.5px; text-transform: uppercase; padding: 5px 10px;
-                background: transparent; color: #1a1f2e; border: 1px solid #ddd; border-radius: 4px;
+              style="font-size: 9px; letter-spacing: 0.5px; text-transform: uppercase; padding: 5px 10px;
+                background: transparent; color: #F5EFE0; border: 1px solid rgba(245,239,232,0.15); border-radius: 4px;
                 cursor: pointer; font-family: Georgia, serif; white-space: nowrap;">
               Town Details
             </button>
@@ -313,6 +362,7 @@ export default function MapView({ towns, onSelectTown }) {
   // Initialize map
   useEffect(() => {
     if (mapRef.current) return;
+    injectPopupStyles();
     const map = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/dark-v11",
@@ -358,11 +408,13 @@ export default function MapView({ towns, onSelectTown }) {
         el.addEventListener("mouseleave", () => { el.style.transform = "scale(1)"; });
 
         const popup = new mapboxgl.Popup({
-          offset: 15,
           anchor: "bottom",
+          offset: [0, -15],
           closeButton: true,
           closeOnClick: false,
-          maxWidth: "340px",
+          closeOnMove: false,
+          focusAfterOpen: false,
+          maxWidth: "300px",
         }).setHTML(popupHTML(t, destinations, null));
 
         popup.on("close", () => {
@@ -404,12 +456,17 @@ export default function MapView({ towns, onSelectTown }) {
         `;
 
         const popup = new mapboxgl.Popup({
-          offset: 16,
+          anchor: "bottom",
+          offset: [0, -15],
           closeButton: false,
+          closeOnClick: true,
+          closeOnMove: false,
+          focusAfterOpen: false,
+          maxWidth: "260px",
         }).setHTML(`
           <div style="font-family: Georgia, serif; padding: 2px 0;">
-            <div style="font-size: 14px; font-weight: 400; color: #1a1f2e;">${d.label}</div>
-            <div style="font-size: 12px; color: #666; margin-top: 2px;">${d.address}</div>
+            <div style="font-size: 14px; font-weight: 400; color: #F5EFE0;">${d.label}</div>
+            <div style="font-size: 12px; color: rgba(245,239,232,0.5); margin-top: 2px;">${d.address}</div>
           </div>
         `);
 
