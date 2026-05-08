@@ -5,13 +5,14 @@ import "mapbox-gl/dist/mapbox-gl.css";
 mapboxgl.accessToken = import.meta.env.VITE_MAPBOX_TOKEN;
 const TOKEN = import.meta.env.VITE_MAPBOX_TOKEN;
 
-const INITIAL_DESTINATIONS = [
+const DESTINATIONS = [
   {
     id: "eds_office",
     label: "Ed's Office",
     address: "1285 Avenue of the Americas, New York, NY",
     coords: [40.7610, -73.9803],
     color: "#F5EFE0",
+    displayColor: "#C9A96E",
     showTrainInfo: true,
   },
   {
@@ -20,6 +21,7 @@ const INITIAL_DESTINATIONS = [
     address: "35 Industrial Drive, East Longmeadow, MA",
     coords: [42.0717, -72.4978],
     color: "#C97B5A",
+    displayColor: "#C97B5A",
     showTrainInfo: false,
   },
   {
@@ -28,6 +30,7 @@ const INITIAL_DESTINATIONS = [
     address: "81 Richmond Hill, New Canaan, CT",
     coords: [41.1450, -73.4910],
     color: "#8FA68E",
+    displayColor: "#8FA68E",
     showTrainInfo: false,
   },
 ];
@@ -49,98 +52,306 @@ function directionsUrl(town, dest) {
   return `https://www.google.com/maps/dir/?api=1&origin=${town.lat},${town.lng}&destination=${encodeURIComponent(dest.address)}&travelmode=driving`;
 }
 
-// Dark popup CSS overrides (injected once)
-const POPUP_STYLE_ID = "domus-popup-style";
-function injectPopupStyles() {
-  if (document.getElementById(POPUP_STYLE_ID)) return;
-  const style = document.createElement("style");
-  style.id = POPUP_STYLE_ID;
-  style.textContent = `
-    .mapboxgl-popup {
-      opacity: 0;
-      transition: opacity 200ms ease;
-      pointer-events: auto;
-    }
-    .mapboxgl-popup.domus-visible {
-      opacity: 1;
-    }
-    .mapboxgl-popup-content {
-      background: #0F1318 !important;
-      border: 1px solid rgba(201,169,110,0.3) !important;
-      border-radius: 10px !important;
-      padding: 14px !important;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.6) !important;
-      color: #F5EFE0 !important;
-      font-family: Georgia, serif !important;
-      max-height: calc(100vh - 200px) !important;
-      overflow-y: auto !important;
-    }
-    .mapboxgl-popup-content::-webkit-scrollbar {
-      width: 5px;
-    }
-    .mapboxgl-popup-content::-webkit-scrollbar-track {
-      background: #0F1318;
-      border-radius: 4px;
-    }
-    .mapboxgl-popup-content::-webkit-scrollbar-thumb {
-      background: rgba(201,169,110,0.3);
-      border-radius: 4px;
-    }
-    .mapboxgl-popup-content::-webkit-scrollbar-thumb:hover {
-      background: rgba(201,169,110,0.5);
-    }
-    .mapboxgl-popup-content {
-      scrollbar-width: thin;
-      scrollbar-color: rgba(201,169,110,0.3) #0F1318;
-    }
-    .mapboxgl-popup-tip {
-      border-top-color: #0F1318 !important;
-      border-bottom-color: #0F1318 !important;
-    }
-    .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip {
-      border-top-color: #0F1318 !important;
-    }
-    .mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
-      border-bottom-color: #0F1318 !important;
-    }
-    .mapboxgl-popup-anchor-left .mapboxgl-popup-tip {
-      border-right-color: #0F1318 !important;
-    }
-    .mapboxgl-popup-anchor-right .mapboxgl-popup-tip {
-      border-left-color: #0F1318 !important;
-    }
-    .mapboxgl-popup-close-button {
-      color: #F5EFE0 !important;
-      font-size: 18px !important;
-      padding: 4px 8px !important;
-      right: 2px !important;
-      top: 2px !important;
-    }
-    .mapboxgl-popup-close-button:hover {
-      background: rgba(201,169,110,0.15) !important;
-      border-radius: 4px !important;
-    }
-  `;
-  document.head.appendChild(style);
+// ── Side Panel (React component, no Mapbox dependency) ──────────────
+
+function SidePanel({ town, routes, destinations, onSelectTown }) {
+  const s = styles;
+
+  if (!town) {
+    return (
+      <div style={s.panel}>
+        <div style={s.defaultState}>
+          <div style={s.defaultLabel}>Commute Intelligence</div>
+          <div style={s.defaultHeadline}>
+            Three anchors. Seventeen towns.
+          </div>
+          <div style={s.defaultSub}>
+            Hover any pin to see the geography of a family decision.
+          </div>
+          <div style={{ marginTop: "28px" }}>
+            {destinations.map((d) => (
+              <div key={d.id} style={s.destRow}>
+                <div style={{ ...s.destDot, background: d.color }} />
+                <div>
+                  <div style={{ ...s.destName, color: d.displayColor }}>{d.label}</div>
+                  <div style={s.destAddr}>{d.address}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+          <div style={s.legendRow}>
+            <div style={{ ...s.legendDot, background: "#C9A96E", border: "1.5px solid #F5EFE8" }} />
+            <span style={s.legendText}>Westchester Town</span>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  const mn = town.metroNorth;
+  const isLoading = routes === null;
+
+  return (
+    <div style={s.panel}>
+      <div style={s.cardWrap}>
+        {/* Header */}
+        <div style={s.townName}>{town.name}</div>
+        <div style={s.tagline}>{town.tagline}</div>
+        <div style={s.median}>
+          Median: <strong style={{ color: "#C9A96E" }}>{fmt(town.medianPrice)}</strong>
+        </div>
+
+        <div style={s.divider} />
+
+        {/* Destination sections */}
+        {destinations.map((d, i) => {
+          const r = routes ? routes[d.id] : null;
+          return (
+            <div key={d.id}>
+              {i > 0 && <div style={s.sectionDivider} />}
+              <div style={{ ...s.sectionHeader, color: d.displayColor }}>
+                To {d.label}
+              </div>
+              <div style={s.sectionAddr}>{shortAddress(d.address)}</div>
+              {isLoading ? (
+                <div style={s.calculating}>Calculating...</div>
+              ) : r ? (
+                <div style={s.driveLine}>
+                  Drive: <strong style={{ color: "#C9A96E" }}>{r.duration} min</strong> · {r.distance} mi
+                </div>
+              ) : null}
+              {d.showTrainInfo && mn && (
+                mn.line && mn.station ? (
+                  <div style={s.trainLine}>
+                    Train: <strong style={{ color: "#C9A96E" }}>{mn.timeToGCT} min</strong> {mn.line} Line from {mn.station} → GCT
+                  </div>
+                ) : mn.note ? (
+                  <div style={s.trainNote}>{mn.note}</div>
+                ) : null
+              )}
+            </div>
+          );
+        })}
+
+        <div style={s.divider} />
+
+        {/* Direction buttons */}
+        <div style={s.dirLabel}>Directions to</div>
+        <div style={s.dirRow}>
+          {destinations.map((d) => (
+            <a
+              key={d.id}
+              href={directionsUrl(town, d)}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ ...s.dirBtn, color: d.displayColor }}
+            >
+              {d.label}
+            </a>
+          ))}
+          <button
+            onClick={() => onSelectTown && onSelectTown(town.name)}
+            style={s.detailsBtn}
+          >
+            Town Details
+          </button>
+        </div>
+      </div>
+    </div>
+  );
 }
+
+const styles = {
+  panel: {
+    background: "#0F1318",
+    borderLeft: "1px solid rgba(201,169,110,0.15)",
+    height: "100%",
+    overflowY: "auto",
+    padding: "28px 22px",
+    fontFamily: "'Georgia', serif",
+    scrollbarWidth: "thin",
+    scrollbarColor: "rgba(201,169,110,0.3) #0F1318",
+  },
+  // Default (no town hovered)
+  defaultState: { },
+  defaultLabel: {
+    fontSize: "10px",
+    letterSpacing: "2.5px",
+    textTransform: "uppercase",
+    color: "#C9A96E",
+    marginBottom: "14px",
+  },
+  defaultHeadline: {
+    fontSize: "18px",
+    color: "#F5EFE0",
+    lineHeight: 1.4,
+    marginBottom: "8px",
+  },
+  defaultSub: {
+    fontSize: "13px",
+    color: "rgba(245,239,232,0.4)",
+    fontStyle: "italic",
+    lineHeight: 1.5,
+  },
+  destRow: {
+    display: "flex",
+    alignItems: "flex-start",
+    gap: "10px",
+    marginBottom: "14px",
+  },
+  destDot: {
+    width: "10px",
+    height: "10px",
+    borderRadius: "50%",
+    border: "1.5px solid #fff",
+    flexShrink: 0,
+    marginTop: "4px",
+  },
+  destName: {
+    fontSize: "13px",
+    fontWeight: 400,
+  },
+  destAddr: {
+    fontSize: "11px",
+    color: "rgba(245,239,232,0.35)",
+    marginTop: "1px",
+  },
+  legendRow: {
+    display: "flex",
+    alignItems: "center",
+    gap: "8px",
+    marginTop: "20px",
+    paddingTop: "16px",
+    borderTop: "1px solid rgba(201,169,110,0.1)",
+  },
+  legendDot: {
+    width: "10px",
+    height: "10px",
+    borderRadius: "50%",
+    flexShrink: 0,
+  },
+  legendText: {
+    fontSize: "11px",
+    color: "rgba(245,239,232,0.35)",
+  },
+  // Card (town hovered)
+  cardWrap: { },
+  townName: {
+    fontSize: "20px",
+    fontWeight: 400,
+    color: "#F5EFE0",
+    marginBottom: "4px",
+  },
+  tagline: {
+    fontSize: "12px",
+    color: "rgba(201,169,110,0.7)",
+    fontStyle: "italic",
+    marginBottom: "10px",
+    lineHeight: 1.4,
+  },
+  median: {
+    fontSize: "14px",
+    color: "rgba(245,239,232,0.6)",
+    marginBottom: "6px",
+  },
+  divider: {
+    borderTop: "1px solid rgba(201,169,110,0.15)",
+    margin: "14px 0",
+  },
+  sectionDivider: {
+    borderTop: "1px solid rgba(201,169,110,0.1)",
+    margin: "10px 0",
+  },
+  sectionHeader: {
+    fontSize: "10px",
+    letterSpacing: "1.5px",
+    textTransform: "uppercase",
+    marginBottom: "3px",
+    lineHeight: 1.3,
+  },
+  sectionAddr: {
+    fontSize: "12px",
+    color: "rgba(245,239,232,0.35)",
+    marginBottom: "4px",
+  },
+  calculating: {
+    fontSize: "12px",
+    color: "rgba(245,239,232,0.3)",
+    fontStyle: "italic",
+  },
+  driveLine: {
+    fontSize: "13px",
+    color: "rgba(245,239,232,0.6)",
+    lineHeight: 1.4,
+  },
+  trainLine: {
+    fontSize: "12px",
+    color: "rgba(245,239,232,0.5)",
+    marginTop: "3px",
+    lineHeight: 1.3,
+  },
+  trainNote: {
+    fontSize: "11px",
+    color: "rgba(245,239,232,0.35)",
+    marginTop: "3px",
+    lineHeight: 1.3,
+  },
+  dirLabel: {
+    fontSize: "9px",
+    letterSpacing: "1.5px",
+    textTransform: "uppercase",
+    color: "rgba(245,239,232,0.3)",
+    marginBottom: "8px",
+  },
+  dirRow: {
+    display: "flex",
+    flexWrap: "wrap",
+    gap: "8px",
+  },
+  dirBtn: {
+    fontSize: "10px",
+    letterSpacing: "0.5px",
+    textTransform: "uppercase",
+    padding: "7px 12px",
+    background: "rgba(201,169,110,0.08)",
+    border: "1px solid rgba(201,169,110,0.15)",
+    borderRadius: "5px",
+    textDecoration: "none",
+    fontFamily: "'Georgia', serif",
+    whiteSpace: "nowrap",
+  },
+  detailsBtn: {
+    fontSize: "10px",
+    letterSpacing: "0.5px",
+    textTransform: "uppercase",
+    padding: "7px 12px",
+    background: "transparent",
+    color: "#F5EFE0",
+    border: "1px solid rgba(245,239,232,0.15)",
+    borderRadius: "5px",
+    cursor: "pointer",
+    fontFamily: "'Georgia', serif",
+    whiteSpace: "nowrap",
+  },
+};
+
+// ── Main MapView ────────────────────────────────────────────────────
 
 export default function MapView({ towns, onSelectTown }) {
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
   const townMarkersRef = useRef([]);
   const destMarkersRef = useRef([]);
-  const activeTownRef = useRef(null);
-  const activePopupRef = useRef(null);
-  const closeTimerRef = useRef(null);
   const routeGeometriesRef = useRef([]);
-  const [destinations, setDestinations] = useState(INITIAL_DESTINATIONS);
-  const destsRef = useRef(destinations);
+  const activeTownRef = useRef(null);
 
-  useEffect(() => { destsRef.current = destinations; }, [destinations]);
+  const [hoveredTown, setHoveredTown] = useState(null);
+  const [routeData, setRouteData] = useState(null); // null = loading, {} = results
+  const [destCoords, setDestCoords] = useState(DESTINATIONS);
 
   // Geocode Erika's House on mount
   useEffect(() => {
-    async function geocodeErika() {
+    (async () => {
       try {
         const res = await fetch(
           `https://api.mapbox.com/geocoding/v5/mapbox.places/${encodeURIComponent("81 Richmond Hill, New Canaan, CT")}.json?access_token=${TOKEN}&limit=1`
@@ -149,7 +360,7 @@ export default function MapView({ towns, onSelectTown }) {
         const f = data.features?.[0];
         if (f) {
           const [lng, lat] = f.center;
-          setDestinations((prev) =>
+          setDestCoords((prev) =>
             prev.map((d) =>
               d.id === "erikas_house" ? { ...d, coords: [lat, lng] } : d
             )
@@ -158,8 +369,7 @@ export default function MapView({ towns, onSelectTown }) {
       } catch (e) {
         console.error("Geocode Erika error:", e);
       }
-    }
-    geocodeErika();
+    })();
   }, []);
 
   // Fetch driving route
@@ -176,7 +386,7 @@ export default function MapView({ towns, onSelectTown }) {
     };
   }
 
-  // Draw multiple routes
+  // Draw route lines on map
   function drawRoutes(map, routeResults) {
     clearAllRoutes(map);
     routeGeometriesRef.current = [];
@@ -193,18 +403,14 @@ export default function MapView({ towns, onSelectTown }) {
         type: "line",
         source: srcId,
         layout: { "line-cap": "round", "line-join": "round" },
-        paint: {
-          "line-color": r.color,
-          "line-width": 4,
-          "line-opacity": 0.85,
-        },
+        paint: { "line-color": r.color, "line-width": 4, "line-opacity": 0.85 },
       });
       routeGeometriesRef.current.push({ destId: r.destId, geometry: r.geometry });
     }
   }
 
   function clearAllRoutes(map) {
-    for (const dest of destsRef.current) {
+    for (const dest of destCoords) {
       const lyrId = routeLayerId(dest.id);
       const srcId = routeSourceId(dest.id);
       if (map.getLayer(lyrId)) map.removeLayer(lyrId);
@@ -213,181 +419,25 @@ export default function MapView({ towns, onSelectTown }) {
     routeGeometriesRef.current = [];
   }
 
-  function fitAllRoutesInView() {
+  // Handle hover — update React state + draw routes
+  async function handleHover(town) {
     const map = mapRef.current;
-    const geoms = routeGeometriesRef.current;
-    if (!map || geoms.length === 0) return;
-    const allCoords = geoms.flatMap((g) => g.geometry.coordinates);
-    const bounds = allCoords.reduce(
-      (b, c) => b.extend(c),
-      new mapboxgl.LngLatBounds(allCoords[0], allCoords[0])
-    );
-    map.fitBounds(bounds, { padding: 60, duration: 800 });
-  }
-
-  // Train info HTML
-  function trainHTML(mn) {
-    if (!mn) return "";
-    if (!mn.line || !mn.station) {
-      return `<div style="font-size: 10px; color: rgba(245,239,232,0.4); font-family: Georgia, serif; margin-top: 2px; line-height: 1.3;">Train: ${mn.note || "No station nearby"}</div>`;
-    }
-    return `<div style="font-size: 10px; color: rgba(245,239,232,0.5); font-family: Georgia, serif; margin-top: 2px; line-height: 1.3;">Train: <strong style="color: #C9A96E;">${mn.timeToGCT} min</strong> ${mn.line} Line from ${mn.station} &rarr; GCT</div>`;
-  }
-
-  // Build popup HTML
-  function popupHTML(town, dests, routeResults) {
-    const mn = town.metroNorth;
-    const isLoading = routeResults === "loading";
-
-    let commuteBlocks = "";
-    for (let i = 0; i < dests.length; i++) {
-      const d = dests[i];
-      const sep = i > 0 ? `<hr style="border: none; border-top: 1px solid rgba(201,169,110,0.12); margin: 5px 0;">` : "";
-      const labelColor = d.color === "#F5EFE0" ? "#C9A96E" : d.color;
-
-      let driveLine;
-      if (isLoading) {
-        driveLine = `<div style="font-size: 11px; color: rgba(245,239,232,0.35); font-style: italic; font-family: Georgia, serif; line-height: 1.3;">Calculating...</div>`;
-      } else if (routeResults && routeResults[d.id]) {
-        const r = routeResults[d.id];
-        driveLine = `<div style="font-size: 12px; color: rgba(245,239,232,0.6); font-family: Georgia, serif; line-height: 1.3;">Drive: <strong style="color: #C9A96E;">${r.duration} min</strong> · ${r.distance} mi</div>`;
-      } else {
-        driveLine = "";
-      }
-
-      const trainLine = d.showTrainInfo ? trainHTML(mn) : "";
-
-      commuteBlocks += `
-        ${sep}
-        <div style="margin: 2px 0;">
-          <div style="font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: ${labelColor}; font-family: Georgia, serif; margin-bottom: 2px; line-height: 1.3;">
-            To ${d.label}
-          </div>
-          <div style="font-size: 11px; color: rgba(245,239,232,0.35); font-family: Georgia, serif; margin-bottom: 3px;">${shortAddress(d.address)}</div>
-          ${driveLine}
-          ${trainLine}
-        </div>
-      `;
-    }
-
-    const viewRouteLink = !isLoading && routeResults
-      ? `<div style="margin-top: 6px;">
-          <a href="#" onclick="document.dispatchEvent(new CustomEvent('fitRoute'));return false;"
-            style="font-size: 11px; color: #C9A96E; text-decoration: none; border-bottom: 1px solid rgba(201,169,110,0.3); font-family: Georgia, serif;">
-            View all routes
-          </a>
-        </div>`
-      : "";
-
-    const dirButtons = dests.map((d) => {
-      const btnColor = d.color === "#F5EFE0" ? "#C9A96E" : d.color;
-      return `<a href="${directionsUrl(town, d)}" target="_blank" rel="noopener noreferrer"
-        style="font-size: 9px; letter-spacing: 0.5px; text-transform: uppercase; padding: 5px 10px;
-          background: rgba(201,169,110,0.08); color: ${btnColor}; text-decoration: none; border-radius: 4px;
-          border: 1px solid rgba(201,169,110,0.15); font-family: Georgia, serif; white-space: nowrap;">
-        ${d.label}
-      </a>`;
-    }).join("");
-
-    return `
-      <div style="font-family: Georgia, serif; padding: 0; min-width: 210px; line-height: 1.4;">
-        <div style="font-size: 15px; font-weight: 400; color: #F5EFE0; margin-bottom: 2px;">${town.name}</div>
-        <div style="font-size: 11px; color: rgba(245,239,232,0.4); font-style: italic; margin-bottom: 4px;">${town.tagline}</div>
-        <div style="font-size: 12px; color: rgba(245,239,232,0.6); margin-bottom: 6px;">
-          Median: <strong style="color: #C9A96E;">${fmt(town.medianPrice)}</strong>
-        </div>
-        <div style="border-top: 1px solid rgba(201,169,110,0.12); padding-top: 6px; margin-bottom: 4px;">
-          ${commuteBlocks}
-        </div>
-        ${viewRouteLink}
-        <div style="margin-top: 6px;">
-          <div style="font-size: 9px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(245,239,232,0.3); margin-bottom: 4px; font-family: Georgia, serif;">Directions to</div>
-          <div style="display: flex; gap: 6px; flex-wrap: wrap;">
-            ${dirButtons}
-            <button onclick="document.dispatchEvent(new CustomEvent('selectTown', {detail:'${town.name}'}))"
-              style="font-size: 9px; letter-spacing: 0.5px; text-transform: uppercase; padding: 5px 10px;
-                background: transparent; color: #F5EFE0; border: 1px solid rgba(245,239,232,0.15); border-radius: 4px;
-                cursor: pointer; font-family: Georgia, serif; white-space: nowrap;">
-              Town Details
-            </button>
-          </div>
-        </div>
-      </div>
-    `;
-  }
-
-  // Close the active popup and clear routes
-  function dismissPopup(map) {
-    if (activePopupRef.current) {
-      // Fade out
-      const el = activePopupRef.current.getElement();
-      if (el) el.classList.remove("domus-visible");
-      const popup = activePopupRef.current;
-      setTimeout(() => { popup.remove(); }, 200);
-      activePopupRef.current = null;
-    }
-    activeTownRef.current = null;
-    if (map) clearAllRoutes(map);
-  }
-
-  // Schedule a delayed dismiss (cancelled if mouse enters popup)
-  function scheduleDismiss(map) {
-    clearTimeout(closeTimerRef.current);
-    closeTimerRef.current = setTimeout(() => dismissPopup(map), 150);
-  }
-
-  function cancelDismiss() {
-    clearTimeout(closeTimerRef.current);
-  }
-
-  // Handle hover on a town pin
-  async function handleTownHover(town, map) {
-    // If already showing this town, do nothing
+    if (!map) return;
     if (activeTownRef.current === town.name) return;
 
-    // Dismiss previous
-    dismissPopup(map);
     activeTownRef.current = town.name;
+    setHoveredTown(town);
+    setRouteData(null); // show loading state
 
-    const dests = destsRef.current;
-
-    // Create popup manually (not attached to marker — full control)
-    const popup = new mapboxgl.Popup({
-      offset: 15,
-      closeButton: false,
-      closeOnClick: false,
-      closeOnMove: false,
-      focusAfterOpen: false,
-      maxWidth: "300px",
-    })
-      .setLngLat([town.lng, town.lat])
-      .setHTML(popupHTML(town, dests, "loading"))
-      .addTo(map);
-
-    activePopupRef.current = popup;
-
-    // Fade in after a frame (so the transition triggers)
-    requestAnimationFrame(() => {
-      const el = popup.getElement();
-      if (el) {
-        el.classList.add("domus-visible");
-        // Keep popup alive while mouse is over it
-        el.addEventListener("mouseenter", cancelDismiss);
-        el.addEventListener("mouseleave", () => scheduleDismiss(map));
-      }
-    });
-
-    // Fetch routes to all destinations
     try {
       const results = await Promise.all(
-        dests.map(async (d) => {
+        destCoords.map(async (d) => {
           const [lat, lng] = d.coords;
           const route = await fetchRoute(town.lng, town.lat, lng, lat);
           return { destId: d.id, color: d.color, ...(route || {}) };
         })
       );
 
-      // Bail if user already hovered away
       if (activeTownRef.current !== town.name) return;
 
       drawRoutes(map, results.filter((r) => r.geometry));
@@ -398,26 +448,26 @@ export default function MapView({ towns, onSelectTown }) {
           resultMap[r.destId] = { duration: r.duration, distance: r.distance };
         }
       }
-      popup.setHTML(popupHTML(town, dests, resultMap));
-
-      // Re-attach popup hover listeners after setHTML replaces DOM
-      const el = popup.getElement();
-      if (el) {
-        el.addEventListener("mouseenter", cancelDismiss);
-        el.addEventListener("mouseleave", () => scheduleDismiss(map));
-      }
+      setRouteData(resultMap);
     } catch (err) {
       console.error("Route fetch error:", err);
       if (activeTownRef.current === town.name) {
-        popup.setHTML(popupHTML(town, dests, null));
+        setRouteData({});
       }
     }
+  }
+
+  function handleLeave() {
+    const map = mapRef.current;
+    activeTownRef.current = null;
+    setHoveredTown(null);
+    setRouteData(null);
+    if (map) clearAllRoutes(map);
   }
 
   // Initialize map
   useEffect(() => {
     if (mapRef.current) return;
-    injectPopupStyles();
     const map = new mapboxgl.Map({
       container: mapContainer.current,
       style: "mapbox://styles/mapbox/dark-v11",
@@ -429,23 +479,21 @@ export default function MapView({ towns, onSelectTown }) {
     return () => { map.remove(); mapRef.current = null; };
   }, []);
 
-  // Add town + destination markers, fitBounds on load
+  // Add markers + fitBounds on load
   useEffect(() => {
     const map = mapRef.current;
     if (!map) return;
 
-    // Clear previous
     townMarkersRef.current.forEach((m) => m.remove());
     townMarkersRef.current = [];
     destMarkersRef.current.forEach((m) => m.remove());
     destMarkersRef.current = [];
-    dismissPopup(map);
 
     const onLoad = () => {
       clearAllRoutes(map);
       const allPoints = [];
 
-      // Town markers — hover-based interaction
+      // Town markers
       towns.forEach((t) => {
         if (!t.lat || !t.lng) return;
         allPoints.push([t.lng, t.lat]);
@@ -461,25 +509,22 @@ export default function MapView({ towns, onSelectTown }) {
         el.addEventListener("mouseenter", () => {
           el.style.transform = "scale(1.4)";
           el.style.boxShadow = "0 0 14px rgba(201,169,110,0.8)";
-          cancelDismiss();
-          handleTownHover(t, map);
+          handleHover(t);
         });
-
         el.addEventListener("mouseleave", () => {
           el.style.transform = "scale(1)";
           el.style.boxShadow = "0 0 8px rgba(201,169,110,0.5)";
-          scheduleDismiss(map);
+          handleLeave();
         });
 
         const marker = new mapboxgl.Marker({ element: el })
           .setLngLat([t.lng, t.lat])
           .addTo(map);
-
         townMarkersRef.current.push(marker);
       });
 
-      // Destination markers — proper Mapbox markers at geographic coords
-      destinations.forEach((d) => {
+      // Destination markers
+      destCoords.forEach((d) => {
         const [lat, lng] = d.coords;
         allPoints.push([lng, lat]);
 
@@ -494,39 +539,10 @@ export default function MapView({ towns, onSelectTown }) {
         const marker = new mapboxgl.Marker({ element: el })
           .setLngLat([lng, lat])
           .addTo(map);
-
-        // Simple hover label for destinations
-        const destPopup = new mapboxgl.Popup({
-          offset: 15,
-          closeButton: false,
-          closeOnClick: false,
-          closeOnMove: false,
-          focusAfterOpen: false,
-          maxWidth: "260px",
-        }).setHTML(`
-          <div style="font-family: Georgia, serif; padding: 2px 0;">
-            <div style="font-size: 14px; font-weight: 400; color: #F5EFE0;">${d.label}</div>
-            <div style="font-size: 12px; color: rgba(245,239,232,0.5); margin-top: 2px;">${d.address}</div>
-          </div>
-        `);
-
-        el.addEventListener("mouseenter", () => {
-          destPopup.setLngLat([lng, lat]).addTo(map);
-          requestAnimationFrame(() => {
-            const popEl = destPopup.getElement();
-            if (popEl) popEl.classList.add("domus-visible");
-          });
-        });
-        el.addEventListener("mouseleave", () => {
-          const popEl = destPopup.getElement();
-          if (popEl) popEl.classList.remove("domus-visible");
-          setTimeout(() => destPopup.remove(), 200);
-        });
-
         destMarkersRef.current.push(marker);
       });
 
-      // Fit bounds to include all towns + destinations
+      // Initial fitBounds — only camera call in the entire file
       if (allPoints.length > 1) {
         const bounds = allPoints.reduce(
           (b, c) => b.extend(c),
@@ -536,53 +552,49 @@ export default function MapView({ towns, onSelectTown }) {
       }
     };
 
-    if (map.loaded()) {
-      onLoad();
-    } else {
-      map.on("load", onLoad);
-    }
-  }, [towns, destinations]);
-
-  // Event listeners for popup buttons
-  useEffect(() => {
-    const selectHandler = (e) => { if (onSelectTown) onSelectTown(e.detail); };
-    const fitHandler = () => fitAllRoutesInView();
-    document.addEventListener("selectTown", selectHandler);
-    document.addEventListener("fitRoute", fitHandler);
-    return () => {
-      document.removeEventListener("selectTown", selectHandler);
-      document.removeEventListener("fitRoute", fitHandler);
-    };
-  }, [onSelectTown]);
+    if (map.loaded()) onLoad();
+    else map.on("load", onLoad);
+  }, [towns, destCoords]);
 
   return (
-    <div style={{ padding: "0 60px 40px", maxWidth: "1440px", margin: "0 auto" }}>
+    <div style={{
+      display: "flex",
+      maxWidth: "1440px",
+      margin: "0 auto",
+      padding: "0 40px 40px",
+      gap: "0",
+      height: "620px",
+    }}>
+      {/* Map — 70% */}
       <div style={{
-        borderRadius: "12px",
+        flex: "7 1 0%",
+        minWidth: 0,
+        borderRadius: "12px 0 0 12px",
         border: "1px solid rgba(201,169,110,0.2)",
+        borderRight: "none",
         overflow: "hidden",
-        height: "600px",
         position: "relative",
       }}>
         <div ref={mapContainer} style={{ width: "100%", height: "100%" }} />
       </div>
 
+      {/* Side Panel — 30% */}
       <div style={{
-        display: "flex", gap: "20px", marginTop: "14px",
-        fontSize: "12px", color: "rgba(255,255,255,0.35)",
-        fontFamily: "'Georgia', serif",
-        flexWrap: "wrap",
+        flex: "3 1 0%",
+        minWidth: "280px",
+        maxWidth: "380px",
+        borderRadius: "0 12px 12px 0",
+        border: "1px solid rgba(201,169,110,0.2)",
+        borderLeft: "none",
+        overflow: "hidden",
+        transition: "opacity 200ms ease",
       }}>
-        <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-          <div style={{ width: "10px", height: "10px", borderRadius: "50%", background: "#C9A96E", border: "1.5px solid #F5EFE8" }} />
-          Westchester Town
-        </div>
-        {destinations.map((d) => (
-          <div key={d.id} style={{ display: "flex", alignItems: "center", gap: "6px" }}>
-            <div style={{ width: "10px", height: "10px", borderRadius: "50%", background: d.color, border: "1.5px solid #fff" }} />
-            {d.label}
-          </div>
-        ))}
+        <SidePanel
+          town={hoveredTown}
+          routes={routeData}
+          destinations={destCoords}
+          onSelectTown={onSelectTown}
+        />
       </div>
     </div>
   );
