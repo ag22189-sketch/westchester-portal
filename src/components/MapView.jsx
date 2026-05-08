@@ -109,14 +109,19 @@ function injectPopupStyles() {
   document.head.appendChild(style);
 }
 
-// Temporarily block all map movement (prevents Mapbox popup auto-pan)
-function freezeMap(map) {
-  const methods = ["panTo", "flyTo", "easeTo", "setCenter", "fitBounds", "jumpTo", "zoomTo", "setZoom"];
-  const saved = {};
-  for (const m of methods) saved[m] = map[m];
-  const noop = function () { return this; };
-  for (const m of methods) map[m] = noop;
-  return () => { for (const m of methods) map[m] = saved[m]; };
+// Capture camera state and return a restoreCamera function that uses
+// the Map prototype's jumpTo directly (bypasses any instance overrides)
+function captureCamera(map) {
+  const state = {
+    center: [map.getCenter().lng, map.getCenter().lat],
+    zoom: map.getZoom(),
+    bearing: map.getBearing(),
+    pitch: map.getPitch(),
+  };
+  const restore = () => {
+    mapboxgl.Map.prototype.jumpTo.call(map, state);
+  };
+  return restore;
 }
 
 export default function MapView({ towns, onSelectTown }) {
@@ -314,14 +319,20 @@ export default function MapView({ towns, onSelectTown }) {
   }
 
   // Handle town marker click — fetch routes to ALL destinations
-  // unfreezeMap is passed from the click handler; we call it when fully done
-  async function handleMarkerClick(town, marker, map, unfreezeMap) {
+  async function handleMarkerClick(town, marker, map) {
     const dests = destsRef.current;
     activeTownRef.current = town.name;
+
+    // Capture camera BEFORE anything else
+    const restoreCamera = captureCamera(map);
 
     const popup = marker.getPopup();
     popup.setHTML(popupHTML(town, dests, "loading"));
     if (!popup.isOpen()) marker.togglePopup();
+
+    // Snap back immediately after popup opens
+    requestAnimationFrame(restoreCamera);
+    setTimeout(restoreCamera, 50);
 
     try {
       const results = await Promise.all(
@@ -345,14 +356,18 @@ export default function MapView({ towns, onSelectTown }) {
         }
       }
       popup.setHTML(popupHTML(town, dests, resultMap));
+
+      // Snap back after popup content update
+      requestAnimationFrame(restoreCamera);
+      setTimeout(restoreCamera, 50);
+      setTimeout(restoreCamera, 250);
     } catch (err) {
       console.error("Route fetch error:", err);
       if (activeTownRef.current === town.name) {
         popup.setHTML(popupHTML(town, dests, null));
+        requestAnimationFrame(restoreCamera);
+        setTimeout(restoreCamera, 50);
       }
-    } finally {
-      // Unfreeze after a few frames so any deferred popup repositioning is blocked
-      requestAnimationFrame(() => requestAnimationFrame(() => requestAnimationFrame(unfreezeMap)));
     }
   }
 
@@ -427,13 +442,10 @@ export default function MapView({ towns, onSelectTown }) {
 
         el.addEventListener("click", (e) => {
           e.stopPropagation();
-          const unfreeze = freezeMap(map);
           townMarkersRef.current.forEach((m) => {
             if (m !== marker && m.getPopup().isOpen()) m.togglePopup();
           });
-          // Pass unfreeze to handleMarkerClick — it stays frozen for the
-          // entire async flow and unfreezes only when fully done
-          handleMarkerClick(t, marker, map, unfreeze);
+          handleMarkerClick(t, marker, map);
         });
 
         townMarkersRef.current.push(marker);
