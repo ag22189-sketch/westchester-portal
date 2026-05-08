@@ -7,6 +7,7 @@ const towns = [
   {
     name: "Irvington",
     lat: 41.0418, lng: -73.8682,
+    metroNorth: { line: "Hudson", station: "Irvington", timeToGCT: 36 },
     tagline: "Hudson River charm, creative community",
     pinned: true,
     metro: 42,
@@ -56,6 +57,7 @@ const towns = [
   {
     name: "Hastings-on-Hudson",
     lat: 40.9926, lng: -73.8790,
+    metroNorth: { line: "Hudson", station: "Hastings-on-Hudson", timeToGCT: 32 },
     tagline: "Bohemian river town, fiercely loved",
     metro: 36,
     medianPrice: 850000,
@@ -103,6 +105,7 @@ const towns = [
   {
     name: "Dobbs Ferry",
     lat: 41.0118, lng: -73.8649,
+    metroNorth: { line: "Hudson", station: "Dobbs Ferry", timeToGCT: 34 },
     tagline: "Hudson River, artsy & approachable",
     metro: 38,
     medianPrice: 780000,
@@ -150,6 +153,7 @@ const towns = [
   {
     name: "Tarrytown",
     lat: 41.0762, lng: -73.8587,
+    metroNorth: { line: "Hudson", station: "Tarrytown", timeToGCT: 40 },
     tagline: "Historic, scenic, and vibrant",
     metro: 40,
     medianPrice: 890000,
@@ -198,6 +202,7 @@ const towns = [
   {
     name: "Sleepy Hollow",
     lat: 41.0859, lng: -73.8587,
+    metroNorth: { line: "Hudson", station: "Tarrytown (shared)", timeToGCT: 40 },
     tagline: "Iconic, river-front, up-and-coming",
     metro: 41,
     medianPrice: 720000,
@@ -244,6 +249,7 @@ const towns = [
   {
     name: "Ardsley",
     lat: 41.0117, lng: -73.8434,
+    metroNorth: { line: null, station: null, timeToGCT: null, note: "No Metro-North station. Closest: Hartsdale (Harlem Line) or Dobbs Ferry (Hudson Line), ~5 min drive." },
     tagline: "Quiet, excellent schools, underrated",
     metro: 42,
     medianPrice: 750000,
@@ -291,6 +297,7 @@ const towns = [
   {
     name: "Chappaqua",
     lat: 41.1568, lng: -73.7660,
+    metroNorth: { line: "Harlem", station: "Chappaqua", timeToGCT: 55 },
     tagline: "Top schools, leafy, aspirational",
     metro: 52,
     medianPrice: 1100000,
@@ -339,6 +346,7 @@ const towns = [
   {
     name: "Bedford",
     lat: 41.2042, lng: -73.6418,
+    metroNorth: { line: "Harlem", station: "Bedford Hills", timeToGCT: 65 },
     tagline: "Estates, horses, and old-world elegance",
     metro: 65,
     medianPrice: 1650000,
@@ -387,6 +395,7 @@ const towns = [
   {
     name: "Katonah",
     lat: 41.2570, lng: -73.6843,
+    metroNorth: { line: "Harlem", station: "Katonah", timeToGCT: 70 },
     tagline: "Charming village, artist colony feel",
     metro: 62,
     medianPrice: 890000,
@@ -433,6 +442,7 @@ const towns = [
   {
     name: "Bronxville",
     lat: 40.9387, lng: -73.8331,
+    metroNorth: { line: "Harlem", station: "Bronxville", timeToGCT: 28 },
     tagline: "Prestige, polish, and proximity",
     metro: 30,
     medianPrice: 1450000,
@@ -481,6 +491,7 @@ const towns = [
   {
     name: "Scarsdale",
     lat: 40.9884, lng: -73.7857,
+    metroNorth: { line: "Harlem", station: "Scarsdale", timeToGCT: 35 },
     tagline: "Academic excellence, family-focused",
     metro: 38,
     medianPrice: 1650000,
@@ -529,6 +540,7 @@ const towns = [
   {
     name: "Larchmont",
     lat: 40.9334, lng: -73.7565,
+    metroNorth: { line: "New Haven", station: "Larchmont", timeToGCT: 35 },
     tagline: "Coastal living, village energy",
     metro: 35,
     medianPrice: 1250000,
@@ -577,6 +589,7 @@ const towns = [
   {
     name: "Rye",
     lat: 40.9863, lng: -73.6837,
+    metroNorth: { line: "New Haven", station: "Rye", timeToGCT: 38 },
     tagline: "Waterfront elegance, top schools",
     metro: 45,
     medianPrice: 1550000,
@@ -625,6 +638,7 @@ const towns = [
   {
     name: "Pleasantville",
     lat: 41.1340, lng: -73.7857,
+    metroNorth: { line: "Harlem", station: "Pleasantville", timeToGCT: 50 },
     tagline: "Underrated gem, great value",
     metro: 48,
     medianPrice: 680000,
@@ -672,6 +686,7 @@ const towns = [
   {
     name: "Pelham",
     lat: 40.9098, lng: -73.8085,
+    metroNorth: { line: "New Haven", station: "Pelham", timeToGCT: 30 },
     tagline: "Hidden gem, strong schools, fast commute",
     metro: 28,
     medianPrice: 920000,
@@ -719,6 +734,7 @@ const towns = [
   {
     name: "Tuckahoe",
     lat: 40.9498, lng: -73.8243,
+    metroNorth: { line: "Harlem", station: "Tuckahoe", timeToGCT: 32 },
     tagline: "Marble village, walkable downtown, Bronxville's neighbor",
     metro: 30,
     medianPrice: 625000,
@@ -766,6 +782,7 @@ const towns = [
   {
     name: "Mount Vernon",
     lat: 40.9126, lng: -73.8371,
+    metroNorth: { line: "Harlem", station: "Fleetwood", timeToGCT: 28 },
     tagline: "Cultural powerhouse, historic city, Fleetwood charm",
     metro: 25,
     medianPrice: 475000,

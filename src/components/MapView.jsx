@@ -25,24 +25,22 @@ export default function MapView({ towns, onSelectTown }) {
   const markersRef = useRef([]);
   const destMarkerRef = useRef(null);
   const activePopupRef = useRef(null);
-  const activeTownRef = useRef(null); // town name with active route
+  const activeTownRef = useRef(null);
+  const routeGeometryRef = useRef(null);
   const [dest, setDest] = useState(DEFAULT_DEST);
   const destRef = useRef(dest);
   const [destInput, setDestInput] = useState("");
   const [geocoding, setGeocoding] = useState(false);
 
-  // Keep destRef in sync
   useEffect(() => {
     destRef.current = dest;
   }, [dest]);
 
-  // Google Maps directions URL
   const directionsUrl = useCallback((town, d) => {
     const destAddr = encodeURIComponent(d.address);
     return `https://www.google.com/maps/dir/?api=1&origin=${town.lat},${town.lng}&destination=${destAddr}&travelmode=driving`;
   }, []);
 
-  // Fetch route from Mapbox Directions API
   async function fetchRoute(originLng, originLat, destLng, destLat) {
     const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${originLng},${originLat};${destLng},${destLat}?geometries=geojson&overview=full&access_token=${TOKEN}`;
     const res = await fetch(url);
@@ -51,14 +49,14 @@ export default function MapView({ towns, onSelectTown }) {
     if (!route) return null;
     return {
       geometry: route.geometry,
-      duration: Math.round(route.duration / 60), // minutes
-      distance: (route.distance / 1609.344).toFixed(1), // miles
+      duration: Math.round(route.duration / 60),
+      distance: (route.distance / 1609.344).toFixed(1),
     };
   }
 
-  // Draw route on map
   function drawRoute(map, geometry) {
     clearRoute(map);
+    routeGeometryRef.current = geometry;
 
     map.addSource(ROUTE_SOURCE, {
       type: "geojson",
@@ -81,28 +79,69 @@ export default function MapView({ towns, onSelectTown }) {
     });
   }
 
-  // Clear route from map
   function clearRoute(map) {
     if (map.getLayer(ROUTE_LAYER)) map.removeLayer(ROUTE_LAYER);
     if (map.getSource(ROUTE_SOURCE)) map.removeSource(ROUTE_SOURCE);
+    routeGeometryRef.current = null;
   }
 
-  // Build popup HTML
+  function fitRouteInView() {
+    const map = mapRef.current;
+    const geom = routeGeometryRef.current;
+    if (!map || !geom) return;
+    const coords = geom.coordinates;
+    const bounds = coords.reduce(
+      (b, c) => b.extend(c),
+      new mapboxgl.LngLatBounds(coords[0], coords[0])
+    );
+    map.fitBounds(bounds, { padding: 60, duration: 800 });
+  }
+
+  // Build Metro-North info HTML
+  function trainHTML(mn) {
+    if (!mn) return "";
+    if (!mn.line || !mn.station) {
+      return `<div style="font-size: 12px; color: #888; font-family: Georgia, serif;">Train: ${mn.note || "No station nearby"}</div>`;
+    }
+    return `<div style="font-size: 12px; color: #555; font-family: Georgia, serif;">Train: <strong style="color: #333;">${mn.timeToGCT} min</strong> on ${mn.line} Line from ${mn.station} &rarr; Grand Central</div>`;
+  }
+
   function popupHTML(town, d, routeInfo) {
-    const driveInfo = routeInfo === "loading"
-      ? `<div style="font-size: 12px; color: #999; font-style: italic; margin-bottom: 8px; font-family: Georgia, serif;">Calculating route...</div>`
-      : routeInfo
-        ? `<div style="font-size: 13px; color: #1a1f2e; margin-bottom: 8px; font-family: Georgia, serif;">Drive: <strong style="color: #B8943F;">${routeInfo.duration} min</strong> · ${routeInfo.distance} mi</div>`
-        : "";
+    const mn = town.metroNorth;
+
+    let commuteBlock;
+    if (routeInfo === "loading") {
+      commuteBlock = `
+        <div style="margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #eee;">
+          <div style="font-size: 12px; color: #999; font-style: italic; font-family: Georgia, serif;">Calculating route...</div>
+        </div>
+        ${trainHTML(mn) ? `<div style="margin-bottom: 10px;">${trainHTML(mn)}</div>` : ""}
+      `;
+    } else if (routeInfo) {
+      commuteBlock = `
+        <div style="margin-bottom: 10px; padding-bottom: 8px; border-bottom: 1px solid #eee;">
+          <div style="font-size: 13px; color: #1a1f2e; font-family: Georgia, serif;">
+            Drive: <strong style="color: #B8943F;">${routeInfo.duration} min</strong> · ${routeInfo.distance} mi
+          </div>
+          <a href="#" onclick="document.dispatchEvent(new CustomEvent('fitRoute'));return false;"
+            style="font-size: 11px; color: #B8943F; text-decoration: none; border-bottom: 1px solid rgba(184,148,63,0.3); font-family: Georgia, serif;">
+            View full route
+          </a>
+        </div>
+        ${trainHTML(mn) ? `<div style="margin-bottom: 10px;">${trainHTML(mn)}</div>` : ""}
+      `;
+    } else {
+      commuteBlock = trainHTML(mn) ? `<div style="margin-bottom: 10px;">${trainHTML(mn)}</div>` : "";
+    }
 
     return `
       <div style="font-family: Georgia, serif; padding: 4px 0;">
         <div style="font-size: 16px; font-weight: 400; color: #1a1f2e; margin-bottom: 4px;">${town.name}</div>
         <div style="font-size: 12px; color: #666; font-style: italic; margin-bottom: 6px;">${town.tagline}</div>
         <div style="font-size: 13px; color: #333; margin-bottom: 8px;">
-          Median: <strong style="color: #B8943F;">${fmt(town.medianPrice)}</strong> · ${town.metro} min to GCT
+          Median: <strong style="color: #B8943F;">${fmt(town.medianPrice)}</strong>
         </div>
-        ${driveInfo}
+        ${commuteBlock}
         <div style="display: flex; gap: 8px;">
           <a href="${directionsUrl(town, d)}" target="_blank" rel="noopener noreferrer"
             style="font-size: 11px; letter-spacing: 1px; text-transform: uppercase; padding: 6px 12px;
@@ -121,21 +160,17 @@ export default function MapView({ towns, onSelectTown }) {
     `;
   }
 
-  // Handle marker click — fetch route, update popup
   async function handleMarkerClick(town, marker, map) {
     const d = destRef.current;
     activeTownRef.current = town.name;
 
-    // Show popup immediately with loading state
     const popup = marker.getPopup();
     popup.setHTML(popupHTML(town, d, "loading"));
     if (!popup.isOpen()) marker.togglePopup();
     activePopupRef.current = { marker, town };
 
-    // Fetch route
     try {
       const routeInfo = await fetchRoute(town.lng, town.lat, d.lng, d.lat);
-      // Only update if this town is still active
       if (activeTownRef.current === town.name) {
         if (routeInfo) {
           drawRoute(map, routeInfo.geometry);
@@ -177,7 +212,6 @@ export default function MapView({ towns, onSelectTown }) {
     const map = mapRef.current;
     if (!map) return;
 
-    // Clear existing markers and route
     markersRef.current.forEach((m) => m.remove());
     markersRef.current = [];
     activeTownRef.current = null;
@@ -189,7 +223,6 @@ export default function MapView({ towns, onSelectTown }) {
       towns.forEach((t) => {
         if (!t.lat || !t.lng) return;
 
-        // Custom marker element
         const el = document.createElement("div");
         el.style.cssText = `
           width: 14px; height: 14px; border-radius: 50%;
@@ -204,11 +237,10 @@ export default function MapView({ towns, onSelectTown }) {
           el.style.transform = "scale(1)";
         });
 
-        // Create popup (initially empty, populated on click)
         const popup = new mapboxgl.Popup({
           offset: 16,
           closeButton: true,
-          maxWidth: "280px",
+          maxWidth: "300px",
         }).setHTML(popupHTML(t, dest, null));
 
         popup.on("close", () => {
@@ -224,10 +256,8 @@ export default function MapView({ towns, onSelectTown }) {
           .setPopup(popup)
           .addTo(map);
 
-        // Override click to fetch route
         el.addEventListener("click", (e) => {
           e.stopPropagation();
-          // Close any other open popups
           markersRef.current.forEach((m) => {
             if (m !== marker && m.getPopup().isOpen()) m.togglePopup();
           });
@@ -237,7 +267,6 @@ export default function MapView({ towns, onSelectTown }) {
         markersRef.current.push(marker);
       });
 
-      // Destination marker
       updateDestMarker(map);
     };
 
@@ -248,13 +277,18 @@ export default function MapView({ towns, onSelectTown }) {
     }
   }, [towns, dest]);
 
-  // Listen for selectTown events from popup buttons
+  // Listen for events from popup buttons
   useEffect(() => {
-    const handler = (e) => {
+    const selectHandler = (e) => {
       if (onSelectTown) onSelectTown(e.detail);
     };
-    document.addEventListener("selectTown", handler);
-    return () => document.removeEventListener("selectTown", handler);
+    const fitHandler = () => fitRouteInView();
+    document.addEventListener("selectTown", selectHandler);
+    document.addEventListener("fitRoute", fitHandler);
+    return () => {
+      document.removeEventListener("selectTown", selectHandler);
+      document.removeEventListener("fitRoute", fitHandler);
+    };
   }, [onSelectTown]);
 
   function updateDestMarker(map) {
@@ -303,9 +337,6 @@ export default function MapView({ towns, onSelectTown }) {
           lat,
         });
         setDestInput("");
-        if (mapRef.current) {
-          mapRef.current.flyTo({ center: [lng, lat], zoom: 11 });
-        }
       }
     } catch (err) {
       console.error("Geocode error:", err);
