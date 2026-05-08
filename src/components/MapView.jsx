@@ -38,6 +38,13 @@ const fmt = (n) =>
 function routeSourceId(destId) { return `route-${destId}`; }
 function routeLayerId(destId) { return `route-line-${destId}`; }
 
+function shortAddress(addr) {
+  const parts = addr.split(", ");
+  if (parts.length >= 3) return parts.slice(-2).join(", ");
+  if (parts.length === 2) return parts[1];
+  return addr;
+}
+
 function directionsUrl(town, dest) {
   return `https://www.google.com/maps/dir/?api=1&origin=${town.lat},${town.lng}&destination=${encodeURIComponent(dest.address)}&travelmode=driving`;
 }
@@ -256,6 +263,7 @@ export default function MapView({ towns, onSelectTown }) {
           <div style="font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; color: ${labelColor}; font-family: Georgia, serif; margin-bottom: 2px; line-height: 1.3;">
             To ${d.label}
           </div>
+          <div style="font-size: 11px; color: rgba(245,239,232,0.35); font-family: Georgia, serif; margin-bottom: 3px;">${shortAddress(d.address)}</div>
           ${driveLine}
           ${trainLine}
         </div>
