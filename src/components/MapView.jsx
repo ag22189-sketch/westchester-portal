@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState, useCallback } from "react";
+import { useEffect, useRef, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 
@@ -26,7 +26,7 @@ const INITIAL_DESTINATIONS = [
     id: "erikas_house",
     label: "Erika's House",
     address: "81 Richmond Hill, New Canaan, CT",
-    coords: [41.1450, -73.4910], // approximate, geocoded on load
+    coords: [41.1450, -73.4910],
     color: "#8FA68E",
     showTrainInfo: false,
   },
@@ -49,6 +49,14 @@ function injectPopupStyles() {
   const style = document.createElement("style");
   style.id = POPUP_STYLE_ID;
   style.textContent = `
+    .mapboxgl-popup {
+      opacity: 0;
+      transition: opacity 200ms ease;
+      pointer-events: auto;
+    }
+    .mapboxgl-popup.domus-visible {
+      opacity: 1;
+    }
     .mapboxgl-popup-content {
       background: #0F1318 !important;
       border: 1px solid rgba(201,169,110,0.3) !important;
@@ -109,34 +117,21 @@ function injectPopupStyles() {
   document.head.appendChild(style);
 }
 
-// Capture camera state and return a restoreCamera function that uses
-// the Map prototype's jumpTo directly (bypasses any instance overrides)
-function captureCamera(map) {
-  const state = {
-    center: [map.getCenter().lng, map.getCenter().lat],
-    zoom: map.getZoom(),
-    bearing: map.getBearing(),
-    pitch: map.getPitch(),
-  };
-  const restore = () => {
-    mapboxgl.Map.prototype.jumpTo.call(map, state);
-  };
-  return restore;
-}
-
 export default function MapView({ towns, onSelectTown }) {
   const mapContainer = useRef(null);
   const mapRef = useRef(null);
   const townMarkersRef = useRef([]);
   const destMarkersRef = useRef([]);
   const activeTownRef = useRef(null);
-  const routeGeometriesRef = useRef([]); // [{destId, geometry}, ...]
+  const activePopupRef = useRef(null);
+  const closeTimerRef = useRef(null);
+  const routeGeometriesRef = useRef([]);
   const [destinations, setDestinations] = useState(INITIAL_DESTINATIONS);
   const destsRef = useRef(destinations);
 
   useEffect(() => { destsRef.current = destinations; }, [destinations]);
 
-  // Geocode Erika's House on mount to get exact coords
+  // Geocode Erika's House on mount
   useEffect(() => {
     async function geocodeErika() {
       try {
@@ -178,12 +173,10 @@ export default function MapView({ towns, onSelectTown }) {
   function drawRoutes(map, routeResults) {
     clearAllRoutes(map);
     routeGeometriesRef.current = [];
-
     for (const r of routeResults) {
       if (!r.geometry) continue;
       const srcId = routeSourceId(r.destId);
       const lyrId = routeLayerId(r.destId);
-
       map.addSource(srcId, {
         type: "geojson",
         data: { type: "Feature", geometry: r.geometry },
@@ -234,9 +227,8 @@ export default function MapView({ towns, onSelectTown }) {
     return `<div style="font-size: 10px; color: rgba(245,239,232,0.5); font-family: Georgia, serif; margin-top: 2px; line-height: 1.3;">Train: <strong style="color: #C9A96E;">${mn.timeToGCT} min</strong> ${mn.line} Line from ${mn.station} &rarr; GCT</div>`;
   }
 
-  // Build popup HTML with all destinations
+  // Build popup HTML
   function popupHTML(town, dests, routeResults) {
-    // routeResults: "loading" | { [destId]: {duration, distance} | null } | null
     const mn = town.metroNorth;
     const isLoading = routeResults === "loading";
 
@@ -270,7 +262,6 @@ export default function MapView({ towns, onSelectTown }) {
       `;
     }
 
-    // View full route link
     const viewRouteLink = !isLoading && routeResults
       ? `<div style="margin-top: 6px;">
           <a href="#" onclick="document.dispatchEvent(new CustomEvent('fitRoute'));return false;"
@@ -280,7 +271,6 @@ export default function MapView({ towns, onSelectTown }) {
         </div>`
       : "";
 
-    // Direction buttons
     const dirButtons = dests.map((d) => {
       const btnColor = d.color === "#F5EFE0" ? "#C9A96E" : d.color;
       return `<a href="${directionsUrl(town, d)}" target="_blank" rel="noopener noreferrer"
@@ -318,22 +308,68 @@ export default function MapView({ towns, onSelectTown }) {
     `;
   }
 
-  // Handle town marker click — fetch routes to ALL destinations
-  async function handleMarkerClick(town, marker, map) {
-    const dests = destsRef.current;
+  // Close the active popup and clear routes
+  function dismissPopup(map) {
+    if (activePopupRef.current) {
+      // Fade out
+      const el = activePopupRef.current.getElement();
+      if (el) el.classList.remove("domus-visible");
+      const popup = activePopupRef.current;
+      setTimeout(() => { popup.remove(); }, 200);
+      activePopupRef.current = null;
+    }
+    activeTownRef.current = null;
+    if (map) clearAllRoutes(map);
+  }
+
+  // Schedule a delayed dismiss (cancelled if mouse enters popup)
+  function scheduleDismiss(map) {
+    clearTimeout(closeTimerRef.current);
+    closeTimerRef.current = setTimeout(() => dismissPopup(map), 150);
+  }
+
+  function cancelDismiss() {
+    clearTimeout(closeTimerRef.current);
+  }
+
+  // Handle hover on a town pin
+  async function handleTownHover(town, map) {
+    // If already showing this town, do nothing
+    if (activeTownRef.current === town.name) return;
+
+    // Dismiss previous
+    dismissPopup(map);
     activeTownRef.current = town.name;
 
-    // Capture camera BEFORE anything else
-    const restoreCamera = captureCamera(map);
+    const dests = destsRef.current;
 
-    const popup = marker.getPopup();
-    popup.setHTML(popupHTML(town, dests, "loading"));
-    if (!popup.isOpen()) marker.togglePopup();
+    // Create popup manually (not attached to marker — full control)
+    const popup = new mapboxgl.Popup({
+      offset: 15,
+      closeButton: false,
+      closeOnClick: false,
+      closeOnMove: false,
+      focusAfterOpen: false,
+      maxWidth: "300px",
+    })
+      .setLngLat([town.lng, town.lat])
+      .setHTML(popupHTML(town, dests, "loading"))
+      .addTo(map);
 
-    // Snap back immediately after popup opens
-    requestAnimationFrame(restoreCamera);
-    setTimeout(restoreCamera, 50);
+    activePopupRef.current = popup;
 
+    // Fade in after a frame (so the transition triggers)
+    requestAnimationFrame(() => {
+      const el = popup.getElement();
+      if (el) {
+        el.classList.add("domus-visible");
+        // Keep popup alive while mouse is over it
+        el.addEventListener("mouseenter", cancelDismiss);
+        el.addEventListener("mouseleave", () => scheduleDismiss(map));
+      }
+    });
+
+    // Fetch routes to all destinations
     try {
       const results = await Promise.all(
         dests.map(async (d) => {
@@ -343,12 +379,11 @@ export default function MapView({ towns, onSelectTown }) {
         })
       );
 
+      // Bail if user already hovered away
       if (activeTownRef.current !== town.name) return;
 
-      // Draw all routes
       drawRoutes(map, results.filter((r) => r.geometry));
 
-      // Build result map for popup
       const resultMap = {};
       for (const r of results) {
         if (r.duration != null) {
@@ -357,16 +392,16 @@ export default function MapView({ towns, onSelectTown }) {
       }
       popup.setHTML(popupHTML(town, dests, resultMap));
 
-      // Snap back after popup content update
-      requestAnimationFrame(restoreCamera);
-      setTimeout(restoreCamera, 50);
-      setTimeout(restoreCamera, 250);
+      // Re-attach popup hover listeners after setHTML replaces DOM
+      const el = popup.getElement();
+      if (el) {
+        el.addEventListener("mouseenter", cancelDismiss);
+        el.addEventListener("mouseleave", () => scheduleDismiss(map));
+      }
     } catch (err) {
       console.error("Route fetch error:", err);
       if (activeTownRef.current === town.name) {
         popup.setHTML(popupHTML(town, dests, null));
-        requestAnimationFrame(restoreCamera);
-        setTimeout(restoreCamera, 50);
       }
     }
   }
@@ -396,15 +431,13 @@ export default function MapView({ towns, onSelectTown }) {
     townMarkersRef.current = [];
     destMarkersRef.current.forEach((m) => m.remove());
     destMarkersRef.current = [];
-    activeTownRef.current = null;
+    dismissPopup(map);
 
     const onLoad = () => {
       clearAllRoutes(map);
-
-      // Collect all points for fitBounds
       const allPoints = [];
 
-      // Town markers
+      // Town markers — hover-based interaction
       towns.forEach((t) => {
         if (!t.lat || !t.lng) return;
         allPoints.push([t.lng, t.lat]);
@@ -414,44 +447,30 @@ export default function MapView({ towns, onSelectTown }) {
           width: 14px; height: 14px; border-radius: 50%;
           background: #C9A96E; border: 2px solid #F5EFE8;
           cursor: pointer; box-shadow: 0 0 8px rgba(201,169,110,0.5);
-          transition: transform 0.15s;
+          transition: transform 0.15s, box-shadow 0.15s;
         `;
-        el.addEventListener("mouseenter", () => { el.style.transform = "scale(1.4)"; });
-        el.addEventListener("mouseleave", () => { el.style.transform = "scale(1)"; });
 
-        const popup = new mapboxgl.Popup({
-          offset: 15,
-          closeButton: true,
-          closeOnClick: false,
-          closeOnMove: false,
-          focusAfterOpen: false,
-          maxWidth: "300px",
-        }).setHTML(popupHTML(t, destinations, null));
+        el.addEventListener("mouseenter", () => {
+          el.style.transform = "scale(1.4)";
+          el.style.boxShadow = "0 0 14px rgba(201,169,110,0.8)";
+          cancelDismiss();
+          handleTownHover(t, map);
+        });
 
-        popup.on("close", () => {
-          if (activeTownRef.current === t.name) {
-            activeTownRef.current = null;
-            clearAllRoutes(map);
-          }
+        el.addEventListener("mouseleave", () => {
+          el.style.transform = "scale(1)";
+          el.style.boxShadow = "0 0 8px rgba(201,169,110,0.5)";
+          scheduleDismiss(map);
         });
 
         const marker = new mapboxgl.Marker({ element: el })
           .setLngLat([t.lng, t.lat])
-          .setPopup(popup)
           .addTo(map);
-
-        el.addEventListener("click", (e) => {
-          e.stopPropagation();
-          townMarkersRef.current.forEach((m) => {
-            if (m !== marker && m.getPopup().isOpen()) m.togglePopup();
-          });
-          handleMarkerClick(t, marker, map);
-        });
 
         townMarkersRef.current.push(marker);
       });
 
-      // Destination markers
+      // Destination markers — proper Mapbox markers at geographic coords
       destinations.forEach((d) => {
         const [lat, lng] = d.coords;
         allPoints.push([lng, lat]);
@@ -461,12 +480,18 @@ export default function MapView({ towns, onSelectTown }) {
           width: 16px; height: 16px; border-radius: 50%;
           background: ${d.color}; border: 2px solid #fff;
           box-shadow: 0 0 10px ${d.color}99;
+          cursor: default;
         `;
 
-        const popup = new mapboxgl.Popup({
+        const marker = new mapboxgl.Marker({ element: el })
+          .setLngLat([lng, lat])
+          .addTo(map);
+
+        // Simple hover label for destinations
+        const destPopup = new mapboxgl.Popup({
           offset: 15,
           closeButton: false,
-          closeOnClick: true,
+          closeOnClick: false,
           closeOnMove: false,
           focusAfterOpen: false,
           maxWidth: "260px",
@@ -477,10 +502,18 @@ export default function MapView({ towns, onSelectTown }) {
           </div>
         `);
 
-        const marker = new mapboxgl.Marker({ element: el })
-          .setLngLat([lng, lat])
-          .setPopup(popup)
-          .addTo(map);
+        el.addEventListener("mouseenter", () => {
+          destPopup.setLngLat([lng, lat]).addTo(map);
+          requestAnimationFrame(() => {
+            const popEl = destPopup.getElement();
+            if (popEl) popEl.classList.add("domus-visible");
+          });
+        });
+        el.addEventListener("mouseleave", () => {
+          const popEl = destPopup.getElement();
+          if (popEl) popEl.classList.remove("domus-visible");
+          setTimeout(() => destPopup.remove(), 200);
+        });
 
         destMarkersRef.current.push(marker);
       });
@@ -516,7 +549,6 @@ export default function MapView({ towns, onSelectTown }) {
 
   return (
     <div style={{ padding: "0 60px 40px", maxWidth: "1440px", margin: "0 auto" }}>
-      {/* Map container */}
       <div style={{
         borderRadius: "12px",
         border: "1px solid rgba(201,169,110,0.2)",
@@ -527,7 +559,6 @@ export default function MapView({ towns, onSelectTown }) {
         <div ref={mapContainer} style={{ width: "100%", height: "100%" }} />
       </div>
 
-      {/* Legend */}
       <div style={{
         display: "flex", gap: "20px", marginTop: "14px",
         fontSize: "12px", color: "rgba(255,255,255,0.35)",
