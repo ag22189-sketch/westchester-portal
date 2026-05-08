@@ -1,10 +1,12 @@
-import { useState } from "react";
+import { useState, lazy, Suspense } from "react";
 import ListingsPanel from "./ListingsPanel";
 import DigestSignup from "./DigestSignup";
+const MapView = lazy(() => import("./MapView"));
 
 const towns = [
   {
     name: "Irvington",
+    lat: 41.0418, lng: -73.8682,
     tagline: "Hudson River charm, creative community",
     pinned: true,
     metro: 42,
@@ -53,6 +55,7 @@ const towns = [
   },
   {
     name: "Hastings-on-Hudson",
+    lat: 40.9926, lng: -73.8790,
     tagline: "Bohemian river town, fiercely loved",
     metro: 36,
     medianPrice: 850000,
@@ -99,6 +102,7 @@ const towns = [
   },
   {
     name: "Dobbs Ferry",
+    lat: 41.0118, lng: -73.8649,
     tagline: "Hudson River, artsy & approachable",
     metro: 38,
     medianPrice: 780000,
@@ -145,6 +149,7 @@ const towns = [
   },
   {
     name: "Tarrytown",
+    lat: 41.0762, lng: -73.8587,
     tagline: "Historic, scenic, and vibrant",
     metro: 40,
     medianPrice: 890000,
@@ -192,6 +197,7 @@ const towns = [
   },
   {
     name: "Sleepy Hollow",
+    lat: 41.0859, lng: -73.8587,
     tagline: "Iconic, river-front, up-and-coming",
     metro: 41,
     medianPrice: 720000,
@@ -237,6 +243,7 @@ const towns = [
   },
   {
     name: "Ardsley",
+    lat: 41.0117, lng: -73.8434,
     tagline: "Quiet, excellent schools, underrated",
     metro: 42,
     medianPrice: 750000,
@@ -283,6 +290,7 @@ const towns = [
   },
   {
     name: "Chappaqua",
+    lat: 41.1568, lng: -73.7660,
     tagline: "Top schools, leafy, aspirational",
     metro: 52,
     medianPrice: 1100000,
@@ -330,6 +338,7 @@ const towns = [
   },
   {
     name: "Bedford",
+    lat: 41.2042, lng: -73.6418,
     tagline: "Estates, horses, and old-world elegance",
     metro: 65,
     medianPrice: 1650000,
@@ -377,6 +386,7 @@ const towns = [
   },
   {
     name: "Katonah",
+    lat: 41.2570, lng: -73.6843,
     tagline: "Charming village, artist colony feel",
     metro: 62,
     medianPrice: 890000,
@@ -422,6 +432,7 @@ const towns = [
   },
   {
     name: "Bronxville",
+    lat: 40.9387, lng: -73.8331,
     tagline: "Prestige, polish, and proximity",
     metro: 30,
     medianPrice: 1450000,
@@ -469,6 +480,7 @@ const towns = [
   },
   {
     name: "Scarsdale",
+    lat: 40.9884, lng: -73.7857,
     tagline: "Academic excellence, family-focused",
     metro: 38,
     medianPrice: 1650000,
@@ -516,6 +528,7 @@ const towns = [
   },
   {
     name: "Larchmont",
+    lat: 40.9334, lng: -73.7565,
     tagline: "Coastal living, village energy",
     metro: 35,
     medianPrice: 1250000,
@@ -563,6 +576,7 @@ const towns = [
   },
   {
     name: "Rye",
+    lat: 40.9863, lng: -73.6837,
     tagline: "Waterfront elegance, top schools",
     metro: 45,
     medianPrice: 1550000,
@@ -610,6 +624,7 @@ const towns = [
   },
   {
     name: "Pleasantville",
+    lat: 41.1340, lng: -73.7857,
     tagline: "Underrated gem, great value",
     metro: 48,
     medianPrice: 680000,
@@ -656,6 +671,7 @@ const towns = [
   },
   {
     name: "Pelham",
+    lat: 40.9098, lng: -73.8085,
     tagline: "Hidden gem, strong schools, fast commute",
     metro: 28,
     medianPrice: 920000,
@@ -702,6 +718,7 @@ const towns = [
   },
   {
     name: "Tuckahoe",
+    lat: 40.9498, lng: -73.8243,
     tagline: "Marble village, walkable downtown, Bronxville's neighbor",
     metro: 30,
     medianPrice: 625000,
@@ -748,6 +765,7 @@ const towns = [
   },
   {
     name: "Mount Vernon",
+    lat: 40.9126, lng: -73.8371,
     tagline: "Cultural powerhouse, historic city, Fleetwood charm",
     metro: 25,
     medianPrice: 475000,
@@ -809,6 +827,7 @@ export default function WestchesterPortal() {
   const [selected, setSelected] = useState(null);
   const [sort, setSort] = useState("schools");
   const [townTrends, setTownTrends] = useState({});
+  const [view, setView] = useState("towns"); // "towns" | "map"
 
   const sorted = [...towns].sort((a, b) => {
     if (a.pinned && !b.pinned) return -1;
@@ -848,35 +867,73 @@ export default function WestchesterPortal() {
               Seventeen curated towns. Editorial intelligence. Real listings.
             </p>
           </div>
-          <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
-            {[
-              { key: "schools", label: "Schools" },
-              { key: "commute", label: "Commute" },
-              { key: "price", label: "Price" },
-              { key: "walkability", label: "Walkability" },
-              { key: "taxes", label: "Taxes" },
-            ].map(s => (
-              <button key={s.key} onClick={() => setSort(s.key)} style={{
-                padding: "7px 16px",
-                borderRadius: "20px",
-                border: sort === s.key ? "1px solid #C9A96E" : "1px solid rgba(255,255,255,0.1)",
-                background: sort === s.key ? "rgba(201,169,110,0.12)" : "transparent",
-                color: sort === s.key ? "#C9A96E" : "rgba(255,255,255,0.4)",
-                fontSize: "12px",
-                letterSpacing: "1.5px",
-                textTransform: "uppercase",
-                cursor: "pointer",
-                transition: "all 0.25s ease",
-                fontFamily: "'Georgia', serif",
-              }}>
-                {s.label}
-              </button>
-            ))}
+          <div style={{ display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-end" }}>
+            {/* View Toggle */}
+            <div style={{ display: "flex", gap: "0", borderRadius: "20px", border: "1px solid rgba(255,255,255,0.1)", overflow: "hidden" }}>
+              {[
+                { key: "towns", label: "Towns" },
+                { key: "map", label: "Map" },
+              ].map(v => (
+                <button key={v.key} onClick={() => { setView(v.key); if (v.key === "map") setSelected(null); }} style={{
+                  padding: "7px 20px",
+                  border: "none",
+                  background: view === v.key ? "rgba(201,169,110,0.15)" : "transparent",
+                  color: view === v.key ? "#C9A96E" : "rgba(255,255,255,0.35)",
+                  fontSize: "12px",
+                  letterSpacing: "1.5px",
+                  textTransform: "uppercase",
+                  cursor: "pointer",
+                  fontFamily: "'Georgia', serif",
+                  transition: "all 0.2s",
+                }}>
+                  {v.label}
+                </button>
+              ))}
+            </div>
+            {/* Sort buttons — only in towns view */}
+            {view === "towns" && (
+              <div style={{ display: "flex", gap: "6px", flexWrap: "wrap" }}>
+                {[
+                  { key: "schools", label: "Schools" },
+                  { key: "commute", label: "Commute" },
+                  { key: "price", label: "Price" },
+                  { key: "walkability", label: "Walkability" },
+                  { key: "taxes", label: "Taxes" },
+                ].map(s => (
+                  <button key={s.key} onClick={() => setSort(s.key)} style={{
+                    padding: "7px 16px",
+                    borderRadius: "20px",
+                    border: sort === s.key ? "1px solid #C9A96E" : "1px solid rgba(255,255,255,0.1)",
+                    background: sort === s.key ? "rgba(201,169,110,0.12)" : "transparent",
+                    color: sort === s.key ? "#C9A96E" : "rgba(255,255,255,0.4)",
+                    fontSize: "12px",
+                    letterSpacing: "1.5px",
+                    textTransform: "uppercase",
+                    cursor: "pointer",
+                    transition: "all 0.25s ease",
+                    fontFamily: "'Georgia', serif",
+                  }}>
+                    {s.label}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>
 
-      <div className="wp-main">
+      {/* Map View */}
+      {view === "map" && (
+        <Suspense fallback={
+          <div style={{ padding: "60px", textAlign: "center", fontSize: "14px", color: "rgba(255,255,255,0.4)", letterSpacing: "2px", textTransform: "uppercase" }}>
+            Loading map...
+          </div>
+        }>
+          <MapView towns={towns} onSelectTown={(name) => { setSelected(name); setView("towns"); }} />
+        </Suspense>
+      )}
+
+      {view === "towns" && <div className="wp-main">
         {/* Town List */}
         <div className={`wp-grid${selected ? " sidebar" : ""}`}>
           {sorted.map((t) => (
@@ -1275,7 +1332,7 @@ export default function WestchesterPortal() {
 
           </div>
         )}
-      </div>
+      </div>}
     </div>
   );
 }
