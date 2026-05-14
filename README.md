@@ -25,7 +25,7 @@ An hourly email alert for new house listings in watched towns, powered by GitHub
 **Required GitHub Secrets:**
 - `RAPIDAPI_KEY` — US Real Estate Listings API key
 - `RESEND_API_KEY` — Resend email API key
-- `NOTIFY_EMAIL_TO` — Recipient email address
+- `NOTIFY_EMAIL_TO` — Recipient email address(es), comma-separated for multiple (e.g. `ali@domus.com,ed@domus.com`)
 
 **To add more towns:** Edit `WATCH_ZIPS` in `scripts/notify-new-listings.js` and add a `{ zip: "XXXXX", town: "Name" }` entry. Also update the footer text in `buildEmailHTML`.
 

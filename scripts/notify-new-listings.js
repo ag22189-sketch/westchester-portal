@@ -7,7 +7,10 @@ import { Resend } from "resend";
 const API_KEY = process.env.RAPIDAPI_KEY;
 const API_HOST = "us-real-estate-listings.p.rapidapi.com";
 const RESEND_KEY = process.env.RESEND_API_KEY;
-const NOTIFY_TO = process.env.NOTIFY_EMAIL_TO;
+const NOTIFY_TO = (process.env.NOTIFY_EMAIL_TO || "")
+  .split(",")
+  .map((e) => e.trim())
+  .filter(Boolean);
 
 const WATCH_ZIPS = [
   { zip: "10708", town: "Bronxville" },
@@ -138,7 +141,7 @@ function buildEmailHTML(listing, town) {
 async function main() {
   if (!API_KEY) { console.error("RAPIDAPI_KEY not set"); process.exit(1); }
   if (!RESEND_KEY) { console.error("RESEND_API_KEY not set"); process.exit(1); }
-  if (!NOTIFY_TO) { console.error("NOTIFY_EMAIL_TO not set"); process.exit(1); }
+  if (!NOTIFY_TO.length) { console.error("NOTIFY_EMAIL_TO not set"); process.exit(1); }
 
   const seenSet = new Set(loadSeen());
   const isFirstRun = seenSet.size === 0;
