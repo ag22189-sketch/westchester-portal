@@ -23,6 +23,16 @@ const ZIP_CODES = {
   Tuckahoe: "10707",
 };
 
+function buildDatePrefix() {
+  const fmt = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
+  const today = new Date();
+  const tomorrow = new Date(today);
+  tomorrow.setDate(today.getDate() + 1);
+  const todayStr = today.toLocaleDateString("en-US", fmt);
+  const tomorrowStr = tomorrow.toLocaleDateString("en-US", fmt);
+  return `Today is ${todayStr}. Tomorrow is ${tomorrowStr}.\n\n`;
+}
+
 const SYSTEM_PROMPT = `You are Ali's personal real estate agent for Westchester County. You help her find homes worth visiting and plan efficient open house routes.
 
 Ali's situation:
@@ -184,7 +194,7 @@ export async function handleAgentChat(req, res) {
     const response = await client.messages.create({
       model: "claude-sonnet-4-20250514",
       max_tokens: 1024,
-      system: SYSTEM_PROMPT + dataContext,
+      system: buildDatePrefix() + SYSTEM_PROMPT + dataContext,
       messages: messages.map((m) => ({
         role: m.role,
         content: m.content,
