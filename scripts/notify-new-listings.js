@@ -144,7 +144,6 @@ async function main() {
   if (!NOTIFY_TO.length) { console.error("NOTIFY_EMAIL_TO not set"); process.exit(1); }
 
   const seenSet = new Set(loadSeen());
-  const isFirstRun = seenSet.size === 0;
   const allCurrentIds = [];
   const resend = new Resend(RESEND_KEY);
   let sent = 0;
@@ -165,8 +164,6 @@ async function main() {
 
       if (seenSet.has(id)) continue;
 
-      // First run: just record, don't email
-      if (isFirstRun) continue;
 
       const addr = listing.location?.address || {};
       const street = streetFromAddress(addr.line);
@@ -196,11 +193,7 @@ async function main() {
 
   saveSeen(allCurrentIds);
 
-  if (isFirstRun) {
-    console.log(`First run — saved ${allCurrentIds.length} listings, no emails sent.`);
-  } else {
-    console.log(`Done: ${sent} new listing email(s) sent.`);
-  }
+  console.log(`Done: ${sent} new listing email(s) sent.`);
 }
 
 main().catch((err) => {
