@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 const TOWNS = [
-  "Irvington", "Hastings-on-Hudson", "Dobbs Ferry", "Tarrytown", "Sleepy Hollow",
-  "Ardsley", "Chappaqua", "Bedford", "Katonah", "Bronxville",
-  "Scarsdale", "Larchmont", "Rye", "Pleasantville", "Pelham",
-  "Tuckahoe", "Mount Vernon",
+  "Pelham", "Bronxville", "Scarsdale",
+  "Ardsley", "Bedford", "Chappaqua", "Dobbs Ferry", "Hastings-on-Hudson",
+  "Irvington", "Katonah", "Larchmont", "Mount Vernon", "Pleasantville",
+  "Rye", "Sleepy Hollow", "Tarrytown", "Tuckahoe",
 ];
 
 export default function DigestSignup({ currentTown }) {

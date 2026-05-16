@@ -11,7 +11,7 @@ Currently, two official plugins are available:
 
 An hourly email alert for new house listings in watched towns, powered by GitHub Actions + Resend.
 
-**Watched towns:** Bronxville (10708), Pelham (10803), Irvington (10533)
+**Watched towns:** Pelham (10803), Bronxville (10708), Irvington (10533)
 
 **How it works:**
 1. GitHub Actions runs `scripts/notify-new-listings.js` every hour (cron `0 * * * *`)

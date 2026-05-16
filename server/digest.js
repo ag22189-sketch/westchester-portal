@@ -10,23 +10,23 @@ const API_KEY = process.env.VITE_RAPIDAPI_KEY;
 const API_HOST = "us-real-estate-listings.p.rapidapi.com";
 
 const ZIP_CODES = {
-  Irvington: "10533",
-  "Hastings-on-Hudson": "10706",
-  "Dobbs Ferry": "10522",
-  Tarrytown: "10591",
-  "Sleepy Hollow": "10591",
-  Ardsley: "10502",
-  Chappaqua: "10514",
-  Bedford: "10506",
-  Katonah: "10536",
+  Pelham: "10803",
   Bronxville: "10708",
   Scarsdale: "10583",
+  Ardsley: "10502",
+  Bedford: "10506",
+  Chappaqua: "10514",
+  "Dobbs Ferry": "10522",
+  "Hastings-on-Hudson": "10706",
+  Irvington: "10533",
+  Katonah: "10536",
   Larchmont: "10538",
-  Rye: "10580",
-  Pleasantville: "10570",
-  Pelham: "10803",
-  Tuckahoe: "10707",
   "Mount Vernon": "10552",
+  Pleasantville: "10570",
+  Rye: "10580",
+  "Sleepy Hollow": "10591",
+  Tarrytown: "10591",
+  Tuckahoe: "10707",
 };
 
 async function fetchTownData(townName) {

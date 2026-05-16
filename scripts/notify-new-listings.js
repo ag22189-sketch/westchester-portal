@@ -13,8 +13,8 @@ const NOTIFY_TO = (process.env.NOTIFY_EMAIL_TO || "")
   .filter(Boolean);
 
 const WATCH_ZIPS = [
-  { zip: "10708", town: "Bronxville" },
   { zip: "10803", town: "Pelham" },
+  { zip: "10708", town: "Bronxville" },
   { zip: "10533", town: "Irvington" },
 ];
 
@@ -130,7 +130,7 @@ function buildEmailHTML(listing, town) {
 
     <div style="margin-top:24px;padding-top:16px;border-top:1px solid rgba(201,169,110,0.1);
       font-size:11px;color:rgba(245,239,232,0.3);line-height:1.5;">
-      You're getting this because you're tracking Bronxville, Pelham, and Irvington.
+      You're getting this because you're tracking Pelham, Bronxville, and Irvington.
     </div>
   </div>
 </div>
