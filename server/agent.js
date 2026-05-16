@@ -46,11 +46,16 @@ Ali's deal-breakers (FLAG, do not filter out, she still wants to see these prope
 - No yard or extremely small yard
 - Inadequate primary bedroom closet space
 
-When showing properties, tag each one with quick status indicators. For example:
-🟢 12 Oak Lane, Pelham — $1.8M, 4 bed, 3 bath. Primary bath ✓, yard ✓, closet ✓
-🟡 8 Elm Street, Bronxville — $2.1M, 4 bed, 2 bath. Primary bath unclear in listing, small yard, closet unclear
+PROPERTY LINK FORMAT (mandatory for EVERY property mention in ANY response):
+Every property must have TWO clickable links:
+1. The address text links to the LISTING DETAIL PAGE (realtor.com URL from the listing data).
+2. A 📍 pin icon links to Google Maps.
 
-Format every property address as a clickable Google Maps link using markdown: [123 Main St, Pelham NY](https://www.google.com/maps/search/?api=1&query=123+Main+St+Pelham+NY).
+If the listing URL is unavailable, fall back to Google Maps link only and note "(listing link not available)".
+
+Non-route property mentions format:
+🟢 [8 Shoreview Cir, Pelham NY](LISTING_URL) [📍](https://www.google.com/maps/search/?api=1&query=8+Shoreview+Cir+Pelham+NY) — $2.2M, 4 bed, 3 bath. Primary bath ✓, yard ✓, closets ✓
+🟡 [45 Elm St, Bronxville NY](LISTING_URL) [📍](https://www.google.com/maps/search/?api=1&query=45+Elm+St+Bronxville+NY) — $1.9M, 3 bed, 2 bath. Primary bath unclear, small yard, closet unclear
 
 Communication style: casual, direct, no em dashes (use commas, periods, or parentheses instead). Sound like a knowledgeable friend, not a corporate realtor.
 
@@ -58,11 +63,11 @@ ROUTE FORMAT (strict):
 When she asks to plan a route, use EXACTLY this format. No deviations.
 1. Sort stops chronologically by open house start time. Earliest first. Never list a later time before an earlier time.
 2. Each stop uses this format:
-   1. **12:00pm** — [123 Address St, Town NY](https://www.google.com/maps/search/?api=1&query=123+Address+St+Town+NY) — $1.8M, 4 bed, 3 bath 🟢
-   2. **1:00pm** — [456 Next St, Town NY](https://www.google.com/maps/search/?api=1&query=456+Next+St+Town+NY) — $2.1M, 3 bed, 2 bath 🟡
+   1. **12:00pm** — [123 Address St, Town NY](LISTING_URL) [📍](https://www.google.com/maps/search/?api=1&query=123+Address+St+Town+NY) — $1.8M, 4 bed, 3 bath 🟢
+   2. **1:00pm** — [456 Next St, Town NY](LISTING_URL) [📍](https://www.google.com/maps/search/?api=1&query=456+Next+St+Town+NY) — $2.1M, 3 bed, 2 bath 🟡
 3. Do NOT include "Previous Location → Next Location" arrows. The order of the list IS the route.
 4. Do NOT add headers like "SUNDAY MAY 17 ROUTE" unless she asks. Just the numbered list.
-5. Every address MUST be a fully formed markdown link to Google Maps. No plain text addresses.
+5. Every address MUST have both a listing link and a map pin link. No plain text addresses ever.
 6. After the list, add one optional line summary like "All Pelham, then Bronxville, ending in Scarsdale" so she knows the geographic arc.
 
 Always verify your output renders cleanly. If you write a markdown link, make sure both the opening bracket and closing parenthesis are present and properly formed.
@@ -171,6 +176,7 @@ export async function handleAgentChat(req, res) {
         dataContext += `OPEN HOUSES THIS WEEKEND (${satStr} - ${sunStr}):\n`;
         openHouses.forEach((l) => {
           dataContext += `- ${l.address} (${l.town}) - $${l.price?.toLocaleString()}, ${l.beds}bd/${l.baths}ba`;
+          if (l.link) dataContext += ` | listing: ${l.link}`;
           if (l.openHouses.length > 0) {
             const oh = l.openHouses[0];
             dataContext += ` | Open house: ${oh.start_date || oh.date || "this weekend"}`;
@@ -191,6 +197,7 @@ export async function handleAgentChat(req, res) {
         dataContext += `${town.toUpperCase()} (${townListings.length} listings):\n`;
         townListings.forEach((l) => {
           dataContext += `  - ${l.address} | $${l.price?.toLocaleString()} | ${l.beds}bd/${l.baths}ba | ${l.sqft ? l.sqft + "sqft" : "sqft N/A"} | ${l.type || "N/A"}`;
+          if (l.link) dataContext += ` | listing: ${l.link}`;
           if (l.openHouses?.length > 0) dataContext += " | HAS OPEN HOUSE";
           dataContext += "\n";
         });
@@ -204,7 +211,7 @@ export async function handleAgentChat(req, res) {
     const client = new Anthropic({ apiKey: anthropicKey });
     const response = await client.messages.create({
       model: "claude-sonnet-4-20250514",
-      max_tokens: 1024,
+      max_tokens: 2048,
       system: buildDatePrefix() + SYSTEM_PROMPT + dataContext,
       messages: messages.map((m) => ({
         role: m.role,
