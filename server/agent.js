@@ -71,17 +71,30 @@ When she asks to plan a route, use EXACTLY this format. No deviations.
 6. After the list, add one optional line summary like "All Pelham, then Bronxville, ending in Scarsdale" so she knows the geographic arc.
 
 MARKET INTELLIGENCE DEFINITIONS:
-- "Bidding war signal" = sold over 5% above ask AND under 14 days on market
-- "Going over ask" = any sold price above list price
-- "Cool market" = average sold price at or below ask, or days on market over 60
-- "Quick sale" = under 7 days on market
+- "Hot market signal" = low average days on market (under 14) in a town, many listings moving quickly
+- "Cool market" = average days on market over 60, or many stale listings
+- "Quick sale" = under 7 days on market (indicates strong buyer demand, possible bidding war)
+- "Stale listing" = over 60 days on market (indicates overpricing or low demand)
+
+DATA YOU HAVE:
+- Active listings: address, price, beds, baths, sqft, days on market, listing links
+- Open houses: dates, times, addresses
+- Market velocity: days on market by town, new listings this week
+- Appreciation history: what currently-listed homes previously sold for vs. current ask (shows long-term appreciation trends)
+
+DATA YOU DO NOT HAVE:
+- Recent closed sale prices (what properties actually sold for in the past week/month)
+- Over-ask or under-ask percentages on completed transactions
+- Bidding war outcomes or final sale price vs. list price
+
+If Ali asks "what sold over ask" or "is there a bidding war," be direct: explain that you can see how quickly homes are going under contract (low DOM = high demand signal) and long-term appreciation, but you cannot see final closed sale prices. Suggest she check county records or ask her agent for specific closed comp prices, and you can help verify if the numbers seem reasonable against the listing data you do have.
 
 BEHAVIOR RULES:
-- Always cite specific properties with prices and percentages when making claims. Never generalize without data. Example: "Pelham is running warm. Last week 4 of 7 sold properties went over ask, averaging 6.2% above. The strongest was 14 Maple Ave at $2.34M on a $2.15M ask (+8.8%) in 9 days."
-- If asked about a specific address you do not have sold data on, say so plainly. Do not fabricate.
+- Always cite specific properties with prices and data when making claims. Never generalize without data.
+- Use days-on-market as the primary market heat indicator. Example: "Pelham looks hot right now. Average DOM is 12 days, with 3 of 8 active listings under 7 days. New listings are moving fast."
+- If asked about something you don't have data on, say so plainly. Do not fabricate.
 - Lead with data, not adjectives.
-- Ali built you partly to ground-truth claims from real estate agents. If an agent tells her there is a bidding war or things are going way over ask, Ali can ask you to verify against actual sold comps in that town. Be direct and factual.
-- When showing sold data, include: address, sold price, list price, over/under ask %, days on market.
+- Ali built you partly to ground-truth claims from real estate agents. If an agent tells her things are going way over ask, you can tell her what the DOM and velocity look like to corroborate or question that claim, and suggest she verify specific closed prices.
 - Be discriminating but not gatekeeping. If something is borderline, show it and flag the issue.
 
 Always verify your output renders cleanly. If you write a markdown link, make sure both the opening bracket and closing parenthesis are present and properly formed.`;
@@ -122,6 +135,11 @@ async function fetchListingsForAllTowns() {
           openHouses: p.open_houses || [],
           listDate: p.list_date || null,
           description: p.description?.text || null,
+          lastSoldPrice: p.last_sold_price || null,
+          lastSoldDate: p.last_sold_date || null,
+          daysOnMarket: p.list_date
+            ? Math.max(0, Math.floor((Date.now() - new Date(p.list_date).getTime()) / 86400000))
+            : null,
         }));
       } catch {
         return [];
@@ -134,68 +152,29 @@ async function fetchListingsForAllTowns() {
   return results;
 }
 
-async function fetchRecentlySold() {
-  if (!API_KEY) return [];
-
-  const towns = Object.entries(ZIP_CODES);
+function extractAppreciationData(allListings) {
+  // Extract prior sale history from active listings to show market appreciation
+  // This is what we CAN get: what properties previously sold for vs. current ask
   const results = [];
-  const fourteenDaysAgo = new Date();
-  fourteenDaysAgo.setDate(fourteenDaysAgo.getDate() - 14);
 
-  for (let i = 0; i < towns.length; i += 4) {
-    const batch = towns.slice(i, i + 4);
-    const promises = batch.map(async ([town, zip]) => {
-      try {
-        const res = await fetch(
-          `https://${API_HOST}/for-sale?location=${zip}&offset=0&limit=50&sort=newest&status=sold`,
-          {
-            headers: {
-              "x-rapidapi-key": API_KEY,
-              "x-rapidapi-host": API_HOST,
-            },
-          }
-        );
-        if (!res.ok) return [];
-        const data = await res.json();
-        const listings = data?.listings || [];
+  for (const l of allListings) {
+    if (!l.lastSoldPrice || !l.price || !l.lastSoldDate) continue;
+    const ratio = l.lastSoldPrice / l.price;
+    if (ratio > 3 || ratio < 1 / 3) continue; // filter anomalies
 
-        return listings
-          .filter((p) => {
-            const soldDate = p.last_sold_date || p.sold_date;
-            if (!soldDate) return false;
-            return new Date(soldDate) >= fourteenDaysAgo;
-          })
-          .map((p) => {
-            const listPrice = p.list_price || 0;
-            const soldPrice = p.last_sold_price || p.sold_price || 0;
-            const overAskPct = listPrice > 0
-              ? Math.round(((soldPrice - listPrice) / listPrice) * 1000) / 10
-              : null;
-            const soldDate = p.last_sold_date || p.sold_date || null;
-            const dom = p.list_date && soldDate
-              ? Math.max(0, Math.floor((new Date(soldDate).getTime() - new Date(p.list_date).getTime()) / 86400000))
-              : null;
-
-            return {
-              town,
-              address: formatAddress(p),
-              listPrice,
-              soldPrice,
-              overAskPct,
-              dom,
-              soldDate,
-              link: p.href || null,
-            };
-          });
-      } catch {
-        return [];
-      }
+    const appreciation = Math.round(((l.price - l.lastSoldPrice) / l.lastSoldPrice) * 1000) / 10;
+    results.push({
+      town: l.town,
+      address: l.address,
+      lastSoldPrice: l.lastSoldPrice,
+      lastSoldDate: l.lastSoldDate,
+      currentAsk: l.price,
+      appreciation,
+      link: l.link,
     });
-    const batchResults = await Promise.all(promises);
-    results.push(...batchResults.flat());
   }
 
-  return results;
+  return results.sort((a, b) => new Date(b.lastSoldDate) - new Date(a.lastSoldDate));
 }
 
 async function fetchOpenHouses() {
@@ -242,7 +221,7 @@ export async function handleAgentChat(req, res) {
     let dataContext = "";
     try {
       const { allListings, openHouses, weekend } = await fetchOpenHouses();
-      const recentlySold = await fetchRecentlySold();
+      const appreciationData = extractAppreciationData(allListings);
       const satStr = weekend.saturday.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
       const sunStr = weekend.sunday.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
 
@@ -281,42 +260,57 @@ export async function handleAgentChat(req, res) {
         dataContext += "\n";
       }
 
-      // Recently sold data
-      if (recentlySold.length > 0) {
-        dataContext += `\n--- RECENTLY SOLD (past 14 days) ---\n`;
-        dataContext += `Total sold: ${recentlySold.length}\n\n`;
+      // Market velocity: days on market analysis
+      const domByTown = {};
+      const newListings = []; // listed in last 7 days
+      const sevenDaysAgo = new Date();
+      sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
 
-        // Summary stats by town
-        const townStats = {};
-        for (const s of recentlySold) {
-          if (!townStats[s.town]) townStats[s.town] = { sales: [], overAsk: 0, total: 0 };
-          townStats[s.town].sales.push(s);
-          townStats[s.town].total++;
-          if (s.overAskPct !== null && s.overAskPct > 0) townStats[s.town].overAsk++;
+      for (const l of allListings) {
+        if (l.daysOnMarket !== null) {
+          if (!domByTown[l.town]) domByTown[l.town] = [];
+          domByTown[l.town].push(l.daysOnMarket);
         }
+        if (l.listDate && new Date(l.listDate) >= sevenDaysAgo) {
+          newListings.push(l);
+        }
+      }
 
-        dataContext += `TOWN SUMMARY (sold activity, last 14 days):\n`;
-        for (const town of orderedTowns) {
-          const stats = townStats[town];
-          if (!stats) continue;
-          const avgOverAsk = stats.sales
-            .filter((s) => s.overAskPct !== null)
-            .reduce((sum, s, _, arr) => sum + s.overAskPct / arr.length, 0);
-          const avgDOM = stats.sales
-            .filter((s) => s.dom !== null)
-            .reduce((sum, s, _, arr) => sum + s.dom / arr.length, 0);
-          dataContext += `  ${town}: ${stats.total} sold, ${stats.overAsk} over ask, avg ${avgOverAsk >= 0 ? "+" : ""}${avgOverAsk.toFixed(1)}% vs ask, avg ${Math.round(avgDOM)} DOM\n`;
+      dataContext += `\n--- MARKET VELOCITY ---\n`;
+      dataContext += `DAYS ON MARKET BY TOWN (active listings):\n`;
+      for (const town of orderedTowns) {
+        const doms = domByTown[town];
+        if (!doms || doms.length === 0) continue;
+        const avg = Math.round(doms.reduce((s, v) => s + v, 0) / doms.length);
+        const quickCount = doms.filter(d => d < 7).length;
+        const stalledCount = doms.filter(d => d > 60).length;
+        dataContext += `  ${town}: avg ${avg} DOM, ${quickCount} under 7 days (hot), ${stalledCount} over 60 days (stale)\n`;
+      }
+      dataContext += "\n";
+
+      if (newListings.length > 0) {
+        dataContext += `NEW THIS WEEK (listed in last 7 days):\n`;
+        for (const l of newListings) {
+          dataContext += `  - ${l.address} (${l.town}) | $${l.price?.toLocaleString()} | ${l.beds}bd/${l.baths}ba | ${l.daysOnMarket} DOM`;
+          if (l.link) dataContext += ` | listing: ${l.link}`;
+          dataContext += "\n";
         }
         dataContext += "\n";
+      }
 
-        dataContext += `INDIVIDUAL SOLD PROPERTIES:\n`;
+      // Appreciation data (prior sale history on active listings)
+      if (appreciationData.length > 0) {
+        dataContext += `--- PRICE APPRECIATION (prior sale vs current ask on active listings) ---\n`;
+        dataContext += `Note: This shows what currently-listed homes previously sold for. It indicates market appreciation over time, not recent closed transactions. You do NOT have access to recent closed sale prices or over/under ask data for completed transactions.\n\n`;
+
         for (const town of orderedTowns) {
-          const townSold = recentlySold.filter((s) => s.town === town);
-          if (townSold.length === 0) continue;
-          dataContext += `  ${town.toUpperCase()}:\n`;
-          for (const s of townSold) {
-            dataContext += `    - ${s.address} | list: $${s.listPrice?.toLocaleString()} | sold: $${s.soldPrice?.toLocaleString()} | ${s.overAskPct !== null ? (s.overAskPct >= 0 ? "+" : "") + s.overAskPct.toFixed(1) + "% vs ask" : "N/A"} | ${s.dom !== null ? s.dom + " DOM" : "DOM N/A"} | sold: ${s.soldDate || "N/A"}`;
-            if (s.link) dataContext += ` | listing: ${s.link}`;
+          const townData = appreciationData.filter((a) => a.town === town);
+          if (townData.length === 0) continue;
+          const avgApp = townData.reduce((s, a) => s + a.appreciation, 0) / townData.length;
+          dataContext += `  ${town.toUpperCase()} (avg +${avgApp.toFixed(0)}% appreciation):\n`;
+          for (const a of townData.slice(0, 5)) {
+            dataContext += `    - ${a.address} | bought ${a.lastSoldDate?.slice(0, 4)} at $${a.lastSoldPrice?.toLocaleString()} | now asking $${a.currentAsk?.toLocaleString()} (+${a.appreciation.toFixed(1)}%)`;
+            if (a.link) dataContext += ` | listing: ${a.link}`;
             dataContext += "\n";
           }
         }
