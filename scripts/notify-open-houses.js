@@ -97,19 +97,45 @@ function getOpenHouseId(listing, oh) {
   return `${id}_${start}`;
 }
 
+function getWeekendRange() {
+  const now = new Date();
+  const day = now.getDay(); // 0=Sun, 1=Mon, ..., 6=Sat
+
+  let saturday, sunday;
+  if (day === 0) {
+    // Sunday — weekend is today only
+    sunday = new Date(now);
+    sunday.setHours(23, 59, 59, 999);
+    saturday = new Date(sunday);
+    saturday.setDate(sunday.getDate() - 1);
+    saturday.setHours(0, 0, 0, 0);
+    // But Saturday is already past, so just use Sunday
+    saturday = new Date(now);
+    saturday.setHours(0, 0, 0, 0);
+  } else if (day === 6) {
+    // Saturday — weekend is today + tomorrow
+    saturday = new Date(now);
+    saturday.setHours(0, 0, 0, 0);
+    sunday = new Date(now);
+    sunday.setDate(now.getDate() + 1);
+    sunday.setHours(23, 59, 59, 999);
+  } else {
+    // Mon-Fri — upcoming Saturday + Sunday
+    const daysToSat = 6 - day;
+    saturday = new Date(now);
+    saturday.setDate(now.getDate() + daysToSat);
+    saturday.setHours(0, 0, 0, 0);
+    sunday = new Date(saturday);
+    sunday.setDate(saturday.getDate() + 1);
+    sunday.setHours(23, 59, 59, 999);
+  }
+  return { saturday, sunday };
+}
+
 function isThisWeekend(dateStr) {
   if (!dateStr) return false;
   const d = new Date(dateStr);
-  const now = new Date();
-  // Find upcoming Saturday
-  const dayOfWeek = now.getDay();
-  const daysToSat = (6 - dayOfWeek + 7) % 7 || 7;
-  const saturday = new Date(now);
-  saturday.setDate(now.getDate() + daysToSat);
-  saturday.setHours(0, 0, 0, 0);
-  const sunday = new Date(saturday);
-  sunday.setDate(saturday.getDate() + 1);
-  sunday.setHours(23, 59, 59, 999);
+  const { saturday, sunday } = getWeekendRange();
   return d >= saturday && d <= sunday;
 }
 
@@ -242,7 +268,12 @@ function buildDigestEmailHTML(grouped) {
 }
 
 async function runDigest() {
-  console.log("Running weekly open house digest...");
+  const { saturday, sunday } = getWeekendRange();
+  const fmtD = (d) => d.toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
+  const satStr = fmtD(saturday);
+  const sunStr = fmtD(sunday);
+  const rangeStr = saturday.toDateString() === sunday.toDateString() ? satStr : `${fmtD(saturday).replace(/, \d{4}$/, "")} - ${sunStr}`;
+  console.log(`Fetching open houses for ${rangeStr} across 17 towns...`);
   const grouped = [];
 
   for (const { zip, town } of TOWNS) {
