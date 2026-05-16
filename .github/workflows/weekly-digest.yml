@@ -1,0 +1,25 @@
+name: Weekly Market Digest
+
+on:
+  schedule:
+    - cron: '0 11 * * 0'  # Sunday 11:00 UTC = 7 AM ET (EDT)
+  workflow_dispatch:
+
+jobs:
+  send-digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger digest endpoint
+        env:
+          DIGEST_SECRET: ${{ secrets.DIGEST_SECRET }}
+        run: |
+          echo "Triggering weekly digest..."
+          RESPONSE=$(curl -s -w "\n%{http_code}" "https://westchester-portal.onrender.com/api/send-digest?key=${DIGEST_SECRET}")
+          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
+          BODY=$(echo "$RESPONSE" | head -n -1)
+          echo "Status: $HTTP_CODE"
+          echo "Response: $BODY"
+          if [ "$HTTP_CODE" -ne 200 ]; then
+            echo "Digest endpoint returned error"
+            exit 1
+          fi
