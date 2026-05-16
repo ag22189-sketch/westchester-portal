@@ -37,7 +37,7 @@ function saveSeen(ids) {
 
 async function fetchListingsForZip(zip) {
   const res = await fetch(
-    `https://${API_HOST}/for-sale?location=${zip}&offset=0&limit=20`,
+    `https://${API_HOST}/for-sale?location=${zip}&offset=0&limit=50&sort=newest&status=for_sale,coming_soon`,
     {
       headers: {
         "x-rapidapi-key": API_KEY,
@@ -152,7 +152,11 @@ async function main() {
   for (const { zip, town } of WATCH_ZIPS) {
     console.log(`Fetching ${town} (${zip})...`);
     const listings = await fetchListingsForZip(zip);
-    console.log(`  ${listings.length} listings found`);
+    const newestDate = listings.reduce((latest, l) => {
+      const d = l.list_date;
+      return d && d > latest ? d : latest;
+    }, "none");
+    console.log(`  ${listings.length} listings found, newest from ${newestDate.slice(0, 10)}`);
 
     for (const listing of listings) {
       const id = listing.property_id || listing.listing_id;
