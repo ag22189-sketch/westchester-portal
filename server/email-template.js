@@ -152,7 +152,125 @@ function townSection(townName, data) {
     </tr>`;
 }
 
-export function buildDigestEmail(email, townDataMap) {
+function marketHeatSection(heat) {
+  if (!heat) return "";
+  const { soldOverAsk = [], townHeat = [], quickSales = [], priceReductions = [] } = heat;
+  const hasData = soldOverAsk.length > 0 || townHeat.length > 0 || quickSales.length > 0 || priceReductions.length > 0;
+  if (!hasData) return "";
+
+  let html = `
+    <tr>
+      <td style="padding: 0 0 32px;">
+        <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
+          <tr>
+            <td style="padding: 24px 28px; background: rgba(201,169,110,0.06); border: 1px solid rgba(201,169,110,0.2); border-radius: 12px;">
+              <div style="font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: #C9A96E; margin-bottom: 16px; font-family: Georgia, serif;">
+                🔥 Market Heat This Week
+              </div>`;
+
+  // Sold over ask
+  if (soldOverAsk.length > 0) {
+    html += `
+              <div style="margin-bottom: 20px;">
+                <div style="font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 10px; font-family: Georgia, serif;">Sold Over Asking</div>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">`;
+    for (const s of soldOverAsk) {
+      html += `
+                  <tr>
+                    <td style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-family: Georgia, serif;">
+                      <div style="font-size: 14px; color: #E8E0D5;">${s.address}, ${s.town}</div>
+                      <div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 3px;">
+                        ${fmtPrice(s.soldPrice)} sold
+                        <span style="color: #7A9E7E; font-weight: 600;">(+${s.pctOver.toFixed(1)}% over ${fmtPrice(s.askPrice)} ask${s.dom !== null ? `, ${s.dom} days on market` : ""})</span>
+                      </div>
+                    </td>
+                  </tr>`;
+    }
+    html += `
+                </table>
+              </div>`;
+  }
+
+  // Town heat averages
+  if (townHeat.length > 0) {
+    html += `
+              <div style="margin-bottom: 20px;">
+                <div style="font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 10px; font-family: Georgia, serif;">Average Over/Under Ask by Town</div>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">`;
+    for (const t of townHeat) {
+      const isHot = t.avgOverUnder > 0;
+      const color = isHot ? "#7A9E7E" : "#C46B5E";
+      html += `
+                  <tr>
+                    <td style="padding: 5px 0; font-family: Georgia, serif;">
+                      <span style="font-size: 14px; color: #E8E0D5;">${t.town}</span>
+                      <span style="font-size: 13px; color: ${color}; margin-left: 8px; font-weight: 600;">${isHot ? "+" : ""}${t.avgOverUnder.toFixed(1)}%</span>
+                      <span style="font-size: 12px; color: rgba(255,255,255,0.3); margin-left: 6px;">(${t.count} sale${t.count !== 1 ? "s" : ""})</span>
+                    </td>
+                  </tr>`;
+    }
+    html += `
+                </table>
+              </div>`;
+  }
+
+  // Quick sales (bidding war signal)
+  if (quickSales.length > 0) {
+    html += `
+              <div style="margin-bottom: 20px;">
+                <div style="font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 10px; font-family: Georgia, serif;">⚡ Quick Sales (Under 7 Days, Bidding War Signal)</div>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">`;
+    for (const q of quickSales) {
+      html += `
+                  <tr>
+                    <td style="padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-family: Georgia, serif;">
+                      <span style="font-size: 14px; color: #E8E0D5;">${q.address}, ${q.town}</span>
+                      <span style="font-size: 13px; color: #C9A96E; margin-left: 8px;">${q.dom} day${q.dom !== 1 ? "s" : ""} on market</span>
+                      <span style="font-size: 13px; color: rgba(255,255,255,0.4); margin-left: 6px;">${fmtPrice(q.soldPrice)}</span>
+                    </td>
+                  </tr>`;
+    }
+    html += `
+                </table>
+              </div>`;
+  }
+
+  // Price reductions (cooling signal)
+  if (priceReductions.length > 0) {
+    html += `
+              <div>
+                <div style="font-size: 12px; letter-spacing: 1.5px; text-transform: uppercase; color: rgba(255,255,255,0.4); margin-bottom: 10px; font-family: Georgia, serif;">📉 Price Reductions (Cooling Signal)</div>
+                <table width="100%" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">`;
+    for (const r of priceReductions) {
+      html += `
+                  <tr>
+                    <td style="padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-family: Georgia, serif;">
+                      <span style="font-size: 14px; color: #E8E0D5;">${r.address}, ${r.town}</span>
+                      <div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 3px;">
+                        <span style="text-decoration: line-through; color: rgba(255,255,255,0.3);">${fmtPrice(r.originalPrice)}</span>
+                        <span style="margin: 0 6px;">&rarr;</span>
+                        <span style="color: #E8E0D5;">${fmtPrice(r.currentPrice)}</span>
+                        <span style="color: #C46B5E; margin-left: 8px;">(-${r.pctDrop.toFixed(1)}%)</span>
+                      </div>
+                    </td>
+                  </tr>`;
+    }
+    html += `
+                </table>
+              </div>`;
+  }
+
+  html += `
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>`;
+
+  return html;
+}
+
+export function buildDigestEmail(email, townDataMap, marketHeat) {
   const townNames = Object.keys(townDataMap);
 
   const divider = `<tr><td style="padding: 0 0 32px; text-align: center;">
@@ -191,6 +309,9 @@ export function buildDigestEmail(email, townDataMap) {
               <div style="width: 60px; height: 1px; background: rgba(201,169,110,0.4); margin: 24px auto 0;"></div>
             </td>
           </tr>
+
+          <!-- Market Heat -->
+          ${marketHeatSection(marketHeat)}
 
           <!-- Town Sections -->
           ${townSections}
