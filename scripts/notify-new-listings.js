@@ -176,7 +176,7 @@ async function main() {
 
       try {
         await resend.emails.send({
-          from: "Westchester Portal <onboarding@resend.dev>",
+          from: "Westchester Portal <listings@domusco.com>",
           to: NOTIFY_TO,
           subject: `New in ${town}: ${price} on ${street}`,
           html: buildEmailHTML(listing, town),
