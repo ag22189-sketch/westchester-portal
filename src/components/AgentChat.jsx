@@ -1,7 +1,6 @@
 import { useState, useRef, useEffect } from "react";
 
 function renderMarkdown(text) {
-  // Basic markdown: bold, italic, links, code blocks, lists
   let html = text
     // Code blocks
     .replace(/```[\s\S]*?```/g, (match) => {
@@ -32,6 +31,10 @@ export default function AgentChat() {
   const [loading, setLoading] = useState(false);
   const messagesEndRef = useRef(null);
   const inputRef = useRef(null);
+
+  useEffect(() => {
+    document.title = "Chessie | Westchester Portal";
+  }, []);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -95,17 +98,17 @@ export default function AgentChat() {
           marginBottom: "12px",
         }}>Westchester Portal</a>
         <h1 style={{
-          fontSize: "28px",
+          fontSize: "32px",
           fontWeight: 400,
           color: "#F5EFE8",
           margin: 0,
-        }}>House Hunting Agent</h1>
+        }}>Chessie <span style={{ color: "#C9A96E" }}>{"\u265B"}</span></h1>
         <p style={{
           color: "rgba(255,255,255,0.4)",
           fontSize: "14px",
           fontStyle: "italic",
           marginTop: "6px",
-        }}>Ask about listings, open houses, or plan a route</p>
+        }}>Your Westchester real estate intelligence agent</p>
       </div>
 
       {/* Messages */}
@@ -118,34 +121,74 @@ export default function AgentChat() {
         gap: "20px",
       }}>
         {messages.length === 0 && (
-          <div style={{
-            textAlign: "center",
-            padding: "60px 20px",
-            color: "rgba(255,255,255,0.3)",
-          }}>
-            <p style={{ fontSize: "16px", marginBottom: "16px" }}>Try asking:</p>
-            <div style={{ display: "flex", flexDirection: "column", gap: "10px", alignItems: "center" }}>
-              {["What's worth seeing this weekend?", "Show me what's new in Pelham", "Plan a route for Saturday open houses"].map((q) => (
-                <button
-                  key={q}
-                  onClick={() => { setInput(q); inputRef.current?.focus(); }}
-                  style={{
-                    background: "rgba(255,255,255,0.04)",
-                    border: "1px solid rgba(255,255,255,0.1)",
-                    borderRadius: "8px",
-                    padding: "10px 18px",
-                    color: "#F5EFE8",
-                    fontFamily: "inherit",
-                    fontSize: "14px",
-                    cursor: "pointer",
-                    transition: "border-color 0.2s",
-                  }}
-                  onMouseOver={(e) => e.target.style.borderColor = "rgba(201,169,110,0.4)"}
-                  onMouseOut={(e) => e.target.style.borderColor = "rgba(255,255,255,0.1)"}
-                >
-                  {q}
-                </button>
-              ))}
+          <div style={{ padding: "20px 0 40px" }}>
+            {/* Chessie greeting */}
+            <div style={{
+              display: "flex",
+              alignItems: "flex-start",
+              gap: "12px",
+              marginBottom: "40px",
+            }}>
+              <div style={{
+                width: "32px",
+                height: "32px",
+                borderRadius: "50%",
+                background: "rgba(201,169,110,0.15)",
+                border: "1px solid rgba(201,169,110,0.3)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "16px",
+                color: "#C9A96E",
+                flexShrink: 0,
+              }}>{"\u265B"}</div>
+              <div style={{
+                padding: "14px 18px",
+                borderRadius: "16px 16px 16px 4px",
+                background: "rgba(255,255,255,0.04)",
+                border: "1px solid rgba(255,255,255,0.08)",
+                fontSize: "15px",
+                lineHeight: "1.6",
+                color: "#F5EFE8",
+              }}>
+                Hi, I'm <span style={{ color: "#C9A96E", fontWeight: 600 }}>Chessie</span>. I track every listing, open house, and recent sale across your 17 Westchester towns. Ask me anything.
+              </div>
+            </div>
+
+            {/* Suggested prompts */}
+            <div style={{
+              textAlign: "center",
+              color: "rgba(255,255,255,0.3)",
+            }}>
+              <p style={{ fontSize: "13px", marginBottom: "14px", textTransform: "uppercase", letterSpacing: "1.5px" }}>Try asking</p>
+              <div style={{ display: "flex", flexDirection: "column", gap: "10px", alignItems: "center" }}>
+                {[
+                  "What's worth seeing this weekend?",
+                  "What sold over ask in Pelham this week?",
+                  "Is Bronxville hot right now?",
+                  "Plan a route for Saturday open houses",
+                ].map((q) => (
+                  <button
+                    key={q}
+                    onClick={() => { setInput(q); inputRef.current?.focus(); }}
+                    style={{
+                      background: "rgba(255,255,255,0.04)",
+                      border: "1px solid rgba(255,255,255,0.1)",
+                      borderRadius: "8px",
+                      padding: "10px 18px",
+                      color: "#F5EFE8",
+                      fontFamily: "inherit",
+                      fontSize: "14px",
+                      cursor: "pointer",
+                      transition: "border-color 0.2s",
+                    }}
+                    onMouseOver={(e) => e.target.style.borderColor = "rgba(201,169,110,0.4)"}
+                    onMouseOut={(e) => e.target.style.borderColor = "rgba(255,255,255,0.1)"}
+                  >
+                    {q}
+                  </button>
+                ))}
+              </div>
             </div>
           </div>
         )}
@@ -154,7 +197,25 @@ export default function AgentChat() {
           <div key={i} style={{
             display: "flex",
             justifyContent: msg.role === "user" ? "flex-end" : "flex-start",
+            alignItems: "flex-start",
+            gap: msg.role === "assistant" ? "12px" : "0",
           }}>
+            {msg.role === "assistant" && (
+              <div style={{
+                width: "28px",
+                height: "28px",
+                borderRadius: "50%",
+                background: "rgba(201,169,110,0.15)",
+                border: "1px solid rgba(201,169,110,0.3)",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                fontSize: "14px",
+                color: "#C9A96E",
+                flexShrink: 0,
+                marginTop: "2px",
+              }}>{"\u265B"}</div>
+            )}
             <div style={{
               maxWidth: "720px",
               padding: "14px 18px",
@@ -178,7 +239,21 @@ export default function AgentChat() {
         ))}
 
         {loading && (
-          <div style={{ display: "flex", justifyContent: "flex-start" }}>
+          <div style={{ display: "flex", justifyContent: "flex-start", alignItems: "flex-start", gap: "12px" }}>
+            <div style={{
+              width: "28px",
+              height: "28px",
+              borderRadius: "50%",
+              background: "rgba(201,169,110,0.15)",
+              border: "1px solid rgba(201,169,110,0.3)",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              fontSize: "14px",
+              color: "#C9A96E",
+              flexShrink: 0,
+              marginTop: "2px",
+            }}>{"\u265B"}</div>
             <div style={{
               padding: "14px 18px",
               borderRadius: "16px 16px 16px 4px",
@@ -208,7 +283,7 @@ export default function AgentChat() {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask about listings, open houses, routes..."
+          placeholder="Ask Chessie about listings, sales, routes..."
           disabled={loading}
           style={{
             flex: 1,

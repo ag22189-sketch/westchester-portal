@@ -33,7 +33,7 @@ function buildDatePrefix() {
   return `Today is ${todayStr}. Tomorrow is ${tomorrowStr}.\n\n`;
 }
 
-const SYSTEM_PROMPT = `You are Ali's personal real estate agent for Westchester County. You help her find homes worth visiting and plan efficient open house routes.
+const SYSTEM_PROMPT = `You are Chessie, Ali's personal Westchester real estate intelligence agent. You help her find homes worth visiting, plan efficient open house routes, and verify market claims with real sold data.
 
 Ali's situation:
 - Currently lives at Hamilton Cove in Weehawken, NJ with her husband Ed
@@ -70,9 +70,21 @@ When she asks to plan a route, use EXACTLY this format. No deviations.
 5. Every address MUST have both a listing link and a map pin link. No plain text addresses ever.
 6. After the list, add one optional line summary like "All Pelham, then Bronxville, ending in Scarsdale" so she knows the geographic arc.
 
-Always verify your output renders cleanly. If you write a markdown link, make sure both the opening bracket and closing parenthesis are present and properly formed.
+MARKET INTELLIGENCE DEFINITIONS:
+- "Bidding war signal" = sold over 5% above ask AND under 14 days on market
+- "Going over ask" = any sold price above list price
+- "Cool market" = average sold price at or below ask, or days on market over 60
+- "Quick sale" = under 7 days on market
 
-Be discriminating but not gatekeeping. If something is borderline, show it and flag the issue.`;
+BEHAVIOR RULES:
+- Always cite specific properties with prices and percentages when making claims. Never generalize without data. Example: "Pelham is running warm. Last week 4 of 7 sold properties went over ask, averaging 6.2% above. The strongest was 14 Maple Ave at $2.34M on a $2.15M ask (+8.8%) in 9 days."
+- If asked about a specific address you do not have sold data on, say so plainly. Do not fabricate.
+- Lead with data, not adjectives.
+- Ali built you partly to ground-truth claims from real estate agents. If an agent tells her there is a bidding war or things are going way over ask, Ali can ask you to verify against actual sold comps in that town. Be direct and factual.
+- When showing sold data, include: address, sold price, list price, over/under ask %, days on market.
+- Be discriminating but not gatekeeping. If something is borderline, show it and flag the issue.
+
+Always verify your output renders cleanly. If you write a markdown link, make sure both the opening bracket and closing parenthesis are present and properly formed.`;
 
 async function fetchListingsForAllTowns() {
   if (!API_KEY) return [];
@@ -111,6 +123,70 @@ async function fetchListingsForAllTowns() {
           listDate: p.list_date || null,
           description: p.description?.text || null,
         }));
+      } catch {
+        return [];
+      }
+    });
+    const batchResults = await Promise.all(promises);
+    results.push(...batchResults.flat());
+  }
+
+  return results;
+}
+
+async function fetchRecentlySold() {
+  if (!API_KEY) return [];
+
+  const towns = Object.entries(ZIP_CODES);
+  const results = [];
+  const fourteenDaysAgo = new Date();
+  fourteenDaysAgo.setDate(fourteenDaysAgo.getDate() - 14);
+
+  for (let i = 0; i < towns.length; i += 4) {
+    const batch = towns.slice(i, i + 4);
+    const promises = batch.map(async ([town, zip]) => {
+      try {
+        const res = await fetch(
+          `https://${API_HOST}/for-sale?location=${zip}&offset=0&limit=50&sort=newest&status=sold`,
+          {
+            headers: {
+              "x-rapidapi-key": API_KEY,
+              "x-rapidapi-host": API_HOST,
+            },
+          }
+        );
+        if (!res.ok) return [];
+        const data = await res.json();
+        const listings = data?.listings || [];
+
+        return listings
+          .filter((p) => {
+            const soldDate = p.last_sold_date || p.sold_date;
+            if (!soldDate) return false;
+            return new Date(soldDate) >= fourteenDaysAgo;
+          })
+          .map((p) => {
+            const listPrice = p.list_price || 0;
+            const soldPrice = p.last_sold_price || p.sold_price || 0;
+            const overAskPct = listPrice > 0
+              ? Math.round(((soldPrice - listPrice) / listPrice) * 1000) / 10
+              : null;
+            const soldDate = p.last_sold_date || p.sold_date || null;
+            const dom = p.list_date && soldDate
+              ? Math.max(0, Math.floor((new Date(soldDate).getTime() - new Date(p.list_date).getTime()) / 86400000))
+              : null;
+
+            return {
+              town,
+              address: formatAddress(p),
+              listPrice,
+              soldPrice,
+              overAskPct,
+              dom,
+              soldDate,
+              link: p.href || null,
+            };
+          });
       } catch {
         return [];
       }
@@ -166,6 +242,7 @@ export async function handleAgentChat(req, res) {
     let dataContext = "";
     try {
       const { allListings, openHouses, weekend } = await fetchOpenHouses();
+      const recentlySold = await fetchRecentlySold();
       const satStr = weekend.saturday.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
       const sunStr = weekend.sunday.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
 
@@ -202,6 +279,47 @@ export async function handleAgentChat(req, res) {
           dataContext += "\n";
         });
         dataContext += "\n";
+      }
+
+      // Recently sold data
+      if (recentlySold.length > 0) {
+        dataContext += `\n--- RECENTLY SOLD (past 14 days) ---\n`;
+        dataContext += `Total sold: ${recentlySold.length}\n\n`;
+
+        // Summary stats by town
+        const townStats = {};
+        for (const s of recentlySold) {
+          if (!townStats[s.town]) townStats[s.town] = { sales: [], overAsk: 0, total: 0 };
+          townStats[s.town].sales.push(s);
+          townStats[s.town].total++;
+          if (s.overAskPct !== null && s.overAskPct > 0) townStats[s.town].overAsk++;
+        }
+
+        dataContext += `TOWN SUMMARY (sold activity, last 14 days):\n`;
+        for (const town of orderedTowns) {
+          const stats = townStats[town];
+          if (!stats) continue;
+          const avgOverAsk = stats.sales
+            .filter((s) => s.overAskPct !== null)
+            .reduce((sum, s, _, arr) => sum + s.overAskPct / arr.length, 0);
+          const avgDOM = stats.sales
+            .filter((s) => s.dom !== null)
+            .reduce((sum, s, _, arr) => sum + s.dom / arr.length, 0);
+          dataContext += `  ${town}: ${stats.total} sold, ${stats.overAsk} over ask, avg ${avgOverAsk >= 0 ? "+" : ""}${avgOverAsk.toFixed(1)}% vs ask, avg ${Math.round(avgDOM)} DOM\n`;
+        }
+        dataContext += "\n";
+
+        dataContext += `INDIVIDUAL SOLD PROPERTIES:\n`;
+        for (const town of orderedTowns) {
+          const townSold = recentlySold.filter((s) => s.town === town);
+          if (townSold.length === 0) continue;
+          dataContext += `  ${town.toUpperCase()}:\n`;
+          for (const s of townSold) {
+            dataContext += `    - ${s.address} | list: $${s.listPrice?.toLocaleString()} | sold: $${s.soldPrice?.toLocaleString()} | ${s.overAskPct !== null ? (s.overAskPct >= 0 ? "+" : "") + s.overAskPct.toFixed(1) + "% vs ask" : "N/A"} | ${s.dom !== null ? s.dom + " DOM" : "DOM N/A"} | sold: ${s.soldDate || "N/A"}`;
+            if (s.link) dataContext += ` | listing: ${s.link}`;
+            dataContext += "\n";
+          }
+        }
       }
     } catch (err) {
       console.error("Failed to fetch listing data for agent:", err.message);
