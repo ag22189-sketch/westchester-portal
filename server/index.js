@@ -4,6 +4,7 @@ import { fileURLToPath } from "url";
 import { dirname, join } from "path";
 import { subscribe, unsubscribe, getTownsForEmail } from "./db.js";
 import { sendDigests } from "./digest.js";
+import { handleAgentChat } from "./agent.js";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const app = express();
@@ -101,6 +102,9 @@ app.get("/api/send-digest", async (req, res) => {
     res.status(500).json({ error: "Digest failed" });
   }
 });
+
+// Agent chat
+app.post("/api/agent/chat", handleAgentChat);
 
 // SPA fallback — serve index.html for all other routes
 app.get("*", (req, res) => {

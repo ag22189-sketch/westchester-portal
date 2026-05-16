@@ -15,6 +15,7 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.96.0",
     "dotenv": "^17.4.2",
     "express": "^4.22.1",
     "mapbox-gl": "^3.23.1",
