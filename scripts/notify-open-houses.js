@@ -74,6 +74,27 @@ async function fetchOpenHousesForZip(zip) {
   return listings.filter((l) => l.open_houses && l.open_houses.length > 0);
 }
 
+function hiResPhoto(listing) {
+  // Prefer largest available from photos array
+  const photos = listing.photos || [];
+  if (photos.length > 0) {
+    const first = photos[0];
+    const url = first.href_xlarge || first.href_large || first.href || "";
+    if (url) return upscaleUrl(url);
+  }
+  const url = listing.primary_photo?.href || "";
+  return url ? upscaleUrl(url) : "";
+}
+
+function upscaleUrl(url) {
+  // Replace known small/medium suffixes with large size
+  return url
+    .replace(/-s\.jpg$/i, "-w1024_h768.jpg")
+    .replace(/-m\.jpg$/i, "-w1024_h768.jpg")
+    .replace(/-w\d+_h\d+\.jpg$/i, "-w1024_h768.jpg")
+    .replace(/-o\.jpg$/i, "-w1024_h768.jpg");
+}
+
 function fmtPrice(n) {
   if (!n) return "Price N/A";
   return "$" + n.toLocaleString("en-US");
@@ -143,7 +164,7 @@ function buildAlertEmailHTML(listing, oh, town) {
   const addr = listing.location?.address || {};
   const desc = listing.description || {};
   const price = listing.list_price || 0;
-  const photo = listing.primary_photo?.href || listing.photos?.[0]?.href || "";
+  const photo = hiResPhoto(listing);
   const fullAddr = addr.line && addr.city
     ? `${addr.line}, ${addr.city}, ${addr.state_code} ${addr.postal_code}`
     : "Address unavailable";
