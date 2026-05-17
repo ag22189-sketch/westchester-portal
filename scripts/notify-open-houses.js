@@ -22,6 +22,7 @@ const TOWNS = [
   { zip: "10583", town: "Scarsdale" },
   { zip: "10502", town: "Ardsley" },
   { zip: "10506", town: "Bedford" },
+  { zip: "10507", town: "Bedford Hills" },
   { zip: "10514", town: "Chappaqua" },
   { zip: "10522", town: "Dobbs Ferry" },
   { zip: "10706", town: "Hastings-on-Hudson" },

@@ -7,6 +7,7 @@ const ZIP_CODES = {
   Scarsdale: "10583",
   Ardsley: "10502",
   Bedford: "10506",
+  "Bedford Hills": "10507",
   Chappaqua: "10514",
   "Dobbs Ferry": "10522",
   "Hastings-on-Hudson": "10706",
