@@ -3,6 +3,7 @@
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { Resend } from "resend";
+import { TOWN_ZIPS, TOWN_COUNT } from "../server/towns.js";
 
 const API_KEY = process.env.RAPIDAPI_KEY;
 const API_HOST = "us-real-estate-listings.p.rapidapi.com";
@@ -12,26 +13,7 @@ const NOTIFY_TO = (process.env.NOTIFY_EMAIL_TO || "")
   .map((e) => e.trim())
   .filter(Boolean);
 
-const WATCH_ZIPS = [
-  { zip: "10803", town: "Pelham" },
-  { zip: "10708", town: "Bronxville" },
-  { zip: "10583", town: "Scarsdale" },
-  { zip: "10502", town: "Ardsley" },
-  { zip: "10506", town: "Bedford" },
-  { zip: "10507", town: "Bedford Hills" },
-  { zip: "10514", town: "Chappaqua" },
-  { zip: "10522", town: "Dobbs Ferry" },
-  { zip: "10706", town: "Hastings-on-Hudson" },
-  { zip: "10533", town: "Irvington" },
-  { zip: "10536", town: "Katonah" },
-  { zip: "10538", town: "Larchmont" },
-  { zip: "10552", town: "Mount Vernon" },
-  { zip: "10570", town: "Pleasantville" },
-  { zip: "10580", town: "Rye" },
-  { zip: "10591", town: "Sleepy Hollow" },
-  { zip: "10591", town: "Tarrytown" },
-  { zip: "10707", town: "Tuckahoe" },
-];
+const WATCH_ZIPS = TOWN_ZIPS;
 
 const SEEN_PATH = new URL("../data/seen-listings.json", import.meta.url).pathname;
 
@@ -166,7 +148,7 @@ function buildEmailHTML(listing, town) {
 
     <div style="margin-top:24px;padding-top:16px;border-top:1px solid rgba(201,169,110,0.1);
       font-size:11px;color:rgba(245,239,232,0.3);line-height:1.5;">
-      You're getting this because you're tracking 18 Westchester towns.
+      You're getting this because you're tracking ${TOWN_COUNT} Westchester towns.
     </div>
   </div>
 </div>

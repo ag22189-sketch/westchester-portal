@@ -3,6 +3,7 @@
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { Resend } from "resend";
+import { TOWN_ZIPS, TOWN_COUNT } from "../server/towns.js";
 
 const API_KEY = process.env.RAPIDAPI_KEY;
 const API_HOST = "us-real-estate-listings.p.rapidapi.com";
@@ -15,27 +16,7 @@ const NOTIFY_TO = (process.env.NOTIFY_EMAIL_TO || "")
 // Mode: "digest" for weekly Wednesday email, "monitor" for hourly new-OH alerts
 const MODE = process.argv[2] || "monitor";
 
-// Towns in ranked order: Pelham #1, Bronxville #2, Scarsdale #3, then alphabetical
-const TOWNS = [
-  { zip: "10803", town: "Pelham" },
-  { zip: "10708", town: "Bronxville" },
-  { zip: "10583", town: "Scarsdale" },
-  { zip: "10502", town: "Ardsley" },
-  { zip: "10506", town: "Bedford" },
-  { zip: "10507", town: "Bedford Hills" },
-  { zip: "10514", town: "Chappaqua" },
-  { zip: "10522", town: "Dobbs Ferry" },
-  { zip: "10706", town: "Hastings-on-Hudson" },
-  { zip: "10533", town: "Irvington" },
-  { zip: "10536", town: "Katonah" },
-  { zip: "10538", town: "Larchmont" },
-  { zip: "10552", town: "Mount Vernon" },
-  { zip: "10570", town: "Pleasantville" },
-  { zip: "10580", town: "Rye" },
-  { zip: "10591", town: "Sleepy Hollow" },
-  { zip: "10591", town: "Tarrytown" },
-  { zip: "10707", town: "Tuckahoe" },
-];
+const TOWNS = TOWN_ZIPS;
 
 const SEEN_PATH = new URL("../data/seen-open-houses.json", import.meta.url).pathname;
 
@@ -274,14 +255,14 @@ function buildDigestEmailHTML(grouped) {
       This Weekend's Open Houses
     </div>
     <div style="font-size:13px;color:rgba(245,239,232,0.5);margin-bottom:28px;">
-      17 Westchester Towns &middot; Curated for you
+      ${TOWN_COUNT} Westchester Towns &middot; Curated for you
     </div>
 
     ${townBlocks}
 
     <div style="margin-top:24px;padding-top:16px;border-top:1px solid rgba(201,169,110,0.1);
       font-size:11px;color:rgba(245,239,232,0.3);line-height:1.5;">
-      You're receiving this weekly digest because you're tracking 17 Westchester towns.
+      You're receiving this weekly digest because you're tracking ${TOWN_COUNT} Westchester towns.
     </div>
   </div>
 </div>
@@ -295,7 +276,7 @@ async function runDigest() {
   const satStr = fmtD(saturday);
   const sunStr = fmtD(sunday);
   const rangeStr = saturday.toDateString() === sunday.toDateString() ? satStr : `${fmtD(saturday).replace(/, \d{4}$/, "")} - ${sunStr}`;
-  console.log(`Fetching open houses for ${rangeStr} across 17 towns...`);
+  console.log(`Fetching open houses for ${rangeStr} across ${TOWN_COUNT} towns...`);
   const grouped = [];
 
   for (const { zip, town } of TOWNS) {
@@ -327,7 +308,7 @@ async function runDigest() {
     await resend.emails.send({
       from: "Westchester Portal <listings@domusco.com>",
       to: NOTIFY_TO,
-      subject: `This Weekend's Open Houses — 17 Westchester Towns`,
+      subject: `This Weekend's Open Houses — ${TOWN_COUNT} Westchester Towns`,
       html: buildDigestEmailHTML(grouped),
     });
     console.log(`Digest sent: ${total} open houses across ${grouped.filter((g) => g.openHouses.length > 0).length} towns.`);

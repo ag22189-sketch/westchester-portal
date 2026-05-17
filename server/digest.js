@@ -5,34 +5,20 @@ import "dotenv/config";
 import { Resend } from "resend";
 import { getSubscribers } from "./db.js";
 import { buildDigestEmail } from "./email-template.js";
+import { TOWNS, TOWN_NAMES } from "./towns.js";
 
 const API_KEY = process.env.VITE_RAPIDAPI_KEY;
 const API_HOST = "us-real-estate-listings.p.rapidapi.com";
 
-const ZIP_CODES = {
-  Pelham: "10803",
-  Bronxville: "10708",
-  Scarsdale: "10583",
-  Ardsley: "10502",
-  Bedford: "10506",
-  "Bedford Hills": "10507",
-  Chappaqua: "10514",
-  "Dobbs Ferry": "10522",
-  "Hastings-on-Hudson": "10706",
-  Irvington: "10533",
-  Katonah: "10536",
-  Larchmont: "10538",
-  "Mount Vernon": "10552",
-  Pleasantville: "10570",
-  Rye: "10580",
-  "Sleepy Hollow": "10591",
-  Tarrytown: "10591",
-  Tuckahoe: "10707",
-};
+function getZipsForTown(townName) {
+  const town = TOWNS.find((t) => t.name === townName);
+  return town?.zips || [];
+}
 
 async function fetchTownData(townName) {
-  const zip = ZIP_CODES[townName];
-  if (!zip || !API_KEY) return { active: [], sold: [] };
+  const zips = getZipsForTown(townName);
+  if (zips.length === 0 || !API_KEY) return { active: [], sold: [] };
+  const zip = zips[0]; // Use primary ZIP for town data
 
   const headers = {
     "x-rapidapi-key": API_KEY,
@@ -162,7 +148,9 @@ async function fetchMarketHeat() {
   // Priority order for tie-breaking within heat tiers
   const priorityTowns = ["Pelham", "Bronxville", "Scarsdale"];
 
-  for (const [townName, zip] of Object.entries(ZIP_CODES)) {
+  for (const town of TOWNS) {
+    const townName = town.name;
+    const zip = town.zips[0];
     try {
       // Fetch recently sold
       const soldRes = await fetch(

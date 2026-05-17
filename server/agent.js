@@ -1,28 +1,8 @@
 import Anthropic from "@anthropic-ai/sdk";
+import { TOWNS, TOWN_NAMES, TOWN_COUNT } from "./towns.js";
 
 const API_KEY = process.env.RAPIDAPI_KEY || process.env.VITE_RAPIDAPI_KEY;
 const API_HOST = "us-real-estate-listings.p.rapidapi.com";
-
-const ZIP_CODES = {
-  Pelham: "10803",
-  Bronxville: "10708",
-  Scarsdale: "10583",
-  Ardsley: "10502",
-  Bedford: "10506",
-  "Bedford Hills": "10507",
-  Chappaqua: "10514",
-  "Dobbs Ferry": "10522",
-  "Hastings-on-Hudson": "10706",
-  Irvington: "10533",
-  Katonah: "10536",
-  Larchmont: "10538",
-  "Mount Vernon": "10552",
-  Pleasantville: "10570",
-  Rye: "10580",
-  "Sleepy Hollow": "10591",
-  Tarrytown: "10591",
-  Tuckahoe: "10707",
-};
 
 function buildDatePrefix() {
   const fmt = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
@@ -39,7 +19,8 @@ const SYSTEM_PROMPT = `You are Chessie, Ali's personal Westchester real estate i
 Ali's situation:
 - Currently lives at Hamilton Cove in Weehawken, NJ with her husband Ed
 - Planning to eventually buy in Westchester County
-- Town priority ranking: Pelham first, Bronxville second, Scarsdale third, then the other 14 towns
+- Town priority ranking: Pelham first, Bronxville second, Scarsdale third, then the other 15 towns alphabetically
+- Full town list (18 towns): Pelham, Bronxville, Scarsdale, Ardsley, Bedford, Chappaqua, Dobbs Ferry, Eastchester, Hartsdale, Harrison, Hastings-on-Hudson, Irvington, Larchmont, Mamaroneck, Mount Vernon, Pleasantville, Tarrytown, Tuckahoe
 - Default starting location for any route planning: Hamilton Cove, Weehawken NJ
 
 Ali's deal-breakers (FLAG, do not filter out, she still wants to see these properties):
@@ -103,13 +84,14 @@ Always verify your output renders cleanly. If you write a markdown link, make su
 async function fetchListingsForAllTowns() {
   if (!API_KEY) return [];
 
-  const towns = Object.entries(ZIP_CODES);
+  // Build flat list of { town, zip } from canonical TOWNS config
+  const townZips = TOWNS.flatMap((t) => t.zips.map((zip) => ({ town: t.name, zip })));
   const results = [];
 
   // Fetch in batches of 4 to avoid rate limits
-  for (let i = 0; i < towns.length; i += 4) {
-    const batch = towns.slice(i, i + 4);
-    const promises = batch.map(async ([town, zip]) => {
+  for (let i = 0; i < townZips.length; i += 4) {
+    const batch = townZips.slice(i, i + 4);
+    const promises = batch.map(async ({ town, zip }) => {
       try {
         const res = await fetch(
           `https://${API_HOST}/for-sale?location=${zip}&offset=0&limit=12`,
@@ -227,7 +209,7 @@ export async function handleAgentChat(req, res) {
       const sunStr = weekend.sunday.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
 
       dataContext = `\n\n--- CURRENT LISTINGS DATA (as of ${new Date().toLocaleDateString()}) ---\n`;
-      dataContext += `Total active listings across 17 towns: ${allListings.length}\n\n`;
+      dataContext += `Total active listings across ${TOWN_COUNT} towns: ${allListings.length}\n\n`;
 
       if (openHouses.length > 0) {
         dataContext += `OPEN HOUSES THIS WEEKEND (${satStr} - ${sunStr}):\n`;
@@ -243,10 +225,8 @@ export async function handleAgentChat(req, res) {
         dataContext += "\n";
       }
 
-      // Group by town, priority order
-      const priorityOrder = ["Pelham", "Bronxville", "Scarsdale"];
-      const otherTowns = Object.keys(ZIP_CODES).filter((t) => !priorityOrder.includes(t));
-      const orderedTowns = [...priorityOrder, ...otherTowns];
+      // Group by town, priority order (from canonical TOWN_NAMES)
+      const orderedTowns = TOWN_NAMES;
 
       for (const town of orderedTowns) {
         const townListings = allListings.filter((l) => l.town === town);
