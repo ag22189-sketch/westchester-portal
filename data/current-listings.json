@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17T09:54:11.688Z",
+  "updatedAt": "2026-05-17T11:15:21.420Z",
   "towns": {
     "Pelham": [
       {
@@ -846,7 +846,7 @@
         "listDate": "2026-05-04T10:46:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "9818717505",
@@ -997,23 +997,6 @@
         "daysOnMarket": 23
       },
       {
-        "id": "4497410475",
-        "town": "Bronxville",
-        "address": "38 Forest Ln, Bronxville",
-        "price": 3395000,
-        "beds": 6,
-        "baths": 6,
-        "sqft": 5500,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/38-Forest-Ln_Bronxville_NY_10708_M44974-10475",
-        "openHouses": [],
-        "listDate": "2026-04-22T21:04:17.000000Z",
-        "lastSoldPrice": 2750000,
-        "lastSoldDate": "2021-02-17",
-        "daysOnMarket": 24
-      },
-      {
         "id": "3470985574",
         "town": "Bronxville",
         "address": "2 Rockledge Rd, Bronxville",
@@ -1040,6 +1023,23 @@
         "listDate": "2026-04-22T21:04:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 24
+      },
+      {
+        "id": "4497410475",
+        "town": "Bronxville",
+        "address": "38 Forest Ln, Bronxville",
+        "price": 3395000,
+        "beds": 6,
+        "baths": 6,
+        "sqft": 5500,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/38-Forest-Ln_Bronxville_NY_10708_M44974-10475",
+        "openHouses": [],
+        "listDate": "2026-04-22T21:04:17.000000Z",
+        "lastSoldPrice": 2750000,
+        "lastSoldDate": "2021-02-17",
         "daysOnMarket": 24
       },
       {
@@ -1142,7 +1142,7 @@
         "listDate": "2026-04-17T11:01:56.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "1993-07-21",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "4210296993",
@@ -2001,23 +2001,6 @@
         "daysOnMarket": 11
       },
       {
-        "id": "4112254184",
-        "town": "Scarsdale",
-        "address": "33 Lawrence Rd, Scarsdale",
-        "price": 1985000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2250,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/33-Lawrence-Rd_Scarsdale_NY_10583_M41122-54184",
-        "openHouses": [],
-        "listDate": "2026-05-05T19:01:03.000000Z",
-        "lastSoldPrice": 1725000,
-        "lastSoldDate": "2022-08-24",
-        "daysOnMarket": 11
-      },
-      {
         "id": "9619686834",
         "town": "Scarsdale",
         "address": "281 Garth Rd Apt B3D, Scarsdale",
@@ -2032,6 +2015,23 @@
         "listDate": "2026-05-05T19:01:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 11
+      },
+      {
+        "id": "4112254184",
+        "town": "Scarsdale",
+        "address": "33 Lawrence Rd, Scarsdale",
+        "price": 1985000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2250,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/33-Lawrence-Rd_Scarsdale_NY_10583_M41122-54184",
+        "openHouses": [],
+        "listDate": "2026-05-05T19:01:03.000000Z",
+        "lastSoldPrice": 1725000,
+        "lastSoldDate": "2022-08-24",
         "daysOnMarket": 11
       },
       {
@@ -6448,35 +6448,6 @@
         "daysOnMarket": 4
       },
       {
-        "id": "4887278941",
-        "town": "Larchmont",
-        "address": "144 N Chatsworth Ave, Larchmont",
-        "price": 1699000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 2416,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/144-N-Chatsworth-Ave_Larchmont_NY_10538_M48872-78941",
-        "openHouses": [
-          {
-            "start_date": "2026-05-17T14:00:00",
-            "end_date": "2026-05-17T15:30:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-05-11T20:32:31.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 5
-      },
-      {
         "id": "4042187791",
         "town": "Larchmont",
         "address": "62 Myrtle Blvd, Larchmont",
@@ -6503,6 +6474,35 @@
         "listDate": "2026-05-11T20:32:31.000000Z",
         "lastSoldPrice": 617000,
         "lastSoldDate": "2013-04-08",
+        "daysOnMarket": 5
+      },
+      {
+        "id": "4887278941",
+        "town": "Larchmont",
+        "address": "144 N Chatsworth Ave, Larchmont",
+        "price": 1699000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 2416,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/144-N-Chatsworth-Ave_Larchmont_NY_10538_M48872-78941",
+        "openHouses": [
+          {
+            "start_date": "2026-05-17T14:00:00",
+            "end_date": "2026-05-17T15:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-05-11T20:32:31.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 5
       },
       {
@@ -6670,23 +6670,6 @@
         "listDate": "2026-05-07T00:32:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
-      },
-      {
-        "id": "4358996941",
-        "town": "Larchmont",
-        "address": "15 Bishop Pl, Larchmont",
-        "price": 6100000,
-        "beds": 6,
-        "baths": 6,
-        "sqft": 5004,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/15-Bishop-Pl_Larchmont_NY_10538_M43589-96941",
-        "openHouses": [],
-        "listDate": "2026-05-06T21:47:39.000000Z",
-        "lastSoldPrice": 2850000,
-        "lastSoldDate": "2019-01-30",
         "daysOnMarket": 10
       },
       {
@@ -7175,23 +7158,6 @@
         "daysOnMarket": 2
       },
       {
-        "id": "3454364964",
-        "town": "Mamaroneck",
-        "address": "983 Palmer Ave, Mamaroneck",
-        "price": 995000,
-        "beds": 3,
-        "baths": 4,
-        "sqft": 1779,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/983-Palmer-Ave_Mamaroneck_NY_10543_M34543-64964",
-        "openHouses": [],
-        "listDate": "2026-05-11T19:32:24.000000Z",
-        "lastSoldPrice": 310000,
-        "lastSoldDate": "2000-08-07",
-        "daysOnMarket": 5
-      },
-      {
         "id": "3245571408",
         "town": "Mamaroneck",
         "address": "210 Beach Ave, Mamaroneck",
@@ -7218,6 +7184,23 @@
         "listDate": "2026-05-11T19:32:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 5
+      },
+      {
+        "id": "3454364964",
+        "town": "Mamaroneck",
+        "address": "983 Palmer Ave, Mamaroneck",
+        "price": 995000,
+        "beds": 3,
+        "baths": 4,
+        "sqft": 1779,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/983-Palmer-Ave_Mamaroneck_NY_10543_M34543-64964",
+        "openHouses": [],
+        "listDate": "2026-05-11T19:32:24.000000Z",
+        "lastSoldPrice": 310000,
+        "lastSoldDate": "2000-08-07",
         "daysOnMarket": 5
       },
       {
@@ -7540,7 +7523,7 @@
         "listDate": "2026-04-22T10:16:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "3896896808",
@@ -7700,7 +7683,7 @@
         "listDate": "2026-04-07T11:01:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "9434500398",
@@ -8583,7 +8566,7 @@
         "listDate": "2026-03-03T10:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "9313712188",
@@ -9170,23 +9153,6 @@
         "daysOnMarket": 5
       },
       {
-        "id": "9838699766",
-        "town": "Tarrytown",
-        "address": "36 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 5
-      },
-      {
         "id": "3538849971",
         "town": "Tarrytown",
         "address": "30 Andrews Ln, Sleepy Hollow",
@@ -9213,6 +9179,23 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2020-06-05",
+        "daysOnMarket": 5
+      },
+      {
+        "id": "9838699766",
+        "town": "Tarrytown",
+        "address": "36 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 5
       },
       {
