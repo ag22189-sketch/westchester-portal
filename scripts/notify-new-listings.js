@@ -156,6 +156,42 @@ function buildEmailHTML(listing, town) {
 </html>`;
 }
 
+const CACHE_PATH = new URL("../data/current-listings.json", import.meta.url).pathname;
+
+function saveListingsCache(allListingsByTown) {
+  const cache = {
+    updatedAt: new Date().toISOString(),
+    towns: allListingsByTown,
+  };
+  writeFileSync(CACHE_PATH, JSON.stringify(cache, null, 2) + "\n");
+  const totalListings = Object.values(allListingsByTown).reduce((s, arr) => s + arr.length, 0);
+  console.log(`Saved ${totalListings} listings across ${Object.keys(allListingsByTown).length} towns to current-listings.json`);
+}
+
+function normalizeListing(p, town) {
+  const address = p.location?.address || {};
+  const desc = p.description || {};
+  return {
+    id: p.property_id || p.listing_id,
+    town,
+    address: address.line && address.city ? `${address.line}, ${address.city}` : "Address unavailable",
+    price: p.list_price || 0,
+    beds: desc.beds || null,
+    baths: desc.baths || null,
+    sqft: desc.sqft || null,
+    type: desc.type?.replace(/_/g, " ") || null,
+    status: p.status || "for_sale",
+    link: p.href || null,
+    openHouses: p.open_houses || [],
+    listDate: p.list_date || null,
+    lastSoldPrice: p.last_sold_price || null,
+    lastSoldDate: p.last_sold_date || null,
+    daysOnMarket: p.list_date
+      ? Math.max(0, Math.floor((Date.now() - new Date(p.list_date).getTime()) / 86400000))
+      : null,
+  };
+}
+
 async function main() {
   if (!API_KEY) { console.error("RAPIDAPI_KEY not set"); process.exit(1); }
   if (!RESEND_KEY) { console.error("RESEND_API_KEY not set"); process.exit(1); }
@@ -163,6 +199,7 @@ async function main() {
 
   const seenSet = new Set(loadSeen());
   const allCurrentIds = [];
+  const allListingsByTown = {};
   const resend = new Resend(RESEND_KEY);
   let sent = 0;
 
@@ -174,6 +211,10 @@ async function main() {
       return d && d > latest ? d : latest;
     }, "none");
     console.log(`  ${listings.length} listings found, newest from ${newestDate.slice(0, 10)}`);
+
+    // Cache normalized listings by town
+    if (!allListingsByTown[town]) allListingsByTown[town] = [];
+    allListingsByTown[town] = listings.map((p) => normalizeListing(p, town));
 
     for (const listing of listings) {
       const id = listing.property_id || listing.listing_id;
@@ -209,6 +250,7 @@ async function main() {
     await new Promise((r) => setTimeout(r, 500));
   }
 
+  saveListingsCache(allListingsByTown);
   saveSeen(allCurrentIds);
 
   console.log(`Done: ${sent} new listing email(s) sent.`);

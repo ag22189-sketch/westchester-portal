@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/seen-listings.json
-          git diff --cached --quiet || git commit -m "Update seen-listings.json [skip ci]"
+          git add data/seen-listings.json data/current-listings.json
+          git diff --cached --quiet || git commit -m "Update seen-listings and current-listings cache [skip ci]"
           git pull --rebase origin main
           git push

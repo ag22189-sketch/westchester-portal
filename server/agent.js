@@ -1,8 +1,12 @@
+import { readFileSync, existsSync } from "fs";
+import { fileURLToPath } from "url";
+import { dirname, join } from "path";
 import Anthropic from "@anthropic-ai/sdk";
 import { TOWNS, TOWN_NAMES, TOWN_COUNT } from "./towns.js";
 
-const API_KEY = process.env.RAPIDAPI_KEY || process.env.VITE_RAPIDAPI_KEY;
-const API_HOST = "us-real-estate-listings.p.rapidapi.com";
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
+const CACHE_PATH = join(__dirname, "..", "data", "current-listings.json");
 
 function buildDatePrefix() {
   const fmt = { weekday: "long", year: "numeric", month: "long", day: "numeric" };
@@ -81,111 +85,131 @@ BEHAVIOR RULES:
 
 Always verify your output renders cleanly. If you write a markdown link, make sure both the opening bracket and closing parenthesis are present and properly formed.`;
 
-async function fetchListingsForAllTowns() {
-  if (!API_KEY) return [];
-
-  // Build flat list of { town, zip } from canonical TOWNS config
-  const townZips = TOWNS.flatMap((t) => t.zips.map((zip) => ({ town: t.name, zip })));
-  const results = [];
-
-  // Fetch in batches of 4 to avoid rate limits
-  for (let i = 0; i < townZips.length; i += 4) {
-    const batch = townZips.slice(i, i + 4);
-    const promises = batch.map(async ({ town, zip }) => {
-      try {
-        const res = await fetch(
-          `https://${API_HOST}/for-sale?location=${zip}&offset=0&limit=12`,
-          {
-            headers: {
-              "x-rapidapi-key": API_KEY,
-              "x-rapidapi-host": API_HOST,
-            },
-          }
-        );
-        if (!res.ok) return [];
-        const data = await res.json();
-        const listings = data?.listings || [];
-        return listings.map((p) => ({
-          town,
-          address: formatAddress(p),
-          price: p.list_price || 0,
-          beds: p.description?.beds || null,
-          baths: p.description?.baths || null,
-          sqft: p.description?.sqft || null,
-          type: p.description?.type?.replace(/_/g, " ") || null,
-          status: p.status || "for_sale",
-          link: p.href || null,
-          openHouses: p.open_houses || [],
-          listDate: p.list_date || null,
-          description: p.description?.text || null,
-          lastSoldPrice: p.last_sold_price || null,
-          lastSoldDate: p.last_sold_date || null,
-          daysOnMarket: p.list_date
-            ? Math.max(0, Math.floor((Date.now() - new Date(p.list_date).getTime()) / 86400000))
-            : null,
-        }));
-      } catch {
-        return [];
-      }
-    });
-    const batchResults = await Promise.all(promises);
-    results.push(...batchResults.flat());
+function loadCachedListings() {
+  try {
+    if (!existsSync(CACHE_PATH)) return null;
+    const raw = readFileSync(CACHE_PATH, "utf-8");
+    return JSON.parse(raw);
+  } catch (e) {
+    console.error("Failed to read listing cache:", e.message);
+    return null;
   }
-
-  return results;
 }
 
-function extractAppreciationData(allListings) {
-  // Extract prior sale history from active listings to show market appreciation
-  // This is what we CAN get: what properties previously sold for vs. current ask
-  const results = [];
-
-  for (const l of allListings) {
-    if (!l.lastSoldPrice || !l.price || !l.lastSoldDate) continue;
-    const ratio = l.lastSoldPrice / l.price;
-    if (ratio > 3 || ratio < 1 / 3) continue; // filter anomalies
-
-    const appreciation = Math.round(((l.price - l.lastSoldPrice) / l.lastSoldPrice) * 1000) / 10;
-    results.push({
-      town: l.town,
-      address: l.address,
-      lastSoldPrice: l.lastSoldPrice,
-      lastSoldDate: l.lastSoldDate,
-      currentAsk: l.price,
-      appreciation,
-      link: l.link,
-    });
+function buildDataContext(cache) {
+  if (!cache || !cache.towns) {
+    return "\n\n[Note: Listing data cache not available. Ask the user to try again shortly.]\n";
   }
 
-  return results.sort((a, b) => new Date(b.lastSoldDate) - new Date(a.lastSoldDate));
-}
+  const updatedAt = cache.updatedAt || "unknown";
+  let ctx = `\n\n--- CURRENT LISTINGS DATA (cached at ${updatedAt}) ---\n`;
 
-async function fetchOpenHouses() {
-  if (!API_KEY) return [];
+  // Flatten all listings
+  const allListings = Object.values(cache.towns).flat();
+  ctx += `Total active listings across ${TOWN_COUNT} towns: ${allListings.length}\n\n`;
 
-  // Get upcoming weekend dates
-  const now = new Date();
-  const day = now.getDay();
-  const daysToSat = (6 - day + 7) % 7 || 7;
-  const saturday = new Date(now);
-  saturday.setDate(now.getDate() + daysToSat);
-  const sunday = new Date(saturday);
-  sunday.setDate(saturday.getDate() + 1);
-
-  // Filter listings with open houses from the full set
-  const allListings = await fetchListingsForAllTowns();
+  // Open houses
   const withOpenHouses = allListings.filter(
     (l) => l.openHouses && l.openHouses.length > 0
   );
+  if (withOpenHouses.length > 0) {
+    ctx += `LISTINGS WITH OPEN HOUSES:\n`;
+    for (const l of withOpenHouses) {
+      ctx += `- ${l.address} (${l.town}) - $${l.price?.toLocaleString()}, ${l.beds}bd/${l.baths}ba`;
+      if (l.link) ctx += ` | listing: ${l.link}`;
+      for (const oh of l.openHouses) {
+        ctx += ` | Open house: ${oh.start_date || oh.date || "scheduled"}`;
+        if (oh.end_date) ctx += ` to ${oh.end_date}`;
+      }
+      ctx += "\n";
+    }
+    ctx += "\n";
+  }
 
-  return { allListings, openHouses: withOpenHouses, weekend: { saturday, sunday } };
-}
+  // Group by town in priority order
+  for (const townName of TOWN_NAMES) {
+    const townListings = cache.towns[townName] || [];
+    if (townListings.length === 0) continue;
+    ctx += `${townName.toUpperCase()} (${townListings.length} listings):\n`;
+    for (const l of townListings) {
+      ctx += `  - ${l.address} | $${l.price?.toLocaleString()} | ${l.beds}bd/${l.baths}ba | ${l.sqft ? l.sqft + "sqft" : "sqft N/A"} | ${l.type || "N/A"}`;
+      if (l.link) ctx += ` | listing: ${l.link}`;
+      if (l.openHouses?.length > 0) ctx += " | HAS OPEN HOUSE";
+      if (l.daysOnMarket !== null) ctx += ` | ${l.daysOnMarket} DOM`;
+      ctx += "\n";
+    }
+    ctx += "\n";
+  }
 
-function formatAddress(p) {
-  const addr = p.location?.address || {};
-  return addr.line && addr.city
-    ? `${addr.line}, ${addr.city}`
-    : "Address unavailable";
+  // Market velocity
+  const domByTown = {};
+  const sevenDaysAgo = new Date();
+  sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+  const newListings = [];
+
+  for (const l of allListings) {
+    if (l.daysOnMarket !== null) {
+      if (!domByTown[l.town]) domByTown[l.town] = [];
+      domByTown[l.town].push(l.daysOnMarket);
+    }
+    if (l.listDate && new Date(l.listDate) >= sevenDaysAgo) {
+      newListings.push(l);
+    }
+  }
+
+  ctx += `\n--- MARKET VELOCITY ---\n`;
+  ctx += `DAYS ON MARKET BY TOWN (active listings):\n`;
+  for (const town of TOWN_NAMES) {
+    const doms = domByTown[town];
+    if (!doms || doms.length === 0) continue;
+    const avg = Math.round(doms.reduce((s, v) => s + v, 0) / doms.length);
+    const quickCount = doms.filter((d) => d < 7).length;
+    const stalledCount = doms.filter((d) => d > 60).length;
+    ctx += `  ${town}: avg ${avg} DOM, ${quickCount} under 7 days (hot), ${stalledCount} over 60 days (stale)\n`;
+  }
+  ctx += "\n";
+
+  if (newListings.length > 0) {
+    ctx += `NEW THIS WEEK (listed in last 7 days):\n`;
+    for (const l of newListings) {
+      ctx += `  - ${l.address} (${l.town}) | $${l.price?.toLocaleString()} | ${l.beds}bd/${l.baths}ba | ${l.daysOnMarket} DOM`;
+      if (l.link) ctx += ` | listing: ${l.link}`;
+      ctx += "\n";
+    }
+    ctx += "\n";
+  }
+
+  // Appreciation data
+  const appreciationData = allListings
+    .filter((l) => {
+      if (!l.lastSoldPrice || !l.price || !l.lastSoldDate) return false;
+      const ratio = l.lastSoldPrice / l.price;
+      return ratio >= 1 / 3 && ratio <= 3;
+    })
+    .map((l) => ({
+      ...l,
+      appreciation: Math.round(((l.price - l.lastSoldPrice) / l.lastSoldPrice) * 1000) / 10,
+    }))
+    .sort((a, b) => new Date(b.lastSoldDate) - new Date(a.lastSoldDate));
+
+  if (appreciationData.length > 0) {
+    ctx += `--- PRICE APPRECIATION (prior sale vs current ask on active listings) ---\n`;
+    ctx += `Note: This shows what currently-listed homes previously sold for. It indicates market appreciation over time, not recent closed transactions. You do NOT have access to recent closed sale prices or over/under ask data for completed transactions.\n\n`;
+
+    for (const townName of TOWN_NAMES) {
+      const townData = appreciationData.filter((a) => a.town === townName);
+      if (townData.length === 0) continue;
+      const avgApp = townData.reduce((s, a) => s + a.appreciation, 0) / townData.length;
+      ctx += `  ${townName.toUpperCase()} (avg +${avgApp.toFixed(0)}% appreciation):\n`;
+      for (const a of townData.slice(0, 5)) {
+        ctx += `    - ${a.address} | bought ${a.lastSoldDate?.slice(0, 4)} at $${a.lastSoldPrice?.toLocaleString()} | now asking $${a.price?.toLocaleString()} (+${a.appreciation.toFixed(1)}%)`;
+        if (a.link) ctx += ` | listing: ${a.link}`;
+        ctx += "\n";
+      }
+    }
+  }
+
+  return ctx;
 }
 
 export async function handleAgentChat(req, res) {
@@ -200,106 +224,8 @@ export async function handleAgentChat(req, res) {
   }
 
   try {
-    // Fetch real estate data
-    let dataContext = "";
-    try {
-      const { allListings, openHouses, weekend } = await fetchOpenHouses();
-      const appreciationData = extractAppreciationData(allListings);
-      const satStr = weekend.saturday.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
-      const sunStr = weekend.sunday.toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
-
-      dataContext = `\n\n--- CURRENT LISTINGS DATA (as of ${new Date().toLocaleDateString()}) ---\n`;
-      dataContext += `Total active listings across ${TOWN_COUNT} towns: ${allListings.length}\n\n`;
-
-      if (openHouses.length > 0) {
-        dataContext += `OPEN HOUSES THIS WEEKEND (${satStr} - ${sunStr}):\n`;
-        openHouses.forEach((l) => {
-          dataContext += `- ${l.address} (${l.town}) - $${l.price?.toLocaleString()}, ${l.beds}bd/${l.baths}ba`;
-          if (l.link) dataContext += ` | listing: ${l.link}`;
-          if (l.openHouses.length > 0) {
-            const oh = l.openHouses[0];
-            dataContext += ` | Open house: ${oh.start_date || oh.date || "this weekend"}`;
-          }
-          dataContext += "\n";
-        });
-        dataContext += "\n";
-      }
-
-      // Group by town, priority order (from canonical TOWN_NAMES)
-      const orderedTowns = TOWN_NAMES;
-
-      for (const town of orderedTowns) {
-        const townListings = allListings.filter((l) => l.town === town);
-        if (townListings.length === 0) continue;
-        dataContext += `${town.toUpperCase()} (${townListings.length} listings):\n`;
-        townListings.forEach((l) => {
-          dataContext += `  - ${l.address} | $${l.price?.toLocaleString()} | ${l.beds}bd/${l.baths}ba | ${l.sqft ? l.sqft + "sqft" : "sqft N/A"} | ${l.type || "N/A"}`;
-          if (l.link) dataContext += ` | listing: ${l.link}`;
-          if (l.openHouses?.length > 0) dataContext += " | HAS OPEN HOUSE";
-          dataContext += "\n";
-        });
-        dataContext += "\n";
-      }
-
-      // Market velocity: days on market analysis
-      const domByTown = {};
-      const newListings = []; // listed in last 7 days
-      const sevenDaysAgo = new Date();
-      sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
-
-      for (const l of allListings) {
-        if (l.daysOnMarket !== null) {
-          if (!domByTown[l.town]) domByTown[l.town] = [];
-          domByTown[l.town].push(l.daysOnMarket);
-        }
-        if (l.listDate && new Date(l.listDate) >= sevenDaysAgo) {
-          newListings.push(l);
-        }
-      }
-
-      dataContext += `\n--- MARKET VELOCITY ---\n`;
-      dataContext += `DAYS ON MARKET BY TOWN (active listings):\n`;
-      for (const town of orderedTowns) {
-        const doms = domByTown[town];
-        if (!doms || doms.length === 0) continue;
-        const avg = Math.round(doms.reduce((s, v) => s + v, 0) / doms.length);
-        const quickCount = doms.filter(d => d < 7).length;
-        const stalledCount = doms.filter(d => d > 60).length;
-        dataContext += `  ${town}: avg ${avg} DOM, ${quickCount} under 7 days (hot), ${stalledCount} over 60 days (stale)\n`;
-      }
-      dataContext += "\n";
-
-      if (newListings.length > 0) {
-        dataContext += `NEW THIS WEEK (listed in last 7 days):\n`;
-        for (const l of newListings) {
-          dataContext += `  - ${l.address} (${l.town}) | $${l.price?.toLocaleString()} | ${l.beds}bd/${l.baths}ba | ${l.daysOnMarket} DOM`;
-          if (l.link) dataContext += ` | listing: ${l.link}`;
-          dataContext += "\n";
-        }
-        dataContext += "\n";
-      }
-
-      // Appreciation data (prior sale history on active listings)
-      if (appreciationData.length > 0) {
-        dataContext += `--- PRICE APPRECIATION (prior sale vs current ask on active listings) ---\n`;
-        dataContext += `Note: This shows what currently-listed homes previously sold for. It indicates market appreciation over time, not recent closed transactions. You do NOT have access to recent closed sale prices or over/under ask data for completed transactions.\n\n`;
-
-        for (const town of orderedTowns) {
-          const townData = appreciationData.filter((a) => a.town === town);
-          if (townData.length === 0) continue;
-          const avgApp = townData.reduce((s, a) => s + a.appreciation, 0) / townData.length;
-          dataContext += `  ${town.toUpperCase()} (avg +${avgApp.toFixed(0)}% appreciation):\n`;
-          for (const a of townData.slice(0, 5)) {
-            dataContext += `    - ${a.address} | bought ${a.lastSoldDate?.slice(0, 4)} at $${a.lastSoldPrice?.toLocaleString()} | now asking $${a.currentAsk?.toLocaleString()} (+${a.appreciation.toFixed(1)}%)`;
-            if (a.link) dataContext += ` | listing: ${a.link}`;
-            dataContext += "\n";
-          }
-        }
-      }
-    } catch (err) {
-      console.error("Failed to fetch listing data for agent:", err.message);
-      dataContext = "\n\n[Note: Could not fetch live listings data. Respond based on general knowledge and ask the user to try again shortly.]\n";
-    }
+    const cache = loadCachedListings();
+    const dataContext = buildDataContext(cache);
 
     const client = new Anthropic({ apiKey: anthropicKey });
     const response = await client.messages.create({
