@@ -881,12 +881,27 @@ export default function WestchesterPortal() {
               The Home Search for<br />People with Taste
             </h1>
             <p className="wp-subtitle" style={{ margin: "12px 0 0", color: "rgba(255,255,255,0.35)", fontSize: "17px", fontStyle: "italic", maxWidth: "420px", lineHeight: "1.6" }}>
-              Seventeen curated towns. Editorial intelligence. Real listings.
+              Eighteen curated towns. Editorial intelligence. Real listings.
             </p>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "12px", alignItems: "flex-end" }}>
-            {/* View Toggle */}
-            <div style={{ display: "flex", gap: "0", borderRadius: "20px", border: "1px solid rgba(255,255,255,0.1)", overflow: "hidden" }}>
+            {/* View Toggle + Chessie */}
+            <div style={{ display: "flex", gap: "12px", alignItems: "center" }}>
+              <a href="/agent" style={{
+                padding: "7px 18px",
+                borderRadius: "20px",
+                border: "1px solid rgba(201,169,110,0.4)",
+                background: "rgba(201,169,110,0.1)",
+                color: "#C9A96E",
+                fontSize: "12px",
+                letterSpacing: "1.5px",
+                textTransform: "uppercase",
+                textDecoration: "none",
+                fontFamily: "'Georgia', serif",
+                transition: "all 0.2s",
+                whiteSpace: "nowrap",
+              }}>Ask Chessie {"\u265B"}</a>
+              <div style={{ display: "flex", gap: "0", borderRadius: "20px", border: "1px solid rgba(255,255,255,0.1)", overflow: "hidden" }}>
               {[
                 { key: "towns", label: "Towns" },
                 { key: "map", label: "Map" },
@@ -906,6 +921,7 @@ export default function WestchesterPortal() {
                   {v.label}
                 </button>
               ))}
+            </div>
             </div>
             {/* Sort buttons — only in towns view */}
             {view === "towns" && (
@@ -1350,6 +1366,27 @@ export default function WestchesterPortal() {
           </div>
         )}
       </div>}
+
+      {/* Floating Chessie button */}
+      <a href="/agent" style={{
+        position: "fixed",
+        bottom: "24px",
+        right: "24px",
+        width: "56px",
+        height: "56px",
+        borderRadius: "50%",
+        background: "rgba(201,169,110,0.15)",
+        border: "1px solid rgba(201,169,110,0.4)",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        fontSize: "24px",
+        color: "#C9A96E",
+        textDecoration: "none",
+        boxShadow: "0 4px 20px rgba(0,0,0,0.4)",
+        zIndex: 1000,
+        transition: "transform 0.2s, background 0.2s",
+      }} title="Ask Chessie">{"\u265B"}</a>
     </div>
   );
 }
