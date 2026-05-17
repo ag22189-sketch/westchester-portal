@@ -178,7 +178,7 @@ function marketHeatSection(heat) {
       html += `
                   <tr>
                     <td style="padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-family: Georgia, serif;">
-                      <div style="font-size: 14px; color: #E8E0D5;">${s.address}, ${s.town}</div>
+                      <div style="font-size: 14px; color: #E8E0D5;">${s.address}</div>
                       <div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 3px;">
                         ${fmtPrice(s.soldPrice)} sold
                         <span style="color: #7A9E7E; font-weight: 600;">(+${s.pctOver.toFixed(1)}% over ${fmtPrice(s.askPrice)} ask${s.dom !== null ? `, ${s.dom} days on market` : ""})</span>
@@ -224,7 +224,7 @@ function marketHeatSection(heat) {
       html += `
                   <tr>
                     <td style="padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-family: Georgia, serif;">
-                      <span style="font-size: 14px; color: #E8E0D5;">${q.address}, ${q.town}</span>
+                      <span style="font-size: 14px; color: #E8E0D5;">${q.address}</span>
                       <span style="font-size: 13px; color: #C9A96E; margin-left: 8px;">${q.dom} day${q.dom !== 1 ? "s" : ""} on market</span>
                       <span style="font-size: 13px; color: rgba(255,255,255,0.4); margin-left: 6px;">${fmtPrice(q.soldPrice)}</span>
                     </td>
@@ -245,7 +245,7 @@ function marketHeatSection(heat) {
       html += `
                   <tr>
                     <td style="padding: 6px 0; border-bottom: 1px solid rgba(255,255,255,0.04); font-family: Georgia, serif;">
-                      <span style="font-size: 14px; color: #E8E0D5;">${r.address}, ${r.town}</span>
+                      <span style="font-size: 14px; color: #E8E0D5;">${r.address}</span>
                       <div style="font-size: 13px; color: rgba(255,255,255,0.5); margin-top: 3px;">
                         <span style="text-decoration: line-through; color: rgba(255,255,255,0.3);">${fmtPrice(r.originalPrice)}</span>
                         <span style="margin: 0 6px;">&rarr;</span>

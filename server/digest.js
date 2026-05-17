@@ -226,6 +226,8 @@ async function fetchMarketHeat() {
 
           if (originalPrice && originalPrice > currentPrice) {
             const pctDrop = ((originalPrice - currentPrice) / originalPrice) * 100;
+            // Filter out drops over 50% as likely data errors
+            if (pctDrop > 50) continue;
             // Only include recent reductions (listed or reduced in last 7 days)
             const listDate = p.list_date ? new Date(p.list_date) : null;
             const isRecent = listDate && listDate >= sevenDaysAgo;
