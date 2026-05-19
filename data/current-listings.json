@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-19T08:33:24.108Z",
+  "updatedAt": "2026-05-19T12:16:38.155Z",
   "towns": {
     "Pelham": [
       {
@@ -148,7 +148,7 @@
         "listDate": "2026-05-08T11:32:10.000000Z",
         "lastSoldPrice": 796000,
         "lastSoldDate": "2019-10-25",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "4562817678",
@@ -468,7 +468,7 @@
         "listDate": "2026-05-15T11:31:38.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "2009-06-25",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3798564732",
@@ -723,7 +723,7 @@
         "listDate": "2026-05-04T10:46:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "9818717505",
@@ -774,7 +774,7 @@
         "listDate": "2026-04-30T11:32:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "9962140427",
@@ -978,7 +978,7 @@
         "listDate": "2026-04-17T11:01:56.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "1993-07-21",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4210296993",
@@ -1400,7 +1400,7 @@
         "listDate": "2026-05-14T11:47:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "3194778632",
@@ -1556,6 +1556,23 @@
         "daysOnMarket": 6
       },
       {
+        "id": "3013361726",
+        "town": "Scarsdale",
+        "address": "187 Thornbury Rd E, Scarsdale",
+        "price": 1495000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2823,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/187-Thornbury-Rd-E_Scarsdale_NY_10583_M30133-61726",
+        "openHouses": [],
+        "listDate": "2026-05-12T15:32:36.000000Z",
+        "lastSoldPrice": 560000,
+        "lastSoldDate": "2011-01-14",
+        "daysOnMarket": 6
+      },
+      {
         "id": "3470103787",
         "town": "Scarsdale",
         "address": "80 High Point Rd, Scarsdale",
@@ -1582,23 +1599,6 @@
         "listDate": "2026-05-12T15:32:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
-      },
-      {
-        "id": "3013361726",
-        "town": "Scarsdale",
-        "address": "187 Thornbury Rd E, Scarsdale",
-        "price": 1495000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2823,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/187-Thornbury-Rd-E_Scarsdale_NY_10583_M30133-61726",
-        "openHouses": [],
-        "listDate": "2026-05-12T15:32:36.000000Z",
-        "lastSoldPrice": 560000,
-        "lastSoldDate": "2011-01-14",
         "daysOnMarket": 6
       },
       {
@@ -1798,7 +1798,7 @@
         "listDate": "2026-05-06T11:47:08.000000Z",
         "lastSoldPrice": 959000,
         "lastSoldDate": "2004-07-29",
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "9368592446",
@@ -1818,23 +1818,6 @@
         "daysOnMarket": 13
       },
       {
-        "id": "9619686834",
-        "town": "Scarsdale",
-        "address": "281 Garth Rd Apt B3D, Scarsdale",
-        "price": 129000,
-        "beds": null,
-        "baths": 1,
-        "sqft": 500,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/281-Garth-Rd-Apt-B3D_Scarsdale_NY_10583_M96196-86834",
-        "openHouses": [],
-        "listDate": "2026-05-05T19:01:03.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 13
-      },
-      {
         "id": "4112254184",
         "town": "Scarsdale",
         "address": "33 Lawrence Rd, Scarsdale",
@@ -1849,6 +1832,23 @@
         "listDate": "2026-05-05T19:01:03.000000Z",
         "lastSoldPrice": 1725000,
         "lastSoldDate": "2022-08-24",
+        "daysOnMarket": 13
+      },
+      {
+        "id": "9619686834",
+        "town": "Scarsdale",
+        "address": "281 Garth Rd Apt B3D, Scarsdale",
+        "price": 129000,
+        "beds": null,
+        "baths": 1,
+        "sqft": 500,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/281-Garth-Rd-Apt-B3D_Scarsdale_NY_10583_M96196-86834",
+        "openHouses": [],
+        "listDate": "2026-05-05T19:01:03.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 13
       },
       {
@@ -1946,7 +1946,7 @@
         "listDate": "2026-04-29T12:02:23.000000Z",
         "lastSoldPrice": 665500,
         "lastSoldDate": "2015-07-15",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3128747753",
@@ -2712,7 +2712,7 @@
         "listDate": "2026-04-27T11:46:33.000000Z",
         "lastSoldPrice": 340000,
         "lastSoldDate": "1999-11-16",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4222070496",
@@ -3498,7 +3498,7 @@
         "listDate": "2026-04-16T11:46:58.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "3114570371",
@@ -3670,7 +3670,7 @@
         "listDate": "2026-05-14T11:47:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "3724593487",
@@ -4910,7 +4910,7 @@
         "listDate": "2026-05-06T08:47:03.000000Z",
         "lastSoldPrice": 260000,
         "lastSoldDate": "1993-08-09",
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "3160221150",
@@ -6650,7 +6650,7 @@
         "listDate": "2026-04-22T10:16:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "4010876176",
@@ -6769,7 +6769,7 @@
         "listDate": "2026-04-07T11:01:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "9434500398",
@@ -7434,7 +7434,7 @@
         "listDate": "2026-04-01T11:32:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "9596645920",
@@ -7502,7 +7502,7 @@
         "listDate": "2026-03-27T11:46:34.000000Z",
         "lastSoldPrice": 510000,
         "lastSoldDate": "2016-07-19",
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "9892379547",
@@ -7621,7 +7621,7 @@
         "listDate": "2026-03-03T10:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 76
+        "daysOnMarket": 77
       },
       {
         "id": "9313712188",
@@ -8138,23 +8138,6 @@
         "daysOnMarket": 7
       },
       {
-        "id": "3538849971",
-        "town": "Tarrytown",
-        "address": "30 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/30-Andrews-Ln_Sleepy-Hollow_NY_10591_M35388-49971",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": 625000,
-        "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 7
-      },
-      {
         "id": "9838699766",
         "town": "Tarrytown",
         "address": "36 Andrews Ln, Sleepy Hollow",
@@ -8169,6 +8152,23 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 7
+      },
+      {
+        "id": "3538849971",
+        "town": "Tarrytown",
+        "address": "30 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/30-Andrews-Ln_Sleepy-Hollow_NY_10591_M35388-49971",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": 625000,
+        "lastSoldDate": "2020-06-05",
         "daysOnMarket": 7
       },
       {
@@ -8546,23 +8546,6 @@
         "daysOnMarket": 45
       },
       {
-        "id": "9404772422",
-        "town": "Tarrytown",
-        "address": "16 Carriage Trl, Tarrytown",
-        "price": 2500000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
-        "openHouses": [],
-        "listDate": "2026-04-03T14:03:52.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 45
-      },
-      {
         "id": "9001086625",
         "town": "Tarrytown",
         "address": "17 Carriage Trl, Tarrytown",
@@ -8573,6 +8556,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
+        "openHouses": [],
+        "listDate": "2026-04-03T14:03:52.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 45
+      },
+      {
+        "id": "9404772422",
+        "town": "Tarrytown",
+        "address": "16 Carriage Trl, Tarrytown",
+        "price": 2500000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
         "openHouses": [],
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
@@ -8838,7 +8838,7 @@
         "id": "3043999740",
         "town": "Tarrytown",
         "address": "11 River St Apt 201, Sleepy Hollow",
-        "price": 1495000,
+        "price": 1450000,
         "beds": 3,
         "baths": 3,
         "sqft": 1864,
@@ -9004,7 +9004,7 @@
         "listDate": "2026-05-04T11:46:50.000000Z",
         "lastSoldPrice": 1195000,
         "lastSoldDate": "2020-04-16",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4298817272",
