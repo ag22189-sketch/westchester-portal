@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-22T11:50:29.428Z",
+  "updatedAt": "2026-05-22T14:52:35.062Z",
   "towns": {
     "Pelham": [
       {
@@ -63,7 +63,7 @@
         "listDate": "2026-05-18T14:47:03.000000Z",
         "lastSoldPrice": 590000,
         "lastSoldDate": "2021-03-02",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4590096348",
@@ -284,7 +284,7 @@
         "listDate": "2026-04-08T13:32:50.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2017-06-06",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "9169601465",
@@ -301,7 +301,7 @@
         "listDate": "2026-03-27T13:01:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "4034169316",
@@ -553,7 +553,7 @@
         "listDate": "2026-05-15T12:17:00.000000Z",
         "lastSoldPrice": 122500,
         "lastSoldDate": "1984-02-09",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3386675000",
@@ -740,7 +740,7 @@
         "listDate": "2026-05-07T13:32:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4190628893",
@@ -774,7 +774,7 @@
         "listDate": "2026-05-06T13:47:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "9155648117",
@@ -879,23 +879,6 @@
         "daysOnMarket": 22
       },
       {
-        "id": "9901917138",
-        "town": "Bronxville",
-        "address": "42 Pondfield Rd W Apt 6D, Bronxville",
-        "price": 280000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 754,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/42-Pondfield-Rd-W-Apt-6D_Bronxville_NY_10708_M99019-17138",
-        "openHouses": [],
-        "listDate": "2026-04-28T16:33:05.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 23
-      },
-      {
         "id": "4504192876",
         "town": "Bronxville",
         "address": "41 Summit Ave, Bronxville",
@@ -906,6 +889,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Summit-Ave_Bronxville_NY_10708_M45041-92876",
+        "openHouses": [],
+        "listDate": "2026-04-28T16:33:05.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 23
+      },
+      {
+        "id": "9901917138",
+        "town": "Bronxville",
+        "address": "42 Pondfield Rd W Apt 6D, Bronxville",
+        "price": 280000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 754,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/42-Pondfield-Rd-W-Apt-6D_Bronxville_NY_10708_M99019-17138",
         "openHouses": [],
         "listDate": "2026-04-28T16:33:05.000000Z",
         "lastSoldPrice": null,
@@ -1029,7 +1029,7 @@
         "listDate": "2026-04-20T14:32:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "9525685013",
@@ -1046,7 +1046,7 @@
         "listDate": "2026-04-17T12:32:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3385631554",
@@ -1080,7 +1080,7 @@
         "listDate": "2026-04-16T13:47:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "9034006925",
@@ -1114,7 +1114,7 @@
         "listDate": "2026-04-14T13:47:28.000000Z",
         "lastSoldPrice": 1155000,
         "lastSoldDate": "1998-09-16",
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4927751679",
@@ -1202,16 +1202,16 @@
         "daysOnMarket": 44
       },
       {
-        "id": "9871107849",
+        "id": "9561612620",
         "town": "Bronxville",
-        "address": "1133 Midland Ave Apt 6F, Bronxville",
-        "price": 599000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1004,
+        "address": "1133 Midland Ave Apt 2C, Bronxville",
+        "price": 425000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 830,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-6F_Bronxville_NY_10708_M98711-07849",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-2C_Bronxville_NY_10708_M95616-12620",
         "openHouses": [
           {
             "start_date": "2026-05-23T11:00:00",
@@ -1231,16 +1231,16 @@
         "daysOnMarket": 45
       },
       {
-        "id": "9561612620",
+        "id": "9871107849",
         "town": "Bronxville",
-        "address": "1133 Midland Ave Apt 2C, Bronxville",
-        "price": 425000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 830,
+        "address": "1133 Midland Ave Apt 6F, Bronxville",
+        "price": 599000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1004,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-2C_Bronxville_NY_10708_M95616-12620",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-6F_Bronxville_NY_10708_M98711-07849",
         "openHouses": [
           {
             "start_date": "2026-05-23T11:00:00",
@@ -1313,6 +1313,23 @@
     ],
     "Scarsdale": [
       {
+        "id": "4802825572",
+        "town": "Scarsdale",
+        "address": "77 Edgemont Rd, Scarsdale",
+        "price": 1185000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 2028,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/77-Edgemont-Rd_Scarsdale_NY_10583_M48028-25572",
+        "openHouses": [],
+        "listDate": "2026-05-22T13:18:51.000000Z",
+        "lastSoldPrice": 830000,
+        "lastSoldDate": "2015-06-05",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4152717354",
         "town": "Scarsdale",
         "address": "71 Ewart St, Scarsdale",
@@ -1327,7 +1344,7 @@
         "listDate": "2026-05-21T14:02:46.000000Z",
         "lastSoldPrice": 305000,
         "lastSoldDate": "1993-01-19",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4594265059",
@@ -1356,7 +1373,7 @@
         "listDate": "2026-05-21T13:47:36.000000Z",
         "lastSoldPrice": 707000,
         "lastSoldDate": "2011-09-15",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9152500858",
@@ -1526,7 +1543,7 @@
         "listDate": "2026-05-15T14:02:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "9655393500",
@@ -1543,7 +1560,7 @@
         "listDate": "2026-05-15T13:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4283768375",
@@ -1648,23 +1665,6 @@
         "daysOnMarket": 8
       },
       {
-        "id": "4881514796",
-        "town": "Scarsdale",
-        "address": "153 Waverly Rd, Scarsdale",
-        "price": 1395000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 2386,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/153-Waverly-Rd_Scarsdale_NY_10583_M48815-14796",
-        "openHouses": [],
-        "listDate": "2026-05-13T14:02:45.000000Z",
-        "lastSoldPrice": 875000,
-        "lastSoldDate": "2025-09-22",
-        "daysOnMarket": 8
-      },
-      {
         "id": "4215379776",
         "town": "Scarsdale",
         "address": "3 Split Tree Rd, Scarsdale",
@@ -1716,6 +1716,23 @@
         "daysOnMarket": 9
       },
       {
+        "id": "3013361726",
+        "town": "Scarsdale",
+        "address": "187 Thornbury Rd E, Scarsdale",
+        "price": 1495000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2823,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/187-Thornbury-Rd-E_Scarsdale_NY_10583_M30133-61726",
+        "openHouses": [],
+        "listDate": "2026-05-12T15:32:36.000000Z",
+        "lastSoldPrice": 560000,
+        "lastSoldDate": "2011-01-14",
+        "daysOnMarket": 9
+      },
+      {
         "id": "3470103787",
         "town": "Scarsdale",
         "address": "80 High Point Rd, Scarsdale",
@@ -1742,23 +1759,6 @@
         "listDate": "2026-05-12T15:32:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
-      },
-      {
-        "id": "3013361726",
-        "town": "Scarsdale",
-        "address": "187 Thornbury Rd E, Scarsdale",
-        "price": 1495000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2823,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/187-Thornbury-Rd-E_Scarsdale_NY_10583_M30133-61726",
-        "openHouses": [],
-        "listDate": "2026-05-12T15:32:36.000000Z",
-        "lastSoldPrice": 560000,
-        "lastSoldDate": "2011-01-14",
         "daysOnMarket": 9
       },
       {
@@ -1873,7 +1873,7 @@
         "listDate": "2026-05-08T13:47:38.000000Z",
         "lastSoldPrice": 1860000,
         "lastSoldDate": "2025-09-19",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3567847279",
@@ -1890,7 +1890,7 @@
         "listDate": "2026-05-08T13:17:15.000000Z",
         "lastSoldPrice": 280000,
         "lastSoldDate": "1992-03-27",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "9016265840",
@@ -1927,23 +1927,6 @@
         "daysOnMarket": 16
       },
       {
-        "id": "4112254184",
-        "town": "Scarsdale",
-        "address": "33 Lawrence Rd, Scarsdale",
-        "price": 1985000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2250,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/33-Lawrence-Rd_Scarsdale_NY_10583_M41122-54184",
-        "openHouses": [],
-        "listDate": "2026-05-05T19:01:03.000000Z",
-        "lastSoldPrice": 1725000,
-        "lastSoldDate": "2022-08-24",
-        "daysOnMarket": 16
-      },
-      {
         "id": "9619686834",
         "town": "Scarsdale",
         "address": "281 Garth Rd Apt B3D, Scarsdale",
@@ -1958,6 +1941,23 @@
         "listDate": "2026-05-05T19:01:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 16
+      },
+      {
+        "id": "4112254184",
+        "town": "Scarsdale",
+        "address": "33 Lawrence Rd, Scarsdale",
+        "price": 1985000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2250,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/33-Lawrence-Rd_Scarsdale_NY_10583_M41122-54184",
+        "openHouses": [],
+        "listDate": "2026-05-05T19:01:03.000000Z",
+        "lastSoldPrice": 1725000,
+        "lastSoldDate": "2022-08-24",
         "daysOnMarket": 16
       },
       {
@@ -2026,7 +2026,7 @@
         "listDate": "2026-04-29T12:02:23.000000Z",
         "lastSoldPrice": 665500,
         "lastSoldDate": "2015-07-15",
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3128747753",
@@ -2094,7 +2094,7 @@
         "listDate": "2026-04-23T14:02:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "4357831270",
@@ -2145,7 +2145,7 @@
         "listDate": "2026-04-20T14:32:20.000000Z",
         "lastSoldPrice": 2500000,
         "lastSoldDate": "2022-05-05",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "3596898970",
@@ -2200,6 +2200,46 @@
       }
     ],
     "Ardsley": [
+      {
+        "id": "3155488956",
+        "town": "Ardsley",
+        "address": "4 Melissa Dr, Ardsley",
+        "price": 1450000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2160,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/4-Melissa-Dr_Ardsley_NY_10502_M31554-88956",
+        "openHouses": [
+          {
+            "start_date": "2026-05-30T13:00:00",
+            "end_date": "2026-05-30T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-05-31T13:00:00",
+            "end_date": "2026-05-31T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-05-22T12:48:20.000000Z",
+        "lastSoldPrice": 902000,
+        "lastSoldDate": "2005-08-08",
+        "daysOnMarket": 0
+      },
       {
         "id": "9311648483",
         "town": "Ardsley",
@@ -2266,7 +2306,7 @@
         "listDate": "2026-05-12T14:17:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "3227206299",
@@ -2385,7 +2425,7 @@
         "listDate": "2025-09-19T14:17:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 244
+        "daysOnMarket": 245
       }
     ],
     "Bedford": [
@@ -2564,7 +2604,7 @@
         "listDate": "2026-04-29T13:17:25.000000Z",
         "lastSoldPrice": 1850000,
         "lastSoldDate": "1995-05-09",
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3637434869",
@@ -2758,7 +2798,7 @@
         "listDate": "2026-05-07T12:47:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "3476095380",
@@ -2914,23 +2954,6 @@
         "daysOnMarket": 45
       },
       {
-        "id": "3128831212",
-        "town": "Chappaqua",
-        "address": "335 Roaring Brook Rd, Chappaqua",
-        "price": 1200000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 3112,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/335-Roaring-Brook-Rd_Chappaqua_NY_10514_M31288-31212",
-        "openHouses": [],
-        "listDate": "2026-03-26T14:17:18.000000Z",
-        "lastSoldPrice": 165000,
-        "lastSoldDate": "1979-11-01",
-        "daysOnMarket": 56
-      },
-      {
         "id": "9523160142",
         "town": "Chappaqua",
         "address": "201 Bedford Rd, Chappaqua",
@@ -3083,7 +3106,7 @@
         "listDate": "2026-05-08T13:17:15.000000Z",
         "lastSoldPrice": 266000,
         "lastSoldDate": "1991-07-02",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4077694714",
@@ -3100,7 +3123,7 @@
         "listDate": "2026-04-23T13:32:06.000000Z",
         "lastSoldPrice": 800000,
         "lastSoldDate": "2019-12-24",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "4793569097",
@@ -3151,7 +3174,7 @@
         "listDate": "2026-04-17T14:47:34.000000Z",
         "lastSoldPrice": 440000,
         "lastSoldDate": "2014-02-26",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4754124580",
@@ -3219,7 +3242,7 @@
         "listDate": "2026-04-08T14:17:49.000000Z",
         "lastSoldPrice": 235000,
         "lastSoldDate": "1999-10-28",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "4734336364",
@@ -3253,7 +3276,7 @@
         "listDate": "2026-03-13T13:02:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "9046792903",
@@ -3442,7 +3465,7 @@
         "listDate": "2026-05-04T14:32:58.000000Z",
         "lastSoldPrice": 321000,
         "lastSoldDate": "1995-05-16",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "9193405149",
@@ -3493,7 +3516,7 @@
         "listDate": "2026-04-20T14:32:20.000000Z",
         "lastSoldPrice": 501000,
         "lastSoldDate": "1998-06-02",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4921690598",
@@ -3527,7 +3550,7 @@
         "listDate": "2026-04-17T14:32:23.000000Z",
         "lastSoldPrice": 1625000,
         "lastSoldDate": "2006-12-27",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4695404827",
@@ -3578,7 +3601,7 @@
         "listDate": "2026-04-07T14:18:25.000000Z",
         "lastSoldPrice": 980000,
         "lastSoldDate": "2006-01-18",
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "9934835900",
@@ -3612,7 +3635,7 @@
         "listDate": "2026-03-27T14:02:14.000000Z",
         "lastSoldPrice": 660000,
         "lastSoldDate": "2014-08-04",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "3874232788",
@@ -3629,7 +3652,7 @@
         "listDate": "2026-03-24T14:19:03.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2023-09-26",
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "4295013917",
@@ -3750,7 +3773,7 @@
         "listDate": "2026-05-21T13:47:36.000000Z",
         "lastSoldPrice": 481000,
         "lastSoldDate": "2001-08-24",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4472734523",
@@ -3853,7 +3876,7 @@
         "listDate": "2026-05-14T14:49:47.000000Z",
         "lastSoldPrice": 550000,
         "lastSoldDate": "2021-06-23",
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "4172160636",
@@ -3984,7 +4007,7 @@
         "listDate": "2026-05-07T12:17:26.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4246406288",
@@ -4018,7 +4041,7 @@
         "listDate": "2026-05-06T13:02:28.000000Z",
         "lastSoldPrice": 303500,
         "lastSoldDate": "2006-10-03",
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3735734658",
@@ -4069,7 +4092,7 @@
         "listDate": "2026-05-05T13:02:11.000000Z",
         "lastSoldPrice": 1233800,
         "lastSoldDate": "2013-02-13",
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "3265215635",
@@ -4256,7 +4279,7 @@
         "listDate": "2026-04-16T12:47:00.000000Z",
         "lastSoldPrice": 550000,
         "lastSoldDate": "2019-06-14",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4112324924",
@@ -4358,7 +4381,7 @@
         "listDate": "2026-04-09T13:47:02.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "3427101271",
@@ -4375,7 +4398,7 @@
         "listDate": "2026-04-01T13:32:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "4341169299",
@@ -4426,7 +4449,7 @@
         "listDate": "2026-03-25T14:47:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "9467638247",
@@ -4545,7 +4568,7 @@
         "listDate": "2026-03-12T14:34:05.000000Z",
         "lastSoldPrice": 965000,
         "lastSoldDate": "2013-06-24",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "4174432331",
@@ -4958,7 +4981,7 @@
         "id": "4411916932",
         "town": "Hastings-on-Hudson",
         "address": "14 Kent Ave, Hastings On Hudson",
-        "price": 1350000,
+        "price": 1275000,
         "beds": 3,
         "baths": 3,
         "sqft": 1792,
@@ -5020,7 +5043,7 @@
         "listDate": "2026-05-01T13:16:59.000000Z",
         "lastSoldPrice": 430000,
         "lastSoldDate": "1999-11-24",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9187332604",
@@ -5139,7 +5162,7 @@
         "listDate": "2026-04-24T13:17:43.000000Z",
         "lastSoldPrice": 750000,
         "lastSoldDate": "2025-09-23",
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "4379868221",
@@ -5447,7 +5470,7 @@
         "listDate": "2026-04-18T13:05:12.000000Z",
         "lastSoldPrice": 277500,
         "lastSoldDate": "2021-12-08",
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "4983879265",
@@ -5473,7 +5496,7 @@
         "price": 1500000,
         "beds": 4,
         "baths": 3,
-        "sqft": 3196,
+        "sqft": 2856,
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/9-Strawberry-Ln_Irvington_NY_10533_M33409-72924",
@@ -5685,7 +5708,7 @@
         "listDate": "2026-03-16T13:17:17.000000Z",
         "lastSoldPrice": 2800000,
         "lastSoldDate": "2017-12-22",
-        "daysOnMarket": 66
+        "daysOnMarket": 67
       },
       {
         "id": "3854791368",
@@ -5895,23 +5918,6 @@
         "daysOnMarket": 8
       },
       {
-        "id": "4042187791",
-        "town": "Larchmont",
-        "address": "62 Myrtle Blvd, Larchmont",
-        "price": 979000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1665,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/62-Myrtle-Blvd_Larchmont_NY_10538_M40421-87791",
-        "openHouses": [],
-        "listDate": "2026-05-11T20:32:31.000000Z",
-        "lastSoldPrice": 617000,
-        "lastSoldDate": "2013-04-08",
-        "daysOnMarket": 10
-      },
-      {
         "id": "4887278941",
         "town": "Larchmont",
         "address": "144 N Chatsworth Ave, Larchmont",
@@ -5926,6 +5932,23 @@
         "listDate": "2026-05-11T20:32:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 10
+      },
+      {
+        "id": "4042187791",
+        "town": "Larchmont",
+        "address": "62 Myrtle Blvd, Larchmont",
+        "price": 979000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1665,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/62-Myrtle-Blvd_Larchmont_NY_10538_M40421-87791",
+        "openHouses": [],
+        "listDate": "2026-05-11T20:32:31.000000Z",
+        "lastSoldPrice": 617000,
+        "lastSoldDate": "2013-04-08",
         "daysOnMarket": 10
       },
       {
@@ -6045,7 +6068,7 @@
         "listDate": "2026-04-27T14:01:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "9042098859",
@@ -6062,7 +6085,7 @@
         "listDate": "2026-04-27T13:31:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "3257787117",
@@ -6266,7 +6289,7 @@
         "listDate": "2026-03-29T14:46:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "3442876904",
@@ -6284,23 +6307,6 @@
         "lastSoldPrice": 7215000,
         "lastSoldDate": "2020-11-04",
         "daysOnMarket": 70
-      },
-      {
-        "id": "4515670786",
-        "town": "Larchmont",
-        "address": "10 Byron Pl Unit 601, Larchmont",
-        "price": 899000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1366,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/10-Byron-Pl-Unit-601_Larchmont_NY_10538_M45156-70786",
-        "openHouses": [],
-        "listDate": "2026-02-05T02:32:10.000000Z",
-        "lastSoldPrice": 793160,
-        "lastSoldDate": "2018-06-25",
-        "daysOnMarket": 106
       },
       {
         "id": "9421009838",
@@ -6404,7 +6410,7 @@
         "listDate": "2026-05-19T14:16:50.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2011-10-19",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "9899875699",
@@ -6563,7 +6569,7 @@
         "listDate": "2026-05-05T13:47:26.000000Z",
         "lastSoldPrice": 1075000,
         "lastSoldDate": "2025-03-07",
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "9152762671",
@@ -6614,7 +6620,7 @@
         "listDate": "2026-05-04T14:02:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3077494640",
@@ -6660,7 +6666,7 @@
         "listDate": "2026-04-25T13:01:33.000000Z",
         "lastSoldPrice": 999999,
         "lastSoldDate": "2022-08-23",
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "3528839987",
@@ -6836,7 +6842,7 @@
         "listDate": "2026-04-07T14:33:50.000000Z",
         "lastSoldPrice": 930000,
         "lastSoldDate": "2026-02-09",
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "3825972719",
@@ -6870,7 +6876,7 @@
         "listDate": "2026-03-16T13:17:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 66
+        "daysOnMarket": 67
       },
       {
         "id": "3604518892",
@@ -7111,7 +7117,7 @@
         "listDate": "2026-05-18T14:17:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3794714143",
@@ -7199,23 +7205,6 @@
         "daysOnMarket": 9
       },
       {
-        "id": "3937159770",
-        "town": "Mount Vernon",
-        "address": "7 Denman Pl, Mount Vernon",
-        "price": 1395000,
-        "beds": 7,
-        "baths": 4,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/7-Denman-Pl_Mount-Vernon_NY_10552_M39371-59770",
-        "openHouses": [],
-        "listDate": "2026-05-12T17:14:28.000000Z",
-        "lastSoldPrice": 1060000,
-        "lastSoldDate": "2021-09-24",
-        "daysOnMarket": 9
-      },
-      {
         "id": "3688063511",
         "town": "Mount Vernon",
         "address": "35 E Birch St, Mount Vernon",
@@ -7247,7 +7236,7 @@
         "listDate": "2026-05-10T14:02:24.000000Z",
         "lastSoldPrice": 782000,
         "lastSoldDate": "2007-01-22",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3905005040",
@@ -7378,7 +7367,7 @@
         "listDate": "2026-05-01T13:47:03.000000Z",
         "lastSoldPrice": 1275000,
         "lastSoldDate": "2022-03-25",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "3968729801",
@@ -7446,7 +7435,7 @@
         "listDate": "2026-04-17T13:02:00.000000Z",
         "lastSoldPrice": 490000,
         "lastSoldDate": "2023-03-10",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3171258500",
@@ -7718,7 +7707,7 @@
         "listDate": "2026-03-11T14:03:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "9644199035",
@@ -7786,7 +7775,7 @@
         "listDate": "2026-03-02T14:47:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "9764407517",
@@ -7905,7 +7894,7 @@
         "listDate": "2026-01-05T14:36:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 136
+        "daysOnMarket": 137
       },
       {
         "id": "4299310199",
@@ -7923,6 +7912,23 @@
         "lastSoldPrice": 350000,
         "lastSoldDate": "2019-08-19",
         "daysOnMarket": 153
+      },
+      {
+        "id": "3699868345",
+        "town": "Mount Vernon",
+        "address": "465 E Lincoln Ave Apt 516, Mount Vernon",
+        "price": 150000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 800,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/465-E-Lincoln-Ave-Apt-516_Mount-Vernon_NY_10552_M36998-68345",
+        "openHouses": [],
+        "listDate": "2025-12-16T20:31:55.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 156
       }
     ],
     "Pleasantville": [
@@ -7993,7 +7999,7 @@
         "listDate": "2026-05-20T14:47:00.000000Z",
         "lastSoldPrice": 931911,
         "lastSoldDate": "2012-04-25",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4939307975",
@@ -8119,7 +8125,7 @@
         "listDate": "2026-05-14T14:35:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "3505978294",
@@ -8277,6 +8283,23 @@
     ],
     "Tarrytown": [
       {
+        "id": "4861099324",
+        "town": "Tarrytown",
+        "address": "34 Cedar St, Sleepy Hollow",
+        "price": 789000,
+        "beds": 5,
+        "baths": 2,
+        "sqft": null,
+        "type": "multi family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/34-Cedar-St_Sleepy-Hollow_NY_10591_M48610-99324",
+        "openHouses": [],
+        "listDate": "2026-05-22T14:48:38.000000Z",
+        "lastSoldPrice": 199000,
+        "lastSoldDate": "2002-07-09",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4002443404",
         "town": "Tarrytown",
         "address": "217 Martling Ave, Tarrytown",
@@ -8308,7 +8331,7 @@
         "listDate": "2026-05-21T14:32:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "3754164916",
@@ -8354,7 +8377,7 @@
         "listDate": "2026-05-20T14:32:10.000000Z",
         "lastSoldPrice": 1003885,
         "lastSoldDate": "2021-01-06",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3186644353",
@@ -8388,7 +8411,7 @@
         "listDate": "2026-05-16T13:31:42.000000Z",
         "lastSoldPrice": 215000,
         "lastSoldDate": "2019-03-26",
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3511304175",
@@ -8442,23 +8465,6 @@
         "daysOnMarket": 10
       },
       {
-        "id": "9838699766",
-        "town": "Tarrytown",
-        "address": "36 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 10
-      },
-      {
         "id": "3538849971",
         "town": "Tarrytown",
         "address": "30 Andrews Ln, Sleepy Hollow",
@@ -8473,7 +8479,24 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
+      },
+      {
+        "id": "9838699766",
+        "town": "Tarrytown",
+        "address": "36 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 11
       },
       {
         "id": "4331497305",
@@ -8575,7 +8598,7 @@
         "listDate": "2026-05-07T14:02:52.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "3003108517",
@@ -8711,7 +8734,7 @@
         "listDate": "2026-04-21T13:47:21.000000Z",
         "lastSoldPrice": 103000,
         "lastSoldDate": "2017-11-17",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3139725462",
@@ -8816,23 +8839,6 @@
         "daysOnMarket": 48
       },
       {
-        "id": "9001086625",
-        "town": "Tarrytown",
-        "address": "17 Carriage Trl, Tarrytown",
-        "price": 2500000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
-        "openHouses": [],
-        "listDate": "2026-04-03T14:03:52.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 48
-      },
-      {
         "id": "9404772422",
         "town": "Tarrytown",
         "address": "16 Carriage Trl, Tarrytown",
@@ -8847,7 +8853,24 @@
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
+      },
+      {
+        "id": "9001086625",
+        "town": "Tarrytown",
+        "address": "17 Carriage Trl, Tarrytown",
+        "price": 2500000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
+        "openHouses": [],
+        "listDate": "2026-04-03T14:03:52.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 49
       },
       {
         "id": "3547085745",
@@ -9102,7 +9125,7 @@
         "listDate": "2026-03-01T13:46:58.000000Z",
         "lastSoldPrice": 1000000,
         "lastSoldDate": "2017-05-04",
-        "daysOnMarket": 81
+        "daysOnMarket": 82
       },
       {
         "id": "9923708045",
@@ -9120,23 +9143,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 84
-      },
-      {
-        "id": "9219418408",
-        "town": "Tarrytown",
-        "address": "253 S Broadway Unit 253, Tarrytown",
-        "price": 369999,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 925,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/253-S-Broadway_Tarrytown_NY_10591_M92194-18408",
-        "openHouses": [],
-        "listDate": "2026-02-26T06:35:03.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 85
       }
     ],
     "Tuckahoe": [
@@ -9342,7 +9348,7 @@
         "listDate": "2026-03-26T14:17:18.000000Z",
         "lastSoldPrice": 579000,
         "lastSoldDate": "2025-03-07",
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "4601569183",
@@ -9410,7 +9416,7 @@
         "listDate": "2026-01-11T14:46:53.000000Z",
         "lastSoldPrice": 190000,
         "lastSoldDate": "2020-03-27",
-        "daysOnMarket": 130
+        "daysOnMarket": 131
       },
       {
         "id": "9305878572",
