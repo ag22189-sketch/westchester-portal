@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T09:06:57.294Z",
+  "updatedAt": "2026-05-23T11:18:44.407Z",
   "towns": {
     "Pelham": [
       {
@@ -803,7 +803,7 @@
         "listDate": "2026-05-04T10:46:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "9818717505",
@@ -1041,7 +1041,7 @@
         "listDate": "2026-04-17T11:01:56.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "1993-07-21",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4210296993",
@@ -1180,16 +1180,16 @@
         "daysOnMarket": 45
       },
       {
-        "id": "9561612620",
+        "id": "9871107849",
         "town": "Bronxville",
-        "address": "1133 Midland Ave Apt 2C, Bronxville",
-        "price": 425000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 830,
+        "address": "1133 Midland Ave Apt 6F, Bronxville",
+        "price": 599000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1004,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-2C_Bronxville_NY_10708_M95616-12620",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-6F_Bronxville_NY_10708_M98711-07849",
         "openHouses": [
           {
             "start_date": "2026-05-23T11:00:00",
@@ -1209,16 +1209,16 @@
         "daysOnMarket": 46
       },
       {
-        "id": "9871107849",
+        "id": "9561612620",
         "town": "Bronxville",
-        "address": "1133 Midland Ave Apt 6F, Bronxville",
-        "price": 599000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1004,
+        "address": "1133 Midland Ave Apt 2C, Bronxville",
+        "price": 425000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 830,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-6F_Bronxville_NY_10708_M98711-07849",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-2C_Bronxville_NY_10708_M95616-12620",
         "openHouses": [
           {
             "start_date": "2026-05-23T11:00:00",
@@ -2440,7 +2440,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3170759769",
@@ -5937,23 +5937,6 @@
         "daysOnMarket": 3
       },
       {
-        "id": "3481245081",
-        "town": "Larchmont",
-        "address": "24 Homer Ave, Larchmont",
-        "price": 1799000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 2490,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/24-Homer-Ave_Larchmont_NY_10538_M34812-45081",
-        "openHouses": [],
-        "listDate": "2026-05-13T23:02:45.000000Z",
-        "lastSoldPrice": 1400000,
-        "lastSoldDate": "2021-10-07",
-        "daysOnMarket": 9
-      },
-      {
         "id": "9077448404",
         "town": "Larchmont",
         "address": "7 Walnut Ave, Larchmont",
@@ -6495,23 +6478,6 @@
         "daysOnMarket": 8
       },
       {
-        "id": "3245571408",
-        "town": "Mamaroneck",
-        "address": "210 Beach Ave, Mamaroneck",
-        "price": 1075000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1975,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/210-Beach-Ave_Mamaroneck_NY_10543_M32455-71408",
-        "openHouses": [],
-        "listDate": "2026-05-11T19:32:24.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 11
-      },
-      {
         "id": "3454364964",
         "town": "Mamaroneck",
         "address": "983 Palmer Ave, Mamaroneck",
@@ -6526,6 +6492,23 @@
         "listDate": "2026-05-11T19:32:24.000000Z",
         "lastSoldPrice": 310000,
         "lastSoldDate": "2000-08-07",
+        "daysOnMarket": 11
+      },
+      {
+        "id": "3245571408",
+        "town": "Mamaroneck",
+        "address": "210 Beach Ave, Mamaroneck",
+        "price": 1075000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1975,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/210-Beach-Ave_Mamaroneck_NY_10543_M32455-71408",
+        "openHouses": [],
+        "listDate": "2026-05-11T19:32:24.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 11
       },
       {
@@ -6742,7 +6725,7 @@
         "listDate": "2026-04-22T10:16:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "4010876176",
@@ -6884,7 +6867,7 @@
         "listDate": "2026-04-07T11:01:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "9434500398",
@@ -7800,7 +7783,7 @@
         "listDate": "2026-03-03T10:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "9313712188",
@@ -8899,23 +8882,6 @@
         "daysOnMarket": 49
       },
       {
-        "id": "9001086625",
-        "town": "Tarrytown",
-        "address": "17 Carriage Trl, Tarrytown",
-        "price": 2500000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
-        "openHouses": [],
-        "listDate": "2026-04-03T14:03:52.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 49
-      },
-      {
         "id": "9404772422",
         "town": "Tarrytown",
         "address": "16 Carriage Trl, Tarrytown",
@@ -8926,6 +8892,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
+        "openHouses": [],
+        "listDate": "2026-04-03T14:03:52.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 49
+      },
+      {
+        "id": "9001086625",
+        "town": "Tarrytown",
+        "address": "17 Carriage Trl, Tarrytown",
+        "price": 2500000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
         "openHouses": [],
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
