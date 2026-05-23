@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-22T23:09:46.810Z",
+  "updatedAt": "2026-05-23T03:54:09.815Z",
   "towns": {
     "Pelham": [
       {
@@ -97,7 +97,7 @@
         "listDate": "2026-05-15T01:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "4493220641",
@@ -519,7 +519,7 @@
         "listDate": "2026-05-19T02:31:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4870663159",
@@ -582,7 +582,7 @@
         "listDate": "2026-05-15T01:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9443831451",
@@ -599,7 +599,7 @@
         "listDate": "2026-05-14T23:48:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "3028158596",
@@ -616,7 +616,7 @@
         "listDate": "2026-05-14T01:18:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "4876428254",
@@ -874,23 +874,6 @@
         "daysOnMarket": 23
       },
       {
-        "id": "9901917138",
-        "town": "Bronxville",
-        "address": "42 Pondfield Rd W Apt 6D, Bronxville",
-        "price": 280000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 754,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/42-Pondfield-Rd-W-Apt-6D_Bronxville_NY_10708_M99019-17138",
-        "openHouses": [],
-        "listDate": "2026-04-28T16:33:05.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 24
-      },
-      {
         "id": "4504192876",
         "town": "Bronxville",
         "address": "41 Summit Ave, Bronxville",
@@ -901,6 +884,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Summit-Ave_Bronxville_NY_10708_M45041-92876",
+        "openHouses": [],
+        "listDate": "2026-04-28T16:33:05.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 24
+      },
+      {
+        "id": "9901917138",
+        "town": "Bronxville",
+        "address": "42 Pondfield Rd W Apt 6D, Bronxville",
+        "price": 280000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 754,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/42-Pondfield-Rd-W-Apt-6D_Bronxville_NY_10708_M99019-17138",
         "openHouses": [],
         "listDate": "2026-04-28T16:33:05.000000Z",
         "lastSoldPrice": null,
@@ -1109,7 +1109,7 @@
         "listDate": "2026-04-10T02:03:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "9426468523",
@@ -1269,10 +1269,27 @@
         "listDate": "2026-04-01T23:34:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       }
     ],
     "Scarsdale": [
+      {
+        "id": "9529651912",
+        "town": "Scarsdale",
+        "address": "370 Central Park Ave Apt 2E, Scarsdale",
+        "price": 424000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/370-Central-Park-Ave-Apt-2E_Scarsdale_NY_10583_M95296-51912",
+        "openHouses": [],
+        "listDate": "2026-05-22T23:17:34.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "4638675729",
         "town": "Scarsdale",
@@ -1482,7 +1499,7 @@
         "listDate": "2026-05-17T00:17:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "4340839684",
@@ -1491,7 +1508,7 @@
         "price": 2650000,
         "beds": 5,
         "baths": 4,
-        "sqft": 4151,
+        "sqft": 4285,
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1-Rock-Hill-Ln_Scarsdale_NY_10583_M43408-39684",
@@ -1601,6 +1618,23 @@
         "listDate": "2026-05-14T11:47:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 8
+      },
+      {
+        "id": "3194778632",
+        "town": "Scarsdale",
+        "address": "53 Shepherds Dr, Scarsdale",
+        "price": 1095000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2158,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/53-Shepherds-Dr_Scarsdale_NY_10583_M31947-78632",
+        "openHouses": [],
+        "listDate": "2026-05-14T05:47:22.000000Z",
+        "lastSoldPrice": 755000,
+        "lastSoldDate": "2007-06-25",
         "daysOnMarket": 8
       },
       {
@@ -1735,40 +1769,6 @@
         "daysOnMarket": 10
       },
       {
-        "id": "3368007180",
-        "town": "Scarsdale",
-        "address": "14 Windmill Ln, Scarsdale",
-        "price": 3995000,
-        "beds": 5,
-        "baths": 6,
-        "sqft": 6236,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/14-Windmill-Ln_Scarsdale_NY_10583_M33680-07180",
-        "openHouses": [],
-        "listDate": "2026-05-12T01:02:07.000000Z",
-        "lastSoldPrice": 1900000,
-        "lastSoldDate": "2010-08-27",
-        "daysOnMarket": 10
-      },
-      {
-        "id": "3165449632",
-        "town": "Scarsdale",
-        "address": "5 Harcourt Rd, Scarsdale",
-        "price": 2695000,
-        "beds": 4,
-        "baths": 5,
-        "sqft": 3417,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/5-Harcourt-Rd_Scarsdale_NY_10583_M31654-49632",
-        "openHouses": [],
-        "listDate": "2026-05-11T17:17:41.000000Z",
-        "lastSoldPrice": 1450000,
-        "lastSoldDate": "2017-08-16",
-        "daysOnMarket": 11
-      },
-      {
         "id": "9257882222",
         "town": "Scarsdale",
         "address": "370 Central Park Ave Apt 4H, Scarsdale",
@@ -1812,7 +1812,7 @@
         "listDate": "2026-05-10T01:17:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "3187106922",
@@ -1846,23 +1846,6 @@
         "listDate": "2026-05-08T13:47:38.000000Z",
         "lastSoldPrice": 1860000,
         "lastSoldDate": "2025-09-19",
-        "daysOnMarket": 14
-      },
-      {
-        "id": "3567847279",
-        "town": "Scarsdale",
-        "address": "170 Madison Rd, Scarsdale",
-        "price": 1150000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 1476,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/170-Madison-Rd_Scarsdale_NY_10583_M35678-47279",
-        "openHouses": [],
-        "listDate": "2026-05-08T13:17:15.000000Z",
-        "lastSoldPrice": 280000,
-        "lastSoldDate": "1992-03-27",
         "daysOnMarket": 14
       },
       {
@@ -1914,23 +1897,6 @@
         "listDate": "2026-05-05T19:01:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
-      },
-      {
-        "id": "4112254184",
-        "town": "Scarsdale",
-        "address": "33 Lawrence Rd, Scarsdale",
-        "price": 1985000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2250,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/33-Lawrence-Rd_Scarsdale_NY_10583_M41122-54184",
-        "openHouses": [],
-        "listDate": "2026-05-05T19:01:03.000000Z",
-        "lastSoldPrice": 1725000,
-        "lastSoldDate": "2022-08-24",
         "daysOnMarket": 17
       },
       {
@@ -2050,7 +2016,7 @@
         "listDate": "2026-04-27T01:16:30.000000Z",
         "lastSoldPrice": 1850000,
         "lastSoldDate": "2017-08-02",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "4301232741",
@@ -2084,7 +2050,7 @@
         "listDate": "2026-04-23T00:47:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "9885118613",
@@ -2101,7 +2067,7 @@
         "listDate": "2026-04-21T00:04:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "3253679640",
@@ -2170,6 +2136,40 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 44
+      },
+      {
+        "id": "3920900414",
+        "town": "Scarsdale",
+        "address": "11 Fraydun Ln, Scarsdale",
+        "price": 2425000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": 4020,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-Fraydun-Ln_Scarsdale_NY_10583_M39209-00414",
+        "openHouses": [],
+        "listDate": "2026-04-07T20:34:20.000000Z",
+        "lastSoldPrice": 1966000,
+        "lastSoldDate": "2025-02-12",
+        "daysOnMarket": 45
+      },
+      {
+        "id": "3235312024",
+        "town": "Scarsdale",
+        "address": "100 High Point Rd, Scarsdale",
+        "price": 1350000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/100-High-Point-Rd_Scarsdale_NY_10583_M32353-12024",
+        "openHouses": [],
+        "listDate": "2026-04-06T19:15:58.000000Z",
+        "lastSoldPrice": 404000,
+        "lastSoldDate": "2005-11-21",
+        "daysOnMarket": 46
       }
     ],
     "Ardsley": [
@@ -2300,23 +2300,6 @@
         "link": "https://www.realtor.com/realestateandhomes-detail/3-Johnson-Pl_Ardsley_NY_10502_M32936-88741",
         "openHouses": [],
         "listDate": "2026-05-12T18:59:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 10
-      },
-      {
-        "id": "4090716272",
-        "town": "Ardsley",
-        "address": "4 Abington Ave, Ardsley",
-        "price": 879000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1416,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Abington-Ave_Ardsley_NY_10502_M40907-16272",
-        "openHouses": [],
-        "listDate": "2026-05-12T14:17:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 10
@@ -2668,7 +2651,7 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 247
+        "daysOnMarket": 248
       }
     ],
     "Chappaqua": [
@@ -2857,7 +2840,7 @@
         "listDate": "2026-04-29T01:32:06.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2025-03-20",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "3278197481",
@@ -2942,7 +2925,7 @@
         "listDate": "2026-04-14T00:47:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "3168150418",
@@ -3061,7 +3044,7 @@
         "listDate": "2025-11-10T00:10:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 193
+        "daysOnMarket": 194
       },
       {
         "id": "3500078903",
@@ -3524,7 +3507,7 @@
         "listDate": "2026-05-01T01:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4341452906",
@@ -3762,7 +3745,7 @@
         "listDate": "2026-01-12T23:16:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 129
+        "daysOnMarket": 130
       }
     ],
     "Hartsdale": [
@@ -3965,19 +3948,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/7-Frost-Ln_Hartsdale_NY_10530_M42482-81752",
-        "openHouses": [
-          {
-            "start_date": "2026-05-24T13:00:00",
-            "end_date": "2026-05-24T15:00:00",
-            "description": "Come join me for a tour of this modern-style multi-level home, privately set on a cul-de-sac location in the heart of Hartsdale!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-05-12T21:03:59.000000Z",
         "lastSoldPrice": 630000,
         "lastSoldDate": "2018-02-15",
@@ -4015,7 +3986,7 @@
         "listDate": "2026-05-08T01:32:25.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "9681126059",
@@ -4457,7 +4428,7 @@
         "listDate": "2026-03-26T00:03:48.000000Z",
         "lastSoldPrice": 480000,
         "lastSoldDate": "2010-03-24",
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "3199180535",
@@ -4525,7 +4496,7 @@
         "listDate": "2026-03-12T23:49:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "4833415133",
@@ -4680,6 +4651,17 @@
           {
             "start_date": "2026-05-30T13:00:00",
             "end_date": "2026-05-30T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-05-31T13:00:00",
+            "end_date": "2026-05-31T15:00:00",
             "description": null,
             "time_zone": "EST",
             "dst": true,
@@ -4959,7 +4941,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 260
+        "daysOnMarket": 261
       },
       {
         "id": "4909798943",
@@ -5131,7 +5113,7 @@
         "listDate": "2026-05-01T03:32:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4437593165",
@@ -5148,7 +5130,7 @@
         "listDate": "2026-05-01T01:47:52.000000Z",
         "lastSoldPrice": 335000,
         "lastSoldDate": "2000-03-31",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3383514183",
@@ -5439,7 +5421,7 @@
         "listDate": "2026-05-08T23:47:15.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2004-05-18",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3878157114",
@@ -5474,23 +5456,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 18
-      },
-      {
-        "id": "3105366263",
-        "town": "Irvington",
-        "address": "7 Roland Rd, Irvington",
-        "price": 2775000,
-        "beds": 5,
-        "baths": 6,
-        "sqft": 5470,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/7-Roland-Rd_Irvington_NY_10533_M31053-66263",
-        "openHouses": [],
-        "listDate": "2026-04-29T18:12:02.000000Z",
-        "lastSoldPrice": 2900000,
-        "lastSoldDate": "2006-08-31",
-        "daysOnMarket": 23
       },
       {
         "id": "3255559384",
@@ -5886,6 +5851,23 @@
     ],
     "Larchmont": [
       {
+        "id": "9300907060",
+        "town": "Larchmont",
+        "address": "1815 Palmer Ave Apt 2L, Larchmont",
+        "price": 230000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 725,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1815-Palmer-Ave-Apt-2L_Larchmont_NY_10538_M93009-07060",
+        "openHouses": [],
+        "listDate": "2026-05-23T02:02:47.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "9234597662",
         "town": "Larchmont",
         "address": "55 Harrison Dr, Larchmont",
@@ -5969,23 +5951,6 @@
         "listDate": "2026-05-13T23:02:45.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2021-10-07",
-        "daysOnMarket": 9
-      },
-      {
-        "id": "4153847927",
-        "town": "Larchmont",
-        "address": "7 Soundview Dr, Larchmont",
-        "price": 1995000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 3028,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/7-Soundview-Dr_Larchmont_NY_10538_M41538-47927",
-        "openHouses": [],
-        "listDate": "2026-05-13T19:06:20.000000Z",
-        "lastSoldPrice": 350000,
-        "lastSoldDate": "1993-05-07",
         "daysOnMarket": 9
       },
       {
@@ -6084,11 +6049,34 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/199-Hickory-Grove-Dr-E_Larchmont_NY_10538_M40621-42221",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-05-23T12:00:00",
+            "end_date": "2026-05-23T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-05-24T13:00:00",
+            "end_date": "2026-05-24T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-07T00:32:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "4189664777",
@@ -6173,7 +6161,7 @@
         "listDate": "2026-04-21T23:17:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3189888570",
@@ -6411,7 +6399,7 @@
         "listDate": "2025-02-05T03:02:10.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2021-02-24",
-        "daysOnMarket": 471
+        "daysOnMarket": 472
       }
     ],
     "Mamaroneck": [
@@ -6686,7 +6674,7 @@
         "listDate": "2026-04-30T03:33:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3536173154",
@@ -6788,7 +6776,7 @@
         "listDate": "2026-04-10T23:17:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "4967530185",
@@ -6930,7 +6918,7 @@
         "listDate": "2026-03-14T01:03:42.000000Z",
         "lastSoldPrice": 560000,
         "lastSoldDate": "2007-05-21",
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "4525101395",
@@ -7032,7 +7020,7 @@
         "listDate": "2025-11-19T00:15:19.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2024-07-09",
-        "daysOnMarket": 184
+        "daysOnMarket": 185
       },
       {
         "id": "9199642451",
@@ -7188,7 +7176,7 @@
         "listDate": "2026-05-16T00:02:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3712430393",
@@ -7370,7 +7358,7 @@
         "listDate": "2026-05-05T01:47:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "9054589547",
@@ -7506,7 +7494,7 @@
         "listDate": "2026-04-13T01:33:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "4187840888",
@@ -7557,7 +7545,7 @@
         "listDate": "2026-04-08T00:03:50.000000Z",
         "lastSoldPrice": 245000,
         "lastSoldDate": "1993-12-20",
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "4535874402",
@@ -7642,7 +7630,7 @@
         "listDate": "2026-03-31T02:02:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "4299421997",
@@ -8145,7 +8133,7 @@
         "listDate": "2026-05-14T23:33:48.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2016-02-03",
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "4823559957",
@@ -8242,7 +8230,7 @@
         "listDate": "2026-05-11T23:47:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "9137316070",
@@ -8403,7 +8391,7 @@
         "listDate": "2026-05-22T00:18:12.000000Z",
         "lastSoldPrice": 531000,
         "lastSoldDate": "2022-05-24",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9286902558",
@@ -8602,7 +8590,7 @@
         "listDate": "2026-05-09T01:17:05.000000Z",
         "lastSoldPrice": 210000,
         "lastSoldDate": "1999-04-02",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4986747856",
@@ -8704,7 +8692,7 @@
         "listDate": "2026-05-07T00:32:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3511497842",
@@ -8755,7 +8743,7 @@
         "listDate": "2026-04-29T03:17:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4064503608",
@@ -9061,7 +9049,7 @@
         "listDate": "2026-03-25T23:17:15.000000Z",
         "lastSoldPrice": 188000,
         "lastSoldDate": "1996-06-06",
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "9702641256",
