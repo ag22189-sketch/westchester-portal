@@ -2,24 +2,45 @@ name: Weekly Market Digest
 
 on:
   schedule:
-    - cron: '0 11 * * 0'  # Sunday 11:00 UTC = 7 AM ET (EDT)
-  workflow_dispatch:
+    - cron: '0 12 * * 0'  # 12:00 UTC = 8am EDT (Mar–Nov)
+    - cron: '0 13 * * 0'  # 13:00 UTC = 8am EST (Nov–Mar)
+  workflow_dispatch:        # Manual trigger (always runs)
 
 jobs:
-  send-digest:
+  digest:
     runs-on: ubuntu-latest
     steps:
-      - name: Trigger digest endpoint
-        env:
-          DIGEST_SECRET: ${{ secrets.DIGEST_SECRET }}
+      - name: Check if 8am ET (skip the wrong cron entry)
+        id: timecheck
         run: |
-          echo "Triggering weekly digest..."
-          RESPONSE=$(curl -s -w "\n%{http_code}" "https://westchester-portal.onrender.com/api/send-digest?key=${DIGEST_SECRET}")
-          HTTP_CODE=$(echo "$RESPONSE" | tail -1)
-          BODY=$(echo "$RESPONSE" | head -n -1)
-          echo "Status: $HTTP_CODE"
-          echo "Response: $BODY"
-          if [ "$HTTP_CODE" -ne 200 ]; then
-            echo "Digest endpoint returned error"
-            exit 1
+          HOUR=$(TZ=America/New_York date +%H)
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "Manual trigger — running regardless of time"
+          elif [ "$HOUR" = "08" ]; then
+            echo "skip=false" >> $GITHUB_OUTPUT
+            echo "It is 8am ET — running digest"
+          else
+            echo "skip=true" >> $GITHUB_OUTPUT
+            echo "Not 8am ET (hour=$HOUR) — skipping"
           fi
+
+      - uses: actions/checkout@v4
+        if: steps.timecheck.outputs.skip != 'true'
+
+      - uses: actions/setup-node@v4
+        if: steps.timecheck.outputs.skip != 'true'
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        if: steps.timecheck.outputs.skip != 'true'
+        run: npm ci
+
+      - name: Send weekly digest
+        if: steps.timecheck.outputs.skip != 'true'
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+        run: node scripts/weekly-digest.js

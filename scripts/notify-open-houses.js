@@ -3,7 +3,7 @@
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { Resend } from "resend";
-import { TOWN_ZIPS, TOWN_COUNT } from "../server/towns.js";
+import { TOWN_ZIPS, TOWN_COUNT, shouldNotifyEmail } from "../server/towns.js";
 
 const API_KEY = process.env.RAPIDAPI_KEY;
 const API_HOST = "us-real-estate-listings.p.rapidapi.com";
@@ -17,28 +17,6 @@ const NOTIFY_TO = (process.env.NOTIFY_EMAIL_TO || "")
 const MODE = process.argv[2] || "monitor";
 
 const TOWNS = TOWN_ZIPS;
-
-// Email notification whitelist (case-insensitive)
-const NOTIFY_WHITELIST = ["scarsdale", "pelham", "pelham manor", "bronxville", "tuckahoe"];
-
-function shouldNotifyEmail(listing, fetchTown) {
-  const addr = listing.location?.address || {};
-  const city = (addr.city || "").trim().toLowerCase();
-  const zip = (addr.postal_code || "").trim();
-
-  if (NOTIFY_WHITELIST.includes(city)) {
-    if (fetchTown.toLowerCase() === "eastchester" && city === "bronxville") {
-      return { notify: true, rule: "bronxville-po" };
-    }
-    return { notify: true };
-  }
-
-  if (fetchTown.toLowerCase() === "eastchester" && zip === "10708") {
-    return { notify: true, rule: "bronxville-po-zip" };
-  }
-
-  return { notify: false };
-}
 
 const SEEN_PATH = new URL("../data/seen-open-houses.json", import.meta.url).pathname;
 

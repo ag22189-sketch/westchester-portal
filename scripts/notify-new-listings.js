@@ -3,7 +3,7 @@
 
 import { readFileSync, writeFileSync, existsSync } from "fs";
 import { Resend } from "resend";
-import { TOWN_ZIPS, TOWN_COUNT } from "../server/towns.js";
+import { TOWN_ZIPS, TOWN_COUNT, shouldNotifyEmail } from "../server/towns.js";
 
 const API_KEY = process.env.RAPIDAPI_KEY;
 const API_HOST = "us-real-estate-listings.p.rapidapi.com";
@@ -14,34 +14,6 @@ const NOTIFY_TO = (process.env.NOTIFY_EMAIL_TO || "")
   .filter(Boolean);
 
 const WATCH_ZIPS = TOWN_ZIPS;
-
-// Email notification whitelist (case-insensitive)
-// Only these towns trigger email alerts. All others are still fetched for cache/tracking.
-const NOTIFY_WHITELIST = ["scarsdale", "pelham", "pelham manor", "bronxville", "tuckahoe"];
-
-// Returns { notify: boolean, rule?: string } for a raw API listing object.
-// Handles "Bronxville P.O." rule: Eastchester-fetched listings with Bronxville mailing address.
-function shouldNotifyEmail(listing, fetchTown) {
-  const addr = listing.location?.address || {};
-  const city = (addr.city || "").trim().toLowerCase();
-  const zip = (addr.postal_code || "").trim();
-
-  // Direct match on the listing's mailing city
-  if (NOTIFY_WHITELIST.includes(city)) {
-    // Log if this is a Bronxville P.O. listing fetched under Eastchester
-    if (fetchTown.toLowerCase() === "eastchester" && city === "bronxville") {
-      return { notify: true, rule: "bronxville-po" };
-    }
-    return { notify: true };
-  }
-
-  // Fallback: Eastchester-fetched listing with Bronxville ZIP (10708)
-  if (fetchTown.toLowerCase() === "eastchester" && zip === "10708") {
-    return { notify: true, rule: "bronxville-po-zip" };
-  }
-
-  return { notify: false };
-}
 
 const SEEN_PATH = new URL("../data/seen-listings.json", import.meta.url).pathname;
 

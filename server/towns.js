@@ -40,3 +40,63 @@ export const TOWN_ZIPS = TOWNS.flatMap((t) =>
 );
 
 export const TOWN_COUNT = TOWNS.length;
+
+// --- Email notification whitelist ---
+// Only these mailing cities trigger email alerts (case-insensitive).
+// All 18 towns are still fetched for Chessie's cache and seen-ID tracking.
+export const NOTIFY_WHITELIST = ["scarsdale", "pelham", "pelham manor", "bronxville", "tuckahoe"];
+
+// Display order for the weekly digest email
+export const DIGEST_TOWN_ORDER = ["Scarsdale", "Pelham", "Pelham Manor", "Bronxville", "Tuckahoe"];
+
+// ZIPs to fetch for the digest (includes Eastchester for Bronxville P.O.)
+export const DIGEST_FETCH_ZIPS = [
+  { zip: "10583", town: "Scarsdale" },
+  { zip: "10803", town: "Pelham" },       // also covers Pelham Manor
+  { zip: "10708", town: "Bronxville" },
+  { zip: "10709", town: "Eastchester" },   // for Bronxville P.O. listings
+  { zip: "10707", town: "Tuckahoe" },
+];
+
+// Checks whether a listing should trigger an email notification.
+// Returns { notify: boolean, rule?: string }.
+export function shouldNotifyEmail(listing, fetchTown) {
+  const addr = listing.location?.address || {};
+  const city = (addr.city || "").trim().toLowerCase();
+  const zip = (addr.postal_code || "").trim();
+
+  if (NOTIFY_WHITELIST.includes(city)) {
+    if (fetchTown.toLowerCase() === "eastchester" && city === "bronxville") {
+      return { notify: true, rule: "bronxville-po" };
+    }
+    return { notify: true };
+  }
+
+  // Fallback: Eastchester-fetched listing with Bronxville ZIP (10708)
+  if (fetchTown.toLowerCase() === "eastchester" && zip === "10708") {
+    return { notify: true, rule: "bronxville-po-zip" };
+  }
+
+  return { notify: false };
+}
+
+// For the digest: maps a listing to its display town name, or null if not whitelisted.
+const WHITELIST_DISPLAY = {
+  scarsdale: "Scarsdale",
+  pelham: "Pelham",
+  "pelham manor": "Pelham Manor",
+  bronxville: "Bronxville",
+  tuckahoe: "Tuckahoe",
+};
+
+export function getDisplayTown(listing, fetchTown) {
+  const addr = listing.location?.address || {};
+  const city = (addr.city || "").trim().toLowerCase();
+  if (WHITELIST_DISPLAY[city]) return WHITELIST_DISPLAY[city];
+  // Bronxville P.O. fallback by ZIP
+  if (fetchTown.toLowerCase() === "eastchester") {
+    const zip = (addr.postal_code || "").trim();
+    if (zip === "10708") return "Bronxville";
+  }
+  return null;
+}
