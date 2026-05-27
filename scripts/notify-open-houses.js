@@ -18,6 +18,28 @@ const MODE = process.argv[2] || "monitor";
 
 const TOWNS = TOWN_ZIPS;
 
+// Email notification whitelist (case-insensitive)
+const NOTIFY_WHITELIST = ["scarsdale", "pelham", "pelham manor", "bronxville", "tuckahoe"];
+
+function shouldNotifyEmail(listing, fetchTown) {
+  const addr = listing.location?.address || {};
+  const city = (addr.city || "").trim().toLowerCase();
+  const zip = (addr.postal_code || "").trim();
+
+  if (NOTIFY_WHITELIST.includes(city)) {
+    if (fetchTown.toLowerCase() === "eastchester" && city === "bronxville") {
+      return { notify: true, rule: "bronxville-po" };
+    }
+    return { notify: true };
+  }
+
+  if (fetchTown.toLowerCase() === "eastchester" && zip === "10708") {
+    return { notify: true, rule: "bronxville-po-zip" };
+  }
+
+  return { notify: false };
+}
+
 const SEEN_PATH = new URL("../data/seen-open-houses.json", import.meta.url).pathname;
 
 function loadSeen() {
@@ -285,6 +307,16 @@ async function runDigest() {
     const weekendOHs = [];
 
     for (const listing of listings) {
+      const decision = shouldNotifyEmail(listing, town);
+      if (!decision.notify) {
+        const addr = listing.location?.address || {};
+        console.log(`  SKIP digest (not whitelisted): ${town} — ${addr.line || "unknown"}`);
+        continue;
+      }
+      if (decision.rule) {
+        const addr = listing.location?.address || {};
+        console.log(`  INCLUDE digest (${decision.rule}): Eastchester listing with Bronxville address — ${addr.line || "unknown"}`);
+      }
       for (const oh of listing.open_houses || []) {
         if (isThisWeekend(oh.start_date)) {
           weekendOHs.push({ listing, oh });
@@ -339,6 +371,17 @@ async function runMonitor() {
 
         const addr = listing.location?.address || {};
         const street = addr.line ? addr.line.split(",")[0].trim() : "New Listing";
+
+        // Whitelist filter
+        const decision = shouldNotifyEmail(listing, town);
+        if (!decision.notify) {
+          console.log(`  SKIP OH email (not whitelisted): ${town} — ${street}`);
+          continue;
+        }
+        if (decision.rule) {
+          console.log(`  INCLUDE OH (${decision.rule}): Eastchester listing with Bronxville address — ${street}`);
+        }
+
         console.log(`  NEW OH: ${street}, ${town}`);
 
         try {

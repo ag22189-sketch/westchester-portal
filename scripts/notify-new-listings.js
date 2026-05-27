@@ -15,6 +15,34 @@ const NOTIFY_TO = (process.env.NOTIFY_EMAIL_TO || "")
 
 const WATCH_ZIPS = TOWN_ZIPS;
 
+// Email notification whitelist (case-insensitive)
+// Only these towns trigger email alerts. All others are still fetched for cache/tracking.
+const NOTIFY_WHITELIST = ["scarsdale", "pelham", "pelham manor", "bronxville", "tuckahoe"];
+
+// Returns { notify: boolean, rule?: string } for a raw API listing object.
+// Handles "Bronxville P.O." rule: Eastchester-fetched listings with Bronxville mailing address.
+function shouldNotifyEmail(listing, fetchTown) {
+  const addr = listing.location?.address || {};
+  const city = (addr.city || "").trim().toLowerCase();
+  const zip = (addr.postal_code || "").trim();
+
+  // Direct match on the listing's mailing city
+  if (NOTIFY_WHITELIST.includes(city)) {
+    // Log if this is a Bronxville P.O. listing fetched under Eastchester
+    if (fetchTown.toLowerCase() === "eastchester" && city === "bronxville") {
+      return { notify: true, rule: "bronxville-po" };
+    }
+    return { notify: true };
+  }
+
+  // Fallback: Eastchester-fetched listing with Bronxville ZIP (10708)
+  if (fetchTown.toLowerCase() === "eastchester" && zip === "10708") {
+    return { notify: true, rule: "bronxville-po-zip" };
+  }
+
+  return { notify: false };
+}
+
 const SEEN_PATH = new URL("../data/seen-listings.json", import.meta.url).pathname;
 
 function loadSeen() {
@@ -223,10 +251,19 @@ async function main() {
 
       if (seenSet.has(id)) continue;
 
-
       const addr = listing.location?.address || {};
       const street = streetFromAddress(addr.line);
       const price = fmtPrice(listing.list_price);
+
+      // Whitelist filter — skip email for towns not in the notify list
+      const decision = shouldNotifyEmail(listing, town);
+      if (!decision.notify) {
+        console.log(`  SKIP email (not whitelisted): ${town} — ${street}`);
+        continue;
+      }
+      if (decision.rule) {
+        console.log(`  INCLUDE (${decision.rule}): Eastchester listing with Bronxville address — ${street}`);
+      }
 
       console.log(`  NEW: ${street} — ${price}`);
 
