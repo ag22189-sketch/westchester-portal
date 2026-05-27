@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-26T23:15:18.992Z",
+  "updatedAt": "2026-05-27T04:24:37.388Z",
   "towns": {
     "Pelham": [
       {
@@ -143,7 +143,7 @@
         "listDate": "2026-05-15T01:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "4493220641",
@@ -577,7 +577,7 @@
         "listDate": "2026-05-19T02:31:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "4870663159",
@@ -628,7 +628,7 @@
         "listDate": "2026-05-15T01:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "9443831451",
@@ -645,7 +645,7 @@
         "listDate": "2026-05-14T23:48:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3028158596",
@@ -662,7 +662,7 @@
         "listDate": "2026-05-14T01:18:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "4876428254",
@@ -1138,7 +1138,7 @@
         "listDate": "2026-04-10T02:03:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "9426468523",
@@ -1297,7 +1297,7 @@
         "listDate": "2026-04-01T23:34:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "9852725662",
@@ -1470,46 +1470,6 @@
         "listDate": "2026-05-22T23:17:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
-      },
-      {
-        "id": "4638675729",
-        "town": "Scarsdale",
-        "address": "3 Baldwin Ln, Scarsdale",
-        "price": 1399999,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2477,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/3-Baldwin-Ln_Scarsdale_NY_10583_M46386-75729",
-        "openHouses": [
-          {
-            "start_date": "2026-05-30T12:00:00",
-            "end_date": "2026-05-30T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          },
-          {
-            "start_date": "2026-05-31T12:00:00",
-            "end_date": "2026-05-31T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-05-22T15:18:49.000000Z",
-        "lastSoldPrice": 285500,
-        "lastSoldDate": "1998-10-27",
         "daysOnMarket": 4
       },
       {
@@ -1671,11 +1631,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/727-Wilmot-Rd_Scarsdale_NY_10583_M37288-57673",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-05-31T12:00:00",
+            "end_date": "2026-05-31T13:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-17T00:17:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4340839684",
@@ -1959,7 +1931,7 @@
         "listDate": "2026-05-10T01:17:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "3187106922",
@@ -2146,7 +2118,7 @@
         "listDate": "2026-04-27T01:16:30.000000Z",
         "lastSoldPrice": 1850000,
         "lastSoldDate": "2017-08-02",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "4301232741",
@@ -2180,7 +2152,7 @@
         "listDate": "2026-04-23T00:47:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "9885118613",
@@ -2197,7 +2169,7 @@
         "listDate": "2026-04-21T00:04:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "3253679640",
@@ -2249,6 +2221,23 @@
         "lastSoldPrice": 400000,
         "lastSoldDate": "2002-02-14",
         "daysOnMarket": 47
+      },
+      {
+        "id": "3581009462",
+        "town": "Scarsdale",
+        "address": "260 Garth Rd Apt 4A5, Scarsdale",
+        "price": 189000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 800,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/260-Garth-Rd-Apt-4A5_Scarsdale_NY_10583_M35810-09462",
+        "openHouses": [],
+        "listDate": "2026-04-08T22:32:54.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 48
       }
     ],
     "Ardsley": [
@@ -2366,7 +2355,7 @@
         "address": "3 Johnson Pl, Ardsley",
         "price": 1250000,
         "beds": 4,
-        "baths": 4,
+        "baths": 3,
         "sqft": 2961,
         "type": "single family",
         "status": "for_sale",
@@ -2683,7 +2672,7 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 251
+        "daysOnMarket": 252
       }
     ],
     "Chappaqua": [
@@ -2732,7 +2721,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/22-Random-Farms-Cir_Chappaqua_NY_10514_M41208-17707",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-05-30T14:00:00",
+            "end_date": "2026-05-30T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-22T16:04:27.000000Z",
         "lastSoldPrice": 1825000,
         "lastSoldDate": "2008-03-17",
@@ -2855,7 +2856,7 @@
         "listDate": "2026-04-29T01:32:06.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2025-03-20",
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "3278197481",
@@ -2940,13 +2941,13 @@
         "listDate": "2026-04-14T00:47:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "3168150418",
         "town": "Chappaqua",
         "address": "767 King St, Chappaqua",
-        "price": 1750000,
+        "price": 1665000,
         "beds": null,
         "baths": null,
         "sqft": null,
@@ -3059,7 +3060,7 @@
         "listDate": "2025-11-10T00:10:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 197
+        "daysOnMarket": 198
       },
       {
         "id": "3500078903",
@@ -3265,7 +3266,7 @@
         "listDate": "2026-04-14T04:01:55.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2008-01-22",
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "9238348108",
@@ -3539,7 +3540,7 @@
         "listDate": "2026-05-01T01:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "4341452906",
@@ -3777,7 +3778,7 @@
         "listDate": "2026-01-12T23:16:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 133
+        "daysOnMarket": 134
       }
     ],
     "Hartsdale": [
@@ -3792,7 +3793,30 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/39-Hillcrest-Rd_Hartsdale_NY_10530_M44327-11574",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-05-30T13:00:00",
+            "end_date": "2026-05-30T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-05-31T12:00:00",
+            "end_date": "2026-05-31T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
@@ -4046,7 +4070,7 @@
         "listDate": "2026-05-08T01:32:25.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "4246406288",
@@ -4103,7 +4127,7 @@
         "id": "3241078277",
         "town": "Hartsdale",
         "address": "37 Fieldstone Dr Apt B1, Hartsdale",
-        "price": 320000,
+        "price": 310000,
         "beds": 2,
         "baths": 2,
         "sqft": 1200,
@@ -4437,7 +4461,7 @@
         "listDate": "2026-03-26T00:03:48.000000Z",
         "lastSoldPrice": 480000,
         "lastSoldDate": "2010-03-24",
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "3199180535",
@@ -4505,7 +4529,7 @@
         "listDate": "2026-03-12T23:49:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "4833415133",
@@ -4938,7 +4962,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 264
+        "daysOnMarket": 265
       },
       {
         "id": "4909798943",
@@ -5110,24 +5134,7 @@
         "listDate": "2026-05-01T03:32:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
-      },
-      {
-        "id": "4437593165",
-        "town": "Hastings-on-Hudson",
-        "address": "58 Farragut Ave, Hastings On Hudson",
-        "price": 1099900,
-        "beds": 5,
-        "baths": 3,
-        "sqft": null,
-        "type": "multi family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/58-Farragut-Ave_Hastings-on-Hudson_NY_10706_M44375-93165",
-        "openHouses": [],
-        "listDate": "2026-05-01T01:47:52.000000Z",
-        "lastSoldPrice": 335000,
-        "lastSoldDate": "2000-03-31",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3383514183",
@@ -5413,7 +5420,7 @@
         "listDate": "2026-05-08T23:47:15.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2004-05-18",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3878157114",
@@ -5841,7 +5848,610 @@
         "daysOnMarket": 237
       }
     ],
-    "Larchmont": [],
+    "Larchmont": [
+      {
+        "id": "3938541759",
+        "town": "Larchmont",
+        "address": "62 Mohegan Rd, Larchmont",
+        "price": 1475000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 2374,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/62-Mohegan-Rd_Larchmont_NY_10538_M39385-41759",
+        "openHouses": [
+          {
+            "start_date": "2026-05-30T15:00:00",
+            "end_date": "2026-05-30T17:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-05-31T13:00:00",
+            "end_date": "2026-05-31T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-05-26T20:17:38.000000Z",
+        "lastSoldPrice": 435000,
+        "lastSoldDate": "1999-12-01",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "9716003813",
+        "town": "Larchmont",
+        "address": "100 Park Ave Unit 5D, Bronxville",
+        "price": 375000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 800,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/100-Park-Ave-5D_Larchmont_NY_10538_M97160-03813",
+        "openHouses": [],
+        "listDate": "2026-05-26T19:55:00.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3462761173",
+        "town": "Larchmont",
+        "address": "18 Wildwood Rd, Larchmont",
+        "price": 2100000,
+        "beds": 5,
+        "baths": 5,
+        "sqft": 3289,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/18-Wildwood-Rd_Larchmont_NY_10538_M34627-61173",
+        "openHouses": [],
+        "listDate": "2026-05-24T14:02:35.000000Z",
+        "lastSoldPrice": 1180000,
+        "lastSoldDate": "2017-12-27",
+        "daysOnMarket": 2
+      },
+      {
+        "id": "4310172593",
+        "town": "Larchmont",
+        "address": "1440 Boston Post Rd Apt 2I, Larchmont",
+        "price": 310000,
+        "beds": 2,
+        "baths": 1,
+        "sqft": 850,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1440-Boston-Post-Rd-Apt-2I_Larchmont_NY_10538_M43101-72593",
+        "openHouses": [],
+        "listDate": "2026-05-24T13:02:57.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 2
+      },
+      {
+        "id": "4220318997",
+        "town": "Larchmont",
+        "address": "17 N Brook Rd, Larchmont",
+        "price": 1395000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": 2168,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/17-N-Brook-Rd_Larchmont_NY_10538_M42203-18997",
+        "openHouses": [],
+        "listDate": "2026-05-23T02:47:28.000000Z",
+        "lastSoldPrice": 667000,
+        "lastSoldDate": "2011-09-13",
+        "daysOnMarket": 4
+      },
+      {
+        "id": "9300907060",
+        "town": "Larchmont",
+        "address": "1815 Palmer Ave Apt 2L, Larchmont",
+        "price": 230000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 725,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1815-Palmer-Ave-Apt-2L_Larchmont_NY_10538_M93009-07060",
+        "openHouses": [],
+        "listDate": "2026-05-23T02:02:47.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 4
+      },
+      {
+        "id": "9234597662",
+        "town": "Larchmont",
+        "address": "55 Harrison Dr, Larchmont",
+        "price": 2795000,
+        "beds": 4,
+        "baths": 5,
+        "sqft": 4353,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/55-Harrison-Dr_Larchmont_NY_10538_M92345-97662",
+        "openHouses": [
+          {
+            "start_date": "2026-05-31T13:00:00",
+            "end_date": "2026-05-31T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-05-21T15:47:52.000000Z",
+        "lastSoldPrice": 1869448,
+        "lastSoldDate": "2018-12-21",
+        "daysOnMarket": 5
+      },
+      {
+        "id": "3475357062",
+        "town": "Larchmont",
+        "address": "51 Vine Rd, Larchmont",
+        "price": 1625000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2351,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/51-Vine-Rd_Larchmont_NY_10538_M34753-57062",
+        "openHouses": [
+          {
+            "start_date": "2026-05-30T13:00:00",
+            "end_date": "2026-05-30T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-05-31T12:00:00",
+            "end_date": "2026-05-31T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-05-19T19:07:41.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 7
+      },
+      {
+        "id": "9077448404",
+        "town": "Larchmont",
+        "address": "7 Walnut Ave, Larchmont",
+        "price": 6700000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": 4700,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/7-Walnut-Ave_Larchmont_NY_10538_M90774-48404",
+        "openHouses": [],
+        "listDate": "2026-05-13T18:15:19.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 13
+      },
+      {
+        "id": "4575931222",
+        "town": "Larchmont",
+        "address": "1452 Boston Post Rd Apt 3C, Larchmont",
+        "price": 340000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1036,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1452-Boston-Post-Rd-Apt-3C_Larchmont_NY_10538_M45759-31222",
+        "openHouses": [],
+        "listDate": "2026-05-11T20:17:28.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 15
+      },
+      {
+        "id": "4498605310",
+        "town": "Larchmont",
+        "address": "56 Park Ave, Larchmont",
+        "price": 4350000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": 4288,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/56-Park-Ave_Larchmont_NY_10538_M44986-05310",
+        "openHouses": [],
+        "listDate": "2026-05-10T18:08:42.000000Z",
+        "lastSoldPrice": 2630000,
+        "lastSoldDate": "2018-08-03",
+        "daysOnMarket": 16
+      },
+      {
+        "id": "3318026550",
+        "town": "Larchmont",
+        "address": "30 Kilmer Rd, Larchmont",
+        "price": 1895000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 2825,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/30-Kilmer-Rd_Larchmont_NY_10538_M33180-26550",
+        "openHouses": [],
+        "listDate": "2026-05-07T20:17:35.000000Z",
+        "lastSoldPrice": 1253500,
+        "lastSoldDate": "2014-08-13",
+        "daysOnMarket": 19
+      },
+      {
+        "id": "4062142221",
+        "town": "Larchmont",
+        "address": "199 Hickory Grove Dr E, Larchmont",
+        "price": 2099000,
+        "beds": 5,
+        "baths": 5,
+        "sqft": 3129,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/199-Hickory-Grove-Dr-E_Larchmont_NY_10538_M40621-42221",
+        "openHouses": [],
+        "listDate": "2026-05-07T00:32:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 20
+      },
+      {
+        "id": "4189664777",
+        "town": "Larchmont",
+        "address": "11 Alden Rd Apt 4J, Larchmont",
+        "price": 158000,
+        "beds": null,
+        "baths": 1,
+        "sqft": 477,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-Alden-Rd-Apt-4J_Larchmont_NY_10538_M41896-64777",
+        "openHouses": [],
+        "listDate": "2026-04-27T14:01:48.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 29
+      },
+      {
+        "id": "9042098859",
+        "town": "Larchmont",
+        "address": "14 Seton Rd, Larchmont",
+        "price": 3995000,
+        "beds": 6,
+        "baths": 7,
+        "sqft": 4688,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/14-Seton-Rd_Larchmont_NY_10538_M90420-98859",
+        "openHouses": [],
+        "listDate": "2026-04-27T13:31:51.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 29
+      },
+      {
+        "id": "3257787117",
+        "town": "Larchmont",
+        "address": "78 Hickory Grove Dr W, Larchmont",
+        "price": 1369000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1782,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/78-Hickory-Grove-Dr-W_Larchmont_NY_10538_M32577-87117",
+        "openHouses": [],
+        "listDate": "2026-04-23T20:03:06.000000Z",
+        "lastSoldPrice": 917500,
+        "lastSoldDate": "2019-06-25",
+        "daysOnMarket": 33
+      },
+      {
+        "id": "3088152546",
+        "town": "Larchmont",
+        "address": "56 Hillcrest Ave, Larchmont",
+        "price": 1495000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2212,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/56-Hillcrest-Ave_Larchmont_NY_10538_M30881-52546",
+        "openHouses": [],
+        "listDate": "2026-04-22T19:18:09.000000Z",
+        "lastSoldPrice": 1412000,
+        "lastSoldDate": "2023-06-23",
+        "daysOnMarket": 34
+      },
+      {
+        "id": "3885906839",
+        "town": "Larchmont",
+        "address": "1 Washington Sq Apt 2H, Larchmont",
+        "price": 189000,
+        "beds": null,
+        "baths": 1,
+        "sqft": 750,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1-Washington-Sq-Apt-2H_Larchmont_NY_10538_M38859-06839",
+        "openHouses": [],
+        "listDate": "2026-04-21T23:17:31.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 35
+      },
+      {
+        "id": "3189888570",
+        "town": "Larchmont",
+        "address": "2 Coventry Ct, Larchmont",
+        "price": 4590000,
+        "beds": 7,
+        "baths": 10,
+        "sqft": 10390,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/2-Coventry-Ct_Larchmont_NY_10538_M31898-88570",
+        "openHouses": [],
+        "listDate": "2026-04-21T19:12:24.000000Z",
+        "lastSoldPrice": 2950000,
+        "lastSoldDate": "2016-09-08",
+        "daysOnMarket": 35
+      },
+      {
+        "id": "3645960546",
+        "town": "Larchmont",
+        "address": "35 N Chatsworth Ave Apt 6R, Larchmont",
+        "price": 589000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 870,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/35-N-Chatsworth-Ave-Apt-6R_Larchmont_NY_10538_M36459-60546",
+        "openHouses": [],
+        "listDate": "2026-04-16T21:03:35.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 40
+      },
+      {
+        "id": "4193819822",
+        "town": "Larchmont",
+        "address": "1825 Palmer Ave Apt 2D, Larchmont",
+        "price": 195000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 700,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1825-Palmer-Ave-Apt-2D_Larchmont_NY_10538_M41938-19822",
+        "openHouses": [],
+        "listDate": "2026-04-14T17:17:25.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 42
+      },
+      {
+        "id": "4815521150",
+        "town": "Larchmont",
+        "address": "14 N Chatsworth Ave Apt 6C, Larchmont",
+        "price": 898000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1550,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/14-N-Chatsworth-Ave-Apt-6C_Larchmont_NY_10538_M48155-21150",
+        "openHouses": [],
+        "listDate": "2026-04-10T15:33:22.000000Z",
+        "lastSoldPrice": 75000,
+        "lastSoldDate": "1990-12-17",
+        "daysOnMarket": 46
+      },
+      {
+        "id": "3116258068",
+        "town": "Larchmont",
+        "address": "50 Sherwood Dr, Larchmont",
+        "price": 724000,
+        "beds": 2,
+        "baths": 1,
+        "sqft": 1140,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/50-Sherwood-Dr_Larchmont_NY_10538_M31162-58068",
+        "openHouses": [],
+        "listDate": "2026-04-09T23:03:36.000000Z",
+        "lastSoldPrice": 350000,
+        "lastSoldDate": "2025-05-01",
+        "daysOnMarket": 47
+      },
+      {
+        "id": "4817799480",
+        "town": "Larchmont",
+        "address": "2222 Boston Post Rd, Larchmont",
+        "price": 1299000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1626,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/2222-Boston-Post-Rd_Larchmont_NY_10538_M48177-99480",
+        "openHouses": [],
+        "listDate": "2026-04-09T17:18:59.000000Z",
+        "lastSoldPrice": 650000,
+        "lastSoldDate": "2024-12-19",
+        "daysOnMarket": 47
+      },
+      {
+        "id": "9129930545",
+        "town": "Larchmont",
+        "address": "3 Washington Sq Apt 4D, Larchmont",
+        "price": 339000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 1050,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/3-Washington-Sq-Apt-4D_Larchmont_NY_10538_M91299-30545",
+        "openHouses": [],
+        "listDate": "2026-04-07T22:18:06.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 49
+      },
+      {
+        "id": "3018136658",
+        "town": "Larchmont",
+        "address": "5 Rocky Hollow Dr, Larchmont",
+        "price": 4995000,
+        "beds": 8,
+        "baths": 7,
+        "sqft": 10476,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/5-Rocky-Hollow-Dr_Larchmont_NY_10538_M30181-36658",
+        "openHouses": [],
+        "listDate": "2026-04-06T20:17:55.000000Z",
+        "lastSoldPrice": 4000000,
+        "lastSoldDate": "2013-08-12",
+        "daysOnMarket": 50
+      },
+      {
+        "id": "3184102199",
+        "town": "Larchmont",
+        "address": "769 Forest Ave, Larchmont",
+        "price": 899000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": null,
+        "type": "multi family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/769-Forest-Ave_Larchmont_NY_10538_M31841-02199",
+        "openHouses": [],
+        "listDate": "2026-03-29T14:46:37.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 58
+      },
+      {
+        "id": "3442876904",
+        "town": "Larchmont",
+        "address": "217 Hommocks Rd, Larchmont",
+        "price": 19500000,
+        "beds": 7,
+        "baths": 11,
+        "sqft": 11931,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/217-Hommocks-Rd_Larchmont_NY_10538_M34428-76904",
+        "openHouses": [],
+        "listDate": "2026-03-13T04:49:03.000000Z",
+        "lastSoldPrice": 7215000,
+        "lastSoldDate": "2020-11-04",
+        "daysOnMarket": 74
+      },
+      {
+        "id": "9421009838",
+        "town": "Larchmont",
+        "address": "11 Alden Rd Apt 1M, Larchmont",
+        "price": 278888,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 875,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-Alden-Rd-Apt-1M_Larchmont_NY_10538_M94210-09838",
+        "openHouses": [],
+        "listDate": "2026-01-09T05:48:12.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 137
+      },
+      {
+        "id": "4122022813",
+        "town": "Larchmont",
+        "address": "40 Pinebrook Dr, Larchmont",
+        "price": 1199000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 1654,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/40-Pinebrook-Dr_Larchmont_NY_10538_M41220-22813",
+        "openHouses": [],
+        "listDate": "2025-11-12T05:48:19.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 195
+      },
+      {
+        "id": "4486584155",
+        "town": "Larchmont",
+        "address": "5 Dillon Rd, Larchmont",
+        "price": 1100000,
+        "beds": 7,
+        "baths": 3,
+        "sqft": null,
+        "type": "multi family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/5-Dillon-Rd_Larchmont_NY_10538_M44865-84155",
+        "openHouses": [],
+        "listDate": "2025-08-04T23:03:20.000000Z",
+        "lastSoldPrice": 760000,
+        "lastSoldDate": "2017-09-14",
+        "daysOnMarket": 295
+      },
+      {
+        "id": "9458770643",
+        "town": "Larchmont",
+        "address": "2410 Boston Post Rd, Larchmont",
+        "price": 1099000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": null,
+        "type": "multi family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/2410-Boston-Post-Rd_Larchmont_NY_10538_M94587-70643",
+        "openHouses": [],
+        "listDate": "2025-02-05T03:02:10.000000Z",
+        "lastSoldPrice": 625000,
+        "lastSoldDate": "2021-02-24",
+        "daysOnMarket": 476
+      }
+    ],
     "Mamaroneck": [
       {
         "id": "4577204867",
@@ -6108,7 +6718,7 @@
         "listDate": "2026-04-30T03:33:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "3536173154",
@@ -6210,7 +6820,7 @@
         "listDate": "2026-04-10T23:17:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "4967530185",
@@ -6329,7 +6939,7 @@
         "listDate": "2026-03-14T01:03:42.000000Z",
         "lastSoldPrice": 560000,
         "lastSoldDate": "2007-05-21",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "4525101395",
@@ -6431,7 +7041,7 @@
         "listDate": "2025-11-19T00:15:19.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2024-07-09",
-        "daysOnMarket": 188
+        "daysOnMarket": 189
       },
       {
         "id": "9199642451",
@@ -6569,7 +7179,7 @@
         "listDate": "2026-05-16T00:02:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "3712430393",
@@ -6768,7 +7378,7 @@
         "listDate": "2026-05-05T01:47:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "9054589547",
@@ -6904,7 +7514,7 @@
         "listDate": "2026-04-13T01:33:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "4187840888",
@@ -6955,7 +7565,7 @@
         "listDate": "2026-04-08T00:03:50.000000Z",
         "lastSoldPrice": 245000,
         "lastSoldDate": "1993-12-20",
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "4535874402",
@@ -7040,7 +7650,7 @@
         "listDate": "2026-03-31T02:02:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "4299421997",
@@ -7261,7 +7871,7 @@
         "listDate": "2026-03-01T04:02:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 86
+        "daysOnMarket": 87
       },
       {
         "id": "3815902171",
@@ -7496,7 +8106,7 @@
         "listDate": "2026-05-14T23:33:48.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2016-02-03",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "4823559957",
@@ -7576,7 +8186,7 @@
         "listDate": "2026-05-11T23:47:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "9137316070",
@@ -7760,7 +8370,7 @@
         "listDate": "2026-05-22T00:18:12.000000Z",
         "lastSoldPrice": 531000,
         "lastSoldDate": "2022-05-24",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "9286902558",
@@ -7947,7 +8557,7 @@
         "listDate": "2026-05-09T01:17:05.000000Z",
         "lastSoldPrice": 210000,
         "lastSoldDate": "1999-04-02",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "4986747856",
@@ -8049,7 +8659,7 @@
         "listDate": "2026-05-07T00:32:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3511497842",
@@ -8100,7 +8710,7 @@
         "listDate": "2026-04-29T03:17:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "4064503608",
@@ -8256,23 +8866,6 @@
         "daysOnMarket": 53
       },
       {
-        "id": "9404772422",
-        "town": "Tarrytown",
-        "address": "16 Carriage Trl, Tarrytown",
-        "price": 2500000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
-        "openHouses": [],
-        "listDate": "2026-04-03T14:03:52.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 53
-      },
-      {
         "id": "9001086625",
         "town": "Tarrytown",
         "address": "17 Carriage Trl, Tarrytown",
@@ -8283,6 +8876,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
+        "openHouses": [],
+        "listDate": "2026-04-03T14:03:52.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 53
+      },
+      {
+        "id": "9404772422",
+        "town": "Tarrytown",
+        "address": "16 Carriage Trl, Tarrytown",
+        "price": 2500000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
         "openHouses": [],
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
@@ -8406,7 +9016,7 @@
         "listDate": "2026-03-25T23:17:15.000000Z",
         "lastSoldPrice": 188000,
         "lastSoldDate": "1996-06-06",
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "9702641256",
@@ -8561,7 +9171,7 @@
         "listDate": "2026-05-25T03:47:13.000000Z",
         "lastSoldPrice": 455000,
         "lastSoldDate": "2022-01-25",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "9322462942",
