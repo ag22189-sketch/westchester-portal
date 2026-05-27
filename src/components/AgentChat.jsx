@@ -13,8 +13,10 @@ function renderMarkdown(text) {
     .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
     // Italic
     .replace(/\*(.+?)\*/g, "<em>$1</em>")
-    // Links
-    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener" style="color:#C9A96E;text-decoration:underline;">$1</a>')
+    // Links (markdown syntax)
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener noreferrer" style="color:#C9A96E;text-decoration:underline;">$1</a>')
+    // Bare URLs not already inside an href (catches plain URLs the AI outputs without markdown)
+    .replace(/(?<!href="|">)(https?:\/\/[^\s<"]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer" style="color:#C9A96E;text-decoration:underline;">$1</a>')
     // Line breaks
     .replace(/\n/g, "<br>");
 
