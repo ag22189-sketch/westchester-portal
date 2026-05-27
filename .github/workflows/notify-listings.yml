@@ -21,18 +21,25 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Run notifier
+      - name: Run new-listing notifier
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
         run: node scripts/notify-new-listings.js
 
-      - name: Commit seen-listings.json if changed
+      - name: Run price-drop notifier
+        env:
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
+        run: node scripts/notify-price-drops.js
+
+      - name: Commit data files if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/seen-listings.json data/current-listings.json
-          git diff --cached --quiet || git commit -m "Update seen-listings and current-listings cache [skip ci]"
+          git add data/seen-listings.json data/current-listings.json data/price-snapshot.json
+          git diff --cached --quiet || git commit -m "Update listing data files [skip ci]"
           git pull --rebase origin main
           git push

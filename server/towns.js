@@ -41,6 +41,12 @@ export const TOWN_ZIPS = TOWNS.flatMap((t) =>
 
 export const TOWN_COUNT = TOWNS.length;
 
+// --- Price drop thresholds ---
+// A drop must exceed BOTH of these to trigger an alert.
+// Effective threshold = max(MIN_PCT% of old price, MIN_ABS dollars).
+export const PRICE_DROP_MIN_PCT = 1;     // percent
+export const PRICE_DROP_MIN_ABS = 5000;  // dollars
+
 // --- Email notification whitelist ---
 // Only these mailing cities trigger email alerts (case-insensitive).
 // All 18 towns are still fetched for Chessie's cache and seen-ID tracking.
