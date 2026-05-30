@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-30T10:06:39.161Z",
+  "updatedAt": "2026-05-30T12:07:37.989Z",
   "towns": {
     "Pelham": [
       {
@@ -58,7 +58,7 @@
         "listDate": "2026-05-26T12:03:24.000000Z",
         "lastSoldPrice": 610000,
         "lastSoldDate": "2022-02-28",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4998099631",
@@ -886,7 +886,7 @@
         "listDate": "2026-05-15T11:31:38.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "2009-06-25",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "3798564732",
@@ -1119,7 +1119,7 @@
         "listDate": "2026-05-04T10:46:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "9818717505",
@@ -1170,7 +1170,7 @@
         "listDate": "2026-04-30T11:32:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "9962140427",
@@ -1188,6 +1188,23 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 30
+      },
+      {
+        "id": "9901917138",
+        "town": "Bronxville",
+        "address": "42 Pondfield Rd W Apt 6D, Bronxville",
+        "price": 280000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 754,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/42-Pondfield-Rd-W-Apt-6D_Bronxville_NY_10708_M99019-17138",
+        "openHouses": [],
+        "listDate": "2026-04-28T16:33:05.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 31
       },
       {
         "id": "4504192876",
@@ -1213,23 +1230,6 @@
             ]
           }
         ],
-        "listDate": "2026-04-28T16:33:05.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 31
-      },
-      {
-        "id": "9901917138",
-        "town": "Bronxville",
-        "address": "42 Pondfield Rd W Apt 6D, Bronxville",
-        "price": 280000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 754,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/42-Pondfield-Rd-W-Apt-6D_Bronxville_NY_10708_M99019-17138",
-        "openHouses": [],
         "listDate": "2026-04-28T16:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -1364,7 +1364,7 @@
         "listDate": "2026-04-17T11:01:56.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "1993-07-21",
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "4210296993",
@@ -1610,23 +1610,6 @@
         "daysOnMarket": 3
       },
       {
-        "id": "3106218305",
-        "town": "Scarsdale",
-        "address": "97 Underhill Rd, Scarsdale",
-        "price": 1485000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2600,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/97-Underhill-Rd_Scarsdale_NY_10583_M31062-18305",
-        "openHouses": [],
-        "listDate": "2026-05-26T16:33:31.000000Z",
-        "lastSoldPrice": 351000,
-        "lastSoldDate": "1999-10-13",
-        "daysOnMarket": 3
-      },
-      {
         "id": "3873860494",
         "town": "Scarsdale",
         "address": "20 Revere Rd, Scarsdale",
@@ -1664,6 +1647,23 @@
         "listDate": "2026-05-26T16:33:31.000000Z",
         "lastSoldPrice": 640000,
         "lastSoldDate": "2014-12-01",
+        "daysOnMarket": 3
+      },
+      {
+        "id": "3106218305",
+        "town": "Scarsdale",
+        "address": "97 Underhill Rd, Scarsdale",
+        "price": 1485000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2600,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/97-Underhill-Rd_Scarsdale_NY_10583_M31062-18305",
+        "openHouses": [],
+        "listDate": "2026-05-26T16:33:31.000000Z",
+        "lastSoldPrice": 351000,
+        "lastSoldDate": "1999-10-13",
         "daysOnMarket": 3
       },
       {
@@ -2025,7 +2025,7 @@
         "listDate": "2026-05-14T11:47:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3194778632",
@@ -2350,7 +2350,7 @@
         "listDate": "2026-04-29T12:02:23.000000Z",
         "lastSoldPrice": 665500,
         "lastSoldDate": "2015-07-15",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3128747753",
@@ -2511,7 +2511,7 @@
         "listDate": "2026-05-26T12:03:24.000000Z",
         "lastSoldPrice": 240000,
         "lastSoldDate": "1992-10-05",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3155488956",
@@ -3113,7 +3113,7 @@
         "listDate": "2026-04-27T11:46:33.000000Z",
         "lastSoldPrice": 340000,
         "lastSoldDate": "1999-11-16",
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "4222070496",
@@ -6598,7 +6598,7 @@
         "listDate": "2026-05-29T12:02:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4841388822",
@@ -7381,6 +7381,23 @@
     ],
     "Mamaroneck": [
       {
+        "id": "9077189455",
+        "town": "Mamaroneck",
+        "address": "110 Lawn Ter Unit 2H, Mamaroneck",
+        "price": 395000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1150,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/110-Lawn-Ter-2H_Mamaroneck_NY_10543_M90771-89455",
+        "openHouses": [],
+        "listDate": "2026-05-29T21:04:10.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "9766995277",
         "town": "Mamaroneck",
         "address": "320 Palmer Ter Apt 2B, Mamaroneck",
@@ -7773,7 +7790,7 @@
         "listDate": "2026-04-22T10:16:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4010876176",
@@ -7892,7 +7909,7 @@
         "listDate": "2026-04-07T11:01:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "9434500398",
@@ -8213,7 +8230,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "9283260081",
@@ -8247,7 +8264,7 @@
         "listDate": "2026-05-27T11:32:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4116835326",
@@ -8793,7 +8810,7 @@
         "listDate": "2026-04-01T11:32:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "9596645920",
@@ -8885,7 +8902,7 @@
         "listDate": "2026-03-27T11:46:34.000000Z",
         "lastSoldPrice": 510000,
         "lastSoldDate": "2016-07-19",
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "9892379547",
@@ -9004,7 +9021,7 @@
         "listDate": "2026-03-03T10:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 87
+        "daysOnMarket": 88
       },
       {
         "id": "9313712188",
@@ -10457,7 +10474,7 @@
         "listDate": "2026-05-04T11:46:50.000000Z",
         "lastSoldPrice": 1195000,
         "lastSoldDate": "2020-04-16",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "4298817272",
