@@ -63,7 +63,7 @@ function SidePanel({ town, routes, destinations, onSelectTown }) {
         <div style={s.defaultState}>
           <div style={s.defaultLabel}>Commute Intelligence</div>
           <div style={s.defaultHeadline}>
-            Three anchors. Seventeen towns.
+            Three anchors. Twenty towns.
           </div>
           <div style={s.defaultSub}>
             Hover any pin to see the geography of a family decision.
