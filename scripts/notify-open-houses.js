@@ -262,7 +262,7 @@ function buildDigestEmailHTML(grouped) {
 
     <div style="margin-top:24px;padding-top:16px;border-top:1px solid rgba(201,169,110,0.1);
       font-size:11px;color:rgba(245,239,232,0.3);line-height:1.5;">
-      You're receiving this weekly digest because you're tracking ${TOWN_COUNT} Westchester towns.
+      You're receiving this weekly digest because you're tracking ${TOWN_COUNT} towns.
     </div>
   </div>
 </div>

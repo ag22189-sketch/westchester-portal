@@ -153,7 +153,7 @@ export default function AgentChat() {
                 lineHeight: "1.6",
                 color: "#F5EFE8",
               }}>
-                Hi, I'm <span style={{ color: "#C9A96E", fontWeight: 600 }}>Chessie</span>. I track every listing, open house, and recent sale across your 17 Westchester towns. Ask me anything.
+                Hi, I'm <span style={{ color: "#C9A96E", fontWeight: 600 }}>Chessie</span>. I track every listing, open house, and recent sale across your 20 towns. Ask me anything.
               </div>
             </div>
 

@@ -1,7 +1,7 @@
 const API_KEY = import.meta.env.VITE_RAPIDAPI_KEY;
 const API_HOST = "us-real-estate-listings.p.rapidapi.com";
 
-// Must match server/towns.js canonical list (18 towns)
+// Must match server/towns.js canonical list (20 towns)
 const ZIP_CODES = {
   Pelham: "10803",
   Bronxville: "10708",
@@ -14,11 +14,13 @@ const ZIP_CODES = {
   Hartsdale: "10530",
   Harrison: "10528",
   "Hastings-on-Hudson": "10706",
+  "Ho-Ho-Kus": "07423",
   Irvington: "10533",
   Larchmont: "10538",
   Mamaroneck: "10543",
   "Mount Vernon": "10552",
   Pleasantville: "10570",
+  Ridgewood: "07450",
   Tarrytown: "10591",
   Tuckahoe: "10707",
 };
