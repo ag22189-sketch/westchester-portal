@@ -14,11 +14,13 @@ export const TOWNS = [
   { name: "Hartsdale", zips: ["10530"] },
   { name: "Harrison", zips: ["10528"] },
   { name: "Hastings-on-Hudson", zips: ["10706"] },
+  { name: "Ho-Ho-Kus", zips: ["07423"] },
   { name: "Irvington", zips: ["10533"] },
   { name: "Larchmont", zips: ["10538"] },
   { name: "Mamaroneck", zips: ["10543"] },
   { name: "Mount Vernon", zips: ["10552"] },
   { name: "Pleasantville", zips: ["10570"] },
+  { name: "Ridgewood", zips: ["07450", "07451"] },
   { name: "Tarrytown", zips: ["10591"] },
   { name: "Tuckahoe", zips: ["10707"] },
 ];
@@ -49,11 +51,11 @@ export const PRICE_DROP_MIN_ABS = 5000;  // dollars
 
 // --- Email notification whitelist ---
 // Only these mailing cities trigger email alerts (case-insensitive).
-// All 18 towns are still fetched for Chessie's cache and seen-ID tracking.
-export const NOTIFY_WHITELIST = ["scarsdale", "pelham", "pelham manor", "bronxville", "tuckahoe"];
+// All 20 towns are still fetched for Chessie's cache and seen-ID tracking.
+export const NOTIFY_WHITELIST = ["scarsdale", "pelham", "pelham manor", "bronxville", "tuckahoe", "ho-ho-kus", "ridgewood"];
 
 // Display order for the weekly digest email
-export const DIGEST_TOWN_ORDER = ["Scarsdale", "Pelham", "Pelham Manor", "Bronxville", "Tuckahoe"];
+export const DIGEST_TOWN_ORDER = ["Scarsdale", "Pelham", "Pelham Manor", "Bronxville", "Tuckahoe", "Ho-Ho-Kus", "Ridgewood"];
 
 // ZIPs to fetch for the digest (includes Eastchester for Bronxville P.O.)
 export const DIGEST_FETCH_ZIPS = [
@@ -62,6 +64,9 @@ export const DIGEST_FETCH_ZIPS = [
   { zip: "10708", town: "Bronxville" },
   { zip: "10709", town: "Eastchester" },   // for Bronxville P.O. listings
   { zip: "10707", town: "Tuckahoe" },
+  { zip: "07423", town: "Ho-Ho-Kus" },
+  { zip: "07450", town: "Ridgewood" },
+  { zip: "07451", town: "Ridgewood" },
 ];
 
 // Checks whether a listing should trigger an email notification.
@@ -93,6 +98,8 @@ const WHITELIST_DISPLAY = {
   "pelham manor": "Pelham Manor",
   bronxville: "Bronxville",
   tuckahoe: "Tuckahoe",
+  "ho-ho-kus": "Ho-Ho-Kus",
+  ridgewood: "Ridgewood",
 };
 
 export function getDisplayTown(listing, fetchTown) {
