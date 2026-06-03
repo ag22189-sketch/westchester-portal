@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-03T21:55:31.190Z",
+  "updatedAt": "2026-06-03T23:50:36.798Z",
   "towns": {
     "Pelham": [
       {
@@ -374,6 +374,35 @@
     ],
     "Bronxville": [
       {
+        "id": "3131625454",
+        "town": "Bronxville",
+        "address": "15 Desmond Ave, Bronxville",
+        "price": 739000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1507,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/15-Desmond-Ave_Bronxville_NY_10708_M31316-25454",
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-06-03T20:03:51.000000Z",
+        "lastSoldPrice": 487082,
+        "lastSoldDate": "2018-09-28",
+        "daysOnMarket": 0
+      },
+      {
         "id": "9327275189",
         "town": "Bronxville",
         "address": "824 Palmer Rd Apt 2D, Bronxville",
@@ -509,7 +538,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1468-Midland-Ave-Apt-1A_Bronxville_NY_10708_M35032-35408",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-06T14:00:00",
+            "end_date": "2026-06-06T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-30T02:18:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -530,7 +571,7 @@
         "listDate": "2026-05-29T22:17:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "9928136672",
@@ -945,7 +986,7 @@
         "listDate": "2026-05-14T23:48:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3028158596",
@@ -1152,23 +1193,6 @@
         "daysOnMarket": 35
       },
       {
-        "id": "4504192876",
-        "town": "Bronxville",
-        "address": "41 Summit Ave, Bronxville",
-        "price": 3195000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 3327,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Summit-Ave_Bronxville_NY_10708_M45041-92876",
-        "openHouses": [],
-        "listDate": "2026-04-28T16:33:05.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 36
-      },
-      {
         "id": "9901917138",
         "town": "Bronxville",
         "address": "42 Pondfield Rd W Apt 6D, Bronxville",
@@ -1192,6 +1216,23 @@
             ]
           }
         ],
+        "listDate": "2026-04-28T16:33:05.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 36
+      },
+      {
+        "id": "4504192876",
+        "town": "Bronxville",
+        "address": "41 Summit Ave, Bronxville",
+        "price": 3195000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 3327,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Summit-Ave_Bronxville_NY_10708_M45041-92876",
+        "openHouses": [],
         "listDate": "2026-04-28T16:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -1264,23 +1305,6 @@
         "lastSoldPrice": 611000,
         "lastSoldDate": "2020-11-13",
         "daysOnMarket": 44
-      },
-      {
-        "id": "4959234125",
-        "town": "Bronxville",
-        "address": "821 Bronx River Rd Apt 4D, Bronxville",
-        "price": 170000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 722,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/821-Bronx-River-Rd-Apt-4D_Bronxville_NY_10708_M49592-34125",
-        "openHouses": [],
-        "listDate": "2026-04-20T14:32:20.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 44
       }
     ],
     "Scarsdale": [
@@ -1350,7 +1374,7 @@
         "listDate": "2026-06-02T23:02:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4932037937",
@@ -1681,7 +1705,7 @@
         "listDate": "2026-05-22T23:17:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "4802825572",
@@ -1755,7 +1779,7 @@
         "listDate": "2026-05-20T22:47:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4683392841",
@@ -1772,7 +1796,7 @@
         "listDate": "2026-05-20T22:33:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3087815227",
@@ -2129,7 +2153,7 @@
         "listDate": "2026-04-29T22:22:32.000000Z",
         "lastSoldPrice": 377000,
         "lastSoldDate": "1989-04-07",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4774949944",
@@ -2743,7 +2767,7 @@
         "listDate": "2026-05-23T22:32:36.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2005-08-16",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "9540087096",
@@ -2846,23 +2870,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 27
-      },
-      {
-        "id": "3476095380",
-        "town": "Chappaqua",
-        "address": "14 Annandale Rd, Chappaqua",
-        "price": 2599000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 3523,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/14-Annandale-Rd_Chappaqua_NY_10514_M34760-95380",
-        "openHouses": [],
-        "listDate": "2026-05-05T22:32:55.000000Z",
-        "lastSoldPrice": 1565000,
-        "lastSoldDate": "2006-06-01",
-        "daysOnMarket": 28
       },
       {
         "id": "4473241725",
@@ -2993,7 +3000,7 @@
         "listDate": "2026-04-06T22:03:23.000000Z",
         "lastSoldPrice": 394300,
         "lastSoldDate": "2014-05-01",
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "9821773445",
@@ -3027,7 +3034,7 @@
         "listDate": "2026-03-01T22:17:56.000000Z",
         "lastSoldPrice": 251000,
         "lastSoldDate": "1981-08-01",
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "9134277346",
@@ -3369,7 +3376,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 85
+        "daysOnMarket": 86
       },
       {
         "id": "3987697034",
@@ -3938,7 +3945,7 @@
         "listDate": "2026-01-12T23:16:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 141
+        "daysOnMarket": 142
       }
     ],
     "Hartsdale": [
@@ -4190,7 +4197,7 @@
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "3308108734",
@@ -4600,7 +4607,7 @@
         "listDate": "2026-04-21T22:03:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "3735715309",
@@ -4804,7 +4811,7 @@
         "listDate": "2026-03-12T23:49:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 82
+        "daysOnMarket": 83
       },
       {
         "id": "4833415133",
@@ -4842,6 +4849,23 @@
       }
     ],
     "Harrison": [
+      {
+        "id": "3997826799",
+        "town": "Harrison",
+        "address": "2 Clifford Pl, Harrison",
+        "price": 799000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1917,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/2-Clifford-Pl_Harrison_NY_10528_M39978-26799",
+        "openHouses": [],
+        "listDate": "2026-06-03T19:38:00.000000Z",
+        "lastSoldPrice": 100000,
+        "lastSoldDate": "1990-01-23",
+        "daysOnMarket": 0
+      },
       {
         "id": "3730497374",
         "town": "Harrison",
@@ -5152,7 +5176,7 @@
         "listDate": "2026-03-19T22:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 75
+        "daysOnMarket": 76
       },
       {
         "id": "3764777270",
@@ -5224,6 +5248,23 @@
       }
     ],
     "Hastings-on-Hudson": [
+      {
+        "id": "4408153072",
+        "town": "Hastings-on-Hudson",
+        "address": "251 Mount Hope Blvd, Hastings On Hudson",
+        "price": 1675000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": 2535,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/251-Mount-Hope-Blvd_Hastings-on-Hudson_NY_10706_M44081-53072",
+        "openHouses": [],
+        "listDate": "2026-06-03T19:38:00.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "9018050777",
         "town": "Hastings-on-Hudson",
@@ -5361,23 +5402,6 @@
         "daysOnMarket": 28
       },
       {
-        "id": "3160221150",
-        "town": "Hastings-on-Hudson",
-        "address": "30 Minturn St, Hastings On Hudson",
-        "price": 1800000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 2966,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/30-Minturn-St_Hastings-on-Hudson_NY_10706_M31602-21150",
-        "openHouses": [],
-        "listDate": "2026-05-04T15:02:22.000000Z",
-        "lastSoldPrice": 1170000,
-        "lastSoldDate": "2006-08-18",
-        "daysOnMarket": 30
-      },
-      {
         "id": "4536005795",
         "town": "Hastings-on-Hudson",
         "address": "59 Clarewood Dr, Hastings On Hudson",
@@ -5456,7 +5480,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/38-Branford-Rd_Hastings-on-Hudson_NY_10706_M44135-19367",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-14T13:00:00",
+            "end_date": "2026-06-14T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-04-27T19:03:54.000000Z",
         "lastSoldPrice": 310000,
         "lastSoldDate": "1994-06-03",
@@ -5567,6 +5603,35 @@
     ],
     "Ho-Ho-Kus": [
       {
+        "id": "6840092890",
+        "town": "Ho-Ho-Kus",
+        "address": "109 Blauvelt Ave, Ho Ho Kus",
+        "price": 1899000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/109-Blauvelt-Ave_Ho-Ho-Kus_NJ_07423_M68400-92890",
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-06-02T17:41:49.000000Z",
+        "lastSoldPrice": 1175000,
+        "lastSoldDate": "2019-10-03",
+        "daysOnMarket": 1
+      },
+      {
         "id": "5418253042",
         "town": "Ho-Ho-Kus",
         "address": "402 Enos Pl, Ho Ho Kus",
@@ -5604,35 +5669,6 @@
         "listDate": "2026-06-02T17:41:49.000000Z",
         "lastSoldPrice": 225000,
         "lastSoldDate": "1988-05-11",
-        "daysOnMarket": 1
-      },
-      {
-        "id": "6840092890",
-        "town": "Ho-Ho-Kus",
-        "address": "109 Blauvelt Ave, Ho Ho Kus",
-        "price": 1899000,
-        "beds": 5,
-        "baths": 6,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/109-Blauvelt-Ave_Ho-Ho-Kus_NJ_07423_M68400-92890",
-        "openHouses": [
-          {
-            "start_date": "2026-06-07T13:00:00",
-            "end_date": "2026-06-07T16:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-06-02T17:41:49.000000Z",
-        "lastSoldPrice": 1175000,
-        "lastSoldDate": "2019-10-03",
         "daysOnMarket": 1
       },
       {
@@ -5966,7 +6002,7 @@
         "listDate": "2026-05-08T23:47:15.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2004-05-18",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3878157114",
@@ -6446,7 +6482,7 @@
         "listDate": "2026-05-29T22:03:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "4826050998",
@@ -6509,7 +6545,7 @@
         "listDate": "2026-05-27T23:47:19.000000Z",
         "lastSoldPrice": 1800999,
         "lastSoldDate": "2022-06-02",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3291959986",
@@ -6832,7 +6868,7 @@
         "listDate": "2026-04-21T23:17:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "3189888570",
@@ -6900,7 +6936,7 @@
         "listDate": "2026-04-09T23:03:36.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "2025-05-01",
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "4817799480",
@@ -6934,7 +6970,7 @@
         "listDate": "2026-04-07T22:18:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "3018136658",
@@ -7036,7 +7072,7 @@
         "listDate": "2025-08-04T23:03:20.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2017-09-14",
-        "daysOnMarket": 302
+        "daysOnMarket": 303
       },
       {
         "id": "9458770643",
@@ -7483,7 +7519,7 @@
         "listDate": "2026-04-10T23:17:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "4967530185",
@@ -7699,7 +7735,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 137
+        "daysOnMarket": 138
       },
       {
         "id": "3635223583",
@@ -8093,7 +8129,7 @@
         "listDate": "2026-05-12T22:17:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4730709674",
@@ -8178,7 +8214,7 @@
         "listDate": "2026-05-05T22:03:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3319353603",
@@ -8569,7 +8605,7 @@
         "listDate": "2026-03-10T22:47:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "4156462964",
@@ -8758,7 +8794,7 @@
         "listDate": "2026-05-14T23:33:48.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2016-02-03",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "4823559957",
@@ -8826,7 +8862,7 @@
         "listDate": "2026-05-11T23:47:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "4825795914",
@@ -8860,7 +8896,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4136209764",
@@ -8877,7 +8913,7 @@
         "listDate": "2026-04-14T22:32:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "4351735980",
@@ -9000,7 +9036,7 @@
         "listDate": "2026-06-01T23:17:50.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2003-05-29",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4730775281",
@@ -9282,23 +9318,6 @@
         "daysOnMarket": 23
       },
       {
-        "id": "3538849971",
-        "town": "Tarrytown",
-        "address": "30 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/30-Andrews-Ln_Sleepy-Hollow_NY_10591_M35388-49971",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": 625000,
-        "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 23
-      },
-      {
         "id": "9838699766",
         "town": "Tarrytown",
         "address": "36 Andrews Ln, Sleepy Hollow",
@@ -9313,6 +9332,23 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 23
+      },
+      {
+        "id": "3538849971",
+        "town": "Tarrytown",
+        "address": "30 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/30-Andrews-Ln_Sleepy-Hollow_NY_10591_M35388-49971",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": 625000,
+        "lastSoldDate": "2020-06-05",
         "daysOnMarket": 23
       },
       {
@@ -9364,7 +9400,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "9021063983",
@@ -9432,7 +9468,7 @@
         "listDate": "2026-04-29T22:07:21.000000Z",
         "lastSoldPrice": 805000,
         "lastSoldDate": "2022-05-12",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "9640234186",
@@ -9617,23 +9653,6 @@
         "daysOnMarket": 61
       },
       {
-        "id": "9001086625",
-        "town": "Tarrytown",
-        "address": "17 Carriage Trl, Tarrytown",
-        "price": 2500000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
-        "openHouses": [],
-        "listDate": "2026-04-03T14:03:52.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 61
-      },
-      {
         "id": "9404772422",
         "town": "Tarrytown",
         "address": "16 Carriage Trl, Tarrytown",
@@ -9644,6 +9663,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
+        "openHouses": [],
+        "listDate": "2026-04-03T14:03:52.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 61
+      },
+      {
+        "id": "9001086625",
+        "town": "Tarrytown",
+        "address": "17 Carriage Trl, Tarrytown",
+        "price": 2500000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
         "openHouses": [],
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
@@ -9716,7 +9752,7 @@
         "listDate": "2026-03-30T22:07:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "4387507986",
@@ -9900,7 +9936,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3594803854",
@@ -10155,7 +10191,7 @@
         "listDate": "2025-07-22T23:04:27.000000Z",
         "lastSoldPrice": 415000,
         "lastSoldDate": "2005-06-10",
-        "daysOnMarket": 315
+        "daysOnMarket": 316
       }
     ]
   }
