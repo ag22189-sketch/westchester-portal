@@ -52,18 +52,13 @@ export const PRICE_DROP_MIN_ABS = 5000;  // dollars
 // --- Email notification whitelist ---
 // Only these mailing cities trigger email alerts (case-insensitive).
 // All 20 towns are still fetched for Chessie's cache and seen-ID tracking.
-export const NOTIFY_WHITELIST = ["scarsdale", "pelham", "pelham manor", "bronxville", "tuckahoe", "ho-ho-kus", "ridgewood"];
+export const NOTIFY_WHITELIST = ["ho-ho-kus", "ridgewood"];
 
 // Display order for the weekly digest email
-export const DIGEST_TOWN_ORDER = ["Scarsdale", "Pelham", "Pelham Manor", "Bronxville", "Tuckahoe", "Ho-Ho-Kus", "Ridgewood"];
+export const DIGEST_TOWN_ORDER = ["Ho-Ho-Kus", "Ridgewood"];
 
-// ZIPs to fetch for the digest (includes Eastchester for Bronxville P.O.)
+// ZIPs to fetch for the digest
 export const DIGEST_FETCH_ZIPS = [
-  { zip: "10583", town: "Scarsdale" },
-  { zip: "10803", town: "Pelham" },       // also covers Pelham Manor
-  { zip: "10708", town: "Bronxville" },
-  { zip: "10709", town: "Eastchester" },   // for Bronxville P.O. listings
-  { zip: "10707", town: "Tuckahoe" },
   { zip: "07423", town: "Ho-Ho-Kus" },
   { zip: "07450", town: "Ridgewood" },
   { zip: "07451", town: "Ridgewood" },
@@ -93,11 +88,6 @@ export function shouldNotifyEmail(listing, fetchTown) {
 
 // For the digest: maps a listing to its display town name, or null if not whitelisted.
 const WHITELIST_DISPLAY = {
-  scarsdale: "Scarsdale",
-  pelham: "Pelham",
-  "pelham manor": "Pelham Manor",
-  bronxville: "Bronxville",
-  tuckahoe: "Tuckahoe",
   "ho-ho-kus": "Ho-Ho-Kus",
   ridgewood: "Ridgewood",
 };
