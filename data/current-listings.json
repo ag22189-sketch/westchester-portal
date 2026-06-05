@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T04:23:24.821Z",
+  "updatedAt": "2026-06-05T08:48:23.834Z",
   "towns": {
     "Pelham": [
       {
@@ -415,7 +415,7 @@
         "listDate": "2026-02-25T05:33:44.000000Z",
         "lastSoldPrice": 570000,
         "lastSoldDate": "2004-08-18",
-        "daysOnMarket": 99
+        "daysOnMarket": 100
       },
       {
         "id": "3951783764",
@@ -453,6 +453,23 @@
       }
     ],
     "Bronxville": [
+      {
+        "id": "4504577307",
+        "town": "Bronxville",
+        "address": "193 Parkview Ave, Bronxville",
+        "price": 679000,
+        "beds": 3,
+        "baths": 1,
+        "sqft": 1588,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/193-Parkview-Ave_Bronxville_NY_10708_M45045-77307",
+        "openHouses": [],
+        "listDate": "2026-06-05T05:01:45.000000Z",
+        "lastSoldPrice": 56000,
+        "lastSoldDate": "1977-07-29",
+        "daysOnMarket": 0
+      },
       {
         "id": "4724847184",
         "town": "Bronxville",
@@ -987,7 +1004,7 @@
         "listDate": "2026-05-21T04:46:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4583941840",
@@ -1342,35 +1359,6 @@
         "daysOnMarket": 36
       },
       {
-        "id": "4504192876",
-        "town": "Bronxville",
-        "address": "41 Summit Ave, Bronxville",
-        "price": 3195000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 3327,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Summit-Ave_Bronxville_NY_10708_M45041-92876",
-        "openHouses": [
-          {
-            "start_date": "2026-06-07T12:00:00",
-            "end_date": "2026-06-07T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-04-28T16:33:05.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 37
-      },
-      {
         "id": "9901917138",
         "town": "Bronxville",
         "address": "42 Pondfield Rd W Apt 6D, Bronxville",
@@ -1400,6 +1388,35 @@
         "daysOnMarket": 37
       },
       {
+        "id": "4504192876",
+        "town": "Bronxville",
+        "address": "41 Summit Ave, Bronxville",
+        "price": 3195000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 3327,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Summit-Ave_Bronxville_NY_10708_M45041-92876",
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T12:00:00",
+            "end_date": "2026-06-07T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-04-28T16:33:05.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 37
+      },
+      {
         "id": "3889064907",
         "town": "Bronxville",
         "address": "1133 Midland Ave Apt 1C, Bronxville",
@@ -1415,23 +1432,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 38
-      },
-      {
-        "id": "3743086138",
-        "town": "Bronxville",
-        "address": "840 Bronx River Rd Apt 5B, Bronxville",
-        "price": 260000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 800,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/840-Bronx-River-Rd-Apt-5B_Bronxville_NY_10708_M37430-86138",
-        "openHouses": [],
-        "listDate": "2026-04-23T15:04:02.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 42
       }
     ],
     "Scarsdale": [
@@ -2619,7 +2619,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "3166924525",
@@ -2848,7 +2848,7 @@
         "listDate": "2026-02-06T05:47:54.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2024-11-14",
-        "daysOnMarket": 118
+        "daysOnMarket": 119
       },
       {
         "id": "4195966666",
@@ -3073,7 +3073,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3216529347",
@@ -3456,7 +3456,7 @@
         "listDate": "2026-05-16T06:33:31.000000Z",
         "lastSoldPrice": 266000,
         "lastSoldDate": "1991-07-02",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3900632849",
@@ -3672,7 +3672,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "9163017386",
@@ -3873,7 +3873,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4536519295",
@@ -4237,7 +4237,7 @@
         "listDate": "2026-03-16T04:48:12.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "2006-07-10",
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "3757965276",
@@ -4483,23 +4483,6 @@
         "daysOnMarket": 3
       },
       {
-        "id": "4961976824",
-        "town": "Hartsdale",
-        "address": "21 Fieldstone Dr Apt 198, Hartsdale",
-        "price": 259000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 850,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/21-Fieldstone-Dr-Apt-198_Hartsdale_NY_10530_M49619-76824",
-        "openHouses": [],
-        "listDate": "2026-06-01T19:44:14.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 3
-      },
-      {
         "id": "3231883558",
         "town": "Hartsdale",
         "address": "86 Caterson Ter, Hartsdale",
@@ -4527,6 +4510,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/91-Columbia-Ave_Hartsdale_NY_10530_M38686-63042",
+        "openHouses": [],
+        "listDate": "2026-06-01T19:44:14.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 3
+      },
+      {
+        "id": "4961976824",
+        "town": "Hartsdale",
+        "address": "21 Fieldstone Dr Apt 198, Hartsdale",
+        "price": 259000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 850,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/21-Fieldstone-Dr-Apt-198_Hartsdale_NY_10530_M49619-76824",
         "openHouses": [],
         "listDate": "2026-06-01T19:44:14.000000Z",
         "lastSoldPrice": null,
@@ -4999,7 +4999,7 @@
         "listDate": "2026-04-30T06:17:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "3449953061",
@@ -5288,7 +5288,7 @@
         "listDate": "2026-03-19T04:32:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "9059896685",
@@ -5900,7 +5900,7 @@
         "listDate": "2026-05-06T08:47:03.000000Z",
         "lastSoldPrice": 260000,
         "lastSoldDate": "1993-08-09",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "4536005795",
@@ -6077,7 +6077,7 @@
         "listDate": "2026-02-10T05:32:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 114
+        "daysOnMarket": 115
       },
       {
         "id": "4474076064",
@@ -6641,7 +6641,7 @@
         "listDate": "2026-04-24T05:36:14.000000Z",
         "lastSoldPrice": 964000,
         "lastSoldDate": "2015-10-05",
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "3346674613",
@@ -6675,7 +6675,7 @@
         "listDate": "2026-04-16T05:35:39.000000Z",
         "lastSoldPrice": 961250,
         "lastSoldDate": "2010-08-11",
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "3340972924",
@@ -6726,7 +6726,7 @@
         "listDate": "2026-04-10T06:02:46.000000Z",
         "lastSoldPrice": 252000,
         "lastSoldDate": "1993-05-24",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "4657127079",
@@ -6743,7 +6743,7 @@
         "listDate": "2026-04-06T05:34:33.000000Z",
         "lastSoldPrice": 1065000,
         "lastSoldDate": "2010-07-23",
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "3372388114",
@@ -6794,7 +6794,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "3181611801",
@@ -6925,7 +6925,7 @@
         "listDate": "2026-02-23T05:33:04.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2019-06-05",
-        "daysOnMarket": 101
+        "daysOnMarket": 102
       },
       {
         "id": "4283285844",
@@ -6942,7 +6942,7 @@
         "listDate": "2026-02-17T06:34:37.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2016-08-19",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "3170991008",
@@ -6959,7 +6959,7 @@
         "listDate": "2026-02-14T05:35:21.000000Z",
         "lastSoldPrice": 895000,
         "lastSoldDate": "2016-07-29",
-        "daysOnMarket": 110
+        "daysOnMarket": 111
       },
       {
         "id": "9852357213",
@@ -6976,7 +6976,7 @@
         "listDate": "2025-11-17T05:32:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 199
+        "daysOnMarket": 200
       }
     ],
     "Larchmont": [
@@ -7205,23 +7205,6 @@
         "daysOnMarket": 8
       },
       {
-        "id": "4147566430",
-        "town": "Larchmont",
-        "address": "1 Kenmare Rd, Larchmont",
-        "price": 1849000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 2143,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1-Kenmare-Rd_Larchmont_NY_10538_M41475-66430",
-        "openHouses": [],
-        "listDate": "2026-05-27T18:15:15.000000Z",
-        "lastSoldPrice": 1237500,
-        "lastSoldDate": "2019-05-09",
-        "daysOnMarket": 8
-      },
-      {
         "id": "3047017947",
         "town": "Larchmont",
         "address": "12 Parkway St, Larchmont",
@@ -7236,6 +7219,23 @@
         "listDate": "2026-05-27T18:15:15.000000Z",
         "lastSoldPrice": 293000,
         "lastSoldDate": "1993-11-22",
+        "daysOnMarket": 8
+      },
+      {
+        "id": "4147566430",
+        "town": "Larchmont",
+        "address": "1 Kenmare Rd, Larchmont",
+        "price": 1849000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 2143,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1-Kenmare-Rd_Larchmont_NY_10538_M41475-66430",
+        "openHouses": [],
+        "listDate": "2026-05-27T18:15:15.000000Z",
+        "lastSoldPrice": 1237500,
+        "lastSoldDate": "2019-05-09",
         "daysOnMarket": 8
       },
       {
@@ -7627,7 +7627,7 @@
         "listDate": "2026-03-13T04:49:03.000000Z",
         "lastSoldPrice": 7215000,
         "lastSoldDate": "2020-11-04",
-        "daysOnMarket": 83
+        "daysOnMarket": 84
       },
       {
         "id": "9421009838",
@@ -7644,7 +7644,7 @@
         "listDate": "2026-01-09T05:48:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 146
+        "daysOnMarket": 147
       },
       {
         "id": "4122022813",
@@ -7661,7 +7661,7 @@
         "listDate": "2025-11-12T05:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 204
+        "daysOnMarket": 205
       },
       {
         "id": "4486584155",
@@ -8161,7 +8161,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "9346121326",
@@ -8326,7 +8326,7 @@
         "listDate": "2026-03-11T04:48:44.000000Z",
         "lastSoldPrice": 366000,
         "lastSoldDate": "2000-10-23",
-        "daysOnMarket": 85
+        "daysOnMarket": 86
       },
       {
         "id": "9583250200",
@@ -8360,7 +8360,7 @@
         "listDate": "2026-02-10T05:32:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 114
+        "daysOnMarket": 115
       },
       {
         "id": "9221727094",
@@ -8573,7 +8573,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4001795362",
@@ -9311,7 +9311,7 @@
         "listDate": "2026-03-06T05:34:46.000000Z",
         "lastSoldPrice": 535000,
         "lastSoldDate": "2015-09-02",
-        "daysOnMarket": 90
+        "daysOnMarket": 91
       },
       {
         "id": "3946140862",
@@ -9602,7 +9602,7 @@
         "listDate": "2026-02-23T06:31:36.000000Z",
         "lastSoldPrice": 345000,
         "lastSoldDate": "2020-11-10",
-        "daysOnMarket": 101
+        "daysOnMarket": 102
       },
       {
         "id": "4957572658",
@@ -10084,7 +10084,7 @@
         "listDate": "2026-05-09T06:02:24.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "4331497305",
@@ -10300,7 +10300,7 @@
         "listDate": "2026-04-20T06:02:14.000000Z",
         "lastSoldPrice": 1484500,
         "lastSoldDate": "2017-06-16",
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "9486639969",
@@ -10504,7 +10504,7 @@
         "listDate": "2026-03-26T04:49:22.000000Z",
         "lastSoldPrice": 1281095,
         "lastSoldDate": "2020-03-09",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "9702641256",
@@ -10567,7 +10567,7 @@
         "listDate": "2026-03-24T05:36:03.000000Z",
         "lastSoldPrice": 1120000,
         "lastSoldDate": "2018-06-01",
-        "daysOnMarket": 72
+        "daysOnMarket": 73
       }
     ],
     "Tuckahoe": [
@@ -10632,7 +10632,7 @@
         "listDate": "2026-05-19T04:31:27.000000Z",
         "lastSoldPrice": 570000,
         "lastSoldDate": "2006-03-24",
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "4558809218",
@@ -10831,7 +10831,7 @@
         "listDate": "2026-02-27T05:49:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 97
+        "daysOnMarket": 98
       },
       {
         "id": "4653182514",
