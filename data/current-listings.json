@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T07:49:50.465Z",
+  "updatedAt": "2026-06-06T10:12:17.684Z",
   "towns": {
     "Pelham": [
       {
@@ -211,7 +211,7 @@
         "listDate": "2026-05-26T10:02:17.000000Z",
         "lastSoldPrice": 590000,
         "lastSoldDate": "2007-05-30",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "9276673757",
@@ -2792,7 +2792,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3170759769",
@@ -4007,7 +4007,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4536519295",
@@ -4658,6 +4658,23 @@
         "daysOnMarket": 4
       },
       {
+        "id": "3868663042",
+        "town": "Hartsdale",
+        "address": "91 Columbia Ave, Hartsdale",
+        "price": 599000,
+        "beds": 6,
+        "baths": 2,
+        "sqft": 1904,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/91-Columbia-Ave_Hartsdale_NY_10530_M38686-63042",
+        "openHouses": [],
+        "listDate": "2026-06-01T19:44:14.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 4
+      },
+      {
         "id": "4961976824",
         "town": "Hartsdale",
         "address": "21 Fieldstone Dr Apt 198, Hartsdale",
@@ -4689,23 +4706,6 @@
         "listDate": "2026-06-01T19:44:14.000000Z",
         "lastSoldPrice": 850000,
         "lastSoldDate": "2021-11-15",
-        "daysOnMarket": 4
-      },
-      {
-        "id": "3868663042",
-        "town": "Hartsdale",
-        "address": "91 Columbia Ave, Hartsdale",
-        "price": 599000,
-        "beds": 6,
-        "baths": 2,
-        "sqft": 1904,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/91-Columbia-Ave_Hartsdale_NY_10530_M38686-63042",
-        "openHouses": [],
-        "listDate": "2026-06-01T19:44:14.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
         "daysOnMarket": 4
       },
       {
@@ -4890,19 +4890,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/4-Brookdell-Dr_Hartsdale_NY_10530_M33317-08226",
-        "openHouses": [
-          {
-            "start_date": "2026-06-07T12:00:00",
-            "end_date": "2026-06-07T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-05-22T16:34:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -5149,8 +5137,8 @@
         "link": "https://www.realtor.com/realestateandhomes-detail/68-E-Hartsdale-Ave-Apt-5F_Hartsdale_NY_10530_M35715-58647",
         "openHouses": [
           {
-            "start_date": "2026-06-06T11:00:00",
-            "end_date": "2026-06-06T13:00:00",
+            "start_date": "2026-06-06T12:00:00",
+            "end_date": "2026-06-06T13:30:00",
             "description": "By appointment. Please contact listing agent.",
             "time_zone": "EST",
             "dst": true,
@@ -6075,7 +6063,7 @@
         "listDate": "2026-05-06T08:47:03.000000Z",
         "lastSoldPrice": 260000,
         "lastSoldDate": "1993-08-09",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "4536005795",
@@ -6320,6 +6308,35 @@
         "daysOnMarket": 1
       },
       {
+        "id": "6840092890",
+        "town": "Ho-Ho-Kus",
+        "address": "109 Blauvelt Ave, Ho Ho Kus",
+        "price": 1899000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/109-Blauvelt-Ave_Ho-Ho-Kus_NJ_07423_M68400-92890",
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-06-02T17:41:49.000000Z",
+        "lastSoldPrice": 1175000,
+        "lastSoldDate": "2019-10-03",
+        "daysOnMarket": 3
+      },
+      {
         "id": "5418253042",
         "town": "Ho-Ho-Kus",
         "address": "402 Enos Pl, Ho Ho Kus",
@@ -6357,35 +6374,6 @@
         "listDate": "2026-06-02T17:41:49.000000Z",
         "lastSoldPrice": 225000,
         "lastSoldDate": "1988-05-11",
-        "daysOnMarket": 3
-      },
-      {
-        "id": "6840092890",
-        "town": "Ho-Ho-Kus",
-        "address": "109 Blauvelt Ave, Ho Ho Kus",
-        "price": 1899000,
-        "beds": 5,
-        "baths": 6,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/109-Blauvelt-Ave_Ho-Ho-Kus_NJ_07423_M68400-92890",
-        "openHouses": [
-          {
-            "start_date": "2026-06-07T13:00:00",
-            "end_date": "2026-06-07T16:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-06-02T17:41:49.000000Z",
-        "lastSoldPrice": 1175000,
-        "lastSoldDate": "2019-10-03",
         "daysOnMarket": 3
       },
       {
@@ -8728,7 +8716,7 @@
         "listDate": "2026-06-04T10:01:59.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4563047172",
@@ -8825,7 +8813,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "4001795362",
@@ -10271,23 +10259,6 @@
         "daysOnMarket": 25
       },
       {
-        "id": "9838699766",
-        "town": "Tarrytown",
-        "address": "36 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 25
-      },
-      {
         "id": "3538849971",
         "town": "Tarrytown",
         "address": "30 Andrews Ln, Sleepy Hollow",
@@ -10302,6 +10273,23 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2020-06-05",
+        "daysOnMarket": 25
+      },
+      {
+        "id": "9838699766",
+        "town": "Tarrytown",
+        "address": "36 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 25
       },
       {
