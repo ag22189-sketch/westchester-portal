@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-07T22:12:04.288Z",
+  "updatedAt": "2026-06-08T00:16:54.050Z",
   "towns": {
     "Pelham": [
       {
@@ -302,7 +302,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/31-1st-St_Pelham_NY_10803_M42924-75827",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T14:00:00",
+            "end_date": "2026-06-07T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-04-08T13:32:50.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2017-06-06",
@@ -529,7 +541,7 @@
         "listDate": "2026-06-03T22:32:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3131625454",
@@ -682,7 +694,7 @@
         "listDate": "2026-05-29T22:17:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "9928136672",
@@ -1229,16 +1241,16 @@
         "daysOnMarket": 39
       },
       {
-        "id": "4504192876",
+        "id": "9901917138",
         "town": "Bronxville",
-        "address": "41 Summit Ave, Bronxville",
-        "price": 3195000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 3327,
-        "type": "single family",
+        "address": "42 Pondfield Rd W Apt 6D, Bronxville",
+        "price": 280000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 754,
+        "type": "coop",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Summit-Ave_Bronxville_NY_10708_M45041-92876",
+        "link": "https://www.realtor.com/realestateandhomes-detail/42-Pondfield-Rd-W-Apt-6D_Bronxville_NY_10708_M99019-17138",
         "openHouses": [],
         "listDate": "2026-04-28T16:33:05.000000Z",
         "lastSoldPrice": null,
@@ -1262,7 +1274,7 @@
         "listDate": "2026-06-06T23:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4656434800",
@@ -1415,7 +1427,7 @@
         "listDate": "2026-06-02T23:02:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "4932037937",
@@ -1670,7 +1682,7 @@
         "listDate": "2026-05-22T23:17:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "4638675729",
@@ -1738,7 +1750,7 @@
         "listDate": "2026-05-20T22:47:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "4683392841",
@@ -1755,7 +1767,7 @@
         "listDate": "2026-05-20T22:33:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3087815227",
@@ -2095,7 +2107,7 @@
         "listDate": "2026-04-29T22:22:32.000000Z",
         "lastSoldPrice": 377000,
         "lastSoldDate": "1989-04-07",
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       }
     ],
     "Ardsley": [
@@ -2520,7 +2532,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/484-Bedford-Rd_Bedford-Hills_NY_10507_M42696-58585",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-02-06T05:47:54.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2024-11-14",
@@ -2541,7 +2565,7 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 263
+        "daysOnMarket": 264
       }
     ],
     "Chappaqua": [
@@ -2686,7 +2710,7 @@
         "listDate": "2026-05-23T22:32:36.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2005-08-16",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "9540087096",
@@ -2907,7 +2931,7 @@
         "listDate": "2026-03-01T22:17:56.000000Z",
         "lastSoldPrice": 251000,
         "lastSoldDate": "1981-08-01",
-        "daysOnMarket": 97
+        "daysOnMarket": 98
       },
       {
         "id": "9134277346",
@@ -2941,7 +2965,7 @@
         "listDate": "2025-11-10T00:10:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 209
+        "daysOnMarket": 210
       },
       {
         "id": "3500078903",
@@ -3266,7 +3290,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 89
+        "daysOnMarket": 90
       },
       {
         "id": "3987697034",
@@ -3829,7 +3853,7 @@
         "listDate": "2026-01-12T23:16:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 145
+        "daysOnMarket": 146
       }
     ],
     "Hartsdale": [
@@ -3895,7 +3919,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/14-Caterson-Ter_Hartsdale_NY_10530_M41713-91443",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-04T13:48:31.000000Z",
         "lastSoldPrice": 570000,
         "lastSoldDate": "2015-12-04",
@@ -3912,11 +3948,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/168-W-Hartsdale-Ave_Hartsdale_NY_10530_M44727-34523",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T14:30:00",
+            "end_date": "2026-06-07T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-03T23:32:13.000000Z",
         "lastSoldPrice": 172000,
         "lastSoldDate": "1993-04-05",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4103008439",
@@ -3929,7 +3977,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/16-Old-Farm-Ln_Hartsdale_NY_10530_M41030-08439",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T12:00:00",
+            "end_date": "2026-06-07T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-03T20:03:51.000000Z",
         "lastSoldPrice": 902500,
         "lastSoldDate": "2019-07-01",
@@ -3946,7 +4006,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/68-E-Hartsdale-Ave-Apt-2L_Hartsdale_NY_10530_M46013-10215",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-02T16:48:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -4150,11 +4222,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/39-Hillcrest-Rd_Hartsdale_NY_10530_M44327-11574",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3308108734",
@@ -4167,7 +4251,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/3-Shaw-Ln_Hartsdale_NY_10530_M33081-08734",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T12:00:00",
+            "end_date": "2026-06-07T13:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-23T14:47:54.000000Z",
         "lastSoldPrice": 580000,
         "lastSoldDate": "2006-01-23",
@@ -4252,7 +4348,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/2-Burkewood-Rd_Hartsdale_NY_10530_M41288-44406",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-19T21:02:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -4405,7 +4513,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/68-E-Hartsdale-Ave-Apt-5F_Hartsdale_NY_10530_M35715-58647",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T14:00:00",
+            "end_date": "2026-06-07T15:30:00",
+            "description": "By appointment. Please contact listing agent.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-04-30T06:17:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -4664,7 +4784,7 @@
         "listDate": "2026-03-26T00:03:48.000000Z",
         "lastSoldPrice": 480000,
         "lastSoldDate": "2010-03-24",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "9467638247",
@@ -4989,7 +5109,7 @@
         "listDate": "2026-03-19T22:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 79
+        "daysOnMarket": 80
       },
       {
         "id": "3764777270",
@@ -5431,28 +5551,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/601-Ackerman-Ave_Ho-Ho-Kus_NJ_07423_M51101-60974",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-04T23:12:11.000000Z",
         "lastSoldPrice": 840000,
         "lastSoldDate": "2018-05-04",
-        "daysOnMarket": 2
-      },
-      {
-        "id": "5418253042",
-        "town": "Ho-Ho-Kus",
-        "address": "402 Enos Pl, Ho Ho Kus",
-        "price": 1199999,
-        "beds": 4,
-        "baths": 3,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/402-Enos-Pl_Ho-Ho-Kus_NJ_07423_M54182-53042",
-        "openHouses": [],
-        "listDate": "2026-06-02T17:41:49.000000Z",
-        "lastSoldPrice": 225000,
-        "lastSoldDate": "1988-05-11",
-        "daysOnMarket": 5
+        "daysOnMarket": 3
       },
       {
         "id": "6840092890",
@@ -5465,10 +5580,51 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/109-Blauvelt-Ave_Ho-Ho-Kus_NJ_07423_M68400-92890",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-02T17:41:49.000000Z",
         "lastSoldPrice": 1175000,
         "lastSoldDate": "2019-10-03",
+        "daysOnMarket": 5
+      },
+      {
+        "id": "5418253042",
+        "town": "Ho-Ho-Kus",
+        "address": "402 Enos Pl, Ho Ho Kus",
+        "price": 1199999,
+        "beds": 4,
+        "baths": 3,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/402-Enos-Pl_Ho-Ho-Kus_NJ_07423_M54182-53042",
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T12:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-06-02T17:41:49.000000Z",
+        "lastSoldPrice": 225000,
+        "lastSoldDate": "1988-05-11",
         "daysOnMarket": 5
       },
       {
@@ -5482,7 +5638,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/37-Van-Dyke-Dr_Ho-Ho-Kus_NJ_07423_M50659-97684",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-02T12:16:22.000000Z",
         "lastSoldPrice": 390600,
         "lastSoldDate": "1995-05-08",
@@ -5620,7 +5788,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/60-Quail-Close_Irvington_NY_10533_M47510-31507",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-05T17:03:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -5637,7 +5817,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/13-Janet-Ter_Irvington_NY_10533_M37408-32116",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": "Ideally located in one of Irvington's most sought-after neighborhoods, this home is just minutes from schools, village shops, restaurants, parks, and recreational amenities. Enjoy easy access to the Irvington Woods and a short drive to the Irvington Metro-North station, offering a convenient commute along the Hudson River to Grand Central Terminal.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-04T14:48:56.000000Z",
         "lastSoldPrice": 925500,
         "lastSoldDate": "2010-07-07",
@@ -5654,7 +5846,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/14-Beckett-Close_Irvington_NY_10533_M45274-15033",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T12:00:00",
+            "end_date": "2026-06-07T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-04T14:03:57.000000Z",
         "lastSoldPrice": 1680000,
         "lastSoldDate": "2005-02-08",
@@ -5722,7 +5926,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/28-Sycamore-Ln_Irvington_NY_10533_M34253-58762",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": "Custom multi-level residence offers a canvas for a stunning museum-quality modern aesthetic in one of Irvington's most convenient neighborhoods. Step outside your door and discover effortless walkability to local shops, dining, parks, and schools, all while enjoying the privacy of a secluded setting set back from the street. Entertain or unwind on multiple expansive decks and outdoor spaces, perfect for gatherings or quiet evenings under the stars.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-28T21:18:23.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
@@ -5773,7 +5989,19 @@
         "type": "multi family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Hudson-Ave_Irvington_NY_10533_M45565-40553",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T12:00:00",
+            "end_date": "2026-06-07T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-13T20:18:32.000000Z",
         "lastSoldPrice": 440000,
         "lastSoldDate": "2020-09-15",
@@ -5794,7 +6022,7 @@
         "listDate": "2026-05-08T23:47:15.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2004-05-18",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "3878157114",
@@ -6113,7 +6341,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/6-W-Sunnyside-Ln_Irvington_NY_10533_M33695-71646",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T11:00:00",
+            "end_date": "2026-06-07T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-03-16T13:17:17.000000Z",
         "lastSoldPrice": 2800000,
         "lastSoldDate": "2017-12-22",
@@ -6561,7 +6801,7 @@
         "listDate": "2026-04-09T23:03:36.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "2025-05-01",
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "4817799480",
@@ -6595,7 +6835,7 @@
         "listDate": "2026-04-07T22:18:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 60
+        "daysOnMarket": 61
       },
       {
         "id": "3018136658",
@@ -6697,7 +6937,7 @@
         "listDate": "2025-08-04T23:03:20.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2017-09-14",
-        "daysOnMarket": 306
+        "daysOnMarket": 307
       },
       {
         "id": "9458770643",
@@ -7124,7 +7364,7 @@
         "listDate": "2026-04-10T23:17:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "4967530185",
@@ -7311,7 +7551,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 141
+        "daysOnMarket": 142
       },
       {
         "id": "3635223583",
@@ -7328,7 +7568,7 @@
         "listDate": "2025-11-19T00:15:19.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2024-07-09",
-        "daysOnMarket": 200
+        "daysOnMarket": 201
       },
       {
         "id": "9199642451",
@@ -7670,7 +7910,7 @@
         "listDate": "2026-05-16T00:02:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3712430393",
@@ -7721,7 +7961,7 @@
         "listDate": "2026-05-12T22:17:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "4730709674",
@@ -7976,7 +8216,7 @@
         "listDate": "2026-04-08T00:03:50.000000Z",
         "lastSoldPrice": 245000,
         "lastSoldDate": "1993-12-20",
-        "daysOnMarket": 60
+        "daysOnMarket": 61
       },
       {
         "id": "4535874402",
@@ -8163,7 +8403,7 @@
         "listDate": "2026-03-10T22:47:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 88
+        "daysOnMarket": 89
       },
       {
         "id": "4156462964",
@@ -8335,7 +8575,7 @@
         "listDate": "2026-05-14T23:33:48.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2016-02-03",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4823559957",
@@ -8403,7 +8643,7 @@
         "listDate": "2026-05-11T23:47:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "4825795914",
@@ -8437,7 +8677,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "4136209764",
@@ -8454,7 +8694,7 @@
         "listDate": "2026-04-14T22:32:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "4351735980",
@@ -8538,7 +8778,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/324-Horseman-Blvd_Sleepy-Hollow_NY_10591_M99913-46483",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T12:00:00",
+            "end_date": "2026-06-07T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-04T16:04:31.000000Z",
         "lastSoldPrice": 1844664,
         "lastSoldDate": "2021-06-23",
@@ -8572,7 +8824,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-316_Sleepy-Hollow_NY_10591_M91305-38714",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T12:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-03T18:17:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -8606,11 +8870,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/516-Bellwood-Ave_Sleepy-Hollow_NY_10591_M35267-38540",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-01T23:17:50.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2003-05-29",
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "4730775281",
@@ -8851,23 +9127,6 @@
         "daysOnMarket": 27
       },
       {
-        "id": "9838699766",
-        "town": "Tarrytown",
-        "address": "36 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 27
-      },
-      {
         "id": "3538849971",
         "town": "Tarrytown",
         "address": "30 Andrews Ln, Sleepy Hollow",
@@ -8882,6 +9141,23 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2020-06-05",
+        "daysOnMarket": 27
+      },
+      {
+        "id": "9838699766",
+        "town": "Tarrytown",
+        "address": "36 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 27
       },
       {
@@ -9031,7 +9307,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/127-W-Main-St-Unit-300_Tarrytown_NY_10591_M31869-79746",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T13:00:00",
+            "end_date": "2026-06-07T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-04-22T17:18:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -9157,23 +9445,6 @@
         "daysOnMarket": 65
       },
       {
-        "id": "9404772422",
-        "town": "Tarrytown",
-        "address": "16 Carriage Trl, Tarrytown",
-        "price": 2500000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
-        "openHouses": [],
-        "listDate": "2026-04-03T14:03:52.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 65
-      },
-      {
         "id": "9001086625",
         "town": "Tarrytown",
         "address": "17 Carriage Trl, Tarrytown",
@@ -9184,6 +9455,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
+        "openHouses": [],
+        "listDate": "2026-04-03T14:03:52.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 65
+      },
+      {
+        "id": "9404772422",
+        "town": "Tarrytown",
+        "address": "16 Carriage Trl, Tarrytown",
+        "price": 2500000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
         "openHouses": [],
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
@@ -9356,7 +9644,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/211-Chittenden-Ave_Yonkers_NY_10707_M34429-99554",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-07T11:00:00",
+            "end_date": "2026-06-07T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-04T21:47:05.000000Z",
         "lastSoldPrice": 370000,
         "lastSoldDate": "2001-01-30",
@@ -9411,7 +9711,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3594803854",
@@ -9666,7 +9966,7 @@
         "listDate": "2025-07-22T23:04:27.000000Z",
         "lastSoldPrice": 415000,
         "lastSoldDate": "2005-06-10",
-        "daysOnMarket": 319
+        "daysOnMarket": 320
       }
     ]
   }
