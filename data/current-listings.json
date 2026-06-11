@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-11T05:57:32.343Z",
+  "updatedAt": "2026-06-11T10:54:28.571Z",
   "towns": {
     "Pelham": [
       {
@@ -239,7 +239,7 @@
         "listDate": "2026-05-26T10:02:17.000000Z",
         "lastSoldPrice": 590000,
         "lastSoldDate": "2007-05-30",
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "9276673757",
@@ -1269,7 +1269,7 @@
         "listDate": "2026-05-04T10:46:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "9818717505",
@@ -2518,7 +2518,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 99
+        "daysOnMarket": 100
       },
       {
         "id": "3166924525",
@@ -2634,7 +2634,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "3170759769",
@@ -3481,7 +3481,7 @@
         "listDate": "2026-05-16T06:33:31.000000Z",
         "lastSoldPrice": 266000,
         "lastSoldDate": "1991-07-02",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3900632849",
@@ -3685,7 +3685,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 99
+        "daysOnMarket": 100
       },
       {
         "id": "9163017386",
@@ -3840,7 +3840,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "4536519295",
@@ -4226,6 +4226,23 @@
     ],
     "Hartsdale": [
       {
+        "id": "4321796787",
+        "town": "Hartsdale",
+        "address": "36 Crosshill Rd, Hartsdale",
+        "price": 1725000,
+        "beds": 6,
+        "baths": 5,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Crosshill-Rd_Hartsdale_NY_10530_M43217-96787",
+        "openHouses": [],
+        "listDate": "2026-06-11T10:06:15.000000Z",
+        "lastSoldPrice": 999000,
+        "lastSoldDate": "2003-09-16",
+        "daysOnMarket": 0
+      },
+      {
         "id": "3259812073",
         "town": "Hartsdale",
         "address": "26 Southern Rd, Hartsdale",
@@ -4517,6 +4534,40 @@
         "daysOnMarket": 9
       },
       {
+        "id": "3868663042",
+        "town": "Hartsdale",
+        "address": "91 Columbia Ave, Hartsdale",
+        "price": 599000,
+        "beds": 6,
+        "baths": 2,
+        "sqft": 1904,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/91-Columbia-Ave_Hartsdale_NY_10530_M38686-63042",
+        "openHouses": [],
+        "listDate": "2026-06-01T19:44:14.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 9
+      },
+      {
+        "id": "4961976824",
+        "town": "Hartsdale",
+        "address": "21 Fieldstone Dr Apt 198, Hartsdale",
+        "price": 259000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 850,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/21-Fieldstone-Dr-Apt-198_Hartsdale_NY_10530_M49619-76824",
+        "openHouses": [],
+        "listDate": "2026-06-01T19:44:14.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 9
+      },
+      {
         "id": "3231883558",
         "town": "Hartsdale",
         "address": "86 Caterson Ter, Hartsdale",
@@ -4554,40 +4605,6 @@
         "listDate": "2026-06-01T19:44:14.000000Z",
         "lastSoldPrice": 850000,
         "lastSoldDate": "2021-11-15",
-        "daysOnMarket": 9
-      },
-      {
-        "id": "4961976824",
-        "town": "Hartsdale",
-        "address": "21 Fieldstone Dr Apt 198, Hartsdale",
-        "price": 259000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 850,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/21-Fieldstone-Dr-Apt-198_Hartsdale_NY_10530_M49619-76824",
-        "openHouses": [],
-        "listDate": "2026-06-01T19:44:14.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 9
-      },
-      {
-        "id": "3868663042",
-        "town": "Hartsdale",
-        "address": "91 Columbia Ave, Hartsdale",
-        "price": 599000,
-        "beds": 6,
-        "baths": 2,
-        "sqft": 1904,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/91-Columbia-Ave_Hartsdale_NY_10530_M38686-63042",
-        "openHouses": [],
-        "listDate": "2026-06-01T19:44:14.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
         "daysOnMarket": 9
       },
       {
@@ -4940,7 +4957,7 @@
         "listDate": "2026-04-30T06:17:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "3449953061",
@@ -5186,23 +5203,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 70
-      },
-      {
-        "id": "9467638247",
-        "town": "Hartsdale",
-        "address": "68 E Hartsdale Ave Apt 4E, Hartsdale",
-        "price": 197500,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 800,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/68-E-Hartsdale-Ave-Apt-4E_Hartsdale_NY_10530_M94676-38247",
-        "openHouses": [],
-        "listDate": "2026-03-23T20:48:45.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 79
       }
     ],
     "Harrison": [
@@ -5803,7 +5803,7 @@
         "listDate": "2026-05-06T08:47:03.000000Z",
         "lastSoldPrice": 260000,
         "lastSoldDate": "1993-08-09",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "9187332604",
@@ -6052,23 +6052,6 @@
         "daysOnMarket": 6
       },
       {
-        "id": "6840092890",
-        "town": "Ho-Ho-Kus",
-        "address": "109 Blauvelt Ave, Ho Ho Kus",
-        "price": 1899000,
-        "beds": 5,
-        "baths": 6,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/109-Blauvelt-Ave_Ho-Ho-Kus_NJ_07423_M68400-92890",
-        "openHouses": [],
-        "listDate": "2026-06-02T17:41:49.000000Z",
-        "lastSoldPrice": 1175000,
-        "lastSoldDate": "2019-10-03",
-        "daysOnMarket": 8
-      },
-      {
         "id": "5418253042",
         "town": "Ho-Ho-Kus",
         "address": "402 Enos Pl, Ho Ho Kus",
@@ -6083,6 +6066,23 @@
         "listDate": "2026-06-02T17:41:49.000000Z",
         "lastSoldPrice": 225000,
         "lastSoldDate": "1988-05-11",
+        "daysOnMarket": 8
+      },
+      {
+        "id": "6840092890",
+        "town": "Ho-Ho-Kus",
+        "address": "109 Blauvelt Ave, Ho Ho Kus",
+        "price": 1899000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/109-Blauvelt-Ave_Ho-Ho-Kus_NJ_07423_M68400-92890",
+        "openHouses": [],
+        "listDate": "2026-06-02T17:41:49.000000Z",
+        "lastSoldPrice": 1175000,
+        "lastSoldDate": "2019-10-03",
         "daysOnMarket": 8
       },
       {
@@ -6619,7 +6619,7 @@
         "listDate": "2026-04-10T06:02:46.000000Z",
         "lastSoldPrice": 252000,
         "lastSoldDate": "1993-05-24",
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "4657127079",
@@ -6687,7 +6687,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 76
+        "daysOnMarket": 77
       },
       {
         "id": "3181611801",
@@ -6818,7 +6818,7 @@
         "listDate": "2026-02-17T06:34:37.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2016-08-19",
-        "daysOnMarket": 113
+        "daysOnMarket": 114
       },
       {
         "id": "3170991008",
@@ -7979,7 +7979,7 @@
         "listDate": "2026-04-22T10:16:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "4010876176",
@@ -7996,7 +7996,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "9346121326",
@@ -8350,7 +8350,7 @@
         "listDate": "2026-06-04T10:01:59.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4563047172",
@@ -8435,7 +8435,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "4802437688",
@@ -9122,7 +9122,7 @@
         "listDate": "2026-03-03T10:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 99
+        "daysOnMarket": 100
       }
     ],
     "Pleasantville": [
@@ -9415,7 +9415,7 @@
         "listDate": "2026-02-23T06:31:36.000000Z",
         "lastSoldPrice": 345000,
         "lastSoldDate": "2020-11-10",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "4957572658",
@@ -9894,23 +9894,6 @@
         "daysOnMarket": 30
       },
       {
-        "id": "9838699766",
-        "town": "Tarrytown",
-        "address": "36 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 30
-      },
-      {
         "id": "3538849971",
         "town": "Tarrytown",
         "address": "30 Andrews Ln, Sleepy Hollow",
@@ -9928,6 +9911,23 @@
         "daysOnMarket": 30
       },
       {
+        "id": "9838699766",
+        "town": "Tarrytown",
+        "address": "36 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 30
+      },
+      {
         "id": "4000911128",
         "town": "Tarrytown",
         "address": "23 Storm St, Tarrytown",
@@ -9942,7 +9942,7 @@
         "listDate": "2026-05-09T06:02:24.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "4986747856",
@@ -10095,7 +10095,7 @@
         "listDate": "2026-04-20T06:02:14.000000Z",
         "lastSoldPrice": 1484500,
         "lastSoldDate": "2017-06-16",
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "9486639969",
