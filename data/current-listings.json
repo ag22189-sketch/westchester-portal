@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T09:51:54.627Z",
+  "updatedAt": "2026-06-14T12:04:00.832Z",
   "towns": {
     "Pelham": [
       {
@@ -126,7 +126,7 @@
         "listDate": "2026-06-02T11:48:13.000000Z",
         "lastSoldPrice": 545000,
         "lastSoldDate": "2018-10-17",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3799443862",
@@ -380,6 +380,40 @@
       }
     ],
     "Bronxville": [
+      {
+        "id": "3271076873",
+        "town": "Bronxville",
+        "address": "35 Durham Rd, Yonkers",
+        "price": 3750000,
+        "beds": 7,
+        "baths": 6,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/35-Durham-Rd_Bronxville_NY_10708_M32710-76873",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3395360472",
+        "town": "Bronxville",
+        "address": "796 Bronx River Rd Apt B56, Bronxville",
+        "price": 1800,
+        "beds": 1,
+        "baths": 1,
+        "sqft": null,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/796-Bronx-River-Rd-Apt-B56_Bronxville_NY_10708_M33953-60472",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "9384417842",
         "town": "Bronxville",
@@ -783,7 +817,7 @@
         "listDate": "2026-05-31T11:46:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2003-05-15",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3503235408",
@@ -1091,7 +1125,7 @@
         "listDate": "2026-05-15T11:31:38.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "2009-06-25",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "3028158596",
@@ -1210,7 +1244,7 @@
         "listDate": "2026-05-04T10:46:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "9818717505",
@@ -1264,23 +1298,6 @@
         "daysOnMarket": 45
       },
       {
-        "id": "9901917138",
-        "town": "Bronxville",
-        "address": "42 Pondfield Rd W Apt 6D, Bronxville",
-        "price": 280000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 754,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/42-Pondfield-Rd-W-Apt-6D_Bronxville_NY_10708_M99019-17138",
-        "openHouses": [],
-        "listDate": "2026-04-28T16:33:05.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 46
-      },
-      {
         "id": "4504192876",
         "town": "Bronxville",
         "address": "41 Summit Ave, Bronxville",
@@ -1296,23 +1313,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 46
-      },
-      {
-        "id": "3889064907",
-        "town": "Bronxville",
-        "address": "1133 Midland Ave Apt 1C, Bronxville",
-        "price": 425000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 830,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-1C_Bronxville_NY_10708_M38890-64907",
-        "openHouses": [],
-        "listDate": "2026-04-27T17:32:49.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 47
       }
     ],
     "Scarsdale": [
@@ -2105,7 +2105,7 @@
         "listDate": "2026-05-14T11:47:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3194778632",
@@ -2376,7 +2376,7 @@
         "listDate": "2026-05-30T11:46:59.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2009-02-25",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4088331252",
@@ -2793,6 +2793,23 @@
     ],
     "Chappaqua": [
       {
+        "id": "3510417313",
+        "town": "Chappaqua",
+        "address": "16 Roaring Brook Rd, Chappaqua",
+        "price": 899900,
+        "beds": 4,
+        "baths": 2,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/16-Roaring-Brook-Rd_Chappaqua_NY_10514_M35104-17313",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 885000,
+        "lastSoldDate": "2022-10-18",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4686067522",
         "town": "Chappaqua",
         "address": "4 Old House Ln, Chappaqua",
@@ -2870,7 +2887,7 @@
         "listDate": "2026-06-10T11:47:25.000000Z",
         "lastSoldPrice": 550000,
         "lastSoldDate": "1999-06-17",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4952630809",
@@ -4313,7 +4330,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "9499208463",
@@ -4347,7 +4364,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "3259812073",
@@ -5613,6 +5630,23 @@
     ],
     "Hastings-on-Hudson": [
       {
+        "id": "3040818653",
+        "town": "Hastings-on-Hudson",
+        "address": "555 Broadway Apt 1D, Hastings On Hudson",
+        "price": 385000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": null,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/555-Broadway-Apt-1D_Hastings-on-Hudson_NY_10706_M30408-18653",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 386500,
+        "lastSoldDate": "2022-11-02",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4566458795",
         "town": "Hastings-on-Hudson",
         "address": "2 Saunders St, Hastings On Hudson",
@@ -6252,6 +6286,108 @@
     ],
     "Irvington": [
       {
+        "id": "9639623153",
+        "town": "Irvington",
+        "address": "44-42 W Clinton Ave, Irvington",
+        "price": 2999000,
+        "beds": 6,
+        "baths": 7,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/44-42-W-Clinton-Ave_Irvington_NY_10533_M96396-23153",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3749664144",
+        "town": "Irvington",
+        "address": "87 S Buckhout St, Irvington",
+        "price": 1199000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/87-S-Buckhout-St_Irvington_NY_10533_M37496-64144",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 1200000,
+        "lastSoldDate": "2022-11-10",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3378105547",
+        "town": "Irvington",
+        "address": "23 N Eckar St, Irvington",
+        "price": 910000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": null,
+        "type": "townhomes",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/23-N-Eckar-St_Irvington_NY_10533_M33781-05547",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 999000,
+        "lastSoldDate": "2022-12-08",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3419619807",
+        "town": "Irvington",
+        "address": "61 W Clinton Ave, Irvington",
+        "price": 2600000,
+        "beds": 5,
+        "baths": 5,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/61-W-Clinton-Ave_Irvington_NY_10533_M34196-19807",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 2550000,
+        "lastSoldDate": "2023-01-11",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3919075119",
+        "town": "Irvington",
+        "address": "112 Locust Ln, Irvington",
+        "price": 799000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": null,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/112-Locust-Ln_Irvington_NY_10533_M39190-75119",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 825000,
+        "lastSoldDate": "2022-11-17",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4157336405",
+        "town": "Irvington",
+        "address": "91 Deertrack Ln, Irvington",
+        "price": 1690000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/91-Deertrack-Ln_Irvington_NY_10533_M41573-36405",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 1650000,
+        "lastSoldDate": "2022-10-25",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4250201390",
         "town": "Irvington",
         "address": "161 S Buckhout St Unit 161, Irvington",
@@ -6323,7 +6459,7 @@
         "id": "9031844073",
         "town": "Irvington",
         "address": "140 N Broadway Apt O2, Irvington",
-        "price": 289000,
+        "price": 284000,
         "beds": 2,
         "baths": 1,
         "sqft": 850,
@@ -6334,7 +6470,7 @@
         "listDate": "2026-06-06T11:46:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "3479990634",
@@ -6882,6 +7018,23 @@
       }
     ],
     "Larchmont": [
+      {
+        "id": "3220297579",
+        "town": "Larchmont",
+        "address": "24 Greystone Rd, Larchmont",
+        "price": 989000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/24-Greystone-Rd_Larchmont_NY_10538_M32202-97579",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 999000,
+        "lastSoldDate": "2022-11-18",
+        "daysOnMarket": 0
+      },
       {
         "id": "9457311375",
         "town": "Larchmont",
@@ -8094,7 +8247,7 @@
         "listDate": "2026-04-22T10:16:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "4010876176",
@@ -8162,7 +8315,7 @@
         "listDate": "2026-04-07T11:01:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "9434500398",
@@ -8419,7 +8572,7 @@
         "listDate": "2026-06-05T11:46:53.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2025-06-18",
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "3151396000",
@@ -8448,7 +8601,7 @@
         "listDate": "2026-06-05T11:16:59.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2024-11-14",
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "3788511703",
@@ -8465,7 +8618,7 @@
         "listDate": "2026-06-04T10:01:59.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4563047172",
@@ -8608,7 +8761,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "9283260081",
@@ -8642,7 +8795,7 @@
         "listDate": "2026-05-27T11:32:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "4116835326",
@@ -9091,7 +9244,7 @@
         "listDate": "2026-04-01T11:32:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3751442760",
@@ -9125,7 +9278,7 @@
         "listDate": "2026-03-27T11:46:34.000000Z",
         "lastSoldPrice": 510000,
         "lastSoldDate": "2016-07-19",
-        "daysOnMarket": 78
+        "daysOnMarket": 79
       },
       {
         "id": "9892379547",
@@ -9244,7 +9397,7 @@
         "listDate": "2026-03-03T10:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 102
+        "daysOnMarket": 103
       }
     ],
     "Pleasantville": [
@@ -9536,6 +9689,244 @@
     "Ridgewood": [],
     "Tarrytown": [
       {
+        "id": "9808297519",
+        "town": "Tarrytown",
+        "address": "222 Martling Ave Apt 3H, Tarrytown",
+        "price": 370000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": null,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/222-Martling-Ave-Apt-3H_Tarrytown_NY_10591_M98082-97519",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3212803395",
+        "town": "Tarrytown",
+        "address": "61 Midland Ave, Tarrytown",
+        "price": 835000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/61-Midland-Ave_Tarrytown_NY_10591_M32128-03395",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 850000,
+        "lastSoldDate": "2023-01-31",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4476610148",
+        "town": "Tarrytown",
+        "address": "18 Rivers Edge Dr Unit 507, Tarrytown",
+        "price": 1400000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": null,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/18-Rivers-Edge-Dr-Unit-507_Tarrytown_NY_10591_M44766-10148",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 1400000,
+        "lastSoldDate": "2023-01-05",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "9027629619",
+        "town": "Tarrytown",
+        "address": "14 N Broadway, Tarrytown",
+        "price": 3350000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/14-N-Broadway_Tarrytown_NY_10591_M90276-29619",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4659236716",
+        "town": "Tarrytown",
+        "address": "320 S Broadway Unit S9, Tarrytown",
+        "price": 235000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": null,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/320-S-Broadway-Unit-S9_Tarrytown_NY_10591_M46592-36716",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3036004195",
+        "town": "Tarrytown",
+        "address": "156 S Broadway, Tarrytown",
+        "price": 1099000,
+        "beds": 4,
+        "baths": 5,
+        "sqft": null,
+        "type": "multi family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/156-S-Broadway_Tarrytown_NY_10591_M30360-04195",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 235000,
+        "lastSoldDate": "1993-10-29",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3428834644",
+        "town": "Tarrytown",
+        "address": "194 S Broadway, Tarrytown",
+        "price": 675000,
+        "beds": 3,
+        "baths": 1,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/194-S-Broadway_Tarrytown_NY_10591_M34288-34644",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 830000,
+        "lastSoldDate": "2022-12-05",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4707744928",
+        "town": "Tarrytown",
+        "address": "29 Grove St, Tarrytown",
+        "price": 949000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/29-Grove-St_Tarrytown_NY_10591_M47077-44928",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4244878384",
+        "town": "Tarrytown",
+        "address": "11 Park Ave, Tarrytown",
+        "price": 849900,
+        "beds": 4,
+        "baths": 2,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-Park-Ave_Tarrytown_NY_10591_M42448-78384",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 849900,
+        "lastSoldDate": "2023-01-13",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4517310488",
+        "town": "Tarrytown",
+        "address": "11 River St Apt 110, Sleepy Hollow",
+        "price": 699000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": null,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-River-St-Apt-110_Sleepy-Hollow_NY_10591_M45173-10488",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 699000,
+        "lastSoldDate": "2022-11-14",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4374353475",
+        "town": "Tarrytown",
+        "address": "7 Emerald Woods, Tarrytown",
+        "price": 2299000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/7-Emerald-Woods_Tarrytown_NY_10591_M43743-53475",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 1845000,
+        "lastSoldDate": "2010-03-24",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3962452676",
+        "town": "Tarrytown",
+        "address": "36 Cottage Pl, Tarrytown",
+        "price": 599000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": null,
+        "type": "multi family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Cottage-Pl_Tarrytown_NY_10591_M39624-52676",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 540000,
+        "lastSoldDate": "2022-11-29",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3187240608",
+        "town": "Tarrytown",
+        "address": "4 Orchard Dr Unit 4, Tarrytown",
+        "price": 1950000,
+        "beds": 3,
+        "baths": 5,
+        "sqft": null,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/4-Orchard-Dr_Tarrytown_NY_10591_M31872-40608",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": 1850000,
+        "lastSoldDate": "2022-10-27",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "9514455689",
+        "town": "Tarrytown",
+        "address": "154 Martling 2 D2 Ave Unit Bldg, Tarrytown",
+        "price": 145000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": null,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/154-Martling-Ave-2D2_Tarrytown_NY_10591_M95144-55689",
+        "openHouses": [],
+        "listDate": "2026-06-14T10:01:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "9588635493",
         "town": "Tarrytown",
         "address": "102 Legend Dr Apt 301, Sleepy Hollow",
@@ -9601,7 +9992,7 @@
         "listDate": "2026-06-12T11:32:43.000000Z",
         "lastSoldPrice": 345000,
         "lastSoldDate": "1988-12-30",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "9044204210",
@@ -10290,244 +10681,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 45
-      },
-      {
-        "id": "4064503608",
-        "town": "Tarrytown",
-        "address": "300 S Broadway Apt 3D, Tarrytown",
-        "price": 360000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 1200,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/300-S-Broadway-Apt-3D_Tarrytown_NY_10591_M40645-03608",
-        "openHouses": [],
-        "listDate": "2026-04-23T19:47:45.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 51
-      },
-      {
-        "id": "3186979746",
-        "town": "Tarrytown",
-        "address": "127 W Main St Unit 300, Tarrytown",
-        "price": 1945000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2092,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/127-W-Main-St-Unit-300_Tarrytown_NY_10591_M31869-79746",
-        "openHouses": [],
-        "listDate": "2026-04-22T17:18:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 52
-      },
-      {
-        "id": "3525396966",
-        "town": "Tarrytown",
-        "address": "150 Harwood Ave, Sleepy Hollow",
-        "price": 2500000,
-        "beds": 6,
-        "baths": 6,
-        "sqft": 4925,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/150-Harwood-Ave_Sleepy-Hollow_NY_10591_M35253-96966",
-        "openHouses": [],
-        "listDate": "2026-04-20T06:02:14.000000Z",
-        "lastSoldPrice": 1484500,
-        "lastSoldDate": "2017-06-16",
-        "daysOnMarket": 55
-      },
-      {
-        "id": "9486639969",
-        "town": "Tarrytown",
-        "address": "154 Martling Ave # 10, Tarrytown",
-        "price": 194000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 750,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/154-Martling-Ave-10-T5_Tarrytown_NY_10591_M94866-39969",
-        "openHouses": [],
-        "listDate": "2026-04-17T19:32:51.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 57
-      },
-      {
-        "id": "3669285878",
-        "town": "Tarrytown",
-        "address": "61 Fairview Ave, Tarrytown",
-        "price": 995000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": null,
-        "type": "multi family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/61-Fairview-Ave_Tarrytown_NY_10591_M36692-85878",
-        "openHouses": [],
-        "listDate": "2026-04-08T15:47:55.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 66
-      },
-      {
-        "id": "4638616605",
-        "town": "Tarrytown",
-        "address": "11 Dixon St, Tarrytown",
-        "price": 1450000,
-        "beds": 6,
-        "baths": 4,
-        "sqft": null,
-        "type": "multi family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/11-Dixon-St_Tarrytown_NY_10591_M46386-16605",
-        "openHouses": [],
-        "listDate": "2026-04-07T18:59:44.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 67
-      },
-      {
-        "id": "9941028443",
-        "town": "Tarrytown",
-        "address": "4 Lighthouse Lndg Unit 424, Sleepy Hollow",
-        "price": 3115000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 1886,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-424_Sleepy-Hollow_NY_10591_M99410-28443",
-        "openHouses": [],
-        "listDate": "2026-04-03T17:18:55.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 71
-      },
-      {
-        "id": "9001086625",
-        "town": "Tarrytown",
-        "address": "17 Carriage Trl, Tarrytown",
-        "price": 2500000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/17-Carriage-Trl_Tarrytown_NY_10591_M90010-86625",
-        "openHouses": [],
-        "listDate": "2026-04-03T14:03:52.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 71
-      },
-      {
-        "id": "9404772422",
-        "town": "Tarrytown",
-        "address": "16 Carriage Trl, Tarrytown",
-        "price": 2500000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
-        "openHouses": [],
-        "listDate": "2026-04-03T14:03:52.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 71
-      },
-      {
-        "id": "3547085745",
-        "town": "Tarrytown",
-        "address": "30 Kendall Ave, Sleepy Hollow",
-        "price": 629900,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 2200,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/30-Kendall-Ave_Sleepy-Hollow_NY_10591_M35470-85745",
-        "openHouses": [],
-        "listDate": "2026-04-02T19:48:19.000000Z",
-        "lastSoldPrice": 535000,
-        "lastSoldDate": "2006-10-12",
-        "daysOnMarket": 72
-      },
-      {
-        "id": "9108522415",
-        "town": "Tarrytown",
-        "address": "42 Andrews Ln Unit 42, Sleepy Hollow",
-        "price": 1099000,
-        "beds": 2,
-        "baths": 4,
-        "sqft": null,
-        "type": "townhomes",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/42-Andrews-Ln_Sleepy-Hollow_NY_10591_M91085-22415",
-        "openHouses": [],
-        "listDate": "2026-04-02T18:14:42.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 72
-      },
-      {
-        "id": "9444884337",
-        "town": "Tarrytown",
-        "address": "46 Andrews Ln Unit 46, Sleepy Hollow",
-        "price": 1199000,
-        "beds": 2,
-        "baths": 4,
-        "sqft": null,
-        "type": "townhomes",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/46-Andrews-Ln_Sleepy-Hollow_NY_10591_M94448-84337",
-        "openHouses": [],
-        "listDate": "2026-04-02T17:32:23.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 72
-      },
-      {
-        "id": "3466514882",
-        "town": "Tarrytown",
-        "address": "127 W Main St Unit 205, Tarrytown",
-        "price": 1199000,
-        "beds": 1,
-        "baths": 2,
-        "sqft": 1326,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/127-W-Main-St-Unit-205_Tarrytown_NY_10591_M34665-14882",
-        "openHouses": [],
-        "listDate": "2026-03-30T22:07:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 75
-      },
-      {
-        "id": "4387507986",
-        "town": "Tarrytown",
-        "address": "25 S Washington St, Tarrytown",
-        "price": 848000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1587,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/25-S-Washington-St_Tarrytown_NY_10591_M43875-07986",
-        "openHouses": [],
-        "listDate": "2026-03-27T21:33:25.000000Z",
-        "lastSoldPrice": 420000,
-        "lastSoldDate": "2022-04-20",
-        "daysOnMarket": 78
       }
     ],
     "Tuckahoe": [
@@ -10723,7 +10876,7 @@
         "listDate": "2026-05-04T11:46:50.000000Z",
         "lastSoldPrice": 1195000,
         "lastSoldDate": "2020-04-16",
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "4298817272",
