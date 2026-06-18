@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T22:48:35.872Z",
+  "updatedAt": "2026-06-18T00:20:59.376Z",
   "towns": {
     "Pelham": [
       {
@@ -1481,7 +1481,7 @@
         "listDate": "2026-06-12T00:18:26.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3617522780",
@@ -1561,7 +1561,7 @@
         "listDate": "2026-06-08T00:16:57.000000Z",
         "lastSoldPrice": 820000,
         "lastSoldDate": "2014-01-07",
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4066837942",
@@ -1578,7 +1578,7 @@
         "listDate": "2026-06-06T23:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "4656434800",
@@ -1709,7 +1709,7 @@
         "listDate": "2026-06-02T23:02:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4932037937",
@@ -1845,7 +1845,7 @@
         "listDate": "2026-05-22T23:17:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "4638675729",
@@ -1993,7 +1993,7 @@
         "listDate": "2026-05-17T00:17:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4340839684",
@@ -2263,17 +2263,6 @@
             "methods": [
               "in_person"
             ]
-          },
-          {
-            "start_date": "2026-06-21T12:00:00",
-            "end_date": "2026-06-21T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
           }
         ],
         "listDate": "2026-06-14T19:09:02.000000Z",
@@ -2326,19 +2315,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/5-Mill-Ct_Ardsley_NY_10502_M35281-59753",
-        "openHouses": [
-          {
-            "start_date": "2026-06-21T11:00:00",
-            "end_date": "2026-06-21T12:30:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-06-08T19:15:22.000000Z",
         "lastSoldPrice": 490000,
         "lastSoldDate": "2000-12-14",
@@ -2533,6 +2510,35 @@
       }
     ],
     "Bedford": [
+      {
+        "id": "4863448334",
+        "town": "Bedford",
+        "address": "22 Locksley Ln, Bedford Hills",
+        "price": 899000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2164,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/22-Locksley-Ln_Bedford-Hills_NY_10507_M48634-48334",
+        "openHouses": [
+          {
+            "start_date": "2026-06-20T13:00:00",
+            "end_date": "2026-06-20T14:30:00",
+            "description": "BEDFORD HILLS: FIRST TIME ON MARKET IN YEARS. PRISTINE HOME ON A BEAUTIFUL LEVEL LOT WITH PERENNIAL PLANTINGS AND PRIVACY. WONDERFUL FLOOR PLAN WITH A FANTASTIC ADIRONDACK SCREENED PORCH A WONDERFUL SPACE FOR ENTERTAINING OR JUST RELAXING WITH ACCESS TO A CUSTOM DECK AND STAIRS TO THE LUSH BACK LAWN. GOOD VALUE!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-06-17T19:27:21.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "4989258156",
         "town": "Bedford",
@@ -2781,7 +2787,7 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 273
+        "daysOnMarket": 274
       }
     ],
     "Chappaqua": [
@@ -3266,7 +3272,7 @@
         "listDate": "2025-11-10T00:10:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 219
+        "daysOnMarket": 220
       },
       {
         "id": "3500078903",
@@ -3374,23 +3380,6 @@
         "daysOnMarket": 6
       },
       {
-        "id": "9775564474",
-        "town": "Dobbs Ferry",
-        "address": "35 Landing Dr, Dobbs Ferry",
-        "price": 1950000,
-        "beds": 4,
-        "baths": 5,
-        "sqft": 3800,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/35-Landing-Dr_Dobbs-Ferry_NY_10522_M97755-64474",
-        "openHouses": [],
-        "listDate": "2026-06-10T16:35:27.000000Z",
-        "lastSoldPrice": 987500,
-        "lastSoldDate": "2021-07-29",
-        "daysOnMarket": 7
-      },
-      {
         "id": "4625258951",
         "town": "Dobbs Ferry",
         "address": "72 Hickory Hill Dr, Dobbs Ferry",
@@ -3422,7 +3411,7 @@
         "listDate": "2026-06-09T00:03:33.000000Z",
         "lastSoldPrice": 775000,
         "lastSoldDate": "2022-07-13",
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "4674131751",
@@ -3491,23 +3480,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 19
-      },
-      {
-        "id": "4560065073",
-        "town": "Dobbs Ferry",
-        "address": "4 Grove St, Dobbs Ferry",
-        "price": 995000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1908,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Grove-St_Dobbs-Ferry_NY_10522_M45600-65073",
-        "openHouses": [],
-        "listDate": "2026-05-28T20:48:07.000000Z",
-        "lastSoldPrice": 20000,
-        "lastSoldDate": "1989-06-16",
-        "daysOnMarket": 20
       },
       {
         "id": "4161244957",
@@ -3971,23 +3943,6 @@
         "lastSoldPrice": 367500,
         "lastSoldDate": "1996-06-19",
         "daysOnMarket": 13
-      },
-      {
-        "id": "4519844972",
-        "town": "Eastchester",
-        "address": "1 Bevan Pl, Eastchester",
-        "price": 1299000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1900,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1-Bevan-Pl_Eastchester_NY_10709_M45198-44972",
-        "openHouses": [],
-        "listDate": "2026-06-03T16:48:25.000000Z",
-        "lastSoldPrice": 900000,
-        "lastSoldDate": "2026-04-16",
-        "daysOnMarket": 14
       },
       {
         "id": "3379070090",
@@ -4711,7 +4666,7 @@
         "listDate": "2026-06-03T23:32:13.000000Z",
         "lastSoldPrice": 172000,
         "lastSoldDate": "1993-04-05",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4103008439",
@@ -4956,7 +4911,7 @@
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3308108734",
@@ -6670,7 +6625,7 @@
         "listDate": "2026-05-08T23:47:15.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2004-05-18",
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "3878157114",
@@ -7014,6 +6969,40 @@
       }
     ],
     "Larchmont": [
+      {
+        "id": "3736549681",
+        "town": "Larchmont",
+        "address": "3 Oak Ln, Larchmont",
+        "price": 5300000,
+        "beds": 7,
+        "baths": 8,
+        "sqft": 7724,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/3-Oak-Ln_Larchmont_NY_10538_M37365-49681",
+        "openHouses": [],
+        "listDate": "2026-06-17T21:04:49.000000Z",
+        "lastSoldPrice": 3237500,
+        "lastSoldDate": "2000-09-29",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3887571396",
+        "town": "Larchmont",
+        "address": "531 Weaver St, Larchmont",
+        "price": 1495000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": 2800,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/531-Weaver-St_Larchmont_NY_10538_M38875-71396",
+        "openHouses": [],
+        "listDate": "2026-06-17T19:27:21.000000Z",
+        "lastSoldPrice": 750000,
+        "lastSoldDate": "2003-03-11",
+        "daysOnMarket": 0
+      },
       {
         "id": "3486648642",
         "town": "Larchmont",
@@ -7425,23 +7414,6 @@
         "daysOnMarket": 37
       },
       {
-        "id": "4498605310",
-        "town": "Larchmont",
-        "address": "56 Park Ave, Larchmont",
-        "price": 4195000,
-        "beds": 5,
-        "baths": 6,
-        "sqft": 4288,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/56-Park-Ave_Larchmont_NY_10538_M44986-05310",
-        "openHouses": [],
-        "listDate": "2026-05-10T18:08:42.000000Z",
-        "lastSoldPrice": 2630000,
-        "lastSoldDate": "2018-08-03",
-        "daysOnMarket": 38
-      },
-      {
         "id": "4189664777",
         "town": "Larchmont",
         "address": "11 Alden Rd Apt 4J, Larchmont",
@@ -7558,7 +7530,7 @@
         "listDate": "2026-04-09T23:03:36.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "2025-05-01",
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       },
       {
         "id": "4817799480",
@@ -7706,7 +7678,7 @@
         "listDate": "2025-08-04T23:03:20.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2017-09-14",
-        "daysOnMarket": 316
+        "daysOnMarket": 317
       },
       {
         "id": "9458770643",
@@ -8322,7 +8294,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 151
+        "daysOnMarket": 152
       },
       {
         "id": "9199642451",
@@ -8744,7 +8716,7 @@
         "listDate": "2026-05-16T00:02:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "3712430393",
@@ -9016,7 +8988,7 @@
         "listDate": "2026-04-08T00:03:50.000000Z",
         "lastSoldPrice": 245000,
         "lastSoldDate": "1993-12-20",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "4535874402",
@@ -9051,23 +9023,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 75
-      },
-      {
-        "id": "3937793291",
-        "town": "Mount Vernon",
-        "address": "1 Wilson Block, Mount Vernon",
-        "price": 1450000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2800,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1-Wilson-Block_Mount-Vernon_NY_10552_M39377-93291",
-        "openHouses": [],
-        "listDate": "2026-04-01T11:32:20.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 77
       },
       {
         "id": "3751442760",
@@ -9221,6 +9176,23 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 106
+      },
+      {
+        "id": "9313712188",
+        "town": "Mount Vernon",
+        "address": "30 Fleetwood Ave Apt 1B, Mount Vernon",
+        "price": 199000,
+        "beds": 2,
+        "baths": 1,
+        "sqft": 950,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/30-Fleetwood-Ave-Apt-1B_Mount-Vernon_NY_10552_M93137-12188",
+        "openHouses": [],
+        "listDate": "2026-03-02T14:47:17.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 107
       }
     ],
     "Pleasantville": [
@@ -9353,7 +9325,7 @@
         "listDate": "2026-05-14T23:33:48.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2016-02-03",
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "4823559957",
@@ -9421,7 +9393,7 @@
         "listDate": "2026-05-11T23:47:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "4825795914",
@@ -10597,7 +10569,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "3594803854",
@@ -10801,7 +10773,7 @@
         "listDate": "2025-07-22T23:04:27.000000Z",
         "lastSoldPrice": 415000,
         "lastSoldDate": "2005-06-10",
-        "daysOnMarket": 329
+        "daysOnMarket": 330
       }
     ]
   }
