@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T22:25:28.365Z",
+  "updatedAt": "2026-06-26T00:16:38.030Z",
   "towns": {
     "Pelham": [
       {
@@ -459,7 +459,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1344-Midland-Ave-Apt-3E_Bronxville_NY_10708_M96701-70507",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-28T14:30:00",
+            "end_date": "2026-06-28T16:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-25T16:18:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -492,7 +504,7 @@
         "listDate": "2026-06-24T23:18:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4316842983",
@@ -827,7 +839,7 @@
         "listDate": "2026-06-03T22:32:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3131625454",
@@ -937,7 +949,30 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1468-Midland-Ave-Apt-1A_Bronxville_NY_10708_M35032-35408",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-27T11:00:00",
+            "end_date": "2026-06-27T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-07-02T16:00:00",
+            "end_date": "2026-07-02T18:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-30T02:18:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -1242,7 +1277,7 @@
         "listDate": "2026-05-07T22:47:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "9159700229",
@@ -1332,6 +1367,23 @@
     ],
     "Scarsdale": [
       {
+        "id": "4788200172",
+        "town": "Scarsdale",
+        "address": "21 Tanglewood Rd, Scarsdale",
+        "price": 989000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 1746,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/21-Tanglewood-Rd_Scarsdale_NY_10583_M47882-00172",
+        "openHouses": [],
+        "listDate": "2026-06-25T20:48:25.000000Z",
+        "lastSoldPrice": 707500,
+        "lastSoldDate": "2020-08-05",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4646000337",
         "town": "Scarsdale",
         "address": "29 Homestead Rd, Scarsdale",
@@ -1392,7 +1444,7 @@
         "listDate": "2026-06-23T23:47:42.000000Z",
         "lastSoldPrice": 144000,
         "lastSoldDate": "2017-01-13",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4934870149",
@@ -1742,7 +1794,7 @@
         "listDate": "2026-06-13T22:47:37.000000Z",
         "lastSoldPrice": 1366000,
         "lastSoldDate": "2025-08-11",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "4469254269",
@@ -1762,23 +1814,6 @@
         "daysOnMarket": 13
       },
       {
-        "id": "4430071316",
-        "town": "Scarsdale",
-        "address": "65 Fox Meadow Rd, Scarsdale",
-        "price": 5150000,
-        "beds": 6,
-        "baths": 8,
-        "sqft": 7163,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/65-Fox-Meadow-Rd_Scarsdale_NY_10583_M44300-71316",
-        "openHouses": [],
-        "listDate": "2026-06-12T19:13:12.000000Z",
-        "lastSoldPrice": 1700000,
-        "lastSoldDate": "2025-03-17",
-        "daysOnMarket": 13
-      },
-      {
         "id": "3018664861",
         "town": "Scarsdale",
         "address": "143 Garth Rd Apt 5L, Scarsdale",
@@ -1793,6 +1828,23 @@
         "listDate": "2026-06-12T19:13:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 13
+      },
+      {
+        "id": "4430071316",
+        "town": "Scarsdale",
+        "address": "65 Fox Meadow Rd, Scarsdale",
+        "price": 5150000,
+        "beds": 6,
+        "baths": 8,
+        "sqft": 7163,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/65-Fox-Meadow-Rd_Scarsdale_NY_10583_M44300-71316",
+        "openHouses": [],
+        "listDate": "2026-06-12T19:13:12.000000Z",
+        "lastSoldPrice": 1700000,
+        "lastSoldDate": "2025-03-17",
         "daysOnMarket": 13
       },
       {
@@ -1890,7 +1942,7 @@
         "listDate": "2026-06-06T23:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "4656434800",
@@ -1973,17 +2025,6 @@
         "link": "https://www.realtor.com/realestateandhomes-detail/42-Stratford-Rd_Scarsdale_NY_10583_M47588-78876",
         "openHouses": [
           {
-            "start_date": "2026-06-25T16:00:00",
-            "end_date": "2026-06-25T18:30:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          },
-          {
             "start_date": "2026-06-27T12:00:00",
             "end_date": "2026-06-27T14:00:00",
             "description": null,
@@ -2055,7 +2096,7 @@
         "listDate": "2026-06-02T23:02:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "4932037937",
@@ -2072,23 +2113,6 @@
         "listDate": "2026-06-02T19:40:42.000000Z",
         "lastSoldPrice": 430000,
         "lastSoldDate": "1996-02-28",
-        "daysOnMarket": 23
-      },
-      {
-        "id": "3754639407",
-        "town": "Scarsdale",
-        "address": "35 Mount Joy Ave, Scarsdale",
-        "price": 1050000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 2332,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/35-Mount-Joy-Ave_Scarsdale_NY_10583_M37546-39407",
-        "openHouses": [],
-        "listDate": "2026-06-02T12:35:00.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
         "daysOnMarket": 23
       },
       {
@@ -2174,7 +2198,7 @@
         "listDate": "2026-05-22T23:17:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "4638675729",
@@ -2223,23 +2247,6 @@
         "daysOnMarket": 35
       },
       {
-        "id": "9152500858",
-        "town": "Scarsdale",
-        "address": "143 Garth Rd Apt 4P, Scarsdale",
-        "price": 315000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 925,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/143-Garth-Rd-Apt-4P_Scarsdale_NY_10583_M91525-00858",
-        "openHouses": [],
-        "listDate": "2026-05-20T22:47:33.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 35
-      },
-      {
         "id": "4683392841",
         "town": "Scarsdale",
         "address": "143 Garth Rd Apt 4N, Scarsdale",
@@ -2266,7 +2273,7 @@
         "listDate": "2026-05-20T22:33:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4464909348",
@@ -2380,6 +2387,35 @@
         "listDate": "2026-05-14T20:48:06.000000Z",
         "lastSoldPrice": 427000,
         "lastSoldDate": "1999-09-23",
+        "daysOnMarket": 42
+      },
+      {
+        "id": "4704185068",
+        "town": "Scarsdale",
+        "address": "11 Malverne Rd, Scarsdale",
+        "price": 929000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2262,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-Malverne-Rd_Scarsdale_NY_10583_M47041-85068",
+        "openHouses": [
+          {
+            "start_date": "2026-06-27T11:30:00",
+            "end_date": "2026-06-27T12:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-05-14T11:47:55.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 42
       }
     ],
@@ -2966,7 +3002,7 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 281
+        "daysOnMarket": 282
       }
     ],
     "Chappaqua": [
@@ -3196,7 +3232,7 @@
         "listDate": "2026-05-23T22:32:36.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2005-08-16",
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "9540087096",
@@ -3405,6 +3441,23 @@
     ],
     "Dobbs Ferry": [
       {
+        "id": "4995008300",
+        "town": "Dobbs Ferry",
+        "address": "3 Lewis Ave, Dobbs Ferry",
+        "price": 1695000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": 3890,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/3-Lewis-Ave_Dobbs-Ferry_NY_10522_M49950-08300",
+        "openHouses": [],
+        "listDate": "2026-06-25T22:47:35.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "3633330541",
         "town": "Dobbs Ferry",
         "address": "126 Judson Ave, Dobbs Ferry",
@@ -3453,7 +3506,7 @@
         "listDate": "2026-06-09T00:03:33.000000Z",
         "lastSoldPrice": 775000,
         "lastSoldDate": "2022-07-13",
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "4674131751",
@@ -3720,7 +3773,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "3987697034",
@@ -4593,7 +4646,7 @@
         "listDate": "2026-06-15T22:32:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4949136034",
@@ -4826,7 +4879,7 @@
         "listDate": "2026-06-03T23:32:13.000000Z",
         "lastSoldPrice": 172000,
         "lastSoldDate": "1993-04-05",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4601310215",
@@ -4974,7 +5027,7 @@
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "3308108734",
@@ -5596,7 +5649,7 @@
         "listDate": "2026-03-19T22:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 97
+        "daysOnMarket": 98
       },
       {
         "id": "3764777270",
@@ -6153,7 +6206,7 @@
         "listDate": "2026-06-24T22:44:51.000000Z",
         "lastSoldPrice": 390600,
         "lastSoldDate": "1995-05-08",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "6994860123",
@@ -6634,7 +6687,7 @@
         "listDate": "2026-05-08T23:47:15.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2004-05-18",
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "3878157114",
@@ -7216,7 +7269,7 @@
         "listDate": "2026-06-10T22:33:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "9806318953",
@@ -7539,7 +7592,7 @@
         "listDate": "2026-04-09T23:03:36.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "2025-05-01",
-        "daysOnMarket": 76
+        "daysOnMarket": 77
       },
       {
         "id": "4817799480",
@@ -7675,7 +7728,7 @@
         "listDate": "2025-08-04T23:03:20.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2017-09-14",
-        "daysOnMarket": 324
+        "daysOnMarket": 325
       },
       {
         "id": "9458770643",
@@ -7696,6 +7749,23 @@
       }
     ],
     "Mamaroneck": [
+      {
+        "id": "9346121326",
+        "town": "Mamaroneck",
+        "address": "314 Livingston Ave Apt 101E, Mamaroneck",
+        "price": 109000,
+        "beds": null,
+        "baths": 1,
+        "sqft": 250,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/314-Livingston-Ave-Apt-101E_Mamaroneck_NY_10543_M93461-21326",
+        "openHouses": [],
+        "listDate": "2026-06-25T22:33:11.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "3626093427",
         "town": "Mamaroneck",
@@ -8304,7 +8374,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 159
+        "daysOnMarket": 160
       },
       {
         "id": "9199642451",
@@ -8403,7 +8473,7 @@
           {
             "start_date": "2026-06-28T12:00:00",
             "end_date": "2026-06-28T14:00:00",
-            "description": null,
+            "description": "Please call Lesley Amato at 914-552-2875 for access.",
             "time_zone": "EST",
             "dst": true,
             "href": null,
@@ -8661,7 +8731,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/156-Forster-Ave_Fleetwood_NY_10552_M42901-42778",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-28T11:00:00",
+            "end_date": "2026-06-28T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
@@ -8712,7 +8794,41 @@
         "type": "multi family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/240-N-Fulton-Ave_Mount-Vernon_NY_10552_M41168-35326",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-06-27T13:00:00",
+            "end_date": "2026-06-27T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-07-01T05:00:00",
+            "end_date": "2026-07-01T19:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-07-05T13:00:00",
+            "end_date": "2026-07-05T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-25T20:17:02.000000Z",
         "lastSoldPrice": 495000,
         "lastSoldDate": "2011-12-16",
@@ -8784,7 +8900,7 @@
         "listDate": "2026-05-16T00:02:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "3712430393",
@@ -9051,7 +9167,7 @@
         "listDate": "2026-04-08T00:03:50.000000Z",
         "lastSoldPrice": 245000,
         "lastSoldDate": "1993-12-20",
-        "daysOnMarket": 78
+        "daysOnMarket": 79
       },
       {
         "id": "4376183510",
@@ -9187,7 +9303,7 @@
         "listDate": "2026-03-10T22:47:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 106
+        "daysOnMarket": 107
       },
       {
         "id": "3946140862",
@@ -9434,7 +9550,7 @@
         "listDate": "2026-05-14T23:33:48.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2016-02-03",
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "4823559957",
@@ -9502,7 +9618,7 @@
         "listDate": "2026-05-11T23:47:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "4825795914",
@@ -9536,7 +9652,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       },
       {
         "id": "4957572658",
@@ -9558,6 +9674,23 @@
     ],
     "Ridgewood": [],
     "Tarrytown": [
+      {
+        "id": "4377930669",
+        "town": "Tarrytown",
+        "address": "50 Embree St, Tarrytown",
+        "price": 549999,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 882,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/50-Embree-St_Tarrytown_NY_10591_M43779-30669",
+        "openHouses": [],
+        "listDate": "2026-06-25T23:03:44.000000Z",
+        "lastSoldPrice": 365000,
+        "lastSoldDate": "2017-08-04",
+        "daysOnMarket": 0
+      },
       {
         "id": "3209039535",
         "town": "Tarrytown",
@@ -10474,23 +10607,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 110
-      },
-      {
-        "id": "9612537575",
-        "town": "Tarrytown",
-        "address": "4 Lighthouse Lndg Unit 204, Sleepy Hollow",
-        "price": 3995000,
-        "beds": 3,
-        "baths": 4,
-        "sqft": 2356,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-204_Sleepy-Hollow_NY_10591_M96125-37575",
-        "openHouses": [],
-        "listDate": "2026-03-06T19:00:41.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 111
       }
     ],
     "Tuckahoe": [
@@ -10521,7 +10637,7 @@
         "listDate": "2026-06-23T00:04:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "3514624696",
@@ -10791,7 +10907,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "3594803854",
@@ -11019,7 +11135,7 @@
         "listDate": "2025-07-22T23:04:27.000000Z",
         "lastSoldPrice": 415000,
         "lastSoldDate": "2005-06-10",
-        "daysOnMarket": 337
+        "daysOnMarket": 338
       }
     ]
   }
