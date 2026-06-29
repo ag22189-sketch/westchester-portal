@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T20:52:13.129Z",
+  "updatedAt": "2026-06-29T22:14:43.346Z",
   "towns": {
     "Pelham": [
       {
@@ -379,6 +379,40 @@
     ],
     "Bronxville": [
       {
+        "id": "9561612620",
+        "town": "Bronxville",
+        "address": "1133 Midland Ave Apt 2C, Bronxville",
+        "price": 425000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 830,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-2C_Bronxville_NY_10708_M95616-12620",
+        "openHouses": [],
+        "listDate": "2026-06-29T21:17:32.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "9871107849",
+        "town": "Bronxville",
+        "address": "1133 Midland Ave Apt 6F, Bronxville",
+        "price": 599000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1004,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-6F_Bronxville_NY_10708_M98711-07849",
+        "openHouses": [],
+        "listDate": "2026-06-29T21:03:18.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "4870663159",
         "town": "Bronxville",
         "address": "163 St Nicholas Ave, Bronxville",
@@ -563,7 +597,7 @@
         "listDate": "2026-06-15T22:02:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "9725392467",
@@ -648,7 +682,7 @@
         "listDate": "2026-06-10T21:18:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "3781558013",
@@ -1085,7 +1119,7 @@
         "listDate": "2026-05-20T21:32:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "9847121937",
@@ -1205,40 +1239,6 @@
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2022-05-03",
         "daysOnMarket": 54
-      },
-      {
-        "id": "9818717505",
-        "town": "Bronxville",
-        "address": "26 Pondfield Rd W Apt F, Bronxville",
-        "price": 399000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 1100,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/26-Pondfield-Rd-W-Apt-F_Bronxville_NY_10708_M98187-17505",
-        "openHouses": [],
-        "listDate": "2026-05-01T19:03:16.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 59
-      },
-      {
-        "id": "3406211068",
-        "town": "Bronxville",
-        "address": "65 Wildway, Bronxville",
-        "price": 2259000,
-        "beds": 5,
-        "baths": 5,
-        "sqft": 2928,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/65-Wildway_Bronxville_NY_10708_M34062-11068",
-        "openHouses": [],
-        "listDate": "2026-04-30T18:12:12.000000Z",
-        "lastSoldPrice": 600000,
-        "lastSoldDate": "2011-04-18",
-        "daysOnMarket": 60
       }
     ],
     "Scarsdale": [
@@ -1427,7 +1427,7 @@
         "listDate": "2026-06-23T21:47:57.000000Z",
         "lastSoldPrice": 2025000,
         "lastSoldDate": "2019-11-15",
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "4271989189",
@@ -1943,7 +1943,7 @@
         "listDate": "2026-05-27T21:17:47.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2020-10-01",
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "4882515198",
@@ -2474,7 +2474,7 @@
         "listDate": "2026-05-08T21:02:35.000000Z",
         "lastSoldPrice": 2600000,
         "lastSoldDate": "2018-01-11",
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "3656291436",
@@ -2765,7 +2765,7 @@
         "listDate": "2026-05-22T21:04:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4865972972",
@@ -2867,7 +2867,7 @@
         "listDate": "2026-04-06T22:03:23.000000Z",
         "lastSoldPrice": 394300,
         "lastSoldDate": "2014-05-01",
-        "daysOnMarket": 83
+        "daysOnMarket": 84
       },
       {
         "id": "9821773445",
@@ -3090,7 +3090,7 @@
         "listDate": "2026-05-22T21:33:28.000000Z",
         "lastSoldPrice": 265000,
         "lastSoldDate": "2020-09-21",
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "3650659204",
@@ -3469,23 +3469,6 @@
         "daysOnMarket": 16
       },
       {
-        "id": "3228876969",
-        "town": "Eastchester",
-        "address": "6 Deerfield Ave, Eastchester",
-        "price": 950000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1450,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/6-Deerfield-Ave_Eastchester_NY_10709_M32288-76969",
-        "openHouses": [],
-        "listDate": "2026-06-12T19:13:12.000000Z",
-        "lastSoldPrice": 201000,
-        "lastSoldDate": "1985-12-23",
-        "daysOnMarket": 17
-      },
-      {
         "id": "4837893280",
         "town": "Eastchester",
         "address": "14 Manchester Rd Unit 2L, Eastchester",
@@ -3738,7 +3721,7 @@
         "listDate": "2026-04-16T21:17:52.000000Z",
         "lastSoldPrice": 539000,
         "lastSoldDate": "2014-09-22",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "4763638767",
@@ -4029,7 +4012,7 @@
         "listDate": "2026-06-17T22:04:22.000000Z",
         "lastSoldPrice": 378000,
         "lastSoldDate": "2017-02-23",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "4080771340",
@@ -4233,7 +4216,7 @@
         "listDate": "2026-06-05T21:32:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4246266394",
@@ -4488,7 +4471,7 @@
         "listDate": "2026-05-19T21:02:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "4248281752",
@@ -4505,7 +4488,7 @@
         "listDate": "2026-05-12T21:03:59.000000Z",
         "lastSoldPrice": 630000,
         "lastSoldDate": "2018-02-15",
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4246406288",
@@ -4658,7 +4641,7 @@
         "listDate": "2026-04-21T22:03:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       }
     ],
     "Harrison": [
@@ -4847,7 +4830,7 @@
         "listDate": "2026-05-22T21:04:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4033490305",
@@ -5000,7 +4983,7 @@
         "listDate": "2026-01-22T21:17:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 157
+        "daysOnMarket": 158
       },
       {
         "id": "4194963634",
@@ -5313,6 +5296,23 @@
     ],
     "Ho-Ho-Kus": [
       {
+        "id": "6954344523",
+        "town": "Ho-Ho-Kus",
+        "address": "7 Deerhill Dr, Ho Ho Kus",
+        "price": 3650000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/7-Deerhill-Dr_Ho-Ho-Kus_NJ_07423_M69543-44523",
+        "openHouses": [],
+        "listDate": "2026-06-29T21:12:27.000000Z",
+        "lastSoldPrice": 1280000,
+        "lastSoldDate": "2009-05-27",
+        "daysOnMarket": 0
+      },
+      {
         "id": "5263562115",
         "town": "Ho-Ho-Kus",
         "address": "4 Garden Ct, Ho Ho Kus",
@@ -5395,7 +5395,7 @@
         "listDate": "2026-06-17T22:06:13.000000Z",
         "lastSoldPrice": 1110000,
         "lastSoldDate": "2013-08-13",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "5001195359",
@@ -5483,23 +5483,6 @@
         "daysOnMarket": 32
       },
       {
-        "id": "6954344523",
-        "town": "Ho-Ho-Kus",
-        "address": "7 Deerhill Dr, Ho Ho Kus",
-        "price": 3650000,
-        "beds": 5,
-        "baths": 6,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/7-Deerhill-Dr_Ho-Ho-Kus_NJ_07423_M69543-44523",
-        "openHouses": [],
-        "listDate": "2026-04-22T20:00:16.000000Z",
-        "lastSoldPrice": 1280000,
-        "lastSoldDate": "2009-05-27",
-        "daysOnMarket": 68
-      },
-      {
         "id": "5208018191",
         "town": "Ho-Ho-Kus",
         "address": "36 Clearwater Dr, Ho Ho Kus",
@@ -5550,7 +5533,7 @@
         "listDate": "2026-06-22T21:04:37.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4556540553",
@@ -5635,7 +5618,7 @@
         "listDate": "2026-06-05T21:03:14.000000Z",
         "lastSoldPrice": 1950000,
         "lastSoldDate": "2020-11-05",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4751031507",
@@ -5645,7 +5628,7 @@
         "beds": 2,
         "baths": 3,
         "sqft": 1900,
-        "type": "townhomes",
+        "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/60-Quail-Close_Irvington_NY_10533_M47510-31507",
         "openHouses": [],
@@ -5720,7 +5703,7 @@
         "listDate": "2026-05-31T21:32:06.000000Z",
         "lastSoldPrice": 535000,
         "lastSoldDate": "2012-09-10",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3425358762",
@@ -5737,7 +5720,7 @@
         "listDate": "2026-05-28T21:18:23.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "9846008783",
@@ -5780,12 +5763,12 @@
         "price": 1800000,
         "beds": 5,
         "baths": 6,
-        "sqft": null,
+        "sqft": 3502,
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/16-Lewis-Rd_Irvington_NY_10533_M38781-57114",
         "openHouses": [],
-        "listDate": "2026-05-06T20:05:56.000000Z",
+        "listDate": "2026-05-06T19:47:56.000000Z",
         "lastSoldPrice": 1650000,
         "lastSoldDate": "2023-07-17",
         "daysOnMarket": 54
@@ -5968,7 +5951,7 @@
         "beds": 2,
         "baths": 3,
         "sqft": 1800,
-        "type": "townhomes",
+        "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/72-Quail-Close_Irvington_NY_10533_M39431-48918",
         "openHouses": [],
@@ -6113,7 +6096,7 @@
         "listDate": "2026-06-24T21:05:11.000000Z",
         "lastSoldPrice": 1200000,
         "lastSoldDate": "2025-06-02",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "4943970589",
@@ -6215,7 +6198,7 @@
         "listDate": "2026-06-17T21:04:49.000000Z",
         "lastSoldPrice": 3237500,
         "lastSoldDate": "2000-09-29",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3887571396",
@@ -6266,7 +6249,7 @@
         "listDate": "2026-06-15T21:32:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3460513844",
@@ -6900,23 +6883,6 @@
         "daysOnMarket": 17
       },
       {
-        "id": "3241625070",
-        "town": "Mamaroneck",
-        "address": "300 Livingston Ave Apt 2A, Mamaroneck",
-        "price": 675000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1230,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/300-Livingston-Ave-Apt-2A_Mamaroneck_NY_10543_M32416-25070",
-        "openHouses": [],
-        "listDate": "2026-06-11T15:48:46.000000Z",
-        "lastSoldPrice": 445000,
-        "lastSoldDate": "2023-05-17",
-        "daysOnMarket": 18
-      },
-      {
         "id": "4032863082",
         "town": "Mamaroneck",
         "address": "1415 Park Ave, Mamaroneck",
@@ -6965,7 +6931,7 @@
         "listDate": "2026-06-06T21:16:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3867551361",
@@ -7489,7 +7455,7 @@
         "listDate": "2026-06-12T21:19:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "9154668273",
@@ -7540,7 +7506,7 @@
         "listDate": "2026-06-07T21:02:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4299421997",
@@ -7575,23 +7541,6 @@
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-08-25",
         "daysOnMarket": 25
-      },
-      {
-        "id": "4563047172",
-        "town": "Mount Vernon",
-        "address": "472 Gramatan Bldg 6 Ave Unit CC3, Mount Vernon",
-        "price": 235000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 1200,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/472-Gramatan-Ave-Apt-CC3_Mount-Vernon_NY_10552_M45630-47172",
-        "openHouses": [],
-        "listDate": "2026-06-01T19:44:14.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 28
       },
       {
         "id": "3367948392",
@@ -7699,7 +7648,7 @@
         "listDate": "2026-05-22T21:18:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4574034727",
@@ -7767,7 +7716,7 @@
         "listDate": "2026-05-13T21:18:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4434547783",
@@ -7835,7 +7784,7 @@
         "listDate": "2026-05-05T22:03:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "3319353603",
@@ -8210,6 +8159,23 @@
         "lastSoldPrice": 793500,
         "lastSoldDate": "2022-09-22",
         "daysOnMarket": 131
+      },
+      {
+        "id": "9906669938",
+        "town": "Mount Vernon",
+        "address": "663 Locust St Apt 5G, Mount Vernon",
+        "price": 110900,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 650,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/663-Locust-St-Apt-5G_Mount-Vernon_NY_10552_M99066-69938",
+        "openHouses": [],
+        "listDate": "2026-02-13T20:05:27.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 136
       }
     ],
     "Pleasantville": [
@@ -8381,7 +8347,7 @@
         "listDate": "2026-05-22T21:04:07.000000Z",
         "lastSoldPrice": 327500,
         "lastSoldDate": "2000-04-05",
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "3408299887",
@@ -8415,7 +8381,7 @@
         "listDate": "2026-05-18T21:02:15.000000Z",
         "lastSoldPrice": 477000,
         "lastSoldDate": "1995-05-24",
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "4537101029",
@@ -8424,7 +8390,7 @@
         "price": 1095000,
         "beds": 3,
         "baths": 3,
-        "sqft": null,
+        "sqft": 2048,
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/7-Hays-Hill-Rd_Pleasantville_NY_10570_M45371-01029",
@@ -8639,7 +8605,7 @@
         "listDate": "2026-06-16T21:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "3066711331",
@@ -8911,7 +8877,7 @@
         "listDate": "2026-05-18T22:04:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "3511304175",
@@ -8996,7 +8962,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "9021063983",
@@ -9013,7 +8979,7 @@
         "listDate": "2026-05-07T21:02:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "9024336673",
@@ -9047,7 +9013,7 @@
         "listDate": "2026-04-29T22:07:21.000000Z",
         "lastSoldPrice": 805000,
         "lastSoldDate": "2022-05-12",
-        "daysOnMarket": 60
+        "daysOnMarket": 61
       },
       {
         "id": "4064503608",
@@ -9268,7 +9234,7 @@
         "listDate": "2026-03-30T22:07:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 90
+        "daysOnMarket": 91
       },
       {
         "id": "4387507986",
@@ -9285,7 +9251,7 @@
         "listDate": "2026-03-27T21:33:25.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2022-04-20",
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "9702641256",
@@ -9319,7 +9285,7 @@
         "listDate": "2026-03-24T21:34:58.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 96
+        "daysOnMarket": 97
       },
       {
         "id": "3516788534",
