@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T08:14:37.857Z",
+  "updatedAt": "2026-07-03T11:38:01.234Z",
   "towns": {
     "Pelham": [
       {
@@ -1165,7 +1165,7 @@
         "listDate": "2026-05-15T11:31:38.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "2009-06-25",
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "4876428254",
@@ -2379,7 +2379,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "3170759769",
@@ -3428,7 +3428,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3916366077",
@@ -3705,23 +3705,6 @@
         "daysOnMarket": 0
       },
       {
-        "id": "9931725115",
-        "town": "Hartsdale",
-        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
-        "price": 385000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1200,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
-        "openHouses": [],
-        "listDate": "2026-06-26T19:14:13.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 6
-      },
-      {
         "id": "3206804159",
         "town": "Hartsdale",
         "address": "21 Joyce Rd, Hartsdale",
@@ -3736,6 +3719,23 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": 470400,
         "lastSoldDate": "2015-11-20",
+        "daysOnMarket": 6
+      },
+      {
+        "id": "9931725115",
+        "town": "Hartsdale",
+        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
+        "price": 385000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
+        "openHouses": [],
+        "listDate": "2026-06-26T19:14:13.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 6
       },
       {
@@ -3991,7 +3991,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9499208463",
@@ -4025,7 +4025,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3736145929",
@@ -5913,11 +5913,23 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/11-Alden-Rd-Apt-6N_Larchmont_NY_10538_M46566-99634",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-12T11:00:00",
+            "end_date": "2026-07-12T13:00:00",
+            "description": "/PUBLIC",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4385838569",
@@ -7385,7 +7397,7 @@
         "listDate": "2026-06-04T10:01:59.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3367948392",
@@ -7436,7 +7448,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4116835326",
@@ -7873,7 +7885,7 @@
         "listDate": "2026-03-03T10:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 121
+        "daysOnMarket": 122
       },
       {
         "id": "9313712188",
@@ -8028,7 +8040,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "3767002130",
@@ -8354,7 +8366,7 @@
         "listDate": "2026-06-12T11:32:43.000000Z",
         "lastSoldPrice": 345000,
         "lastSoldDate": "1988-12-30",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9044204210",
