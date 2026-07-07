@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T04:59:13.992Z",
+  "updatedAt": "2026-07-07T08:34:15.600Z",
   "towns": {
     "Pelham": [
       {
@@ -289,7 +289,7 @@
         "listDate": "2026-02-25T05:33:44.000000Z",
         "lastSoldPrice": 570000,
         "lastSoldDate": "2004-08-18",
-        "daysOnMarket": 131
+        "daysOnMarket": 132
       },
       {
         "id": "4510678253",
@@ -306,7 +306,7 @@
         "listDate": "2025-11-21T05:48:01.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 227
+        "daysOnMarket": 228
       },
       {
         "id": "4483697710",
@@ -342,7 +342,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9152493437",
@@ -1698,23 +1698,6 @@
         "daysOnMarket": 24
       },
       {
-        "id": "4430071316",
-        "town": "Scarsdale",
-        "address": "65 Fox Meadow Rd, Scarsdale",
-        "price": 5150000,
-        "beds": 6,
-        "baths": 8,
-        "sqft": 7163,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/65-Fox-Meadow-Rd_Scarsdale_NY_10583_M44300-71316",
-        "openHouses": [],
-        "listDate": "2026-06-12T19:13:12.000000Z",
-        "lastSoldPrice": 1700000,
-        "lastSoldDate": "2025-03-17",
-        "daysOnMarket": 24
-      },
-      {
         "id": "3018664861",
         "town": "Scarsdale",
         "address": "143 Garth Rd Apt 5L, Scarsdale",
@@ -1729,6 +1712,23 @@
         "listDate": "2026-06-12T19:13:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 24
+      },
+      {
+        "id": "4430071316",
+        "town": "Scarsdale",
+        "address": "65 Fox Meadow Rd, Scarsdale",
+        "price": 5150000,
+        "beds": 6,
+        "baths": 8,
+        "sqft": 7163,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/65-Fox-Meadow-Rd_Scarsdale_NY_10583_M44300-71316",
+        "openHouses": [],
+        "listDate": "2026-06-12T19:13:12.000000Z",
+        "lastSoldPrice": 1700000,
+        "lastSoldDate": "2025-03-17",
         "daysOnMarket": 24
       },
       {
@@ -2464,7 +2464,7 @@
         "listDate": "2026-02-06T05:47:54.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2024-11-14",
-        "daysOnMarket": 150
+        "daysOnMarket": 151
       },
       {
         "id": "4195966666",
@@ -2767,7 +2767,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "3216529347",
@@ -3133,7 +3133,7 @@
         "listDate": "2026-05-16T06:33:31.000000Z",
         "lastSoldPrice": 266000,
         "lastSoldDate": "1991-07-02",
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "3900632849",
@@ -3532,7 +3532,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3916366077",
@@ -3826,23 +3826,6 @@
         "daysOnMarket": 4
       },
       {
-        "id": "9931725115",
-        "town": "Hartsdale",
-        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
-        "price": 385000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1200,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
-        "openHouses": [],
-        "listDate": "2026-06-26T19:14:13.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 10
-      },
-      {
         "id": "3206804159",
         "town": "Hartsdale",
         "address": "21 Joyce Rd, Hartsdale",
@@ -3857,6 +3840,23 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": 470400,
         "lastSoldDate": "2015-11-20",
+        "daysOnMarket": 10
+      },
+      {
+        "id": "9931725115",
+        "town": "Hartsdale",
+        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
+        "price": 385000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
+        "openHouses": [],
+        "listDate": "2026-06-26T19:14:13.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 10
       },
       {
@@ -4452,7 +4452,7 @@
         "listDate": "2026-04-30T06:17:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "3449953061",
@@ -5543,7 +5543,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "4556540553",
@@ -5815,7 +5815,7 @@
         "listDate": "2026-04-24T05:36:14.000000Z",
         "lastSoldPrice": 964000,
         "lastSoldDate": "2015-10-05",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3346674613",
@@ -5866,7 +5866,7 @@
         "listDate": "2026-04-06T05:34:33.000000Z",
         "lastSoldPrice": 1065000,
         "lastSoldDate": "2010-07-23",
-        "daysOnMarket": 91
+        "daysOnMarket": 92
       },
       {
         "id": "3372388114",
@@ -5900,7 +5900,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 102
+        "daysOnMarket": 103
       },
       {
         "id": "3181611801",
@@ -6002,7 +6002,7 @@
         "listDate": "2026-02-17T06:34:37.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2016-08-19",
-        "daysOnMarket": 139
+        "daysOnMarket": 140
       },
       {
         "id": "3170991008",
@@ -6019,7 +6019,7 @@
         "listDate": "2026-02-14T05:35:21.000000Z",
         "lastSoldPrice": 895000,
         "lastSoldDate": "2016-07-29",
-        "daysOnMarket": 142
+        "daysOnMarket": 143
       }
     ],
     "Larchmont": [
@@ -6221,7 +6221,7 @@
         "listDate": "2026-06-18T05:03:13.000000Z",
         "lastSoldPrice": 205000,
         "lastSoldDate": "1992-04-16",
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "3736549681",
@@ -6692,7 +6692,7 @@
         "listDate": "2026-01-09T05:48:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 178
+        "daysOnMarket": 179
       },
       {
         "id": "4122022813",
@@ -6709,7 +6709,7 @@
         "listDate": "2025-11-12T05:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 236
+        "daysOnMarket": 237
       },
       {
         "id": "4486584155",
@@ -7068,7 +7068,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 83
+        "daysOnMarket": 84
       },
       {
         "id": "4185937509",
@@ -7153,7 +7153,7 @@
         "listDate": "2026-02-10T05:32:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 146
+        "daysOnMarket": 147
       },
       {
         "id": "9595203244",
@@ -7565,7 +7565,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "9873636599",
@@ -8036,7 +8036,7 @@
         "listDate": "2026-03-02T05:32:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 126
+        "daysOnMarket": 127
       },
       {
         "id": "9654747041",
@@ -8070,7 +8070,7 @@
         "listDate": "2026-02-27T05:01:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 129
+        "daysOnMarket": 130
       },
       {
         "id": "3815902171",
@@ -8840,7 +8840,7 @@
         "listDate": "2026-05-09T06:02:24.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "4986747856",
@@ -8959,7 +8959,7 @@
         "listDate": "2026-04-20T06:02:14.000000Z",
         "lastSoldPrice": 1484500,
         "lastSoldDate": "2017-06-16",
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "9486639969",
@@ -9180,7 +9180,7 @@
         "listDate": "2026-03-24T05:36:03.000000Z",
         "lastSoldPrice": 1120000,
         "lastSoldDate": "2018-06-01",
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "3717214831",
@@ -9214,7 +9214,7 @@
         "listDate": "2026-03-07T05:33:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 121
+        "daysOnMarket": 122
       },
       {
         "id": "9612537575",
@@ -9556,7 +9556,7 @@
         "listDate": "2026-02-27T05:49:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 129
+        "daysOnMarket": 130
       },
       {
         "id": "4653182514",
