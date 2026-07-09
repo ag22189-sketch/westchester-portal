@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T20:51:53.859Z",
+  "updatedAt": "2026-07-09T22:37:07.615Z",
   "towns": {
     "Pelham": [
       {
@@ -132,7 +132,7 @@
         "listDate": "2026-06-30T21:33:20.000000Z",
         "lastSoldPrice": 1245000,
         "lastSoldDate": "2012-07-17",
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "4820761833",
@@ -765,7 +765,7 @@
         "listDate": "2026-06-29T21:17:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "9871107849",
@@ -782,7 +782,7 @@
         "listDate": "2026-06-29T21:03:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4870663159",
@@ -952,7 +952,7 @@
         "listDate": "2026-06-15T22:02:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "9725392467",
@@ -1054,7 +1054,7 @@
         "listDate": "2026-06-10T21:18:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "9353582871",
@@ -1202,7 +1202,7 @@
         "listDate": "2026-06-03T22:32:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "3131625454",
@@ -1333,7 +1333,7 @@
         "listDate": "2026-05-29T22:17:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "9309989150",
@@ -1479,7 +1479,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/193-Rogers-Dr_Scarsdale_NY_10583_M44717-71386",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-12T13:00:00",
+            "end_date": "2026-07-12T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-09T16:49:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -1551,7 +1563,7 @@
         "listDate": "2026-07-07T22:32:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4093136755",
@@ -1626,7 +1638,7 @@
         "listDate": "2026-07-02T21:47:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4394864630",
@@ -1712,7 +1724,7 @@
         "listDate": "2026-07-01T22:05:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9365887176",
@@ -2344,7 +2356,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/42-Stratford-Rd_Scarsdale_NY_10583_M47588-78876",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-12T11:00:00",
+            "end_date": "2026-07-12T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-03T20:47:49.000000Z",
         "lastSoldPrice": 670000,
         "lastSoldDate": "2026-03-03",
@@ -2797,6 +2821,23 @@
     ],
     "Bedford": [
       {
+        "id": "3139866302",
+        "town": "Bedford",
+        "address": "208 Harris Rd, Bedford Hills",
+        "price": 469000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1400,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/208-Harris-Rd-Apt-AA3_Bedford-Hills_NY_10507_M31398-66302",
+        "openHouses": [],
+        "listDate": "2026-07-09T20:49:21.000000Z",
+        "lastSoldPrice": 110000,
+        "lastSoldDate": "1996-11-13",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4863448334",
         "town": "Bedford",
         "address": "22 Locksley Ln, Bedford Hills",
@@ -2925,7 +2966,7 @@
         "listDate": "2026-05-08T21:02:35.000000Z",
         "lastSoldPrice": 2600000,
         "lastSoldDate": "2018-01-11",
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "3656291436",
@@ -3063,7 +3104,7 @@
         "listDate": "2026-07-06T21:48:41.000000Z",
         "lastSoldPrice": 370000,
         "lastSoldDate": "1997-01-22",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "3939210620",
@@ -3336,7 +3377,7 @@
         "listDate": "2026-05-22T21:04:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4724056712",
@@ -3506,7 +3547,7 @@
         "listDate": "2026-04-06T22:03:23.000000Z",
         "lastSoldPrice": 394300,
         "lastSoldDate": "2014-05-01",
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "4665433563",
@@ -3574,7 +3615,7 @@
         "listDate": "2026-03-01T22:17:56.000000Z",
         "lastSoldPrice": 251000,
         "lastSoldDate": "1981-08-01",
-        "daysOnMarket": 129
+        "daysOnMarket": 130
       },
       {
         "id": "9134277346",
@@ -4083,7 +4124,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 121
+        "daysOnMarket": 122
       },
       {
         "id": "9163017386",
@@ -4155,6 +4196,46 @@
       }
     ],
     "Eastchester": [
+      {
+        "id": "4730637590",
+        "town": "Eastchester",
+        "address": "5 Knox Rd, Eastchester",
+        "price": 729999,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1690,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/5-Knox-Rd_Eastchester_NY_10709_M47306-37590",
+        "openHouses": [
+          {
+            "start_date": "2026-07-11T12:00:00",
+            "end_date": "2026-07-11T14:00:00",
+            "description": "Perfectly situated in the sought-after Huntley Estates neighborhood of Eastchester, this charming four-bedroom, two-bath Cape Cod offers nearly 1,700 square feet of comfortable living space. The inviting living room features a large picture window that fills the space with natural light, a cozy wood-burning fireplace, and an open flow into the dining room-ideal for both everyday living and entertaining.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-07-12T12:00:00",
+            "end_date": "2026-07-12T14:00:00",
+            "description": "Perfectly situated in the sought-after Huntley Estates neighborhood of Eastchester, this charming four-bedroom, two-bath Cape Cod offers nearly 1,700 square feet of comfortable living space. The inviting living room features a large picture window that fills the space with natural light, a cozy wood-burning fireplace, and an open flow into the dining room-ideal for both everyday living and entertaining.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-07-09T21:05:14.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "3417656084",
         "town": "Eastchester",
@@ -4245,7 +4326,7 @@
         "listDate": "2026-07-06T21:05:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "3776580914",
@@ -4644,7 +4725,7 @@
         "listDate": "2026-04-16T21:17:52.000000Z",
         "lastSoldPrice": 539000,
         "lastSoldDate": "2014-09-22",
-        "daysOnMarket": 83
+        "daysOnMarket": 84
       },
       {
         "id": "4763638767",
@@ -5032,7 +5113,7 @@
         "listDate": "2026-06-17T22:04:22.000000Z",
         "lastSoldPrice": 378000,
         "lastSoldDate": "2017-02-23",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4080771340",
@@ -5231,7 +5312,7 @@
         "listDate": "2026-06-05T21:32:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "4246266394",
@@ -5435,7 +5516,7 @@
         "listDate": "2026-05-19T21:02:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "4248281752",
@@ -5452,7 +5533,7 @@
         "listDate": "2026-05-12T21:03:59.000000Z",
         "lastSoldPrice": 630000,
         "lastSoldDate": "2018-02-15",
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "3613483018",
@@ -5914,7 +5995,7 @@
         "listDate": "2026-05-22T21:04:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4026223447",
@@ -6050,7 +6131,7 @@
         "listDate": "2026-03-19T22:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 111
+        "daysOnMarket": 112
       },
       {
         "id": "3764777270",
@@ -6084,7 +6165,7 @@
         "listDate": "2026-01-22T21:17:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 167
+        "daysOnMarket": 168
       },
       {
         "id": "4194963634",
@@ -6517,23 +6598,6 @@
     ],
     "Ho-Ho-Kus": [
       {
-        "id": "6631780399",
-        "town": "Ho-Ho-Kus",
-        "address": "5 Blanchfield Ct, Ho Ho Kus",
-        "price": 1599000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/5-Blanchfield-Ct_Ho-Ho-Kus_NJ_07423_M66317-80399",
-        "openHouses": [],
-        "listDate": "2026-07-09T16:06:18.000000Z",
-        "lastSoldPrice": 662500,
-        "lastSoldDate": "2024-09-30",
-        "daysOnMarket": 0
-      },
-      {
         "id": "6954344523",
         "town": "Ho-Ho-Kus",
         "address": "7 Deerhill Dr, Ho Ho Kus",
@@ -6656,7 +6720,7 @@
         "listDate": "2026-06-17T22:06:13.000000Z",
         "lastSoldPrice": 1110000,
         "lastSoldDate": "2013-08-13",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "5001195359",
@@ -6686,19 +6750,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/217-Elmwood-Ave_Ho-Ho-Kus_NJ_07423_M63501-00194",
-        "openHouses": [
-          {
-            "start_date": "2026-07-12T14:00:00",
-            "end_date": "2026-07-12T16:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-06-10T17:43:38.000000Z",
         "lastSoldPrice": 1140000,
         "lastSoldDate": "2025-09-02",
@@ -6723,6 +6775,35 @@
       }
     ],
     "Irvington": [
+      {
+        "id": "3425358762",
+        "town": "Irvington",
+        "address": "28 Sycamore Ln, Irvington",
+        "price": 1290000,
+        "beds": 3,
+        "baths": 4,
+        "sqft": 3759,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/28-Sycamore-Ln_Irvington_NY_10533_M34253-58762",
+        "openHouses": [
+          {
+            "start_date": "2026-07-12T13:00:00",
+            "end_date": "2026-07-12T15:00:00",
+            "description": "Experience the best of upscale suburban living and city convenience in this one-of-a-kind modern home in the heart of Irvington. Perfectly positioned for walkability and privacy, this multi-level residence offers direct Metro-North access for effortless NYC commutes, with acclaimed restaurants, scenic parks, tennis courts, and vibrant community events just steps away.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-07-09T19:09:57.000000Z",
+        "lastSoldPrice": 969000,
+        "lastSoldDate": "2004-09-10",
+        "daysOnMarket": 0
+      },
       {
         "id": "3900777541",
         "town": "Irvington",
@@ -6937,7 +7018,7 @@
         "listDate": "2026-06-05T21:03:14.000000Z",
         "lastSoldPrice": 1950000,
         "lastSoldDate": "2020-11-05",
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "4751031507",
@@ -7005,24 +7086,7 @@
         "listDate": "2026-05-31T21:32:06.000000Z",
         "lastSoldPrice": 535000,
         "lastSoldDate": "2012-09-10",
-        "daysOnMarket": 38
-      },
-      {
-        "id": "3425358762",
-        "town": "Irvington",
-        "address": "28 Sycamore Ln, Irvington",
-        "price": 1590000,
-        "beds": 3,
-        "baths": 4,
-        "sqft": 3759,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/28-Sycamore-Ln_Irvington_NY_10533_M34253-58762",
-        "openHouses": [],
-        "listDate": "2026-05-29T00:07:58.000000Z",
-        "lastSoldPrice": 969000,
-        "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 41
+        "daysOnMarket": 39
       },
       {
         "id": "3509877920",
@@ -7290,7 +7354,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/116-Valleyview-Rd_Irvington_NY_10533_M33723-88114",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-11T12:00:00",
+            "end_date": "2026-07-11T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-04-04T20:47:41.000000Z",
         "lastSoldPrice": 675000,
         "lastSoldDate": "2004-02-06",
@@ -7486,6 +7562,23 @@
     ],
     "Larchmont": [
       {
+        "id": "3062913354",
+        "town": "Larchmont",
+        "address": "89 Edgewood Ave, Larchmont",
+        "price": 1325000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2065,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/89-Edgewood-Ave_Larchmont_NY_10538_M30629-13354",
+        "openHouses": [],
+        "listDate": "2026-07-09T17:19:35.000000Z",
+        "lastSoldPrice": 240000,
+        "lastSoldDate": "1984-08-24",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4671866049",
         "town": "Larchmont",
         "address": "25 Shadow Ln, Larchmont",
@@ -7678,7 +7771,7 @@
         "listDate": "2026-06-24T21:05:11.000000Z",
         "lastSoldPrice": 1200000,
         "lastSoldDate": "2025-06-02",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4127042342",
@@ -7732,23 +7825,6 @@
         "daysOnMarket": 21
       },
       {
-        "id": "3736549681",
-        "town": "Larchmont",
-        "address": "3 Oak Ln, Larchmont",
-        "price": 5300000,
-        "beds": 7,
-        "baths": 8,
-        "sqft": 7724,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/3-Oak-Ln_Larchmont_NY_10538_M37365-49681",
-        "openHouses": [],
-        "listDate": "2026-06-17T21:04:49.000000Z",
-        "lastSoldPrice": 3237500,
-        "lastSoldDate": "2000-09-29",
-        "daysOnMarket": 21
-      },
-      {
         "id": "3887571396",
         "town": "Larchmont",
         "address": "531 Weaver St, Larchmont",
@@ -7797,7 +7873,7 @@
         "listDate": "2026-06-15T21:32:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "9457311375",
@@ -7831,7 +7907,7 @@
         "listDate": "2026-06-10T22:33:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "9806318953",
@@ -8132,7 +8208,7 @@
         "listDate": "2026-04-07T22:18:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 92
+        "daysOnMarket": 93
       },
       {
         "id": "3018136658",
@@ -8282,7 +8358,7 @@
         "listDate": "2026-07-07T21:17:48.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2024-07-09",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4469381014",
@@ -8419,7 +8495,7 @@
         "listDate": "2026-06-25T22:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3922257765",
@@ -9196,7 +9272,7 @@
         "listDate": "2026-06-12T21:19:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "9154668273",
@@ -9247,7 +9323,7 @@
         "listDate": "2026-06-07T21:02:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4299421997",
@@ -9366,7 +9442,7 @@
         "listDate": "2026-05-22T21:18:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4574034727",
@@ -9451,7 +9527,7 @@
         "listDate": "2026-05-13T21:18:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "4434547783",
@@ -9468,7 +9544,7 @@
         "listDate": "2026-05-12T22:17:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "3688063511",
@@ -9531,7 +9607,7 @@
         "listDate": "2026-05-05T22:03:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "3319353603",
@@ -9696,7 +9772,7 @@
         "listDate": "2026-04-03T22:17:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 96
+        "daysOnMarket": 97
       },
       {
         "id": "4376183510",
@@ -10452,7 +10528,7 @@
         "listDate": "2026-06-16T21:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3066711331",
@@ -10804,7 +10880,7 @@
         "listDate": "2026-05-18T22:04:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "9838699766",
@@ -10872,7 +10948,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "3029061357",
@@ -10906,7 +10982,7 @@
         "listDate": "2026-05-07T21:02:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 62
+        "daysOnMarket": 63
       },
       {
         "id": "9024336673",
@@ -10940,7 +11016,7 @@
         "listDate": "2026-04-29T22:07:21.000000Z",
         "lastSoldPrice": 805000,
         "lastSoldDate": "2022-05-12",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "9512751423",
@@ -11173,7 +11249,7 @@
         "listDate": "2026-03-30T22:07:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 100
+        "daysOnMarket": 101
       },
       {
         "id": "4387507986",
@@ -11190,7 +11266,7 @@
         "listDate": "2026-03-27T21:33:25.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2022-04-20",
-        "daysOnMarket": 103
+        "daysOnMarket": 104
       },
       {
         "id": "9702641256",
@@ -11224,7 +11300,7 @@
         "listDate": "2026-03-24T21:34:58.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 106
+        "daysOnMarket": 107
       },
       {
         "id": "3516788534",
@@ -11245,6 +11321,23 @@
       }
     ],
     "Tuckahoe": [
+      {
+        "id": "3926289487",
+        "town": "Tuckahoe",
+        "address": "50 Columbus Ave Apt F20, Tuckahoe",
+        "price": 849000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1718,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/50-Columbus-Ave-Apt-F20_Tuckahoe_NY_10707_M39262-89487",
+        "openHouses": [],
+        "listDate": "2026-07-09T20:18:57.000000Z",
+        "lastSoldPrice": 580000,
+        "lastSoldDate": "2020-01-31",
+        "daysOnMarket": 0
+      },
       {
         "id": "4016609413",
         "town": "Tuckahoe",
@@ -11357,7 +11450,7 @@
         "listDate": "2026-06-08T21:04:02.000000Z",
         "lastSoldPrice": 137500,
         "lastSoldDate": "1992-12-29",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "9383226249",
@@ -11493,7 +11586,7 @@
         "listDate": "2026-04-20T21:48:24.000000Z",
         "lastSoldPrice": 160000,
         "lastSoldDate": "1997-08-13",
-        "daysOnMarket": 79
+        "daysOnMarket": 80
       },
       {
         "id": "4892019939",
