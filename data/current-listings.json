@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T04:58:19.926Z",
+  "updatedAt": "2026-07-10T08:31:02.480Z",
   "towns": {
     "Pelham": [
       {
@@ -518,7 +518,7 @@
         "listDate": "2026-02-25T05:33:44.000000Z",
         "lastSoldPrice": 570000,
         "lastSoldDate": "2004-08-18",
-        "daysOnMarket": 134
+        "daysOnMarket": 135
       },
       {
         "id": "4510678253",
@@ -535,7 +535,7 @@
         "listDate": "2025-11-21T05:48:01.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 230
+        "daysOnMarket": 231
       },
       {
         "id": "4483697710",
@@ -556,6 +556,40 @@
       }
     ],
     "Bronxville": [
+      {
+        "id": "9748485409",
+        "town": "Bronxville",
+        "address": "1111 Midland Ave Apt 6G, Bronxville",
+        "price": 385000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1111-Midland-Ave-Apt-6G_Bronxville_NY_10708_M97484-85409",
+        "openHouses": [],
+        "listDate": "2026-07-10T05:46:46.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4717795664",
+        "town": "Bronxville",
+        "address": "3 Lawrence Park Cres, Bronxville",
+        "price": 550000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1300,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/3-Lawrence-Park-Cres_Bronxville_NY_10708_M47177-95664",
+        "openHouses": [],
+        "listDate": "2026-07-10T05:41:21.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "3874166509",
         "town": "Bronxville",
@@ -685,7 +719,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "9152493437",
@@ -890,23 +924,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 15
-      },
-      {
-        "id": "4717795664",
-        "town": "Bronxville",
-        "address": "3 Lawrence Park Cres Unit 3, Bronxville",
-        "price": 550000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1300,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/3-Lawrence-Park-Cres_Bronxville_NY_10708_M47177-95664",
-        "openHouses": [],
-        "listDate": "2026-06-20T19:32:45.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 19
       },
       {
         "id": "9889920925",
@@ -1435,23 +1452,6 @@
         "listDate": "2026-05-28T14:48:14.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
-      },
-      {
-        "id": "3411204705",
-        "town": "Bronxville",
-        "address": "27 Desmond Ave, Bronxville",
-        "price": 889000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 2234,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/27-Desmond-Ave_Bronxville_NY_10708_M34112-04705",
-        "openHouses": [],
-        "listDate": "2026-05-28T14:03:58.000000Z",
-        "lastSoldPrice": 520000,
-        "lastSoldDate": "2016-08-04",
         "daysOnMarket": 42
       }
     ],
@@ -2736,7 +2736,7 @@
         "listDate": "2025-12-17T08:00:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 204
+        "daysOnMarket": 205
       },
       {
         "id": "3324023218",
@@ -3022,7 +3022,7 @@
         "listDate": "2026-02-06T05:47:54.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2024-11-14",
-        "daysOnMarket": 153
+        "daysOnMarket": 154
       },
       {
         "id": "4195966666",
@@ -3416,7 +3416,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "3216529347",
@@ -3925,7 +3925,7 @@
         "listDate": "2026-05-16T06:33:31.000000Z",
         "lastSoldPrice": 266000,
         "lastSoldDate": "1991-07-02",
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "3900632849",
@@ -4434,7 +4434,7 @@
         "listDate": "2026-06-20T05:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "4242046173",
@@ -4560,7 +4560,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4536519295",
@@ -5703,7 +5703,7 @@
         "listDate": "2026-04-30T06:17:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       }
     ],
     "Harrison": [
@@ -6928,7 +6928,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4556540553",
@@ -7268,7 +7268,7 @@
         "listDate": "2026-04-24T05:36:14.000000Z",
         "lastSoldPrice": 964000,
         "lastSoldDate": "2015-10-05",
-        "daysOnMarket": 76
+        "daysOnMarket": 77
       },
       {
         "id": "4816097842",
@@ -7353,7 +7353,7 @@
         "listDate": "2026-04-06T05:34:33.000000Z",
         "lastSoldPrice": 1065000,
         "lastSoldDate": "2010-07-23",
-        "daysOnMarket": 94
+        "daysOnMarket": 95
       },
       {
         "id": "3372388114",
@@ -7399,7 +7399,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 105
+        "daysOnMarket": 106
       },
       {
         "id": "3181611801",
@@ -7501,7 +7501,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": 1370000,
         "lastSoldDate": "2018-08-21",
-        "daysOnMarket": 128
+        "daysOnMarket": 129
       },
       {
         "id": "4283285844",
@@ -7518,7 +7518,7 @@
         "listDate": "2026-02-17T06:34:37.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2016-08-19",
-        "daysOnMarket": 142
+        "daysOnMarket": 143
       },
       {
         "id": "3170991008",
@@ -7535,7 +7535,7 @@
         "listDate": "2026-02-14T05:35:21.000000Z",
         "lastSoldPrice": 895000,
         "lastSoldDate": "2016-07-29",
-        "daysOnMarket": 145
+        "daysOnMarket": 146
       },
       {
         "id": "9852357213",
@@ -7552,7 +7552,7 @@
         "listDate": "2025-11-17T05:32:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 234
+        "daysOnMarket": 235
       },
       {
         "id": "9460144304",
@@ -7834,7 +7834,7 @@
         "listDate": "2026-06-18T05:03:13.000000Z",
         "lastSoldPrice": 205000,
         "lastSoldDate": "1992-04-16",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3887571396",
@@ -8288,7 +8288,7 @@
         "listDate": "2026-01-09T05:48:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 181
+        "daysOnMarket": 182
       },
       {
         "id": "4122022813",
@@ -8305,7 +8305,7 @@
         "listDate": "2025-11-12T05:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 239
+        "daysOnMarket": 240
       },
       {
         "id": "4486584155",
@@ -8842,7 +8842,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 86
+        "daysOnMarket": 87
       },
       {
         "id": "4185937509",
@@ -9386,7 +9386,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "9873636599",
@@ -9920,7 +9920,7 @@
         "listDate": "2026-03-02T05:32:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 129
+        "daysOnMarket": 130
       }
     ],
     "Pleasantville": [
@@ -10943,7 +10943,7 @@
         "listDate": "2026-05-09T06:02:24.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "4986747856",
@@ -11108,7 +11108,7 @@
         "listDate": "2026-04-20T06:02:14.000000Z",
         "lastSoldPrice": 1484500,
         "lastSoldDate": "2017-06-16",
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "9486639969",
@@ -11329,7 +11329,7 @@
         "listDate": "2026-03-24T05:36:03.000000Z",
         "lastSoldPrice": 1120000,
         "lastSoldDate": "2018-06-01",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       }
     ],
     "Tuckahoe": [
@@ -11695,7 +11695,7 @@
         "listDate": "2026-02-27T05:49:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 132
+        "daysOnMarket": 133
       },
       {
         "id": "4653182514",
