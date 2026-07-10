@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T22:37:07.615Z",
+  "updatedAt": "2026-07-10T00:12:11.522Z",
   "towns": {
     "Pelham": [
       {
@@ -557,6 +557,23 @@
     ],
     "Bronxville": [
       {
+        "id": "3874166509",
+        "town": "Bronxville",
+        "address": "57 Woodruff Ave, Bronxville",
+        "price": 975000,
+        "beds": 5,
+        "baths": 2,
+        "sqft": null,
+        "type": "multi family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/57-Woodruff-Ave_Bronxville_NY_10708_M38741-66509",
+        "openHouses": [],
+        "listDate": "2026-07-09T23:48:11.000000Z",
+        "lastSoldPrice": 255000,
+        "lastSoldDate": "1989-08-23",
+        "daysOnMarket": 0
+      },
+      {
         "id": "3231851548",
         "town": "Bronxville",
         "address": "2 Lockwood Ave Apt 2F, Bronxville",
@@ -685,7 +702,7 @@
         "listDate": "2026-07-03T23:03:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "4084597074",
@@ -732,23 +749,11 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/780-Bronx-River-Rd-Apt-A16_Bronxville_NY_10708_M99761-37948",
-        "openHouses": [
-          {
-            "start_date": "2026-07-09T17:30:00",
-            "end_date": "2026-07-09T19:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-06-29T23:17:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "9561612620",
@@ -867,7 +872,7 @@
         "listDate": "2026-06-24T23:18:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4316842983",
@@ -1448,23 +1453,6 @@
         "lastSoldPrice": 520000,
         "lastSoldDate": "2016-08-04",
         "daysOnMarket": 42
-      },
-      {
-        "id": "9117268137",
-        "town": "Bronxville",
-        "address": "26 Pondfield Rd Unit 1D, Bronxville",
-        "price": 249800,
-        "beds": null,
-        "baths": 1,
-        "sqft": 600,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/26-Pondfield-Rd-1D_Bronxville_NY_10708_M91172-68137",
-        "openHouses": [],
-        "listDate": "2026-05-28T02:19:48.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 42
       }
     ],
     "Scarsdale": [
@@ -1906,7 +1894,7 @@
         "listDate": "2026-06-23T23:47:42.000000Z",
         "lastSoldPrice": 144000,
         "lastSoldDate": "2017-01-13",
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "9222409547",
@@ -2127,7 +2115,7 @@
         "listDate": "2026-06-13T22:47:37.000000Z",
         "lastSoldPrice": 1366000,
         "lastSoldDate": "2025-08-11",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "4469254269",
@@ -2275,7 +2263,7 @@
         "listDate": "2026-06-06T23:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "4656434800",
@@ -2423,7 +2411,7 @@
         "listDate": "2026-06-02T23:02:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       }
     ],
     "Ardsley": [
@@ -3051,10 +3039,27 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 295
+        "daysOnMarket": 296
       }
     ],
     "Chappaqua": [
+      {
+        "id": "3374190177",
+        "town": "Chappaqua",
+        "address": "131 Douglas Rd, Chappaqua",
+        "price": 1590000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2690,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/131-Douglas-Rd_Chappaqua_NY_10514_M33741-90177",
+        "openHouses": [],
+        "listDate": "2026-07-09T20:18:57.000000Z",
+        "lastSoldPrice": 830000,
+        "lastSoldDate": "2013-08-26",
+        "daysOnMarket": 0
+      },
       {
         "id": "3483011101",
         "town": "Chappaqua",
@@ -3087,7 +3092,7 @@
         "listDate": "2026-07-08T23:04:49.000000Z",
         "lastSoldPrice": 675000,
         "lastSoldDate": "2017-09-08",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4239323404",
@@ -3801,7 +3806,7 @@
         "listDate": "2026-06-25T22:47:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3633330541",
@@ -4196,75 +4201,6 @@
       }
     ],
     "Eastchester": [
-      {
-        "id": "4730637590",
-        "town": "Eastchester",
-        "address": "5 Knox Rd, Eastchester",
-        "price": 729999,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1690,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/5-Knox-Rd_Eastchester_NY_10709_M47306-37590",
-        "openHouses": [
-          {
-            "start_date": "2026-07-11T12:00:00",
-            "end_date": "2026-07-11T14:00:00",
-            "description": "Perfectly situated in the sought-after Huntley Estates neighborhood of Eastchester, this charming four-bedroom, two-bath Cape Cod offers nearly 1,700 square feet of comfortable living space. The inviting living room features a large picture window that fills the space with natural light, a cozy wood-burning fireplace, and an open flow into the dining room-ideal for both everyday living and entertaining.",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          },
-          {
-            "start_date": "2026-07-12T12:00:00",
-            "end_date": "2026-07-12T14:00:00",
-            "description": "Perfectly situated in the sought-after Huntley Estates neighborhood of Eastchester, this charming four-bedroom, two-bath Cape Cod offers nearly 1,700 square feet of comfortable living space. The inviting living room features a large picture window that fills the space with natural light, a cozy wood-burning fireplace, and an open flow into the dining room-ideal for both everyday living and entertaining.",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-07-09T21:05:14.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
-        "id": "3417656084",
-        "town": "Eastchester",
-        "address": "66 Waterside Close, Eastchester",
-        "price": 997777,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 2300,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/66-Waterside-Close_Eastchester_NY_10709_M34176-56084",
-        "openHouses": [
-          {
-            "start_date": "2026-07-12T12:00:00",
-            "end_date": "2026-07-12T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-07-09T18:15:23.000000Z",
-        "lastSoldPrice": 585000,
-        "lastSoldDate": "2018-11-08",
-        "daysOnMarket": 0
-      },
       {
         "id": "9918307031",
         "town": "Eastchester",
@@ -5363,7 +5299,7 @@
         "listDate": "2026-06-03T23:32:13.000000Z",
         "lastSoldPrice": 172000,
         "lastSoldDate": "1993-04-05",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4961976824",
@@ -5482,7 +5418,7 @@
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "3669290249",
@@ -5751,7 +5687,7 @@
         "listDate": "2026-07-07T22:47:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3970399065",
@@ -6275,7 +6211,7 @@
         "listDate": "2026-07-06T22:48:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4431257955",
@@ -6598,6 +6534,35 @@
     ],
     "Ho-Ho-Kus": [
       {
+        "id": "6631780399",
+        "town": "Ho-Ho-Kus",
+        "address": "5 Blanchfield Ct, Ho Ho Kus",
+        "price": 1599000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/5-Blanchfield-Ct_Ho-Ho-Kus_NJ_07423_M66317-80399",
+        "openHouses": [
+          {
+            "start_date": "2026-07-12T13:00:00",
+            "end_date": "2026-07-12T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-07-09T16:06:18.000000Z",
+        "lastSoldPrice": 662500,
+        "lastSoldDate": "2024-09-30",
+        "daysOnMarket": 0
+      },
+      {
         "id": "6954344523",
         "town": "Ho-Ho-Kus",
         "address": "7 Deerhill Dr, Ho Ho Kus",
@@ -6686,7 +6651,7 @@
         "listDate": "2026-06-29T22:46:13.000000Z",
         "lastSoldPrice": 925000,
         "lastSoldDate": "2025-09-05",
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "5065997684",
@@ -6703,7 +6668,7 @@
         "listDate": "2026-06-24T22:44:51.000000Z",
         "lastSoldPrice": 390600,
         "lastSoldDate": "1995-05-08",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "6994860123",
@@ -6750,7 +6715,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/217-Elmwood-Ave_Ho-Ho-Kus_NJ_07423_M63501-00194",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-12T14:00:00",
+            "end_date": "2026-07-12T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-10T17:43:38.000000Z",
         "lastSoldPrice": 1140000,
         "lastSoldDate": "2025-09-02",
@@ -6899,7 +6876,7 @@
         "listDate": "2026-06-27T00:04:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "3882181836",
@@ -7188,7 +7165,7 @@
         "listDate": "2026-05-08T23:47:15.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2004-05-18",
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "3878157114",
@@ -7650,7 +7627,7 @@
         "listDate": "2026-07-03T23:03:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3362724282",
@@ -7856,7 +7833,7 @@
         "listDate": "2026-06-15T22:47:34.000000Z",
         "lastSoldPrice": 1330000,
         "lastSoldDate": "2022-09-28",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4387739132",
@@ -8174,7 +8151,7 @@
         "listDate": "2026-04-09T23:03:36.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "2025-05-01",
-        "daysOnMarket": 90
+        "daysOnMarket": 91
       },
       {
         "id": "4817799480",
@@ -8310,7 +8287,7 @@
         "listDate": "2025-08-04T23:03:20.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2017-09-14",
-        "daysOnMarket": 338
+        "daysOnMarket": 339
       }
     ],
     "Mamaroneck": [
@@ -8813,7 +8790,7 @@
         "listDate": "2026-04-15T23:33:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "4010876176",
@@ -8915,7 +8892,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 173
+        "daysOnMarket": 174
       },
       {
         "id": "9199642451",
@@ -9510,7 +9487,7 @@
         "listDate": "2026-05-16T00:02:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "3712430393",
@@ -9755,7 +9732,7 @@
         "listDate": "2026-04-08T00:03:50.000000Z",
         "lastSoldPrice": 245000,
         "lastSoldDate": "1993-12-20",
-        "daysOnMarket": 92
+        "daysOnMarket": 93
       },
       {
         "id": "3975375854",
@@ -9857,7 +9834,7 @@
         "listDate": "2026-03-10T22:47:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 120
+        "daysOnMarket": 121
       },
       {
         "id": "3946140862",
@@ -10270,7 +10247,7 @@
         "listDate": "2026-05-14T23:33:48.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2016-02-03",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "4823559957",
@@ -10355,7 +10332,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 82
+        "daysOnMarket": 83
       },
       {
         "id": "4957572658",
@@ -10443,7 +10420,7 @@
         "listDate": "2026-07-05T23:03:11.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2023-03-01",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3631809177",
@@ -10494,7 +10471,7 @@
         "listDate": "2026-06-25T23:03:44.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2017-08-04",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3580283435",
@@ -10755,7 +10732,7 @@
         "listDate": "2026-06-01T23:17:50.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2003-05-29",
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "9187861602",
@@ -11322,23 +11299,6 @@
     ],
     "Tuckahoe": [
       {
-        "id": "3926289487",
-        "town": "Tuckahoe",
-        "address": "50 Columbus Ave Apt F20, Tuckahoe",
-        "price": 849000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1718,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/50-Columbus-Ave-Apt-F20_Tuckahoe_NY_10707_M39262-89487",
-        "openHouses": [],
-        "listDate": "2026-07-09T20:18:57.000000Z",
-        "lastSoldPrice": 580000,
-        "lastSoldDate": "2020-01-31",
-        "daysOnMarket": 0
-      },
-      {
         "id": "4016609413",
         "town": "Tuckahoe",
         "address": "1 Scarsdale Rd Apt 409, Tuckahoe",
@@ -11399,7 +11359,7 @@
         "listDate": "2026-06-23T00:04:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "3690193294",
@@ -11501,7 +11461,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "3594803854",
