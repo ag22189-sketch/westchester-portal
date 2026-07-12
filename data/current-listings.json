@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T09:07:40.860Z",
+  "updatedAt": "2026-07-12T11:17:12.593Z",
   "towns": {
     "Pelham": [
       {
@@ -595,7 +595,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1090-Midland-Ave_Bronxville_NY_10708_M38567-83430",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-12T15:00:00",
+            "end_date": "2026-07-12T18:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-08T20:03:13.000000Z",
         "lastSoldPrice": 650000,
         "lastSoldDate": "2022-11-14",
@@ -2811,7 +2823,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "3170759769",
@@ -5051,7 +5063,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "9499208463",
@@ -5085,7 +5097,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3259812073",
@@ -6157,7 +6169,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4475976627",
@@ -6739,19 +6751,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/28-Sycamore-Ln_Irvington_NY_10533_M34253-58762",
-        "openHouses": [
-          {
-            "start_date": "2026-07-12T13:00:00",
-            "end_date": "2026-07-12T15:00:00",
-            "description": "Experience the best of upscale suburban living and city convenience in this one-of-a-kind modern home in the heart of Irvington. Perfectly positioned for walkability and privacy, this multi-level residence offers direct Metro-North access for effortless NYC commutes, with acclaimed restaurants, scenic parks, tennis courts, and vibrant community events just steps away.",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-07-09T19:09:57.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
@@ -7638,7 +7638,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4385838569",
@@ -9324,7 +9324,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "3898208084",
@@ -9945,7 +9945,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "3767002130",
