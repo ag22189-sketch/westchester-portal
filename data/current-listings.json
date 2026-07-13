@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-13T08:20:52.655Z",
+  "updatedAt": "2026-07-13T12:12:27.095Z",
   "towns": {
     "Pelham": [
       {
@@ -221,24 +221,7 @@
         "listDate": "2026-06-02T11:48:13.000000Z",
         "lastSoldPrice": 545000,
         "lastSoldDate": "2018-10-17",
-        "daysOnMarket": 40
-      },
-      {
-        "id": "3132927836",
-        "town": "Pelham",
-        "address": "174 Sparks Ave, Pelham",
-        "price": 899000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1341,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/174-Sparks-Ave_Pelham_NY_10803_M31329-27836",
-        "openHouses": [],
-        "listDate": "2026-05-28T17:04:02.000000Z",
-        "lastSoldPrice": 436500,
-        "lastSoldDate": "2012-04-16",
-        "daysOnMarket": 45
+        "daysOnMarket": 41
       },
       {
         "id": "4590096348",
@@ -1158,7 +1141,7 @@
         "listDate": "2026-05-31T11:46:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2003-05-15",
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "3503235408",
@@ -2267,7 +2250,7 @@
         "listDate": "2026-05-30T11:46:59.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2009-02-25",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "3155488956",
@@ -2643,7 +2626,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "3170759769",
@@ -2815,7 +2798,7 @@
         "listDate": "2026-07-09T11:17:17.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2002-07-08",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3014280076",
@@ -3066,7 +3049,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/2-Timberland-Pass_Chappaqua_NY_10514_M46791-13986",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-18T12:00:00",
+            "end_date": "2026-07-18T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-02T03:33:14.000000Z",
         "lastSoldPrice": 800000,
         "lastSoldDate": "2024-12-30",
@@ -4652,7 +4647,7 @@
         "listDate": "2026-06-18T11:48:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4080771340",
@@ -4720,7 +4715,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "9499208463",
@@ -4754,7 +4749,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "3259812073",
@@ -5368,7 +5363,7 @@
         "listDate": "2026-06-25T11:47:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "4099935481",
@@ -5778,7 +5773,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4475976627",
@@ -6462,7 +6457,7 @@
         "listDate": "2026-06-06T11:46:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "3479990634",
@@ -7122,7 +7117,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "4385838569",
@@ -8076,7 +8071,7 @@
         "listDate": "2026-04-30T11:17:16.000000Z",
         "lastSoldPrice": 295000,
         "lastSoldDate": "1993-11-29",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "4123883664",
@@ -8656,7 +8651,7 @@
         "listDate": "2026-06-05T11:46:53.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2025-06-18",
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "3367948392",
@@ -8707,7 +8702,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "3898208084",
@@ -8724,7 +8719,7 @@
         "listDate": "2026-05-27T11:32:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4116835326",
@@ -9236,7 +9231,7 @@
         "listDate": "2026-07-03T11:47:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4545417632",
@@ -9321,7 +9316,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3767002130",
@@ -9681,7 +9676,7 @@
         "listDate": "2026-06-29T12:04:41.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2022-07-06",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4377930669",
@@ -10659,7 +10654,7 @@
         "listDate": "2026-05-04T11:46:50.000000Z",
         "lastSoldPrice": 1195000,
         "lastSoldDate": "2020-04-16",
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "4298817272",
