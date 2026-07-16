@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-16T10:17:14.982Z",
+  "updatedAt": "2026-07-16T12:24:28.879Z",
   "towns": {
     "Pelham": [
       {
@@ -250,7 +250,7 @@
         "listDate": "2026-06-02T11:48:13.000000Z",
         "lastSoldPrice": 545000,
         "lastSoldDate": "2018-10-17",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "4590096348",
@@ -812,7 +812,7 @@
         "price": 1250000,
         "beds": 3,
         "baths": 2,
-        "sqft": 1600,
+        "sqft": 1622,
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/17-Beechtree-Ln-Apt-2E_Bronxville_NY_10708_M35165-41154",
@@ -1223,7 +1223,7 @@
         "listDate": "2026-05-31T11:46:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2003-05-15",
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "3503235408",
@@ -1425,7 +1425,7 @@
         "listDate": "2026-07-15T12:17:29.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2026-01-07",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "3848295018",
@@ -2392,7 +2392,7 @@
         "listDate": "2026-05-30T11:46:59.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2009-02-25",
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "3155488956",
@@ -2935,7 +2935,7 @@
         "listDate": "2026-07-09T11:17:17.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2002-07-08",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3014280076",
@@ -4651,7 +4651,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/30-Dalewood-Dr_Hartsdale_NY_10530_M33359-56543",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-19T12:00:00",
+            "end_date": "2026-07-19T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-05T19:47:37.000000Z",
         "lastSoldPrice": 295000,
         "lastSoldDate": "1997-09-05",
@@ -4859,7 +4871,7 @@
         "listDate": "2026-06-18T11:48:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "4080771340",
@@ -5434,7 +5446,7 @@
         "listDate": "2026-07-15T11:32:10.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "1996-10-31",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "3509499083",
@@ -5588,47 +5600,7 @@
         "listDate": "2026-06-25T11:47:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
-      },
-      {
-        "id": "4099935481",
-        "town": "Harrison",
-        "address": "15 Tamarac Trl, Harrison",
-        "price": 1899000,
-        "beds": 4,
-        "baths": 5,
-        "sqft": 3368,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/15-Tamarac-Trl_Harrison_NY_10528_M40999-35481",
-        "openHouses": [
-          {
-            "start_date": "2026-07-18T13:00:00",
-            "end_date": "2026-07-18T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          },
-          {
-            "start_date": "2026-07-19T13:00:00",
-            "end_date": "2026-07-19T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-06-19T02:32:34.000000Z",
-        "lastSoldPrice": 815000,
-        "lastSoldDate": "2013-04-18",
-        "daysOnMarket": 27
+        "daysOnMarket": 21
       },
       {
         "id": "4717591361",
@@ -6016,7 +5988,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4475976627",
@@ -6309,7 +6281,30 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/491-Racetrack-Rd_Ho-Ho-Kus_NJ_07423_M68757-50650",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-18T12:00:00",
+            "end_date": "2026-07-18T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-07-19T12:00:00",
+            "end_date": "2026-07-19T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-16T01:58:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -6706,7 +6701,7 @@
         "listDate": "2026-06-06T11:46:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "3479990634",
@@ -8390,7 +8385,7 @@
         "listDate": "2026-04-30T11:17:16.000000Z",
         "lastSoldPrice": 295000,
         "lastSoldDate": "1993-11-29",
-        "daysOnMarket": 76
+        "daysOnMarket": 77
       },
       {
         "id": "4123883664",
@@ -8942,7 +8937,7 @@
         "listDate": "2026-06-05T11:46:53.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2025-06-18",
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "4290142778",
@@ -8976,7 +8971,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "3898208084",
@@ -8993,7 +8988,7 @@
         "listDate": "2026-05-27T11:32:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "4116835326",
@@ -9568,7 +9563,7 @@
         "listDate": "2026-07-03T11:47:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "4545417632",
@@ -10025,7 +10020,7 @@
         "listDate": "2026-06-29T12:04:41.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2022-07-06",
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "4377930669",
@@ -10756,6 +10751,23 @@
     ],
     "Tuckahoe": [
       {
+        "id": "4287150803",
+        "town": "Tuckahoe",
+        "address": "63 Wallace St, Tuckahoe",
+        "price": 879000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": null,
+        "type": "multi family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/63-Wallace-St_Tuckahoe_NY_10707_M42871-50803",
+        "openHouses": [],
+        "listDate": "2026-07-16T12:04:22.000000Z",
+        "lastSoldPrice": 659000,
+        "lastSoldDate": "2019-09-11",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4725559975",
         "town": "Tuckahoe",
         "address": "140 Westchester Ave, Tuckahoe",
@@ -11049,7 +11061,7 @@
         "listDate": "2026-05-04T11:46:50.000000Z",
         "lastSoldPrice": 1195000,
         "lastSoldDate": "2020-04-16",
-        "daysOnMarket": 72
+        "daysOnMarket": 73
       },
       {
         "id": "4298817272",
