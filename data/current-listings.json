@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T09:14:04.030Z",
+  "updatedAt": "2026-07-17T11:25:29.331Z",
   "towns": {
     "Pelham": [
       {
@@ -2385,7 +2385,30 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/42-Euclid-Ave_Ardsley_NY_10502_M39850-51581",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-18T13:00:00",
+            "end_date": "2026-07-18T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-07-19T12:00:00",
+            "end_date": "2026-07-19T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-14T19:09:02.000000Z",
         "lastSoldPrice": 589000,
         "lastSoldDate": "2025-03-27",
@@ -2822,7 +2845,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "3170759769",
@@ -3018,7 +3041,7 @@
         "listDate": "2026-07-09T11:17:17.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2002-07-08",
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "3014280076",
@@ -5162,7 +5185,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "9499208463",
@@ -5196,7 +5219,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "3259812073",
@@ -6259,7 +6282,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9648085740",
@@ -7754,7 +7777,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4385838569",
@@ -8778,7 +8801,7 @@
         "listDate": "2026-04-30T11:17:16.000000Z",
         "lastSoldPrice": 295000,
         "lastSoldDate": "1993-11-29",
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "4123883664",
@@ -9398,7 +9421,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "3898208084",
@@ -9858,7 +9881,7 @@
         "listDate": "2026-03-03T10:17:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 135
+        "daysOnMarket": 136
       }
     ],
     "Pleasantville": [
@@ -10093,7 +10116,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "3767002130",
