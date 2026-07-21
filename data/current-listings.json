@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T07:36:24.909Z",
+  "updatedAt": "2026-07-21T10:30:17.186Z",
   "towns": {
     "Pelham": [
       {
@@ -2463,7 +2463,7 @@
         "listDate": "2025-12-17T08:00:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 215
+        "daysOnMarket": 216
       },
       {
         "id": "3324023218",
@@ -2635,7 +2635,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 60
+        "daysOnMarket": 61
       },
       {
         "id": "3170759769",
@@ -3007,7 +3007,30 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/2-Timberland-Pass_Chappaqua_NY_10514_M46791-13986",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-25T12:30:00",
+            "end_date": "2026-07-25T14:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-07-26T12:30:00",
+            "end_date": "2026-07-26T14:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-02T03:33:14.000000Z",
         "lastSoldPrice": 800000,
         "lastSoldDate": "2024-12-30",
@@ -4178,7 +4201,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "4536519295",
@@ -4866,7 +4889,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "9499208463",
@@ -4900,7 +4923,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "3259812073",
@@ -6478,7 +6501,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "3425358762",
@@ -6495,7 +6518,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "4458946550",
@@ -7194,7 +7217,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "4385838569",
@@ -8888,7 +8911,7 @@
         "listDate": "2026-06-04T10:01:59.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4290142778",
@@ -8905,7 +8928,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "9873636599",
