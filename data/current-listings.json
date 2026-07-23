@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-23T04:20:40.880Z",
+  "updatedAt": "2026-07-23T07:37:26.615Z",
   "towns": {
     "Pelham": [
       {
@@ -483,7 +483,7 @@
         "listDate": "2025-11-21T05:48:01.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 243
+        "daysOnMarket": 244
       },
       {
         "id": "4483697710",
@@ -815,7 +815,7 @@
         "listDate": "2026-07-10T05:46:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "4717795664",
@@ -832,7 +832,7 @@
         "listDate": "2026-07-10T05:41:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "3874166509",
@@ -929,7 +929,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "9152493437",
@@ -1255,6 +1255,23 @@
         "daysOnMarket": 44
       },
       {
+        "id": "9761076585",
+        "town": "Bronxville",
+        "address": "1234 Midland Ave Apt 1C, Yonkers",
+        "price": 249000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/rentals/details/1234-Midland-Ave-Apt-1C_Yonkers_NY_10708_M97610-76585",
+        "openHouses": [],
+        "listDate": "2026-06-07T16:14:28.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 45
+      },
+      {
         "id": "4902119010",
         "town": "Bronxville",
         "address": "3 Carolyn Pl, Bronxville",
@@ -1296,23 +1313,6 @@
           }
         ],
         "listDate": "2026-06-05T20:17:54.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 47
-      },
-      {
-        "id": "9761076585",
-        "town": "Bronxville",
-        "address": "1234 Midland Ave Apt 1C, Bronxville",
-        "price": 249000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1200,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1234-Midland-Ave-Apt-1C_Yonkers_NY_10708_M97610-76585",
-        "openHouses": [],
-        "listDate": "2026-06-05T17:03:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 47
@@ -2678,7 +2678,7 @@
         "listDate": "2025-10-31T04:49:23.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2024-12-13",
-        "daysOnMarket": 264
+        "daysOnMarket": 265
       },
       {
         "id": "9876533118",
@@ -2952,7 +2952,7 @@
         "listDate": "2026-02-06T05:47:54.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2024-11-14",
-        "daysOnMarket": 166
+        "daysOnMarket": 167
       },
       {
         "id": "4195966666",
@@ -3295,7 +3295,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "3216529347",
@@ -3854,7 +3854,7 @@
         "listDate": "2026-05-16T06:33:31.000000Z",
         "lastSoldPrice": 266000,
         "lastSoldDate": "1991-07-02",
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "3900632849",
@@ -4361,7 +4361,7 @@
         "listDate": "2026-06-20T05:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "4242046173",
@@ -4684,7 +4684,7 @@
         "listDate": "2026-03-16T04:48:12.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "2006-07-10",
-        "daysOnMarket": 128
+        "daysOnMarket": 129
       }
     ],
     "Hartsdale": [
@@ -4939,23 +4939,6 @@
         "daysOnMarket": 20
       },
       {
-        "id": "9931725115",
-        "town": "Hartsdale",
-        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
-        "price": 385000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1200,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
-        "openHouses": [],
-        "listDate": "2026-06-26T19:14:13.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 26
-      },
-      {
         "id": "3206804159",
         "town": "Hartsdale",
         "address": "21 Joyce Rd, Hartsdale",
@@ -4982,6 +4965,23 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": 470400,
         "lastSoldDate": "2015-11-20",
+        "daysOnMarket": 26
+      },
+      {
+        "id": "9931725115",
+        "town": "Hartsdale",
+        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
+        "price": 385000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
+        "openHouses": [],
+        "listDate": "2026-06-26T19:14:13.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 26
       },
       {
@@ -6189,7 +6189,7 @@
         "listDate": "2026-07-20T05:47:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "9579902186",
@@ -6206,7 +6206,7 @@
         "listDate": "2026-07-20T04:32:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "9483098569",
@@ -6223,7 +6223,7 @@
         "listDate": "2026-07-20T04:32:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "9247934012",
@@ -6240,7 +6240,7 @@
         "listDate": "2026-07-19T04:32:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4889272409",
@@ -6977,7 +6977,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "4556540553",
@@ -7317,7 +7317,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 118
+        "daysOnMarket": 119
       },
       {
         "id": "3181611801",
@@ -7402,7 +7402,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": 1370000,
         "lastSoldDate": "2018-08-21",
-        "daysOnMarket": 141
+        "daysOnMarket": 142
       },
       {
         "id": "4283285844",
@@ -7419,7 +7419,7 @@
         "listDate": "2026-02-17T06:34:37.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2016-08-19",
-        "daysOnMarket": 155
+        "daysOnMarket": 156
       },
       {
         "id": "3170991008",
@@ -7436,7 +7436,7 @@
         "listDate": "2026-02-14T05:35:21.000000Z",
         "lastSoldPrice": 895000,
         "lastSoldDate": "2016-07-29",
-        "daysOnMarket": 158
+        "daysOnMarket": 159
       },
       {
         "id": "9852357213",
@@ -7453,7 +7453,7 @@
         "listDate": "2025-11-17T05:32:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 247
+        "daysOnMarket": 248
       },
       {
         "id": "9460144304",
@@ -7716,7 +7716,7 @@
         "listDate": "2026-06-18T05:03:13.000000Z",
         "lastSoldPrice": 205000,
         "lastSoldDate": "1992-04-16",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3736549681",
@@ -8090,7 +8090,7 @@
         "listDate": "2026-03-25T04:34:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2002-04-24",
-        "daysOnMarket": 119
+        "daysOnMarket": 120
       },
       {
         "id": "9485625586",
@@ -8124,7 +8124,7 @@
         "listDate": "2025-11-12T05:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 252
+        "daysOnMarket": 253
       },
       {
         "id": "4486584155",
@@ -8762,7 +8762,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 99
+        "daysOnMarket": 100
       },
       {
         "id": "9434500398",
@@ -8830,7 +8830,7 @@
         "listDate": "2024-09-05T04:45:32.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2024-12-03",
-        "daysOnMarket": 685
+        "daysOnMarket": 686
       }
     ],
     "Mount Vernon": [
@@ -10831,7 +10831,7 @@
         "listDate": "2026-05-09T06:02:24.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "4986747856",
@@ -11487,7 +11487,7 @@
         "listDate": "2026-02-27T05:49:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 145
+        "daysOnMarket": 146
       },
       {
         "id": "4653182514",
