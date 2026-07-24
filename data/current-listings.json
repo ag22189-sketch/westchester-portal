@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T06:32:20.256Z",
+  "updatedAt": "2026-07-24T09:25:46.525Z",
   "towns": {
     "Pelham": [
       {
@@ -2314,23 +2314,6 @@
         "daysOnMarket": 41
       },
       {
-        "id": "3018664861",
-        "town": "Scarsdale",
-        "address": "143 Garth Rd Apt 5L, Scarsdale",
-        "price": 240000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 850,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/143-Garth-Rd-Apt-5L_Scarsdale_NY_10583_M30186-64861",
-        "openHouses": [],
-        "listDate": "2026-06-12T19:13:12.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 41
-      },
-      {
         "id": "4430071316",
         "town": "Scarsdale",
         "address": "65 Fox Meadow Rd, Scarsdale",
@@ -2345,6 +2328,23 @@
         "listDate": "2026-06-12T19:13:12.000000Z",
         "lastSoldPrice": 1700000,
         "lastSoldDate": "2025-03-17",
+        "daysOnMarket": 41
+      },
+      {
+        "id": "3018664861",
+        "town": "Scarsdale",
+        "address": "143 Garth Rd Apt 5L, Scarsdale",
+        "price": 240000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 850,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/143-Garth-Rd-Apt-5L_Scarsdale_NY_10583_M30186-64861",
+        "openHouses": [],
+        "listDate": "2026-06-12T19:13:12.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 41
       },
       {
@@ -2744,7 +2744,7 @@
         "listDate": "2025-12-17T08:00:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 218
+        "daysOnMarket": 219
       },
       {
         "id": "3324023218",
@@ -3903,7 +3903,7 @@
         "listDate": "2026-05-16T06:33:31.000000Z",
         "lastSoldPrice": 266000,
         "lastSoldDate": "1991-07-02",
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       },
       {
         "id": "3900632849",
@@ -4569,7 +4569,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "4536519295",
@@ -4788,7 +4788,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Barnaby-Ln_Hartsdale_NY_10530_M44304-75617",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-25T12:00:00",
+            "end_date": "2026-07-25T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-24T04:17:39.000000Z",
         "lastSoldPrice": 940000,
         "lastSoldDate": "2021-12-09",
@@ -7510,7 +7522,7 @@
         "listDate": "2026-02-17T06:34:37.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2016-08-19",
-        "daysOnMarket": 156
+        "daysOnMarket": 157
       },
       {
         "id": "3170991008",
@@ -9488,7 +9500,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "9873636599",
@@ -10329,7 +10341,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/19-S-Broadway-Apt-4F_Tarrytown_NY_10591_M99105-23682",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-07-25T13:00:00",
+            "end_date": "2026-07-25T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-23T19:10:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
