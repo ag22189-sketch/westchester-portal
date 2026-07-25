@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T13:49:27.898Z",
+  "updatedAt": "2026-07-25T15:09:54.699Z",
   "towns": {
     "Pelham": [
       {
@@ -131,7 +131,7 @@
         "listDate": "2026-07-08T14:18:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "4390664769",
@@ -342,7 +342,7 @@
         "listDate": "2026-05-15T15:04:27.000000Z",
         "lastSoldPrice": 1675000,
         "lastSoldDate": "2001-11-21",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "4377249029",
@@ -696,7 +696,7 @@
         "listDate": "2026-07-17T14:49:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9615696682",
@@ -810,7 +810,7 @@
         "listDate": "2026-07-13T14:48:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "4136198848",
@@ -1021,7 +1021,7 @@
         "listDate": "2026-07-02T14:04:14.000000Z",
         "lastSoldPrice": 70000,
         "lastSoldDate": "2014-07-17",
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "9976137948",
@@ -1276,7 +1276,7 @@
         "listDate": "2026-06-10T14:03:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "3049578567",
@@ -1308,6 +1308,23 @@
         "link": "https://www.realtor.com/realestateandhomes-detail/1468-Midland-Ave-Apt-2F_Bronxville_NY_10708_M94561-52965",
         "openHouses": [],
         "listDate": "2026-06-08T11:03:09.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 47
+      },
+      {
+        "id": "9761076585",
+        "town": "Bronxville",
+        "address": "1234 Midland Ave Apt 1C, Yonkers",
+        "price": 249000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/rentals/details/1234-Midland-Ave-Apt-1C_Yonkers_NY_10708_M97610-76585",
+        "openHouses": [],
+        "listDate": "2026-06-07T16:14:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 47
@@ -1391,23 +1408,6 @@
         "lastSoldPrice": 487082,
         "lastSoldDate": "2018-09-28",
         "daysOnMarket": 51
-      },
-      {
-        "id": "9327275189",
-        "town": "Bronxville",
-        "address": "824 Palmer Rd Apt 2D, Bronxville",
-        "price": 249999,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 800,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/824-Palmer-Rd-Apt-2D_Bronxville_NY_10708_M93272-75189",
-        "openHouses": [],
-        "listDate": "2026-06-03T00:33:20.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 52
       }
     ],
     "Scarsdale": [
@@ -1723,7 +1723,7 @@
         "listDate": "2026-07-13T14:04:38.000000Z",
         "lastSoldPrice": 1135000,
         "lastSoldDate": "2004-05-04",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3141360089",
@@ -1854,7 +1854,7 @@
         "listDate": "2026-07-07T14:33:01.000000Z",
         "lastSoldPrice": 1190000,
         "lastSoldDate": "1991-09-18",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3172812544",
@@ -2014,7 +2014,7 @@
         "listDate": "2026-06-26T15:03:52.000000Z",
         "lastSoldPrice": 2147500,
         "lastSoldDate": "2010-07-21",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3132996071",
@@ -2099,7 +2099,7 @@
         "listDate": "2026-06-23T15:03:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4009081692",
@@ -2116,7 +2116,7 @@
         "listDate": "2026-06-23T14:33:36.000000Z",
         "lastSoldPrice": 720000,
         "lastSoldDate": "2015-12-24",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "3109833101",
@@ -2196,7 +2196,7 @@
         "listDate": "2026-06-18T14:50:18.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2025-02-18",
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "4033724051",
@@ -2230,7 +2230,7 @@
         "listDate": "2026-06-16T15:01:59.000000Z",
         "lastSoldPrice": 949000,
         "lastSoldDate": "2011-09-23",
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "3135125304",
@@ -2296,23 +2296,6 @@
         "daysOnMarket": 42
       },
       {
-        "id": "4430071316",
-        "town": "Scarsdale",
-        "address": "65 Fox Meadow Rd, Scarsdale",
-        "price": 5150000,
-        "beds": 6,
-        "baths": 8,
-        "sqft": 7163,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/65-Fox-Meadow-Rd_Scarsdale_NY_10583_M44300-71316",
-        "openHouses": [],
-        "listDate": "2026-06-12T19:13:12.000000Z",
-        "lastSoldPrice": 1700000,
-        "lastSoldDate": "2025-03-17",
-        "daysOnMarket": 42
-      },
-      {
         "id": "3018664861",
         "town": "Scarsdale",
         "address": "143 Garth Rd Apt 5L, Scarsdale",
@@ -2330,6 +2313,23 @@
         "daysOnMarket": 42
       },
       {
+        "id": "4430071316",
+        "town": "Scarsdale",
+        "address": "65 Fox Meadow Rd, Scarsdale",
+        "price": 5150000,
+        "beds": 6,
+        "baths": 8,
+        "sqft": 7163,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/65-Fox-Meadow-Rd_Scarsdale_NY_10583_M44300-71316",
+        "openHouses": [],
+        "listDate": "2026-06-12T19:13:12.000000Z",
+        "lastSoldPrice": 1700000,
+        "lastSoldDate": "2025-03-17",
+        "daysOnMarket": 42
+      },
+      {
         "id": "3617522780",
         "town": "Scarsdale",
         "address": "54 Drake Rd, Scarsdale",
@@ -2344,7 +2344,7 @@
         "listDate": "2026-06-11T14:18:25.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2025-12-16",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "3059375015",
@@ -2466,7 +2466,7 @@
         "listDate": "2026-07-22T15:04:12.000000Z",
         "lastSoldPrice": 450000,
         "lastSoldDate": "2025-01-02",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "3467863458",
@@ -2699,7 +2699,7 @@
         "listDate": "2026-05-12T14:17:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3159471337",
@@ -2818,7 +2818,7 @@
         "listDate": "2025-09-19T14:17:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 308
+        "daysOnMarket": 309
       },
       {
         "id": "9475712947",
@@ -2852,7 +2852,7 @@
         "listDate": "2025-04-10T15:04:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 470
+        "daysOnMarket": 471
       }
     ],
     "Bedford": [
@@ -3554,7 +3554,7 @@
         "listDate": "2025-04-26T14:16:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 454
+        "daysOnMarket": 455
       }
     ],
     "Dobbs Ferry": [
@@ -3642,7 +3642,7 @@
         "listDate": "2026-07-16T14:04:13.000000Z",
         "lastSoldPrice": 363200,
         "lastSoldDate": "2012-08-14",
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "4954615351",
@@ -3825,7 +3825,7 @@
         "listDate": "2026-06-15T15:02:51.000000Z",
         "lastSoldPrice": 1560000,
         "lastSoldDate": "2025-05-13",
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "9526648170",
@@ -4046,7 +4046,7 @@
         "listDate": "2026-04-08T14:17:49.000000Z",
         "lastSoldPrice": 235000,
         "lastSoldDate": "1999-10-28",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "9046792903",
@@ -4236,7 +4236,7 @@
         "listDate": "2026-07-20T14:02:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "3193101664",
@@ -4270,7 +4270,7 @@
         "listDate": "2026-07-18T14:04:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "9351902718",
@@ -4304,7 +4304,7 @@
         "listDate": "2026-07-11T14:17:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4730637590",
@@ -4440,7 +4440,7 @@
         "listDate": "2026-06-23T14:01:38.000000Z",
         "lastSoldPrice": 285000,
         "lastSoldDate": "1993-09-10",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "9581014271",
@@ -4491,23 +4491,6 @@
         "listDate": "2026-06-16T14:32:05.000000Z",
         "lastSoldPrice": 610000,
         "lastSoldDate": "2007-07-09",
-        "daysOnMarket": 38
-      },
-      {
-        "id": "9097844249",
-        "town": "Eastchester",
-        "address": "1271 California Rd Unit D3, Eastchester",
-        "price": 549000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 950,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1271-California-Rd-Apt-3_Eastchester_NY_10709_M90978-44249",
-        "openHouses": [],
-        "listDate": "2026-06-15T14:47:40.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
         "daysOnMarket": 39
       },
       {
@@ -4559,7 +4542,7 @@
         "listDate": "2026-06-04T14:03:57.000000Z",
         "lastSoldPrice": 367500,
         "lastSoldDate": "1996-06-19",
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "4985318419",
@@ -4661,7 +4644,7 @@
         "listDate": "2026-05-04T14:32:58.000000Z",
         "lastSoldPrice": 321000,
         "lastSoldDate": "1995-05-16",
-        "daysOnMarket": 81
+        "daysOnMarket": 82
       },
       {
         "id": "9193405149",
@@ -4695,7 +4678,7 @@
         "listDate": "2026-04-20T14:32:20.000000Z",
         "lastSoldPrice": 501000,
         "lastSoldDate": "1998-06-02",
-        "daysOnMarket": 95
+        "daysOnMarket": 96
       },
       {
         "id": "4921690598",
@@ -4746,7 +4729,7 @@
         "listDate": "2026-04-07T14:18:25.000000Z",
         "lastSoldPrice": 980000,
         "lastSoldDate": "2006-01-18",
-        "daysOnMarket": 108
+        "daysOnMarket": 109
       },
       {
         "id": "9291188491",
@@ -4780,7 +4763,7 @@
         "listDate": "2026-03-24T14:19:03.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2023-09-26",
-        "daysOnMarket": 122
+        "daysOnMarket": 123
       },
       {
         "id": "4295013917",
@@ -5105,23 +5088,6 @@
         "daysOnMarket": 23
       },
       {
-        "id": "9931725115",
-        "town": "Hartsdale",
-        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
-        "price": 385000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1200,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
-        "openHouses": [],
-        "listDate": "2026-06-26T19:14:13.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 28
-      },
-      {
         "id": "3206804159",
         "town": "Hartsdale",
         "address": "21 Joyce Rd, Hartsdale",
@@ -5148,6 +5114,23 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": 470400,
         "lastSoldDate": "2015-11-20",
+        "daysOnMarket": 28
+      },
+      {
+        "id": "9931725115",
+        "town": "Hartsdale",
+        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
+        "price": 385000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
+        "openHouses": [],
+        "listDate": "2026-06-26T19:14:13.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 28
       },
       {
@@ -6214,7 +6197,7 @@
         "listDate": "2026-04-27T14:46:50.000000Z",
         "lastSoldPrice": 235000,
         "lastSoldDate": "2024-06-28",
-        "daysOnMarket": 88
+        "daysOnMarket": 89
       },
       {
         "id": "3223391875",
@@ -6231,7 +6214,7 @@
         "listDate": "2026-04-17T15:02:43.000000Z",
         "lastSoldPrice": 1350000,
         "lastSoldDate": "2022-02-11",
-        "daysOnMarket": 98
+        "daysOnMarket": 99
       },
       {
         "id": "9000575077",
@@ -6437,7 +6420,7 @@
         "listDate": "2026-07-16T14:04:13.000000Z",
         "lastSoldPrice": 380000,
         "lastSoldDate": "1988-07-15",
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "4396265236",
@@ -6902,7 +6885,7 @@
         "listDate": "2026-07-20T15:04:49.000000Z",
         "lastSoldPrice": 1739000,
         "lastSoldDate": "2018-07-31",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "4763403799",
@@ -6936,7 +6919,7 @@
         "listDate": "2026-07-16T14:04:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "9333430636",
@@ -6987,7 +6970,7 @@
         "listDate": "2026-07-15T14:34:49.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "9948084227",
@@ -7276,7 +7259,7 @@
         "listDate": "2026-05-15T15:04:27.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "9846008783",
@@ -7497,7 +7480,7 @@
         "listDate": "2026-03-19T15:02:26.000000Z",
         "lastSoldPrice": 4500000,
         "lastSoldDate": "2019-08-23",
-        "daysOnMarket": 127
+        "daysOnMarket": 128
       },
       {
         "id": "3493108245",
@@ -7818,7 +7801,7 @@
         "listDate": "2026-07-01T14:34:26.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4665117765",
@@ -8283,7 +8266,7 @@
         "listDate": "2026-03-29T14:46:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 117
+        "daysOnMarket": 118
       },
       {
         "id": "4408176613",
@@ -8490,7 +8473,7 @@
         "listDate": "2026-07-13T14:34:09.000000Z",
         "lastSoldPrice": 395000,
         "lastSoldDate": "2017-06-06",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3106030049",
@@ -8507,7 +8490,7 @@
         "listDate": "2026-07-13T14:34:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "9909874504",
@@ -8746,7 +8729,7 @@
         "listDate": "2026-06-11T14:33:23.000000Z",
         "lastSoldPrice": 965000,
         "lastSoldDate": "2025-07-09",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "4906719870",
@@ -8814,7 +8797,7 @@
         "listDate": "2026-05-19T14:16:50.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2011-10-19",
-        "daysOnMarket": 66
+        "daysOnMarket": 67
       },
       {
         "id": "4279067272",
@@ -8882,7 +8865,7 @@
         "listDate": "2026-04-29T14:32:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 86
+        "daysOnMarket": 87
       },
       {
         "id": "3536135888",
@@ -8916,7 +8899,7 @@
         "listDate": "2026-04-23T15:04:02.000000Z",
         "lastSoldPrice": 545000,
         "lastSoldDate": "2017-11-21",
-        "daysOnMarket": 92
+        "daysOnMarket": 93
       },
       {
         "id": "9852561085",
@@ -9334,7 +9317,7 @@
         "listDate": "2026-06-30T15:03:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "3792760021",
@@ -9460,7 +9443,7 @@
         "listDate": "2026-06-19T14:17:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "9934746711",
@@ -9664,7 +9647,7 @@
         "listDate": "2026-05-18T14:17:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "3712430393",
@@ -10200,7 +10183,7 @@
         "listDate": "2026-06-24T14:17:57.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2007-04-09",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3766368609",
@@ -10268,7 +10251,7 @@
         "listDate": "2026-06-19T14:04:31.000000Z",
         "lastSoldPrice": 850000,
         "lastSoldDate": "2019-06-21",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "3485348706",
@@ -10319,7 +10302,7 @@
         "listDate": "2026-05-20T14:47:00.000000Z",
         "lastSoldPrice": 931911,
         "lastSoldDate": "2012-04-25",
-        "daysOnMarket": 65
+        "daysOnMarket": 66
       },
       {
         "id": "4537101029",
@@ -10550,7 +10533,7 @@
         "listDate": "2026-07-10T14:48:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "9153291573",
@@ -10567,7 +10550,7 @@
         "listDate": "2026-07-10T14:48:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "3026090718",
@@ -10584,7 +10567,7 @@
         "listDate": "2026-07-10T14:33:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "3048525551",
@@ -10720,7 +10703,7 @@
         "listDate": "2026-06-16T14:01:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "9588635493",
@@ -10805,7 +10788,7 @@
         "listDate": "2026-06-09T14:17:54.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "4854742625",
@@ -10987,7 +10970,7 @@
         "listDate": "2026-05-22T14:48:38.000000Z",
         "lastSoldPrice": 199000,
         "lastSoldDate": "2002-07-09",
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "9430009378",
@@ -11004,7 +10987,7 @@
         "listDate": "2026-05-20T14:32:10.000000Z",
         "lastSoldPrice": 1003885,
         "lastSoldDate": "2021-01-06",
-        "daysOnMarket": 65
+        "daysOnMarket": 66
       },
       {
         "id": "3186644353",
@@ -11024,23 +11007,6 @@
         "daysOnMarket": 67
       },
       {
-        "id": "9838699766",
-        "town": "Tarrytown",
-        "address": "36 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 75
-      },
-      {
         "id": "3538849971",
         "town": "Tarrytown",
         "address": "30 Andrews Ln, Sleepy Hollow",
@@ -11055,6 +11021,23 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2020-06-05",
+        "daysOnMarket": 75
+      },
+      {
+        "id": "9838699766",
+        "town": "Tarrytown",
+        "address": "36 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 75
       },
       {
@@ -11242,7 +11225,7 @@
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 112
+        "daysOnMarket": 113
       },
       {
         "id": "9001086625",
@@ -11259,7 +11242,7 @@
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 112
+        "daysOnMarket": 113
       },
       {
         "id": "3547085745",
@@ -11594,7 +11577,7 @@
         "listDate": "2026-06-12T14:04:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "4962059796",
@@ -11771,7 +11754,7 @@
         "listDate": "2026-03-26T14:17:18.000000Z",
         "lastSoldPrice": 579000,
         "lastSoldDate": "2025-03-07",
-        "daysOnMarket": 120
+        "daysOnMarket": 121
       },
       {
         "id": "9799900514",
@@ -11822,7 +11805,7 @@
         "listDate": "2026-01-11T14:46:53.000000Z",
         "lastSoldPrice": 190000,
         "lastSoldDate": "2020-03-27",
-        "daysOnMarket": 194
+        "daysOnMarket": 195
       },
       {
         "id": "3109129543",
