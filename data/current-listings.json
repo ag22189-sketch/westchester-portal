@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T04:32:06.919Z",
+  "updatedAt": "2026-07-26T07:40:34.266Z",
   "towns": {
     "Pelham": [
       {
@@ -454,7 +454,7 @@
         "listDate": "2025-11-21T05:48:01.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 246
+        "daysOnMarket": 247
       },
       {
         "id": "4483697710",
@@ -837,7 +837,7 @@
         "listDate": "2026-07-10T05:46:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "4717795664",
@@ -854,7 +854,7 @@
         "listDate": "2026-07-10T05:41:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3874166509",
@@ -951,7 +951,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "9152493437",
@@ -2225,23 +2225,6 @@
         "daysOnMarket": 43
       },
       {
-        "id": "4430071316",
-        "town": "Scarsdale",
-        "address": "65 Fox Meadow Rd, Scarsdale",
-        "price": 5150000,
-        "beds": 6,
-        "baths": 8,
-        "sqft": 7163,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/65-Fox-Meadow-Rd_Scarsdale_NY_10583_M44300-71316",
-        "openHouses": [],
-        "listDate": "2026-06-12T19:13:12.000000Z",
-        "lastSoldPrice": 1700000,
-        "lastSoldDate": "2025-03-17",
-        "daysOnMarket": 43
-      },
-      {
         "id": "3018664861",
         "town": "Scarsdale",
         "address": "143 Garth Rd Apt 5L, Scarsdale",
@@ -2256,6 +2239,23 @@
         "listDate": "2026-06-12T19:13:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 43
+      },
+      {
+        "id": "4430071316",
+        "town": "Scarsdale",
+        "address": "65 Fox Meadow Rd, Scarsdale",
+        "price": 5150000,
+        "beds": 6,
+        "baths": 8,
+        "sqft": 7163,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/65-Fox-Meadow-Rd_Scarsdale_NY_10583_M44300-71316",
+        "openHouses": [],
+        "listDate": "2026-06-12T19:13:12.000000Z",
+        "lastSoldPrice": 1700000,
+        "lastSoldDate": "2025-03-17",
         "daysOnMarket": 43
       },
       {
@@ -2719,7 +2719,7 @@
         "listDate": "2025-10-31T04:49:23.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2024-12-13",
-        "daysOnMarket": 267
+        "daysOnMarket": 268
       },
       {
         "id": "9876533118",
@@ -2959,7 +2959,7 @@
         "listDate": "2026-02-06T05:47:54.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2024-11-14",
-        "daysOnMarket": 169
+        "daysOnMarket": 170
       },
       {
         "id": "4195966666",
@@ -3223,7 +3223,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3216529347",
@@ -3766,7 +3766,7 @@
         "listDate": "2026-05-16T06:33:31.000000Z",
         "lastSoldPrice": 266000,
         "lastSoldDate": "1991-07-02",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "3900632849",
@@ -4307,7 +4307,7 @@
         "listDate": "2026-06-20T05:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4242046173",
@@ -4630,7 +4630,7 @@
         "listDate": "2026-03-16T04:48:12.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "2006-07-10",
-        "daysOnMarket": 131
+        "daysOnMarket": 132
       }
     ],
     "Hartsdale": [
@@ -4681,35 +4681,6 @@
         "daysOnMarket": 2
       },
       {
-        "id": "4835129366",
-        "town": "Hartsdale",
-        "address": "29 S Washington Ave, Hartsdale",
-        "price": 625000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1269,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
-        "openHouses": [
-          {
-            "start_date": "2026-07-26T12:00:00",
-            "end_date": "2026-07-26T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 408000,
-        "lastSoldDate": "2014-08-15",
-        "daysOnMarket": 3
-      },
-      {
         "id": "3368191583",
         "town": "Hartsdale",
         "address": "80 Jane St, Hartsdale",
@@ -4736,6 +4707,35 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 605000,
         "lastSoldDate": "2020-01-07",
+        "daysOnMarket": 3
+      },
+      {
+        "id": "4835129366",
+        "town": "Hartsdale",
+        "address": "29 S Washington Ave, Hartsdale",
+        "price": 625000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1269,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
+        "openHouses": [
+          {
+            "start_date": "2026-07-26T12:00:00",
+            "end_date": "2026-07-26T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 408000,
+        "lastSoldDate": "2014-08-15",
         "daysOnMarket": 3
       },
       {
@@ -6162,24 +6162,7 @@
         "listDate": "2026-07-20T05:47:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
-      },
-      {
-        "id": "9579902186",
-        "town": "Hastings-on-Hudson",
-        "address": "5 Nodine St Unit 5, Hastings On Hudson",
-        "price": 1275000,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1800,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/5-Nodine-St_Hastings-on-Hudson_NY_10706_M95799-02186",
-        "openHouses": [],
-        "listDate": "2026-07-20T04:32:42.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "9483098569",
@@ -6196,7 +6179,24 @@
         "listDate": "2026-07-20T04:32:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
+      },
+      {
+        "id": "9579902186",
+        "town": "Hastings-on-Hudson",
+        "address": "5 Nodine St Unit 5, Hastings On Hudson",
+        "price": 1275000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1800,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/5-Nodine-St_Hastings-on-Hudson_NY_10706_M95799-02186",
+        "openHouses": [],
+        "listDate": "2026-07-20T04:32:42.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 6
       },
       {
         "id": "9247934012",
@@ -6213,7 +6213,7 @@
         "listDate": "2026-07-19T04:32:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4889272409",
@@ -6899,7 +6899,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "4556540553",
@@ -7239,7 +7239,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 121
+        "daysOnMarket": 122
       },
       {
         "id": "3181611801",
@@ -7324,7 +7324,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": 1370000,
         "lastSoldDate": "2018-08-21",
-        "daysOnMarket": 144
+        "daysOnMarket": 145
       },
       {
         "id": "4283285844",
@@ -7341,7 +7341,7 @@
         "listDate": "2026-02-17T06:34:37.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2016-08-19",
-        "daysOnMarket": 158
+        "daysOnMarket": 159
       },
       {
         "id": "3170991008",
@@ -7358,7 +7358,7 @@
         "listDate": "2026-02-14T05:35:21.000000Z",
         "lastSoldPrice": 895000,
         "lastSoldDate": "2016-07-29",
-        "daysOnMarket": 161
+        "daysOnMarket": 162
       },
       {
         "id": "9460144304",
@@ -7691,7 +7691,7 @@
         "listDate": "2026-06-18T05:03:13.000000Z",
         "lastSoldPrice": 205000,
         "lastSoldDate": "1992-04-16",
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "3736549681",
@@ -8065,7 +8065,7 @@
         "listDate": "2026-03-25T04:34:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2002-04-24",
-        "daysOnMarket": 122
+        "daysOnMarket": 123
       },
       {
         "id": "9485625586",
@@ -8099,7 +8099,7 @@
         "listDate": "2025-11-12T05:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 255
+        "daysOnMarket": 256
       },
       {
         "id": "4486584155",
@@ -8710,7 +8710,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 102
+        "daysOnMarket": 103
       },
       {
         "id": "9434500398",
@@ -8778,7 +8778,7 @@
         "listDate": "2024-09-05T04:45:32.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2024-12-03",
-        "daysOnMarket": 688
+        "daysOnMarket": 689
       }
     ],
     "Mount Vernon": [
@@ -10737,7 +10737,7 @@
         "listDate": "2026-05-09T06:02:24.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "4986747856",
@@ -11365,7 +11365,7 @@
         "listDate": "2026-02-27T05:49:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 148
+        "daysOnMarket": 149
       },
       {
         "id": "4653182514",
