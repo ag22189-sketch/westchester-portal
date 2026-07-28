@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T03:15:12.111Z",
+  "updatedAt": "2026-07-28T06:32:39.841Z",
   "towns": {
     "Pelham": [
       {
@@ -454,7 +454,7 @@
         "listDate": "2025-11-21T05:48:01.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 248
+        "daysOnMarket": 249
       },
       {
         "id": "4483697710",
@@ -740,7 +740,7 @@
         "listDate": "2026-07-17T03:33:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "3694884431",
@@ -757,7 +757,7 @@
         "listDate": "2026-07-16T03:47:38.000000Z",
         "lastSoldPrice": 400000,
         "lastSoldDate": "2025-08-22",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "4658253952",
@@ -842,7 +842,7 @@
         "listDate": "2026-07-10T05:46:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "4717795664",
@@ -859,7 +859,7 @@
         "listDate": "2026-07-10T05:41:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3874166509",
@@ -956,7 +956,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "9152493437",
@@ -1351,6 +1351,23 @@
       }
     ],
     "Scarsdale": [
+      {
+        "id": "3553544462",
+        "town": "Scarsdale",
+        "address": "7 Chateaux Cir Apt 7F, Scarsdale",
+        "price": 799000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1348,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/7-Chateaux-Cir-Apt-7F_Scarsdale_NY_10583_M35535-44462",
+        "openHouses": [],
+        "listDate": "2026-07-28T04:33:03.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "4338136237",
         "town": "Scarsdale",
@@ -2117,23 +2134,6 @@
         "daysOnMarket": 45
       },
       {
-        "id": "3018664861",
-        "town": "Scarsdale",
-        "address": "143 Garth Rd Apt 5L, Scarsdale",
-        "price": 240000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 850,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/143-Garth-Rd-Apt-5L_Scarsdale_NY_10583_M30186-64861",
-        "openHouses": [],
-        "listDate": "2026-06-12T19:13:12.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 45
-      },
-      {
         "id": "4430071316",
         "town": "Scarsdale",
         "address": "65 Fox Meadow Rd, Scarsdale",
@@ -2148,6 +2148,23 @@
         "listDate": "2026-06-12T19:13:12.000000Z",
         "lastSoldPrice": 1700000,
         "lastSoldDate": "2025-03-17",
+        "daysOnMarket": 45
+      },
+      {
+        "id": "3018664861",
+        "town": "Scarsdale",
+        "address": "143 Garth Rd Apt 5L, Scarsdale",
+        "price": 240000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 850,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/143-Garth-Rd-Apt-5L_Scarsdale_NY_10583_M30186-64861",
+        "openHouses": [],
+        "listDate": "2026-06-12T19:13:12.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 45
       },
       {
@@ -2182,23 +2199,6 @@
         "listDate": "2026-06-09T20:04:45.000000Z",
         "lastSoldPrice": 1560000,
         "lastSoldDate": "2015-10-05",
-        "daysOnMarket": 48
-      },
-      {
-        "id": "4467747184",
-        "town": "Scarsdale",
-        "address": "6 Montrose Rd, Scarsdale",
-        "price": 2575000,
-        "beds": 5,
-        "baths": 5,
-        "sqft": 3167,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/6-Montrose-Rd_Scarsdale_NY_10583_M44677-47184",
-        "openHouses": [],
-        "listDate": "2026-06-09T19:18:26.000000Z",
-        "lastSoldPrice": 1250000,
-        "lastSoldDate": "2003-12-09",
         "daysOnMarket": 48
       }
     ],
@@ -2587,7 +2587,7 @@
         "listDate": "2025-10-31T04:49:23.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2024-12-13",
-        "daysOnMarket": 269
+        "daysOnMarket": 270
       },
       {
         "id": "9876533118",
@@ -2827,7 +2827,7 @@
         "listDate": "2026-02-06T05:47:54.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2024-11-14",
-        "daysOnMarket": 171
+        "daysOnMarket": 172
       },
       {
         "id": "4195966666",
@@ -3016,7 +3016,7 @@
         "listDate": "2026-06-02T03:33:14.000000Z",
         "lastSoldPrice": 800000,
         "lastSoldDate": "2024-12-30",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "9540087096",
@@ -3050,7 +3050,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 75
+        "daysOnMarket": 76
       },
       {
         "id": "3216529347",
@@ -3275,6 +3275,23 @@
       }
     ],
     "Dobbs Ferry": [
+      {
+        "id": "3436177258",
+        "town": "Dobbs Ferry",
+        "address": "14 Russell Pl, Dobbs Ferry",
+        "price": 949000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 1844,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/14-Russell-Pl_Dobbs-Ferry_NY_10522_M34361-77258",
+        "openHouses": [],
+        "listDate": "2026-07-28T05:17:35.000000Z",
+        "lastSoldPrice": 515000,
+        "lastSoldDate": "2014-07-11",
+        "daysOnMarket": 0
+      },
       {
         "id": "3727644344",
         "town": "Dobbs Ferry",
@@ -3630,7 +3647,7 @@
         "listDate": "2026-04-14T04:01:55.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2008-01-22",
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "9238348108",
@@ -3766,7 +3783,7 @@
         "listDate": "2025-02-20T05:48:41.000000Z",
         "lastSoldPrice": 1560000,
         "lastSoldDate": "2025-04-30",
-        "daysOnMarket": 522
+        "daysOnMarket": 523
       }
     ],
     "Eastchester": [
@@ -4074,7 +4091,7 @@
         "listDate": "2026-06-20T05:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4242046173",
@@ -4380,7 +4397,7 @@
         "listDate": "2026-03-16T04:48:12.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "2006-07-10",
-        "daysOnMarket": 133
+        "daysOnMarket": 134
       }
     ],
     "Hartsdale": [
@@ -4433,7 +4450,7 @@
         "listDate": "2026-07-24T04:17:39.000000Z",
         "lastSoldPrice": 940000,
         "lastSoldDate": "2021-12-09",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4853650540",
@@ -5803,7 +5820,7 @@
         "listDate": "2026-07-20T05:47:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9483098569",
@@ -5820,7 +5837,7 @@
         "listDate": "2026-07-20T04:32:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9579902186",
@@ -5837,7 +5854,7 @@
         "listDate": "2026-07-20T04:32:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9247934012",
@@ -5854,7 +5871,7 @@
         "listDate": "2026-07-19T04:32:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "4889272409",
@@ -6504,7 +6521,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4077550022",
@@ -6844,7 +6861,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 123
+        "daysOnMarket": 124
       },
       {
         "id": "3181611801",
@@ -6929,7 +6946,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": 1370000,
         "lastSoldDate": "2018-08-21",
-        "daysOnMarket": 146
+        "daysOnMarket": 147
       },
       {
         "id": "4283285844",
@@ -7617,7 +7634,7 @@
         "listDate": "2026-03-25T04:34:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2002-04-24",
-        "daysOnMarket": 124
+        "daysOnMarket": 125
       },
       {
         "id": "9485625586",
@@ -7651,7 +7668,7 @@
         "listDate": "2025-11-12T05:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 257
+        "daysOnMarket": 258
       },
       {
         "id": "4486584155",
@@ -8221,7 +8238,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "9434500398",
@@ -8289,7 +8306,7 @@
         "listDate": "2024-09-05T04:45:32.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2024-12-03",
-        "daysOnMarket": 690
+        "daysOnMarket": 691
       }
     ],
     "Mount Vernon": [
@@ -10144,7 +10161,7 @@
         "listDate": "2026-05-09T06:02:24.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 79
+        "daysOnMarket": 80
       },
       {
         "id": "4986747856",
@@ -10212,7 +10229,7 @@
         "listDate": "2026-04-29T03:17:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 89
+        "daysOnMarket": 90
       },
       {
         "id": "4064503608",
@@ -10353,36 +10370,36 @@
       {
         "id": "9108522415",
         "town": "Tarrytown",
-        "address": "42 Andrews Ln Unit 42, Sleepy Hollow",
+        "address": "42 Andrews Ln, Sleepy Hollow",
         "price": 999000,
         "beds": 2,
         "baths": 4,
         "sqft": 1512,
-        "type": "townhomes",
+        "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/42-Andrews-Ln_Sleepy-Hollow_NY_10591_M91085-22415",
         "openHouses": [],
-        "listDate": "2026-04-02T18:14:42.000000Z",
+        "listDate": "2026-03-27T14:46:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 116
+        "daysOnMarket": 122
       },
       {
-        "id": "9444884337",
+        "id": "9702641256",
         "town": "Tarrytown",
-        "address": "46 Andrews Ln Unit 46, Sleepy Hollow",
-        "price": 1199000,
+        "address": "201 Horseman Blvd Unit 101, Sleepy Hollow",
+        "price": 1299000,
         "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "townhomes",
+        "baths": 3,
+        "sqft": 1228,
+        "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/46-Andrews-Ln_Sleepy-Hollow_NY_10591_M94448-84337",
+        "link": "https://www.realtor.com/realestateandhomes-detail/201-Horseman-Blvd-Unit-101_Sleepy-Hollow_NY_10591_M97026-41256",
         "openHouses": [],
-        "listDate": "2026-04-02T17:32:23.000000Z",
+        "listDate": "2026-03-25T18:16:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 116
+        "daysOnMarket": 124
       }
     ],
     "Tuckahoe": [
@@ -10770,7 +10787,7 @@
         "listDate": "2026-02-27T05:49:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 150
+        "daysOnMarket": 151
       },
       {
         "id": "4653182514",
@@ -10805,23 +10822,6 @@
         "lastSoldPrice": 190000,
         "lastSoldDate": "2020-03-27",
         "daysOnMarket": 197
-      },
-      {
-        "id": "3109129543",
-        "town": "Tuckahoe",
-        "address": "33 Rogers St, Tuckahoe",
-        "price": 449500,
-        "beds": 3,
-        "baths": 3,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/33-Rogers-St_Tuckahoe_NY_10707_M31091-29543",
-        "openHouses": [],
-        "listDate": "2025-07-29T16:43:09.000000Z",
-        "lastSoldPrice": 464000,
-        "lastSoldDate": "2007-02-12",
-        "daysOnMarket": 363
       },
       {
         "id": "3634517976",
