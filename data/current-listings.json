@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T08:38:48.959Z",
+  "updatedAt": "2026-07-30T11:14:12.768Z",
   "towns": {
     "Pelham": [
       {
@@ -742,7 +742,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/2-Dellwood-Rd_Bronxville_NY_10708_M40570-34861",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-02T13:00:00",
+            "end_date": "2026-08-02T15:00:00",
+            "description": "Wonderful home in Historic Cedar Knolls. Please join us to tour this great home.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-17T16:34:51.000000Z",
         "lastSoldPrice": 1600000,
         "lastSoldDate": "2022-06-27",
@@ -1326,7 +1338,7 @@
         "listDate": "2026-06-08T11:03:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "4902119010",
@@ -2199,23 +2211,6 @@
         "daysOnMarket": 47
       },
       {
-        "id": "3018664861",
-        "town": "Scarsdale",
-        "address": "143 Garth Rd Apt 5L, Scarsdale",
-        "price": 240000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 850,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/143-Garth-Rd-Apt-5L_Scarsdale_NY_10583_M30186-64861",
-        "openHouses": [],
-        "listDate": "2026-06-12T19:13:12.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 47
-      },
-      {
         "id": "4430071316",
         "town": "Scarsdale",
         "address": "65 Fox Meadow Rd, Scarsdale",
@@ -2230,6 +2225,23 @@
         "listDate": "2026-06-12T19:13:12.000000Z",
         "lastSoldPrice": 1700000,
         "lastSoldDate": "2025-03-17",
+        "daysOnMarket": 47
+      },
+      {
+        "id": "3018664861",
+        "town": "Scarsdale",
+        "address": "143 Garth Rd Apt 5L, Scarsdale",
+        "price": 240000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 850,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/143-Garth-Rd-Apt-5L_Scarsdale_NY_10583_M30186-64861",
+        "openHouses": [],
+        "listDate": "2026-06-12T19:13:12.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 47
       },
       {
@@ -2813,7 +2825,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "3170759769",
@@ -5110,7 +5122,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "9499208463",
@@ -5144,7 +5156,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "3259812073",
@@ -5487,7 +5499,7 @@
         "listDate": "2026-07-24T11:07:16.000000Z",
         "lastSoldPrice": 344500,
         "lastSoldDate": "2018-10-11",
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3439972086",
@@ -5504,7 +5516,7 @@
         "listDate": "2026-07-23T10:17:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3486815376",
@@ -6068,7 +6080,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9648085740",
@@ -6565,7 +6577,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3425358762",
@@ -6582,7 +6594,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "4458946550",
@@ -7265,7 +7277,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "4656699634",
@@ -7282,7 +7294,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "4385838569",
@@ -9119,7 +9131,7 @@
         "listDate": "2026-06-04T10:01:59.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "4290142778",
@@ -9153,7 +9165,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 62
+        "daysOnMarket": 63
       },
       {
         "id": "3898208084",
@@ -9682,7 +9694,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "3767002130",
@@ -9926,7 +9938,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/19-S-Broadway-Apt-4F_Tarrytown_NY_10591_M99105-23682",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-01T13:00:00",
+            "end_date": "2026-08-01T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-23T19:10:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
