@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T00:08:59.676Z",
+  "updatedAt": "2026-07-31T04:28:24.978Z",
   "towns": {
     "Pelham": [
       {
@@ -233,7 +233,7 @@
         "listDate": "2026-06-16T01:17:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "3912421482",
@@ -838,7 +838,7 @@
         "listDate": "2026-07-17T03:33:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4658253952",
@@ -1406,6 +1406,23 @@
     ],
     "Scarsdale": [
       {
+        "id": "4608585330",
+        "town": "Scarsdale",
+        "address": "128 Bell Rd, Scarsdale",
+        "price": 799000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1523,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/128-Bell-Rd_Scarsdale_NY_10583_M46085-85330",
+        "openHouses": [],
+        "listDate": "2026-07-31T00:33:05.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "3553544462",
         "town": "Scarsdale",
         "address": "7 Chateaux Cir Apt 7F, Scarsdale",
@@ -1579,7 +1596,7 @@
         "listDate": "2026-07-17T01:18:58.000000Z",
         "lastSoldPrice": 550000,
         "lastSoldDate": "2023-03-01",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3906623951",
@@ -2284,23 +2301,6 @@
         "lastSoldPrice": 1560000,
         "lastSoldDate": "2015-10-05",
         "daysOnMarket": 51
-      },
-      {
-        "id": "4467747184",
-        "town": "Scarsdale",
-        "address": "6 Montrose Rd, Scarsdale",
-        "price": 2575000,
-        "beds": 5,
-        "baths": 5,
-        "sqft": 3167,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/6-Montrose-Rd_Scarsdale_NY_10583_M44677-47184",
-        "openHouses": [],
-        "listDate": "2026-06-09T19:18:26.000000Z",
-        "lastSoldPrice": 1250000,
-        "lastSoldDate": "2003-12-09",
-        "daysOnMarket": 51
       }
     ],
     "Ardsley": [
@@ -2382,7 +2382,7 @@
         "listDate": "2026-07-22T01:03:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "3965465439",
@@ -3142,7 +3142,7 @@
         "listDate": "2026-06-02T03:33:14.000000Z",
         "lastSoldPrice": 800000,
         "lastSoldDate": "2024-12-30",
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "9540087096",
@@ -3227,7 +3227,7 @@
         "listDate": "2026-04-14T00:47:01.000000Z",
         "lastSoldPrice": 1440995,
         "lastSoldDate": "2024-08-29",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "3168150418",
@@ -3570,7 +3570,7 @@
         "listDate": "2026-07-03T02:47:33.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2020-06-12",
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "4741694905",
@@ -3803,7 +3803,7 @@
         "listDate": "2026-04-14T04:01:55.000000Z",
         "lastSoldPrice": 525000,
         "lastSoldDate": "2008-01-22",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "9238348108",
@@ -4215,7 +4215,7 @@
         "listDate": "2026-07-06T02:32:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4617519007",
@@ -4453,7 +4453,7 @@
         "listDate": "2026-05-01T01:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 90
+        "daysOnMarket": 91
       },
       {
         "id": "3678721162",
@@ -4683,7 +4683,7 @@
         "listDate": "2026-07-24T04:17:39.000000Z",
         "lastSoldPrice": 940000,
         "lastSoldDate": "2021-12-09",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4853650540",
@@ -4791,7 +4791,7 @@
         "listDate": "2026-07-17T01:33:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4627015525",
@@ -5481,7 +5481,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/8-Palma-Dr_Harrison_NY_10528_M33644-43467",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-02T13:00:00",
+            "end_date": "2026-08-02T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-31T00:03:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -5678,7 +5690,7 @@
         "listDate": "2026-07-03T02:20:16.000000Z",
         "lastSoldPrice": 120400,
         "lastSoldDate": "1981-08-12",
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "3546264001",
@@ -5735,7 +5747,7 @@
         "listDate": "2026-06-19T02:32:34.000000Z",
         "lastSoldPrice": 815000,
         "lastSoldDate": "2013-04-18",
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "4717591361",
@@ -6024,7 +6036,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 329
+        "daysOnMarket": 330
       },
       {
         "id": "3498190935",
@@ -6357,7 +6369,7 @@
         "listDate": "2026-07-17T00:16:37.000000Z",
         "lastSoldPrice": 687500,
         "lastSoldDate": "2023-01-18",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "6637733075",
@@ -6391,7 +6403,7 @@
         "listDate": "2026-07-16T01:58:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "6954344523",
@@ -6597,7 +6609,7 @@
         "listDate": "2026-07-11T02:20:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3900777541",
@@ -6768,23 +6780,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 58
-      },
-      {
-        "id": "3492645310",
-        "town": "Irvington",
-        "address": "6 Harriman Keep Rd Unit 6, Irvington",
-        "price": 999999,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2416,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/6-Harriman-Keep_Irvington_NY_10533_M34926-45310",
-        "openHouses": [],
-        "listDate": "2026-05-31T21:32:06.000000Z",
-        "lastSoldPrice": 535000,
-        "lastSoldDate": "2012-09-10",
-        "daysOnMarket": 60
       },
       {
         "id": "3509877920",
@@ -7586,7 +7581,7 @@
         "listDate": "2026-05-23T02:47:28.000000Z",
         "lastSoldPrice": 667000,
         "lastSoldDate": "2011-09-13",
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       },
       {
         "id": "9300907060",
@@ -7603,7 +7598,7 @@
         "listDate": "2026-05-23T02:02:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       },
       {
         "id": "9077448404",
@@ -7688,7 +7683,7 @@
         "listDate": "2026-05-07T00:32:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "4358996941",
@@ -8343,7 +8338,7 @@
         "listDate": "2026-06-19T02:19:21.000000Z",
         "lastSoldPrice": 154000,
         "lastSoldDate": "2000-04-10",
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "4032863082",
@@ -8998,7 +8993,7 @@
         "listDate": "2026-06-29T00:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "9113465611",
@@ -9367,7 +9362,7 @@
         "listDate": "2026-05-05T01:47:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 86
+        "daysOnMarket": 87
       },
       {
         "id": "9054589547",
@@ -9581,7 +9576,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/590-Bedford-Rd-Apt-3_Pleasantville_NY_10570_M44824-98626",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-01T11:00:00",
+            "end_date": "2026-08-01T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-29T18:58:03.000000Z",
         "lastSoldPrice": 352500,
         "lastSoldDate": "2019-06-27",
@@ -9738,7 +9745,7 @@
         "listDate": "2026-06-26T01:47:48.000000Z",
         "lastSoldPrice": 577000,
         "lastSoldDate": "2012-12-28",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3485254701",
@@ -10066,7 +10073,7 @@
         "listDate": "2026-07-23T00:34:39.000000Z",
         "lastSoldPrice": 149000,
         "lastSoldDate": "1995-01-25",
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9974744860",
@@ -10736,7 +10743,7 @@
         "listDate": "2026-04-29T03:17:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 92
+        "daysOnMarket": 93
       },
       {
         "id": "4064503608",
@@ -10874,7 +10881,7 @@
         "listDate": "2026-07-30T02:34:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4755685378",
