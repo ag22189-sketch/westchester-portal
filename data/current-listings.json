@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T04:28:24.978Z",
+  "updatedAt": "2026-07-31T07:55:27.717Z",
   "towns": {
     "Pelham": [
       {
@@ -437,7 +437,7 @@
         "listDate": "2025-11-21T05:48:01.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 251
+        "daysOnMarket": 252
       },
       {
         "id": "4483697710",
@@ -923,7 +923,7 @@
         "listDate": "2026-07-10T05:46:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "4717795664",
@@ -940,7 +940,7 @@
         "listDate": "2026-07-10T05:41:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "3874166509",
@@ -1049,7 +1049,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "9152493437",
@@ -1437,7 +1437,7 @@
         "listDate": "2026-07-28T04:33:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4338136237",
@@ -2672,7 +2672,7 @@
         "listDate": "2025-10-31T04:49:23.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2024-12-13",
-        "daysOnMarket": 272
+        "daysOnMarket": 273
       },
       {
         "id": "9876533118",
@@ -2958,7 +2958,7 @@
         "listDate": "2026-02-06T05:47:54.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2024-11-14",
-        "daysOnMarket": 174
+        "daysOnMarket": 175
       },
       {
         "id": "4195966666",
@@ -3176,7 +3176,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 78
+        "daysOnMarket": 79
       },
       {
         "id": "3216529347",
@@ -3439,7 +3439,7 @@
         "listDate": "2026-07-28T05:17:35.000000Z",
         "lastSoldPrice": 515000,
         "lastSoldDate": "2014-07-11",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "3727644344",
@@ -3956,6 +3956,46 @@
         "daysOnMarket": 1
       },
       {
+        "id": "4527149096",
+        "town": "Eastchester",
+        "address": "31 Claudet Way, Eastchester",
+        "price": 950000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1780,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/31-Claudet-Way_Eastchester_NY_10709_M45271-49096",
+        "openHouses": [
+          {
+            "start_date": "2026-08-01T14:00:00",
+            "end_date": "2026-08-01T16:00:00",
+            "description": "TREETOP VIEWS EVERY SEASON OF THE YEAR! Welcome to this beautifully maintained 3-bedroom, 2-bathroom ranch in the California Ridge section of Eastchester, where classic charm meets modern comfort. Set atop a hill, this home offers stunning treetop views from the amazing bay window - watch the leaves turn through spring, summer, and autumn, and the branches dust with snow come winter.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-08-02T14:30:00",
+            "end_date": "2026-08-02T16:30:00",
+            "description": "TREETOP VIEWS EVERY SEASON OF THE YEAR! Welcome to this beautifully maintained 3-bedroom, 2-bathroom ranch in the California Ridge section of Eastchester, where classic charm meets modern comfort. Set atop a hill, this home offers stunning treetop views from the amazing bay window - watch the leaves turn through spring, summer, and autumn, and the branches dust with snow come winter.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-07-28T18:56:21.000000Z",
+        "lastSoldPrice": 875000,
+        "lastSoldDate": "2020-10-08",
+        "daysOnMarket": 2
+      },
+      {
         "id": "9725474264",
         "town": "Eastchester",
         "address": "15 Leewood Cir Apt 1R, Eastchester",
@@ -4266,7 +4306,7 @@
         "listDate": "2026-06-20T05:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "4242046173",
@@ -4555,7 +4595,7 @@
         "listDate": "2026-03-16T04:48:12.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "2006-07-10",
-        "daysOnMarket": 136
+        "daysOnMarket": 137
       }
     ],
     "Hartsdale": [
@@ -4703,23 +4743,6 @@
         "daysOnMarket": 7
       },
       {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 8
-      },
-      {
         "id": "4835129366",
         "town": "Hartsdale",
         "address": "29 S Washington Ave, Hartsdale",
@@ -4757,6 +4780,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 8
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 8
       },
       {
@@ -6089,7 +6129,7 @@
         "listDate": "2026-07-20T05:47:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "4889272409",
@@ -6694,7 +6734,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4556540553",
@@ -7012,7 +7052,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 126
+        "daysOnMarket": 127
       },
       {
         "id": "3181611801",
@@ -7097,7 +7137,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": 1370000,
         "lastSoldDate": "2018-08-21",
-        "daysOnMarket": 149
+        "daysOnMarket": 150
       },
       {
         "id": "4283285844",
@@ -7114,7 +7154,7 @@
         "listDate": "2026-02-17T06:34:37.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2016-08-19",
-        "daysOnMarket": 163
+        "daysOnMarket": 164
       },
       {
         "id": "9460144304",
@@ -7938,7 +7978,7 @@
         "listDate": "2026-03-25T04:34:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2002-04-24",
-        "daysOnMarket": 127
+        "daysOnMarket": 128
       },
       {
         "id": "9369243885",
@@ -8006,7 +8046,7 @@
         "listDate": "2025-11-12T05:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 260
+        "daysOnMarket": 261
       }
     ],
     "Mamaroneck": [
@@ -8588,7 +8628,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "9434500398",
@@ -8656,7 +8696,7 @@
         "listDate": "2024-09-05T04:45:32.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2024-12-03",
-        "daysOnMarket": 693
+        "daysOnMarket": 694
       }
     ],
     "Mount Vernon": [
@@ -8675,7 +8715,7 @@
         "listDate": "2026-07-30T06:40:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9513908804",
@@ -10627,23 +10667,6 @@
         "daysOnMarket": 71
       },
       {
-        "id": "9838699766",
-        "town": "Tarrytown",
-        "address": "36 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 80
-      },
-      {
         "id": "3538849971",
         "town": "Tarrytown",
         "address": "30 Andrews Ln, Sleepy Hollow",
@@ -10661,6 +10684,23 @@
         "daysOnMarket": 80
       },
       {
+        "id": "9838699766",
+        "town": "Tarrytown",
+        "address": "36 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 80
+      },
+      {
         "id": "4000911128",
         "town": "Tarrytown",
         "address": "23 Storm St, Tarrytown",
@@ -10675,7 +10715,7 @@
         "listDate": "2026-05-09T06:02:24.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 82
+        "daysOnMarket": 83
       },
       {
         "id": "4986747856",
@@ -11267,7 +11307,7 @@
         "listDate": "2026-02-27T05:49:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 153
+        "daysOnMarket": 154
       },
       {
         "id": "4653182514",
