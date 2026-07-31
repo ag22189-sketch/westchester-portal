@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T07:55:27.717Z",
+  "updatedAt": "2026-07-31T10:46:18.372Z",
   "towns": {
     "Pelham": [
       {
@@ -2655,7 +2655,7 @@
         "listDate": "2025-12-17T08:00:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 225
+        "daysOnMarket": 226
       },
       {
         "id": "3324023218",
@@ -2861,7 +2861,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "3170759769",
@@ -4408,7 +4408,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "4536519295",
@@ -5014,7 +5014,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/21-Joyce-Rd_Hartsdale_NY_10530_M32068-04159",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-01T10:00:00",
+            "end_date": "2026-08-01T12:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": 470400,
         "lastSoldDate": "2015-11-20",
@@ -5205,7 +5217,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "9499208463",
@@ -5239,7 +5251,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "3259812073",
@@ -5434,7 +5446,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/39-Hillcrest-Rd_Hartsdale_NY_10530_M44327-11574",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-02T13:00:00",
+            "end_date": "2026-08-02T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
@@ -5628,7 +5652,7 @@
         "listDate": "2026-07-23T10:17:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "3588029676",
@@ -6186,7 +6210,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "9648085740",
@@ -6405,7 +6429,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/502-Ackerman-Ave_Ho-Ho-Kus_NJ_07423_M50151-70087",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-02T13:00:00",
+            "end_date": "2026-08-02T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-17T00:16:37.000000Z",
         "lastSoldPrice": 687500,
         "lastSoldDate": "2023-01-18",
@@ -6666,7 +6702,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "3425358762",
@@ -6683,7 +6719,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "4458946550",
@@ -7349,7 +7385,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "4385838569",
@@ -7981,23 +8017,6 @@
         "daysOnMarket": 128
       },
       {
-        "id": "9369243885",
-        "town": "Larchmont",
-        "address": "64 Myrtle Blvd, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 160
-      },
-      {
         "id": "9743358871",
         "town": "Larchmont",
         "address": "23 Edgewood Ave, Larchmont",
@@ -8008,6 +8027,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 160
+      },
+      {
+        "id": "9369243885",
+        "town": "Larchmont",
+        "address": "64 Myrtle Blvd, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -9092,7 +9128,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/7-Huntwood-Pl_Mount-Vernon_NY_10552_M33174-37296",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-01T12:00:00",
+            "end_date": "2026-08-01T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-22T20:04:37.000000Z",
         "lastSoldPrice": 285000,
         "lastSoldDate": "1991-07-11",
@@ -9232,7 +9280,7 @@
         "listDate": "2026-06-04T10:01:59.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "4290142778",
@@ -9249,7 +9297,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 62
+        "daysOnMarket": 63
       },
       {
         "id": "9873636599",
@@ -9819,7 +9867,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "3767002130",
@@ -9917,23 +9965,6 @@
         "lastSoldPrice": 760000,
         "lastSoldDate": "2022-09-08",
         "daysOnMarket": 49
-      },
-      {
-        "id": "4537101029",
-        "town": "Pleasantville",
-        "address": "7 Hays Hill Rd, Pleasantville",
-        "price": 1095000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2048,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/7-Hays-Hill-Rd_Pleasantville_NY_10570_M45371-01029",
-        "openHouses": [],
-        "listDate": "2026-05-14T23:33:48.000000Z",
-        "lastSoldPrice": 525000,
-        "lastSoldDate": "2016-02-03",
-        "daysOnMarket": 77
       },
       {
         "id": "4720076807",
@@ -10667,23 +10698,6 @@
         "daysOnMarket": 71
       },
       {
-        "id": "3538849971",
-        "town": "Tarrytown",
-        "address": "30 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/30-Andrews-Ln_Sleepy-Hollow_NY_10591_M35388-49971",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": 625000,
-        "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 80
-      },
-      {
         "id": "9838699766",
         "town": "Tarrytown",
         "address": "36 Andrews Ln, Sleepy Hollow",
@@ -10698,6 +10712,23 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 80
+      },
+      {
+        "id": "3538849971",
+        "town": "Tarrytown",
+        "address": "30 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/30-Andrews-Ln_Sleepy-Hollow_NY_10591_M35388-49971",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": 625000,
+        "lastSoldDate": "2020-06-05",
         "daysOnMarket": 80
       },
       {
