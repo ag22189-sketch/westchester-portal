@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T04:24:42.350Z",
+  "updatedAt": "2026-08-01T07:31:47.050Z",
   "towns": {
     "Pelham": [
       {
@@ -437,7 +437,7 @@
         "listDate": "2025-11-21T05:48:01.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 252
+        "daysOnMarket": 253
       },
       {
         "id": "4483697710",
@@ -458,6 +458,23 @@
       }
     ],
     "Bronxville": [
+      {
+        "id": "9633917831",
+        "town": "Bronxville",
+        "address": "250 Bronxville Rd Apt 4H, Bronxville",
+        "price": 400000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1413,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/250-Bronxville-Rd-Apt-4H_Bronxville_NY_10708_M96339-17831",
+        "openHouses": [],
+        "listDate": "2026-08-01T04:48:17.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "3155326594",
         "town": "Bronxville",
@@ -975,7 +992,7 @@
         "listDate": "2026-07-10T05:46:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4717795664",
@@ -992,7 +1009,7 @@
         "listDate": "2026-07-10T05:41:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3874166509",
@@ -1101,7 +1118,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "9152493437",
@@ -1432,23 +1449,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 53
-      },
-      {
-        "id": "9380184675",
-        "town": "Bronxville",
-        "address": "280 Bronxville Rd Apt 4O, Bronxville",
-        "price": 325000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 1033,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/280-Bronxville-Rd-Apt-4O_Bronxville_NY_10708_M93801-84675",
-        "openHouses": [],
-        "listDate": "2026-06-05T20:17:54.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 56
       }
     ],
     "Scarsdale": [
@@ -1530,7 +1530,7 @@
         "listDate": "2026-07-28T04:33:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4338136237",
@@ -2637,35 +2637,6 @@
         "daysOnMarket": 119
       },
       {
-        "id": "3166924525",
-        "town": "Ardsley",
-        "address": "100 Euclid Ave, Ardsley",
-        "price": 759000,
-        "beds": 3,
-        "baths": 1,
-        "sqft": 1650,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/100-Euclid-Ave_Ardsley_NY_10502_M31669-24525",
-        "openHouses": [
-          {
-            "start_date": "2026-08-02T12:00:00",
-            "end_date": "2026-08-02T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-01-19T20:17:35.000000Z",
-        "lastSoldPrice": 430000,
-        "lastSoldDate": "2022-07-13",
-        "daysOnMarket": 193
-      },
-      {
         "id": "9011506680",
         "town": "Ardsley",
         "address": "14 N Shady Rd, Ardsley",
@@ -2697,7 +2668,7 @@
         "listDate": "2025-10-31T04:49:23.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2024-12-13",
-        "daysOnMarket": 273
+        "daysOnMarket": 274
       },
       {
         "id": "9876533118",
@@ -3196,7 +3167,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 79
+        "daysOnMarket": 80
       },
       {
         "id": "3216529347",
@@ -3248,23 +3219,6 @@
         "lastSoldPrice": 1440995,
         "lastSoldDate": "2024-08-29",
         "daysOnMarket": 109
-      },
-      {
-        "id": "3168150418",
-        "town": "Chappaqua",
-        "address": "767 King St, Chappaqua",
-        "price": 1665000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/767-King-St_Chappaqua_NY_10514_M31681-50418",
-        "openHouses": [],
-        "listDate": "2026-04-09T19:48:33.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 113
       },
       {
         "id": "3362546053",
@@ -3369,23 +3323,6 @@
         "daysOnMarket": 192
       },
       {
-        "id": "3500078903",
-        "town": "Chappaqua",
-        "address": "20 Bessel Ln, Chappaqua",
-        "price": 2990000,
-        "beds": 6,
-        "baths": 6,
-        "sqft": 8200,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/20-Bessel-Ln_Chappaqua_NY_10514_M35000-78903",
-        "openHouses": [],
-        "listDate": "2025-09-10T15:17:12.000000Z",
-        "lastSoldPrice": 3648888,
-        "lastSoldDate": "2015-01-12",
-        "daysOnMarket": 324
-      },
-      {
         "id": "9773606119",
         "town": "Chappaqua",
         "address": "11 Wallace Way Unit 18, Chappaqua",
@@ -3476,7 +3413,7 @@
         "listDate": "2026-07-28T05:17:35.000000Z",
         "lastSoldPrice": 515000,
         "lastSoldDate": "2014-07-11",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3727644344",
@@ -4366,7 +4303,7 @@
         "listDate": "2026-06-20T05:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "4242046173",
@@ -4655,7 +4592,7 @@
         "listDate": "2026-03-16T04:48:12.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "2006-07-10",
-        "daysOnMarket": 137
+        "daysOnMarket": 138
       }
     ],
     "Hartsdale": [
@@ -6230,7 +6167,7 @@
         "listDate": "2026-07-20T05:47:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "4889272409",
@@ -6836,7 +6773,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4556540553",
@@ -7120,7 +7057,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 127
+        "daysOnMarket": 128
       },
       {
         "id": "3181611801",
@@ -7205,7 +7142,7 @@
         "listDate": "2026-03-03T06:17:00.000000Z",
         "lastSoldPrice": 1370000,
         "lastSoldDate": "2018-08-21",
-        "daysOnMarket": 150
+        "daysOnMarket": 151
       },
       {
         "id": "4283285844",
@@ -7222,7 +7159,7 @@
         "listDate": "2026-02-17T06:34:37.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2016-08-19",
-        "daysOnMarket": 164
+        "daysOnMarket": 165
       },
       {
         "id": "9460144304",
@@ -7243,6 +7180,23 @@
       }
     ],
     "Larchmont": [
+      {
+        "id": "3345358353",
+        "town": "Larchmont",
+        "address": "25 Vanderburgh Ave, Larchmont",
+        "price": 1435000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 1820,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/25-Vanderburgh-Ave_Larchmont_NY_10538_M33453-58353",
+        "openHouses": [],
+        "listDate": "2026-08-01T07:17:33.000000Z",
+        "lastSoldPrice": 1310000,
+        "lastSoldDate": "2022-03-30",
+        "daysOnMarket": 0
+      },
       {
         "id": "3277538066",
         "town": "Larchmont",
@@ -8053,7 +8007,7 @@
         "listDate": "2026-03-25T04:34:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2002-04-24",
-        "daysOnMarket": 128
+        "daysOnMarket": 129
       },
       {
         "id": "9743358871",
@@ -8121,24 +8075,7 @@
         "listDate": "2025-11-12T05:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 261
-      },
-      {
-        "id": "3406384100",
-        "town": "Larchmont",
-        "address": "24 Flint Ave, Larchmont",
-        "price": 4995000,
-        "beds": 7,
-        "baths": 7,
-        "sqft": 6451,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/24-Flint-Ave_Larchmont_NY_10538_M34063-84100",
-        "openHouses": [],
-        "listDate": "2025-09-12T00:33:07.000000Z",
-        "lastSoldPrice": 1575000,
-        "lastSoldDate": "2024-09-17",
-        "daysOnMarket": 323
+        "daysOnMarket": 262
       }
     ],
     "Mamaroneck": [
@@ -8737,7 +8674,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 108
+        "daysOnMarket": 109
       },
       {
         "id": "9434500398",
@@ -8805,7 +8742,7 @@
         "listDate": "2024-09-05T04:45:32.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2024-12-03",
-        "daysOnMarket": 694
+        "daysOnMarket": 695
       }
     ],
     "Mount Vernon": [
@@ -8841,7 +8778,7 @@
         "listDate": "2026-07-30T06:40:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "9513908804",
@@ -10797,7 +10734,7 @@
         "listDate": "2026-05-09T06:02:24.000000Z",
         "lastSoldPrice": 95000,
         "lastSoldDate": "1983-06-16",
-        "daysOnMarket": 83
+        "daysOnMarket": 84
       },
       {
         "id": "4986747856",
@@ -11423,7 +11360,7 @@
         "listDate": "2026-02-27T05:49:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 154
+        "daysOnMarket": 155
       },
       {
         "id": "4653182514",
