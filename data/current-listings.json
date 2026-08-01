@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T07:31:47.050Z",
+  "updatedAt": "2026-08-01T10:05:02.214Z",
   "towns": {
     "Pelham": [
       {
@@ -469,7 +469,30 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/250-Bronxville-Rd-Apt-4H_Bronxville_NY_10708_M96339-17831",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-01T11:00:00",
+            "end_date": "2026-08-01T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-08-02T11:30:00",
+            "end_date": "2026-08-02T13:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-01T04:48:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -2651,7 +2674,7 @@
         "listDate": "2025-12-17T08:00:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 226
+        "daysOnMarket": 227
       },
       {
         "id": "3324023218",
@@ -2857,7 +2880,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "3170759769",
@@ -3712,23 +3735,6 @@
         "daysOnMarket": 93
       },
       {
-        "id": "4665580700",
-        "town": "Dobbs Ferry",
-        "address": "1501 Hunters Run, Dobbs Ferry",
-        "price": 599000,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1510,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1501-Hunters-Run_Dobbs-Ferry_NY_10522_M46655-80700",
-        "openHouses": [],
-        "listDate": "2026-04-21T19:05:51.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 101
-      },
-      {
         "id": "4754124580",
         "town": "Dobbs Ferry",
         "address": "5 Forkland Ln, Dobbs Ferry",
@@ -4405,7 +4411,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "4536519295",
@@ -4728,23 +4734,6 @@
         "daysOnMarket": 8
       },
       {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 9
-      },
-      {
         "id": "4835129366",
         "town": "Hartsdale",
         "address": "29 S Washington Ave, Hartsdale",
@@ -4782,6 +4771,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 9
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 9
       },
       {
@@ -5530,7 +5536,30 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/67-Woodlands-Rd_Harrison_NY_10528_M35122-77461",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-08T12:00:00",
+            "end_date": "2026-08-08T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-08-09T12:00:00",
+            "end_date": "2026-08-09T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-01T01:03:55.000000Z",
         "lastSoldPrice": 950000,
         "lastSoldDate": "1993-10-05",
@@ -6705,7 +6734,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3425358762",
@@ -6722,7 +6751,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4458946550",
@@ -7400,7 +7429,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "4385838569",
@@ -9307,7 +9336,7 @@
         "listDate": "2026-06-04T10:01:59.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "4290142778",
@@ -9324,7 +9353,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "9873636599",
