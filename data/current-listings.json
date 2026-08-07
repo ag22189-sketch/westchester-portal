@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T22:43:35.976Z",
+  "updatedAt": "2026-08-07T23:38:45.741Z",
   "towns": {
     "Pelham": [
       {
@@ -59,7 +59,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/208-Third-Ave_Pelham_NY_10803_M38843-05291",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-09T13:00:00",
+            "end_date": "2026-08-09T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 745000,
         "lastSoldDate": "2019-06-06",
@@ -1104,7 +1116,7 @@
         "listDate": "2026-07-03T23:03:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4084597074",
@@ -1167,7 +1179,7 @@
         "listDate": "2026-06-29T23:17:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "9561612620",
@@ -1252,7 +1264,7 @@
         "listDate": "2026-06-24T23:18:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "3360549496",
@@ -1568,7 +1580,7 @@
         "listDate": "2026-08-03T23:33:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "9024057225",
@@ -2134,23 +2146,6 @@
         "daysOnMarket": 39
       },
       {
-        "id": "4128695371",
-        "town": "Scarsdale",
-        "address": "281 Garth Rd Apt B6D, Scarsdale",
-        "price": 140000,
-        "beds": null,
-        "baths": 1,
-        "sqft": 500,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/281-Garth-Rd-Apt-B6D_Scarsdale_NY_10583_M41286-95371",
-        "openHouses": [],
-        "listDate": "2026-06-26T19:14:13.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 42
-      },
-      {
         "id": "4474673025",
         "town": "Scarsdale",
         "address": "282 Evandale Rd, Scarsdale",
@@ -2319,6 +2314,23 @@
         "lastSoldPrice": 695000,
         "lastSoldDate": "2005-04-01",
         "daysOnMarket": 50
+      },
+      {
+        "id": "4837870599",
+        "town": "Scarsdale",
+        "address": "12 Drake Rd, Scarsdale",
+        "price": 1800000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 2962,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/12-Drake-Rd_Scarsdale_NY_10583_M48378-70599",
+        "openHouses": [],
+        "listDate": "2026-06-16T15:01:59.000000Z",
+        "lastSoldPrice": 949000,
+        "lastSoldDate": "2011-09-23",
+        "daysOnMarket": 52
       }
     ],
     "Ardsley": [
@@ -2423,7 +2435,7 @@
         "listDate": "2026-07-23T23:33:08.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2022-03-15",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "3337513489",
@@ -3417,7 +3429,7 @@
         "listDate": "2026-07-20T23:03:18.000000Z",
         "lastSoldPrice": 564000,
         "lastSoldDate": "2004-11-16",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "4735098833",
@@ -3463,7 +3475,7 @@
         "listDate": "2026-07-14T23:03:02.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4697443081",
@@ -4642,7 +4654,7 @@
         "listDate": "2026-07-16T23:03:03.000000Z",
         "lastSoldPrice": 744000,
         "lastSoldDate": "2017-06-27",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4297164975",
@@ -5159,7 +5171,7 @@
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 72
+        "daysOnMarket": 73
       },
       {
         "id": "3669290249",
@@ -5463,7 +5475,7 @@
         "listDate": "2026-07-15T23:04:29.000000Z",
         "lastSoldPrice": 1103000,
         "lastSoldDate": "2026-02-04",
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "4490958242",
@@ -5890,7 +5902,7 @@
         "listDate": "2026-07-06T22:48:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4431257955",
@@ -6211,7 +6223,7 @@
         "listDate": "2026-06-29T22:46:13.000000Z",
         "lastSoldPrice": 925000,
         "lastSoldDate": "2025-09-05",
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "5065997684",
@@ -6228,7 +6240,7 @@
         "listDate": "2026-06-24T22:44:51.000000Z",
         "lastSoldPrice": 390600,
         "lastSoldDate": "1995-05-08",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "5208018191",
@@ -7072,7 +7084,7 @@
         "listDate": "2026-07-03T23:03:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4656699634",
@@ -7480,7 +7492,7 @@
         "listDate": "2026-04-09T23:03:36.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "2025-05-01",
-        "daysOnMarket": 119
+        "daysOnMarket": 120
       },
       {
         "id": "3018136658",
@@ -7534,23 +7546,6 @@
         "daysOnMarket": 135
       },
       {
-        "id": "9369243885",
-        "town": "Larchmont",
-        "address": "64 Myrtle Blvd, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 168
-      },
-      {
         "id": "9743358871",
         "town": "Larchmont",
         "address": "23 Edgewood Ave, Larchmont",
@@ -7561,6 +7556,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 168
+      },
+      {
+        "id": "9369243885",
+        "town": "Larchmont",
+        "address": "64 Myrtle Blvd, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -8249,7 +8261,7 @@
         "listDate": "2026-04-15T23:33:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 113
+        "daysOnMarket": 114
       },
       {
         "id": "4010876176",
@@ -8300,7 +8312,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 202
+        "daysOnMarket": 203
       },
       {
         "id": "9199642451",
@@ -8349,7 +8361,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/2-Park-Ln-Apt-4C_Mount-Vernon_NY_10552_M90132-86753",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-09T13:00:00",
+            "end_date": "2026-08-09T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-07T17:49:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -9547,7 +9571,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 111
+        "daysOnMarket": 112
       },
       {
         "id": "4957572658",
@@ -9812,7 +9836,7 @@
         "listDate": "2026-06-25T23:03:44.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2017-08-04",
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "4106825309",
@@ -10028,7 +10052,7 @@
         "listDate": "2026-06-01T23:17:50.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2003-05-29",
-        "daysOnMarket": 66
+        "daysOnMarket": 67
       },
       {
         "id": "9187861602",
@@ -10768,7 +10792,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 82
+        "daysOnMarket": 83
       },
       {
         "id": "3594803854",
