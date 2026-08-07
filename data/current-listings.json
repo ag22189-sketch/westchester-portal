@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T03:54:08.548Z",
+  "updatedAt": "2026-08-07T05:45:32.986Z",
   "towns": {
     "Pelham": [
       {
@@ -17,7 +17,7 @@
         "listDate": "2026-08-06T04:50:25.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4363702628",
@@ -524,7 +524,7 @@
         "listDate": "2026-08-01T04:48:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3155326594",
@@ -990,7 +990,7 @@
         "listDate": "2026-07-10T05:41:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "3874166509",
@@ -1075,7 +1075,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "9152493437",
@@ -1699,7 +1699,7 @@
         "listDate": "2026-07-28T04:33:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4338136237",
@@ -2328,6 +2328,23 @@
     ],
     "Ardsley": [
       {
+        "id": "4963272422",
+        "town": "Ardsley",
+        "address": "131 Huntley Dr, Ardsley",
+        "price": 1085000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2438,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/131-Huntley-Dr_Ardsley_NY_10502_M49632-72422",
+        "openHouses": [],
+        "listDate": "2026-08-07T04:55:42.000000Z",
+        "lastSoldPrice": 739000,
+        "lastSoldDate": "2017-08-03",
+        "daysOnMarket": 0
+      },
+      {
         "id": "3629634915",
         "town": "Ardsley",
         "address": "73 Bramblebrook Rd, Ardsley",
@@ -2672,7 +2689,7 @@
         "listDate": "2025-10-31T04:49:23.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2024-12-13",
-        "daysOnMarket": 279
+        "daysOnMarket": 280
       },
       {
         "id": "9876533118",
@@ -3147,7 +3164,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 85
+        "daysOnMarket": 86
       },
       {
         "id": "3216529347",
@@ -4076,7 +4093,7 @@
         "listDate": "2026-06-20T05:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4242046173",
@@ -4314,10 +4331,27 @@
         "listDate": "2026-03-16T04:48:12.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "2006-07-10",
-        "daysOnMarket": 143
+        "daysOnMarket": 144
       }
     ],
     "Hartsdale": [
+      {
+        "id": "3641026921",
+        "town": "Hartsdale",
+        "address": "651 Secor Rd, Hartsdale",
+        "price": 850000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1816,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/651-Secor-Rd_Hartsdale_NY_10530_M36410-26921",
+        "openHouses": [],
+        "listDate": "2026-08-07T04:55:42.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "4746241318",
         "town": "Hartsdale",
@@ -4350,7 +4384,7 @@
         "listDate": "2026-08-05T04:52:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4222612181",
@@ -4476,7 +4510,7 @@
         "listDate": "2026-07-24T04:17:39.000000Z",
         "lastSoldPrice": 940000,
         "lastSoldDate": "2021-12-09",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4853650540",
@@ -5198,23 +5232,6 @@
         "lastSoldPrice": 347000,
         "lastSoldDate": "1999-09-24",
         "daysOnMarket": 91
-      },
-      {
-        "id": "4246406288",
-        "town": "Hartsdale",
-        "address": "66 Caterson Ter, Hartsdale",
-        "price": 1225000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2456,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/66-Caterson-Ter_Hartsdale_NY_10530_M42464-06288",
-        "openHouses": [],
-        "listDate": "2026-05-06T15:47:42.000000Z",
-        "lastSoldPrice": 850000,
-        "lastSoldDate": "2009-10-16",
-        "daysOnMarket": 92
       }
     ],
     "Harrison": [
@@ -6191,6 +6208,23 @@
     ],
     "Irvington": [
       {
+        "id": "9696928061",
+        "town": "Irvington",
+        "address": "140 N Broadway Apt U4, Irvington",
+        "price": 245000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 800,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/140-N-Broadway-Apt-U4_Irvington_NY_10533_M96969-28061",
+        "openHouses": [],
+        "listDate": "2026-08-07T04:55:42.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "4592183241",
         "town": "Irvington",
         "address": "7 Cyrus Field Rd, Irvington",
@@ -6404,7 +6438,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "4556540553",
@@ -6840,6 +6874,23 @@
     ],
     "Larchmont": [
       {
+        "id": "3812676328",
+        "town": "Larchmont",
+        "address": "11 Alden Rd Apt 5L, Larchmont",
+        "price": 498888,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1500,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-Alden-Rd-Apt-5L_Larchmont_NY_10538_M38126-76328",
+        "openHouses": [],
+        "listDate": "2026-08-07T04:55:42.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "4202170483",
         "town": "Larchmont",
         "address": "19 Revere Rd, Larchmont",
@@ -6877,7 +6928,7 @@
         "listDate": "2026-08-03T04:47:52.000000Z",
         "lastSoldPrice": 570555,
         "lastSoldDate": "2015-06-12",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3345358353",
@@ -7489,7 +7540,7 @@
         "listDate": "2026-03-25T04:34:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2002-04-24",
-        "daysOnMarket": 134
+        "daysOnMarket": 135
       },
       {
         "id": "9743358871",
@@ -7578,6 +7629,23 @@
       }
     ],
     "Mamaroneck": [
+      {
+        "id": "3986429718",
+        "town": "Mamaroneck",
+        "address": "134 Jensen Ave, Mamaroneck",
+        "price": 945000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1672,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/134-Jensen-Ave_Mamaroneck_NY_10543_M39864-29718",
+        "openHouses": [],
+        "listDate": "2026-08-07T04:55:42.000000Z",
+        "lastSoldPrice": 765000,
+        "lastSoldDate": "2021-09-15",
+        "daysOnMarket": 0
+      },
       {
         "id": "9964052412",
         "town": "Mamaroneck",
@@ -8235,7 +8303,7 @@
         "listDate": "2024-09-05T04:45:32.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2024-12-03",
-        "daysOnMarket": 700
+        "daysOnMarket": 701
       }
     ],
     "Mount Vernon": [
@@ -9130,7 +9198,7 @@
         "listDate": "2026-08-05T04:52:07.000000Z",
         "lastSoldPrice": 235000,
         "lastSoldDate": "2012-01-10",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3770542394",
