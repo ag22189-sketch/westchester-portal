@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-07T09:06:30.870Z",
+  "updatedAt": "2026-08-07T10:58:47.982Z",
   "towns": {
     "Pelham": [
       {
@@ -1399,7 +1399,7 @@
         "link": "https://www.realtor.com/realestateandhomes-detail/46-Sprain-Valley-Rd_Scarsdale_NY_10583_M39834-52294",
         "openHouses": [
           {
-            "start_date": "2026-08-08T01:00:00",
+            "start_date": "2026-08-08T13:00:00",
             "end_date": "2026-08-08T16:00:00",
             "description": null,
             "time_zone": "EST",
@@ -1410,7 +1410,7 @@
             ]
           },
           {
-            "start_date": "2026-08-09T01:00:00",
+            "start_date": "2026-08-09T13:00:00",
             "end_date": "2026-08-09T16:00:00",
             "description": null,
             "time_zone": "EST",
@@ -2338,7 +2338,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/131-Huntley-Dr_Ardsley_NY_10502_M49632-72422",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-09T13:00:00",
+            "end_date": "2026-08-09T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": 739000,
         "lastSoldDate": "2017-08-03",
@@ -2895,7 +2907,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "3170759769",
@@ -4346,7 +4358,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/651-Secor-Rd_Hartsdale_NY_10530_M36410-26921",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-09T11:30:00",
+            "end_date": "2026-08-09T13:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -4913,7 +4937,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "9499208463",
@@ -4947,7 +4971,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "3259812073",
@@ -5382,7 +5406,7 @@
         "listDate": "2026-07-23T10:17:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "3588029676",
@@ -5843,7 +5867,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "9648085740",
@@ -6341,7 +6365,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "3425358762",
@@ -6358,7 +6382,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "4458946550",
@@ -7081,7 +7105,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4385838569",
@@ -7640,7 +7664,30 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/134-Jensen-Ave_Mamaroneck_NY_10543_M39864-29718",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-08T12:00:00",
+            "end_date": "2026-08-08T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-08-09T13:00:00",
+            "end_date": "2026-08-09T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2021-09-15",
@@ -7804,7 +7851,7 @@
         "listDate": "2026-07-16T10:01:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3816671274",
@@ -9368,7 +9415,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "3767002130",
@@ -9605,23 +9652,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 14
-      },
-      {
-        "id": "4891476968",
-        "town": "Tarrytown",
-        "address": "412 Benedict Ave Apt 3B, Tarrytown",
-        "price": 575000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1181,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/412-Benedict-Ave-Apt-3B_Tarrytown_NY_10591_M48914-76968",
-        "openHouses": [],
-        "listDate": "2026-07-23T00:34:39.000000Z",
-        "lastSoldPrice": 149000,
-        "lastSoldDate": "1995-01-25",
-        "daysOnMarket": 15
       },
       {
         "id": "9974744860",
@@ -10078,23 +10108,6 @@
         "daysOnMarket": 78
       },
       {
-        "id": "9838699766",
-        "town": "Tarrytown",
-        "address": "36 Andrews Ln, Sleepy Hollow",
-        "price": 999999,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
-        "openHouses": [],
-        "listDate": "2026-05-11T12:46:56.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 87
-      },
-      {
         "id": "3538849971",
         "town": "Tarrytown",
         "address": "30 Andrews Ln, Sleepy Hollow",
@@ -10109,6 +10122,23 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2020-06-05",
+        "daysOnMarket": 87
+      },
+      {
+        "id": "9838699766",
+        "town": "Tarrytown",
+        "address": "36 Andrews Ln, Sleepy Hollow",
+        "price": 999999,
+        "beds": 2,
+        "baths": 4,
+        "sqft": 1512,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/36-Andrews-Ln_Sleepy-Hollow_NY_10591_M98386-99766",
+        "openHouses": [],
+        "listDate": "2026-05-11T12:46:56.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 87
       },
       {
@@ -10399,6 +10429,23 @@
         "lastSoldPrice": 200000,
         "lastSoldDate": "2011-03-31",
         "daysOnMarket": 278
+      },
+      {
+        "id": "9145663813",
+        "town": "Tarrytown",
+        "address": "4 Lighthouse Lndg Unit 210, Sleepy Hollow",
+        "price": 3895000,
+        "beds": 3,
+        "baths": 4,
+        "sqft": 2357,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-210_Sleepy-Hollow_NY_10591_M91456-63813",
+        "openHouses": [],
+        "listDate": "2025-10-15T15:02:17.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 295
       }
     ],
     "Tuckahoe": [
