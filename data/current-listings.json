@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T04:15:09.322Z",
+  "updatedAt": "2026-08-08T05:46:46.072Z",
   "towns": {
     "Pelham": [
       {
@@ -29,7 +29,7 @@
         "listDate": "2026-08-06T04:50:25.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4363702628",
@@ -548,7 +548,7 @@
         "listDate": "2026-08-01T04:48:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3155326594",
@@ -1014,7 +1014,7 @@
         "listDate": "2026-07-10T05:41:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3874166509",
@@ -1099,7 +1099,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "9152493437",
@@ -1723,7 +1723,7 @@
         "listDate": "2026-07-28T04:33:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "4338136237",
@@ -2372,7 +2372,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": 739000,
         "lastSoldDate": "2017-08-03",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "3629634915",
@@ -2719,7 +2719,7 @@
         "listDate": "2025-10-31T04:49:23.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2024-12-13",
-        "daysOnMarket": 280
+        "daysOnMarket": 281
       },
       {
         "id": "9876533118",
@@ -3206,7 +3206,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 86
+        "daysOnMarket": 87
       },
       {
         "id": "3216529347",
@@ -4135,7 +4135,7 @@
         "listDate": "2026-06-20T05:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "4242046173",
@@ -4373,10 +4373,27 @@
         "listDate": "2026-03-16T04:48:12.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "2006-07-10",
-        "daysOnMarket": 144
+        "daysOnMarket": 145
       }
     ],
     "Hartsdale": [
+      {
+        "id": "3229573069",
+        "town": "Hartsdale",
+        "address": "34 Keats Ave, Hartsdale",
+        "price": 795000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1450,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/34-Keats-Ave_Hartsdale_NY_10530_M32295-73069",
+        "openHouses": [],
+        "listDate": "2026-08-08T04:54:43.000000Z",
+        "lastSoldPrice": 640000,
+        "lastSoldDate": "2022-08-08",
+        "daysOnMarket": 0
+      },
       {
         "id": "3641026921",
         "town": "Hartsdale",
@@ -4404,7 +4421,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4746241318",
@@ -4438,7 +4455,7 @@
         "listDate": "2026-08-05T04:52:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4222612181",
@@ -4552,7 +4569,7 @@
         "listDate": "2026-07-24T04:17:39.000000Z",
         "lastSoldPrice": 940000,
         "lastSoldDate": "2021-12-09",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4853650540",
@@ -5257,23 +5274,6 @@
         "lastSoldPrice": 347000,
         "lastSoldDate": "1999-09-24",
         "daysOnMarket": 92
-      },
-      {
-        "id": "4246406288",
-        "town": "Hartsdale",
-        "address": "66 Caterson Ter, Hartsdale",
-        "price": 1225000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2456,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/66-Caterson-Ter_Hartsdale_NY_10530_M42464-06288",
-        "openHouses": [],
-        "listDate": "2026-05-06T15:47:42.000000Z",
-        "lastSoldPrice": 850000,
-        "lastSoldDate": "2009-10-16",
-        "daysOnMarket": 93
       }
     ],
     "Harrison": [
@@ -6276,7 +6276,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4592183241",
@@ -6492,7 +6492,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "4556540553",
@@ -6891,7 +6891,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4202170483",
@@ -6931,7 +6931,7 @@
         "listDate": "2026-08-03T04:47:52.000000Z",
         "lastSoldPrice": 570555,
         "lastSoldDate": "2015-06-12",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "3345358353",
@@ -7509,24 +7509,7 @@
         "listDate": "2026-03-25T04:34:55.000000Z",
         "lastSoldPrice": 1400000,
         "lastSoldDate": "2002-04-24",
-        "daysOnMarket": 135
-      },
-      {
-        "id": "9743358871",
-        "town": "Larchmont",
-        "address": "23 Edgewood Ave, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 168
+        "daysOnMarket": 136
       },
       {
         "id": "9369243885",
@@ -7539,6 +7522,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 168
+      },
+      {
+        "id": "9743358871",
+        "town": "Larchmont",
+        "address": "23 Edgewood Ave, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -7653,7 +7653,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2021-09-15",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9964052412",
@@ -8312,7 +8312,7 @@
         "listDate": "2024-09-05T04:45:32.000000Z",
         "lastSoldPrice": 420000,
         "lastSoldDate": "2024-12-03",
-        "daysOnMarket": 701
+        "daysOnMarket": 702
       }
     ],
     "Mount Vernon": [
@@ -9219,7 +9219,7 @@
         "listDate": "2026-08-05T04:52:07.000000Z",
         "lastSoldPrice": 235000,
         "lastSoldDate": "2012-01-10",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "3770542394",
