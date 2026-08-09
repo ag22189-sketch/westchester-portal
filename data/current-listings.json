@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-09T08:51:55.852Z",
+  "updatedAt": "2026-08-09T09:47:32.351Z",
   "towns": {
     "Pelham": [
       {
@@ -2811,7 +2811,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 79
+        "daysOnMarket": 80
       },
       {
         "id": "3170759769",
@@ -4456,23 +4456,6 @@
         "daysOnMarket": 16
       },
       {
-        "id": "4835129366",
-        "town": "Hartsdale",
-        "address": "29 S Washington Ave, Hartsdale",
-        "price": 625000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1269,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 408000,
-        "lastSoldDate": "2014-08-15",
-        "daysOnMarket": 17
-      },
-      {
         "id": "3368191583",
         "town": "Hartsdale",
         "address": "80 Jane St, Hartsdale",
@@ -4487,6 +4470,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 605000,
         "lastSoldDate": "2020-01-07",
+        "daysOnMarket": 17
+      },
+      {
+        "id": "4835129366",
+        "town": "Hartsdale",
+        "address": "29 S Washington Ave, Hartsdale",
+        "price": 625000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1269,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 408000,
+        "lastSoldDate": "2014-08-15",
         "daysOnMarket": 17
       },
       {
@@ -8051,19 +8051,7 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/2-Park-Ln-Apt-4C_Mount-Vernon_NY_10552_M90132-86753",
-        "openHouses": [
-          {
-            "start_date": "2026-08-09T13:00:00",
-            "end_date": "2026-08-09T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-07T17:49:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
