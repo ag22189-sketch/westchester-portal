@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T10:22:56.115Z",
+  "updatedAt": "2026-08-10T11:53:12.116Z",
   "towns": {
     "Pelham": [
       {
@@ -289,7 +289,7 @@
         "listDate": "2026-06-02T11:48:13.000000Z",
         "lastSoldPrice": 545000,
         "lastSoldDate": "2018-10-17",
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       },
       {
         "id": "4590096348",
@@ -852,7 +852,7 @@
         "listDate": "2026-07-17T11:47:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "9337160595",
@@ -1478,7 +1478,7 @@
         "listDate": "2026-08-03T11:03:07.000000Z",
         "lastSoldPrice": 670000,
         "lastSoldDate": "2026-03-03",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "9530210883",
@@ -1784,23 +1784,6 @@
         "listDate": "2026-07-10T15:34:11.000000Z",
         "lastSoldPrice": 790000,
         "lastSoldDate": "2006-11-15",
-        "daysOnMarket": 30
-      },
-      {
-        "id": "4468244419",
-        "town": "Scarsdale",
-        "address": "240 Garth Rd Unit 4H2, Scarsdale",
-        "price": 479000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1145,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/240-Garth-Rd-4H2_Scarsdale_NY_10583_M44682-44419",
-        "openHouses": [],
-        "listDate": "2026-07-10T13:48:04.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
         "daysOnMarket": 30
       },
       {
@@ -2142,6 +2125,23 @@
         "lastSoldPrice": 949000,
         "lastSoldDate": "2011-09-23",
         "daysOnMarket": 54
+      },
+      {
+        "id": "3135125304",
+        "town": "Scarsdale",
+        "address": "43 Black Birch Ln, Scarsdale",
+        "price": 3195000,
+        "beds": 6,
+        "baths": 5,
+        "sqft": 4032,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/43-Black-Birch-Ln_Scarsdale_NY_10583_M31351-25304",
+        "openHouses": [],
+        "listDate": "2026-06-15T19:09:41.000000Z",
+        "lastSoldPrice": 512500,
+        "lastSoldDate": "1997-05-28",
+        "daysOnMarket": 55
       }
     ],
     "Ardsley": [
@@ -2330,7 +2330,7 @@
         "listDate": "2026-05-30T11:46:59.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2009-02-25",
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "3155488956",
@@ -4304,23 +4304,6 @@
         "daysOnMarket": 17
       },
       {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 18
-      },
-      {
         "id": "4835129366",
         "town": "Hartsdale",
         "address": "29 S Washington Ave, Hartsdale",
@@ -4335,6 +4318,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 18
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 18
       },
       {
@@ -4508,23 +4508,6 @@
         "daysOnMarket": 38
       },
       {
-        "id": "3206804159",
-        "town": "Hartsdale",
-        "address": "21 Joyce Rd, Hartsdale",
-        "price": 859500,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1400,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/21-Joyce-Rd_Hartsdale_NY_10530_M32068-04159",
-        "openHouses": [],
-        "listDate": "2026-06-26T19:14:13.000000Z",
-        "lastSoldPrice": 470400,
-        "lastSoldDate": "2015-11-20",
-        "daysOnMarket": 44
-      },
-      {
         "id": "9931725115",
         "town": "Hartsdale",
         "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
@@ -4539,6 +4522,23 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 44
+      },
+      {
+        "id": "3206804159",
+        "town": "Hartsdale",
+        "address": "21 Joyce Rd, Hartsdale",
+        "price": 859500,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1400,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/21-Joyce-Rd_Hartsdale_NY_10530_M32068-04159",
+        "openHouses": [],
+        "listDate": "2026-06-26T19:14:13.000000Z",
+        "lastSoldPrice": 470400,
+        "lastSoldDate": "2015-11-20",
         "daysOnMarket": 44
       },
       {
@@ -5102,7 +5102,7 @@
         "listDate": "2026-07-15T11:32:10.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "1996-10-31",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3509499083",
@@ -5495,7 +5495,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "9648085740",
@@ -7594,7 +7594,7 @@
         "listDate": "2026-04-30T11:17:16.000000Z",
         "lastSoldPrice": 295000,
         "lastSoldDate": "1993-11-29",
-        "daysOnMarket": 101
+        "daysOnMarket": 102
       },
       {
         "id": "4523694520",
@@ -8361,7 +8361,7 @@
         "listDate": "2026-06-05T11:46:53.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2025-06-18",
-        "daysOnMarket": 65
+        "daysOnMarket": 66
       },
       {
         "id": "4290142778",
@@ -8395,7 +8395,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3898208084",
@@ -8412,7 +8412,7 @@
         "listDate": "2026-05-27T11:32:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "4116835326",
@@ -10119,7 +10119,7 @@
         "listDate": "2026-05-04T11:46:50.000000Z",
         "lastSoldPrice": 1195000,
         "lastSoldDate": "2020-04-16",
-        "daysOnMarket": 97
+        "daysOnMarket": 98
       },
       {
         "id": "4298817272",
