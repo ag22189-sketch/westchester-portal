@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T22:45:11.678Z",
+  "updatedAt": "2026-08-10T23:40:47.637Z",
   "towns": {
     "Pelham": [
       {
@@ -1054,23 +1054,6 @@
         "daysOnMarket": 35
       },
       {
-        "id": "9152493437",
-        "town": "Bronxville",
-        "address": "1111 Midland Ave Apt 6H, Bronxville",
-        "price": 192000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1215,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1111-Midland-Ave-Apt-6H_Bronxville_NY_10708_M91524-93437",
-        "openHouses": [],
-        "listDate": "2026-07-03T23:03:41.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 37
-      },
-      {
         "id": "4084597074",
         "town": "Bronxville",
         "address": "804 Bronx River Rd Apt 5A, Bronxville",
@@ -1119,7 +1102,7 @@
         "listDate": "2026-06-29T23:17:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "9561612620",
@@ -1204,7 +1187,7 @@
         "listDate": "2026-06-24T23:18:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "3360549496",
@@ -1290,6 +1273,23 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 60
+      },
+      {
+        "id": "9431136130",
+        "town": "Bronxville",
+        "address": "10 Brooklands Apt 5H, Bronxville",
+        "price": 849000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 1835,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/10-Brooklands-Apt-5H_Bronxville_NY_10708_M94311-36130",
+        "openHouses": [],
+        "listDate": "2026-06-10T21:18:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 61
       }
     ],
     "Scarsdale": [
@@ -1427,7 +1427,7 @@
         "listDate": "2026-08-03T23:33:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "9024057225",
@@ -2153,7 +2153,7 @@
         "listDate": "2026-06-13T22:47:37.000000Z",
         "lastSoldPrice": 1366000,
         "lastSoldDate": "2025-08-11",
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       }
     ],
     "Ardsley": [
@@ -2223,7 +2223,7 @@
         "listDate": "2026-07-23T23:33:08.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2022-03-15",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3337513489",
@@ -3216,7 +3216,7 @@
         "listDate": "2026-07-20T23:03:18.000000Z",
         "lastSoldPrice": 564000,
         "lastSoldDate": "2004-11-16",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "4735098833",
@@ -4191,19 +4191,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/34-Keats-Ave_Hartsdale_NY_10530_M32295-73069",
-        "openHouses": [
-          {
-            "start_date": "2026-08-13T16:30:00",
-            "end_date": "2026-08-13T18:30:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-08T04:54:43.000000Z",
         "lastSoldPrice": 640000,
         "lastSoldDate": "2022-08-08",
@@ -4380,23 +4368,6 @@
         "daysOnMarket": 18
       },
       {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 19
-      },
-      {
         "id": "4835129366",
         "town": "Hartsdale",
         "address": "29 S Washington Ave, Hartsdale",
@@ -4411,6 +4382,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 19
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 19
       },
       {
@@ -4462,7 +4450,7 @@
         "listDate": "2026-07-16T23:03:03.000000Z",
         "lastSoldPrice": 744000,
         "lastSoldDate": "2017-06-27",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4297164975",
@@ -4909,14 +4897,14 @@
       {
         "id": "4363976056",
         "town": "Hartsdale",
-        "address": "31 Stevenson Ave, Call Listing Agent",
+        "address": "31 Stevenson Ave, Scarsdale",
         "price": 859000,
         "beds": 3,
         "baths": 2,
         "sqft": 1120,
         "type": "single family",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/31-Stevenson-Ave_Hartsdale_NY_10530_M43639-76056",
+        "link": "https://www.realtor.com/realestateandhomes-detail/31-Stevenson-Ave_Scarsdale_NY_10530_M43639-76056",
         "openHouses": [],
         "listDate": "2026-05-28T18:14:57.000000Z",
         "lastSoldPrice": 462670,
@@ -4955,7 +4943,7 @@
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 75
+        "daysOnMarket": 76
       },
       {
         "id": "3669290249",
@@ -5161,7 +5149,7 @@
         "listDate": "2026-07-15T23:04:29.000000Z",
         "lastSoldPrice": 1103000,
         "lastSoldDate": "2026-02-04",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "4490958242",
@@ -5588,7 +5576,7 @@
         "listDate": "2026-07-06T22:48:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4431257955",
@@ -5874,24 +5862,7 @@
         "listDate": "2026-06-29T22:46:13.000000Z",
         "lastSoldPrice": 925000,
         "lastSoldDate": "2025-09-05",
-        "daysOnMarket": 41
-      },
-      {
-        "id": "5065997684",
-        "town": "Ho-Ho-Kus",
-        "address": "37 Van Dyke Dr, Ho Ho Kus",
-        "price": 995000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 2200,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/37-Van-Dyke-Dr_Ho-Ho-Kus_NJ_07423_M50659-97684",
-        "openHouses": [],
-        "listDate": "2026-06-24T22:44:51.000000Z",
-        "lastSoldPrice": 390600,
-        "lastSoldDate": "1995-05-08",
-        "daysOnMarket": 47
+        "daysOnMarket": 42
       },
       {
         "id": "5208018191",
@@ -6457,6 +6428,23 @@
         "daysOnMarket": 147
       },
       {
+        "id": "3728681644",
+        "town": "Irvington",
+        "address": "53 Hillside Ter, Irvington",
+        "price": 1700000,
+        "beds": 4,
+        "baths": 5,
+        "sqft": 2809,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/53-Hillside-Ter_Irvington_NY_10533_M37286-81644",
+        "openHouses": [],
+        "listDate": "2026-03-03T06:17:00.000000Z",
+        "lastSoldPrice": 1370000,
+        "lastSoldDate": "2018-08-21",
+        "daysOnMarket": 160
+      },
+      {
         "id": "4283285844",
         "town": "Irvington",
         "address": "95 N Broadway, Irvington",
@@ -6626,7 +6614,7 @@
         "listDate": "2026-07-03T23:03:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4656699634",
@@ -7034,7 +7022,7 @@
         "listDate": "2026-04-09T23:03:36.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "2025-05-01",
-        "daysOnMarket": 122
+        "daysOnMarket": 123
       },
       {
         "id": "3184102199",
@@ -7716,7 +7704,7 @@
         "listDate": "2026-04-15T23:33:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 116
+        "daysOnMarket": 117
       },
       {
         "id": "4010876176",
@@ -7767,7 +7755,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 205
+        "daysOnMarket": 206
       },
       {
         "id": "9199642451",
@@ -8978,7 +8966,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 114
+        "daysOnMarket": 115
       },
       {
         "id": "4957572658",
@@ -9236,7 +9224,7 @@
         "listDate": "2026-06-25T23:03:44.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2017-08-04",
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "4106825309",
@@ -9424,6 +9412,23 @@
         "lastSoldPrice": 1844664,
         "lastSoldDate": "2021-06-23",
         "daysOnMarket": 67
+      },
+      {
+        "id": "3526738540",
+        "town": "Tarrytown",
+        "address": "516 Bellwood Ave, Sleepy Hollow",
+        "price": 1650000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": 3053,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/516-Bellwood-Ave_Sleepy-Hollow_NY_10591_M35267-38540",
+        "openHouses": [],
+        "listDate": "2026-06-01T23:17:50.000000Z",
+        "lastSoldPrice": 760000,
+        "lastSoldDate": "2003-05-29",
+        "daysOnMarket": 70
       },
       {
         "id": "9187861602",
@@ -9832,23 +9837,6 @@
         "lastSoldPrice": 200000,
         "lastSoldDate": "2011-03-31",
         "daysOnMarket": 282
-      },
-      {
-        "id": "9145663813",
-        "town": "Tarrytown",
-        "address": "4 Lighthouse Lndg Unit 210, Sleepy Hollow",
-        "price": 3895000,
-        "beds": 3,
-        "baths": 4,
-        "sqft": 2357,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-210_Sleepy-Hollow_NY_10591_M91456-63813",
-        "openHouses": [],
-        "listDate": "2025-10-15T15:02:17.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 299
       }
     ],
     "Tuckahoe": [
@@ -10122,7 +10110,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 85
+        "daysOnMarket": 86
       },
       {
         "id": "3594803854",
