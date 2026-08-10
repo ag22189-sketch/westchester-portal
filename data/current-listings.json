@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T16:59:35.220Z",
+  "updatedAt": "2026-08-10T17:57:42.886Z",
   "towns": {
     "Pelham": [
       {
@@ -85,7 +85,7 @@
         "listDate": "2026-07-17T17:34:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "3883783568",
@@ -801,7 +801,7 @@
         "listDate": "2026-07-17T17:04:39.000000Z",
         "lastSoldPrice": 339000,
         "lastSoldDate": "2020-03-27",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4057034861",
@@ -1238,7 +1238,7 @@
         "listDate": "2026-06-17T17:34:49.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "9725392467",
@@ -1272,7 +1272,7 @@
         "listDate": "2026-06-12T17:05:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "3682789660",
@@ -1308,7 +1308,7 @@
         "listDate": "2026-08-07T17:04:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "3652641420",
@@ -1376,7 +1376,7 @@
         "listDate": "2026-08-05T17:48:58.000000Z",
         "lastSoldPrice": 845000,
         "lastSoldDate": "2007-10-23",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "3023562445",
@@ -1461,7 +1461,7 @@
         "listDate": "2026-08-03T17:34:24.000000Z",
         "lastSoldPrice": 820000,
         "lastSoldDate": "2014-03-20",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4758878876",
@@ -1474,7 +1474,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/42-Stratford-Rd_Scarsdale_NY_10583_M47588-78876",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-15T13:00:00",
+            "end_date": "2026-08-15T14:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-03T11:03:07.000000Z",
         "lastSoldPrice": 670000,
         "lastSoldDate": "2026-03-03",
@@ -1767,7 +1779,7 @@
         "listDate": "2026-07-10T17:19:24.000000Z",
         "lastSoldPrice": 1030000,
         "lastSoldDate": "2009-02-26",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3267621474",
@@ -2073,7 +2085,7 @@
         "listDate": "2026-06-18T17:34:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "3522797829",
@@ -2241,7 +2253,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/26-Powderhorn-Rd_Ardsley_NY_10502_M39654-65439",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-15T10:00:00",
+            "end_date": "2026-08-15T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-17T15:18:33.000000Z",
         "lastSoldPrice": 594600,
         "lastSoldDate": "2020-06-11",
@@ -2381,7 +2405,7 @@
         "listDate": "2026-05-08T17:02:40.000000Z",
         "lastSoldPrice": 775000,
         "lastSoldDate": "2014-07-14",
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "3227206299",
@@ -2570,7 +2594,7 @@
         "listDate": "2026-07-16T17:05:26.000000Z",
         "lastSoldPrice": 318000,
         "lastSoldDate": "2003-08-11",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4959037217",
@@ -2689,7 +2713,7 @@
         "listDate": "2026-05-04T17:18:59.000000Z",
         "lastSoldPrice": 1575000,
         "lastSoldDate": "2001-10-09",
-        "daysOnMarket": 97
+        "daysOnMarket": 98
       },
       {
         "id": "3175923288",
@@ -2901,7 +2925,7 @@
         "listDate": "2026-06-06T17:02:08.000000Z",
         "lastSoldPrice": 605500,
         "lastSoldDate": "2000-09-27",
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "4679113986",
@@ -3054,7 +3078,7 @@
         "listDate": "2026-03-26T17:33:39.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "2004-06-01",
-        "daysOnMarket": 136
+        "daysOnMarket": 137
       },
       {
         "id": "9821773445",
@@ -3071,7 +3095,7 @@
         "listDate": "2026-03-05T17:17:28.000000Z",
         "lastSoldPrice": 477500,
         "lastSoldDate": "2004-04-16",
-        "daysOnMarket": 157
+        "daysOnMarket": 158
       },
       {
         "id": "4485178199",
@@ -4273,7 +4297,7 @@
         "listDate": "2026-07-28T17:19:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "3991387278",
@@ -4344,23 +4368,6 @@
         "daysOnMarket": 17
       },
       {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 18
-      },
-      {
         "id": "4835129366",
         "town": "Hartsdale",
         "address": "29 S Washington Ave, Hartsdale",
@@ -4375,6 +4382,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 18
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 18
       },
       {
@@ -4613,7 +4637,7 @@
         "listDate": "2026-06-18T17:34:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "4462896314",
@@ -4851,7 +4875,7 @@
         "listDate": "2026-05-31T17:17:36.000000Z",
         "lastSoldPrice": 355000,
         "lastSoldDate": "2018-06-18",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "3748445342",
@@ -4936,7 +4960,7 @@
         "listDate": "2026-05-20T17:02:14.000000Z",
         "lastSoldPrice": 185000,
         "lastSoldDate": "2001-02-27",
-        "daysOnMarket": 81
+        "daysOnMarket": 82
       },
       {
         "id": "4128844406",
@@ -5278,7 +5302,7 @@
         "listDate": "2026-05-08T17:32:38.000000Z",
         "lastSoldPrice": 1300000,
         "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "4200841657",
@@ -5756,7 +5780,7 @@
         "listDate": "2026-04-07T17:46:38.000000Z",
         "lastSoldPrice": 630000,
         "lastSoldDate": "2022-04-25",
-        "daysOnMarket": 124
+        "daysOnMarket": 125
       }
     ],
     "Ho-Ho-Kus": [
@@ -6197,7 +6221,7 @@
         "listDate": "2026-06-02T17:19:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       },
       {
         "id": "4396589623",
@@ -6282,7 +6306,7 @@
         "listDate": "2026-05-04T17:34:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 97
+        "daysOnMarket": 98
       },
       {
         "id": "9637555746",
@@ -6299,7 +6323,7 @@
         "listDate": "2026-04-22T17:18:30.000000Z",
         "lastSoldPrice": 11250000,
         "lastSoldDate": "2024-04-08",
-        "daysOnMarket": 109
+        "daysOnMarket": 110
       },
       {
         "id": "3340972924",
@@ -6401,7 +6425,7 @@
         "listDate": "2026-03-18T17:18:56.000000Z",
         "lastSoldPrice": 2350000,
         "lastSoldDate": "2004-05-17",
-        "daysOnMarket": 144
+        "daysOnMarket": 145
       },
       {
         "id": "3369571646",
@@ -6556,7 +6580,7 @@
         "listDate": "2026-07-21T17:34:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "4387256233",
@@ -6590,7 +6614,7 @@
         "listDate": "2026-07-14T17:34:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "3062913354",
@@ -6607,7 +6631,7 @@
         "listDate": "2026-07-09T17:19:35.000000Z",
         "lastSoldPrice": 240000,
         "lastSoldDate": "1984-08-24",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4432491799",
@@ -6879,7 +6903,7 @@
         "listDate": "2026-05-11T17:32:27.000000Z",
         "lastSoldPrice": 1885000,
         "lastSoldDate": "2023-07-12",
-        "daysOnMarket": 90
+        "daysOnMarket": 91
       },
       {
         "id": "4498605310",
@@ -7561,7 +7585,7 @@
         "listDate": "2026-06-03T17:18:05.000000Z",
         "lastSoldPrice": 542500,
         "lastSoldDate": "2004-04-28",
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "3835966992",
@@ -7835,7 +7859,7 @@
         "listDate": "2026-08-07T17:49:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "9423900445",
@@ -7869,7 +7893,7 @@
         "listDate": "2026-08-04T17:33:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "9730954889",
@@ -7886,7 +7910,7 @@
         "listDate": "2026-08-03T17:49:27.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3995076823",
@@ -7920,7 +7944,7 @@
         "listDate": "2026-07-31T17:18:49.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "9972403161",
@@ -8345,7 +8369,7 @@
         "listDate": "2026-06-16T17:32:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "9154668273",
@@ -8600,7 +8624,7 @@
         "listDate": "2026-05-04T17:18:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 97
+        "daysOnMarket": 98
       },
       {
         "id": "9116329133",
@@ -8959,7 +8983,7 @@
         "listDate": "2026-04-24T17:18:49.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "1999-09-23",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "3394458232",
@@ -9489,7 +9513,7 @@
         "listDate": "2026-05-26T17:20:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 75
+        "daysOnMarket": 76
       },
       {
         "id": "4861099324",
@@ -9659,7 +9683,7 @@
         "listDate": "2026-04-22T17:18:30.000000Z",
         "lastSoldPrice": 988940,
         "lastSoldDate": "2010-05-21",
-        "daysOnMarket": 109
+        "daysOnMarket": 110
       },
       {
         "id": "3669285878",
@@ -9693,7 +9717,7 @@
         "listDate": "2026-04-03T17:18:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 128
+        "daysOnMarket": 129
       },
       {
         "id": "9404772422",
@@ -10001,7 +10025,7 @@
         "listDate": "2026-07-08T17:04:28.000000Z",
         "lastSoldPrice": 391560,
         "lastSoldDate": "2008-06-12",
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "3025217369",
@@ -10018,23 +10042,6 @@
         "listDate": "2026-06-23T00:04:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
-      },
-      {
-        "id": "3514624696",
-        "town": "Tuckahoe",
-        "address": "304 Crestwood Ave, Tuckahoe",
-        "price": 925000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2000,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/304-Crestwood-Ave_Tuckahoe_NY_10707_M35146-24696",
-        "openHouses": [],
-        "listDate": "2026-06-22T18:17:32.000000Z",
-        "lastSoldPrice": 539000,
-        "lastSoldDate": "2013-03-06",
         "daysOnMarket": 48
       },
       {
