@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T08:44:16.326Z",
+  "updatedAt": "2026-08-10T10:22:56.115Z",
   "towns": {
     "Pelham": [
       {
@@ -2655,7 +2655,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "3170759769",
@@ -2755,7 +2755,30 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/42-Hollow-Oak-Rd_Chappaqua_NY_10514_M46223-69877",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-15T13:00:00",
+            "end_date": "2026-08-15T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-08-16T13:00:00",
+            "end_date": "2026-08-16T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-10T04:49:49.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2019-06-04",
@@ -4635,7 +4658,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "9499208463",
@@ -4669,7 +4692,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "3259812073",
@@ -5028,7 +5051,7 @@
         "listDate": "2026-07-23T10:17:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3588029676",
@@ -5935,7 +5958,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3425358762",
@@ -5952,7 +5975,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "4458946550",
@@ -6549,7 +6572,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "4385838569",
@@ -6994,23 +7017,6 @@
         "daysOnMarket": 138
       },
       {
-        "id": "9369243885",
-        "town": "Larchmont",
-        "address": "64 Myrtle Blvd, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 170
-      },
-      {
         "id": "9743358871",
         "town": "Larchmont",
         "address": "23 Edgewood Ave, Larchmont",
@@ -7021,6 +7027,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 170
+      },
+      {
+        "id": "9369243885",
+        "town": "Larchmont",
+        "address": "64 Myrtle Blvd, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -7248,7 +7271,7 @@
         "listDate": "2026-07-16T10:01:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "3816671274",
@@ -8765,7 +8788,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "3767002130",
