@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T23:40:47.637Z",
+  "updatedAt": "2026-08-11T02:09:15.184Z",
   "towns": {
     "Pelham": [
       {
@@ -34,7 +34,7 @@
         "listDate": "2026-08-04T23:47:58.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3884305291",
@@ -221,7 +221,7 @@
         "listDate": "2026-06-16T01:17:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "3912421482",
@@ -429,6 +429,23 @@
       }
     ],
     "Bronxville": [
+      {
+        "id": "9858144256",
+        "town": "Bronxville",
+        "address": "35 Parkview Ave Apt 6G, Bronxville",
+        "price": 360000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 990,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/35-Parkview-Ave-Apt-6G_Bronxville_NY_10708_M98581-44256",
+        "openHouses": [],
+        "listDate": "2026-08-11T00:03:27.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "9178283230",
         "town": "Bronxville",
@@ -971,7 +988,7 @@
         "listDate": "2026-07-09T23:48:11.000000Z",
         "lastSoldPrice": 255000,
         "lastSoldDate": "1989-08-23",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "3231851548",
@@ -1273,23 +1290,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 60
-      },
-      {
-        "id": "9431136130",
-        "town": "Bronxville",
-        "address": "10 Brooklands Apt 5H, Bronxville",
-        "price": 849000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 1835,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/10-Brooklands-Apt-5H_Bronxville_NY_10708_M94311-36130",
-        "openHouses": [],
-        "listDate": "2026-06-10T21:18:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 61
       }
     ],
     "Scarsdale": [
@@ -1541,7 +1541,7 @@
         "listDate": "2026-07-31T00:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "3553544462",
@@ -1677,7 +1677,7 @@
         "listDate": "2026-07-17T01:18:58.000000Z",
         "lastSoldPrice": 550000,
         "lastSoldDate": "2023-03-01",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "9551010804",
@@ -2017,7 +2017,7 @@
         "listDate": "2026-06-23T23:47:42.000000Z",
         "lastSoldPrice": 144000,
         "lastSoldDate": "2017-01-13",
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "9222409547",
@@ -2764,7 +2764,7 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 327
+        "daysOnMarket": 328
       }
     ],
     "Chappaqua": [
@@ -2823,7 +2823,7 @@
         "listDate": "2026-07-12T23:47:21.000000Z",
         "lastSoldPrice": 1110000,
         "lastSoldDate": "2007-07-03",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3374190177",
@@ -3027,7 +3027,7 @@
         "listDate": "2026-04-14T00:47:01.000000Z",
         "lastSoldPrice": 1440995,
         "lastSoldDate": "2024-08-29",
-        "daysOnMarket": 118
+        "daysOnMarket": 119
       },
       {
         "id": "3362546053",
@@ -4068,7 +4068,7 @@
         "listDate": "2026-05-01T01:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 101
+        "daysOnMarket": 102
       },
       {
         "id": "4763638767",
@@ -4191,7 +4191,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/34-Keats-Ave_Hartsdale_NY_10530_M32295-73069",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-13T16:30:00",
+            "end_date": "2026-08-13T18:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-08T04:54:43.000000Z",
         "lastSoldPrice": 640000,
         "lastSoldDate": "2022-08-08",
@@ -4433,7 +4445,7 @@
         "listDate": "2026-07-17T01:33:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4627015525",
@@ -4897,14 +4909,14 @@
       {
         "id": "4363976056",
         "town": "Hartsdale",
-        "address": "31 Stevenson Ave, Scarsdale",
+        "address": "31 Stevenson Ave, Call Listing Agent",
         "price": 859000,
         "beds": 3,
         "baths": 2,
         "sqft": 1120,
         "type": "single family",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/31-Stevenson-Ave_Scarsdale_NY_10530_M43639-76056",
+        "link": "https://www.realtor.com/realestateandhomes-detail/31-Stevenson-Ave_Hartsdale_NY_10530_M43639-76056",
         "openHouses": [],
         "listDate": "2026-05-28T18:14:57.000000Z",
         "lastSoldPrice": 462670,
@@ -5047,7 +5059,7 @@
         "listDate": "2026-08-01T01:03:55.000000Z",
         "lastSoldPrice": 950000,
         "lastSoldDate": "1993-10-05",
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "3364443467",
@@ -5064,7 +5076,7 @@
         "listDate": "2026-07-31T00:03:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "3638748624",
@@ -5438,7 +5450,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 340
+        "daysOnMarket": 341
       },
       {
         "id": "3498190935",
@@ -5828,7 +5840,7 @@
         "listDate": "2026-07-17T00:16:37.000000Z",
         "lastSoldPrice": 687500,
         "lastSoldDate": "2023-01-18",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "6954344523",
@@ -6102,7 +6114,7 @@
         "listDate": "2026-06-27T00:04:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "3882181836",
@@ -6426,23 +6438,6 @@
         "lastSoldPrice": 2800000,
         "lastSoldDate": "2017-12-22",
         "daysOnMarket": 147
-      },
-      {
-        "id": "3728681644",
-        "town": "Irvington",
-        "address": "53 Hillside Ter, Irvington",
-        "price": 1700000,
-        "beds": 4,
-        "baths": 5,
-        "sqft": 2809,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/53-Hillside-Ter_Irvington_NY_10533_M37286-81644",
-        "openHouses": [],
-        "listDate": "2026-03-03T06:17:00.000000Z",
-        "lastSoldPrice": 1370000,
-        "lastSoldDate": "2018-08-21",
-        "daysOnMarket": 160
       },
       {
         "id": "4283285844",
@@ -6835,7 +6830,7 @@
         "listDate": "2026-05-23T02:02:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 79
+        "daysOnMarket": 80
       },
       {
         "id": "9077448404",
@@ -6903,7 +6898,7 @@
         "listDate": "2026-05-07T00:32:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 95
+        "daysOnMarket": 96
       },
       {
         "id": "4358996941",
@@ -7059,23 +7054,6 @@
         "daysOnMarket": 138
       },
       {
-        "id": "9369243885",
-        "town": "Larchmont",
-        "address": "64 Myrtle Blvd, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 171
-      },
-      {
         "id": "9743358871",
         "town": "Larchmont",
         "address": "23 Edgewood Ave, Larchmont",
@@ -7086,6 +7064,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 171
+      },
+      {
+        "id": "9369243885",
+        "town": "Larchmont",
+        "address": "64 Myrtle Blvd, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -7124,7 +7119,7 @@
         "listDate": "2025-12-13T00:08:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 240
+        "daysOnMarket": 241
       },
       {
         "id": "4122022813",
@@ -7158,7 +7153,7 @@
         "listDate": "2025-09-12T00:33:07.000000Z",
         "lastSoldPrice": 1575000,
         "lastSoldDate": "2024-09-17",
-        "daysOnMarket": 332
+        "daysOnMarket": 333
       }
     ],
     "Mamaroneck": [
@@ -7808,7 +7803,7 @@
         "listDate": "2026-08-10T01:32:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9013286753",
@@ -8114,7 +8109,7 @@
         "listDate": "2026-07-11T00:04:22.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2000-04-27",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "9900527699",
@@ -8233,7 +8228,7 @@
         "listDate": "2026-06-29T00:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "9113465611",
@@ -8590,7 +8585,7 @@
         "listDate": "2026-05-05T01:47:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 97
+        "daysOnMarket": 98
       },
       {
         "id": "9054589547",
@@ -8796,7 +8791,7 @@
         "listDate": "2026-06-26T01:47:48.000000Z",
         "lastSoldPrice": 577000,
         "lastSoldDate": "2012-12-28",
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "3485254701",
@@ -9414,23 +9409,6 @@
         "daysOnMarket": 67
       },
       {
-        "id": "3526738540",
-        "town": "Tarrytown",
-        "address": "516 Bellwood Ave, Sleepy Hollow",
-        "price": 1650000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 3053,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/516-Bellwood-Ave_Sleepy-Hollow_NY_10591_M35267-38540",
-        "openHouses": [],
-        "listDate": "2026-06-01T23:17:50.000000Z",
-        "lastSoldPrice": 760000,
-        "lastSoldDate": "2003-05-29",
-        "daysOnMarket": 70
-      },
-      {
         "id": "9187861602",
         "town": "Tarrytown",
         "address": "144 Beekman Ave, Sleepy Hollow",
@@ -9837,6 +9815,23 @@
         "lastSoldPrice": 200000,
         "lastSoldDate": "2011-03-31",
         "daysOnMarket": 282
+      },
+      {
+        "id": "9145663813",
+        "town": "Tarrytown",
+        "address": "4 Lighthouse Lndg Unit 210, Sleepy Hollow",
+        "price": 3895000,
+        "beds": 3,
+        "baths": 4,
+        "sqft": 2357,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-210_Sleepy-Hollow_NY_10591_M91456-63813",
+        "openHouses": [],
+        "listDate": "2025-10-15T15:02:17.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 299
       }
     ],
     "Tuckahoe": [
@@ -10008,7 +10003,7 @@
         "listDate": "2026-06-23T00:04:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "3514624696",
