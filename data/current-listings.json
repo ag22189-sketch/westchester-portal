@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T22:49:35.490Z",
+  "updatedAt": "2026-08-12T23:49:16.528Z",
   "towns": {
     "Pelham": [
       {
@@ -34,7 +34,7 @@
         "listDate": "2026-08-04T23:47:58.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "3884305291",
@@ -595,6 +595,23 @@
         "daysOnMarket": 13
       },
       {
+        "id": "3466022906",
+        "town": "Bronxville",
+        "address": "106 Bronxville Rd, Bronxville",
+        "price": 999999,
+        "beds": 7,
+        "baths": 4,
+        "sqft": 1850,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/106-Bronxville-Rd_Bronxville_NY_10708_M34660-22906",
+        "openHouses": [],
+        "listDate": "2026-07-29T16:05:08.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 14
+      },
+      {
         "id": "9282357207",
         "town": "Bronxville",
         "address": "949 Palmer Rd Apt 1R, Bronxville",
@@ -894,19 +911,7 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1111-Midland-Ave-Apt-6G_Bronxville_NY_10708_M97484-85409",
-        "openHouses": [
-          {
-            "start_date": "2026-08-15T13:00:00",
-            "end_date": "2026-08-15T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-07-10T05:46:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -944,7 +949,7 @@
         "listDate": "2026-07-09T23:48:11.000000Z",
         "lastSoldPrice": 255000,
         "lastSoldDate": "1989-08-23",
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "3231851548",
@@ -1063,7 +1068,7 @@
         "listDate": "2026-06-29T23:17:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "9561612620",
@@ -1148,7 +1153,7 @@
         "listDate": "2026-06-24T23:18:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "3360549496",
@@ -1268,23 +1273,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 63
-      },
-      {
-        "id": "9456152965",
-        "town": "Bronxville",
-        "address": "1468 Midland Ave Apt 2F, Bronxville",
-        "price": 320000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 1150,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1468-Midland-Ave-Apt-2F_Bronxville_NY_10708_M94561-52965",
-        "openHouses": [],
-        "listDate": "2026-06-08T11:03:09.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 65
       }
     ],
     "Scarsdale": [
@@ -1490,7 +1478,7 @@
         "listDate": "2026-08-03T23:33:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "9024057225",
@@ -2092,7 +2080,7 @@
         "listDate": "2026-06-23T23:47:42.000000Z",
         "lastSoldPrice": 144000,
         "lastSoldDate": "2017-01-13",
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "9222409547",
@@ -2247,7 +2235,7 @@
         "listDate": "2026-07-23T23:33:08.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2022-03-15",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3337513489",
@@ -2853,7 +2841,7 @@
         "listDate": "2026-07-12T23:47:21.000000Z",
         "lastSoldPrice": 1110000,
         "lastSoldDate": "2007-07-03",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3374190177",
@@ -3246,7 +3234,7 @@
         "listDate": "2026-07-20T23:03:18.000000Z",
         "lastSoldPrice": 564000,
         "lastSoldDate": "2004-11-16",
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "4735098833",
@@ -4110,6 +4098,23 @@
     ],
     "Hartsdale": [
       {
+        "id": "4166594806",
+        "town": "Hartsdale",
+        "address": "19 Jean Ln, Hartsdale",
+        "price": 930000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1700,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/19-Jean-Ln_Hartsdale_NY_10530_M41665-94806",
+        "openHouses": [],
+        "listDate": "2026-08-12T19:02:37.000000Z",
+        "lastSoldPrice": 207500,
+        "lastSoldDate": "1997-10-02",
+        "daysOnMarket": 0
+      },
+      {
         "id": "3814150059",
         "town": "Hartsdale",
         "address": "64 Rockledge Rd Apt 2B, Hartsdale",
@@ -4360,23 +4365,6 @@
         "daysOnMarket": 20
       },
       {
-        "id": "4835129366",
-        "town": "Hartsdale",
-        "address": "29 S Washington Ave, Hartsdale",
-        "price": 625000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1269,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 408000,
-        "lastSoldDate": "2014-08-15",
-        "daysOnMarket": 21
-      },
-      {
         "id": "3368191583",
         "town": "Hartsdale",
         "address": "80 Jane St, Hartsdale",
@@ -4391,6 +4379,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 605000,
         "lastSoldDate": "2020-01-07",
+        "daysOnMarket": 21
+      },
+      {
+        "id": "4835129366",
+        "town": "Hartsdale",
+        "address": "29 S Washington Ave, Hartsdale",
+        "price": 625000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1269,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 408000,
+        "lastSoldDate": "2014-08-15",
         "daysOnMarket": 21
       },
       {
@@ -4442,7 +4447,7 @@
         "listDate": "2026-07-16T23:03:03.000000Z",
         "lastSoldPrice": 744000,
         "lastSoldDate": "2017-06-27",
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "4297164975",
@@ -4918,7 +4923,7 @@
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "3669290249",
@@ -4987,23 +4992,6 @@
         "lastSoldPrice": 346000,
         "lastSoldDate": "1997-08-27",
         "daysOnMarket": 92
-      },
-      {
-        "id": "4448921585",
-        "town": "Hartsdale",
-        "address": "161 Stone Oaks Dr, Hartsdale",
-        "price": 780000,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 2248,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/161-Stone-Oaks-Dr_Hartsdale_NY_10530_M44489-21585",
-        "openHouses": [],
-        "listDate": "2026-05-07T18:10:59.000000Z",
-        "lastSoldPrice": 347000,
-        "lastSoldDate": "1999-09-24",
-        "daysOnMarket": 97
       }
     ],
     "Harrison": [
@@ -5018,19 +5006,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/10-Beaver-Lndg_Harrison_NY_10528_M92625-14257",
-        "openHouses": [
-          {
-            "start_date": "2026-08-15T12:00:00",
-            "end_date": "2026-08-15T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-12T15:32:47.000000Z",
         "lastSoldPrice": 595000,
         "lastSoldDate": "2023-09-28",
@@ -5211,7 +5187,7 @@
         "listDate": "2026-07-15T23:04:29.000000Z",
         "lastSoldPrice": 1103000,
         "lastSoldDate": "2026-02-04",
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "4490958242",
@@ -5309,6 +5285,23 @@
         "lastSoldPrice": 155000,
         "lastSoldDate": "1984-06-20",
         "daysOnMarket": 67
+      },
+      {
+        "id": "4728857048",
+        "town": "Harrison",
+        "address": "64 North St, Harrison",
+        "price": 1895000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2441,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-North-St_Harrison_NY_10528_M47288-57048",
+        "openHouses": [],
+        "listDate": "2026-05-29T20:34:07.000000Z",
+        "lastSoldPrice": 20000,
+        "lastSoldDate": "1981-06-04",
+        "daysOnMarket": 75
       },
       {
         "id": "4026223447",
@@ -7637,7 +7630,7 @@
         "listDate": "2026-04-15T23:33:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 118
+        "daysOnMarket": 119
       },
       {
         "id": "4010876176",
@@ -7688,7 +7681,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 207
+        "daysOnMarket": 208
       },
       {
         "id": "9199642451",
@@ -7743,23 +7736,6 @@
       }
     ],
     "Mount Vernon": [
-      {
-        "id": "3672188220",
-        "town": "Mount Vernon",
-        "address": "625 Gramatan Ave Apt 1A, Fleetwood",
-        "price": 240000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 862,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/625-Gramatan-Ave-Apt-1A_Fleetwood_NY_10552_M36721-88220",
-        "openHouses": [],
-        "listDate": "2026-08-12T20:18:26.000000Z",
-        "lastSoldPrice": 3500000,
-        "lastSoldDate": "1984-06-13",
-        "daysOnMarket": 0
-      },
       {
         "id": "9923419687",
         "town": "Mount Vernon",
@@ -8616,6 +8592,23 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 110
+      },
+      {
+        "id": "3901237785",
+        "town": "Mount Vernon",
+        "address": "30 Fleetwood Ave Apt 5J, Fleetwood",
+        "price": 85000,
+        "beds": null,
+        "baths": 1,
+        "sqft": 450,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/30-Fleetwood-Ave-Apt-5J_Fleetwood_NY_10552_M39012-37785",
+        "openHouses": [],
+        "listDate": "2026-04-17T15:47:46.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 117
       }
     ],
     "Pleasantville": [
@@ -9164,7 +9157,7 @@
         "listDate": "2026-06-25T23:03:44.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2017-08-04",
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4106825309",
@@ -10062,7 +10055,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 87
+        "daysOnMarket": 88
       },
       {
         "id": "3594803854",
