@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T08:26:12.422Z",
+  "updatedAt": "2026-08-13T10:14:44.633Z",
   "towns": {
     "Pelham": [
       {
@@ -728,7 +728,7 @@
         "listDate": "2026-07-21T10:01:40.000000Z",
         "lastSoldPrice": 117000,
         "lastSoldDate": "2020-03-26",
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "9606679800",
@@ -1288,6 +1288,23 @@
       }
     ],
     "Scarsdale": [
+      {
+        "id": "3292025438",
+        "town": "Scarsdale",
+        "address": "235 Garth Rd Apt E1G, Scarsdale",
+        "price": 455000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1300,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-Apt-E1G_Scarsdale_NY_10583_M32920-25438",
+        "openHouses": [],
+        "listDate": "2026-08-13T09:47:16.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "9363066962",
         "town": "Scarsdale",
@@ -2190,23 +2207,6 @@
         "lastSoldPrice": 695000,
         "lastSoldDate": "2005-04-01",
         "daysOnMarket": 55
-      },
-      {
-        "id": "4837870599",
-        "town": "Scarsdale",
-        "address": "12 Drake Rd, Scarsdale",
-        "price": 1800000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 2962,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/12-Drake-Rd_Scarsdale_NY_10583_M48378-70599",
-        "openHouses": [],
-        "listDate": "2026-06-16T15:01:59.000000Z",
-        "lastSoldPrice": 949000,
-        "lastSoldDate": "2011-09-23",
-        "daysOnMarket": 57
       }
     ],
     "Ardsley": [
@@ -2721,7 +2721,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 83
+        "daysOnMarket": 84
       },
       {
         "id": "3170759769",
@@ -4372,23 +4372,6 @@
         "daysOnMarket": 20
       },
       {
-        "id": "4835129366",
-        "town": "Hartsdale",
-        "address": "29 S Washington Ave, Hartsdale",
-        "price": 625000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1269,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 408000,
-        "lastSoldDate": "2014-08-15",
-        "daysOnMarket": 21
-      },
-      {
         "id": "3368191583",
         "town": "Hartsdale",
         "address": "80 Jane St, Hartsdale",
@@ -4403,6 +4386,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 605000,
         "lastSoldDate": "2020-01-07",
+        "daysOnMarket": 21
+      },
+      {
+        "id": "4835129366",
+        "town": "Hartsdale",
+        "address": "29 S Washington Ave, Hartsdale",
+        "price": 625000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1269,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 408000,
+        "lastSoldDate": "2014-08-15",
         "daysOnMarket": 21
       },
       {
@@ -4726,7 +4726,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "9499208463",
@@ -4760,7 +4760,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 62
+        "daysOnMarket": 63
       },
       {
         "id": "3259812073",
@@ -4926,7 +4926,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/39-Hillcrest-Rd_Hartsdale_NY_10530_M44327-11574",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-15T13:00:00",
+            "end_date": "2026-08-15T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
@@ -6120,7 +6132,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "3425358762",
@@ -6137,7 +6149,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "4458946550",
@@ -6666,7 +6678,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "4385838569",
@@ -7280,7 +7292,7 @@
         "listDate": "2026-07-16T10:01:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "3816671274",
@@ -7948,7 +7960,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/290-Collins-Ave-Apt-2C_Fleetwood_NY_10552_M99724-03161",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-15T11:00:00",
+            "end_date": "2026-08-15T13:00:00",
+            "description": "Public Open House , enjoy Coffee, Donuts, Beverages",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-30T06:40:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -8989,7 +9013,7 @@
         "listDate": "2026-08-10T09:21:34.000000Z",
         "lastSoldPrice": 279000,
         "lastSoldDate": "2000-05-12",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4858788836",
