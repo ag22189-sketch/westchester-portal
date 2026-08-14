@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T04:53:38.489Z",
+  "updatedAt": "2026-08-14T06:19:16.411Z",
   "towns": {
     "Pelham": [
       {
@@ -403,7 +403,7 @@
         "listDate": "2025-11-21T05:48:01.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 265
+        "daysOnMarket": 266
       },
       {
         "id": "4483697710",
@@ -951,7 +951,7 @@
         "listDate": "2026-07-10T05:46:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4717795664",
@@ -968,7 +968,7 @@
         "listDate": "2026-07-10T05:41:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3874166509",
@@ -1036,7 +1036,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "4084597074",
@@ -3043,7 +3043,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 92
+        "daysOnMarket": 93
       },
       {
         "id": "3216529347",
@@ -3577,6 +3577,23 @@
     ],
     "Eastchester": [
       {
+        "id": "9881089725",
+        "town": "Eastchester",
+        "address": "1263 California Rd Apt 2, Eastchester",
+        "price": 479000,
+        "beds": 2,
+        "baths": 1,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1263-California-Rd-Apt-2_Eastchester_NY_10709_M98810-89725",
+        "openHouses": [],
+        "listDate": "2026-08-14T04:52:28.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "3829446002",
         "town": "Eastchester",
         "address": "5 Whitehall Rd Unit 1L, Eastchester",
@@ -3608,7 +3625,7 @@
         "listDate": "2026-08-09T06:02:29.000000Z",
         "lastSoldPrice": 695000,
         "lastSoldDate": "2015-05-29",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "3558244741",
@@ -4130,6 +4147,23 @@
     ],
     "Hartsdale": [
       {
+        "id": "4606171236",
+        "town": "Hartsdale",
+        "address": "100 High Point Dr Apt 401, Hartsdale",
+        "price": 450000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 987,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/100-High-Point-Dr-Apt-401_Hartsdale_NY_10530_M46061-71236",
+        "openHouses": [],
+        "listDate": "2026-08-14T04:52:28.000000Z",
+        "lastSoldPrice": 224000,
+        "lastSoldDate": "2012-08-13",
+        "daysOnMarket": 0
+      },
+      {
         "id": "9386538159",
         "town": "Hartsdale",
         "address": "111 E Hartsdale Ave Apt 3D, Hartsdale",
@@ -4247,7 +4281,7 @@
         "listDate": "2026-08-08T04:54:43.000000Z",
         "lastSoldPrice": 640000,
         "lastSoldDate": "2022-08-08",
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3641026921",
@@ -4264,7 +4298,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3586385418",
@@ -5020,23 +5054,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 86
-      },
-      {
-        "id": "4248281752",
-        "town": "Hartsdale",
-        "address": "7 Frost Ln, Hartsdale",
-        "price": 899000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2252,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/7-Frost-Ln_Hartsdale_NY_10530_M42482-81752",
-        "openHouses": [],
-        "listDate": "2026-05-12T21:03:59.000000Z",
-        "lastSoldPrice": 630000,
-        "lastSoldDate": "2018-02-15",
-        "daysOnMarket": 93
       }
     ],
     "Harrison": [
@@ -5627,7 +5644,7 @@
         "listDate": "2026-07-20T05:47:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4889272409",
@@ -6132,7 +6149,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4592183241",
@@ -6348,7 +6365,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "4556540553",
@@ -6586,7 +6603,7 @@
         "listDate": "2026-03-26T06:07:16.000000Z",
         "lastSoldPrice": 795000,
         "lastSoldDate": "2006-09-13",
-        "daysOnMarket": 140
+        "daysOnMarket": 141
       },
       {
         "id": "3647294600",
@@ -6690,7 +6707,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4202170483",
@@ -7203,23 +7220,6 @@
         "daysOnMarket": 142
       },
       {
-        "id": "9369243885",
-        "town": "Larchmont",
-        "address": "64 Myrtle Blvd, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 174
-      },
-      {
         "id": "9743358871",
         "town": "Larchmont",
         "address": "23 Edgewood Ave, Larchmont",
@@ -7230,6 +7230,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 174
+      },
+      {
+        "id": "9369243885",
+        "town": "Larchmont",
+        "address": "64 Myrtle Blvd, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -7251,7 +7268,7 @@
         "listDate": "2026-01-09T05:48:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 216
+        "daysOnMarket": 217
       },
       {
         "id": "9485625586",
@@ -7285,7 +7302,7 @@
         "listDate": "2025-11-12T05:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 274
+        "daysOnMarket": 275
       },
       {
         "id": "3406384100",
@@ -7321,7 +7338,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2021-09-15",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "9964052412",
@@ -7872,7 +7889,7 @@
         "listDate": "2026-04-14T06:01:56.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2026-01-14",
-        "daysOnMarket": 121
+        "daysOnMarket": 122
       },
       {
         "id": "9434500398",
