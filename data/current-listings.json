@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T08:21:05.725Z",
+  "updatedAt": "2026-08-14T10:10:52.969Z",
   "towns": {
     "Pelham": [
       {
@@ -757,7 +757,7 @@
         "listDate": "2026-07-21T10:01:40.000000Z",
         "lastSoldPrice": 117000,
         "lastSoldDate": "2020-03-26",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "9606679800",
@@ -1323,7 +1323,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/107-Lakeview-Ave_Scarsdale_NY_10583_M42769-02669",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-16T12:00:00",
+            "end_date": "2026-08-16T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-14T01:03:49.000000Z",
         "lastSoldPrice": 770000,
         "lastSoldDate": "2018-04-02",
@@ -1344,7 +1356,7 @@
         "listDate": "2026-08-13T09:47:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9363066962",
@@ -2729,7 +2741,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "3170759769",
@@ -3587,7 +3599,30 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1263-California-Rd-Apt-2_Eastchester_NY_10709_M98810-89725",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-15T12:00:00",
+            "end_date": "2026-08-15T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-08-16T12:00:00",
+            "end_date": "2026-08-16T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-14T04:52:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -4653,23 +4688,6 @@
         "daysOnMarket": 42
       },
       {
-        "id": "3206804159",
-        "town": "Hartsdale",
-        "address": "21 Joyce Rd, Hartsdale",
-        "price": 859500,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1400,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/21-Joyce-Rd_Hartsdale_NY_10530_M32068-04159",
-        "openHouses": [],
-        "listDate": "2026-06-26T19:14:13.000000Z",
-        "lastSoldPrice": 470400,
-        "lastSoldDate": "2015-11-20",
-        "daysOnMarket": 48
-      },
-      {
         "id": "9931725115",
         "town": "Hartsdale",
         "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
@@ -4684,6 +4702,23 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 48
+      },
+      {
+        "id": "3206804159",
+        "town": "Hartsdale",
+        "address": "21 Joyce Rd, Hartsdale",
+        "price": 859500,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1400,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/21-Joyce-Rd_Hartsdale_NY_10530_M32068-04159",
+        "openHouses": [],
+        "listDate": "2026-06-26T19:14:13.000000Z",
+        "lastSoldPrice": 470400,
+        "lastSoldDate": "2015-11-20",
         "daysOnMarket": 48
       },
       {
@@ -4803,7 +4838,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 62
+        "daysOnMarket": 63
       },
       {
         "id": "9499208463",
@@ -4837,7 +4872,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "3259812073",
@@ -6280,7 +6315,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3425358762",
@@ -6297,7 +6332,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4458946550",
@@ -6826,7 +6861,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "4385838569",
@@ -7440,7 +7475,7 @@
         "listDate": "2026-07-16T10:01:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3816671274",
@@ -7669,19 +7704,7 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/300-Livingston-Ave-Apt-2A_Mamaroneck_NY_10543_M32416-25070",
-        "openHouses": [
-          {
-            "start_date": "2026-08-16T12:00:00",
-            "end_date": "2026-08-16T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-06-11T15:48:46.000000Z",
         "lastSoldPrice": 445000,
         "lastSoldDate": "2023-05-17",
@@ -9214,7 +9237,7 @@
         "listDate": "2026-08-10T09:21:34.000000Z",
         "lastSoldPrice": 279000,
         "lastSoldDate": "2000-05-12",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4858788836",
