@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T09:31:33.879Z",
+  "updatedAt": "2026-08-15T10:28:35.161Z",
   "towns": {
     "Pelham": [
       {
@@ -723,7 +723,7 @@
         "listDate": "2026-07-21T10:01:40.000000Z",
         "lastSoldPrice": 117000,
         "lastSoldDate": "2020-03-26",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "9606679800",
@@ -738,6 +738,23 @@
         "link": "https://www.realtor.com/realestateandhomes-detail/1200-Midland-Ave-Apt-9E_Bronxville_NY_10708_M96066-79800",
         "openHouses": [],
         "listDate": "2026-07-20T18:14:06.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 25
+      },
+      {
+        "id": "9303656585",
+        "town": "Bronxville",
+        "address": "270 Bronxville Rd Apt B52, Bronxville",
+        "price": 199000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 829,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/270-Bronxville-Rd-Apt-B52_Bronxville_NY_10708_M93036-56585",
+        "openHouses": [],
+        "listDate": "2026-07-20T17:04:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 25
@@ -1258,23 +1275,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 65
-      },
-      {
-        "id": "9456152965",
-        "town": "Bronxville",
-        "address": "1468 Midland Ave Apt 2F, Bronxville",
-        "price": 320000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 1150,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1468-Midland-Ave-Apt-2F_Bronxville_NY_10708_M94561-52965",
-        "openHouses": [],
-        "listDate": "2026-06-08T11:03:09.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 67
       }
     ],
     "Scarsdale": [
@@ -1330,23 +1330,6 @@
         "daysOnMarket": 0
       },
       {
-        "id": "9135916901",
-        "town": "Scarsdale",
-        "address": "235 Garth Rd Apt E5G, Scarsdale",
-        "price": 352000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1250,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-Apt-E5G_Scarsdale_NY_10583_M91359-16901",
-        "openHouses": [],
-        "listDate": "2026-08-14T14:03:34.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
         "id": "9130114618",
         "town": "Scarsdale",
         "address": "235 Garth Rd Unit Bbc, Scarsdale",
@@ -1357,6 +1340,23 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-BBC_Scarsdale_NY_10583_M91301-14618",
+        "openHouses": [],
+        "listDate": "2026-08-14T14:03:34.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "9135916901",
+        "town": "Scarsdale",
+        "address": "235 Garth Rd Apt E5G, Scarsdale",
+        "price": 352000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1250,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-Apt-E5G_Scarsdale_NY_10583_M91359-16901",
         "openHouses": [],
         "listDate": "2026-08-14T14:03:34.000000Z",
         "lastSoldPrice": null,
@@ -1407,7 +1407,7 @@
         "listDate": "2026-08-13T09:47:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "9363066962",
@@ -2695,7 +2695,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 85
+        "daysOnMarket": 86
       },
       {
         "id": "3170759769",
@@ -4844,7 +4844,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "9499208463",
@@ -4878,7 +4878,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "3259812073",
@@ -5326,7 +5326,7 @@
         "listDate": "2026-07-23T10:17:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3588029676",
@@ -6363,7 +6363,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "3425358762",
@@ -6380,7 +6380,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4458946550",
@@ -6926,7 +6926,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "4385838569",
@@ -7467,7 +7467,7 @@
         "listDate": "2026-07-16T10:01:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "3816671274",
@@ -9039,7 +9039,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "3767002130",
