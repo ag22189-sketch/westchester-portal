@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T23:25:56.841Z",
+  "updatedAt": "2026-08-16T01:45:01.854Z",
   "towns": {
     "Pelham": [
       {
@@ -34,7 +34,7 @@
         "listDate": "2026-08-04T23:47:58.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "3884305291",
@@ -216,7 +216,7 @@
         "listDate": "2026-06-16T01:17:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 60
+        "daysOnMarket": 61
       },
       {
         "id": "9743886012",
@@ -422,7 +422,7 @@
         "listDate": "2026-08-11T00:03:27.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "9178283230",
@@ -956,7 +956,7 @@
         "listDate": "2026-07-09T23:48:11.000000Z",
         "lastSoldPrice": 255000,
         "lastSoldDate": "1989-08-23",
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "3856783430",
@@ -1267,6 +1267,23 @@
     ],
     "Scarsdale": [
       {
+        "id": "3121876298",
+        "town": "Scarsdale",
+        "address": "38 Harney Rd, Scarsdale",
+        "price": 1499000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1967,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/38-Harney-Rd_Scarsdale_NY_10583_M31218-76298",
+        "openHouses": [],
+        "listDate": "2026-08-16T01:33:15.000000Z",
+        "lastSoldPrice": 775000,
+        "lastSoldDate": "2022-06-23",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4079423469",
         "town": "Scarsdale",
         "address": "27 Clarendon Rd, Scarsdale",
@@ -1330,23 +1347,6 @@
         "daysOnMarket": 1
       },
       {
-        "id": "9130114618",
-        "town": "Scarsdale",
-        "address": "235 Garth Rd Unit Bbc, Scarsdale",
-        "price": 99000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 500,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-BBC_Scarsdale_NY_10583_M91301-14618",
-        "openHouses": [],
-        "listDate": "2026-08-14T14:03:34.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 1
-      },
-      {
         "id": "9135916901",
         "town": "Scarsdale",
         "address": "235 Garth Rd Apt E5G, Scarsdale",
@@ -1357,6 +1357,23 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-Apt-E5G_Scarsdale_NY_10583_M91359-16901",
+        "openHouses": [],
+        "listDate": "2026-08-14T14:03:34.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 1
+      },
+      {
+        "id": "9130114618",
+        "town": "Scarsdale",
+        "address": "235 Garth Rd Unit Bbc, Scarsdale",
+        "price": 99000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 500,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-BBC_Scarsdale_NY_10583_M91301-14618",
         "openHouses": [],
         "listDate": "2026-08-14T14:03:34.000000Z",
         "lastSoldPrice": null,
@@ -1390,7 +1407,7 @@
         "listDate": "2026-08-14T01:03:49.000000Z",
         "lastSoldPrice": 770000,
         "lastSoldDate": "2018-04-02",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3292025438",
@@ -1441,7 +1458,7 @@
         "listDate": "2026-08-12T00:04:57.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "9837399242",
@@ -1572,7 +1589,7 @@
         "listDate": "2026-08-03T23:33:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "9024057225",
@@ -1674,7 +1691,7 @@
         "listDate": "2026-07-31T00:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3553544462",
@@ -1794,23 +1811,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 26
-      },
-      {
-        "id": "3071716186",
-        "town": "Scarsdale",
-        "address": "508 Central Park Ave Apt 5407, Scarsdale",
-        "price": 760000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1363,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/508-Central-Park-Ave-Apt-5407_Scarsdale_NY_10583_M30717-16186",
-        "openHouses": [],
-        "listDate": "2026-07-17T01:18:58.000000Z",
-        "lastSoldPrice": 550000,
-        "lastSoldDate": "2023-03-01",
-        "daysOnMarket": 29
       },
       {
         "id": "9551010804",
@@ -2145,7 +2145,7 @@
         "listDate": "2026-06-23T23:47:42.000000Z",
         "lastSoldPrice": 144000,
         "lastSoldDate": "2017-01-13",
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "9222409547",
@@ -2227,7 +2227,7 @@
         "listDate": "2026-07-23T23:33:08.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2022-03-15",
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3965465439",
@@ -2734,7 +2734,7 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 332
+        "daysOnMarket": 333
       }
     ],
     "Chappaqua": [
@@ -2828,7 +2828,7 @@
         "listDate": "2026-07-12T23:47:21.000000Z",
         "lastSoldPrice": 1110000,
         "lastSoldDate": "2007-07-03",
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "3374190177",
@@ -3032,7 +3032,7 @@
         "listDate": "2026-04-14T00:47:01.000000Z",
         "lastSoldPrice": 1440995,
         "lastSoldDate": "2024-08-29",
-        "daysOnMarket": 123
+        "daysOnMarket": 124
       },
       {
         "id": "3362546053",
@@ -4410,23 +4410,6 @@
         "daysOnMarket": 23
       },
       {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 24
-      },
-      {
         "id": "4835129366",
         "town": "Hartsdale",
         "address": "29 S Washington Ave, Hartsdale",
@@ -4441,6 +4424,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 24
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 24
       },
       {
@@ -4475,7 +4475,7 @@
         "listDate": "2026-07-17T01:33:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "4627015525",
@@ -5142,7 +5142,7 @@
         "listDate": "2026-07-31T00:03:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3638748624",
@@ -5494,7 +5494,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 345
+        "daysOnMarket": 346
       },
       {
         "id": "3498190935",
@@ -5920,7 +5920,7 @@
         "listDate": "2026-08-13T00:24:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "5727602706",
@@ -5966,7 +5966,7 @@
         "listDate": "2026-07-17T00:16:37.000000Z",
         "lastSoldPrice": 687500,
         "lastSoldDate": "2023-01-18",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "6954344523",
@@ -6276,7 +6276,7 @@
         "listDate": "2026-06-27T00:04:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "3882181836",
@@ -7131,23 +7131,6 @@
         "daysOnMarket": 143
       },
       {
-        "id": "9369243885",
-        "town": "Larchmont",
-        "address": "64 Myrtle Blvd, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 176
-      },
-      {
         "id": "9743358871",
         "town": "Larchmont",
         "address": "23 Edgewood Ave, Larchmont",
@@ -7158,6 +7141,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 176
+      },
+      {
+        "id": "9369243885",
+        "town": "Larchmont",
+        "address": "64 Myrtle Blvd, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -7196,7 +7196,7 @@
         "listDate": "2025-12-13T00:08:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 245
+        "daysOnMarket": 246
       },
       {
         "id": "4122022813",
@@ -7230,7 +7230,7 @@
         "listDate": "2025-09-12T00:33:07.000000Z",
         "lastSoldPrice": 1575000,
         "lastSoldDate": "2024-09-17",
-        "daysOnMarket": 337
+        "daysOnMarket": 338
       }
     ],
     "Mamaroneck": [
@@ -7698,7 +7698,7 @@
         "listDate": "2026-04-15T23:33:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 121
+        "daysOnMarket": 122
       },
       {
         "id": "4010876176",
@@ -7831,7 +7831,7 @@
         "listDate": "2026-08-14T00:48:02.000000Z",
         "lastSoldPrice": 1060000,
         "lastSoldDate": "2021-09-24",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3359156776",
@@ -7882,7 +7882,7 @@
         "listDate": "2026-08-10T01:32:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "9013286753",
@@ -8200,7 +8200,7 @@
         "listDate": "2026-07-11T00:04:22.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2000-04-27",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "9900527699",
@@ -8319,7 +8319,7 @@
         "listDate": "2026-06-29T00:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "9113465611",
