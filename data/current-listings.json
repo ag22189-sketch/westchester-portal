@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:06:38.542Z",
+  "updatedAt": "2026-08-17T08:51:27.047Z",
   "towns": {
     "Pelham": [
       {
@@ -1316,23 +1316,6 @@
         "daysOnMarket": 2
       },
       {
-        "id": "9135916901",
-        "town": "Scarsdale",
-        "address": "235 Garth Rd Apt E5G, Scarsdale",
-        "price": 352000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1250,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-Apt-E5G_Scarsdale_NY_10583_M91359-16901",
-        "openHouses": [],
-        "listDate": "2026-08-14T14:03:34.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 2
-      },
-      {
         "id": "9130114618",
         "town": "Scarsdale",
         "address": "235 Garth Rd Unit Bbc, Scarsdale",
@@ -1343,6 +1326,23 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-BBC_Scarsdale_NY_10583_M91301-14618",
+        "openHouses": [],
+        "listDate": "2026-08-14T14:03:34.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 2
+      },
+      {
+        "id": "9135916901",
+        "town": "Scarsdale",
+        "address": "235 Garth Rd Apt E5G, Scarsdale",
+        "price": 352000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1250,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-Apt-E5G_Scarsdale_NY_10583_M91359-16901",
         "openHouses": [],
         "listDate": "2026-08-14T14:03:34.000000Z",
         "lastSoldPrice": null,
@@ -2335,7 +2335,7 @@
         "listDate": "2025-12-17T08:00:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 242
+        "daysOnMarket": 243
       },
       {
         "id": "3324023218",
@@ -3822,7 +3822,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 75
+        "daysOnMarket": 76
       },
       {
         "id": "4536519295",
@@ -4201,23 +4201,6 @@
         "daysOnMarket": 24
       },
       {
-        "id": "4835129366",
-        "town": "Hartsdale",
-        "address": "29 S Washington Ave, Hartsdale",
-        "price": 625000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1269,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 408000,
-        "lastSoldDate": "2014-08-15",
-        "daysOnMarket": 25
-      },
-      {
         "id": "3368191583",
         "town": "Hartsdale",
         "address": "80 Jane St, Hartsdale",
@@ -4232,6 +4215,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 605000,
         "lastSoldDate": "2020-01-07",
+        "daysOnMarket": 25
+      },
+      {
+        "id": "4835129366",
+        "town": "Hartsdale",
+        "address": "29 S Washington Ave, Hartsdale",
+        "price": 625000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1269,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 408000,
+        "lastSoldDate": "2014-08-15",
         "daysOnMarket": 25
       },
       {
@@ -6333,7 +6333,7 @@
         "listDate": "2026-08-01T07:17:33.000000Z",
         "lastSoldPrice": 1310000,
         "lastSoldDate": "2022-03-30",
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "9458770643",
@@ -6778,23 +6778,6 @@
         "daysOnMarket": 145
       },
       {
-        "id": "9369243885",
-        "town": "Larchmont",
-        "address": "64 Myrtle Blvd, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 177
-      },
-      {
         "id": "9743358871",
         "town": "Larchmont",
         "address": "23 Edgewood Ave, Larchmont",
@@ -6805,6 +6788,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 177
+      },
+      {
+        "id": "9369243885",
+        "town": "Larchmont",
+        "address": "64 Myrtle Blvd, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -8151,7 +8151,7 @@
         "listDate": "2026-05-29T08:01:49.000000Z",
         "lastSoldPrice": 527000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 79
+        "daysOnMarket": 80
       },
       {
         "id": "9873636599",
