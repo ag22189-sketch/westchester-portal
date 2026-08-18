@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T21:29:57.994Z",
+  "updatedAt": "2026-08-18T22:30:21.663Z",
   "towns": {
     "Pelham": [
       {
@@ -170,7 +170,7 @@
         "listDate": "2026-06-30T21:33:20.000000Z",
         "lastSoldPrice": 1245000,
         "lastSoldDate": "2012-07-17",
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "4820761833",
@@ -631,7 +631,7 @@
         "listDate": "2026-07-25T22:03:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "9778624898",
@@ -1778,7 +1778,7 @@
         "listDate": "2026-07-15T22:04:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "9459419220",
@@ -1829,7 +1829,7 @@
         "listDate": "2026-07-14T21:33:31.000000Z",
         "lastSoldPrice": 1600000,
         "lastSoldDate": "2024-12-27",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4590697678",
@@ -1965,7 +1965,7 @@
         "listDate": "2026-07-02T21:47:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4394864630",
@@ -1999,7 +1999,7 @@
         "listDate": "2026-07-01T22:05:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "3560990346",
@@ -2952,7 +2952,7 @@
         "listDate": "2026-04-06T22:03:23.000000Z",
         "lastSoldPrice": 394300,
         "lastSoldDate": "2014-05-01",
-        "daysOnMarket": 133
+        "daysOnMarket": 134
       },
       {
         "id": "9821773445",
@@ -2986,7 +2986,7 @@
         "listDate": "2026-03-01T22:17:56.000000Z",
         "lastSoldPrice": 251000,
         "lastSoldDate": "1981-08-01",
-        "daysOnMarket": 169
+        "daysOnMarket": 170
       },
       {
         "id": "9773606119",
@@ -3563,7 +3563,7 @@
         "listDate": "2026-07-23T22:03:21.000000Z",
         "lastSoldPrice": 730000,
         "lastSoldDate": "2017-09-08",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "4320354758",
@@ -4109,7 +4109,7 @@
         "listDate": "2026-07-29T22:18:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3336912953",
@@ -4653,7 +4653,7 @@
         "listDate": "2026-06-05T21:32:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "4961976824",
@@ -4961,7 +4961,7 @@
         "listDate": "2026-07-25T22:03:36.000000Z",
         "lastSoldPrice": 324500,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "3439972086",
@@ -5299,7 +5299,30 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/14-Glenn-Pl_Hastings-on-Hudson_NY_10706_M44039-42020",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-22T13:00:00",
+            "end_date": "2026-08-22T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-08-23T13:00:00",
+            "end_date": "2026-08-23T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-05T12:03:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -5457,23 +5480,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 74
-      },
-      {
-        "id": "4408153072",
-        "town": "Hastings-on-Hudson",
-        "address": "251 Mount Hope Blvd, Hastings On Hudson",
-        "price": 1499000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 2535,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/251-Mount-Hope-Blvd_Hastings-on-Hudson_NY_10706_M44081-53072",
-        "openHouses": [],
-        "listDate": "2026-06-03T19:38:00.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 76
       },
       {
         "id": "9018050777",
@@ -6689,23 +6695,6 @@
         "daysOnMarket": 146
       },
       {
-        "id": "9743358871",
-        "town": "Larchmont",
-        "address": "23 Edgewood Ave, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 179
-      },
-      {
         "id": "9369243885",
         "town": "Larchmont",
         "address": "64 Myrtle Blvd, Larchmont",
@@ -6716,6 +6705,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 179
+      },
+      {
+        "id": "9743358871",
+        "town": "Larchmont",
+        "address": "23 Edgewood Ave, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -7082,6 +7088,23 @@
         "daysOnMarket": 76
       },
       {
+        "id": "3835966992",
+        "town": "Mamaroneck",
+        "address": "525 3rd St, Mamaroneck",
+        "price": 1890000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 2888,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/525-3rd-St_Mamaroneck_NY_10543_M38359-66992",
+        "openHouses": [],
+        "listDate": "2026-05-21T19:03:49.000000Z",
+        "lastSoldPrice": 415000,
+        "lastSoldDate": "2022-12-28",
+        "daysOnMarket": 89
+      },
+      {
         "id": "4002843883",
         "town": "Mamaroneck",
         "address": "1001 Halstead Ave, Mamaroneck",
@@ -7147,7 +7170,7 @@
         "listDate": "2026-04-23T21:33:42.000000Z",
         "lastSoldPrice": 2050000,
         "lastSoldDate": "2016-11-23",
-        "daysOnMarket": 116
+        "daysOnMarket": 117
       },
       {
         "id": "3528839987",
@@ -7603,7 +7626,7 @@
         "listDate": "2026-07-16T21:33:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "4204006111",
@@ -8096,7 +8119,7 @@
         "listDate": "2026-05-05T22:03:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "3319353603",
@@ -8184,23 +8207,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 0
-      },
-      {
-        "id": "4483094881",
-        "town": "Pleasantville",
-        "address": "600 Bedford Rd Apt 9, Pleasantville",
-        "price": 435000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 700,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/600-Bedford-Rd-Apt-9_Pleasantville_NY_10570_M44830-94881",
-        "openHouses": [],
-        "listDate": "2026-08-05T04:52:07.000000Z",
-        "lastSoldPrice": 235000,
-        "lastSoldDate": "2012-01-10",
-        "daysOnMarket": 13
       },
       {
         "id": "4482498626",
@@ -8827,7 +8833,7 @@
         "listDate": "2026-06-16T21:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 62
+        "daysOnMarket": 63
       },
       {
         "id": "9076643834",
@@ -9105,7 +9111,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 101
+        "daysOnMarket": 102
       },
       {
         "id": "9021063983",
@@ -9309,7 +9315,7 @@
         "listDate": "2026-03-24T22:10:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 146
+        "daysOnMarket": 147
       },
       {
         "id": "9612537575",
