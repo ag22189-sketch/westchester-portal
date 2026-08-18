@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T18:49:32.832Z",
+  "updatedAt": "2026-08-18T19:32:20.808Z",
   "towns": {
     "Pelham": [
       {
@@ -136,7 +136,7 @@
         "listDate": "2026-07-07T19:15:55.000000Z",
         "lastSoldPrice": 800000,
         "lastSoldDate": "2008-12-01",
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "9883696904",
@@ -461,7 +461,7 @@
         "listDate": "2026-08-05T18:49:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "9131330519",
@@ -495,7 +495,7 @@
         "listDate": "2026-08-03T19:09:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "9633917831",
@@ -835,7 +835,7 @@
         "listDate": "2026-07-14T19:10:49.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "9663776862",
@@ -1175,7 +1175,7 @@
         "listDate": "2026-06-11T19:16:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "9431136130",
@@ -1455,7 +1455,7 @@
         "listDate": "2026-08-06T19:19:16.000000Z",
         "lastSoldPrice": 299000,
         "lastSoldDate": "1994-12-23",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3710410632",
@@ -1744,7 +1744,7 @@
         "listDate": "2026-07-20T19:09:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "9551010804",
@@ -1965,7 +1965,7 @@
         "listDate": "2026-07-02T19:21:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4172311689",
@@ -2228,7 +2228,7 @@
         "listDate": "2026-06-14T19:09:02.000000Z",
         "lastSoldPrice": 589000,
         "lastSoldDate": "2025-03-27",
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "3109429474",
@@ -2519,7 +2519,7 @@
         "listDate": "2026-06-17T19:27:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "3222963057",
@@ -2536,7 +2536,7 @@
         "listDate": "2026-06-13T19:20:43.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 65
+        "daysOnMarket": 66
       },
       {
         "id": "4051933798",
@@ -2776,7 +2776,7 @@
         "listDate": "2026-06-23T19:13:09.000000Z",
         "lastSoldPrice": 595000,
         "lastSoldDate": "2025-11-14",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "4697150702",
@@ -3006,7 +3006,445 @@
         "daysOnMarket": 479
       }
     ],
-    "Dobbs Ferry": [],
+    "Dobbs Ferry": [
+      {
+        "id": "3942780630",
+        "town": "Dobbs Ferry",
+        "address": "71 Northfield Ave, Dobbs Ferry",
+        "price": 1350000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": 2304,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/71-Northfield-Ave_Dobbs-Ferry_NY_10522_M39427-80630",
+        "openHouses": [],
+        "listDate": "2026-08-15T16:48:19.000000Z",
+        "lastSoldPrice": 800000,
+        "lastSoldDate": "2021-11-05",
+        "daysOnMarket": 3
+      },
+      {
+        "id": "9430193271",
+        "town": "Dobbs Ferry",
+        "address": "12 Manor House Dr Apt G16, Dobbs Ferry",
+        "price": 339000,
+        "beds": 2,
+        "baths": 1,
+        "sqft": 929,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/12-Manor-House-Dr-Apt-G16_Dobbs-Ferry_NY_10522_M94301-93271",
+        "openHouses": [],
+        "listDate": "2026-08-15T04:52:26.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 3
+      },
+      {
+        "id": "4481988552",
+        "town": "Dobbs Ferry",
+        "address": "25 Cedar St, Dobbs Ferry",
+        "price": 1150000,
+        "beds": 8,
+        "baths": 4,
+        "sqft": 1581,
+        "type": "multi family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/25-Cedar-St_Dobbs-Ferry_NY_10522_M44819-88552",
+        "openHouses": [],
+        "listDate": "2026-08-14T17:34:13.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 4
+      },
+      {
+        "id": "4839257143",
+        "town": "Dobbs Ferry",
+        "address": "114 Round Hill Rd, Dobbs Ferry",
+        "price": 569000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1325,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/114-Round-Hill-Rd_Dobbs-Ferry_NY_10522_M48392-57143",
+        "openHouses": [],
+        "listDate": "2026-08-11T20:17:16.000000Z",
+        "lastSoldPrice": 410000,
+        "lastSoldDate": "2007-01-09",
+        "daysOnMarket": 6
+      },
+      {
+        "id": "3987697034",
+        "town": "Dobbs Ferry",
+        "address": "113 Beacon Hill Dr Apt E25, Dobbs Ferry",
+        "price": 405000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/113-Beacon-Hill-Dr-Apt-E25_Dobbs-Ferry_NY_10522_M39876-97034",
+        "openHouses": [],
+        "listDate": "2026-08-08T14:32:48.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 10
+      },
+      {
+        "id": "3643206015",
+        "town": "Dobbs Ferry",
+        "address": "47 Grandview Ave, Dobbs Ferry",
+        "price": 749000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1800,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/47-Grandview-Ave_Dobbs-Ferry_NY_10522_M36432-06015",
+        "openHouses": [],
+        "listDate": "2026-07-31T14:49:01.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 18
+      },
+      {
+        "id": "9331192212",
+        "town": "Dobbs Ferry",
+        "address": "129 Beacon Hill Dr Apt F15, Dobbs Ferry",
+        "price": 349000,
+        "beds": 2,
+        "baths": 1,
+        "sqft": 875,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/129-Beacon-Hill-Dr-Apt-F15_Dobbs-Ferry_NY_10522_M93311-92212",
+        "openHouses": [],
+        "listDate": "2026-07-28T18:56:21.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 21
+      },
+      {
+        "id": "3727644344",
+        "town": "Dobbs Ferry",
+        "address": "12 Livingston Ave, Dobbs Ferry",
+        "price": 1195000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1744,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/12-Livingston-Ave_Dobbs-Ferry_NY_10522_M37276-44344",
+        "openHouses": [],
+        "listDate": "2026-07-22T21:05:44.000000Z",
+        "lastSoldPrice": 789000,
+        "lastSoldDate": "2017-06-19",
+        "daysOnMarket": 26
+      },
+      {
+        "id": "4535559827",
+        "town": "Dobbs Ferry",
+        "address": "129 Hilldale Rd, Dobbs Ferry",
+        "price": 925000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 1681,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/129-Hilldale-Rd_Dobbs-Ferry_NY_10522_M45355-59827",
+        "openHouses": [],
+        "listDate": "2026-07-20T23:03:18.000000Z",
+        "lastSoldPrice": 564000,
+        "lastSoldDate": "2004-11-16",
+        "daysOnMarket": 28
+      },
+      {
+        "id": "4735098833",
+        "town": "Dobbs Ferry",
+        "address": "1103 Hunters Run, Dobbs Ferry",
+        "price": 649000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1279,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1103-Hunters-Run_Dobbs-Ferry_NY_10522_M47350-98833",
+        "openHouses": [
+          {
+            "start_date": "2026-08-22T11:00:00",
+            "end_date": "2026-08-22T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-07-16T14:04:13.000000Z",
+        "lastSoldPrice": 363200,
+        "lastSoldDate": "2012-08-14",
+        "daysOnMarket": 33
+      },
+      {
+        "id": "4697443081",
+        "town": "Dobbs Ferry",
+        "address": "40 Florence Ave, Dobbs Ferry",
+        "price": 650000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 1254,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/40-Florence-Ave_Dobbs-Ferry_NY_10522_M46974-43081",
+        "openHouses": [],
+        "listDate": "2026-07-14T15:18:48.000000Z",
+        "lastSoldPrice": 225000,
+        "lastSoldDate": "1995-08-04",
+        "daysOnMarket": 35
+      },
+      {
+        "id": "3362668000",
+        "town": "Dobbs Ferry",
+        "address": "86 Maple St, Dobbs Ferry",
+        "price": 899000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1679,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/86-Maple-St_Dobbs-Ferry_NY_10522_M33626-68000",
+        "openHouses": [],
+        "listDate": "2026-07-10T18:14:41.000000Z",
+        "lastSoldPrice": 650000,
+        "lastSoldDate": "2022-04-18",
+        "daysOnMarket": 39
+      },
+      {
+        "id": "3496175425",
+        "town": "Dobbs Ferry",
+        "address": "80 Hickory Hill Dr, Dobbs Ferry",
+        "price": 1199000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 2600,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Hickory-Hill-Dr_Dobbs-Ferry_NY_10522_M34961-75425",
+        "openHouses": [],
+        "listDate": "2026-07-03T02:47:33.000000Z",
+        "lastSoldPrice": 740000,
+        "lastSoldDate": "2020-06-12",
+        "daysOnMarket": 46
+      },
+      {
+        "id": "4741694905",
+        "town": "Dobbs Ferry",
+        "address": "7 Overlook Rd, Dobbs Ferry",
+        "price": 1295000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": 2511,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/7-Overlook-Rd_Dobbs-Ferry_NY_10522_M47416-94905",
+        "openHouses": [],
+        "listDate": "2026-07-02T12:47:44.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 47
+      },
+      {
+        "id": "9526648170",
+        "town": "Dobbs Ferry",
+        "address": "Ashford Ave, Dobbs Ferry",
+        "price": 374400,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/Ashford-Ave_Dobbs-Ferry_NY_10522_M95266-48170",
+        "openHouses": [],
+        "listDate": "2026-06-04T18:15:34.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 75
+      },
+      {
+        "id": "3658708648",
+        "town": "Dobbs Ferry",
+        "address": "200 Judson Ave, Dobbs Ferry",
+        "price": 1746000,
+        "beds": 5,
+        "baths": 5,
+        "sqft": 4120,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/200-Judson-Ave_Dobbs-Ferry_NY_10522_M36587-08648",
+        "openHouses": [],
+        "listDate": "2026-06-01T20:34:13.000000Z",
+        "lastSoldPrice": 1400000,
+        "lastSoldDate": "2007-08-02",
+        "daysOnMarket": 77
+      },
+      {
+        "id": "3900632849",
+        "town": "Dobbs Ferry",
+        "address": "45 Myrtle Ave, Dobbs Ferry",
+        "price": 1499000,
+        "beds": 6,
+        "baths": 4,
+        "sqft": 3230,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/45-Myrtle-Ave_Dobbs-Ferry_NY_10522_M39006-32849",
+        "openHouses": [],
+        "listDate": "2026-05-14T19:06:57.000000Z",
+        "lastSoldPrice": 326500,
+        "lastSoldDate": "1986-08-20",
+        "daysOnMarket": 96
+      },
+      {
+        "id": "3050772726",
+        "town": "Dobbs Ferry",
+        "address": "12C Clinton Ave Apt C, Dobbs Ferry",
+        "price": 2000000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 3040,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/12-Clinton-Ave-Apt-C_Dobbs-Ferry_NY_10522_M30507-72726",
+        "openHouses": [],
+        "listDate": "2026-05-13T19:06:20.000000Z",
+        "lastSoldPrice": 1600000,
+        "lastSoldDate": "2023-06-30",
+        "daysOnMarket": 97
+      },
+      {
+        "id": "4412284090",
+        "town": "Dobbs Ferry",
+        "address": "100 Cedar St Apt B34, Dobbs Ferry",
+        "price": 489000,
+        "beds": 2,
+        "baths": 1,
+        "sqft": 1112,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/100-Cedar-St-Apt-B34_Dobbs-Ferry_NY_10522_M44122-84090",
+        "openHouses": [],
+        "listDate": "2026-04-30T20:48:09.000000Z",
+        "lastSoldPrice": 445000,
+        "lastSoldDate": "2022-02-08",
+        "daysOnMarket": 109
+      },
+      {
+        "id": "4754124580",
+        "town": "Dobbs Ferry",
+        "address": "5 Forkland Ln, Dobbs Ferry",
+        "price": 998000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": 3764,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/5-Forkland-Ln_Dobbs-Ferry_NY_10522_M47541-24580",
+        "openHouses": [],
+        "listDate": "2026-04-14T20:33:56.000000Z",
+        "lastSoldPrice": 1100000,
+        "lastSoldDate": "2006-04-11",
+        "daysOnMarket": 125
+      },
+      {
+        "id": "3519706682",
+        "town": "Dobbs Ferry",
+        "address": "30 Blanchard Ave, Dobbs Ferry",
+        "price": 895000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1523,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/30-Blanchard-Ave_Dobbs-Ferry_NY_10522_M35197-06682",
+        "openHouses": [],
+        "listDate": "2026-04-08T14:17:49.000000Z",
+        "lastSoldPrice": 235000,
+        "lastSoldDate": "1999-10-28",
+        "daysOnMarket": 132
+      },
+      {
+        "id": "9046792903",
+        "town": "Dobbs Ferry",
+        "address": "161 Sherman Ave, Dobbs Ferry",
+        "price": 4995000,
+        "beds": 5,
+        "baths": 6,
+        "sqft": 7979,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/161-Sherman-Ave_Dobbs-Ferry_NY_10522_M90467-92903",
+        "openHouses": [],
+        "listDate": "2026-03-09T22:33:09.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 161
+      },
+      {
+        "id": "4721086839",
+        "town": "Dobbs Ferry",
+        "address": "40 Northfield Ave, Dobbs Ferry",
+        "price": 695000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/40-Northfield-Ave_Dobbs-Ferry_NY_10522_M47210-86839",
+        "openHouses": [],
+        "listDate": "2025-11-11T19:42:27.000000Z",
+        "lastSoldPrice": 680000,
+        "lastSoldDate": "2026-01-13",
+        "daysOnMarket": 279
+      },
+      {
+        "id": "3914607577",
+        "town": "Dobbs Ferry",
+        "address": "Lyman Pl, Dobbs Ferry",
+        "price": 525000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-Lyman-Pl_Dobbs-Ferry_NY_10522_M39146-07577",
+        "openHouses": [],
+        "listDate": "2025-10-16T18:26:12.000000Z",
+        "lastSoldPrice": 599000,
+        "lastSoldDate": "2025-09-29",
+        "daysOnMarket": 306
+      },
+      {
+        "id": "9255874337",
+        "town": "Dobbs Ferry",
+        "address": "Ashford Ave, Dobbs Ferry",
+        "price": 274500,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/0-Ashford-Ave-Ashford-Ave_Dobbs-Ferry_NY_10522_M92558-74337",
+        "openHouses": [],
+        "listDate": "2025-07-03T16:47:16.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 411
+      }
+    ],
     "Eastchester": [
       {
         "id": "9881089725",
@@ -3108,7 +3546,7 @@
         "listDate": "2026-07-27T18:56:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4950276757",
@@ -3261,7 +3699,7 @@
         "listDate": "2026-07-08T19:16:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "9054721467",
@@ -3363,7 +3801,7 @@
         "listDate": "2026-06-16T19:09:13.000000Z",
         "lastSoldPrice": 207000,
         "lastSoldDate": "1985-08-05",
-        "daysOnMarket": 62
+        "daysOnMarket": 63
       },
       {
         "id": "3093638864",
@@ -3397,7 +3835,7 @@
         "listDate": "2026-06-12T19:13:12.000000Z",
         "lastSoldPrice": 201000,
         "lastSoldDate": "1985-12-23",
-        "daysOnMarket": 66
+        "daysOnMarket": 67
       },
       {
         "id": "4985318419",
@@ -3448,7 +3886,7 @@
         "listDate": "2026-05-07T19:01:22.000000Z",
         "lastSoldPrice": 617500,
         "lastSoldDate": "2010-02-19",
-        "daysOnMarket": 102
+        "daysOnMarket": 103
       },
       {
         "id": "3389877213",
@@ -3586,7 +4024,7 @@
         "listDate": "2026-08-12T19:02:37.000000Z",
         "lastSoldPrice": 207500,
         "lastSoldDate": "1997-10-02",
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3814150059",
@@ -3688,7 +4126,7 @@
         "listDate": "2026-07-28T18:56:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "4715831361",
@@ -3892,7 +4330,7 @@
         "listDate": "2026-07-15T19:16:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "9957265906",
@@ -3994,7 +4432,7 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "3206804159",
@@ -4011,7 +4449,7 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": 470400,
         "lastSoldDate": "2015-11-20",
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "9323611284",
@@ -4028,7 +4466,7 @@
         "listDate": "2026-06-24T19:19:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "9443297329",
@@ -4096,7 +4534,7 @@
         "listDate": "2026-06-17T19:27:21.000000Z",
         "lastSoldPrice": 749000,
         "lastSoldDate": "2008-08-19",
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "3691368838",
@@ -4625,7 +5063,7 @@
         "listDate": "2026-06-17T19:27:21.000000Z",
         "lastSoldPrice": 3000000,
         "lastSoldDate": "2004-12-20",
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "4702498654",
@@ -4659,7 +5097,7 @@
         "listDate": "2026-06-06T19:09:30.000000Z",
         "lastSoldPrice": 155000,
         "lastSoldDate": "1984-06-20",
-        "daysOnMarket": 72
+        "daysOnMarket": 73
       },
       {
         "id": "4026223447",
@@ -4744,7 +5182,7 @@
         "listDate": "2026-04-09T19:05:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 130
+        "daysOnMarket": 131
       },
       {
         "id": "3473910691",
@@ -4761,7 +5199,7 @@
         "listDate": "2026-04-07T18:59:44.000000Z",
         "lastSoldPrice": 1462500,
         "lastSoldDate": "2010-08-23",
-        "daysOnMarket": 132
+        "daysOnMarket": 133
       },
       {
         "id": "9736268664",
@@ -4984,7 +5422,7 @@
         "listDate": "2026-06-24T19:19:09.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2015-11-13",
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "3744642564",
@@ -5018,7 +5456,7 @@
         "listDate": "2026-06-05T19:14:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "4408153072",
@@ -5139,7 +5577,7 @@
         "listDate": "2026-08-14T18:50:14.000000Z",
         "lastSoldPrice": 1249000,
         "lastSoldDate": "2024-11-26",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "5253895715",
@@ -5190,7 +5628,7 @@
         "listDate": "2026-08-05T18:53:36.000000Z",
         "lastSoldPrice": 400000,
         "lastSoldDate": "1997-10-06",
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "5015170087",
@@ -5224,7 +5662,7 @@
         "listDate": "2026-07-08T18:52:20.000000Z",
         "lastSoldPrice": 1280000,
         "lastSoldDate": "2009-05-27",
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "5263562115",
@@ -5328,7 +5766,7 @@
         "listDate": "2026-07-17T19:16:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "9358647555",
@@ -5345,7 +5783,7 @@
         "listDate": "2026-07-15T19:16:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "9400655924",
@@ -6248,7 +6686,7 @@
         "listDate": "2026-04-21T19:12:24.000000Z",
         "lastSoldPrice": 2950000,
         "lastSoldDate": "2016-09-08",
-        "daysOnMarket": 118
+        "daysOnMarket": 119
       },
       {
         "id": "4408176613",
@@ -6268,23 +6706,6 @@
         "daysOnMarket": 146
       },
       {
-        "id": "9743358871",
-        "town": "Larchmont",
-        "address": "23 Edgewood Ave, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 179
-      },
-      {
         "id": "9369243885",
         "town": "Larchmont",
         "address": "64 Myrtle Blvd, Larchmont",
@@ -6295,6 +6716,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 179
+      },
+      {
+        "id": "9743358871",
+        "town": "Larchmont",
+        "address": "23 Edgewood Ave, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -6505,7 +6943,7 @@
         "listDate": "2026-07-06T19:11:38.000000Z",
         "lastSoldPrice": 699000,
         "lastSoldDate": "2002-10-16",
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "3012486448",
@@ -6556,7 +6994,7 @@
         "listDate": "2026-06-22T19:20:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "3922257765",
@@ -6573,7 +7011,7 @@
         "listDate": "2026-06-20T19:09:49.000000Z",
         "lastSoldPrice": 930000,
         "lastSoldDate": "2026-02-09",
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "4078700191",
@@ -6879,7 +7317,7 @@
         "listDate": "2023-06-21T19:12:03.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "1986-04-16",
-        "daysOnMarket": 1153
+        "daysOnMarket": 1154
       }
     ],
     "Mount Vernon": [
@@ -7097,7 +7535,7 @@
         "listDate": "2026-07-27T18:56:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "9474550047",
@@ -7114,7 +7552,7 @@
         "listDate": "2026-07-21T19:15:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "9000027734",
@@ -7658,7 +8096,7 @@
         "listDate": "2026-05-08T19:07:51.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-02-12",
-        "daysOnMarket": 101
+        "daysOnMarket": 102
       },
       {
         "id": "3869527862",
@@ -7692,7 +8130,7 @@
         "listDate": "2026-05-05T19:01:22.000000Z",
         "lastSoldPrice": 187500,
         "lastSoldDate": "2010-01-13",
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "3192758596",
@@ -7743,7 +8181,7 @@
         "listDate": "2026-04-24T19:05:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 115
+        "daysOnMarket": 116
       }
     ],
     "Pleasantville": [
@@ -7796,7 +8234,7 @@
         "listDate": "2026-07-29T18:58:03.000000Z",
         "lastSoldPrice": 352500,
         "lastSoldDate": "2019-06-27",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "4545417632",
@@ -8000,7 +8438,7 @@
         "listDate": "2026-06-11T19:16:15.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2022-09-08",
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "9731380471",
@@ -8202,7 +8640,7 @@
         "listDate": "2026-07-23T19:10:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "9974744860",
@@ -8338,7 +8776,7 @@
         "listDate": "2026-06-29T19:18:38.000000Z",
         "lastSoldPrice": 240000,
         "lastSoldDate": "2019-06-03",
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "4377930669",
@@ -8582,7 +9020,7 @@
         "listDate": "2026-05-28T19:12:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 81
+        "daysOnMarket": 82
       },
       {
         "id": "4324379510",
@@ -8905,7 +9343,7 @@
         "listDate": "2026-03-06T19:00:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 164
+        "daysOnMarket": 165
       },
       {
         "id": "4618631114",
@@ -9225,7 +9663,7 @@
         "listDate": "2026-05-12T18:59:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 97
+        "daysOnMarket": 98
       },
       {
         "id": "4298703245",
@@ -9259,7 +9697,7 @@
         "listDate": "2026-04-29T19:03:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 110
+        "daysOnMarket": 111
       },
       {
         "id": "4892019939",
