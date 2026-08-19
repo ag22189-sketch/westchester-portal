@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T21:31:05.644Z",
+  "updatedAt": "2026-08-19T22:30:35.746Z",
   "towns": {
     "Pelham": [
       {
@@ -187,7 +187,7 @@
         "listDate": "2026-06-30T21:33:20.000000Z",
         "lastSoldPrice": 1245000,
         "lastSoldDate": "2012-07-17",
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "4820761833",
@@ -722,7 +722,7 @@
         "listDate": "2026-07-25T22:03:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "9778624898",
@@ -1298,7 +1298,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/38-Harney-Rd_Scarsdale_NY_10583_M31218-76298",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-22T11:00:00",
+            "end_date": "2026-08-22T14:00:00",
+            "description": "Come tour this four-bedroom split-level featuring a home office, wrap-around rear deck, covered patio below, and a private, partially fenced backyard. Ample driveway parking.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-16T01:33:15.000000Z",
         "lastSoldPrice": 775000,
         "lastSoldDate": "2022-06-23",
@@ -1357,57 +1369,6 @@
         "link": "https://www.realtor.com/realestateandhomes-detail/260-Garth-Rd-Apt-1A5_Scarsdale_NY_10583_M33992-16380",
         "openHouses": [],
         "listDate": "2026-08-14T17:05:02.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 5
-      },
-      {
-        "id": "9036750343",
-        "town": "Scarsdale",
-        "address": "235 Garth Rd Apt A6F, Scarsdale",
-        "price": 231000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 875,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-Apt-A6F_Scarsdale_NY_10583_M90367-50343",
-        "openHouses": [],
-        "listDate": "2026-08-14T14:03:34.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 5
-      },
-      {
-        "id": "9135916901",
-        "town": "Scarsdale",
-        "address": "235 Garth Rd Apt E5G, Scarsdale",
-        "price": 352000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1250,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-Apt-E5G_Scarsdale_NY_10583_M91359-16901",
-        "openHouses": [],
-        "listDate": "2026-08-14T14:03:34.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 5
-      },
-      {
-        "id": "9130114618",
-        "town": "Scarsdale",
-        "address": "235 Garth Rd Unit Bbc, Scarsdale",
-        "price": 99000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 500,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-BBC_Scarsdale_NY_10583_M91301-14618",
-        "openHouses": [],
-        "listDate": "2026-08-14T14:03:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 5
@@ -1818,7 +1779,7 @@
         "listDate": "2026-07-15T22:04:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "9459419220",
@@ -1869,7 +1830,7 @@
         "listDate": "2026-07-14T21:33:31.000000Z",
         "lastSoldPrice": 1600000,
         "lastSoldDate": "2024-12-27",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4590697678",
@@ -2005,7 +1966,7 @@
         "listDate": "2026-07-02T21:47:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4394864630",
@@ -2039,7 +2000,7 @@
         "listDate": "2026-07-01T22:05:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "3560990346",
@@ -2125,6 +2086,57 @@
         "lastSoldPrice": 144000,
         "lastSoldDate": "2017-01-13",
         "daysOnMarket": 56
+      },
+      {
+        "id": "9222409547",
+        "town": "Scarsdale",
+        "address": "2 Fountain Ln Apt 3W, Scarsdale",
+        "price": 439000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1400,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/2-Fountain-Ln-Apt-3W_Scarsdale_NY_10583_M92224-09547",
+        "openHouses": [],
+        "listDate": "2026-06-23T15:03:44.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 57
+      },
+      {
+        "id": "4009081692",
+        "town": "Scarsdale",
+        "address": "15 Hidden Ridge Ct, Scarsdale",
+        "price": 999000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2500,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/15-Hidden-Ridge-Ct_Scarsdale_NY_10583_M40090-81692",
+        "openHouses": [],
+        "listDate": "2026-06-23T14:33:36.000000Z",
+        "lastSoldPrice": 720000,
+        "lastSoldDate": "2015-12-24",
+        "daysOnMarket": 57
+      },
+      {
+        "id": "3109833101",
+        "town": "Scarsdale",
+        "address": "31 Dobbs Ter, Scarsdale",
+        "price": 2275000,
+        "beds": 5,
+        "baths": 5,
+        "sqft": 3525,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/31-Dobbs-Ter_Scarsdale_NY_10583_M31098-33101",
+        "openHouses": [],
+        "listDate": "2026-06-22T20:04:37.000000Z",
+        "lastSoldPrice": 1435000,
+        "lastSoldDate": "2018-09-28",
+        "daysOnMarket": 58
       }
     ],
     "Ardsley": [
@@ -2975,7 +2987,7 @@
         "listDate": "2026-04-06T22:03:23.000000Z",
         "lastSoldPrice": 394300,
         "lastSoldDate": "2014-05-01",
-        "daysOnMarket": 134
+        "daysOnMarket": 135
       },
       {
         "id": "9821773445",
@@ -3009,7 +3021,7 @@
         "listDate": "2026-03-01T22:17:56.000000Z",
         "lastSoldPrice": 251000,
         "lastSoldDate": "1981-08-01",
-        "daysOnMarket": 170
+        "daysOnMarket": 171
       },
       {
         "id": "9773606119",
@@ -3586,7 +3598,7 @@
         "listDate": "2026-07-23T22:03:21.000000Z",
         "lastSoldPrice": 730000,
         "lastSoldDate": "2017-09-08",
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "4320354758",
@@ -4144,24 +4156,7 @@
         "listDate": "2026-07-29T22:18:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
-      },
-      {
-        "id": "3336912953",
-        "town": "Hartsdale",
-        "address": "2 Fieldstone Dr Apt 19, Hartsdale",
-        "price": 248800,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 767,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/2-Fieldstone-Dr-Apt-19_Hartsdale_NY_10530_M33369-12953",
-        "openHouses": [],
-        "listDate": "2026-07-28T18:56:21.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 21
       },
       {
         "id": "4715831361",
@@ -4618,23 +4613,6 @@
         "daysOnMarket": 71
       },
       {
-        "id": "3736145929",
-        "town": "Hartsdale",
-        "address": "500 High Point Dr Apt 707, Hartsdale",
-        "price": 410000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 890,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/500-High-Point-Dr-Apt-707_Hartsdale_NY_10530_M37361-45929",
-        "openHouses": [],
-        "listDate": "2026-06-09T20:34:15.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 71
-      },
-      {
         "id": "3231399100",
         "town": "Hartsdale",
         "address": "9 Whittier St, Hartsdale",
@@ -4666,7 +4644,7 @@
         "listDate": "2026-06-05T21:32:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "4961976824",
@@ -4837,6 +4815,40 @@
         "lastSoldPrice": 346000,
         "lastSoldDate": "1997-08-27",
         "daysOnMarket": 99
+      },
+      {
+        "id": "4448921585",
+        "town": "Hartsdale",
+        "address": "161 Stone Oaks Dr, Hartsdale",
+        "price": 780000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 2248,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/161-Stone-Oaks-Dr_Hartsdale_NY_10530_M44489-21585",
+        "openHouses": [],
+        "listDate": "2026-05-07T18:10:59.000000Z",
+        "lastSoldPrice": 347000,
+        "lastSoldDate": "1999-09-24",
+        "daysOnMarket": 104
+      },
+      {
+        "id": "4246406288",
+        "town": "Hartsdale",
+        "address": "66 Caterson Ter, Hartsdale",
+        "price": 1220000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2456,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/66-Caterson-Ter_Hartsdale_NY_10530_M42464-06288",
+        "openHouses": [],
+        "listDate": "2026-05-06T15:47:42.000000Z",
+        "lastSoldPrice": 850000,
+        "lastSoldDate": "2009-10-16",
+        "daysOnMarket": 105
       }
     ],
     "Harrison": [
@@ -5003,7 +5015,7 @@
         "listDate": "2026-07-25T22:03:36.000000Z",
         "lastSoldPrice": 324500,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "3439972086",
@@ -7658,7 +7670,7 @@
         "listDate": "2026-07-16T21:33:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "4204006111",
@@ -8117,7 +8129,7 @@
         "listDate": "2026-05-05T22:03:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 105
+        "daysOnMarket": 106
       },
       {
         "id": "3319353603",
@@ -8877,7 +8889,7 @@
         "listDate": "2026-06-16T21:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "9076643834",
@@ -9155,7 +9167,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 102
+        "daysOnMarket": 103
       },
       {
         "id": "9021063983",
@@ -9359,7 +9371,7 @@
         "listDate": "2026-03-24T22:10:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 147
+        "daysOnMarket": 148
       },
       {
         "id": "9612537575",
