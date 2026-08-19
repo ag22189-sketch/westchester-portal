@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T10:34:42.805Z",
+  "updatedAt": "2026-08-19T11:30:57.804Z",
   "towns": {
     "Pelham": [
       {
@@ -1356,23 +1356,6 @@
         "daysOnMarket": 4
       },
       {
-        "id": "9130114618",
-        "town": "Scarsdale",
-        "address": "235 Garth Rd Unit Bbc, Scarsdale",
-        "price": 99000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 500,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-BBC_Scarsdale_NY_10583_M91301-14618",
-        "openHouses": [],
-        "listDate": "2026-08-14T14:03:34.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 4
-      },
-      {
         "id": "9135916901",
         "town": "Scarsdale",
         "address": "235 Garth Rd Apt E5G, Scarsdale",
@@ -1383,6 +1366,23 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-Apt-E5G_Scarsdale_NY_10583_M91359-16901",
+        "openHouses": [],
+        "listDate": "2026-08-14T14:03:34.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 4
+      },
+      {
+        "id": "9130114618",
+        "town": "Scarsdale",
+        "address": "235 Garth Rd Unit Bbc, Scarsdale",
+        "price": 99000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 500,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/235-Garth-Rd-BBC_Scarsdale_NY_10583_M91301-14618",
         "openHouses": [],
         "listDate": "2026-08-14T14:03:34.000000Z",
         "lastSoldPrice": null,
@@ -1608,7 +1608,7 @@
         "listDate": "2026-08-03T11:03:07.000000Z",
         "lastSoldPrice": 670000,
         "lastSoldDate": "2026-03-03",
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "9530210883",
@@ -6678,23 +6678,6 @@
         "daysOnMarket": 147
       },
       {
-        "id": "9369243885",
-        "town": "Larchmont",
-        "address": "64 Myrtle Blvd, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 179
-      },
-      {
         "id": "9743358871",
         "town": "Larchmont",
         "address": "23 Edgewood Ave, Larchmont",
@@ -6705,6 +6688,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 179
+      },
+      {
+        "id": "9369243885",
+        "town": "Larchmont",
+        "address": "64 Myrtle Blvd, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -8012,7 +8012,7 @@
         "listDate": "2026-05-28T11:02:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 82
+        "daysOnMarket": 83
       },
       {
         "id": "3898208084",
