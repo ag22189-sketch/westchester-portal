@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T09:40:48.377Z",
+  "updatedAt": "2026-08-20T10:36:46.854Z",
   "towns": {
     "Pelham": [
       {
@@ -773,7 +773,7 @@
         "listDate": "2026-07-21T10:01:40.000000Z",
         "lastSoldPrice": 117000,
         "lastSoldDate": "2020-03-26",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "9606679800",
@@ -1388,7 +1388,7 @@
         "listDate": "2026-08-13T09:47:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "9363066962",
@@ -1452,7 +1452,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/46-Sprain-Valley-Rd_Scarsdale_NY_10583_M39834-52294",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-23T13:00:00",
+            "end_date": "2026-08-23T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-06T19:19:16.000000Z",
         "lastSoldPrice": 299000,
         "lastSoldDate": "1994-12-23",
@@ -4251,23 +4263,6 @@
         "daysOnMarket": 27
       },
       {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 28
-      },
-      {
         "id": "4835129366",
         "town": "Hartsdale",
         "address": "29 S Washington Ave, Hartsdale",
@@ -4282,6 +4277,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 28
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 28
       },
       {
@@ -4438,23 +4450,6 @@
         "daysOnMarket": 48
       },
       {
-        "id": "9931725115",
-        "town": "Hartsdale",
-        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
-        "price": 385000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1200,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
-        "openHouses": [],
-        "listDate": "2026-06-26T19:14:13.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 54
-      },
-      {
         "id": "3206804159",
         "town": "Hartsdale",
         "address": "21 Joyce Rd, Hartsdale",
@@ -4469,6 +4464,23 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": 470400,
         "lastSoldDate": "2015-11-20",
+        "daysOnMarket": 54
+      },
+      {
+        "id": "9931725115",
+        "town": "Hartsdale",
+        "address": "100 E Hartsdale Ave Apt Tce, Hartsdale",
+        "price": 385000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/100-E-Hartsdale-Ave-Apt-Tce_Hartsdale_NY_10530_M99317-25115",
+        "openHouses": [],
+        "listDate": "2026-06-26T19:14:13.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 54
       },
       {
@@ -4571,7 +4583,7 @@
         "listDate": "2026-06-12T10:06:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       },
       {
         "id": "4321796787",
@@ -4588,7 +4600,7 @@
         "listDate": "2026-06-11T10:06:15.000000Z",
         "lastSoldPrice": 999000,
         "lastSoldDate": "2003-09-16",
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "3259812073",
@@ -5027,7 +5039,7 @@
         "listDate": "2026-07-23T10:17:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "3588029676",
@@ -5460,7 +5472,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 41
+        "daysOnMarket": 42
       },
       {
         "id": "9648085740",
@@ -5872,7 +5884,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "3425358762",
@@ -5889,7 +5901,7 @@
         "listDate": "2026-07-10T10:01:50.000000Z",
         "lastSoldPrice": 969000,
         "lastSoldDate": "2004-09-10",
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "4458946550",
@@ -6401,7 +6413,7 @@
         "listDate": "2026-07-02T10:01:47.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "4385838569",
@@ -6879,7 +6891,7 @@
         "listDate": "2026-07-16T10:01:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3816671274",
@@ -8364,7 +8376,7 @@
         "listDate": "2026-06-23T10:16:39.000000Z",
         "lastSoldPrice": 125000,
         "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "3767002130",
