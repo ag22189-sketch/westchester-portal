@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T20:35:33.497Z",
+  "updatedAt": "2026-08-20T21:33:58.494Z",
   "towns": {
     "Pelham": [
       {
@@ -85,7 +85,7 @@
         "listDate": "2026-07-21T21:04:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "9620750112",
@@ -187,7 +187,7 @@
         "listDate": "2026-06-30T21:33:20.000000Z",
         "lastSoldPrice": 1245000,
         "lastSoldDate": "2012-07-17",
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "4820761833",
@@ -1154,7 +1154,7 @@
         "listDate": "2026-06-29T21:17:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "9871107849",
@@ -1171,7 +1171,7 @@
         "listDate": "2026-06-29T21:03:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "3516541154",
@@ -1260,23 +1260,6 @@
       }
     ],
     "Scarsdale": [
-      {
-        "id": "3021332786",
-        "town": "Scarsdale",
-        "address": "24 Benedict Rd, Scarsdale",
-        "price": 2100000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2163,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/24-Benedict-Rd_Scarsdale_NY_10583_M30213-32786",
-        "openHouses": [],
-        "listDate": "2026-08-20T20:04:41.000000Z",
-        "lastSoldPrice": 1410000,
-        "lastSoldDate": "2023-03-27",
-        "daysOnMarket": 0
-      },
       {
         "id": "4242658966",
         "town": "Scarsdale",
@@ -1446,7 +1429,7 @@
         "listDate": "2026-08-12T20:48:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9378260633",
@@ -1844,7 +1827,7 @@
         "listDate": "2026-07-15T21:18:54.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4827571381",
@@ -1878,7 +1861,7 @@
         "listDate": "2026-07-14T21:33:31.000000Z",
         "lastSoldPrice": 1600000,
         "lastSoldDate": "2024-12-27",
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "4590697678",
@@ -2116,7 +2099,7 @@
         "listDate": "2026-06-25T20:48:25.000000Z",
         "lastSoldPrice": 707500,
         "lastSoldDate": "2020-08-05",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "4926975394",
@@ -2168,6 +2151,23 @@
         "lastSoldPrice": 720000,
         "lastSoldDate": "2015-12-24",
         "daysOnMarket": 58
+      },
+      {
+        "id": "3596679746",
+        "town": "Scarsdale",
+        "address": "16 Meadow Rd, Scarsdale",
+        "price": 2595000,
+        "beds": 6,
+        "baths": 7,
+        "sqft": 5834,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/16-Meadow-Rd_Scarsdale_NY_10583_M35966-79746",
+        "openHouses": [],
+        "listDate": "2026-06-18T17:34:09.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 63
       }
     ],
     "Ardsley": [
@@ -2900,7 +2900,7 @@
         "listDate": "2026-05-22T21:04:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 89
+        "daysOnMarket": 90
       },
       {
         "id": "4865972972",
@@ -3143,6 +3143,23 @@
         "daysOnMarket": 12
       },
       {
+        "id": "3643206015",
+        "town": "Dobbs Ferry",
+        "address": "47 Grandview Ave, Dobbs Ferry",
+        "price": 749000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1800,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/47-Grandview-Ave_Dobbs-Ferry_NY_10522_M36432-06015",
+        "openHouses": [],
+        "listDate": "2026-07-31T14:49:01.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 20
+      },
+      {
         "id": "9331192212",
         "town": "Dobbs Ferry",
         "address": "129 Beacon Hill Dr Apt F15, Dobbs Ferry",
@@ -3174,7 +3191,7 @@
         "listDate": "2026-07-22T21:05:44.000000Z",
         "lastSoldPrice": 789000,
         "lastSoldDate": "2017-06-19",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "4535559827",
@@ -3356,7 +3373,7 @@
         "listDate": "2026-04-30T20:48:09.000000Z",
         "lastSoldPrice": 445000,
         "lastSoldDate": "2022-02-08",
-        "daysOnMarket": 111
+        "daysOnMarket": 112
       },
       {
         "id": "4754124580",
@@ -3374,6 +3391,23 @@
         "lastSoldPrice": 1100000,
         "lastSoldDate": "2006-04-11",
         "daysOnMarket": 128
+      },
+      {
+        "id": "3519706682",
+        "town": "Dobbs Ferry",
+        "address": "30 Blanchard Ave, Dobbs Ferry",
+        "price": 895000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1523,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/30-Blanchard-Ave_Dobbs-Ferry_NY_10522_M35197-06682",
+        "openHouses": [],
+        "listDate": "2026-04-08T14:17:49.000000Z",
+        "lastSoldPrice": 235000,
+        "lastSoldDate": "1999-10-28",
+        "daysOnMarket": 134
       },
       {
         "id": "9046792903",
@@ -3647,7 +3681,7 @@
         "listDate": "2026-07-13T21:18:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4880699284",
@@ -3732,7 +3766,7 @@
         "listDate": "2026-07-06T21:05:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "3776580914",
@@ -3868,7 +3902,7 @@
         "listDate": "2026-05-29T20:47:21.000000Z",
         "lastSoldPrice": 260000,
         "lastSoldDate": "1994-01-11",
-        "daysOnMarket": 82
+        "daysOnMarket": 83
       },
       {
         "id": "3137687208",
@@ -4251,24 +4285,7 @@
         "listDate": "2026-07-23T21:05:26.000000Z",
         "lastSoldPrice": 369000,
         "lastSoldDate": "2016-07-27",
-        "daysOnMarket": 27
-      },
-      {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 29
+        "daysOnMarket": 28
       },
       {
         "id": "4835129366",
@@ -4285,6 +4302,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 29
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 29
       },
       {
@@ -4523,7 +4557,7 @@
         "listDate": "2026-06-17T20:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "3503057029",
@@ -4591,7 +4625,7 @@
         "listDate": "2026-06-09T20:49:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "3231399100",
@@ -4625,7 +4659,7 @@
         "listDate": "2026-06-05T21:32:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 75
+        "daysOnMarket": 76
       },
       {
         "id": "4961976824",
@@ -4773,7 +4807,7 @@
         "listDate": "2026-05-19T21:02:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 92
+        "daysOnMarket": 93
       },
       {
         "id": "4248281752",
@@ -4790,7 +4824,7 @@
         "listDate": "2026-05-12T21:03:59.000000Z",
         "lastSoldPrice": 630000,
         "lastSoldDate": "2018-02-15",
-        "daysOnMarket": 99
+        "daysOnMarket": 100
       },
       {
         "id": "3613483018",
@@ -4807,7 +4841,7 @@
         "listDate": "2026-05-12T20:49:18.000000Z",
         "lastSoldPrice": 346000,
         "lastSoldDate": "1997-08-27",
-        "daysOnMarket": 99
+        "daysOnMarket": 100
       },
       {
         "id": "4448921585",
@@ -4873,19 +4907,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/10-Beaver-Lndg_Harrison_NY_10528_M92625-14257",
-        "openHouses": [
-          {
-            "start_date": "2026-08-22T12:00:00",
-            "end_date": "2026-08-22T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-12T15:32:47.000000Z",
         "lastSoldPrice": 595000,
         "lastSoldDate": "2023-09-28",
@@ -5309,7 +5331,7 @@
         "listDate": "2026-01-22T21:17:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 209
+        "daysOnMarket": 210
       },
       {
         "id": "4194963634",
@@ -6115,7 +6137,7 @@
         "listDate": "2026-04-15T20:49:55.000000Z",
         "lastSoldPrice": 880000,
         "lastSoldDate": "2017-12-15",
-        "daysOnMarket": 126
+        "daysOnMarket": 127
       },
       {
         "id": "3372388114",
@@ -6132,7 +6154,7 @@
         "listDate": "2026-04-04T20:47:41.000000Z",
         "lastSoldPrice": 675000,
         "lastSoldDate": "2004-02-06",
-        "daysOnMarket": 137
+        "daysOnMarket": 138
       },
       {
         "id": "4551322098",
@@ -6474,7 +6496,7 @@
         "listDate": "2026-06-17T21:04:49.000000Z",
         "lastSoldPrice": 3237500,
         "lastSoldDate": "2000-09-29",
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "9580376284",
@@ -6525,7 +6547,7 @@
         "listDate": "2026-05-27T20:47:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "3938541759",
@@ -6715,23 +6737,6 @@
         "daysOnMarket": 148
       },
       {
-        "id": "9743358871",
-        "town": "Larchmont",
-        "address": "23 Edgewood Ave, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 181
-      },
-      {
         "id": "9369243885",
         "town": "Larchmont",
         "address": "64 Myrtle Blvd, Larchmont",
@@ -6742,6 +6747,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 181
+      },
+      {
+        "id": "9743358871",
+        "town": "Larchmont",
+        "address": "23 Edgewood Ave, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -6781,6 +6803,23 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 250
+      },
+      {
+        "id": "4122022813",
+        "town": "Larchmont",
+        "address": "40 Pinebrook Dr, Larchmont",
+        "price": 1199000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 1654,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/40-Pinebrook-Dr_Larchmont_NY_10538_M41220-22813",
+        "openHouses": [],
+        "listDate": "2025-11-12T05:48:19.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 281
       },
       {
         "id": "3406384100",
@@ -6959,7 +6998,7 @@
         "listDate": "2026-07-07T21:17:48.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2024-07-09",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "4276954456",
@@ -7432,7 +7471,7 @@
         "listDate": "2026-08-13T21:04:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3672188220",
@@ -7682,7 +7721,7 @@
         "listDate": "2026-07-16T21:33:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "4204006111",
@@ -7699,7 +7738,7 @@
         "listDate": "2026-07-16T21:08:26.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "9839051261",
@@ -7784,7 +7823,7 @@
         "listDate": "2026-07-05T20:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "4230603081",
@@ -7971,7 +8010,7 @@
         "listDate": "2026-06-07T21:02:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "4299421997",
@@ -8107,7 +8146,7 @@
         "listDate": "2026-05-13T21:18:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 98
+        "daysOnMarket": 99
       },
       {
         "id": "3905005040",
@@ -9174,7 +9213,7 @@
         "listDate": "2026-05-07T21:02:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "9024336673",
@@ -9191,7 +9230,7 @@
         "listDate": "2026-05-07T20:47:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "4064503608",
@@ -9647,7 +9686,7 @@
         "listDate": "2026-06-08T21:04:02.000000Z",
         "lastSoldPrice": 137500,
         "lastSoldDate": "1992-12-29",
-        "daysOnMarket": 72
+        "daysOnMarket": 73
       },
       {
         "id": "9383226249",
@@ -9749,7 +9788,7 @@
         "listDate": "2026-04-07T20:48:01.000000Z",
         "lastSoldPrice": 269000,
         "lastSoldDate": "1997-06-26",
-        "daysOnMarket": 134
+        "daysOnMarket": 135
       },
       {
         "id": "9951213266",
@@ -9766,7 +9805,7 @@
         "listDate": "2026-03-30T20:48:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 142
+        "daysOnMarket": 143
       },
       {
         "id": "4653182514",
