@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T12:59:40.500Z",
+  "updatedAt": "2026-08-21T13:53:28.973Z",
   "towns": {
     "Pelham": [
       {
@@ -361,6 +361,23 @@
       }
     ],
     "Bronxville": [
+      {
+        "id": "3790273872",
+        "town": "Bronxville",
+        "address": "12 Bryn Mawr Pkwy, Bronxville",
+        "price": 630000,
+        "beds": 3,
+        "baths": 5,
+        "sqft": 1508,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/12-Bryn-Mawr-Pkwy_Bronxville_NY_10708_M37902-73872",
+        "openHouses": [],
+        "listDate": "2026-08-21T13:33:40.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "3838278030",
         "town": "Bronxville",
@@ -1240,23 +1257,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 66
-      },
-      {
-        "id": "9384417842",
-        "town": "Bronxville",
-        "address": "1133 Midland Ave Apt 4B, Bronxville",
-        "price": 425000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 719,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1133-Midland-Ave-Apt-4B_Bronxville_NY_10708_M93844-17842",
-        "openHouses": [],
-        "listDate": "2026-06-12T17:05:00.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 69
       }
     ],
     "Scarsdale": [
@@ -1759,7 +1759,7 @@
         "listDate": "2026-07-23T13:34:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "4212478627",
@@ -2099,7 +2099,7 @@
         "listDate": "2026-06-26T13:47:58.000000Z",
         "lastSoldPrice": 385000,
         "lastSoldDate": "1999-04-26",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "4788200172",
@@ -2329,7 +2329,7 @@
         "listDate": "2026-06-12T13:34:46.000000Z",
         "lastSoldPrice": 550000,
         "lastSoldDate": "2003-02-11",
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "4349135468",
@@ -2346,7 +2346,7 @@
         "listDate": "2026-06-03T13:18:16.000000Z",
         "lastSoldPrice": 372000,
         "lastSoldDate": "1997-08-18",
-        "daysOnMarket": 78
+        "daysOnMarket": 79
       },
       {
         "id": "4421766790",
@@ -2603,7 +2603,7 @@
         "listDate": "2026-06-05T13:18:35.000000Z",
         "lastSoldPrice": 421000,
         "lastSoldDate": "2025-08-11",
-        "daysOnMarket": 76
+        "daysOnMarket": 77
       },
       {
         "id": "3325786090",
@@ -2671,7 +2671,7 @@
         "listDate": "2026-04-29T13:17:25.000000Z",
         "lastSoldPrice": 1850000,
         "lastSoldDate": "1995-05-09",
-        "daysOnMarket": 113
+        "daysOnMarket": 114
       },
       {
         "id": "3637434869",
@@ -2809,7 +2809,7 @@
         "listDate": "2026-06-26T13:17:40.000000Z",
         "lastSoldPrice": 465000,
         "lastSoldDate": "2006-09-20",
-        "daysOnMarket": 55
+        "daysOnMarket": 56
       },
       {
         "id": "3136837611",
@@ -4300,23 +4300,6 @@
         "daysOnMarket": 28
       },
       {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 29
-      },
-      {
         "id": "4835129366",
         "town": "Hartsdale",
         "address": "29 S Washington Ave, Hartsdale",
@@ -4331,6 +4314,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 29
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 29
       },
       {
@@ -4484,7 +4484,7 @@
         "listDate": "2026-07-02T13:03:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "3206804159",
@@ -4952,7 +4952,7 @@
         "listDate": "2026-08-10T13:32:40.000000Z",
         "lastSoldPrice": 225500,
         "lastSoldDate": "1994-06-14",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "9608670446",
@@ -5003,7 +5003,7 @@
         "listDate": "2026-07-27T13:48:08.000000Z",
         "lastSoldPrice": 480000,
         "lastSoldDate": "2009-12-14",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "3306980759",
@@ -5151,7 +5151,7 @@
         "listDate": "2026-06-15T13:17:38.000000Z",
         "lastSoldPrice": 646000,
         "lastSoldDate": "2000-03-03",
-        "daysOnMarket": 66
+        "daysOnMarket": 67
       },
       {
         "id": "3084183464",
@@ -6252,7 +6252,7 @@
         "listDate": "2026-03-16T13:17:17.000000Z",
         "lastSoldPrice": 2800000,
         "lastSoldDate": "2017-12-22",
-        "daysOnMarket": 157
+        "daysOnMarket": 158
       },
       {
         "id": "4283285844",
@@ -6603,23 +6603,6 @@
         "daysOnMarket": 71
       },
       {
-        "id": "3291959986",
-        "town": "Larchmont",
-        "address": "2 Bonnie Briar Ln, Larchmont",
-        "price": 1590000,
-        "beds": 4,
-        "baths": 5,
-        "sqft": 3321,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/2-Bonnie-Briar-Ln_Larchmont_NY_10538_M32919-59986",
-        "openHouses": [],
-        "listDate": "2026-05-27T20:47:28.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 85
-      },
-      {
         "id": "3938541759",
         "town": "Larchmont",
         "address": "62 Mohegan Rd, Larchmont",
@@ -6753,7 +6736,7 @@
         "listDate": "2026-04-27T13:31:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 115
+        "daysOnMarket": 116
       },
       {
         "id": "4875375362",
@@ -6770,7 +6753,7 @@
         "listDate": "2026-04-24T13:32:38.000000Z",
         "lastSoldPrice": 1063500,
         "lastSoldDate": "1992-10-19",
-        "daysOnMarket": 118
+        "daysOnMarket": 119
       },
       {
         "id": "3189888570",
@@ -6807,23 +6790,6 @@
         "daysOnMarket": 149
       },
       {
-        "id": "9743358871",
-        "town": "Larchmont",
-        "address": "23 Edgewood Ave, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 181
-      },
-      {
         "id": "9369243885",
         "town": "Larchmont",
         "address": "64 Myrtle Blvd, Larchmont",
@@ -6834,6 +6800,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 181
+      },
+      {
+        "id": "9743358871",
+        "town": "Larchmont",
+        "address": "23 Edgewood Ave, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -7289,7 +7272,7 @@
         "listDate": "2026-05-05T13:47:26.000000Z",
         "lastSoldPrice": 1075000,
         "lastSoldDate": "2025-03-07",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "3528839987",
@@ -7357,7 +7340,7 @@
         "listDate": "2026-03-16T13:17:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 157
+        "daysOnMarket": 158
       },
       {
         "id": "9595203244",
@@ -9137,7 +9120,7 @@
         "listDate": "2026-06-08T13:02:28.000000Z",
         "lastSoldPrice": 1784989,
         "lastSoldDate": "2022-10-03",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3575252532",
