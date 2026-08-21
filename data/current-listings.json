@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T22:31:01.942Z",
+  "updatedAt": "2026-08-21T23:29:33.340Z",
   "towns": {
     "Pelham": [
       {
@@ -324,23 +324,6 @@
         "lastSoldPrice": 855000,
         "lastSoldDate": "2023-10-12",
         "daysOnMarket": 177
-      },
-      {
-        "id": "4510678253",
-        "town": "Pelham",
-        "address": "808 Wolfs Ln, Pelham",
-        "price": 1675000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 3331,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/808-Wolfs-Ln_Pelham_NY_10803_M45106-78253",
-        "openHouses": [],
-        "listDate": "2025-11-21T05:48:01.000000Z",
-        "lastSoldPrice": 900000,
-        "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 273
       }
     ],
     "Bronxville": [
@@ -1137,7 +1120,7 @@
         "listDate": "2026-06-29T23:17:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "9561612620",
@@ -1222,7 +1205,7 @@
         "listDate": "2026-06-24T23:18:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "3360549496",
@@ -1986,7 +1969,7 @@
         "listDate": "2026-07-07T22:32:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "9447816726",
@@ -3231,7 +3214,7 @@
         "listDate": "2026-07-20T23:03:18.000000Z",
         "lastSoldPrice": 564000,
         "lastSoldDate": "2004-11-16",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4735098833",
@@ -3273,7 +3256,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/86-Maple-St_Dobbs-Ferry_NY_10522_M33626-68000",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-23T12:00:00",
+            "end_date": "2026-08-23T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-10T18:14:41.000000Z",
         "lastSoldPrice": 650000,
         "lastSoldDate": "2022-04-18",
@@ -3430,7 +3425,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 164
+        "daysOnMarket": 165
       },
       {
         "id": "4721086839",
@@ -3631,7 +3626,7 @@
         "listDate": "2026-07-21T22:32:10.000000Z",
         "lastSoldPrice": 490000,
         "lastSoldDate": "2016-02-11",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "3847393144",
@@ -4388,7 +4383,7 @@
         "listDate": "2026-07-16T23:03:03.000000Z",
         "lastSoldPrice": 744000,
         "lastSoldDate": "2017-06-27",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4297164975",
@@ -4791,7 +4786,7 @@
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 86
+        "daysOnMarket": 87
       },
       {
         "id": "3669290249",
@@ -5072,7 +5067,7 @@
         "listDate": "2026-07-15T23:04:29.000000Z",
         "lastSoldPrice": 1103000,
         "lastSoldDate": "2026-02-04",
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "4490958242",
@@ -5511,7 +5506,7 @@
         "listDate": "2026-07-06T22:48:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "4431257955",
@@ -5662,10 +5657,39 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/17-Deerhill-Dr_Ho-Ho-Kus_NJ_07423_M53591-72002",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-22T13:00:00",
+            "end_date": "2026-08-22T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-21T21:47:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "5379198335",
+        "town": "Ho-Ho-Kus",
+        "address": "51 Arbor Dr, Ho Ho Kus",
+        "price": 1300000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/51-Arbor-Dr_Ho-Ho-Kus_NJ_07423_M53791-98335",
+        "openHouses": [],
+        "listDate": "2026-08-21T19:58:39.000000Z",
+        "lastSoldPrice": 640000,
+        "lastSoldDate": "2005-11-07",
         "daysOnMarket": 0
       },
       {
@@ -5695,23 +5719,6 @@
         "listDate": "2026-08-21T19:58:39.000000Z",
         "lastSoldPrice": 815000,
         "lastSoldDate": "2017-01-31",
-        "daysOnMarket": 0
-      },
-      {
-        "id": "5379198335",
-        "town": "Ho-Ho-Kus",
-        "address": "51 Arbor Dr, Ho Ho Kus",
-        "price": 1300000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/51-Arbor-Dr_Ho-Ho-Kus_NJ_07423_M53791-98335",
-        "openHouses": [],
-        "listDate": "2026-08-21T19:58:39.000000Z",
-        "lastSoldPrice": 640000,
-        "lastSoldDate": "2005-11-07",
         "daysOnMarket": 0
       },
       {
@@ -5816,7 +5823,7 @@
         "listDate": "2026-06-29T22:46:13.000000Z",
         "lastSoldPrice": 925000,
         "lastSoldDate": "2025-09-05",
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "5208018191",
@@ -6608,7 +6615,7 @@
         "listDate": "2026-06-10T22:33:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "3938541759",
@@ -6962,7 +6969,7 @@
         "listDate": "2026-07-17T22:33:19.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2022-08-16",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3327992422",
@@ -7093,7 +7100,7 @@
         "listDate": "2026-06-25T22:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "3626093427",
@@ -7348,7 +7355,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 216
+        "daysOnMarket": 217
       },
       {
         "id": "9199642451",
@@ -8539,7 +8546,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 125
+        "daysOnMarket": 126
       }
     ],
     "Ridgewood": [],
@@ -8918,7 +8925,7 @@
         "listDate": "2026-06-25T23:03:44.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2017-08-04",
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "4106825309",
@@ -9773,7 +9780,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 96
+        "daysOnMarket": 97
       },
       {
         "id": "3594803854",
