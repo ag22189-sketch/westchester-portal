@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T06:56:50.234Z",
+  "updatedAt": "2026-08-21T07:50:20.073Z",
   "towns": {
     "Pelham": [
       {
@@ -6355,7 +6355,7 @@
         "listDate": "2026-08-01T07:17:33.000000Z",
         "lastSoldPrice": 1310000,
         "lastSoldDate": "2022-03-30",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "9458770643",
@@ -8530,6 +8530,23 @@
     "Ridgewood": [],
     "Tarrytown": [
       {
+        "id": "3471112565",
+        "town": "Tarrytown",
+        "address": "320 S Broadway Unit P7, Tarrytown",
+        "price": 319900,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 700,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/320-S-Broadway-Unit-P7_Tarrytown_NY_10591_M34711-12565",
+        "openHouses": [],
+        "listDate": "2026-08-21T07:47:04.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "4404799384",
         "town": "Tarrytown",
         "address": "204 Watch Hill Dr, Tarrytown",
@@ -9420,23 +9437,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 149
-      },
-      {
-        "id": "9612537575",
-        "town": "Tarrytown",
-        "address": "4 Lighthouse Lndg Unit 204, Sleepy Hollow",
-        "price": 3995000,
-        "beds": 3,
-        "baths": 4,
-        "sqft": 2356,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-204_Sleepy-Hollow_NY_10591_M96125-37575",
-        "openHouses": [],
-        "listDate": "2026-03-06T19:00:41.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 167
       }
     ],
     "Tuckahoe": [
