@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T18:37:46.204Z",
+  "updatedAt": "2026-08-23T19:26:28.138Z",
   "towns": {
     "Pelham": [
       {
@@ -182,7 +182,7 @@
         "listDate": "2026-07-07T19:15:55.000000Z",
         "lastSoldPrice": 800000,
         "lastSoldDate": "2008-12-01",
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "9883696904",
@@ -405,7 +405,7 @@
         "listDate": "2026-08-20T19:18:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4242284165",
@@ -422,7 +422,7 @@
         "listDate": "2026-08-19T19:04:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "9761109862",
@@ -469,19 +469,7 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1376-Midland-Ave-Apt-801_Yonkers_NY_10708_M95857-66239",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T13:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-18T19:49:22.000000Z",
         "lastSoldPrice": 490000,
         "lastSoldDate": "2022-06-03",
@@ -587,7 +575,7 @@
         "listDate": "2026-08-05T18:49:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "9131330519",
@@ -621,7 +609,7 @@
         "listDate": "2026-08-03T19:09:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "9633917831",
@@ -944,7 +932,7 @@
         "listDate": "2026-07-14T19:10:49.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "9663776862",
@@ -1299,7 +1287,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/27-Clarendon-Rd_Scarsdale_NY_10583_M40794-23469",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-23T12:00:00",
+            "end_date": "2026-08-23T14:00:00",
+            "description": "Amazing fully renovated 3 bedroom home with large yard within the Edgemont Schools",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-14T19:48:06.000000Z",
         "lastSoldPrice": 612500,
         "lastSoldDate": "2022-10-19",
@@ -1446,7 +1446,7 @@
         "listDate": "2026-08-06T19:19:16.000000Z",
         "lastSoldPrice": 299000,
         "lastSoldDate": "1994-12-23",
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "3710410632",
@@ -1735,7 +1735,7 @@
         "listDate": "2026-07-20T19:09:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "9551010804",
@@ -1939,7 +1939,7 @@
         "listDate": "2026-07-02T19:21:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "4172311689",
@@ -2225,7 +2225,7 @@
         "listDate": "2026-06-14T19:09:02.000000Z",
         "lastSoldPrice": 589000,
         "lastSoldDate": "2025-03-27",
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "3109429474",
@@ -2516,7 +2516,7 @@
         "listDate": "2026-06-13T19:20:43.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "4051933798",
@@ -2756,7 +2756,7 @@
         "listDate": "2026-06-23T19:13:09.000000Z",
         "lastSoldPrice": 595000,
         "lastSoldDate": "2025-11-14",
-        "daysOnMarket": 60
+        "daysOnMarket": 61
       },
       {
         "id": "4686067522",
@@ -2773,7 +2773,7 @@
         "listDate": "2026-06-12T19:13:12.000000Z",
         "lastSoldPrice": 140000,
         "lastSoldDate": "1990-08-03",
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "4697150702",
@@ -2803,19 +2803,7 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/2-Timberland-Pass_Chappaqua_NY_10514_M46791-13986",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T13:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-06-02T03:33:14.000000Z",
         "lastSoldPrice": 800000,
         "lastSoldDate": "2024-12-30",
@@ -3093,7 +3081,7 @@
         "listDate": "2026-07-28T18:56:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3727644344",
@@ -3246,7 +3234,7 @@
         "listDate": "2026-05-14T19:06:57.000000Z",
         "lastSoldPrice": 326500,
         "lastSoldDate": "1986-08-20",
-        "daysOnMarket": 100
+        "daysOnMarket": 101
       },
       {
         "id": "3050772726",
@@ -3263,7 +3251,7 @@
         "listDate": "2026-05-13T19:06:20.000000Z",
         "lastSoldPrice": 1600000,
         "lastSoldDate": "2023-06-30",
-        "daysOnMarket": 101
+        "daysOnMarket": 102
       },
       {
         "id": "4412284090",
@@ -3469,7 +3457,7 @@
         "listDate": "2026-07-27T18:56:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "4950276757",
@@ -3622,7 +3610,7 @@
         "listDate": "2026-07-08T19:16:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "9054721467",
@@ -3724,7 +3712,7 @@
         "listDate": "2026-06-16T19:09:13.000000Z",
         "lastSoldPrice": 207000,
         "lastSoldDate": "1985-08-05",
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "3093638864",
@@ -3758,7 +3746,7 @@
         "listDate": "2026-06-12T19:13:12.000000Z",
         "lastSoldPrice": 201000,
         "lastSoldDate": "1985-12-23",
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "4985318419",
@@ -3981,7 +3969,7 @@
         "listDate": "2026-08-12T19:02:37.000000Z",
         "lastSoldPrice": 207500,
         "lastSoldDate": "1997-10-02",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "3814150059",
@@ -4154,23 +4142,6 @@
         "daysOnMarket": 30
       },
       {
-        "id": "4835129366",
-        "town": "Hartsdale",
-        "address": "29 S Washington Ave, Hartsdale",
-        "price": 625000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1269,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 408000,
-        "lastSoldDate": "2014-08-15",
-        "daysOnMarket": 31
-      },
-      {
         "id": "3368191583",
         "town": "Hartsdale",
         "address": "80 Jane St, Hartsdale",
@@ -4185,6 +4156,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 605000,
         "lastSoldDate": "2020-01-07",
+        "daysOnMarket": 31
+      },
+      {
+        "id": "4835129366",
+        "town": "Hartsdale",
+        "address": "29 S Washington Ave, Hartsdale",
+        "price": 625000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1269,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 408000,
+        "lastSoldDate": "2014-08-15",
         "daysOnMarket": 31
       },
       {
@@ -4270,7 +4258,7 @@
         "listDate": "2026-07-15T19:16:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "4059017476",
@@ -4338,7 +4326,7 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": 470400,
         "lastSoldDate": "2015-11-20",
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "9931725115",
@@ -4355,7 +4343,7 @@
         "listDate": "2026-06-26T19:14:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "9323611284",
@@ -4372,7 +4360,7 @@
         "listDate": "2026-06-24T19:19:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "9443297329",
@@ -4998,7 +4986,7 @@
         "listDate": "2026-06-06T19:09:30.000000Z",
         "lastSoldPrice": 155000,
         "lastSoldDate": "1984-06-20",
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "4026223447",
@@ -5083,7 +5071,7 @@
         "listDate": "2026-04-09T19:05:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 135
+        "daysOnMarket": 136
       },
       {
         "id": "3473910691",
@@ -5100,7 +5088,7 @@
         "listDate": "2026-04-07T18:59:44.000000Z",
         "lastSoldPrice": 1462500,
         "lastSoldDate": "2010-08-23",
-        "daysOnMarket": 137
+        "daysOnMarket": 138
       },
       {
         "id": "9736268664",
@@ -5347,7 +5335,7 @@
         "listDate": "2026-06-24T19:19:09.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2015-11-13",
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "3978603806",
@@ -5364,7 +5352,7 @@
         "listDate": "2026-06-05T19:14:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 78
+        "daysOnMarket": 79
       },
       {
         "id": "9018050777",
@@ -5531,7 +5519,7 @@
         "listDate": "2026-08-14T18:50:14.000000Z",
         "lastSoldPrice": 1249000,
         "lastSoldDate": "2024-11-26",
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "5727602706",
@@ -5548,7 +5536,7 @@
         "listDate": "2026-08-05T18:53:36.000000Z",
         "lastSoldPrice": 400000,
         "lastSoldDate": "1997-10-06",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "6954344523",
@@ -5577,7 +5565,7 @@
         "listDate": "2026-07-08T18:52:20.000000Z",
         "lastSoldPrice": 1280000,
         "lastSoldDate": "2009-05-27",
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "5263562115",
@@ -5590,19 +5578,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/4-Garden-Ct_Ho-Ho-Kus_NJ_07423_M52635-62115",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T13:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-06-29T22:46:13.000000Z",
         "lastSoldPrice": 925000,
         "lastSoldDate": "2025-09-05",
@@ -5693,7 +5669,7 @@
         "listDate": "2026-07-17T19:16:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "9358647555",
@@ -5710,7 +5686,7 @@
         "listDate": "2026-07-15T19:16:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "9400655924",
@@ -6145,19 +6121,7 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/16-N-Chatsworth-Ave-Apt-606_Larchmont_NY_10538_M45604-67598",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T13:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -6569,7 +6533,7 @@
         "listDate": "2026-04-21T19:12:24.000000Z",
         "lastSoldPrice": 2950000,
         "lastSoldDate": "2016-09-08",
-        "daysOnMarket": 123
+        "daysOnMarket": 124
       },
       {
         "id": "4408176613",
@@ -6843,7 +6807,7 @@
         "listDate": "2026-07-06T19:11:38.000000Z",
         "lastSoldPrice": 699000,
         "lastSoldDate": "2002-10-16",
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "3012486448",
@@ -6894,7 +6858,7 @@
         "listDate": "2026-06-22T19:20:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "3922257765",
@@ -6911,7 +6875,7 @@
         "listDate": "2026-06-20T19:09:49.000000Z",
         "lastSoldPrice": 930000,
         "lastSoldDate": "2026-02-09",
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "4078700191",
@@ -6996,7 +6960,7 @@
         "listDate": "2026-05-21T19:03:49.000000Z",
         "lastSoldPrice": 415000,
         "lastSoldDate": "2022-12-28",
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "4002843883",
@@ -7183,7 +7147,7 @@
         "listDate": "2023-06-21T19:12:03.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "1986-04-16",
-        "daysOnMarket": 1158
+        "daysOnMarket": 1159
       }
     ],
     "Mount Vernon": [
@@ -7457,7 +7421,7 @@
         "listDate": "2026-07-27T18:56:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "9474550047",
@@ -7470,23 +7434,11 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/19-William-St-Apt-2D_Mount-Vernon_NY_10552_M94745-50047",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T13:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-07-21T19:15:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "9000027734",
@@ -7996,7 +7948,7 @@
         "listDate": "2026-05-08T19:07:51.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2015-02-12",
-        "daysOnMarket": 106
+        "daysOnMarket": 107
       },
       {
         "id": "3869527862",
@@ -8030,7 +7982,7 @@
         "listDate": "2026-05-05T19:01:22.000000Z",
         "lastSoldPrice": 187500,
         "lastSoldDate": "2010-01-13",
-        "daysOnMarket": 109
+        "daysOnMarket": 110
       },
       {
         "id": "3192758596",
@@ -8095,7 +8047,7 @@
         "listDate": "2026-07-29T18:58:03.000000Z",
         "lastSoldPrice": 352500,
         "lastSoldDate": "2019-06-27",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4545417632",
@@ -8501,7 +8453,7 @@
         "listDate": "2026-07-23T19:10:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "9974744860",
@@ -8637,7 +8589,7 @@
         "listDate": "2026-06-29T19:18:38.000000Z",
         "lastSoldPrice": 240000,
         "lastSoldDate": "2019-06-03",
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "4377930669",
@@ -8870,7 +8822,7 @@
         "listDate": "2026-05-28T19:12:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 86
+        "daysOnMarket": 87
       },
       {
         "id": "4324379510",
@@ -9176,7 +9128,7 @@
         "listDate": "2026-03-06T19:00:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 169
+        "daysOnMarket": 170
       }
     ],
     "Tuckahoe": [
@@ -9450,7 +9402,7 @@
         "listDate": "2026-05-12T18:59:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 102
+        "daysOnMarket": 103
       },
       {
         "id": "4298703245",
@@ -9484,7 +9436,7 @@
         "listDate": "2026-04-29T19:03:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 115
+        "daysOnMarket": 116
       },
       {
         "id": "4892019939",
