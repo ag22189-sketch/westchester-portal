@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T21:27:09.950Z",
+  "updatedAt": "2026-08-23T22:28:08.392Z",
   "towns": {
     "Pelham": [
       {
@@ -204,7 +204,7 @@
         "listDate": "2026-06-30T21:33:20.000000Z",
         "lastSoldPrice": 1245000,
         "lastSoldDate": "2012-07-17",
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "9756095611",
@@ -716,7 +716,7 @@
         "listDate": "2026-07-25T22:03:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "9778624898",
@@ -1704,7 +1704,7 @@
         "listDate": "2026-07-15T22:04:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "9459419220",
@@ -1755,7 +1755,7 @@
         "listDate": "2026-07-14T21:33:31.000000Z",
         "lastSoldPrice": 1600000,
         "lastSoldDate": "2024-12-27",
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "4590697678",
@@ -1874,7 +1874,7 @@
         "listDate": "2026-07-02T21:47:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "4394864630",
@@ -1908,7 +1908,7 @@
         "listDate": "2026-07-01T22:05:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "3560990346",
@@ -2866,7 +2866,7 @@
         "listDate": "2026-04-06T22:03:23.000000Z",
         "lastSoldPrice": 394300,
         "lastSoldDate": "2014-05-01",
-        "daysOnMarket": 138
+        "daysOnMarket": 139
       },
       {
         "id": "9821773445",
@@ -2900,7 +2900,7 @@
         "listDate": "2026-03-01T22:17:56.000000Z",
         "lastSoldPrice": 251000,
         "lastSoldDate": "1981-08-01",
-        "daysOnMarket": 174
+        "daysOnMarket": 175
       },
       {
         "id": "9773606119",
@@ -3085,19 +3085,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/86-Maple-St_Dobbs-Ferry_NY_10522_M33626-68000",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T12:00:00",
-            "end_date": "2026-08-23T14:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-07-10T18:14:41.000000Z",
         "lastSoldPrice": 650000,
         "lastSoldDate": "2022-04-18",
@@ -3320,7 +3308,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1263-California-Rd-Apt-2_Eastchester_NY_10709_M98810-89725",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-23T11:00:00",
+            "end_date": "2026-08-23T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-14T04:52:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -3426,7 +3426,7 @@
         "listDate": "2026-07-23T22:03:21.000000Z",
         "lastSoldPrice": 730000,
         "lastSoldDate": "2017-09-08",
-        "daysOnMarket": 30
+        "daysOnMarket": 31
       },
       {
         "id": "4320354758",
@@ -4006,7 +4006,7 @@
         "listDate": "2026-07-29T22:18:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4715831361",
@@ -4448,7 +4448,7 @@
         "listDate": "2026-06-05T21:32:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 78
+        "daysOnMarket": 79
       },
       {
         "id": "4961976824",
@@ -4786,11 +4786,23 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/17-Broadway-Apt-2F_Harrison_NY_10528_M33069-80759",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-23T12:00:00",
+            "end_date": "2026-08-23T15:00:00",
+            "description": "Call 914-907-1043 upon arrival, there will be someone to escort you into the building for a tour. Thank you.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-25T22:03:36.000000Z",
         "lastSoldPrice": 324500,
         "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3588029676",
@@ -5128,19 +5140,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/43-Pinecrest-Pkwy_Hastings-on-Hudson_NY_10706_M43720-42373",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T13:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": 325000,
         "lastSoldDate": "1989-08-10",
@@ -5157,19 +5157,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/14-Glenn-Pl_Hastings-on-Hudson_NY_10706_M44039-42020",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T13:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-05T12:03:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -7410,7 +7398,7 @@
         "listDate": "2026-07-16T21:33:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4204006111",
@@ -7869,7 +7857,7 @@
         "listDate": "2026-05-05T22:03:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 109
+        "daysOnMarket": 110
       },
       {
         "id": "3319353603",
@@ -7906,246 +7894,7 @@
         "daysOnMarket": 110
       }
     ],
-    "Pleasantville": [
-      {
-        "id": "9714619032",
-        "town": "Pleasantville",
-        "address": "590 Bedford Rd Apt 22, Pleasantville",
-        "price": 389000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 750,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/590-Bedford-Rd-Apt-22_Pleasantville_NY_10570_M97146-19032",
-        "openHouses": [],
-        "listDate": "2026-08-18T18:33:05.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 5
-      },
-      {
-        "id": "4482498626",
-        "town": "Pleasantville",
-        "address": "590 Bedford Rd Apt 3, Pleasantville",
-        "price": 475000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 1200,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/590-Bedford-Rd-Apt-3_Pleasantville_NY_10570_M44824-98626",
-        "openHouses": [],
-        "listDate": "2026-07-29T18:58:03.000000Z",
-        "lastSoldPrice": 352500,
-        "lastSoldDate": "2019-06-27",
-        "daysOnMarket": 25
-      },
-      {
-        "id": "4545417632",
-        "town": "Pleasantville",
-        "address": "4 Depew St, Pleasantville",
-        "price": 999000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1891,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Depew-St_Pleasantville_NY_10570_M45454-17632",
-        "openHouses": [],
-        "listDate": "2026-07-20T18:14:06.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 34
-      },
-      {
-        "id": "3890180012",
-        "town": "Pleasantville",
-        "address": "16 Manville Ln Apt 2, Pleasantville",
-        "price": 649000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1035,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/16-Manville-Ln-Apt-2_Pleasantville_NY_10570_M38901-80012",
-        "openHouses": [],
-        "listDate": "2026-07-13T16:17:32.000000Z",
-        "lastSoldPrice": 425000,
-        "lastSoldDate": "2006-08-02",
-        "daysOnMarket": 41
-      },
-      {
-        "id": "4306189878",
-        "town": "Pleasantville",
-        "address": "18 Brookview Dr, Pleasantville",
-        "price": 1399000,
-        "beds": 3,
-        "baths": 4,
-        "sqft": 3434,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/18-Brookview-Dr_Pleasantville_NY_10570_M43061-89878",
-        "openHouses": [],
-        "listDate": "2026-07-09T16:49:40.000000Z",
-        "lastSoldPrice": 930000,
-        "lastSoldDate": "2020-12-07",
-        "daysOnMarket": 45
-      },
-      {
-        "id": "4521949534",
-        "town": "Pleasantville",
-        "address": "88 Ridgeview Dr, Pleasantville",
-        "price": 1100000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 2332,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/88-Ridgeview-Dr_Pleasantville_NY_10570_M45219-49534",
-        "openHouses": [],
-        "listDate": "2026-06-26T15:49:06.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 58
-      },
-      {
-        "id": "3043023490",
-        "town": "Pleasantville",
-        "address": "46 Bacon Hill Rd, Pleasantville",
-        "price": 1050000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2814,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/46-Bacon-Hill-Rd_Pleasantville_NY_10570_M30430-23490",
-        "openHouses": [],
-        "listDate": "2026-06-26T01:47:48.000000Z",
-        "lastSoldPrice": 577000,
-        "lastSoldDate": "2012-12-28",
-        "daysOnMarket": 58
-      },
-      {
-        "id": "3485254701",
-        "town": "Pleasantville",
-        "address": "15 Deerfield Ln S, Pleasantville",
-        "price": 1499000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 3013,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/15-Deerfield-Ln-S_Pleasantville_NY_10570_M34852-54701",
-        "openHouses": [],
-        "listDate": "2026-06-24T14:17:57.000000Z",
-        "lastSoldPrice": 760000,
-        "lastSoldDate": "2007-04-09",
-        "daysOnMarket": 60
-      },
-      {
-        "id": "3766368609",
-        "town": "Pleasantville",
-        "address": "8 Foxwood Dr Apt 8, Pleasantville",
-        "price": 425000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 762,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/8-Foxwood-Dr-Apt-8_Pleasantville_NY_10570_M37663-68609",
-        "openHouses": [],
-        "listDate": "2026-06-23T10:16:39.000000Z",
-        "lastSoldPrice": 125000,
-        "lastSoldDate": "1996-07-17",
-        "daysOnMarket": 61
-      },
-      {
-        "id": "3767002130",
-        "town": "Pleasantville",
-        "address": "20 Foxwood Dr Apt 1, Pleasantville",
-        "price": 597000,
-        "beds": 1,
-        "baths": 2,
-        "sqft": 1056,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/20-Foxwood-Dr-Apt-1_Pleasantville_NY_10570_M37670-02130",
-        "openHouses": [],
-        "listDate": "2026-06-22T20:18:54.000000Z",
-        "lastSoldPrice": 395000,
-        "lastSoldDate": "2005-03-25",
-        "daysOnMarket": 62
-      },
-      {
-        "id": "4198259636",
-        "town": "Pleasantville",
-        "address": "73 Broadway Unit 2J, Pleasantville",
-        "price": 269000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 900,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/73-Broadway-J2_Pleasantville_NY_10570_M41982-59636",
-        "openHouses": [],
-        "listDate": "2026-06-20T19:32:45.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 64
-      },
-      {
-        "id": "3046899148",
-        "town": "Pleasantville",
-        "address": "14 Briarwood Ln, Pleasantville",
-        "price": 1395000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2727,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/14-Briarwood-Ln_Pleasantville_NY_10570_M30468-99148",
-        "openHouses": [],
-        "listDate": "2026-06-19T14:04:31.000000Z",
-        "lastSoldPrice": 850000,
-        "lastSoldDate": "2019-06-21",
-        "daysOnMarket": 65
-      },
-      {
-        "id": "3485348706",
-        "town": "Pleasantville",
-        "address": "61 Ridgewood Dr, Pleasantville",
-        "price": 745000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1282,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/61-Ridgewood-Dr_Pleasantville_NY_10570_M34853-48706",
-        "openHouses": [],
-        "listDate": "2026-06-15T15:32:58.000000Z",
-        "lastSoldPrice": 579000,
-        "lastSoldDate": "2021-10-04",
-        "daysOnMarket": 69
-      },
-      {
-        "id": "3394458232",
-        "town": "Pleasantville",
-        "address": "310 Manville Rd Apt S4, Pleasantville",
-        "price": 199000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 750,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/310-Manville-Rd-Apt-S4_Pleasantville_NY_10570_M33944-58232",
-        "openHouses": [],
-        "listDate": "2026-04-17T22:47:09.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 127
-      }
-    ],
+    "Pleasantville": [],
     "Ridgewood": [],
     "Tarrytown": [
       {
@@ -8227,7 +7976,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/127-W-Main-St-Unit-200_Tarrytown_NY_10591_M31865-69821",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-23T13:00:00",
+            "end_date": "2026-08-23T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-18T00:17:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -8537,7 +8298,7 @@
         "listDate": "2026-06-16T21:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "9076643834",
@@ -8567,7 +8328,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/340-Horseman-Blvd_Sleepy-Hollow_NY_10591_M90442-04210",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-23T13:00:00",
+            "end_date": "2026-08-23T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-06-11T19:49:32.000000Z",
         "lastSoldPrice": 1522803,
         "lastSoldDate": "2021-01-27",
@@ -8792,7 +8565,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 106
+        "daysOnMarket": 107
       },
       {
         "id": "9021063983",
@@ -8979,7 +8752,7 @@
         "listDate": "2026-03-24T22:10:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 151
+        "daysOnMarket": 152
       },
       {
         "id": "9612537575",
