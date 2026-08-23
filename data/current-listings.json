@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T22:28:08.392Z",
+  "updatedAt": "2026-08-23T23:26:40.748Z",
   "towns": {
     "Pelham": [
       {
@@ -1090,7 +1090,7 @@
         "listDate": "2026-06-29T23:17:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "9561612620",
@@ -1175,7 +1175,7 @@
         "listDate": "2026-06-24T23:18:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "3360549496",
@@ -1857,7 +1857,7 @@
         "listDate": "2026-07-07T22:32:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "9447816726",
@@ -3055,7 +3055,7 @@
         "listDate": "2026-07-20T23:03:18.000000Z",
         "lastSoldPrice": 564000,
         "lastSoldDate": "2004-11-16",
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "4735098833",
@@ -3242,7 +3242,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 166
+        "daysOnMarket": 167
       },
       {
         "id": "4721086839",
@@ -3308,19 +3308,7 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1263-California-Rd-Apt-2_Eastchester_NY_10709_M98810-89725",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T11:00:00",
-            "end_date": "2026-08-23T13:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-14T04:52:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -3443,7 +3431,7 @@
         "listDate": "2026-07-21T22:32:10.000000Z",
         "lastSoldPrice": 490000,
         "lastSoldDate": "2016-02-11",
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "3847393144",
@@ -3560,23 +3548,6 @@
         "link": "https://www.realtor.com/realestateandhomes-detail/61-Manchester-Rd-A21_Eastchester_NY_10709_M99183-07031",
         "openHouses": [],
         "listDate": "2026-07-08T19:16:16.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 46
-      },
-      {
-        "id": "9054721467",
-        "town": "Eastchester",
-        "address": "1183 California Rd Unit B1, Eastchester",
-        "price": 525000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 950,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1183-California-Rd-B1_Eastchester_NY_10709_M90547-21467",
-        "openHouses": [],
-        "listDate": "2026-07-08T18:18:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 46
@@ -4176,7 +4147,7 @@
         "listDate": "2026-07-16T23:03:03.000000Z",
         "lastSoldPrice": 744000,
         "lastSoldDate": "2017-06-27",
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "4297164975",
@@ -4550,7 +4521,7 @@
         "listDate": "2026-05-26T23:02:38.000000Z",
         "lastSoldPrice": 520000,
         "lastSoldDate": "2025-05-06",
-        "daysOnMarket": 88
+        "daysOnMarket": 89
       },
       {
         "id": "3669290249",
@@ -4638,496 +4609,7 @@
         "daysOnMarket": 109
       }
     ],
-    "Harrison": [
-      {
-        "id": "4950589406",
-        "town": "Harrison",
-        "address": "23 Webster Ave, Harrison",
-        "price": 1250000,
-        "beds": 6,
-        "baths": 4,
-        "sqft": null,
-        "type": "multi family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/23-Webster-Ave_Harrison_NY_10528_M49505-89406",
-        "openHouses": [],
-        "listDate": "2026-08-14T20:34:16.000000Z",
-        "lastSoldPrice": 760000,
-        "lastSoldDate": "2020-01-14",
-        "daysOnMarket": 9
-      },
-      {
-        "id": "4490082782",
-        "town": "Harrison",
-        "address": "444 West St, Harrison",
-        "price": 1749000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 3562,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/444-West-St_Harrison_NY_10528_M44900-82782",
-        "openHouses": [],
-        "listDate": "2026-08-13T19:49:19.000000Z",
-        "lastSoldPrice": 965000,
-        "lastSoldDate": "2002-09-26",
-        "daysOnMarket": 10
-      },
-      {
-        "id": "9262514257",
-        "town": "Harrison",
-        "address": "10 Beaver Lndg, Harrison",
-        "price": 1899999,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2619,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/10-Beaver-Lndg_Harrison_NY_10528_M92625-14257",
-        "openHouses": [],
-        "listDate": "2026-08-12T15:32:47.000000Z",
-        "lastSoldPrice": 595000,
-        "lastSoldDate": "2023-09-28",
-        "daysOnMarket": 11
-      },
-      {
-        "id": "4909798943",
-        "town": "Harrison",
-        "address": "25 Fremont St, Harrison",
-        "price": 1599000,
-        "beds": 9,
-        "baths": 4,
-        "sqft": null,
-        "type": "multi family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/25-Fremont-St_Harrison_NY_10528_M49097-98943",
-        "openHouses": [],
-        "listDate": "2026-08-11T15:17:55.000000Z",
-        "lastSoldPrice": 135000,
-        "lastSoldDate": "1993-12-20",
-        "daysOnMarket": 12
-      },
-      {
-        "id": "4946170503",
-        "town": "Harrison",
-        "address": "63 Thatcher Ave, Harrison",
-        "price": 929000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1998,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/63-Thatcher-Ave_Harrison_NY_10528_M49461-70503",
-        "openHouses": [],
-        "listDate": "2026-08-10T13:32:40.000000Z",
-        "lastSoldPrice": 225500,
-        "lastSoldDate": "1994-06-14",
-        "daysOnMarket": 13
-      },
-      {
-        "id": "9608670446",
-        "town": "Harrison",
-        "address": "50 West St Apt C2A, Harrison",
-        "price": 399000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1200,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/50-West-St-Apt-C2A_Harrison_NY_10528_M96086-70446",
-        "openHouses": [],
-        "listDate": "2026-08-07T15:33:09.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 16
-      },
-      {
-        "id": "3364443467",
-        "town": "Harrison",
-        "address": "8 Palma Dr, Harrison",
-        "price": 1749000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 3388,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/8-Palma-Dr_Harrison_NY_10528_M33644-43467",
-        "openHouses": [],
-        "listDate": "2026-07-31T00:03:29.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 23
-      },
-      {
-        "id": "3638748624",
-        "town": "Harrison",
-        "address": "283 Harrison Ave, Harrison",
-        "price": 1900000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 4200,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/283-Harrison-Ave_Harrison_NY_10528_M36387-48624",
-        "openHouses": [],
-        "listDate": "2026-07-27T13:48:08.000000Z",
-        "lastSoldPrice": 480000,
-        "lastSoldDate": "2009-12-14",
-        "daysOnMarket": 27
-      },
-      {
-        "id": "3306980759",
-        "town": "Harrison",
-        "address": "17 Broadway Apt 2F, Harrison",
-        "price": 459000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 993,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/17-Broadway-Apt-2F_Harrison_NY_10528_M33069-80759",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T12:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": "Call 914-907-1043 upon arrival, there will be someone to escort you into the building for a tour. Thank you.",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-07-25T22:03:36.000000Z",
-        "lastSoldPrice": 324500,
-        "lastSoldDate": "2015-08-25",
-        "daysOnMarket": 29
-      },
-      {
-        "id": "3588029676",
-        "town": "Harrison",
-        "address": "560 Halstead Ave Apt 2R, Harrison",
-        "price": 385000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 740,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/560-Halstead-Ave-Apt-2R_Harrison_NY_10528_M35880-29676",
-        "openHouses": [],
-        "listDate": "2026-07-20T15:04:49.000000Z",
-        "lastSoldPrice": 250000,
-        "lastSoldDate": "2020-06-12",
-        "daysOnMarket": 34
-      },
-      {
-        "id": "3393920828",
-        "town": "Harrison",
-        "address": "21 Braxmar Dr S, Harrison",
-        "price": 1295000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2220,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/21-Braxmar-Dr-S_Harrison_NY_10528_M33939-20828",
-        "openHouses": [],
-        "listDate": "2026-07-15T23:04:29.000000Z",
-        "lastSoldPrice": 1103000,
-        "lastSoldDate": "2026-02-04",
-        "daysOnMarket": 38
-      },
-      {
-        "id": "4490958242",
-        "town": "Harrison",
-        "address": "38 Fenimore Dr, Harrison",
-        "price": 1649000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 3000,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/38-Fenimore-Dr_Harrison_NY_10528_M44909-58242",
-        "openHouses": [],
-        "listDate": "2026-07-15T11:32:10.000000Z",
-        "lastSoldPrice": 425000,
-        "lastSoldDate": "1996-10-31",
-        "daysOnMarket": 39
-      },
-      {
-        "id": "3509499083",
-        "town": "Harrison",
-        "address": "480 Halstead Ave Apt 5M, Harrison",
-        "price": 305000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 800,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/480-Halstead-Ave-Apt-5M_Harrison_NY_10528_M35094-99083",
-        "openHouses": [],
-        "listDate": "2026-07-14T20:19:32.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 40
-      },
-      {
-        "id": "3970399065",
-        "town": "Harrison",
-        "address": "48 Bellain Ave, Harrison",
-        "price": 1075000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1686,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/48-Bellain-Ave_Harrison_NY_10528_M39703-99065",
-        "openHouses": [],
-        "listDate": "2026-07-03T02:20:16.000000Z",
-        "lastSoldPrice": 120400,
-        "lastSoldDate": "1981-08-12",
-        "daysOnMarket": 51
-      },
-      {
-        "id": "4717591361",
-        "town": "Harrison",
-        "address": "383 Woodlands Rd, Harrison",
-        "price": 7495000,
-        "beds": 6,
-        "baths": 8,
-        "sqft": 11118,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/383-Woodlands-Rd_Harrison_NY_10528_M47175-91361",
-        "openHouses": [],
-        "listDate": "2026-06-17T19:27:21.000000Z",
-        "lastSoldPrice": 3000000,
-        "lastSoldDate": "2004-12-20",
-        "daysOnMarket": 67
-      },
-      {
-        "id": "4702498654",
-        "town": "Harrison",
-        "address": "18 Fenimore Dr, Harrison",
-        "price": 1995000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 4198,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/18-Fenimore-Dr_Harrison_NY_10528_M47024-98654",
-        "openHouses": [],
-        "listDate": "2026-06-15T13:17:38.000000Z",
-        "lastSoldPrice": 646000,
-        "lastSoldDate": "2000-03-03",
-        "daysOnMarket": 69
-      },
-      {
-        "id": "3084183464",
-        "town": "Harrison",
-        "address": "107 Sterling Ave, Harrison",
-        "price": 1299999,
-        "beds": 5,
-        "baths": 3,
-        "sqft": null,
-        "type": "multi family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/107-Sterling-Ave_Harrison_NY_10528_M30841-83464",
-        "openHouses": [],
-        "listDate": "2026-06-06T19:09:30.000000Z",
-        "lastSoldPrice": 155000,
-        "lastSoldDate": "1984-06-20",
-        "daysOnMarket": 78
-      },
-      {
-        "id": "4026223447",
-        "town": "Harrison",
-        "address": "357 West St, Harrison",
-        "price": 1995000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": 4200,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/357-West-St_Harrison_NY_10528_M40262-23447",
-        "openHouses": [],
-        "listDate": "2026-05-14T15:19:58.000000Z",
-        "lastSoldPrice": 365000,
-        "lastSoldDate": "1996-12-17",
-        "daysOnMarket": 101
-      },
-      {
-        "id": "4494163113",
-        "town": "Harrison",
-        "address": "34 Glenwood Rd, Harrison",
-        "price": 1424900,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 3389,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/34-Glenwood-Rd_Harrison_NY_10528_M44941-63113",
-        "openHouses": [],
-        "listDate": "2026-05-08T17:32:38.000000Z",
-        "lastSoldPrice": 1300000,
-        "lastSoldDate": "2007-02-15",
-        "daysOnMarket": 107
-      },
-      {
-        "id": "4200841657",
-        "town": "Harrison",
-        "address": "240 Halstead Ave Apt B6, Harrison",
-        "price": 265000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 640,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/240-Halstead-Ave-Apt-B6_Harrison_NY_10528_M42008-41657",
-        "openHouses": [],
-        "listDate": "2026-04-27T14:46:50.000000Z",
-        "lastSoldPrice": 235000,
-        "lastSoldDate": "2024-06-28",
-        "daysOnMarket": 118
-      },
-      {
-        "id": "3223391875",
-        "town": "Harrison",
-        "address": "80 Highfield Rd, Harrison",
-        "price": 1875000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2102,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Highfield-Rd_Harrison_NY_10528_M32233-91875",
-        "openHouses": [],
-        "listDate": "2026-04-17T15:02:43.000000Z",
-        "lastSoldPrice": 1350000,
-        "lastSoldDate": "2022-02-11",
-        "daysOnMarket": 128
-      },
-      {
-        "id": "9000575077",
-        "town": "Harrison",
-        "address": "480 Halstead Ave Apt 2J, Harrison",
-        "price": 285000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 800,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/480-Halstead-Ave-Apt-2J_Harrison_NY_10528_M90005-75077",
-        "openHouses": [],
-        "listDate": "2026-04-09T19:05:21.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 136
-      },
-      {
-        "id": "3473910691",
-        "town": "Harrison",
-        "address": "18 Tamarac Trl, Harrison",
-        "price": 2695000,
-        "beds": 5,
-        "baths": 5,
-        "sqft": 4718,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/18-Tamarac-Trl_Harrison_NY_10528_M34739-10691",
-        "openHouses": [],
-        "listDate": "2026-04-07T18:59:44.000000Z",
-        "lastSoldPrice": 1462500,
-        "lastSoldDate": "2010-08-23",
-        "daysOnMarket": 138
-      },
-      {
-        "id": "9736268664",
-        "town": "Harrison",
-        "address": "480 Halstead Ave Apt 4V, Harrison",
-        "price": 245000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 750,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/480-Halstead-Ave-Apt-4V_Harrison_NY_10528_M97362-68664",
-        "openHouses": [],
-        "listDate": "2026-04-06T18:17:42.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 139
-      },
-      {
-        "id": "3764777270",
-        "town": "Harrison",
-        "address": "50 West St Apt A1G, Harrison",
-        "price": 299000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 770,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/50-West-St-Apt-A1G_Harrison_NY_10528_M37647-77270",
-        "openHouses": [],
-        "listDate": "2026-03-11T16:34:54.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 165
-      },
-      {
-        "id": "3367163881",
-        "town": "Harrison",
-        "address": "417 West St, Harrison",
-        "price": 4995000,
-        "beds": 7,
-        "baths": 9,
-        "sqft": 8924,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/417-West-St_Harrison_NY_10528_M33671-63881",
-        "openHouses": [],
-        "listDate": "2026-01-22T21:17:23.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 213
-      },
-      {
-        "id": "4194963634",
-        "town": "Harrison",
-        "address": "6 Love Ln, Harrison",
-        "price": 2200000,
-        "beds": 5,
-        "baths": 6,
-        "sqft": 6704,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/6-Love-Ln_Harrison_NY_10528_M41949-63634",
-        "openHouses": [],
-        "listDate": "2025-09-04T01:03:56.000000Z",
-        "lastSoldPrice": 900000,
-        "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 353
-      },
-      {
-        "id": "3498190935",
-        "town": "Harrison",
-        "address": "15 Archer Rd, Harrison",
-        "price": 3150000,
-        "beds": 5,
-        "baths": 7,
-        "sqft": 7120,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/15-Archer-Rd_Harrison_NY_10528_M34981-90935",
-        "openHouses": [],
-        "listDate": "2025-04-07T15:47:07.000000Z",
-        "lastSoldPrice": 1900000,
-        "lastSoldDate": "2012-07-23",
-        "daysOnMarket": 503
-      }
-    ],
+    "Harrison": [],
     "Hastings-on-Hudson": [
       {
         "id": "4372042373",
@@ -5229,7 +4711,7 @@
         "listDate": "2026-07-06T22:48:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4431257955",
@@ -5384,7 +4866,7 @@
         "listDate": "2026-08-22T22:33:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "5379198335",
@@ -5486,7 +4968,7 @@
         "listDate": "2026-06-29T22:46:13.000000Z",
         "lastSoldPrice": 925000,
         "lastSoldDate": "2025-09-05",
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "5208018191",
@@ -6255,7 +5737,7 @@
         "listDate": "2026-06-10T22:33:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3938541759",
@@ -6614,7 +6096,7 @@
         "listDate": "2026-07-17T22:33:19.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2022-08-16",
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "3327992422",
@@ -6733,7 +6215,7 @@
         "listDate": "2026-06-25T22:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "3626093427",
@@ -6988,7 +6470,7 @@
         "listDate": "2026-01-16T23:01:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 218
+        "daysOnMarket": 219
       },
       {
         "id": "9199642451",
@@ -7976,19 +7458,7 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/127-W-Main-St-Unit-200_Tarrytown_NY_10591_M31865-69821",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T13:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-08-18T00:17:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -8247,7 +7717,7 @@
         "listDate": "2026-06-25T23:03:44.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2017-08-04",
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "4106825309",
@@ -8328,19 +7798,7 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/340-Horseman-Blvd_Sleepy-Hollow_NY_10591_M90442-04210",
-        "openHouses": [
-          {
-            "start_date": "2026-08-23T13:00:00",
-            "end_date": "2026-08-23T15:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-06-11T19:49:32.000000Z",
         "lastSoldPrice": 1522803,
         "lastSoldDate": "2021-01-27",
@@ -9026,7 +8484,7 @@
         "listDate": "2026-05-16T23:02:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 98
+        "daysOnMarket": 99
       },
       {
         "id": "3594803854",
