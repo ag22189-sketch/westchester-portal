@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T04:52:32.740Z",
+  "updatedAt": "2026-08-24T05:43:16.173Z",
   "towns": {
     "Pelham": [
       {
@@ -17,7 +17,7 @@
         "listDate": "2026-08-23T04:52:40.000000Z",
         "lastSoldPrice": 590000,
         "lastSoldDate": "2004-07-07",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "3199149416",
@@ -34,7 +34,7 @@
         "listDate": "2026-08-19T04:52:25.000000Z",
         "lastSoldPrice": 135000,
         "lastSoldDate": "2000-06-09",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "9380561738",
@@ -344,6 +344,23 @@
       }
     ],
     "Bronxville": [
+      {
+        "id": "4615773926",
+        "town": "Bronxville",
+        "address": "26 Pondfield Rd Unit 3C, Bronxville",
+        "price": 319000,
+        "beds": 1,
+        "baths": 2,
+        "sqft": 900,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/26-Pondfield-Rd-C3_Bronxville_NY_10708_M46157-73926",
+        "openHouses": [],
+        "listDate": "2026-08-24T04:52:48.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "4959234125",
         "town": "Bronxville",
@@ -971,7 +988,7 @@
         "listDate": "2026-07-10T05:41:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "3874166509",
@@ -1039,7 +1056,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "4084597074",
@@ -1176,23 +1193,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 60
-      },
-      {
-        "id": "3360549496",
-        "town": "Bronxville",
-        "address": "1101 Midland Ave Apt 411, Bronxville",
-        "price": 239000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 875,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1101-Midland-Ave-Apt-411_Bronxville_NY_10708_M33605-49496",
-        "openHouses": [],
-        "listDate": "2026-06-17T17:34:49.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 67
       }
     ],
     "Scarsdale": [
@@ -2781,7 +2781,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 102
+        "daysOnMarket": 103
       },
       {
         "id": "3216529347",
@@ -2953,7 +2953,7 @@
         "listDate": "2026-08-15T04:52:26.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "4481988552",
@@ -3312,7 +3312,7 @@
         "listDate": "2026-08-14T04:52:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "3829446002",
@@ -3773,7 +3773,7 @@
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2013-05-23",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "9377054992",
@@ -3858,7 +3858,7 @@
         "listDate": "2026-08-14T04:52:28.000000Z",
         "lastSoldPrice": 224000,
         "lastSoldDate": "2012-08-13",
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "9386538159",
@@ -3943,7 +3943,7 @@
         "listDate": "2026-08-08T04:54:43.000000Z",
         "lastSoldPrice": 640000,
         "lastSoldDate": "2022-08-08",
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3586385418",
@@ -4065,23 +4065,6 @@
         "daysOnMarket": 31
       },
       {
-        "id": "3368191583",
-        "town": "Hartsdale",
-        "address": "80 Jane St, Hartsdale",
-        "price": 785000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 605000,
-        "lastSoldDate": "2020-01-07",
-        "daysOnMarket": 32
-      },
-      {
         "id": "4835129366",
         "town": "Hartsdale",
         "address": "29 S Washington Ave, Hartsdale",
@@ -4096,6 +4079,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 408000,
         "lastSoldDate": "2014-08-15",
+        "daysOnMarket": 32
+      },
+      {
+        "id": "3368191583",
+        "town": "Hartsdale",
+        "address": "80 Jane St, Hartsdale",
+        "price": 785000,
+        "beds": 4,
+        "baths": 2,
+        "sqft": 1638,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/80-Jane-St_Hartsdale_NY_10530_M33681-91583",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 605000,
+        "lastSoldDate": "2020-01-07",
         "daysOnMarket": 32
       },
       {
@@ -5120,7 +5120,7 @@
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": 325000,
         "lastSoldDate": "1989-08-10",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4403942020",
@@ -5515,7 +5515,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "4592183241",
@@ -5685,7 +5685,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "4556540553",
@@ -5805,23 +5805,6 @@
         "lastSoldPrice": 1650000,
         "lastSoldDate": "2023-07-17",
         "daysOnMarket": 109
-      },
-      {
-        "id": "3476397359",
-        "town": "Irvington",
-        "address": "41 Osceola Ave, Irvington",
-        "price": 699000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 1638,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Osceola-Ave_Irvington_NY_10533_M34763-97359",
-        "openHouses": [],
-        "listDate": "2026-05-04T17:34:05.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 111
       },
       {
         "id": "9637555746",
@@ -5993,7 +5976,7 @@
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4740439753",
@@ -6044,7 +6027,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "3345358353",
@@ -6421,23 +6404,6 @@
         "daysOnMarket": 152
       },
       {
-        "id": "9743358871",
-        "town": "Larchmont",
-        "address": "23 Edgewood Ave, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 184
-      },
-      {
         "id": "9369243885",
         "town": "Larchmont",
         "address": "64 Myrtle Blvd, Larchmont",
@@ -6448,6 +6414,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 184
+      },
+      {
+        "id": "9743358871",
+        "town": "Larchmont",
+        "address": "23 Edgewood Ave, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -8144,7 +8127,7 @@
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": 670000,
         "lastSoldDate": "2025-09-18",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "3524204456",
