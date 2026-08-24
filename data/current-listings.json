@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T08:55:40.835Z",
+  "updatedAt": "2026-08-24T09:54:48.034Z",
   "towns": {
     "Pelham": [
       {
@@ -1330,7 +1330,7 @@
         "listDate": "2026-08-13T09:47:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "9363066962",
@@ -2490,7 +2490,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 94
+        "daysOnMarket": 95
       },
       {
         "id": "3170759769",
@@ -7013,7 +7013,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/465-E-Lincoln-Ave-Apt-321_Mount-Vernon_NY_10552_M90740-53254",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-26T17:30:00",
+            "end_date": "2026-08-26T19:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-23T14:02:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -8229,7 +8241,7 @@
         "listDate": "2026-08-10T09:21:34.000000Z",
         "lastSoldPrice": 279000,
         "lastSoldDate": "2000-05-12",
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "4858788836",
