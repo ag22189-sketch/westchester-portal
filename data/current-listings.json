@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T12:58:11.640Z",
+  "updatedAt": "2026-08-25T13:56:39.817Z",
   "towns": {
     "Pelham": [
       {
@@ -376,7 +376,7 @@
         "listDate": "2026-08-21T13:33:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3838278030",
@@ -1602,7 +1602,7 @@
         "listDate": "2026-07-23T13:34:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "4212478627",
@@ -1920,7 +1920,7 @@
         "listDate": "2026-06-26T13:47:58.000000Z",
         "lastSoldPrice": 385000,
         "lastSoldDate": "1999-04-26",
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "4788200172",
@@ -2160,7 +2160,7 @@
         "listDate": "2026-06-12T13:34:46.000000Z",
         "lastSoldPrice": 550000,
         "lastSoldDate": "2003-02-11",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "4349135468",
@@ -2177,7 +2177,7 @@
         "listDate": "2026-06-03T13:18:16.000000Z",
         "lastSoldPrice": 372000,
         "lastSoldDate": "1997-08-18",
-        "daysOnMarket": 82
+        "daysOnMarket": 83
       },
       {
         "id": "4421766790",
@@ -2451,7 +2451,7 @@
         "listDate": "2026-06-05T13:18:35.000000Z",
         "lastSoldPrice": 421000,
         "lastSoldDate": "2025-08-11",
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "3325786090",
@@ -2519,7 +2519,7 @@
         "listDate": "2026-04-29T13:17:25.000000Z",
         "lastSoldPrice": 1850000,
         "lastSoldDate": "1995-05-09",
-        "daysOnMarket": 117
+        "daysOnMarket": 118
       },
       {
         "id": "3637434869",
@@ -2657,7 +2657,7 @@
         "listDate": "2026-06-26T13:17:40.000000Z",
         "lastSoldPrice": 465000,
         "lastSoldDate": "2006-09-20",
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "3136837611",
@@ -3703,6 +3703,23 @@
     ],
     "Hartsdale": [
       {
+        "id": "3674086640",
+        "town": "Hartsdale",
+        "address": "68 E Hartsdale Ave Apt 4J, Hartsdale",
+        "price": 259500,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 850,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/68-E-Hartsdale-Ave-Apt-4J_Hartsdale_NY_10530_M36740-86640",
+        "openHouses": [],
+        "listDate": "2026-08-25T13:03:39.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "9097686321",
         "town": "Hartsdale",
         "address": "100 Pinewood Rd Apt 1C, Hartsdale",
@@ -4009,23 +4026,6 @@
         "daysOnMarket": 32
       },
       {
-        "id": "4835129366",
-        "town": "Hartsdale",
-        "address": "29 S Washington Ave, Hartsdale",
-        "price": 625000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1269,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
-        "openHouses": [],
-        "listDate": "2026-07-22T19:40:05.000000Z",
-        "lastSoldPrice": 408000,
-        "lastSoldDate": "2014-08-15",
-        "daysOnMarket": 33
-      },
-      {
         "id": "3368191583",
         "town": "Hartsdale",
         "address": "80 Jane St, Hartsdale",
@@ -4040,6 +4040,23 @@
         "listDate": "2026-07-22T19:40:05.000000Z",
         "lastSoldPrice": 605000,
         "lastSoldDate": "2020-01-07",
+        "daysOnMarket": 33
+      },
+      {
+        "id": "4835129366",
+        "town": "Hartsdale",
+        "address": "29 S Washington Ave, Hartsdale",
+        "price": 625000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1269,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/29-S-Washington-Ave_Hartsdale_NY_10530_M48351-29366",
+        "openHouses": [],
+        "listDate": "2026-07-22T19:40:05.000000Z",
+        "lastSoldPrice": 408000,
+        "lastSoldDate": "2014-08-15",
         "daysOnMarket": 33
       },
       {
@@ -4176,7 +4193,7 @@
         "listDate": "2026-07-02T13:03:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "9931725115",
@@ -4534,23 +4551,6 @@
         "lastSoldPrice": 347000,
         "lastSoldDate": "1999-09-24",
         "daysOnMarket": 109
-      },
-      {
-        "id": "4246406288",
-        "town": "Hartsdale",
-        "address": "66 Caterson Ter, Hartsdale",
-        "price": 1220000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2456,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/66-Caterson-Ter_Hartsdale_NY_10530_M42464-06288",
-        "openHouses": [],
-        "listDate": "2026-05-06T15:47:42.000000Z",
-        "lastSoldPrice": 850000,
-        "lastSoldDate": "2009-10-16",
-        "daysOnMarket": 110
       }
     ],
     "Harrison": [
@@ -4637,7 +4637,7 @@
         "listDate": "2026-08-10T13:32:40.000000Z",
         "lastSoldPrice": 225500,
         "lastSoldDate": "1994-06-14",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "9608670446",
@@ -4688,7 +4688,7 @@
         "listDate": "2026-07-27T13:48:08.000000Z",
         "lastSoldPrice": 480000,
         "lastSoldDate": "2009-12-14",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3306980759",
@@ -4824,7 +4824,7 @@
         "listDate": "2026-06-15T13:17:38.000000Z",
         "lastSoldPrice": 646000,
         "lastSoldDate": "2000-03-03",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "3084183464",
@@ -5502,23 +5502,6 @@
         "daysOnMarket": 40
       },
       {
-        "id": "9400655924",
-        "town": "Irvington",
-        "address": "140 N Broadway Apt A1, Irvington",
-        "price": 450000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1100,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/140-N-Broadway-Apt-A1_Irvington_NY_10533_M94006-55924",
-        "openHouses": [],
-        "listDate": "2026-07-15T14:34:49.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 40
-      },
-      {
         "id": "9948084227",
         "town": "Irvington",
         "address": "22-24 S Eckar, Irvington",
@@ -5856,7 +5839,7 @@
         "listDate": "2026-03-16T13:17:17.000000Z",
         "lastSoldPrice": 2800000,
         "lastSoldDate": "2017-12-22",
-        "daysOnMarket": 161
+        "daysOnMarket": 162
       },
       {
         "id": "4283285844",
@@ -6278,7 +6261,7 @@
         "listDate": "2026-04-27T13:31:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 119
+        "daysOnMarket": 120
       },
       {
         "id": "3189888570",
@@ -6790,7 +6773,7 @@
         "listDate": "2026-05-05T13:47:26.000000Z",
         "lastSoldPrice": 1075000,
         "lastSoldDate": "2025-03-07",
-        "daysOnMarket": 111
+        "daysOnMarket": 112
       },
       {
         "id": "3528839987",
@@ -6870,7 +6853,7 @@
         "listDate": "2026-03-16T13:17:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 161
+        "daysOnMarket": 162
       },
       {
         "id": "9595203244",
@@ -8538,7 +8521,7 @@
         "listDate": "2026-06-08T13:02:28.000000Z",
         "lastSoldPrice": 1784989,
         "lastSoldDate": "2022-10-03",
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "3575252532",
