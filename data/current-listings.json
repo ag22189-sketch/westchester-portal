@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T23:30:04.143Z",
+  "updatedAt": "2026-08-26T01:44:16.363Z",
   "towns": {
     "Pelham": [
       {
@@ -51,7 +51,7 @@
         "listDate": "2026-08-04T23:47:58.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "3884305291",
@@ -204,7 +204,7 @@
         "listDate": "2026-06-16T01:17:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "9743886012",
@@ -495,7 +495,7 @@
         "listDate": "2026-08-11T00:03:27.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "9178283230",
@@ -971,7 +971,7 @@
         "listDate": "2026-07-09T23:48:11.000000Z",
         "lastSoldPrice": 255000,
         "lastSoldDate": "1989-08-23",
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "3856783430",
@@ -1211,7 +1211,7 @@
         "listDate": "2026-08-17T00:32:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "3121876298",
@@ -1228,7 +1228,7 @@
         "listDate": "2026-08-16T01:33:15.000000Z",
         "lastSoldPrice": 775000,
         "lastSoldDate": "2022-06-23",
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4079423469",
@@ -1279,7 +1279,7 @@
         "listDate": "2026-08-14T01:03:49.000000Z",
         "lastSoldPrice": 770000,
         "lastSoldDate": "2018-04-02",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3292025438",
@@ -1330,7 +1330,7 @@
         "listDate": "2026-08-12T00:04:57.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 13
+        "daysOnMarket": 14
       },
       {
         "id": "3652641420",
@@ -1432,7 +1432,7 @@
         "listDate": "2026-08-03T23:33:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "9024057225",
@@ -1534,7 +1534,7 @@
         "listDate": "2026-07-31T00:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3553544462",
@@ -1937,7 +1937,7 @@
         "listDate": "2026-06-23T23:47:42.000000Z",
         "lastSoldPrice": 144000,
         "lastSoldDate": "2017-01-13",
-        "daysOnMarket": 62
+        "daysOnMarket": 63
       },
       {
         "id": "9222409547",
@@ -2092,7 +2092,7 @@
         "listDate": "2026-07-23T23:33:08.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2022-03-15",
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "3965465439",
@@ -2553,7 +2553,7 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 342
+        "daysOnMarket": 343
       }
     ],
     "Chappaqua": [
@@ -2793,7 +2793,7 @@
         "listDate": "2026-04-14T00:47:01.000000Z",
         "lastSoldPrice": 1440995,
         "lastSoldDate": "2024-08-29",
-        "daysOnMarket": 133
+        "daysOnMarket": 134
       },
       {
         "id": "3362546053",
@@ -3679,7 +3679,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/100-Pinewood-Rd-Apt-1C_Hartsdale_NY_10530_M90976-86321",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-29T12:00:00",
+            "end_date": "2026-08-29T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-25T01:48:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -4040,7 +4052,7 @@
         "listDate": "2026-07-17T01:33:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "4627015525",
@@ -4109,23 +4121,6 @@
         "lastSoldPrice": 1056000,
         "lastSoldDate": "2016-08-18",
         "daysOnMarket": 48
-      },
-      {
-        "id": "3562320668",
-        "town": "Hartsdale",
-        "address": "120 Hartsdale Ave E Unit 7F, Hartsdale",
-        "price": 450000,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1250,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/120-E-Hartsdale-Ave-Apt-7F_Hartsdale_NY_10530_M35623-20668",
-        "openHouses": [],
-        "listDate": "2026-07-07T18:16:06.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 49
       },
       {
         "id": "9181394066",
@@ -4315,23 +4310,6 @@
         "daysOnMarket": 77
       },
       {
-        "id": "9730429085",
-        "town": "Hartsdale",
-        "address": "74 Pinewood Rd Apt 1F, Hartsdale",
-        "price": 235000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 958,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/74-Pinewood-Rd-Apt-1F_Hartsdale_NY_10530_M97304-29085",
-        "openHouses": [],
-        "listDate": "2026-06-05T21:32:46.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 81
-      },
-      {
         "id": "4961976824",
         "town": "Hartsdale",
         "address": "21 Fieldstone Dr Apt 198, Hartsdale",
@@ -4500,6 +4478,40 @@
         "lastSoldPrice": 347000,
         "lastSoldDate": "1999-09-24",
         "daysOnMarket": 110
+      },
+      {
+        "id": "4246406288",
+        "town": "Hartsdale",
+        "address": "66 Caterson Ter, Hartsdale",
+        "price": 1220000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2456,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/66-Caterson-Ter_Hartsdale_NY_10530_M42464-06288",
+        "openHouses": [],
+        "listDate": "2026-05-06T15:47:42.000000Z",
+        "lastSoldPrice": 850000,
+        "lastSoldDate": "2009-10-16",
+        "daysOnMarket": 111
+      },
+      {
+        "id": "3735139749",
+        "town": "Hartsdale",
+        "address": "500 High Point Dr Apt 506, Hartsdale",
+        "price": 429000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 987,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/500-High-Point-Dr-Apt-506_Hartsdale_NY_10530_M37351-39749",
+        "openHouses": [],
+        "listDate": "2026-05-06T13:02:28.000000Z",
+        "lastSoldPrice": 303500,
+        "lastSoldDate": "2006-10-03",
+        "daysOnMarket": 111
       }
     ],
     "Harrison": [
@@ -4620,7 +4632,7 @@
         "listDate": "2026-07-31T00:03:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3638748624",
@@ -4943,7 +4955,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 355
+        "daysOnMarket": 356
       },
       {
         "id": "3498190935",
@@ -5239,23 +5251,6 @@
         "daysOnMarket": 3
       },
       {
-        "id": "5024300243",
-        "town": "Ho-Ho-Kus",
-        "address": "179 Lakewood Ave, Ho Ho Kus",
-        "price": 1298800,
-        "beds": 3,
-        "baths": 3,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/179-Lakewood-Ave_Ho-Ho-Kus_NJ_07423_M50243-00243",
-        "openHouses": [],
-        "listDate": "2026-08-21T19:58:39.000000Z",
-        "lastSoldPrice": 815000,
-        "lastSoldDate": "2017-01-31",
-        "daysOnMarket": 4
-      },
-      {
         "id": "5379198335",
         "town": "Ho-Ho-Kus",
         "address": "51 Arbor Dr, Ho Ho Kus",
@@ -5293,6 +5288,23 @@
         "listDate": "2026-08-21T19:58:39.000000Z",
         "lastSoldPrice": 640000,
         "lastSoldDate": "2005-11-07",
+        "daysOnMarket": 4
+      },
+      {
+        "id": "5024300243",
+        "town": "Ho-Ho-Kus",
+        "address": "179 Lakewood Ave, Ho Ho Kus",
+        "price": 1298800,
+        "beds": 3,
+        "baths": 3,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/179-Lakewood-Ave_Ho-Ho-Kus_NJ_07423_M50243-00243",
+        "openHouses": [],
+        "listDate": "2026-08-21T19:58:39.000000Z",
+        "lastSoldPrice": 815000,
+        "lastSoldDate": "2017-01-31",
         "daysOnMarket": 4
       },
       {
@@ -5533,7 +5545,7 @@
         "listDate": "2026-06-27T00:04:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "3882181836",
@@ -6111,6 +6123,23 @@
         "daysOnMarket": 91
       },
       {
+        "id": "9300907060",
+        "town": "Larchmont",
+        "address": "1815 Palmer Ave Apt 2L, Larchmont",
+        "price": 230000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 725,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/1815-Palmer-Ave-Apt-2L_Larchmont_NY_10538_M93009-07060",
+        "openHouses": [],
+        "listDate": "2026-05-23T02:02:47.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 94
+      },
+      {
         "id": "9077448404",
         "town": "Larchmont",
         "address": "7 Walnut Ave, Larchmont",
@@ -6295,7 +6324,7 @@
         "listDate": "2025-12-13T00:08:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 255
+        "daysOnMarket": 256
       },
       {
         "id": "3406384100",
@@ -6312,7 +6341,7 @@
         "listDate": "2025-09-12T00:33:07.000000Z",
         "lastSoldPrice": 1575000,
         "lastSoldDate": "2024-09-17",
-        "daysOnMarket": 347
+        "daysOnMarket": 348
       }
     ],
     "Mamaroneck": [
@@ -7011,11 +7040,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/7-Denman-Pl_Mount-Vernon_NY_10552_M39371-59770",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-30T13:00:00",
+            "end_date": "2026-08-30T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-14T00:48:02.000000Z",
         "lastSoldPrice": 1060000,
         "lastSoldDate": "2021-09-24",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3359156776",
@@ -7066,7 +7107,7 @@
         "listDate": "2026-08-10T01:32:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "9013286753",
@@ -7338,7 +7379,7 @@
         "listDate": "2026-07-11T00:04:22.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2000-04-27",
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "9900527699",
@@ -7423,7 +7464,7 @@
         "listDate": "2026-06-29T00:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 57
+        "daysOnMarket": 58
       },
       {
         "id": "9113465611",
@@ -7975,40 +8016,6 @@
     "Ridgewood": [],
     "Tarrytown": [
       {
-        "id": "9936333767",
-        "town": "Tarrytown",
-        "address": "4 Lighthouse Lndg Unit Ph 501, Sleepy Hollow",
-        "price": 1540000,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1296,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-PH501_Sleepy-Hollow_NY_10591_M99363-33767",
-        "openHouses": [],
-        "listDate": "2026-08-25T21:18:54.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
-        "id": "9934386274",
-        "town": "Tarrytown",
-        "address": "4 Lighthouse Lndg Unit 302, Sleepy Hollow",
-        "price": 1780000,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1593,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-302_Sleepy-Hollow_NY_10591_M99343-86274",
-        "openHouses": [],
-        "listDate": "2026-08-25T21:04:12.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
         "id": "3471112565",
         "town": "Tarrytown",
         "address": "320 S Broadway Unit P7, Tarrytown",
@@ -8074,7 +8081,7 @@
         "listDate": "2026-08-18T01:32:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "3186569821",
@@ -8091,7 +8098,7 @@
         "listDate": "2026-08-18T00:17:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "4124924082",
@@ -8823,6 +8830,40 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 153
+      },
+      {
+        "id": "9302141436",
+        "town": "Tarrytown",
+        "address": "203 Palisades Blvd, Sleepy Hollow",
+        "price": 1850000,
+        "beds": 4,
+        "baths": 5,
+        "sqft": 2936,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/203-Palisades-Blvd_Sleepy-Hollow_NY_10591_M93021-41436",
+        "openHouses": [],
+        "listDate": "2026-03-24T22:10:03.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 154
+      },
+      {
+        "id": "9612537575",
+        "town": "Tarrytown",
+        "address": "4 Lighthouse Lndg Unit 204, Sleepy Hollow",
+        "price": 3745000,
+        "beds": 3,
+        "baths": 4,
+        "sqft": 2356,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-204_Sleepy-Hollow_NY_10591_M96125-37575",
+        "openHouses": [],
+        "listDate": "2026-03-06T19:00:41.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 172
       }
     ],
     "Tuckahoe": [
