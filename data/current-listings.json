@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T04:46:57.629Z",
+  "updatedAt": "2026-08-26T05:39:51.873Z",
   "towns": {
     "Pelham": [
       {
@@ -17,7 +17,7 @@
         "listDate": "2026-08-23T04:52:40.000000Z",
         "lastSoldPrice": 590000,
         "lastSoldDate": "2004-07-07",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "9380561738",
@@ -34,7 +34,7 @@
         "listDate": "2026-08-06T04:50:25.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "4363702628",
@@ -342,7 +342,7 @@
         "listDate": "2026-08-24T04:52:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4959234125",
@@ -529,7 +529,7 @@
         "listDate": "2026-08-09T04:50:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "3057610216",
@@ -614,7 +614,7 @@
         "listDate": "2026-08-01T04:48:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4205210482",
@@ -1022,7 +1022,7 @@
         "listDate": "2026-07-06T05:02:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "4084597074",
@@ -1162,6 +1162,23 @@
       }
     ],
     "Scarsdale": [
+      {
+        "id": "3173787756",
+        "town": "Scarsdale",
+        "address": "26 Reynolds Pl, Scarsdale",
+        "price": 995000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1680,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/26-Reynolds-Pl_Scarsdale_NY_10583_M31737-87756",
+        "openHouses": [],
+        "listDate": "2026-08-26T04:51:19.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "3021332786",
         "town": "Scarsdale",
@@ -2006,23 +2023,6 @@
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2025-02-18",
         "daysOnMarket": 68
-      },
-      {
-        "id": "4986696955",
-        "town": "Scarsdale",
-        "address": "120 Woodruff Ave, Scarsdale",
-        "price": 975000,
-        "beds": 3,
-        "baths": 4,
-        "sqft": 3080,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/120-Woodruff-Ave_Scarsdale_NY_10583_M49866-96955",
-        "openHouses": [],
-        "listDate": "2026-06-18T14:34:39.000000Z",
-        "lastSoldPrice": 695000,
-        "lastSoldDate": "2005-04-01",
-        "daysOnMarket": 68
       }
     ],
     "Ardsley": [
@@ -2296,7 +2296,7 @@
         "listDate": "2025-10-31T04:49:23.000000Z",
         "lastSoldPrice": 765000,
         "lastSoldDate": "2024-12-13",
-        "daysOnMarket": 298
+        "daysOnMarket": 299
       },
       {
         "id": "9876533118",
@@ -2754,7 +2754,7 @@
         "listDate": "2026-05-13T05:01:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "3216529347",
@@ -2926,7 +2926,7 @@
         "listDate": "2026-08-15T04:52:26.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "4481988552",
@@ -3220,6 +3220,23 @@
     ],
     "Eastchester": [
       {
+        "id": "4690725765",
+        "town": "Eastchester",
+        "address": "5 Bevan Pl, Eastchester",
+        "price": 1850000,
+        "beds": 5,
+        "baths": 5,
+        "sqft": 3023,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/5-Bevan-Pl_Eastchester_NY_10709_M46907-25765",
+        "openHouses": [],
+        "listDate": "2026-08-26T04:51:19.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "9881089725",
         "town": "Eastchester",
         "address": "1263 California Rd Unit 2R, Eastchester",
@@ -3234,7 +3251,7 @@
         "listDate": "2026-08-14T04:52:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3829446002",
@@ -3671,7 +3688,7 @@
         "listDate": "2026-03-16T04:48:12.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "2006-07-10",
-        "daysOnMarket": 162
+        "daysOnMarket": 163
       }
     ],
     "Hartsdale": [
@@ -3736,7 +3753,7 @@
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2013-05-23",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "9377054992",
@@ -3821,7 +3838,7 @@
         "listDate": "2026-08-14T04:52:28.000000Z",
         "lastSoldPrice": 224000,
         "lastSoldDate": "2012-08-13",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "9386538159",
@@ -3906,7 +3923,7 @@
         "listDate": "2026-08-08T04:54:43.000000Z",
         "lastSoldPrice": 640000,
         "lastSoldDate": "2022-08-08",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3586385418",
@@ -3923,7 +3940,7 @@
         "listDate": "2026-08-05T04:52:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "4222612181",
@@ -5032,7 +5049,7 @@
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": 325000,
         "lastSoldDate": "1989-08-10",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "4403942020",
@@ -5433,7 +5450,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "4592183241",
@@ -5586,7 +5603,7 @@
         "listDate": "2026-06-26T05:35:12.000000Z",
         "lastSoldPrice": 1225000,
         "lastSoldDate": "2010-10-22",
-        "daysOnMarket": 60
+        "daysOnMarket": 61
       },
       {
         "id": "4556540553",
@@ -5877,7 +5894,7 @@
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "4740439753",
@@ -5940,7 +5957,7 @@
         "listDate": "2026-08-07T04:55:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "3345358353",
@@ -6266,23 +6283,6 @@
         "daysOnMarket": 154
       },
       {
-        "id": "9369243885",
-        "town": "Larchmont",
-        "address": "64 Myrtle Blvd, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 186
-      },
-      {
         "id": "9743358871",
         "town": "Larchmont",
         "address": "23 Edgewood Ave, Larchmont",
@@ -6293,6 +6293,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 186
+      },
+      {
+        "id": "9369243885",
+        "town": "Larchmont",
+        "address": "64 Myrtle Blvd, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -7017,7 +7034,7 @@
         "listDate": "2026-08-20T04:49:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3954323626",
@@ -7034,7 +7051,7 @@
         "listDate": "2026-08-19T04:52:25.000000Z",
         "lastSoldPrice": 407000,
         "lastSoldDate": "2017-09-20",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3937159770",
@@ -8088,7 +8105,7 @@
         "listDate": "2026-08-21T04:53:21.000000Z",
         "lastSoldPrice": 670000,
         "lastSoldDate": "2025-09-18",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "3524204456",
