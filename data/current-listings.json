@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T01:44:16.363Z",
+  "updatedAt": "2026-08-26T03:12:08.161Z",
   "towns": {
     "Pelham": [
       {
@@ -2362,7 +2362,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/81-Springhurst-Rd_Bedford-Hills_NY_10507_M42791-98666",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-29T12:00:00",
+            "end_date": "2026-08-29T14:00:00",
+            "description": "This classic Colonial farmhouse is tucked in on one of Bedford's most coveted streets in the Guard Hill estate area. The four bedroom home was just completely reimagined and blends timeless character with brand-new, gut-renovated interiors. The picturesque drive leads to level land that sets the stage, leading to a classic rocking chair front porch that hints at the warmth inside.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-07T16:18:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -3050,7 +3062,7 @@
         "listDate": "2026-07-03T02:47:33.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2020-06-12",
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "4741694905",
@@ -3252,7 +3264,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/32-Deerfield-Ave_Eastchester_NY_10709_M35482-60127",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-08-30T14:00:00",
+            "end_date": "2026-08-30T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-09T06:02:29.000000Z",
         "lastSoldPrice": 695000,
         "lastSoldDate": "2015-05-29",
@@ -3477,7 +3501,7 @@
         "listDate": "2026-07-06T02:32:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "4617519007",
@@ -3613,7 +3637,7 @@
         "listDate": "2026-05-01T01:47:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 116
+        "daysOnMarket": 117
       },
       {
         "id": "3874232788",
@@ -3695,7 +3719,7 @@
         "listDate": "2026-08-25T01:48:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4539291496",
@@ -4751,7 +4775,7 @@
         "listDate": "2026-07-03T02:20:16.000000Z",
         "lastSoldPrice": 120400,
         "lastSoldDate": "1981-08-12",
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "4717591361",
@@ -5251,6 +5275,23 @@
         "daysOnMarket": 3
       },
       {
+        "id": "5024300243",
+        "town": "Ho-Ho-Kus",
+        "address": "179 Lakewood Ave, Ho Ho Kus",
+        "price": 1298800,
+        "beds": 3,
+        "baths": 3,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/179-Lakewood-Ave_Ho-Ho-Kus_NJ_07423_M50243-00243",
+        "openHouses": [],
+        "listDate": "2026-08-21T19:58:39.000000Z",
+        "lastSoldPrice": 815000,
+        "lastSoldDate": "2017-01-31",
+        "daysOnMarket": 4
+      },
+      {
         "id": "5379198335",
         "town": "Ho-Ho-Kus",
         "address": "51 Arbor Dr, Ho Ho Kus",
@@ -5288,23 +5329,6 @@
         "listDate": "2026-08-21T19:58:39.000000Z",
         "lastSoldPrice": 640000,
         "lastSoldDate": "2005-11-07",
-        "daysOnMarket": 4
-      },
-      {
-        "id": "5024300243",
-        "town": "Ho-Ho-Kus",
-        "address": "179 Lakewood Ave, Ho Ho Kus",
-        "price": 1298800,
-        "beds": 3,
-        "baths": 3,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/179-Lakewood-Ave_Ho-Ho-Kus_NJ_07423_M50243-00243",
-        "openHouses": [],
-        "listDate": "2026-08-21T19:58:39.000000Z",
-        "lastSoldPrice": 815000,
-        "lastSoldDate": "2017-01-31",
         "daysOnMarket": 4
       },
       {
@@ -5477,7 +5501,7 @@
         "listDate": "2026-07-11T02:20:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "3900777541",
@@ -6123,23 +6147,6 @@
         "daysOnMarket": 91
       },
       {
-        "id": "9300907060",
-        "town": "Larchmont",
-        "address": "1815 Palmer Ave Apt 2L, Larchmont",
-        "price": 230000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 725,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1815-Palmer-Ave-Apt-2L_Larchmont_NY_10538_M93009-07060",
-        "openHouses": [],
-        "listDate": "2026-05-23T02:02:47.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 94
-      },
-      {
         "id": "9077448404",
         "town": "Larchmont",
         "address": "7 Walnut Ave, Larchmont",
@@ -6259,23 +6266,6 @@
         "daysOnMarket": 153
       },
       {
-        "id": "9743358871",
-        "town": "Larchmont",
-        "address": "23 Edgewood Ave, Larchmont",
-        "price": 900000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
-        "openHouses": [],
-        "listDate": "2026-02-20T18:21:30.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 186
-      },
-      {
         "id": "9369243885",
         "town": "Larchmont",
         "address": "64 Myrtle Blvd, Larchmont",
@@ -6286,6 +6276,23 @@
         "type": "land",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/64-Myrtle-Blvd_Larchmont_NY_10538_M93692-43885",
+        "openHouses": [],
+        "listDate": "2026-02-20T18:21:30.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 186
+      },
+      {
+        "id": "9743358871",
+        "town": "Larchmont",
+        "address": "23 Edgewood Ave, Larchmont",
+        "price": 900000,
+        "beds": null,
+        "baths": null,
+        "sqft": null,
+        "type": "land",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/23-Edgewood-Ave_Larchmont_NY_10538_M97433-58871",
         "openHouses": [],
         "listDate": "2026-02-20T18:21:30.000000Z",
         "lastSoldPrice": null,
@@ -6632,7 +6639,7 @@
         "listDate": "2026-06-19T02:19:21.000000Z",
         "lastSoldPrice": 154000,
         "lastSoldDate": "2000-04-10",
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "3241625070",
@@ -7891,7 +7898,7 @@
         "listDate": "2026-06-26T01:47:48.000000Z",
         "lastSoldPrice": 577000,
         "lastSoldDate": "2012-12-28",
-        "daysOnMarket": 60
+        "daysOnMarket": 61
       },
       {
         "id": "3485254701",
@@ -8015,6 +8022,40 @@
     ],
     "Ridgewood": [],
     "Tarrytown": [
+      {
+        "id": "9936333767",
+        "town": "Tarrytown",
+        "address": "4 Lighthouse Lndg Unit Ph 501, Sleepy Hollow",
+        "price": 1540000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1296,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-PH501_Sleepy-Hollow_NY_10591_M99363-33767",
+        "openHouses": [],
+        "listDate": "2026-08-25T21:18:54.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "9934386274",
+        "town": "Tarrytown",
+        "address": "4 Lighthouse Lndg Unit 302, Sleepy Hollow",
+        "price": 1780000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1593,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-302_Sleepy-Hollow_NY_10591_M99343-86274",
+        "openHouses": [],
+        "listDate": "2026-08-25T21:04:12.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "3471112565",
         "town": "Tarrytown",
@@ -8830,40 +8871,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 153
-      },
-      {
-        "id": "9302141436",
-        "town": "Tarrytown",
-        "address": "203 Palisades Blvd, Sleepy Hollow",
-        "price": 1850000,
-        "beds": 4,
-        "baths": 5,
-        "sqft": 2936,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/203-Palisades-Blvd_Sleepy-Hollow_NY_10591_M93021-41436",
-        "openHouses": [],
-        "listDate": "2026-03-24T22:10:03.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 154
-      },
-      {
-        "id": "9612537575",
-        "town": "Tarrytown",
-        "address": "4 Lighthouse Lndg Unit 204, Sleepy Hollow",
-        "price": 3745000,
-        "beds": 3,
-        "baths": 4,
-        "sqft": 2356,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-204_Sleepy-Hollow_NY_10591_M96125-37575",
-        "openHouses": [],
-        "listDate": "2026-03-06T19:00:41.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 172
       }
     ],
     "Tuckahoe": [
@@ -8933,7 +8940,7 @@
         "listDate": "2026-08-16T02:47:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4175475777",
