@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T12:31:49.110Z",
+  "updatedAt": "2026-09-05T15:53:13.333Z",
   "towns": {
     "Pelham": [
       {
@@ -102,7 +102,7 @@
         "listDate": "2026-07-15T12:34:26.000000Z",
         "lastSoldPrice": 205000,
         "lastSoldDate": "1987-08-27",
-        "daysOnMarket": 51
+        "daysOnMarket": 52
       },
       {
         "id": "3573634872",
@@ -119,7 +119,7 @@
         "listDate": "2026-07-08T14:18:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "4390664769",
@@ -221,7 +221,7 @@
         "listDate": "2026-06-03T15:33:51.000000Z",
         "lastSoldPrice": 1465000,
         "lastSoldDate": "1997-09-12",
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "4188961372",
@@ -272,7 +272,7 @@
         "listDate": "2026-04-22T15:33:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 135
+        "daysOnMarket": 136
       },
       {
         "id": "9833812516",
@@ -348,7 +348,7 @@
         "listDate": "2026-09-04T15:49:00.000000Z",
         "lastSoldPrice": 600000,
         "lastSoldDate": "2011-04-18",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4961731737",
@@ -416,7 +416,7 @@
         "listDate": "2026-09-02T13:48:23.000000Z",
         "lastSoldPrice": 715000,
         "lastSoldDate": "2025-02-24",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4164098661",
@@ -479,7 +479,7 @@
         "listDate": "2026-08-31T15:33:14.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "9436569541",
@@ -598,7 +598,7 @@
         "listDate": "2026-08-21T13:33:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "3838278030",
@@ -666,7 +666,7 @@
         "listDate": "2026-08-19T12:47:30.000000Z",
         "lastSoldPrice": 1640000,
         "lastSoldDate": "2025-07-17",
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "9585766239",
@@ -717,7 +717,7 @@
         "listDate": "2026-08-07T15:18:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "9927220386",
@@ -802,7 +802,7 @@
         "listDate": "2026-07-30T15:33:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "9282357207",
@@ -836,7 +836,7 @@
         "listDate": "2026-07-26T15:02:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "9988112108",
@@ -904,7 +904,7 @@
         "listDate": "2026-07-21T15:51:27.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "9377617975",
@@ -972,7 +972,7 @@
         "listDate": "2026-07-18T15:48:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "4057034861",
@@ -1006,7 +1006,7 @@
         "listDate": "2026-07-17T14:49:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "4658253952",
@@ -1057,7 +1057,7 @@
         "listDate": "2026-07-13T14:48:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "9748485409",
@@ -1142,7 +1142,7 @@
         "listDate": "2026-07-08T15:34:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "9165280232",
@@ -1176,10 +1176,27 @@
         "listDate": "2026-07-02T15:18:49.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       }
     ],
     "Scarsdale": [
+      {
+        "id": "4742826702",
+        "town": "Scarsdale",
+        "address": "136 Wilmot Cir, Scarsdale",
+        "price": 1359999,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2200,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/136-Wilmot-Cir_Scarsdale_NY_10583_M47428-26702",
+        "openHouses": [],
+        "listDate": "2026-09-05T15:03:04.000000Z",
+        "lastSoldPrice": 298000,
+        "lastSoldDate": "1997-09-16",
+        "daysOnMarket": 0
+      },
       {
         "id": "4805796698",
         "town": "Scarsdale",
@@ -1247,7 +1264,7 @@
         "listDate": "2026-09-02T15:04:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "4982952691",
@@ -1361,7 +1378,7 @@
         "listDate": "2026-08-27T15:04:26.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "3532277500",
@@ -1611,7 +1628,7 @@
         "listDate": "2026-08-04T15:18:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4982118470",
@@ -1679,7 +1696,7 @@
         "listDate": "2026-07-31T15:05:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4608585330",
@@ -1730,7 +1747,7 @@
         "listDate": "2026-07-24T15:33:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 42
+        "daysOnMarket": 43
       },
       {
         "id": "9620026669",
@@ -1747,7 +1764,7 @@
         "listDate": "2026-07-23T13:34:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "4212478627",
@@ -1781,7 +1798,7 @@
         "listDate": "2026-07-21T15:18:33.000000Z",
         "lastSoldPrice": 750000,
         "lastSoldDate": "2005-11-01",
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "3578093546",
@@ -1980,7 +1997,7 @@
         "listDate": "2026-06-26T15:03:52.000000Z",
         "lastSoldPrice": 2147500,
         "lastSoldDate": "2010-07-21",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "4788200172",
@@ -2031,7 +2048,7 @@
         "listDate": "2026-06-23T15:03:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "4009081692",
@@ -2048,7 +2065,7 @@
         "listDate": "2026-06-23T14:33:36.000000Z",
         "lastSoldPrice": 720000,
         "lastSoldDate": "2015-12-24",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3596679746",
@@ -2082,24 +2099,7 @@
         "listDate": "2026-06-18T14:50:18.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2025-02-18",
-        "daysOnMarket": 78
-      },
-      {
-        "id": "4837870599",
-        "town": "Scarsdale",
-        "address": "12 Drake Rd, Scarsdale",
-        "price": 1800000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 2962,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/12-Drake-Rd_Scarsdale_NY_10583_M48378-70599",
-        "openHouses": [],
-        "listDate": "2026-06-16T15:01:59.000000Z",
-        "lastSoldPrice": 949000,
-        "lastSoldDate": "2011-09-23",
-        "daysOnMarket": 80
+        "daysOnMarket": 79
       }
     ],
     "Ardsley": [
@@ -2147,7 +2147,7 @@
         "listDate": "2026-08-27T14:18:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "3116079259",
@@ -2164,7 +2164,7 @@
         "listDate": "2026-08-18T14:33:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "4963272422",
@@ -2261,7 +2261,7 @@
         "listDate": "2026-07-17T15:18:33.000000Z",
         "lastSoldPrice": 594600,
         "lastSoldDate": "2020-06-11",
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "3082465378",
@@ -2295,7 +2295,7 @@
         "listDate": "2026-06-12T13:34:46.000000Z",
         "lastSoldPrice": 550000,
         "lastSoldDate": "2003-02-11",
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "4349135468",
@@ -2312,7 +2312,7 @@
         "listDate": "2026-06-03T13:18:16.000000Z",
         "lastSoldPrice": 372000,
         "lastSoldDate": "1997-08-18",
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "4421766790",
@@ -2414,7 +2414,7 @@
         "listDate": "2025-09-19T14:17:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 350
+        "daysOnMarket": 351
       },
       {
         "id": "9475712947",
@@ -2495,7 +2495,7 @@
         "listDate": "2026-09-04T15:49:00.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9615035252",
@@ -2529,7 +2529,7 @@
         "listDate": "2026-08-21T14:18:01.000000Z",
         "lastSoldPrice": 1515000,
         "lastSoldDate": "2004-08-13",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4279198666",
@@ -2563,7 +2563,7 @@
         "listDate": "2026-08-06T14:48:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "3602963872",
@@ -2580,7 +2580,7 @@
         "listDate": "2026-07-28T14:18:54.000000Z",
         "lastSoldPrice": 2200000,
         "lastSoldDate": "2021-12-21",
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "4863448334",
@@ -2631,7 +2631,7 @@
         "listDate": "2026-06-05T13:18:35.000000Z",
         "lastSoldPrice": 421000,
         "lastSoldDate": "2025-08-11",
-        "daysOnMarket": 91
+        "daysOnMarket": 92
       },
       {
         "id": "3325786090",
@@ -2699,7 +2699,7 @@
         "listDate": "2026-04-29T13:17:25.000000Z",
         "lastSoldPrice": 1850000,
         "lastSoldDate": "1995-05-09",
-        "daysOnMarket": 128
+        "daysOnMarket": 129
       },
       {
         "id": "3637434869",
@@ -2792,7 +2792,7 @@
         "listDate": "2026-08-14T15:04:54.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "1997-01-29",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "3168150418",
@@ -2860,7 +2860,7 @@
         "listDate": "2026-06-26T13:17:40.000000Z",
         "lastSoldPrice": 465000,
         "lastSoldDate": "2006-09-20",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "3136837611",
@@ -2996,7 +2996,7 @@
         "listDate": "2026-05-07T12:47:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 120
+        "daysOnMarket": 121
       },
       {
         "id": "9005032698",
@@ -3030,7 +3030,7 @@
         "listDate": "2026-04-09T12:47:04.000000Z",
         "lastSoldPrice": 845000,
         "lastSoldDate": "2007-09-21",
-        "daysOnMarket": 148
+        "daysOnMarket": 149
       },
       {
         "id": "4485178199",
@@ -3064,7 +3064,7 @@
         "listDate": "2025-04-26T14:16:50.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 496
+        "daysOnMarket": 497
       }
     ],
     "Dobbs Ferry": [
@@ -3271,7 +3271,7 @@
         "listDate": "2026-08-08T14:32:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "3643206015",
@@ -3288,7 +3288,7 @@
         "listDate": "2026-07-31T14:49:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "9331192212",
@@ -3322,7 +3322,7 @@
         "listDate": "2026-07-16T14:04:13.000000Z",
         "lastSoldPrice": 363200,
         "lastSoldDate": "2012-08-14",
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "3362668000",
@@ -3373,7 +3373,7 @@
         "listDate": "2026-07-02T12:47:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "4995008300",
@@ -3613,7 +3613,7 @@
         "listDate": "2026-08-13T14:17:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3548260127",
@@ -3727,7 +3727,7 @@
         "listDate": "2026-07-20T14:02:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "3545164396",
@@ -3744,7 +3744,7 @@
         "listDate": "2026-07-18T14:04:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "9351902718",
@@ -3863,7 +3863,7 @@
         "listDate": "2026-06-23T12:57:45.000000Z",
         "lastSoldPrice": 285000,
         "lastSoldDate": "1993-09-10",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "4242046173",
@@ -3897,7 +3897,7 @@
         "listDate": "2026-06-16T14:32:05.000000Z",
         "lastSoldPrice": 610000,
         "lastSoldDate": "2007-07-09",
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "4985318419",
@@ -3948,7 +3948,7 @@
         "listDate": "2026-03-24T14:19:03.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2023-09-26",
-        "daysOnMarket": 164
+        "daysOnMarket": 165
       },
       {
         "id": "4295013917",
@@ -4047,7 +4047,7 @@
         "listDate": "2026-08-25T13:03:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "9097686321",
@@ -4149,7 +4149,7 @@
         "listDate": "2026-08-15T14:03:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "4606171236",
@@ -4285,7 +4285,7 @@
         "listDate": "2026-07-26T15:47:58.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "4430475617",
@@ -4467,7 +4467,7 @@
         "listDate": "2026-07-02T13:03:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "9931725115",
@@ -4654,7 +4654,7 @@
         "listDate": "2026-05-29T15:18:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 98
+        "daysOnMarket": 99
       },
       {
         "id": "4363976056",
@@ -4802,7 +4802,7 @@
         "listDate": "2026-05-06T15:47:42.000000Z",
         "lastSoldPrice": 850000,
         "lastSoldDate": "2009-10-16",
-        "daysOnMarket": 121
+        "daysOnMarket": 122
       },
       {
         "id": "3735139749",
@@ -4819,7 +4819,7 @@
         "listDate": "2026-05-06T13:02:28.000000Z",
         "lastSoldPrice": 303500,
         "lastSoldDate": "2006-10-03",
-        "daysOnMarket": 121
+        "daysOnMarket": 122
       },
       {
         "id": "3735734658",
@@ -4906,7 +4906,7 @@
         "listDate": "2026-08-12T15:32:47.000000Z",
         "lastSoldPrice": 595000,
         "lastSoldDate": "2023-09-28",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4909798943",
@@ -4923,7 +4923,7 @@
         "listDate": "2026-08-11T15:17:55.000000Z",
         "lastSoldPrice": 135000,
         "lastSoldDate": "1993-12-20",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4946170503",
@@ -4940,7 +4940,7 @@
         "listDate": "2026-08-10T13:32:40.000000Z",
         "lastSoldPrice": 225500,
         "lastSoldDate": "1994-06-14",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "9608670446",
@@ -4957,7 +4957,7 @@
         "listDate": "2026-08-07T15:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3512277461",
@@ -5008,7 +5008,7 @@
         "listDate": "2026-07-27T13:48:08.000000Z",
         "lastSoldPrice": 480000,
         "lastSoldDate": "2009-12-14",
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "3588029676",
@@ -5025,7 +5025,7 @@
         "listDate": "2026-07-20T15:04:49.000000Z",
         "lastSoldPrice": 250000,
         "lastSoldDate": "2020-06-12",
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4490958242",
@@ -5093,7 +5093,7 @@
         "listDate": "2026-06-15T13:17:38.000000Z",
         "lastSoldPrice": 646000,
         "lastSoldDate": "2000-03-03",
-        "daysOnMarket": 81
+        "daysOnMarket": 82
       },
       {
         "id": "3084183464",
@@ -5229,7 +5229,7 @@
         "listDate": "2025-04-07T15:47:07.000000Z",
         "lastSoldPrice": 1900000,
         "lastSoldDate": "2012-07-23",
-        "daysOnMarket": 515
+        "daysOnMarket": 516
       }
     ],
     "Hastings-on-Hudson": [
@@ -5379,7 +5379,7 @@
         "listDate": "2026-07-16T14:04:13.000000Z",
         "lastSoldPrice": 380000,
         "lastSoldDate": "1988-07-15",
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "4371408852",
@@ -5481,7 +5481,7 @@
         "listDate": "2026-04-29T15:47:27.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 128
+        "daysOnMarket": 129
       },
       {
         "id": "4920176025",
@@ -5498,7 +5498,7 @@
         "listDate": "2026-04-24T15:17:45.000000Z",
         "lastSoldPrice": 710000,
         "lastSoldDate": "2007-04-04",
-        "daysOnMarket": 133
+        "daysOnMarket": 134
       },
       {
         "id": "4379868221",
@@ -5638,7 +5638,7 @@
         "listDate": "2026-08-07T15:48:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "9696928061",
@@ -5672,7 +5672,7 @@
         "listDate": "2026-07-20T15:04:49.000000Z",
         "lastSoldPrice": 1739000,
         "lastSoldDate": "2018-07-31",
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4763403799",
@@ -5808,7 +5808,7 @@
         "listDate": "2026-05-15T15:04:27.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 112
+        "daysOnMarket": 113
       },
       {
         "id": "9846008783",
@@ -5893,7 +5893,7 @@
         "listDate": "2026-03-19T15:02:26.000000Z",
         "lastSoldPrice": 4500000,
         "lastSoldDate": "2019-08-23",
-        "daysOnMarket": 169
+        "daysOnMarket": 170
       },
       {
         "id": "3493108245",
@@ -5927,7 +5927,7 @@
         "listDate": "2026-03-16T13:17:17.000000Z",
         "lastSoldPrice": 2800000,
         "lastSoldDate": "2017-12-22",
-        "daysOnMarket": 172
+        "daysOnMarket": 173
       },
       {
         "id": "4283285844",
@@ -5980,7 +5980,7 @@
         "listDate": "2026-08-27T12:47:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "4560467598",
@@ -6133,7 +6133,7 @@
         "listDate": "2026-06-19T12:48:11.000000Z",
         "lastSoldPrice": 183500,
         "lastSoldDate": "1996-06-24",
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "3736549681",
@@ -6269,7 +6269,7 @@
         "listDate": "2026-04-27T13:31:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 130
+        "daysOnMarket": 131
       },
       {
         "id": "3189888570",
@@ -6453,7 +6453,7 @@
         "listDate": "2026-09-01T15:04:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "3613519580",
@@ -6550,7 +6550,7 @@
         "listDate": "2026-08-20T12:34:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3588912686",
@@ -6630,7 +6630,7 @@
         "listDate": "2026-07-13T14:34:09.000000Z",
         "lastSoldPrice": 395000,
         "lastSoldDate": "2017-06-06",
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "3106030049",
@@ -6647,7 +6647,7 @@
         "listDate": "2026-07-13T14:34:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "3635223583",
@@ -6817,7 +6817,7 @@
         "listDate": "2026-05-19T14:16:50.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2011-10-19",
-        "daysOnMarket": 108
+        "daysOnMarket": 109
       },
       {
         "id": "4279067272",
@@ -6834,7 +6834,7 @@
         "listDate": "2026-05-14T15:36:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 113
+        "daysOnMarket": 114
       },
       {
         "id": "4073519003",
@@ -6851,7 +6851,7 @@
         "listDate": "2026-05-05T13:47:26.000000Z",
         "lastSoldPrice": 1075000,
         "lastSoldDate": "2025-03-07",
-        "daysOnMarket": 122
+        "daysOnMarket": 123
       },
       {
         "id": "3528839987",
@@ -6868,7 +6868,7 @@
         "listDate": "2026-04-23T15:04:02.000000Z",
         "lastSoldPrice": 545000,
         "lastSoldDate": "2017-11-21",
-        "daysOnMarket": 134
+        "daysOnMarket": 135
       },
       {
         "id": "9852561085",
@@ -6885,7 +6885,7 @@
         "listDate": "2026-04-17T12:48:26.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 140
+        "daysOnMarket": 141
       },
       {
         "id": "4010876176",
@@ -7143,7 +7143,7 @@
         "listDate": "2026-08-23T14:02:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "9387310243",
@@ -7450,7 +7450,7 @@
         "listDate": "2026-07-19T12:34:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4091463638",
@@ -7586,7 +7586,7 @@
         "listDate": "2026-07-02T15:49:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "4749297278",
@@ -7603,7 +7603,7 @@
         "listDate": "2026-06-30T15:03:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 66
+        "daysOnMarket": 67
       },
       {
         "id": "9286870005",
@@ -7637,7 +7637,7 @@
         "listDate": "2026-06-25T12:48:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "3317437296",
@@ -7683,7 +7683,7 @@
         "listDate": "2026-06-22T15:18:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "9326024252",
@@ -7700,7 +7700,7 @@
         "listDate": "2026-06-19T14:17:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "3637062913",
@@ -7865,7 +7865,7 @@
         "listDate": "2026-05-18T14:17:16.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 109
+        "daysOnMarket": 110
       },
       {
         "id": "3905005040",
@@ -8010,7 +8010,7 @@
         "listDate": "2026-06-26T15:49:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       },
       {
         "id": "3485254701",
@@ -8027,7 +8027,7 @@
         "listDate": "2026-06-24T14:17:57.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2007-04-09",
-        "daysOnMarket": 72
+        "daysOnMarket": 73
       },
       {
         "id": "3767002130",
@@ -8078,7 +8078,7 @@
         "listDate": "2026-06-15T15:32:58.000000Z",
         "lastSoldPrice": 579000,
         "lastSoldDate": "2021-10-04",
-        "daysOnMarket": 81
+        "daysOnMarket": 82
       },
       {
         "id": "3394458232",
@@ -8297,7 +8297,7 @@
         "listDate": "2026-07-29T14:04:34.000000Z",
         "lastSoldPrice": 375000,
         "lastSoldDate": "2017-10-27",
-        "daysOnMarket": 37
+        "daysOnMarket": 38
       },
       {
         "id": "9910523682",
@@ -8331,7 +8331,7 @@
         "listDate": "2026-07-21T12:34:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "9112396006",
@@ -8365,7 +8365,7 @@
         "listDate": "2026-07-10T14:48:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "9153291573",
@@ -8382,7 +8382,7 @@
         "listDate": "2026-07-10T14:48:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "3026090718",
@@ -8399,7 +8399,7 @@
         "listDate": "2026-07-10T14:33:46.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "3048525551",
@@ -8467,7 +8467,7 @@
         "listDate": "2026-06-22T15:18:44.000000Z",
         "lastSoldPrice": 485000,
         "lastSoldDate": "2019-10-15",
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "3580283435",
@@ -8569,7 +8569,7 @@
         "listDate": "2026-06-09T14:17:54.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 87
+        "daysOnMarket": 88
       },
       {
         "id": "4854742625",
@@ -8603,7 +8603,7 @@
         "listDate": "2026-06-08T13:02:28.000000Z",
         "lastSoldPrice": 1784989,
         "lastSoldDate": "2022-10-03",
-        "daysOnMarket": 88
+        "daysOnMarket": 89
       },
       {
         "id": "9991346483",
@@ -8671,7 +8671,7 @@
         "listDate": "2026-05-22T14:48:38.000000Z",
         "lastSoldPrice": 199000,
         "lastSoldDate": "2002-07-09",
-        "daysOnMarket": 105
+        "daysOnMarket": 106
       },
       {
         "id": "9430009378",
@@ -8688,7 +8688,7 @@
         "listDate": "2026-05-20T14:32:10.000000Z",
         "lastSoldPrice": 1003885,
         "lastSoldDate": "2021-01-06",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "3538849971",
@@ -8705,7 +8705,7 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 116
+        "daysOnMarket": 117
       },
       {
         "id": "4986747856",
@@ -8807,7 +8807,7 @@
         "listDate": "2026-04-08T15:47:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 149
+        "daysOnMarket": 150
       },
       {
         "id": "9941028443",
@@ -8841,7 +8841,7 @@
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 154
+        "daysOnMarket": 155
       },
       {
         "id": "9001086625",
@@ -8858,7 +8858,7 @@
         "listDate": "2026-04-03T14:03:52.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 154
+        "daysOnMarket": 155
       },
       {
         "id": "3547085745",
@@ -8892,7 +8892,7 @@
         "listDate": "2026-03-27T14:46:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 161
+        "daysOnMarket": 162
       },
       {
         "id": "9702641256",
@@ -9013,7 +9013,7 @@
         "listDate": "2026-08-20T14:04:25.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "4161153428",
@@ -9030,7 +9030,7 @@
         "listDate": "2026-08-16T14:03:24.000000Z",
         "lastSoldPrice": 100000,
         "lastSoldDate": "2002-10-09",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "9423880243",
@@ -9246,7 +9246,7 @@
         "listDate": "2026-01-11T14:46:53.000000Z",
         "lastSoldPrice": 190000,
         "lastSoldDate": "2020-03-27",
-        "daysOnMarket": 236
+        "daysOnMarket": 237
       }
     ]
   }
