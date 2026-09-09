@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T23:59:14.063Z",
+  "updatedAt": "2026-09-09T04:29:46.958Z",
   "towns": {
     "Pelham": [
       {
@@ -187,7 +187,7 @@
         "listDate": "2026-06-16T01:17:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "9743886012",
@@ -372,7 +372,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/246-Bronxville-Rd-Apt-I2_Bronxville_NY_10708_M30277-95107",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-09-13T12:00:00",
+            "end_date": "2026-09-13T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-09-02T16:48:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -1422,7 +1434,7 @@
         "listDate": "2026-08-17T00:32:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3121876298",
@@ -1439,7 +1451,7 @@
         "listDate": "2026-08-16T01:33:15.000000Z",
         "lastSoldPrice": 775000,
         "lastSoldDate": "2022-06-23",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "3399216380",
@@ -1507,7 +1519,7 @@
         "listDate": "2026-08-12T00:04:57.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "3652641420",
@@ -1660,7 +1672,7 @@
         "listDate": "2026-07-31T00:33:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "3553544462",
@@ -2594,7 +2606,7 @@
         "listDate": "2025-09-17T00:07:07.000000Z",
         "lastSoldPrice": 5000000,
         "lastSoldDate": "2018-05-10",
-        "daysOnMarket": 356
+        "daysOnMarket": 357
       }
     ],
     "Chappaqua": [
@@ -2625,7 +2637,7 @@
         "listDate": "2026-09-07T00:47:25.000000Z",
         "lastSoldPrice": 1175000,
         "lastSoldDate": "2022-07-20",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4676023388",
@@ -2795,7 +2807,7 @@
         "listDate": "2026-06-02T03:33:14.000000Z",
         "lastSoldPrice": 800000,
         "lastSoldDate": "2024-12-30",
-        "daysOnMarket": 98
+        "daysOnMarket": 99
       },
       {
         "id": "9540087096",
@@ -2880,7 +2892,7 @@
         "listDate": "2026-04-14T00:47:01.000000Z",
         "lastSoldPrice": 1440995,
         "lastSoldDate": "2024-08-29",
-        "daysOnMarket": 147
+        "daysOnMarket": 148
       },
       {
         "id": "3362546053",
@@ -2936,40 +2948,6 @@
     ],
     "Dobbs Ferry": [
       {
-        "id": "9925472015",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 9, Dobbs Ferry",
-        "price": 1674750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1547,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-9_Dobbs-Ferry_NY_10522_M99254-72015",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
-        "id": "9282242166",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 13, Dobbs Ferry",
-        "price": 1837500,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1467,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-13_Dobbs-Ferry_NY_10522_M92822-42166",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
         "id": "9081300976",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 5, Dobbs Ferry",
@@ -3021,6 +2999,23 @@
         "daysOnMarket": 0
       },
       {
+        "id": "9282242166",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 13, Dobbs Ferry",
+        "price": 1837500,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1467,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-13_Dobbs-Ferry_NY_10522_M92822-42166",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "9196182929",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 6, Dobbs Ferry",
@@ -3038,6 +3033,23 @@
         "daysOnMarket": 0
       },
       {
+        "id": "9925472015",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 9, Dobbs Ferry",
+        "price": 1674750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1547,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-9_Dobbs-Ferry_NY_10522_M99254-72015",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "9861873015",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 12, Dobbs Ferry",
@@ -3048,57 +3060,6 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-12_Dobbs-Ferry_NY_10522_M98618-73015",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
-        "id": "9951886271",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Ste 4, Dobbs Ferry",
-        "price": 1989750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1536,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
-        "id": "9773568968",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 11, Dobbs Ferry",
-        "price": 2047500,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1612,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
-        "id": "9748360644",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 3, Dobbs Ferry",
-        "price": 1496250,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1220,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Unit-3_Dobbs-Ferry_NY_10522_M97483-60644",
         "openHouses": [],
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
@@ -3140,6 +3101,40 @@
         "daysOnMarket": 0
       },
       {
+        "id": "9773568968",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 11, Dobbs Ferry",
+        "price": 2047500,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1612,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "9748360644",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 3, Dobbs Ferry",
+        "price": 1496250,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1220,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Unit-3_Dobbs-Ferry_NY_10522_M97483-60644",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "9733215568",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 14, Dobbs Ferry",
@@ -3150,6 +3145,23 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-14_Dobbs-Ferry_NY_10522_M97332-15568",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "9951886271",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Ste 4, Dobbs Ferry",
+        "price": 1989750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1536,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
         "openHouses": [],
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
@@ -3409,7 +3421,7 @@
         "listDate": "2026-07-03T02:47:33.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2020-06-12",
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "4741694905",
@@ -3956,7 +3968,7 @@
         "listDate": "2026-07-06T02:32:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "4617519007",
@@ -4237,7 +4249,7 @@
         "listDate": "2026-08-25T01:48:01.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4539291496",
@@ -4487,7 +4499,7 @@
         "listDate": "2026-07-24T04:17:39.000000Z",
         "lastSoldPrice": 940000,
         "lastSoldDate": "2021-12-09",
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4853650540",
@@ -4555,7 +4567,7 @@
         "listDate": "2026-07-17T01:33:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "4627015525",
@@ -4985,6 +4997,23 @@
     ],
     "Harrison": [
       {
+        "id": "3939393801",
+        "town": "Harrison",
+        "address": "124 Holland St, Harrison",
+        "price": 999999,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1877,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/124-Holland-St_Harrison_NY_10528_M39393-93801",
+        "openHouses": [],
+        "listDate": "2026-09-08T22:04:39.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
         "id": "4950589406",
         "town": "Harrison",
         "address": "23 Webster Ave, Harrison",
@@ -5101,7 +5130,7 @@
         "listDate": "2026-08-01T01:03:55.000000Z",
         "lastSoldPrice": 950000,
         "lastSoldDate": "1993-10-05",
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "3364443467",
@@ -5118,7 +5147,7 @@
         "listDate": "2026-07-31T00:03:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "3638748624",
@@ -5215,7 +5244,7 @@
         "listDate": "2026-07-03T02:20:16.000000Z",
         "lastSoldPrice": 120400,
         "lastSoldDate": "1981-08-12",
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "4702498654",
@@ -5351,7 +5380,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 369
+        "daysOnMarket": 370
       },
       {
         "id": "3498190935",
@@ -5427,7 +5456,7 @@
         "listDate": "2026-09-01T03:47:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "4396861491",
@@ -5444,7 +5473,7 @@
         "listDate": "2026-08-27T03:02:41.000000Z",
         "lastSoldPrice": 50000,
         "lastSoldDate": "1985-10-09",
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "3948036043",
@@ -5971,7 +6000,7 @@
         "listDate": "2026-07-11T02:20:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "4458946550",
@@ -6568,7 +6597,7 @@
         "listDate": "2025-12-13T00:08:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 269
+        "daysOnMarket": 270
       },
       {
         "id": "4122022813",
@@ -6602,10 +6631,44 @@
         "listDate": "2025-09-12T00:33:07.000000Z",
         "lastSoldPrice": 1575000,
         "lastSoldDate": "2024-09-17",
-        "daysOnMarket": 361
+        "daysOnMarket": 362
       }
     ],
     "Mamaroneck": [
+      {
+        "id": "9152762671",
+        "town": "Mamaroneck",
+        "address": "101 Sheldrake Pl Apt 20, Mamaroneck",
+        "price": 759000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1300,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/101-Sheldrake-Pl-Apt-20_Mamaroneck_NY_10543_M91527-62671",
+        "openHouses": [],
+        "listDate": "2026-09-08T22:18:51.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3236813912",
+        "town": "Mamaroneck",
+        "address": "516 Hunter St, Mamaroneck",
+        "price": 1199000,
+        "beds": 4,
+        "baths": 4,
+        "sqft": 2280,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/516-Hunter-St_Mamaroneck_NY_10543_M32368-13912",
+        "openHouses": [],
+        "listDate": "2026-09-08T21:59:05.000000Z",
+        "lastSoldPrice": 860000,
+        "lastSoldDate": "2005-08-08",
+        "daysOnMarket": 0
+      },
       {
         "id": "9635910748",
         "town": "Mamaroneck",
@@ -6621,23 +6684,6 @@
         "listDate": "2026-09-08T15:18:24.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
-      },
-      {
-        "id": "3236813912",
-        "town": "Mamaroneck",
-        "address": "516 Hunter St, Mamaroneck",
-        "price": 1199000,
-        "beds": 4,
-        "baths": 4,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/516-Hunter-St_Mamaroneck_NY_10543_M32368-13912",
-        "openHouses": [],
-        "listDate": "2026-09-08T14:05:43.000000Z",
-        "lastSoldPrice": 860000,
-        "lastSoldDate": "2005-08-08",
         "daysOnMarket": 0
       },
       {
@@ -6712,7 +6758,7 @@
         "listDate": "2026-09-02T00:05:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "9053361030",
@@ -6758,7 +6804,7 @@
         "listDate": "2026-08-28T02:47:15.000000Z",
         "lastSoldPrice": 70000,
         "lastSoldDate": "1993-01-04",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "4023688996",
@@ -6775,7 +6821,7 @@
         "listDate": "2026-08-28T00:17:59.000000Z",
         "lastSoldPrice": 441000,
         "lastSoldDate": "2021-05-24",
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "9569620895",
@@ -7013,7 +7059,7 @@
         "listDate": "2026-06-20T04:03:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "4685419480",
@@ -7030,7 +7076,7 @@
         "listDate": "2026-06-19T02:19:21.000000Z",
         "lastSoldPrice": 154000,
         "lastSoldDate": "2000-04-10",
-        "daysOnMarket": 81
+        "daysOnMarket": 82
       },
       {
         "id": "4906719870",
@@ -7253,7 +7299,7 @@
         "listDate": "2026-09-03T03:03:40.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "9820828802",
@@ -7474,7 +7520,7 @@
         "listDate": "2026-08-14T00:48:02.000000Z",
         "lastSoldPrice": 1060000,
         "lastSoldDate": "2021-09-24",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3359156776",
@@ -7508,7 +7554,7 @@
         "listDate": "2026-08-10T01:32:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "9423900445",
@@ -7763,7 +7809,7 @@
         "listDate": "2026-07-11T00:04:22.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2000-04-27",
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "9900527699",
@@ -7860,7 +7906,7 @@
         "listDate": "2026-06-29T00:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "9113465611",
@@ -8300,6 +8346,109 @@
     "Ridgewood": [],
     "Tarrytown": [
       {
+        "id": "3624744853",
+        "town": "Tarrytown",
+        "address": "540 Bedford Rd, Sleepy Hollow",
+        "price": 949000,
+        "beds": 3,
+        "baths": 1,
+        "sqft": 1748,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/540-Bedford-Rd_Sleepy-Hollow_NY_10591_M36247-44853",
+        "openHouses": [],
+        "listDate": "2026-09-09T02:19:59.000000Z",
+        "lastSoldPrice": 580000,
+        "lastSoldDate": "2014-10-22",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4070379217",
+        "town": "Tarrytown",
+        "address": "53 Tarryhill Rd, Tarrytown",
+        "price": 1599000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": 3152,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/53-Tarryhill-Rd_Tarrytown_NY_10591_M40703-79217",
+        "openHouses": [
+          {
+            "start_date": "2026-09-12T12:00:00",
+            "end_date": "2026-09-12T14:00:00",
+            "description": "Tour this beautifully updated 4-bedroom home in sought-after Tarryhill with Irvington schools! Enjoy 3,152 sq ft, dramatic vaulted ceilings and wood beams, a floor-to-ceiling stone fireplace, finished rec room with wet bar, expansive deck, large level yard and outdoor hot tub. Community pools, tennis, playgrounds, basketball and clubhouse complete the exceptional Rivertowns lifestyle.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-09-13T12:00:00",
+            "end_date": "2026-09-13T15:00:00",
+            "description": "Tour this beautifully updated 4-bedroom home in sought-after Tarryhill with Irvington schools! Enjoy 3,152 sq ft, dramatic vaulted ceilings and wood beams, a floor-to-ceiling stone fireplace, finished rec room with wet bar, expansive deck, large level yard and outdoor hot tub. Community pools, tennis, playgrounds, basketball and clubhouse complete the exceptional Rivertowns lifestyle.",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T23:49:35.000000Z",
+        "lastSoldPrice": 650000,
+        "lastSoldDate": "2003-03-10",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "9142534997",
+        "town": "Tarrytown",
+        "address": "16 Rivers Edge Dr Unit 310, Tarrytown",
+        "price": 1499000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1488,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/16-Rivers-Edge-Dr-Unit-310_Tarrytown_NY_10591_M91425-34997",
+        "openHouses": [
+          {
+            "start_date": "2026-09-13T12:30:00",
+            "end_date": "2026-09-13T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T22:48:19.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
+      {
+        "id": "4580209927",
+        "town": "Tarrytown",
+        "address": "31 Glen Hill Ln Unit 31, Tarrytown",
+        "price": 979000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 2400,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/31-Glen-Hill-Ln_Tarrytown_NY_10591_M45802-09927",
+        "openHouses": [],
+        "listDate": "2026-09-08T21:48:40.000000Z",
+        "lastSoldPrice": 693500,
+        "lastSoldDate": "2021-02-23",
+        "daysOnMarket": 0
+      },
+      {
         "id": "4759656386",
         "town": "Tarrytown",
         "address": "156 Grove St, Tarrytown",
@@ -8343,7 +8492,7 @@
         "listDate": "2026-09-07T02:46:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3520515128",
@@ -8462,7 +8611,7 @@
         "listDate": "2026-08-18T00:17:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "4124924082",
@@ -9092,74 +9241,6 @@
         "lastSoldPrice": 535000,
         "lastSoldDate": "2006-10-12",
         "daysOnMarket": 159
-      },
-      {
-        "id": "9108522415",
-        "town": "Tarrytown",
-        "address": "42 Andrews Ln, Sleepy Hollow",
-        "price": 999000,
-        "beds": 2,
-        "baths": 4,
-        "sqft": 1512,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/42-Andrews-Ln_Sleepy-Hollow_NY_10591_M91085-22415",
-        "openHouses": [],
-        "listDate": "2026-03-27T14:46:59.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 165
-      },
-      {
-        "id": "9702641256",
-        "town": "Tarrytown",
-        "address": "201 Horseman Blvd Unit 101, Sleepy Hollow",
-        "price": 1299000,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1228,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/201-Horseman-Blvd-Unit-101_Sleepy-Hollow_NY_10591_M97026-41256",
-        "openHouses": [],
-        "listDate": "2026-03-25T18:16:46.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 167
-      },
-      {
-        "id": "9302141436",
-        "town": "Tarrytown",
-        "address": "203 Palisades Blvd, Sleepy Hollow",
-        "price": 1850000,
-        "beds": 4,
-        "baths": 5,
-        "sqft": 2936,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/203-Palisades-Blvd_Sleepy-Hollow_NY_10591_M93021-41436",
-        "openHouses": [],
-        "listDate": "2026-03-24T22:10:03.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 168
-      },
-      {
-        "id": "9612537575",
-        "town": "Tarrytown",
-        "address": "4 Lighthouse Lndg Unit 204, Sleepy Hollow",
-        "price": 3745000,
-        "beds": 3,
-        "baths": 4,
-        "sqft": 2356,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/4-Lighthouse-Lndg-Unit-204_Sleepy-Hollow_NY_10591_M96125-37575",
-        "openHouses": [],
-        "listDate": "2026-03-06T19:00:41.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 186
       }
     ],
     "Tuckahoe": [
@@ -9263,7 +9344,7 @@
         "listDate": "2026-08-16T02:47:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "4175475777",
