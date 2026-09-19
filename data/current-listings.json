@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T21:37:08.827Z",
+  "updatedAt": "2026-09-19T00:05:00.344Z",
   "towns": {
     "Pelham": [
       {
@@ -1034,7 +1034,7 @@
         "listDate": "2026-07-25T22:03:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 54
+        "daysOnMarket": 55
       },
       {
         "id": "9778624898",
@@ -1301,7 +1301,7 @@
         "listDate": "2026-07-09T23:48:11.000000Z",
         "lastSoldPrice": 255000,
         "lastSoldDate": "1989-08-23",
-        "daysOnMarket": 70
+        "daysOnMarket": 71
       }
     ],
     "Scarsdale": [
@@ -1887,7 +1887,7 @@
         "listDate": "2026-08-28T22:18:15.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9542264651",
@@ -2350,7 +2350,7 @@
         "listDate": "2026-09-11T22:03:58.000000Z",
         "lastSoldPrice": 78500,
         "lastSoldDate": "1998-12-07",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3561438240",
@@ -2481,7 +2481,7 @@
         "listDate": "2026-07-23T23:33:08.000000Z",
         "lastSoldPrice": 995000,
         "lastSoldDate": "2022-03-15",
-        "daysOnMarket": 56
+        "daysOnMarket": 57
       },
       {
         "id": "3985051581",
@@ -3250,7 +3250,7 @@
         "listDate": "2026-03-01T22:17:56.000000Z",
         "lastSoldPrice": 251000,
         "lastSoldDate": "1981-08-01",
-        "daysOnMarket": 200
+        "daysOnMarket": 201
       },
       {
         "id": "9773606119",
@@ -3887,7 +3887,7 @@
         "listDate": "2026-06-25T22:47:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "9526648170",
@@ -4001,7 +4001,7 @@
         "listDate": "2026-03-18T22:03:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 183
+        "daysOnMarket": 184
       },
       {
         "id": "9046792903",
@@ -4018,7 +4018,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 192
+        "daysOnMarket": 193
       },
       {
         "id": "4721086839",
@@ -4351,7 +4351,7 @@
         "listDate": "2026-07-21T22:32:10.000000Z",
         "lastSoldPrice": 490000,
         "lastSoldDate": "2016-02-11",
-        "daysOnMarket": 58
+        "daysOnMarket": 59
       },
       {
         "id": "3847393144",
@@ -5150,7 +5150,7 @@
         "listDate": "2026-07-29T22:18:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 50
+        "daysOnMarket": 51
       },
       {
         "id": "3991387278",
@@ -5298,7 +5298,7 @@
         "listDate": "2026-07-16T23:03:03.000000Z",
         "lastSoldPrice": 744000,
         "lastSoldDate": "2017-06-27",
-        "daysOnMarket": 63
+        "daysOnMarket": 64
       },
       {
         "id": "4297164975",
@@ -5601,7 +5601,7 @@
         "listDate": "2026-09-08T22:04:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "9262514257",
@@ -5727,7 +5727,7 @@
         "listDate": "2026-07-31T00:03:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "3638748624",
@@ -6144,7 +6144,7 @@
         "listDate": "2026-08-23T23:03:12.000000Z",
         "lastSoldPrice": 314000,
         "lastSoldDate": "2020-12-09",
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "4372042373",
@@ -6275,7 +6275,7 @@
         "listDate": "2026-07-06T22:48:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3978603806",
@@ -6999,7 +6999,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/116-Valleyview-Rd_Irvington_NY_10533_M33723-88114",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-09-20T15:30:00",
+            "end_date": "2026-09-20T17:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-04-04T20:47:41.000000Z",
         "lastSoldPrice": 675000,
         "lastSoldDate": "2004-02-06",
@@ -7206,19 +7218,7 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/8-Lyons-Pl_Larchmont_NY_10538_M32841-98521",
-        "openHouses": [
-          {
-            "start_date": "2026-09-20T13:00:00",
-            "end_date": "2026-09-20T14:30:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
+        "openHouses": [],
         "listDate": "2026-09-16T04:35:28.000000Z",
         "lastSoldPrice": 1442000,
         "lastSoldDate": "2019-11-27",
@@ -8057,7 +8057,7 @@
         "listDate": "2026-09-10T23:48:32.000000Z",
         "lastSoldPrice": 530000,
         "lastSoldDate": "2003-05-12",
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "9152762671",
@@ -8074,7 +8074,7 @@
         "listDate": "2026-09-08T22:18:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "3236813912",
@@ -8091,7 +8091,7 @@
         "listDate": "2026-09-08T21:59:05.000000Z",
         "lastSoldPrice": 860000,
         "lastSoldDate": "2005-08-08",
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "9635910748",
@@ -8143,23 +8143,6 @@
         "lastSoldPrice": 2110000,
         "lastSoldDate": "2024-12-04",
         "daysOnMarket": 10
-      },
-      {
-        "id": "4069703355",
-        "town": "Mamaroneck",
-        "address": "131 Frank Ave, Mamaroneck",
-        "price": 875000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2388,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/131-Frank-Ave_Mamaroneck_NY_10543_M40697-03355",
-        "openHouses": [],
-        "listDate": "2026-09-02T00:05:05.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 16
       },
       {
         "id": "9053361030",
@@ -8244,7 +8227,7 @@
         "listDate": "2026-07-17T22:33:19.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2022-08-16",
-        "daysOnMarket": 62
+        "daysOnMarket": 63
       },
       {
         "id": "3327992422",
@@ -8346,7 +8329,7 @@
         "listDate": "2026-06-25T22:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "3626093427",
@@ -8638,7 +8621,7 @@
         "listDate": "2026-09-12T23:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "9710444406",
@@ -8715,17 +8698,6 @@
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/402-Westchester-Ave_Mount-Vernon_NY_10552_M31513-96000",
         "openHouses": [
-          {
-            "start_date": "2026-09-18T16:00:00",
-            "end_date": "2026-09-18T18:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          },
           {
             "start_date": "2026-09-19T13:00:00",
             "end_date": "2026-09-19T14:30:00",
@@ -8883,7 +8855,7 @@
         "listDate": "2026-08-24T21:48:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4022333971",
@@ -9201,7 +9173,7 @@
         "listDate": "2026-07-11T00:04:22.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2000-04-27",
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "9900527699",
@@ -9859,7 +9831,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 153
+        "daysOnMarket": 154
       }
     ],
     "Ridgewood": [],
@@ -10019,23 +9991,6 @@
         "daysOnMarket": 8
       },
       {
-        "id": "9932973259",
-        "town": "Tarrytown",
-        "address": "416 Benedict Ave Apt 3A, Tarrytown",
-        "price": 385000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 900,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/416-Benedict-Ave-Apt-3A_Tarrytown_NY_10591_M99329-73259",
-        "openHouses": [],
-        "listDate": "2026-09-10T15:04:15.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 8
-      },
-      {
         "id": "3940689365",
         "town": "Tarrytown",
         "address": "57 Cobb Ln, Tarrytown",
@@ -10050,6 +10005,23 @@
         "listDate": "2026-09-10T15:04:15.000000Z",
         "lastSoldPrice": 6125000,
         "lastSoldDate": "2002-03-08",
+        "daysOnMarket": 8
+      },
+      {
+        "id": "9932973259",
+        "town": "Tarrytown",
+        "address": "416 Benedict Ave Apt 3A, Tarrytown",
+        "price": 385000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 900,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/416-Benedict-Ave-Apt-3A_Tarrytown_NY_10591_M99329-73259",
+        "openHouses": [],
+        "listDate": "2026-09-10T15:04:15.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 8
       },
       {
@@ -10084,7 +10056,7 @@
         "listDate": "2026-09-09T22:47:30.000000Z",
         "lastSoldPrice": 415000,
         "lastSoldDate": "2019-07-19",
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "3624744853",
@@ -10118,7 +10090,7 @@
         "listDate": "2026-09-08T22:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "4580209927",
@@ -10135,7 +10107,7 @@
         "listDate": "2026-09-08T21:48:40.000000Z",
         "lastSoldPrice": 693500,
         "lastSoldDate": "2021-02-23",
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "9275008774",
@@ -10475,7 +10447,7 @@
         "listDate": "2026-06-16T21:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "9076643834",
@@ -10657,7 +10629,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 132
+        "daysOnMarket": 133
       },
       {
         "id": "9024336673",
