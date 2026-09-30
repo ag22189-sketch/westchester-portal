@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T20:38:04.599Z",
+  "updatedAt": "2026-09-30T00:16:16.003Z",
   "towns": {
     "Pelham": [
       {
@@ -337,7 +337,7 @@
         "listDate": "2026-09-28T22:03:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9871107849",
@@ -354,7 +354,7 @@
         "listDate": "2026-09-28T21:47:21.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "9161961754",
@@ -949,7 +949,7 @@
         "listDate": "2026-07-25T22:03:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 65
+        "daysOnMarket": 66
       },
       {
         "id": "9778624898",
@@ -1598,7 +1598,7 @@
         "listDate": "2026-09-14T21:04:56.000000Z",
         "lastSoldPrice": 160000,
         "lastSoldDate": "1992-07-02",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "3054773787",
@@ -1955,7 +1955,7 @@
         "listDate": "2026-08-12T20:48:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "9378260633",
@@ -1972,7 +1972,7 @@
         "listDate": "2026-08-12T00:04:57.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 48
+        "daysOnMarket": 49
       },
       {
         "id": "9837399242",
@@ -2093,7 +2093,7 @@
         "listDate": "2026-09-22T21:47:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3580891062",
@@ -2110,7 +2110,7 @@
         "listDate": "2026-09-11T22:03:58.000000Z",
         "lastSoldPrice": 78500,
         "lastSoldDate": "1998-12-07",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "3011652384",
@@ -2472,23 +2472,6 @@
         "daysOnMarket": 54
       },
       {
-        "id": "3602963872",
-        "town": "Bedford",
-        "address": "54 W Patent Rd, Bedford Hills",
-        "price": 4250000,
-        "beds": 6,
-        "baths": 6,
-        "sqft": 6200,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/54-W-Patent-Rd_Bedford-Hills_NY_10507_M36029-63872",
-        "openHouses": [],
-        "listDate": "2026-07-28T14:18:54.000000Z",
-        "lastSoldPrice": 2200000,
-        "lastSoldDate": "2021-12-21",
-        "daysOnMarket": 63
-      },
-      {
         "id": "4051933798",
         "town": "Bedford",
         "address": "27 Winding Ln, Bedford Hills",
@@ -2670,7 +2653,7 @@
         "listDate": "2026-09-22T20:48:45.000000Z",
         "lastSoldPrice": 3648888,
         "lastSoldDate": "2015-01-12",
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3007195175",
@@ -2903,7 +2886,7 @@
         "listDate": "2026-05-22T21:04:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 129
+        "daysOnMarket": 130
       },
       {
         "id": "4865972972",
@@ -2988,7 +2971,7 @@
         "listDate": "2026-03-01T22:17:56.000000Z",
         "lastSoldPrice": 251000,
         "lastSoldDate": "1981-08-01",
-        "daysOnMarket": 211
+        "daysOnMarket": 212
       },
       {
         "id": "9773606119",
@@ -3112,139 +3095,6 @@
         "daysOnMarket": 20
       },
       {
-        "id": "9925472015",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 9, Dobbs Ferry",
-        "price": 1674750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1547,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-9_Dobbs-Ferry_NY_10522_M99254-72015",
-        "openHouses": [
-          {
-            "start_date": "2026-10-04T13:00:00",
-            "end_date": "2026-10-04T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 21
-      },
-      {
-        "id": "9406493654",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 10, Dobbs Ferry",
-        "price": 2094750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1706,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-10_Dobbs-Ferry_NY_10522_M94064-93654",
-        "openHouses": [
-          {
-            "start_date": "2026-10-04T13:00:00",
-            "end_date": "2026-10-04T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 21
-      },
-      {
-        "id": "9706945168",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 15, Dobbs Ferry",
-        "price": 2514750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1424,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-15_Dobbs-Ferry_NY_10522_M97069-45168",
-        "openHouses": [
-          {
-            "start_date": "2026-10-04T13:00:00",
-            "end_date": "2026-10-04T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 21
-      },
-      {
-        "id": "9861873015",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 12, Dobbs Ferry",
-        "price": 2079000,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1581,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-12_Dobbs-Ferry_NY_10522_M98618-73015",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 21
-      },
-      {
-        "id": "9081300976",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 5, Dobbs Ferry",
-        "price": 2178750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1596,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-5_Dobbs-Ferry_NY_10522_M90813-00976",
-        "openHouses": [
-          {
-            "start_date": "2026-10-04T13:00:00",
-            "end_date": "2026-10-04T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 21
-      },
-      {
         "id": "9196182929",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 6, Dobbs Ferry",
@@ -3303,6 +3153,139 @@
         "daysOnMarket": 21
       },
       {
+        "id": "9081300976",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 5, Dobbs Ferry",
+        "price": 2178750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1596,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-5_Dobbs-Ferry_NY_10522_M90813-00976",
+        "openHouses": [
+          {
+            "start_date": "2026-10-04T13:00:00",
+            "end_date": "2026-10-04T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 21
+      },
+      {
+        "id": "9406493654",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 10, Dobbs Ferry",
+        "price": 2094750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1706,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-10_Dobbs-Ferry_NY_10522_M94064-93654",
+        "openHouses": [
+          {
+            "start_date": "2026-10-04T13:00:00",
+            "end_date": "2026-10-04T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 21
+      },
+      {
+        "id": "9925472015",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 9, Dobbs Ferry",
+        "price": 1674750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1547,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-9_Dobbs-Ferry_NY_10522_M99254-72015",
+        "openHouses": [
+          {
+            "start_date": "2026-10-04T13:00:00",
+            "end_date": "2026-10-04T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 21
+      },
+      {
+        "id": "9861873015",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 12, Dobbs Ferry",
+        "price": 2079000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1581,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-12_Dobbs-Ferry_NY_10522_M98618-73015",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 21
+      },
+      {
+        "id": "9706945168",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 15, Dobbs Ferry",
+        "price": 2514750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1424,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-15_Dobbs-Ferry_NY_10522_M97069-45168",
+        "openHouses": [
+          {
+            "start_date": "2026-10-04T13:00:00",
+            "end_date": "2026-10-04T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 21
+      },
+      {
         "id": "9773568968",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 11, Dobbs Ferry",
@@ -3313,93 +3296,6 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
-        "openHouses": [
-          {
-            "start_date": "2026-10-04T13:00:00",
-            "end_date": "2026-10-04T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 21
-      },
-      {
-        "id": "9748360644",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 3, Dobbs Ferry",
-        "price": 1496250,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1220,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Unit-3_Dobbs-Ferry_NY_10522_M97483-60644",
-        "openHouses": [
-          {
-            "start_date": "2026-10-04T13:00:00",
-            "end_date": "2026-10-04T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 21
-      },
-      {
-        "id": "9733215568",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 14, Dobbs Ferry",
-        "price": 2304750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1396,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-14_Dobbs-Ferry_NY_10522_M97332-15568",
-        "openHouses": [
-          {
-            "start_date": "2026-10-04T13:00:00",
-            "end_date": "2026-10-04T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 21
-      },
-      {
-        "id": "9951886271",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Ste 4, Dobbs Ferry",
-        "price": 1989750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1536,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
         "openHouses": [
           {
             "start_date": "2026-10-04T13:00:00",
@@ -3448,6 +3344,35 @@
         "daysOnMarket": 21
       },
       {
+        "id": "9733215568",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 14, Dobbs Ferry",
+        "price": 2304750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1396,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-14_Dobbs-Ferry_NY_10522_M97332-15568",
+        "openHouses": [
+          {
+            "start_date": "2026-10-04T13:00:00",
+            "end_date": "2026-10-04T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 21
+      },
+      {
         "id": "9938527681",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 16, Dobbs Ferry",
@@ -3458,6 +3383,64 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-16_Dobbs-Ferry_NY_10522_M99385-27681",
+        "openHouses": [
+          {
+            "start_date": "2026-10-04T13:00:00",
+            "end_date": "2026-10-04T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 21
+      },
+      {
+        "id": "9951886271",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Ste 4, Dobbs Ferry",
+        "price": 1989750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1536,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
+        "openHouses": [
+          {
+            "start_date": "2026-10-04T13:00:00",
+            "end_date": "2026-10-04T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 21
+      },
+      {
+        "id": "9748360644",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 3, Dobbs Ferry",
+        "price": 1496250,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1220,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Unit-3_Dobbs-Ferry_NY_10522_M97483-60644",
         "openHouses": [
           {
             "start_date": "2026-10-04T13:00:00",
@@ -3542,7 +3525,7 @@
         "listDate": "2026-08-27T21:04:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "4357279559",
@@ -3763,7 +3746,7 @@
         "listDate": "2026-06-25T22:47:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 95
+        "daysOnMarket": 96
       },
       {
         "id": "9526648170",
@@ -3865,7 +3848,7 @@
         "listDate": "2026-03-18T22:03:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 194
+        "daysOnMarket": 195
       },
       {
         "id": "9046792903",
@@ -3882,7 +3865,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 203
+        "daysOnMarket": 204
       },
       {
         "id": "4721086839",
@@ -4192,7 +4175,7 @@
         "listDate": "2026-07-21T22:32:10.000000Z",
         "lastSoldPrice": 490000,
         "lastSoldDate": "2016-02-11",
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "3847393144",
@@ -4260,7 +4243,7 @@
         "listDate": "2026-07-13T21:18:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "4880699284",
@@ -4311,7 +4294,7 @@
         "listDate": "2026-07-06T21:05:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "3776580914",
@@ -4329,23 +4312,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 85
-      },
-      {
-        "id": "4617519007",
-        "town": "Eastchester",
-        "address": "16 Roy Pl, Eastchester",
-        "price": 775000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1700,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/16-Roy-Pl_Eastchester_NY_10709_M46175-19007",
-        "openHouses": [],
-        "listDate": "2026-07-01T16:18:08.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 90
       },
       {
         "id": "4242046173",
@@ -4452,23 +4418,6 @@
         "daysOnMarket": 3
       },
       {
-        "id": "3313586828",
-        "town": "Hartsdale",
-        "address": "21 Sherbrooke Rd, Hartsdale",
-        "price": 1199000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 2706,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/21-Sherbrooke-Rd_Hartsdale_NY_10530_M33135-86828",
-        "openHouses": [],
-        "listDate": "2026-09-25T04:35:48.000000Z",
-        "lastSoldPrice": 789000,
-        "lastSoldDate": "2019-05-10",
-        "daysOnMarket": 4
-      },
-      {
         "id": "9976079088",
         "town": "Hartsdale",
         "address": "100 E Hartsdale Ave Apt 6BE, Hartsdale",
@@ -4551,7 +4500,7 @@
         "listDate": "2026-09-22T21:47:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3240865230",
@@ -4823,7 +4772,7 @@
         "listDate": "2026-09-03T21:04:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3674086640",
@@ -5010,7 +4959,7 @@
         "listDate": "2026-07-29T22:18:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 61
+        "daysOnMarket": 62
       },
       {
         "id": "3991387278",
@@ -5078,7 +5027,7 @@
         "listDate": "2026-07-23T21:05:26.000000Z",
         "lastSoldPrice": 369000,
         "lastSoldDate": "2016-07-27",
-        "daysOnMarket": 67
+        "daysOnMarket": 68
       },
       {
         "id": "4835129366",
@@ -5129,7 +5078,7 @@
         "listDate": "2026-07-16T23:03:03.000000Z",
         "lastSoldPrice": 744000,
         "lastSoldDate": "2017-06-27",
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "4297164975",
@@ -5277,7 +5226,24 @@
         "listDate": "2026-06-09T20:49:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 111
+        "daysOnMarket": 112
+      },
+      {
+        "id": "4961976824",
+        "town": "Hartsdale",
+        "address": "21 Fieldstone Dr Apt 198, Hartsdale",
+        "price": 259000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 850,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/21-Fieldstone-Dr-Apt-198_Hartsdale_NY_10530_M49619-76824",
+        "openHouses": [],
+        "listDate": "2026-06-01T19:44:14.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 120
       }
     ],
     "Harrison": [
@@ -5398,7 +5364,7 @@
         "listDate": "2026-09-08T22:04:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9262514257",
@@ -5500,7 +5466,7 @@
         "listDate": "2026-07-31T00:03:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 60
+        "daysOnMarket": 61
       },
       {
         "id": "3638748624",
@@ -5568,7 +5534,7 @@
         "listDate": "2026-07-07T22:47:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 83
+        "daysOnMarket": 84
       },
       {
         "id": "4494163113",
@@ -5653,7 +5619,7 @@
         "listDate": "2026-01-22T21:17:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 249
+        "daysOnMarket": 250
       },
       {
         "id": "4194963634",
@@ -5905,7 +5871,7 @@
         "listDate": "2026-08-23T23:03:12.000000Z",
         "lastSoldPrice": 314000,
         "lastSoldDate": "2020-12-09",
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "4372042373",
@@ -6024,7 +5990,7 @@
         "listDate": "2026-07-06T22:48:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "3978603806",
@@ -6097,6 +6063,23 @@
     ],
     "Ho-Ho-Kus": [
       {
+        "id": "5001195359",
+        "town": "Ho-Ho-Kus",
+        "address": "11 Stone Ridge Ln, Ho Ho Kus",
+        "price": 1150000,
+        "beds": 4,
+        "baths": 3,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-Stone-Ridge-Ln_Ho-Ho-Kus_NJ_07423_M50011-95359",
+        "openHouses": [],
+        "listDate": "2026-09-29T23:51:11.000000Z",
+        "lastSoldPrice": 570000,
+        "lastSoldDate": "2015-07-22",
+        "daysOnMarket": 0
+      },
+      {
         "id": "9687119678",
         "town": "Ho-Ho-Kus",
         "address": "790 W Saddle River Rd, Ho Ho Kus",
@@ -6158,23 +6141,6 @@
         "lastSoldPrice": 505000,
         "lastSoldDate": "2007-10-29",
         "daysOnMarket": 13
-      },
-      {
-        "id": "5001195359",
-        "town": "Ho-Ho-Kus",
-        "address": "11 Stone Ridge Ln, Ho Ho Kus",
-        "price": 1200000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/11-Stone-Ridge-Ln_Ho-Ho-Kus_NJ_07423_M50011-95359",
-        "openHouses": [],
-        "listDate": "2026-09-14T21:05:44.000000Z",
-        "lastSoldPrice": 570000,
-        "lastSoldDate": "2015-07-22",
-        "daysOnMarket": 14
       },
       {
         "id": "5462823110",
@@ -6630,7 +6596,7 @@
         "listDate": "2026-04-04T20:47:41.000000Z",
         "lastSoldPrice": 675000,
         "lastSoldDate": "2004-02-06",
-        "daysOnMarket": 177
+        "daysOnMarket": 178
       },
       {
         "id": "3647294600",
@@ -6720,23 +6686,6 @@
         "daysOnMarket": 4
       },
       {
-        "id": "3448264721",
-        "town": "Larchmont",
-        "address": "7 Poplar Rd, Larchmont",
-        "price": 2395000,
-        "beds": 5,
-        "baths": 5,
-        "sqft": 3579,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/7-Poplar-Rd_Larchmont_NY_10538_M34482-64721",
-        "openHouses": [],
-        "listDate": "2026-09-23T04:49:29.000000Z",
-        "lastSoldPrice": 419000,
-        "lastSoldDate": "1989-07-27",
-        "daysOnMarket": 6
-      },
-      {
         "id": "3166549940",
         "town": "Larchmont",
         "address": "10 E Brookside Dr, Larchmont",
@@ -6751,6 +6700,23 @@
         "listDate": "2026-09-23T04:49:29.000000Z",
         "lastSoldPrice": 725000,
         "lastSoldDate": "2011-09-01",
+        "daysOnMarket": 6
+      },
+      {
+        "id": "3448264721",
+        "town": "Larchmont",
+        "address": "7 Poplar Rd, Larchmont",
+        "price": 2395000,
+        "beds": 5,
+        "baths": 5,
+        "sqft": 3579,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/7-Poplar-Rd_Larchmont_NY_10538_M34482-64721",
+        "openHouses": [],
+        "listDate": "2026-09-23T04:49:29.000000Z",
+        "lastSoldPrice": 419000,
+        "lastSoldDate": "1989-07-27",
         "daysOnMarket": 6
       },
       {
@@ -6853,7 +6819,7 @@
         "listDate": "2026-09-11T21:04:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "4340108886",
@@ -6873,23 +6839,6 @@
         "daysOnMarket": 18
       },
       {
-        "id": "4261880489",
-        "town": "Larchmont",
-        "address": "2 Washington Sq Apt 5G, Larchmont",
-        "price": 520000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 1004,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/2-Washington-Sq-Apt-5G_Larchmont_NY_10538_M42618-80489",
-        "openHouses": [],
-        "listDate": "2026-09-09T04:37:10.000000Z",
-        "lastSoldPrice": 425000,
-        "lastSoldDate": "2019-05-15",
-        "daysOnMarket": 20
-      },
-      {
         "id": "4113589337",
         "town": "Larchmont",
         "address": "14 N Chatsworth Ave Apt 5J, Larchmont",
@@ -6904,6 +6853,23 @@
         "listDate": "2026-09-09T04:37:10.000000Z",
         "lastSoldPrice": 281000,
         "lastSoldDate": "2015-07-06",
+        "daysOnMarket": 20
+      },
+      {
+        "id": "4261880489",
+        "town": "Larchmont",
+        "address": "2 Washington Sq Apt 5G, Larchmont",
+        "price": 520000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 1004,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/2-Washington-Sq-Apt-5G_Larchmont_NY_10538_M42618-80489",
+        "openHouses": [],
+        "listDate": "2026-09-09T04:37:10.000000Z",
+        "lastSoldPrice": 425000,
+        "lastSoldDate": "2019-05-15",
         "daysOnMarket": 20
       },
       {
@@ -7091,7 +7057,7 @@
         "listDate": "2026-06-15T21:32:41.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 105
+        "daysOnMarket": 106
       },
       {
         "id": "3938541759",
@@ -7295,7 +7261,7 @@
         "listDate": "2025-12-13T00:08:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 290
+        "daysOnMarket": 291
       },
       {
         "id": "4122022813",
@@ -7480,11 +7446,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1315-Langdon-Ln_Mamaroneck_NY_10543_M33580-02237",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-03T13:00:00",
+            "end_date": "2026-10-03T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-09-10T23:48:32.000000Z",
         "lastSoldPrice": 530000,
         "lastSoldDate": "2003-05-12",
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "9152762671",
@@ -7501,7 +7479,7 @@
         "listDate": "2026-09-08T22:18:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "3236813912",
@@ -7518,7 +7496,7 @@
         "listDate": "2026-09-08T21:59:05.000000Z",
         "lastSoldPrice": 860000,
         "lastSoldDate": "2005-08-08",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9635910748",
@@ -7538,23 +7516,6 @@
         "daysOnMarket": 21
       },
       {
-        "id": "4170150814",
-        "town": "Mamaroneck",
-        "address": "522 The Parkway, Mamaroneck",
-        "price": 4100000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 4186,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/522-The-Parkway_Mamaroneck_NY_10543_M41701-50814",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 21
-      },
-      {
         "id": "4856619220",
         "town": "Mamaroneck",
         "address": "911 Cove Rd, Mamaroneck",
@@ -7569,6 +7530,23 @@
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": 2110000,
         "lastSoldDate": "2024-12-04",
+        "daysOnMarket": 21
+      },
+      {
+        "id": "4170150814",
+        "town": "Mamaroneck",
+        "address": "522 The Parkway, Mamaroneck",
+        "price": 4100000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 4186,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/522-The-Parkway_Mamaroneck_NY_10543_M41701-50814",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 21
       },
       {
@@ -7683,7 +7661,7 @@
         "listDate": "2026-07-17T22:33:19.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2022-08-16",
-        "daysOnMarket": 73
+        "daysOnMarket": 74
       },
       {
         "id": "3327992422",
@@ -7734,7 +7712,7 @@
         "listDate": "2026-07-07T21:17:48.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2024-07-09",
-        "daysOnMarket": 83
+        "daysOnMarket": 84
       },
       {
         "id": "4276954456",
@@ -7785,7 +7763,7 @@
         "listDate": "2026-06-25T22:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 95
+        "daysOnMarket": 96
       },
       {
         "id": "3626093427",
@@ -8161,7 +8139,7 @@
         "listDate": "2026-09-12T23:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "9228139330",
@@ -8243,6 +8221,17 @@
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/402-Westchester-Ave_Mount-Vernon_NY_10552_M31513-96000",
         "openHouses": [
+          {
+            "start_date": "2026-10-03T12:00:00",
+            "end_date": "2026-10-03T13:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
           {
             "start_date": "2026-10-04T13:00:00",
             "end_date": "2026-10-04T14:30:00",
@@ -8394,7 +8383,7 @@
         "listDate": "2026-08-24T21:48:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4022333971",
@@ -8480,6 +8469,23 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 50
+      },
+      {
+        "id": "9013286753",
+        "town": "Mount Vernon",
+        "address": "2 Park Ln Apt 4C, Mount Vernon",
+        "price": 299000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1550,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/2-Park-Ln-Apt-4C_Mount-Vernon_NY_10552_M90132-86753",
+        "openHouses": [],
+        "listDate": "2026-08-07T17:49:08.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 53
       },
       {
         "id": "3995076823",
@@ -8598,7 +8604,7 @@
         "listDate": "2026-07-16T21:33:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "4204006111",
@@ -8615,7 +8621,7 @@
         "listDate": "2026-07-16T21:08:26.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "9839051261",
@@ -8666,7 +8672,7 @@
         "listDate": "2026-07-11T00:04:22.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2000-04-27",
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "9900527699",
@@ -8700,7 +8706,7 @@
         "listDate": "2026-07-05T20:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 85
+        "daysOnMarket": 86
       },
       {
         "id": "4230603081",
@@ -8786,23 +8792,6 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 102
-      },
-      {
-        "id": "3637062913",
-        "town": "Mount Vernon",
-        "address": "324 Hayward Ave, Fleetwood",
-        "price": 850000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 2000,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/324-Hayward-Ave_Fleetwood_NY_10552_M36370-62913",
-        "openHouses": [],
-        "listDate": "2026-06-17T16:03:58.000000Z",
-        "lastSoldPrice": 367500,
-        "lastSoldDate": "2019-06-25",
-        "daysOnMarket": 104
       }
     ],
     "Pleasantville": [
@@ -9144,7 +9133,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 164
+        "daysOnMarket": 165
       }
     ],
     "Ridgewood": [],
@@ -9181,7 +9170,7 @@
         "listDate": "2026-09-27T22:32:40.000000Z",
         "lastSoldPrice": 853400,
         "lastSoldDate": "2017-02-17",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3376625059",
@@ -9317,7 +9306,7 @@
         "listDate": "2026-09-10T21:04:56.000000Z",
         "lastSoldPrice": 245000,
         "lastSoldDate": "2022-06-17",
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "9932973259",
@@ -9385,7 +9374,7 @@
         "listDate": "2026-09-09T22:47:30.000000Z",
         "lastSoldPrice": 415000,
         "lastSoldDate": "2019-07-19",
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3624744853",
@@ -9419,7 +9408,7 @@
         "listDate": "2026-09-08T22:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "4580209927",
@@ -9436,7 +9425,7 @@
         "listDate": "2026-09-08T21:48:40.000000Z",
         "lastSoldPrice": 693500,
         "lastSoldDate": "2021-02-23",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9275008774",
@@ -9470,7 +9459,7 @@
         "listDate": "2026-08-25T21:18:54.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "9934386274",
@@ -9487,7 +9476,7 @@
         "listDate": "2026-08-25T21:04:12.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3471112565",
@@ -9725,7 +9714,7 @@
         "listDate": "2026-06-16T21:46:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "9044204210",
@@ -9873,7 +9862,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 143
+        "daysOnMarket": 144
       },
       {
         "id": "4064503608",
@@ -10009,7 +9998,7 @@
         "listDate": "2026-03-24T22:10:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 188
+        "daysOnMarket": 189
       }
     ],
     "Tuckahoe": [
@@ -10045,7 +10034,7 @@
         "listDate": "2026-09-22T22:04:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3555972742",
@@ -10113,7 +10102,7 @@
         "listDate": "2026-09-10T21:04:56.000000Z",
         "lastSoldPrice": 479000,
         "lastSoldDate": "2020-03-27",
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "3721720282",
@@ -10346,7 +10335,7 @@
         "listDate": "2026-04-07T20:48:01.000000Z",
         "lastSoldPrice": 269000,
         "lastSoldDate": "1997-06-26",
-        "daysOnMarket": 174
+        "daysOnMarket": 175
       },
       {
         "id": "4653182514",
