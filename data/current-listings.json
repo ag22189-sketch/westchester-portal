@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08T21:56:58.201Z",
+  "updatedAt": "2026-10-09T01:57:48.502Z",
   "towns": {
     "Pelham": [
       {
@@ -92,7 +92,7 @@
         "listDate": "2026-09-11T01:04:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "3199149416",
@@ -211,7 +211,7 @@
         "listDate": "2026-06-16T01:17:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 114
+        "daysOnMarket": 115
       },
       {
         "id": "4258100365",
@@ -283,6 +283,23 @@
       }
     ],
     "Bronxville": [
+      {
+        "id": "9843819815",
+        "town": "Bronxville",
+        "address": "42 Pondfield Rd W Apt 4F, Bronxville",
+        "price": 249500,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 750,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/42-Pondfield-Rd-W-Apt-4F_Bronxville_NY_10708_M98438-19815",
+        "openHouses": [],
+        "listDate": "2026-10-09T01:18:44.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "9886340018",
         "town": "Bronxville",
@@ -442,7 +459,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/6-Beverly-Rd_Bronxville_NY_10708_M34300-15291",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-10T00:00:00",
+            "end_date": "2026-10-10T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-10-03T04:34:16.000000Z",
         "lastSoldPrice": 1088000,
         "lastSoldDate": "2016-08-08",
@@ -555,7 +584,7 @@
         "listDate": "2026-09-28T22:03:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 9
+        "daysOnMarket": 10
       },
       {
         "id": "9161961754",
@@ -1065,20 +1094,32 @@
         "listDate": "2026-07-25T22:03:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 74
+        "daysOnMarket": 75
       },
       {
         "id": "9778624898",
         "town": "Bronxville",
         "address": "1090 Midland Ave Units 6 & 098, Yonkers",
-        "price": 799000,
+        "price": 769000,
         "beds": 3,
         "baths": 2,
         "sqft": null,
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1090-Midland-Ave-Unit-6_Yonkers_NY_10708_M97786-24898",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-11T14:00:00",
+            "end_date": "2026-10-11T17:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-07-24T18:34:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -1148,23 +1189,6 @@
         "link": "https://www.realtor.com/realestateandhomes-detail/1200-Midland-Ave-Apt-9E_Bronxville_NY_10708_M96066-79800",
         "openHouses": [],
         "listDate": "2026-07-20T18:14:06.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 80
-      },
-      {
-        "id": "9303656585",
-        "town": "Bronxville",
-        "address": "270 Bronxville Rd Apt B52, Bronxville",
-        "price": 199000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 829,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/270-Bronxville-Rd-Apt-B52_Bronxville_NY_10708_M93036-56585",
-        "openHouses": [],
-        "listDate": "2026-07-20T17:04:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 80
@@ -1363,7 +1387,7 @@
         "listDate": "2026-10-03T01:47:36.000000Z",
         "lastSoldPrice": 225000,
         "lastSoldDate": "2000-03-24",
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "4653007860",
@@ -1392,7 +1416,7 @@
         "listDate": "2026-10-02T22:03:43.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "9109463282",
@@ -2086,7 +2110,7 @@
         "listDate": "2026-08-17T00:32:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "3121876298",
@@ -2103,7 +2127,7 @@
         "listDate": "2026-08-16T01:33:15.000000Z",
         "lastSoldPrice": 775000,
         "lastSoldDate": "2022-06-23",
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "3399216380",
@@ -2207,7 +2231,7 @@
         "listDate": "2026-09-11T22:03:58.000000Z",
         "lastSoldPrice": 78500,
         "lastSoldDate": "1998-12-07",
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "3116079259",
@@ -2806,7 +2830,7 @@
         "listDate": "2026-09-07T00:47:25.000000Z",
         "lastSoldPrice": 1175000,
         "lastSoldDate": "2022-07-20",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4676023388",
@@ -2976,7 +3000,7 @@
         "listDate": "2026-04-29T01:32:06.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2025-03-20",
-        "daysOnMarket": 162
+        "daysOnMarket": 163
       },
       {
         "id": "9773606119",
@@ -3303,35 +3327,6 @@
         "daysOnMarket": 30
       },
       {
-        "id": "9748360644",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 3, Dobbs Ferry",
-        "price": 1496250,
-        "beds": 2,
-        "baths": 2,
-        "sqft": 1220,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Unit-3_Dobbs-Ferry_NY_10522_M97483-60644",
-        "openHouses": [
-          {
-            "start_date": "2026-10-11T13:00:00",
-            "end_date": "2026-10-11T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 30
-      },
-      {
         "id": "9951886271",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Ste 4, Dobbs Ferry",
@@ -3390,35 +3385,6 @@
         "daysOnMarket": 30
       },
       {
-        "id": "9733215568",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 14, Dobbs Ferry",
-        "price": 2304750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1396,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-14_Dobbs-Ferry_NY_10522_M97332-15568",
-        "openHouses": [
-          {
-            "start_date": "2026-10-11T13:00:00",
-            "end_date": "2026-10-11T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 30
-      },
-      {
         "id": "9938527681",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 16, Dobbs Ferry",
@@ -3448,6 +3414,35 @@
         "daysOnMarket": 30
       },
       {
+        "id": "9748360644",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 3, Dobbs Ferry",
+        "price": 1496250,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1220,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Unit-3_Dobbs-Ferry_NY_10522_M97483-60644",
+        "openHouses": [
+          {
+            "start_date": "2026-10-11T13:00:00",
+            "end_date": "2026-10-11T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 30
+      },
+      {
         "id": "9773568968",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 11, Dobbs Ferry",
@@ -3458,6 +3453,35 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
+        "openHouses": [
+          {
+            "start_date": "2026-10-11T13:00:00",
+            "end_date": "2026-10-11T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 30
+      },
+      {
+        "id": "9733215568",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 14, Dobbs Ferry",
+        "price": 2304750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1396,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-14_Dobbs-Ferry_NY_10522_M97332-15568",
         "openHouses": [
           {
             "start_date": "2026-10-11T13:00:00",
@@ -3758,7 +3782,7 @@
         "listDate": "2026-06-25T22:47:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "9526648170",
@@ -3860,7 +3884,7 @@
         "listDate": "2026-03-18T22:03:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 203
+        "daysOnMarket": 204
       },
       {
         "id": "9046792903",
@@ -3877,7 +3901,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 212
+        "daysOnMarket": 213
       },
       {
         "id": "4721086839",
@@ -4272,7 +4296,7 @@
         "listDate": "2026-07-21T22:32:10.000000Z",
         "lastSoldPrice": 490000,
         "lastSoldDate": "2016-02-11",
-        "daysOnMarket": 78
+        "daysOnMarket": 79
       },
       {
         "id": "3847393144",
@@ -4503,7 +4527,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/87-Lakeview-Ave_Hartsdale_NY_10530_M41123-24924",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-11T13:00:00",
+            "end_date": "2026-10-11T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-10-08T19:49:26.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "2015-07-10",
@@ -4587,7 +4623,7 @@
         "listDate": "2026-10-01T00:48:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "4646116506",
@@ -5280,7 +5316,7 @@
         "listDate": "2026-07-16T23:03:03.000000Z",
         "lastSoldPrice": 744000,
         "lastSoldDate": "2017-06-27",
-        "daysOnMarket": 83
+        "daysOnMarket": 84
       },
       {
         "id": "4297164975",
@@ -5560,7 +5596,7 @@
         "listDate": "2026-09-08T22:04:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "4909798943",
@@ -5628,7 +5664,7 @@
         "listDate": "2026-08-01T01:03:55.000000Z",
         "lastSoldPrice": 950000,
         "lastSoldDate": "1993-10-05",
-        "daysOnMarket": 68
+        "daysOnMarket": 69
       },
       {
         "id": "3638748624",
@@ -5662,7 +5698,7 @@
         "listDate": "2026-07-07T22:47:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 92
+        "daysOnMarket": 93
       },
       {
         "id": "4494163113",
@@ -5764,7 +5800,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 399
+        "daysOnMarket": 400
       },
       {
         "id": "3498190935",
@@ -6068,7 +6104,7 @@
         "listDate": "2026-08-23T23:03:12.000000Z",
         "lastSoldPrice": 314000,
         "lastSoldDate": "2020-12-09",
-        "daysOnMarket": 45
+        "daysOnMarket": 46
       },
       {
         "id": "4372042373",
@@ -6187,7 +6223,7 @@
         "listDate": "2026-07-06T22:48:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 93
+        "daysOnMarket": 94
       },
       {
         "id": "9285355401",
@@ -6226,6 +6262,23 @@
     ],
     "Ho-Ho-Kus": [
       {
+        "id": "6709693610",
+        "town": "Ho-Ho-Kus",
+        "address": "25 Paddock Rd, Ho Ho Kus",
+        "price": 1850950,
+        "beds": 5,
+        "baths": 4,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/25-Paddock-Rd_Ho-Ho-Kus_NJ_07423_M67096-93610",
+        "openHouses": [],
+        "listDate": "2026-10-09T01:22:45.000000Z",
+        "lastSoldPrice": 640000,
+        "lastSoldDate": "1987-01-07",
+        "daysOnMarket": 0
+      },
+      {
         "id": "5692647252",
         "town": "Ho-Ho-Kus",
         "address": "31 Arbor Dr, Ho Ho Kus",
@@ -6257,7 +6310,7 @@
         "listDate": "2026-09-29T23:51:11.000000Z",
         "lastSoldPrice": 570000,
         "lastSoldDate": "2015-07-22",
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "9687119678",
@@ -6274,7 +6327,7 @@
         "listDate": "2026-09-24T00:19:22.000000Z",
         "lastSoldPrice": 1552975,
         "lastSoldDate": "2021-03-11",
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "6692663074",
@@ -6308,7 +6361,7 @@
         "listDate": "2026-09-16T00:20:11.000000Z",
         "lastSoldPrice": 505000,
         "lastSoldDate": "2007-10-29",
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "5359172002",
@@ -6465,6 +6518,23 @@
         "listDate": "2026-10-02T14:47:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 6
+      },
+      {
+        "id": "4599636429",
+        "town": "Irvington",
+        "address": "172 Locust Ln, Irvington",
+        "price": 849000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1767,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/172-Locust-Ln_Irvington_NY_10533_M45996-36429",
+        "openHouses": [],
+        "listDate": "2026-10-02T04:35:22.000000Z",
+        "lastSoldPrice": 650000,
+        "lastSoldDate": "2020-04-16",
         "daysOnMarket": 6
       },
       {
@@ -7314,7 +7384,7 @@
         "listDate": "2025-12-13T00:08:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 299
+        "daysOnMarket": 300
       },
       {
         "id": "4122022813",
@@ -7348,7 +7418,7 @@
         "listDate": "2025-09-12T00:33:07.000000Z",
         "lastSoldPrice": 1575000,
         "lastSoldDate": "2024-09-17",
-        "daysOnMarket": 391
+        "daysOnMarket": 392
       }
     ],
     "Mamaroneck": [
@@ -7367,35 +7437,6 @@
         "listDate": "2026-10-08T19:49:26.000000Z",
         "lastSoldPrice": 445000,
         "lastSoldDate": "2023-05-17",
-        "daysOnMarket": 0
-      },
-      {
-        "id": "3820770528",
-        "town": "Mamaroneck",
-        "address": "153 Highview St, Mamaroneck",
-        "price": 885000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1451,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/153-Highview-St_Mamaroneck_NY_10543_M38207-70528",
-        "openHouses": [
-          {
-            "start_date": "2026-10-10T11:00:00",
-            "end_date": "2026-10-10T12:00:00",
-            "description": null,
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-10-08T04:35:39.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
         "daysOnMarket": 0
       },
       {
@@ -7425,6 +7466,35 @@
         "listDate": "2026-10-08T04:35:39.000000Z",
         "lastSoldPrice": 200000,
         "lastSoldDate": "2005-09-21",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "3820770528",
+        "town": "Mamaroneck",
+        "address": "153 Highview St, Mamaroneck",
+        "price": 885000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1451,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/153-Highview-St_Mamaroneck_NY_10543_M38207-70528",
+        "openHouses": [
+          {
+            "start_date": "2026-10-10T11:00:00",
+            "end_date": "2026-10-10T12:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-10-08T04:35:39.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 0
       },
       {
@@ -7717,11 +7787,23 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1315-Langdon-Ln_Mamaroneck_NY_10543_M33580-02237",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-11T13:00:00",
+            "end_date": "2026-10-11T14:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-09-10T23:48:32.000000Z",
         "lastSoldPrice": 530000,
         "lastSoldDate": "2003-05-12",
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "9152762671",
@@ -7738,7 +7820,7 @@
         "listDate": "2026-09-08T22:18:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "3236813912",
@@ -7755,7 +7837,7 @@
         "listDate": "2026-09-08T21:59:05.000000Z",
         "lastSoldPrice": 860000,
         "lastSoldDate": "2005-08-08",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "9635910748",
@@ -7891,7 +7973,7 @@
         "listDate": "2026-07-17T22:33:19.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2022-08-16",
-        "daysOnMarket": 82
+        "daysOnMarket": 83
       },
       {
         "id": "3327992422",
@@ -7993,7 +8075,7 @@
         "listDate": "2026-06-25T22:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 104
+        "daysOnMarket": 105
       },
       {
         "id": "3626093427",
@@ -8245,7 +8327,7 @@
         "listDate": "2026-10-02T22:03:43.000000Z",
         "lastSoldPrice": 595000,
         "lastSoldDate": "2003-07-18",
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "3394045372",
@@ -8313,7 +8395,7 @@
         "listDate": "2026-10-01T01:33:14.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "3103009062",
@@ -8512,7 +8594,7 @@
         "listDate": "2026-09-12T23:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "9228139330",
@@ -8733,7 +8815,7 @@
         "listDate": "2026-08-10T01:32:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "9013286753",
@@ -8937,7 +9019,7 @@
         "listDate": "2026-07-11T00:04:22.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2000-04-27",
-        "daysOnMarket": 89
+        "daysOnMarket": 90
       },
       {
         "id": "9900527699",
@@ -9037,7 +9119,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/32-Eastview-Ave_Pleasantville_NY_10570_M44989-09735",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-10T11:00:00",
+            "end_date": "2026-10-10T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-10-08T20:19:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -9359,11 +9453,28 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 173
+        "daysOnMarket": 174
       }
     ],
     "Ridgewood": [],
     "Tarrytown": [
+      {
+        "id": "3448920987",
+        "town": "Tarrytown",
+        "address": "209 Martling Ave, Tarrytown",
+        "price": 699000,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1834,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/209-Martling-Ave_Tarrytown_NY_10591_M34489-20987",
+        "openHouses": [],
+        "listDate": "2026-10-08T22:47:59.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "9311956084",
         "town": "Tarrytown",
@@ -9413,19 +9524,19 @@
         "listDate": "2026-10-05T01:32:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
-        "id": "3550029754",
+        "id": "4518018541",
         "town": "Tarrytown",
-        "address": "212 Beekman Ave, Sleepy Hollow",
-        "price": 995000,
-        "beds": 5,
+        "address": "11 River St Apt 402, Sleepy Hollow",
+        "price": 999000,
+        "beds": 2,
         "baths": 2,
-        "sqft": null,
-        "type": "multi family",
+        "sqft": 1203,
+        "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/212-Beekman-Ave_Sleepy-Hollow_NY_10591_M35500-29754",
+        "link": "https://www.realtor.com/realestateandhomes-detail/11-River-St-Apt-402_Sleepy-Hollow_NY_10591_M45180-18541",
         "openHouses": [],
         "listDate": "2026-10-01T04:35:27.000000Z",
         "lastSoldPrice": null,
@@ -9450,16 +9561,16 @@
         "daysOnMarket": 7
       },
       {
-        "id": "4518018541",
+        "id": "3550029754",
         "town": "Tarrytown",
-        "address": "11 River St Apt 402, Sleepy Hollow",
-        "price": 999000,
-        "beds": 2,
+        "address": "212 Beekman Ave, Sleepy Hollow",
+        "price": 995000,
+        "beds": 5,
         "baths": 2,
-        "sqft": 1203,
-        "type": "condos",
+        "sqft": null,
+        "type": "multi family",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/11-River-St-Apt-402_Sleepy-Hollow_NY_10591_M45180-18541",
+        "link": "https://www.realtor.com/realestateandhomes-detail/212-Beekman-Ave_Sleepy-Hollow_NY_10591_M35500-29754",
         "openHouses": [],
         "listDate": "2026-10-01T04:35:27.000000Z",
         "lastSoldPrice": null,
@@ -9539,7 +9650,7 @@
         "listDate": "2026-09-27T22:32:40.000000Z",
         "lastSoldPrice": 853400,
         "lastSoldDate": "2017-02-17",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "9057268737",
@@ -9585,7 +9696,7 @@
         "listDate": "2026-09-18T01:04:21.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2001-10-17",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9702641256",
@@ -9673,23 +9784,6 @@
         "daysOnMarket": 28
       },
       {
-        "id": "9932973259",
-        "town": "Tarrytown",
-        "address": "416 Benedict Ave Apt 3A, Tarrytown",
-        "price": 385000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 900,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/416-Benedict-Ave-Apt-3A_Tarrytown_NY_10591_M99329-73259",
-        "openHouses": [],
-        "listDate": "2026-09-10T15:04:15.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 28
-      },
-      {
         "id": "3940689365",
         "town": "Tarrytown",
         "address": "57 Cobb Ln, Tarrytown",
@@ -9704,6 +9798,23 @@
         "listDate": "2026-09-10T15:04:15.000000Z",
         "lastSoldPrice": 6125000,
         "lastSoldDate": "2002-03-08",
+        "daysOnMarket": 28
+      },
+      {
+        "id": "9932973259",
+        "town": "Tarrytown",
+        "address": "416 Benedict Ave Apt 3A, Tarrytown",
+        "price": 385000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 900,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/416-Benedict-Ave-Apt-3A_Tarrytown_NY_10591_M99329-73259",
+        "openHouses": [],
+        "listDate": "2026-09-10T15:04:15.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 28
       },
       {
@@ -9738,7 +9849,7 @@
         "listDate": "2026-09-09T22:47:30.000000Z",
         "lastSoldPrice": 415000,
         "lastSoldDate": "2019-07-19",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3624744853",
@@ -9784,7 +9895,7 @@
         "listDate": "2026-09-08T22:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "4580209927",
@@ -10257,7 +10368,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 152
+        "daysOnMarket": 153
       },
       {
         "id": "4064503608",
@@ -10292,23 +10403,6 @@
         "lastSoldPrice": 988940,
         "lastSoldDate": "2010-05-21",
         "daysOnMarket": 169
-      },
-      {
-        "id": "9404772422",
-        "town": "Tarrytown",
-        "address": "16 Carriage Trl, Tarrytown",
-        "price": 2500000,
-        "beds": null,
-        "baths": null,
-        "sqft": null,
-        "type": "land",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/16-Carriage-Trl_Tarrytown_NY_10591_M94047-72422",
-        "openHouses": [],
-        "listDate": "2026-04-03T14:03:52.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 188
       }
     ],
     "Tuckahoe": [
@@ -10361,7 +10455,7 @@
         "listDate": "2026-09-22T22:04:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3555972742",
