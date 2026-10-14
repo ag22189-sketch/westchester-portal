@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T07:23:13.090Z",
+  "updatedAt": "2026-10-14T13:32:17.132Z",
   "towns": {
     "Pelham": [
       {
@@ -190,23 +190,6 @@
         "daysOnMarket": 120
       },
       {
-        "id": "4258100365",
-        "town": "Pelham",
-        "address": "1384 Park Ln, Pelham",
-        "price": 3588000,
-        "beds": 7,
-        "baths": 9,
-        "sqft": 7660,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1384-Park-Ln_Pelham_NY_10803_M42581-00365",
-        "openHouses": [],
-        "listDate": "2026-06-03T15:33:51.000000Z",
-        "lastSoldPrice": 1465000,
-        "lastSoldDate": "1997-09-12",
-        "daysOnMarket": 132
-      },
-      {
         "id": "4188961372",
         "town": "Pelham",
         "address": "123 Fourth Ave, Pelham",
@@ -221,7 +204,7 @@
         "listDate": "2026-06-02T11:48:13.000000Z",
         "lastSoldPrice": 545000,
         "lastSoldDate": "2018-10-17",
-        "daysOnMarket": 133
+        "daysOnMarket": 134
       },
       {
         "id": "4080966350",
@@ -270,7 +253,19 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/2-Bronxville-Rd-Apt-5D_Bronxville_NY_10708_M36530-89254",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-17T12:00:00",
+            "end_date": "2026-10-17T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-10-14T04:35:10.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
@@ -393,7 +388,7 @@
         "listDate": "2026-10-08T13:17:31.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 5
+        "daysOnMarket": 6
       },
       {
         "id": "9016450123",
@@ -580,7 +575,7 @@
         "listDate": "2026-09-27T10:01:43.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 16
+        "daysOnMarket": 17
       },
       {
         "id": "9847788817",
@@ -1194,7 +1189,7 @@
         "listDate": "2026-10-09T13:17:44.000000Z",
         "lastSoldPrice": 1560000,
         "lastSoldDate": "2015-10-05",
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "4999637684",
@@ -1296,7 +1291,7 @@
         "listDate": "2026-10-07T12:32:14.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "4559379518",
@@ -1415,7 +1410,7 @@
         "listDate": "2026-10-02T11:32:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "3297513252",
@@ -1716,7 +1711,7 @@
         "listDate": "2026-09-12T12:34:03.000000Z",
         "lastSoldPrice": 401600,
         "lastSoldDate": "2011-02-14",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4430071316",
@@ -2005,23 +2000,6 @@
         "daysOnMarket": 0
       },
       {
-        "id": "3042537107",
-        "town": "Ardsley",
-        "address": "15 Chimney Pot Ln, Ardsley",
-        "price": 739000,
-        "beds": 4,
-        "baths": 2,
-        "sqft": 1697,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/15-Chimney-Pot-Ln_Ardsley_NY_10502_M30425-37107",
-        "openHouses": [],
-        "listDate": "2026-10-09T04:36:11.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 5
-      },
-      {
         "id": "4226828644",
         "town": "Ardsley",
         "address": "15 Beacon Hill Rd, Ardsley",
@@ -2206,7 +2184,7 @@
         "listDate": "2025-12-17T08:00:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 300
+        "daysOnMarket": 301
       },
       {
         "id": "3324023218",
@@ -2412,7 +2390,7 @@
         "listDate": "2026-06-05T13:18:35.000000Z",
         "lastSoldPrice": 421000,
         "lastSoldDate": "2025-08-11",
-        "daysOnMarket": 130
+        "daysOnMarket": 131
       },
       {
         "id": "3325786090",
@@ -2429,7 +2407,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 145
+        "daysOnMarket": 146
       },
       {
         "id": "3656291436",
@@ -2463,7 +2441,7 @@
         "listDate": "2026-04-29T13:17:25.000000Z",
         "lastSoldPrice": 1850000,
         "lastSoldDate": "1995-05-09",
-        "daysOnMarket": 167
+        "daysOnMarket": 168
       },
       {
         "id": "3637434869",
@@ -2771,7 +2749,7 @@
         "listDate": "2026-05-07T12:47:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 159
+        "daysOnMarket": 160
       },
       {
         "id": "4473241725",
@@ -3077,40 +3055,6 @@
         "daysOnMarket": 36
       },
       {
-        "id": "9773568968",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 11, Dobbs Ferry",
-        "price": 2047500,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1612,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 36
-      },
-      {
-        "id": "9733215568",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 14, Dobbs Ferry",
-        "price": 2304750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1396,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-14_Dobbs-Ferry_NY_10522_M97332-15568",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 36
-      },
-      {
         "id": "9938527681",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 16, Dobbs Ferry",
@@ -3128,6 +3072,23 @@
         "daysOnMarket": 36
       },
       {
+        "id": "9773568968",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 11, Dobbs Ferry",
+        "price": 2047500,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1612,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 36
+      },
+      {
         "id": "9748360644",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 3, Dobbs Ferry",
@@ -3138,6 +3099,23 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Unit-3_Dobbs-Ferry_NY_10522_M97483-60644",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 36
+      },
+      {
+        "id": "9733215568",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 14, Dobbs Ferry",
+        "price": 2304750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1396,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-14_Dobbs-Ferry_NY_10522_M97332-15568",
         "openHouses": [],
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
@@ -3244,7 +3222,7 @@
         "listDate": "2026-08-27T11:16:53.000000Z",
         "lastSoldPrice": 345000,
         "lastSoldDate": "2026-07-17",
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "3942780630",
@@ -3426,7 +3404,7 @@
         "listDate": "2026-07-02T12:47:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 103
+        "daysOnMarket": 104
       },
       {
         "id": "4995008300",
@@ -3783,23 +3761,6 @@
         "daysOnMarket": 32
       },
       {
-        "id": "9683950021",
-        "town": "Eastchester",
-        "address": "1243 California Rd Unit 2R, Eastchester",
-        "price": 515000,
-        "beds": 2,
-        "baths": 1,
-        "sqft": 1077,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/1243-California-Rd-Apt-2_Eastchester_NY_10709_M96839-50021",
-        "openHouses": [],
-        "listDate": "2026-09-02T04:34:04.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 42
-      },
-      {
         "id": "3722435211",
         "town": "Eastchester",
         "address": "41 Manchester Rd Unit B23, Eastchester",
@@ -4086,7 +4047,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 133
+        "daysOnMarket": 134
       }
     ],
     "Hartsdale": [
@@ -4114,7 +4075,7 @@
         "price": 775000,
         "beds": 3,
         "baths": 2,
-        "sqft": 1600,
+        "sqft": 1200,
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/80-Keats-Ave_Hartsdale_NY_10530_M41907-80402",
@@ -4135,7 +4096,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/87-Lakeview-Ave_Hartsdale_NY_10530_M41123-24924",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-17T13:00:00",
+            "end_date": "2026-10-17T15:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-10-08T19:49:26.000000Z",
         "lastSoldPrice": 350000,
         "lastSoldDate": "2015-07-10",
@@ -4440,7 +4413,7 @@
         "listDate": "2026-09-17T12:47:31.000000Z",
         "lastSoldPrice": 285000,
         "lastSoldDate": "2014-11-24",
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "3735996866",
@@ -4565,7 +4538,7 @@
         "id": "3011407450",
         "town": "Hartsdale",
         "address": "13 Vista Pl, Hartsdale",
-        "price": 949000,
+        "price": 899000,
         "beds": 3,
         "baths": 2,
         "sqft": 1846,
@@ -4656,7 +4629,7 @@
         "listDate": "2026-08-25T13:03:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "4539291496",
@@ -5083,7 +5056,7 @@
         "listDate": "2026-09-09T13:20:02.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3939393801",
@@ -5488,7 +5461,7 @@
         "listDate": "2026-09-11T13:17:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "4415643526",
@@ -5552,7 +5525,19 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/555-Broadway-Apt-1I_Hastings-on-Hudson_NY_10706_M39480-36043",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-17T14:30:00",
+            "end_date": "2026-10-17T16:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-08-23T23:03:12.000000Z",
         "lastSoldPrice": 314000,
         "lastSoldDate": "2020-12-09",
@@ -5590,7 +5575,7 @@
         "listDate": "2026-08-05T12:03:06.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 69
+        "daysOnMarket": 70
       },
       {
         "id": "4415270867",
@@ -5658,7 +5643,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 96
+        "daysOnMarket": 97
       },
       {
         "id": "9648085740",
@@ -6043,7 +6028,7 @@
         "listDate": "2026-09-15T11:32:13.000000Z",
         "lastSoldPrice": 440000,
         "lastSoldDate": "1999-03-15",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "4088431677",
@@ -6060,7 +6045,7 @@
         "listDate": "2026-09-15T09:22:00.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2017-06-13",
-        "daysOnMarket": 28
+        "daysOnMarket": 29
       },
       {
         "id": "3428340037",
@@ -6077,7 +6062,7 @@
         "listDate": "2026-09-08T09:21:12.000000Z",
         "lastSoldPrice": 950000,
         "lastSoldDate": "2014-08-28",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "4296902952",
@@ -6094,7 +6079,7 @@
         "listDate": "2026-08-08T09:22:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 66
+        "daysOnMarket": 67
       },
       {
         "id": "9696928061",
@@ -6504,7 +6489,7 @@
         "listDate": "2026-09-17T12:03:30.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "3284198521",
@@ -6606,7 +6591,7 @@
         "listDate": "2026-08-27T12:47:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 47
+        "daysOnMarket": 48
       },
       {
         "id": "4740439753",
@@ -6793,7 +6778,7 @@
         "listDate": "2026-04-27T13:31:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 169
+        "daysOnMarket": 170
       },
       {
         "id": "3189888570",
@@ -6971,7 +6956,7 @@
         "listDate": "2026-10-09T12:17:22.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 4
+        "daysOnMarket": 5
       },
       {
         "id": "3241625070",
@@ -7430,7 +7415,7 @@
         "listDate": "2026-07-16T10:01:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 89
+        "daysOnMarket": 90
       },
       {
         "id": "3816671274",
@@ -7498,7 +7483,7 @@
         "listDate": "2026-06-29T12:47:17.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 106
+        "daysOnMarket": 107
       },
       {
         "id": "9346121326",
@@ -7891,7 +7876,7 @@
         "listDate": "2026-09-21T11:47:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "9952288617",
@@ -7942,7 +7927,7 @@
         "listDate": "2026-09-17T13:17:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "9240644413",
@@ -8333,7 +8318,7 @@
         "listDate": "2026-07-19T12:34:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 86
+        "daysOnMarket": 87
       },
       {
         "id": "4091463638",
@@ -8486,7 +8471,7 @@
         "listDate": "2026-06-25T12:48:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 110
+        "daysOnMarket": 111
       }
     ],
     "Pleasantville": [
@@ -8573,7 +8558,7 @@
         "listDate": "2026-09-18T09:23:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 25
+        "daysOnMarket": 26
       },
       {
         "id": "3930213784",
@@ -8624,7 +8609,7 @@
         "listDate": "2026-09-11T13:17:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "3529935923",
@@ -8882,7 +8867,7 @@
         "listDate": "2026-10-01T09:22:48.000000Z",
         "lastSoldPrice": 902000,
         "lastSoldDate": "2007-01-05",
-        "daysOnMarket": 12
+        "daysOnMarket": 13
       },
       {
         "id": "3550029754",
@@ -9098,7 +9083,7 @@
         "listDate": "2026-09-10T09:21:58.000000Z",
         "lastSoldPrice": 599000,
         "lastSoldDate": "2004-07-29",
-        "daysOnMarket": 33
+        "daysOnMarket": 34
       },
       {
         "id": "4051799256",
@@ -9132,7 +9117,7 @@
         "listDate": "2026-09-09T09:23:46.000000Z",
         "lastSoldPrice": 580000,
         "lastSoldDate": "2014-10-22",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "9142534997",
@@ -9234,7 +9219,7 @@
         "listDate": "2026-08-21T07:47:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "4404799384",
@@ -9302,7 +9287,7 @@
         "listDate": "2026-08-10T09:21:34.000000Z",
         "lastSoldPrice": 279000,
         "lastSoldDate": "2000-05-12",
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "4055376786",
@@ -9336,7 +9321,7 @@
         "listDate": "2026-07-21T12:34:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 84
+        "daysOnMarket": 85
       },
       {
         "id": "9112396006",
@@ -9536,7 +9521,19 @@
         "type": "multi family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/34-Cedar-St_Sleepy-Hollow_NY_10591_M48610-99324",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-17T12:00:00",
+            "end_date": "2026-10-17T14:00:00",
+            "description": "Hosted by Yaneth E. Mendieta of Howard Hanna Rand Realty. Park on left side of Cedar (one way street). Plenty of parking on Depeyster or Clinton Streets. See you SATURDAY...Habla Espanol...",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-05-22T14:48:38.000000Z",
         "lastSoldPrice": 199000,
         "lastSoldDate": "2002-07-09",
@@ -9557,7 +9554,7 @@
         "listDate": "2026-05-11T12:46:56.000000Z",
         "lastSoldPrice": 625000,
         "lastSoldDate": "2020-06-05",
-        "daysOnMarket": 155
+        "daysOnMarket": 156
       },
       {
         "id": "4986747856",
@@ -9882,7 +9879,7 @@
         "listDate": "2026-05-04T11:46:50.000000Z",
         "lastSoldPrice": 1195000,
         "lastSoldDate": "2020-04-16",
-        "daysOnMarket": 162
+        "daysOnMarket": 163
       },
       {
         "id": "4653182514",
