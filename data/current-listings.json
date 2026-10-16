@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15T22:04:31.399Z",
+  "updatedAt": "2026-10-16T01:06:33.069Z",
   "towns": {
     "Pelham": [
       {
@@ -68,7 +68,7 @@
         "listDate": "2026-09-11T01:04:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "3199149416",
@@ -343,7 +343,7 @@
         "listDate": "2026-10-13T22:48:29.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3413419168",
@@ -1144,7 +1144,7 @@
         "listDate": "2026-10-14T00:34:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "3920900414",
@@ -1402,7 +1402,19 @@
         "type": "single family",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/46-Sprain-Valley-Rd_Scarsdale_NY_10583_M39834-52294",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-18T14:00:00",
+            "end_date": "2026-10-18T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-10-02T15:18:43.000000Z",
         "lastSoldPrice": 299000,
         "lastSoldDate": "1994-12-23",
@@ -2044,7 +2056,7 @@
         "listDate": "2026-08-17T00:32:53.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       }
     ],
     "Ardsley": [
@@ -2063,7 +2075,7 @@
         "listDate": "2026-10-13T23:33:17.000000Z",
         "lastSoldPrice": 690000,
         "lastSoldDate": "2018-08-06",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4226828644",
@@ -2737,7 +2749,7 @@
         "listDate": "2026-09-07T00:47:25.000000Z",
         "lastSoldPrice": 1175000,
         "lastSoldDate": "2022-07-20",
-        "daysOnMarket": 38
+        "daysOnMarket": 39
       },
       {
         "id": "4676023388",
@@ -3072,57 +3084,6 @@
         "daysOnMarket": 36
       },
       {
-        "id": "9925472015",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 9, Dobbs Ferry",
-        "price": 1674750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1547,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-9_Dobbs-Ferry_NY_10522_M99254-72015",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 37
-      },
-      {
-        "id": "9706945168",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 15, Dobbs Ferry",
-        "price": 2514750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1424,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-15_Dobbs-Ferry_NY_10522_M97069-45168",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 37
-      },
-      {
-        "id": "9406493654",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 10, Dobbs Ferry",
-        "price": 2094750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1706,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-10_Dobbs-Ferry_NY_10522_M94064-93654",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 37
-      },
-      {
         "id": "9282242166",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 13, Dobbs Ferry",
@@ -3133,23 +3094,6 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-13_Dobbs-Ferry_NY_10522_M92822-42166",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 37
-      },
-      {
-        "id": "9081300976",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 5, Dobbs Ferry",
-        "price": 2178750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1596,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-5_Dobbs-Ferry_NY_10522_M90813-00976",
         "openHouses": [],
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
@@ -3174,16 +3118,16 @@
         "daysOnMarket": 37
       },
       {
-        "id": "9773568968",
+        "id": "9706945168",
         "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 11, Dobbs Ferry",
-        "price": 2047500,
+        "address": "41 Cedar St Unit 15, Dobbs Ferry",
+        "price": 2514750,
         "beds": 2,
         "baths": 3,
-        "sqft": 1612,
+        "sqft": 1424,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-15_Dobbs-Ferry_NY_10522_M97069-45168",
         "openHouses": [],
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
@@ -3191,16 +3135,50 @@
         "daysOnMarket": 37
       },
       {
-        "id": "9748360644",
+        "id": "9925472015",
         "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 3, Dobbs Ferry",
-        "price": 1496250,
+        "address": "41 Cedar St Unit 9, Dobbs Ferry",
+        "price": 1674750,
         "beds": 2,
-        "baths": 2,
-        "sqft": 1220,
+        "baths": 3,
+        "sqft": 1547,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Unit-3_Dobbs-Ferry_NY_10522_M97483-60644",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-9_Dobbs-Ferry_NY_10522_M99254-72015",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 37
+      },
+      {
+        "id": "9406493654",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 10, Dobbs Ferry",
+        "price": 2094750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1706,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-10_Dobbs-Ferry_NY_10522_M94064-93654",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 37
+      },
+      {
+        "id": "9081300976",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 5, Dobbs Ferry",
+        "price": 2178750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1596,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-5_Dobbs-Ferry_NY_10522_M90813-00976",
         "openHouses": [],
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
@@ -3225,6 +3203,23 @@
         "daysOnMarket": 37
       },
       {
+        "id": "9748360644",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 3, Dobbs Ferry",
+        "price": 1496250,
+        "beds": 2,
+        "baths": 2,
+        "sqft": 1220,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Unit-3_Dobbs-Ferry_NY_10522_M97483-60644",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 37
+      },
+      {
         "id": "9938527681",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 16, Dobbs Ferry",
@@ -3242,16 +3237,16 @@
         "daysOnMarket": 37
       },
       {
-        "id": "9951886271",
+        "id": "9773568968",
         "town": "Dobbs Ferry",
-        "address": "41 Cedar St Ste 4, Dobbs Ferry",
-        "price": 1989750,
+        "address": "41 Cedar St Unit 11, Dobbs Ferry",
+        "price": 2047500,
         "beds": 2,
         "baths": 3,
-        "sqft": 1536,
+        "sqft": 1612,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
         "openHouses": [],
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
@@ -3269,6 +3264,23 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-7_Dobbs-Ferry_NY_10522_M97212-16213",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 37
+      },
+      {
+        "id": "9951886271",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Ste 4, Dobbs Ferry",
+        "price": 1989750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1536,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
         "openHouses": [],
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
@@ -3540,7 +3552,7 @@
         "listDate": "2026-06-25T22:47:35.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 111
+        "daysOnMarket": 112
       },
       {
         "id": "9526648170",
@@ -3642,7 +3654,7 @@
         "listDate": "2026-03-09T22:33:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 219
+        "daysOnMarket": 220
       },
       {
         "id": "4721086839",
@@ -4364,7 +4376,7 @@
         "listDate": "2026-10-01T00:48:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4646116506",
@@ -4646,23 +4658,6 @@
         "daysOnMarket": 31
       },
       {
-        "id": "3068324985",
-        "town": "Hartsdale",
-        "address": "144 Stone Oaks Dr, Hartsdale",
-        "price": 789000,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 2100,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/144-Stone-Oaks-Dr_Hartsdale_NY_10530_M30683-24985",
-        "openHouses": [],
-        "listDate": "2026-09-14T04:49:13.000000Z",
-        "lastSoldPrice": 540000,
-        "lastSoldDate": "2009-10-26",
-        "daysOnMarket": 31
-      },
-      {
         "id": "3512702151",
         "town": "Hartsdale",
         "address": "68 E Hartsdale Ave Apt 5E, Hartsdale",
@@ -4677,6 +4672,23 @@
         "listDate": "2026-09-14T04:49:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 31
+      },
+      {
+        "id": "3068324985",
+        "town": "Hartsdale",
+        "address": "144 Stone Oaks Dr, Hartsdale",
+        "price": 789000,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 2100,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/144-Stone-Oaks-Dr_Hartsdale_NY_10530_M30683-24985",
+        "openHouses": [],
+        "listDate": "2026-09-14T04:49:13.000000Z",
+        "lastSoldPrice": 540000,
+        "lastSoldDate": "2009-10-26",
         "daysOnMarket": 31
       },
       {
@@ -5300,7 +5312,7 @@
         "listDate": "2026-09-08T22:04:39.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "4909798943",
@@ -5368,7 +5380,7 @@
         "listDate": "2026-08-01T01:03:55.000000Z",
         "lastSoldPrice": 950000,
         "lastSoldDate": "1993-10-05",
-        "daysOnMarket": 75
+        "daysOnMarket": 76
       },
       {
         "id": "3006525611",
@@ -5385,7 +5397,7 @@
         "listDate": "2026-07-07T22:47:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 99
+        "daysOnMarket": 100
       },
       {
         "id": "4494163113",
@@ -5487,7 +5499,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 406
+        "daysOnMarket": 407
       },
       {
         "id": "3498190935",
@@ -5832,7 +5844,7 @@
         "listDate": "2026-08-23T23:03:12.000000Z",
         "lastSoldPrice": 314000,
         "lastSoldDate": "2020-12-09",
-        "daysOnMarket": 52
+        "daysOnMarket": 53
       },
       {
         "id": "4372042373",
@@ -5951,7 +5963,7 @@
         "listDate": "2026-07-06T22:48:03.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 100
+        "daysOnMarket": 101
       },
       {
         "id": "9285355401",
@@ -6062,7 +6074,7 @@
         "listDate": "2026-10-13T23:19:14.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "5685939382",
@@ -6130,7 +6142,7 @@
         "listDate": "2026-09-29T23:51:11.000000Z",
         "lastSoldPrice": 570000,
         "lastSoldDate": "2015-07-22",
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "9687119678",
@@ -6159,7 +6171,7 @@
         "listDate": "2026-09-24T00:19:22.000000Z",
         "lastSoldPrice": 1552975,
         "lastSoldDate": "2021-03-11",
-        "daysOnMarket": 21
+        "daysOnMarket": 22
       },
       {
         "id": "6692663074",
@@ -6193,7 +6205,7 @@
         "listDate": "2026-09-16T00:20:11.000000Z",
         "lastSoldPrice": 505000,
         "lastSoldDate": "2007-10-29",
-        "daysOnMarket": 29
+        "daysOnMarket": 30
       },
       {
         "id": "6480121067",
@@ -6722,6 +6734,46 @@
       }
     ],
     "Larchmont": [
+      {
+        "id": "4716445929",
+        "town": "Larchmont",
+        "address": "16 N Chatsworth Ave Apt 712, Larchmont",
+        "price": 648000,
+        "beds": 2,
+        "baths": 1,
+        "sqft": 1200,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/16-N-Chatsworth-Ave-Apt-712_Larchmont_NY_10538_M47164-45929",
+        "openHouses": [
+          {
+            "start_date": "2026-10-17T12:00:00",
+            "end_date": "2026-10-17T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-10-18T12:00:00",
+            "end_date": "2026-10-18T14:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-10-15T20:34:16.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 0
+      },
       {
         "id": "3360152932",
         "town": "Larchmont",
@@ -7311,7 +7363,7 @@
         "listDate": "2025-12-13T00:08:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 306
+        "daysOnMarket": 307
       },
       {
         "id": "4122022813",
@@ -7345,7 +7397,7 @@
         "listDate": "2025-09-12T00:33:07.000000Z",
         "lastSoldPrice": 1575000,
         "lastSoldDate": "2024-09-17",
-        "daysOnMarket": 398
+        "daysOnMarket": 399
       }
     ],
     "Mamaroneck": [
@@ -7504,23 +7556,6 @@
         "daysOnMarket": 7
       },
       {
-        "id": "3820770528",
-        "town": "Mamaroneck",
-        "address": "153 Highview St, Mamaroneck",
-        "price": 885000,
-        "beds": 3,
-        "baths": 2,
-        "sqft": 1451,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/153-Highview-St_Mamaroneck_NY_10543_M38207-70528",
-        "openHouses": [],
-        "listDate": "2026-10-08T04:35:39.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 7
-      },
-      {
         "id": "3355569221",
         "town": "Mamaroneck",
         "address": "122 Sunset Rd, Mamaroneck",
@@ -7535,6 +7570,23 @@
         "listDate": "2026-10-08T04:35:39.000000Z",
         "lastSoldPrice": 200000,
         "lastSoldDate": "2005-09-21",
+        "daysOnMarket": 7
+      },
+      {
+        "id": "3820770528",
+        "town": "Mamaroneck",
+        "address": "153 Highview St, Mamaroneck",
+        "price": 885000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1451,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/153-Highview-St_Mamaroneck_NY_10543_M38207-70528",
+        "openHouses": [],
+        "listDate": "2026-10-08T04:35:39.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 7
       },
       {
@@ -7756,7 +7808,7 @@
         "listDate": "2026-09-10T23:48:32.000000Z",
         "lastSoldPrice": 530000,
         "lastSoldDate": "2003-05-12",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "9152762671",
@@ -7773,7 +7825,7 @@
         "listDate": "2026-09-08T22:18:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "3236813912",
@@ -7926,7 +7978,7 @@
         "listDate": "2026-07-17T22:33:19.000000Z",
         "lastSoldPrice": 740000,
         "lastSoldDate": "2022-08-16",
-        "daysOnMarket": 89
+        "daysOnMarket": 90
       },
       {
         "id": "3327992422",
@@ -8028,7 +8080,7 @@
         "listDate": "2026-06-25T22:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 111
+        "daysOnMarket": 112
       },
       {
         "id": "3626093427",
@@ -8201,7 +8253,7 @@
         "listDate": "2026-10-14T22:18:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4619424645",
@@ -8252,6 +8304,17 @@
           {
             "start_date": "2026-10-17T12:00:00",
             "end_date": "2026-10-17T13:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-10-18T11:00:00",
+            "end_date": "2026-10-18T13:00:00",
             "description": null,
             "time_zone": "EST",
             "dst": true,
@@ -8570,7 +8633,7 @@
         "listDate": "2026-09-12T23:33:11.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 32
+        "daysOnMarket": 33
       },
       {
         "id": "9228139330",
@@ -9315,7 +9378,7 @@
         "listDate": "2026-04-17T22:47:09.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 180
+        "daysOnMarket": 181
       }
     ],
     "Ridgewood": [],
@@ -9386,7 +9449,7 @@
         "listDate": "2026-10-08T22:47:59.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "9311956084",
@@ -9534,7 +9597,7 @@
         "listDate": "2026-09-27T22:32:40.000000Z",
         "lastSoldPrice": 853400,
         "lastSoldDate": "2017-02-17",
-        "daysOnMarket": 17
+        "daysOnMarket": 18
       },
       {
         "id": "9057268737",
@@ -9687,7 +9750,7 @@
         "listDate": "2026-09-09T22:47:30.000000Z",
         "lastSoldPrice": 415000,
         "lastSoldDate": "2019-07-19",
-        "daysOnMarket": 35
+        "daysOnMarket": 36
       },
       {
         "id": "3624744853",
@@ -9721,7 +9784,7 @@
         "listDate": "2026-09-08T22:48:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "4580209927",
@@ -10010,7 +10073,7 @@
         "listDate": "2026-06-25T23:03:44.000000Z",
         "lastSoldPrice": 365000,
         "lastSoldDate": "2017-08-04",
-        "daysOnMarket": 111
+        "daysOnMarket": 112
       },
       {
         "id": "3611625038",
@@ -10187,7 +10250,7 @@
         "listDate": "2026-05-08T22:05:42.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 159
+        "daysOnMarket": 160
       },
       {
         "id": "4064503608",
@@ -10219,7 +10282,30 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/1-Elm-St_Tuckahoe_NY_10707_M36791-29037",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-17T11:00:00",
+            "end_date": "2026-10-17T12:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          },
+          {
+            "start_date": "2026-10-18T11:00:00",
+            "end_date": "2026-10-18T12:30:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-10-15T21:05:01.000000Z",
         "lastSoldPrice": 330000,
         "lastSoldDate": "2020-10-22",
@@ -10303,7 +10389,7 @@
         "listDate": "2026-09-22T22:04:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 22
+        "daysOnMarket": 23
       },
       {
         "id": "3555972742",
