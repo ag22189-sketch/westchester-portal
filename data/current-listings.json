@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T23:44:04.487Z",
+  "updatedAt": "2026-10-21T04:15:34.929Z",
   "towns": {
     "Pelham": [
       {
@@ -68,7 +68,7 @@
         "listDate": "2026-09-11T01:04:32.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "3199149416",
@@ -170,7 +170,7 @@
         "listDate": "2026-06-16T01:17:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 126
+        "daysOnMarket": 127
       },
       {
         "id": "4080966350",
@@ -393,7 +393,7 @@
         "listDate": "2026-10-09T01:18:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 11
+        "daysOnMarket": 12
       },
       {
         "id": "9886340018",
@@ -1119,23 +1119,6 @@
         "daysOnMarket": 3
       },
       {
-        "id": "9121646250",
-        "town": "Scarsdale",
-        "address": "41 Thornbury Rd, Scarsdale",
-        "price": 1175000,
-        "beds": 4,
-        "baths": 3,
-        "sqft": 1990,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Thornbury-Rd_Scarsdale_NY_10583_M91216-46250",
-        "openHouses": [],
-        "listDate": "2026-10-17T00:17:37.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 3
-      },
-      {
         "id": "3097307373",
         "town": "Scarsdale",
         "address": "116 Brown Rd, Scarsdale",
@@ -1201,7 +1184,7 @@
         "listDate": "2026-10-14T00:34:05.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 6
+        "daysOnMarket": 7
       },
       {
         "id": "3920900414",
@@ -1350,11 +1333,23 @@
         "type": "coop",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/9-Sentry-Pl-Apt-2C_Scarsdale_NY_10583_M45593-79518",
-        "openHouses": [],
+        "openHouses": [
+          {
+            "start_date": "2026-10-24T12:00:00",
+            "end_date": "2026-10-24T13:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
         "listDate": "2026-10-06T02:47:18.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 14
+        "daysOnMarket": 15
       },
       {
         "id": "4653007860",
@@ -1680,23 +1675,6 @@
         "daysOnMarket": 34
       },
       {
-        "id": "4009305288",
-        "town": "Scarsdale",
-        "address": "30 Hidden Ridge Ct, Scarsdale",
-        "price": 1228000,
-        "beds": 3,
-        "baths": 3,
-        "sqft": 2500,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/30-Hidden-Ridge-Ct_Scarsdale_NY_10583_M40093-05288",
-        "openHouses": [],
-        "listDate": "2026-09-16T04:35:28.000000Z",
-        "lastSoldPrice": 760000,
-        "lastSoldDate": "2015-06-05",
-        "daysOnMarket": 34
-      },
-      {
         "id": "3922768116",
         "town": "Scarsdale",
         "address": "109 Mamaroneck Rd, Scarsdale",
@@ -1711,6 +1689,23 @@
         "listDate": "2026-09-16T04:35:28.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 34
+      },
+      {
+        "id": "4009305288",
+        "town": "Scarsdale",
+        "address": "30 Hidden Ridge Ct, Scarsdale",
+        "price": 1228000,
+        "beds": 3,
+        "baths": 3,
+        "sqft": 2500,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/30-Hidden-Ridge-Ct_Scarsdale_NY_10583_M40093-05288",
+        "openHouses": [],
+        "listDate": "2026-09-16T04:35:28.000000Z",
+        "lastSoldPrice": 760000,
+        "lastSoldDate": "2015-06-05",
         "daysOnMarket": 34
       },
       {
@@ -1933,6 +1928,23 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 54
+      },
+      {
+        "id": "3173787756",
+        "town": "Scarsdale",
+        "address": "26 Reynolds Pl, Scarsdale",
+        "price": 959000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": 1680,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/26-Reynolds-Pl_Scarsdale_NY_10583_M31737-87756",
+        "openHouses": [],
+        "listDate": "2026-08-26T04:51:19.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 55
       }
     ],
     "Ardsley": [
@@ -2613,7 +2625,7 @@
         "listDate": "2026-09-07T00:47:25.000000Z",
         "lastSoldPrice": 1175000,
         "lastSoldDate": "2022-07-20",
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "4676023388",
@@ -2749,7 +2761,7 @@
         "listDate": "2026-04-29T01:32:06.000000Z",
         "lastSoldPrice": 425000,
         "lastSoldDate": "2025-03-20",
-        "daysOnMarket": 174
+        "daysOnMarket": 175
       },
       {
         "id": "9773606119",
@@ -3009,6 +3021,40 @@
         "daysOnMarket": 42
       },
       {
+        "id": "9938527681",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 16, Dobbs Ferry",
+        "price": 2409750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1355,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-16_Dobbs-Ferry_NY_10522_M99385-27681",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 42
+      },
+      {
+        "id": "9951886271",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Ste 4, Dobbs Ferry",
+        "price": 1989750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1536,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 42
+      },
+      {
         "id": "9733215568",
         "town": "Dobbs Ferry",
         "address": "41 Cedar St Unit 14, Dobbs Ferry",
@@ -3036,40 +3082,6 @@
         "type": "condos",
         "status": "for_sale",
         "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 42
-      },
-      {
-        "id": "9951886271",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Ste 4, Dobbs Ferry",
-        "price": 1989750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1536,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 42
-      },
-      {
-        "id": "9938527681",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 16, Dobbs Ferry",
-        "price": 2409750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1355,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-16_Dobbs-Ferry_NY_10522_M99385-27681",
         "openHouses": [],
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
@@ -3530,7 +3542,7 @@
         "listDate": "2026-10-02T02:03:36.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 18
+        "daysOnMarket": 19
       },
       {
         "id": "9039134271",
@@ -3853,7 +3865,7 @@
         "listDate": "2026-07-06T02:32:33.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 106
+        "daysOnMarket": 107
       },
       {
         "id": "4242046173",
@@ -4059,7 +4071,7 @@
         "listDate": "2026-10-01T00:48:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3734841621",
@@ -4076,7 +4088,7 @@
         "listDate": "2026-09-26T02:47:08.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "3313586828",
@@ -4969,7 +4981,7 @@
         "listDate": "2026-08-01T01:03:55.000000Z",
         "lastSoldPrice": 950000,
         "lastSoldDate": "1993-10-05",
-        "daysOnMarket": 80
+        "daysOnMarket": 81
       },
       {
         "id": "3006525611",
@@ -5071,7 +5083,7 @@
         "listDate": "2025-09-04T01:03:56.000000Z",
         "lastSoldPrice": 900000,
         "lastSoldDate": "1993-12-22",
-        "daysOnMarket": 411
+        "daysOnMarket": 412
       },
       {
         "id": "3498190935",
@@ -5294,7 +5306,7 @@
         "listDate": "2026-09-01T03:47:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 49
+        "daysOnMarket": 50
       },
       {
         "id": "3948036043",
@@ -5469,6 +5481,52 @@
     ],
     "Ho-Ho-Kus": [
       {
+        "id": "6720761595",
+        "town": "Ho-Ho-Kus",
+        "address": "39 Wyncote Rd, Ho Ho Kus",
+        "price": 2399000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/39-Wyncote-Rd_Ho-Ho-Kus_NJ_07423_M67207-61595",
+        "openHouses": [
+          {
+            "start_date": "2026-10-25T13:00:00",
+            "end_date": "2026-10-25T16:00:00",
+            "description": null,
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-10-20T21:34:30.000000Z",
+        "lastSoldPrice": 1660000,
+        "lastSoldDate": "2021-11-23",
+        "daysOnMarket": 0
+      },
+      {
+        "id": "6367466123",
+        "town": "Ho-Ho-Kus",
+        "address": "29 Addison Pl, Ho Ho Kus",
+        "price": 950000,
+        "beds": 3,
+        "baths": 2,
+        "sqft": null,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/29-Addison-Pl_Ho-Ho-Kus_NJ_07423_M63674-66123",
+        "openHouses": [],
+        "listDate": "2026-10-20T18:16:14.000000Z",
+        "lastSoldPrice": 218000,
+        "lastSoldDate": "1989-07-24",
+        "daysOnMarket": 0
+      },
+      {
         "id": "5174221130",
         "town": "Ho-Ho-Kus",
         "address": "914 Washington Ave, Ho Ho Kus",
@@ -5518,23 +5576,6 @@
         "lastSoldPrice": 1740000,
         "lastSoldDate": "2026-07-30",
         "daysOnMarket": 5
-      },
-      {
-        "id": "6367466123",
-        "town": "Ho-Ho-Kus",
-        "address": "29 Addison Pl, Ho Ho Kus",
-        "price": 950000,
-        "beds": 3,
-        "baths": 1,
-        "sqft": null,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/29-Addison-Pl_Ho-Ho-Kus_NJ_07423_M63674-66123",
-        "openHouses": [],
-        "listDate": "2026-10-14T16:50:48.000000Z",
-        "lastSoldPrice": 218000,
-        "lastSoldDate": "1989-07-24",
-        "daysOnMarket": 6
       },
       {
         "id": "9832604620",
@@ -5602,7 +5643,7 @@
         "listDate": "2026-09-29T23:51:11.000000Z",
         "lastSoldPrice": 570000,
         "lastSoldDate": "2015-07-22",
-        "daysOnMarket": 20
+        "daysOnMarket": 21
       },
       {
         "id": "9687119678",
@@ -5619,7 +5660,7 @@
         "listDate": "2026-09-24T00:19:22.000000Z",
         "lastSoldPrice": 1552975,
         "lastSoldDate": "2021-03-11",
-        "daysOnMarket": 26
+        "daysOnMarket": 27
       },
       {
         "id": "6692663074",
@@ -5665,7 +5706,7 @@
         "listDate": "2026-09-16T00:20:11.000000Z",
         "lastSoldPrice": 505000,
         "lastSoldDate": "2007-10-29",
-        "daysOnMarket": 34
+        "daysOnMarket": 35
       },
       {
         "id": "5727602706",
@@ -5752,7 +5793,7 @@
         "listDate": "2026-10-10T02:03:32.000000Z",
         "lastSoldPrice": 760000,
         "lastSoldDate": "2019-09-16",
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "9080412612",
@@ -6723,7 +6764,7 @@
         "listDate": "2025-12-13T00:08:20.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 311
+        "daysOnMarket": 312
       },
       {
         "id": "4122022813",
@@ -6757,7 +6798,7 @@
         "listDate": "2025-09-12T00:33:07.000000Z",
         "lastSoldPrice": 1575000,
         "lastSoldDate": "2024-09-17",
-        "daysOnMarket": 403
+        "daysOnMarket": 404
       }
     ],
     "Mamaroneck": [
@@ -7168,7 +7209,7 @@
         "listDate": "2026-09-10T23:48:32.000000Z",
         "lastSoldPrice": 530000,
         "lastSoldDate": "2003-05-12",
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "9152762671",
@@ -7222,23 +7263,6 @@
         "daysOnMarket": 42
       },
       {
-        "id": "4856619220",
-        "town": "Mamaroneck",
-        "address": "911 Cove Rd, Mamaroneck",
-        "price": 2495000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 3084,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/911-Cove-Rd_Mamaroneck_NY_10543_M48566-19220",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": 2110000,
-        "lastSoldDate": "2024-12-04",
-        "daysOnMarket": 42
-      },
-      {
         "id": "4170150814",
         "town": "Mamaroneck",
         "address": "522 The Parkway, Mamaroneck",
@@ -7253,6 +7277,23 @@
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 42
+      },
+      {
+        "id": "4856619220",
+        "town": "Mamaroneck",
+        "address": "911 Cove Rd, Mamaroneck",
+        "price": 2495000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 3084,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/911-Cove-Rd_Mamaroneck_NY_10543_M48566-19220",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": 2110000,
+        "lastSoldDate": "2024-12-04",
         "daysOnMarket": 42
       },
       {
@@ -7287,7 +7328,7 @@
         "listDate": "2026-08-28T02:47:15.000000Z",
         "lastSoldPrice": 70000,
         "lastSoldDate": "1993-01-04",
-        "daysOnMarket": 53
+        "daysOnMarket": 54
       },
       {
         "id": "9569620895",
@@ -7503,7 +7544,7 @@
         "listDate": "2026-06-20T04:03:37.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 122
+        "daysOnMarket": 123
       },
       {
         "id": "4002843883",
@@ -7647,7 +7688,7 @@
         "listDate": "2026-10-19T23:47:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "4526237684",
@@ -7744,7 +7785,7 @@
         "listDate": "2026-10-12T01:47:38.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 8
+        "daysOnMarket": 9
       },
       {
         "id": "9156171599",
@@ -7880,7 +7921,7 @@
         "listDate": "2026-10-01T01:33:14.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 19
+        "daysOnMarket": 20
       },
       {
         "id": "3802987182",
@@ -8172,23 +8213,6 @@
         "daysOnMarket": 50
       },
       {
-        "id": "9738534171",
-        "town": "Mount Vernon",
-        "address": "280 Collins Ave Apt 3I, Fleetwood",
-        "price": 149000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 800,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/280-Collins-Ave-Apt-3I_Fleetwood_NY_10552_M97385-34171",
-        "openHouses": [],
-        "listDate": "2026-08-28T20:04:28.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 53
-      },
-      {
         "id": "3097920349",
         "town": "Mount Vernon",
         "address": "101 Ellwood Ave Apt 7E, Mount Vernon",
@@ -8271,7 +8295,7 @@
         "listDate": "2026-08-10T01:32:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 71
+        "daysOnMarket": 72
       },
       {
         "id": "9013286753",
@@ -8488,6 +8512,23 @@
         "lastSoldPrice": null,
         "lastSoldDate": null,
         "daysOnMarket": 102
+      },
+      {
+        "id": "9420554477",
+        "town": "Mount Vernon",
+        "address": "485 E Lincoln Ave Apt 214, Mount Vernon",
+        "price": 120000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 603,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/485-E-Lincoln-Ave-Apt-214_Mount-Vernon_NY_10552_M94205-54477",
+        "openHouses": [],
+        "listDate": "2026-07-05T20:47:09.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 107
       }
     ],
     "Pleasantville": [
@@ -8506,7 +8547,7 @@
         "listDate": "2026-10-17T00:04:02.000000Z",
         "lastSoldPrice": 595000,
         "lastSoldDate": "2021-03-15",
-        "daysOnMarket": 3
+        "daysOnMarket": 4
       },
       {
         "id": "4498909735",
@@ -8671,7 +8712,7 @@
         "listDate": "2026-09-10T02:20:27.000000Z",
         "lastSoldPrice": 330000,
         "lastSoldDate": "2017-05-09",
-        "daysOnMarket": 40
+        "daysOnMarket": 41
       },
       {
         "id": "3968895832",
@@ -8873,7 +8914,7 @@
         "listDate": "2026-10-10T01:47:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 10
+        "daysOnMarket": 11
       },
       {
         "id": "3448920987",
@@ -8941,7 +8982,7 @@
         "listDate": "2026-10-05T01:32:44.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 15
+        "daysOnMarket": 16
       },
       {
         "id": "3527521125",
@@ -9247,7 +9288,7 @@
         "listDate": "2026-09-07T02:46:55.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 43
+        "daysOnMarket": 44
       },
       {
         "id": "9936333767",
@@ -9674,7 +9715,7 @@
         "listDate": "2026-10-20T03:16:46.000000Z",
         "lastSoldPrice": 899000,
         "lastSoldDate": "2005-05-17",
-        "daysOnMarket": 0
+        "daysOnMarket": 1
       },
       {
         "id": "3679129037",
