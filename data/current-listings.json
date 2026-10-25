@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T05:55:18.990Z",
+  "updatedAt": "2026-10-25T11:07:03.290Z",
   "towns": {
     "Pelham": [
       {
@@ -803,7 +803,7 @@
         "listDate": "2026-09-27T10:01:43.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 27
+        "daysOnMarket": 28
       },
       {
         "id": "9847788817",
@@ -2258,7 +2258,7 @@
         "listDate": "2025-12-17T08:00:56.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 311
+        "daysOnMarket": 312
       },
       {
         "id": "3324023218",
@@ -2464,7 +2464,7 @@
         "listDate": "2026-05-21T09:31:34.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 156
+        "daysOnMarket": 157
       },
       {
         "id": "3656291436",
@@ -2956,7 +2956,7 @@
         "listDate": "2026-09-23T09:22:01.000000Z",
         "lastSoldPrice": 599000,
         "lastSoldDate": "2006-10-17",
-        "daysOnMarket": 31
+        "daysOnMarket": 32
       },
       {
         "id": "4548843653",
@@ -2993,45 +2993,16 @@
         "daysOnMarket": 45
       },
       {
-        "id": "9925472015",
+        "id": "9196182929",
         "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 9, Dobbs Ferry",
-        "price": 1674750,
+        "address": "41 Cedar St Unit 6, Dobbs Ferry",
+        "price": 1984500,
         "beds": 2,
         "baths": 3,
-        "sqft": 1547,
+        "sqft": 1582,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-9_Dobbs-Ferry_NY_10522_M99254-72015",
-        "openHouses": [
-          {
-            "start_date": "2026-10-25T13:00:00",
-            "end_date": "2026-10-25T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 47
-      },
-      {
-        "id": "9706945168",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 15, Dobbs Ferry",
-        "price": 2514750,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1424,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-15_Dobbs-Ferry_NY_10522_M97069-45168",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-6_Dobbs-Ferry_NY_10522_M91961-82929",
         "openHouses": [
           {
             "start_date": "2026-10-25T13:00:00",
@@ -3080,45 +3051,16 @@
         "daysOnMarket": 47
       },
       {
-        "id": "9282242166",
+        "id": "9706945168",
         "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 13, Dobbs Ferry",
-        "price": 1837500,
+        "address": "41 Cedar St Unit 15, Dobbs Ferry",
+        "price": 2514750,
         "beds": 2,
         "baths": 3,
-        "sqft": 1467,
+        "sqft": 1424,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-13_Dobbs-Ferry_NY_10522_M92822-42166",
-        "openHouses": [
-          {
-            "start_date": "2026-10-25T13:00:00",
-            "end_date": "2026-10-25T15:00:00",
-            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
-            "time_zone": "EST",
-            "dst": true,
-            "href": null,
-            "methods": [
-              "in_person"
-            ]
-          }
-        ],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 47
-      },
-      {
-        "id": "9196182929",
-        "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 6, Dobbs Ferry",
-        "price": 1984500,
-        "beds": 2,
-        "baths": 3,
-        "sqft": 1582,
-        "type": "condos",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-6_Dobbs-Ferry_NY_10522_M91961-82929",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-15_Dobbs-Ferry_NY_10522_M97069-45168",
         "openHouses": [
           {
             "start_date": "2026-10-25T13:00:00",
@@ -3167,16 +3109,45 @@
         "daysOnMarket": 47
       },
       {
-        "id": "9938527681",
+        "id": "9282242166",
         "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 16, Dobbs Ferry",
-        "price": 2409750,
+        "address": "41 Cedar St Unit 13, Dobbs Ferry",
+        "price": 1837500,
         "beds": 2,
         "baths": 3,
-        "sqft": 1355,
+        "sqft": 1467,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-16_Dobbs-Ferry_NY_10522_M99385-27681",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-13_Dobbs-Ferry_NY_10522_M92822-42166",
+        "openHouses": [
+          {
+            "start_date": "2026-10-25T13:00:00",
+            "end_date": "2026-10-25T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 47
+      },
+      {
+        "id": "9925472015",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 9, Dobbs Ferry",
+        "price": 1674750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1547,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-9_Dobbs-Ferry_NY_10522_M99254-72015",
         "openHouses": [
           {
             "start_date": "2026-10-25T13:00:00",
@@ -3225,16 +3196,45 @@
         "daysOnMarket": 47
       },
       {
-        "id": "9773568968",
+        "id": "9951886271",
         "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 11, Dobbs Ferry",
-        "price": 2047500,
+        "address": "41 Cedar St Ste 4, Dobbs Ferry",
+        "price": 1989750,
         "beds": 2,
         "baths": 3,
-        "sqft": 1612,
+        "sqft": 1536,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
+        "openHouses": [
+          {
+            "start_date": "2026-10-25T13:00:00",
+            "end_date": "2026-10-25T15:00:00",
+            "description": "Please join us at 33 Cedar Street to see our showroom and then the New Condo Units. Remember, these are the last new units in Greenburgh taxed at Condo Rates!",
+            "time_zone": "EST",
+            "dst": true,
+            "href": null,
+            "methods": [
+              "in_person"
+            ]
+          }
+        ],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
+        "daysOnMarket": 47
+      },
+      {
+        "id": "9938527681",
+        "town": "Dobbs Ferry",
+        "address": "41 Cedar St Unit 16, Dobbs Ferry",
+        "price": 2409750,
+        "beds": 2,
+        "baths": 3,
+        "sqft": 1355,
+        "type": "condos",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-16_Dobbs-Ferry_NY_10522_M99385-27681",
         "openHouses": [
           {
             "start_date": "2026-10-25T13:00:00",
@@ -3283,16 +3283,16 @@
         "daysOnMarket": 47
       },
       {
-        "id": "9733215568",
+        "id": "9773568968",
         "town": "Dobbs Ferry",
-        "address": "41 Cedar St Unit 14, Dobbs Ferry",
-        "price": 2304750,
+        "address": "41 Cedar St Unit 11, Dobbs Ferry",
+        "price": 2047500,
         "beds": 2,
         "baths": 3,
-        "sqft": 1396,
+        "sqft": 1612,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-14_Dobbs-Ferry_NY_10522_M97332-15568",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-11_Dobbs-Ferry_NY_10522_M97735-68968",
         "openHouses": [
           {
             "start_date": "2026-10-25T13:00:00",
@@ -3312,16 +3312,16 @@
         "daysOnMarket": 47
       },
       {
-        "id": "9951886271",
+        "id": "9733215568",
         "town": "Dobbs Ferry",
-        "address": "41 Cedar St Ste 4, Dobbs Ferry",
-        "price": 1989750,
+        "address": "41 Cedar St Unit 14, Dobbs Ferry",
+        "price": 2304750,
         "beds": 2,
         "baths": 3,
-        "sqft": 1536,
+        "sqft": 1396,
         "type": "condos",
         "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-Ste-4_Dobbs-Ferry_NY_10522_M99518-86271",
+        "link": "https://www.realtor.com/realestateandhomes-detail/41-Cedar-St-14_Dobbs-Ferry_NY_10522_M97332-15568",
         "openHouses": [
           {
             "start_date": "2026-10-25T13:00:00",
@@ -3680,7 +3680,7 @@
         "listDate": "2026-10-23T07:31:59.000000Z",
         "lastSoldPrice": 985000,
         "lastSoldDate": "2018-08-27",
-        "daysOnMarket": 1
+        "daysOnMarket": 2
       },
       {
         "id": "4225173075",
@@ -3925,7 +3925,7 @@
         "listDate": "2026-08-09T06:02:29.000000Z",
         "lastSoldPrice": 695000,
         "lastSoldDate": "2015-05-29",
-        "daysOnMarket": 76
+        "daysOnMarket": 77
       },
       {
         "id": "9725474264",
@@ -4095,7 +4095,7 @@
         "listDate": "2026-06-02T08:17:19.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 144
+        "daysOnMarket": 145
       }
     ],
     "Hartsdale": [
@@ -4503,23 +4503,6 @@
         "daysOnMarket": 40
       },
       {
-        "id": "3512702151",
-        "town": "Hartsdale",
-        "address": "68 E Hartsdale Ave Apt 5E, Hartsdale",
-        "price": 199000,
-        "beds": 1,
-        "baths": 1,
-        "sqft": 800,
-        "type": "coop",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/68-E-Hartsdale-Ave-Apt-5E_Hartsdale_NY_10530_M35127-02151",
-        "openHouses": [],
-        "listDate": "2026-09-14T04:49:13.000000Z",
-        "lastSoldPrice": null,
-        "lastSoldDate": null,
-        "daysOnMarket": 41
-      },
-      {
         "id": "3068324985",
         "town": "Hartsdale",
         "address": "144 Stone Oaks Dr, Hartsdale",
@@ -4534,6 +4517,23 @@
         "listDate": "2026-09-14T04:49:13.000000Z",
         "lastSoldPrice": 540000,
         "lastSoldDate": "2009-10-26",
+        "daysOnMarket": 41
+      },
+      {
+        "id": "3512702151",
+        "town": "Hartsdale",
+        "address": "68 E Hartsdale Ave Apt 5E, Hartsdale",
+        "price": 199000,
+        "beds": 1,
+        "baths": 1,
+        "sqft": 800,
+        "type": "coop",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/68-E-Hartsdale-Ave-Apt-5E_Hartsdale_NY_10530_M35127-02151",
+        "openHouses": [],
+        "listDate": "2026-09-14T04:49:13.000000Z",
+        "lastSoldPrice": null,
+        "lastSoldDate": null,
         "daysOnMarket": 41
       },
       {
@@ -5749,7 +5749,7 @@
         "listDate": "2026-07-09T10:32:25.000000Z",
         "lastSoldPrice": 875000,
         "lastSoldDate": "1997-05-07",
-        "daysOnMarket": 107
+        "daysOnMarket": 108
       },
       {
         "id": "9648085740",
@@ -6136,7 +6136,7 @@
         "listDate": "2026-10-17T09:21:43.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 7
+        "daysOnMarket": 8
       },
       {
         "id": "4570867122",
@@ -6284,7 +6284,7 @@
         "listDate": "2026-09-15T09:22:00.000000Z",
         "lastSoldPrice": 1250000,
         "lastSoldDate": "2017-06-13",
-        "daysOnMarket": 39
+        "daysOnMarket": 40
       },
       {
         "id": "3428340037",
@@ -6301,7 +6301,7 @@
         "listDate": "2026-09-08T09:21:12.000000Z",
         "lastSoldPrice": 950000,
         "lastSoldDate": "2014-08-28",
-        "daysOnMarket": 46
+        "daysOnMarket": 47
       },
       {
         "id": "4296902952",
@@ -6318,7 +6318,7 @@
         "listDate": "2026-08-08T09:22:48.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 77
+        "daysOnMarket": 78
       },
       {
         "id": "9696928061",
@@ -7684,23 +7684,6 @@
         "daysOnMarket": 46
       },
       {
-        "id": "4856619220",
-        "town": "Mamaroneck",
-        "address": "911 Cove Rd, Mamaroneck",
-        "price": 2495000,
-        "beds": 5,
-        "baths": 4,
-        "sqft": 3084,
-        "type": "single family",
-        "status": "for_sale",
-        "link": "https://www.realtor.com/realestateandhomes-detail/911-Cove-Rd_Mamaroneck_NY_10543_M48566-19220",
-        "openHouses": [],
-        "listDate": "2026-09-08T04:49:07.000000Z",
-        "lastSoldPrice": 2110000,
-        "lastSoldDate": "2024-12-04",
-        "daysOnMarket": 47
-      },
-      {
         "id": "4170150814",
         "town": "Mamaroneck",
         "address": "522 The Parkway, Mamaroneck",
@@ -7715,6 +7698,23 @@
         "listDate": "2026-09-08T04:49:07.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
+        "daysOnMarket": 47
+      },
+      {
+        "id": "4856619220",
+        "town": "Mamaroneck",
+        "address": "911 Cove Rd, Mamaroneck",
+        "price": 2495000,
+        "beds": 5,
+        "baths": 4,
+        "sqft": 3084,
+        "type": "single family",
+        "status": "for_sale",
+        "link": "https://www.realtor.com/realestateandhomes-detail/911-Cove-Rd_Mamaroneck_NY_10543_M48566-19220",
+        "openHouses": [],
+        "listDate": "2026-09-08T04:49:07.000000Z",
+        "lastSoldPrice": 2110000,
+        "lastSoldDate": "2024-12-04",
         "daysOnMarket": 47
       },
       {
@@ -7766,7 +7766,7 @@
         "listDate": "2026-08-26T06:02:13.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 59
+        "daysOnMarket": 60
       },
       {
         "id": "3821340368",
@@ -7834,7 +7834,7 @@
         "listDate": "2026-07-16T10:01:51.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 100
+        "daysOnMarket": 101
       },
       {
         "id": "3816671274",
@@ -8732,7 +8732,7 @@
         "listDate": "2026-07-30T06:40:45.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 86
+        "daysOnMarket": 87
       },
       {
         "id": "9000027734",
@@ -9035,7 +9035,7 @@
         "listDate": "2026-09-18T09:23:23.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 36
+        "daysOnMarket": 37
       },
       {
         "id": "3930213784",
@@ -9266,7 +9266,7 @@
         "listDate": "2026-10-22T10:16:48.000000Z",
         "lastSoldPrice": 386100,
         "lastSoldDate": "2015-03-24",
-        "daysOnMarket": 2
+        "daysOnMarket": 3
       },
       {
         "id": "9731785262",
@@ -9443,7 +9443,7 @@
         "listDate": "2026-10-01T09:22:48.000000Z",
         "lastSoldPrice": 902000,
         "lastSoldDate": "2007-01-05",
-        "daysOnMarket": 23
+        "daysOnMarket": 24
       },
       {
         "id": "3550029754",
@@ -9477,7 +9477,7 @@
         "listDate": "2026-09-30T09:23:16.000000Z",
         "lastSoldPrice": 262500,
         "lastSoldDate": "1995-02-27",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "3197003216",
@@ -9494,7 +9494,7 @@
         "listDate": "2026-09-30T09:23:16.000000Z",
         "lastSoldPrice": 395000,
         "lastSoldDate": "2005-07-12",
-        "daysOnMarket": 24
+        "daysOnMarket": 25
       },
       {
         "id": "4517273222",
@@ -9630,7 +9630,7 @@
         "listDate": "2026-09-10T09:21:58.000000Z",
         "lastSoldPrice": 599000,
         "lastSoldDate": "2004-07-29",
-        "daysOnMarket": 44
+        "daysOnMarket": 45
       },
       {
         "id": "4051799256",
@@ -9749,7 +9749,7 @@
         "listDate": "2026-08-21T07:47:04.000000Z",
         "lastSoldPrice": null,
         "lastSoldDate": null,
-        "daysOnMarket": 64
+        "daysOnMarket": 65
       },
       {
         "id": "4404799384",
@@ -9800,7 +9800,7 @@
         "listDate": "2026-08-10T09:21:34.000000Z",
         "lastSoldPrice": 279000,
         "lastSoldDate": "2000-05-12",
-        "daysOnMarket": 75
+        "daysOnMarket": 76
       },
       {
         "id": "4055376786",
